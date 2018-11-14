@@ -35,7 +35,6 @@ class FetchUnpXmlTests(unittest.TestCase):
         self.__verbose = True
         self.__lfh = sys.stderr
         # Pick up site information from the environment or failover to the development site id.
-        self.__lfh.write("\nTesting with site environment for:  %s\n" % self.__siteId)
         #
         self.__unpIdList1 = ['P20937', 'P21877', 'P22868', 'P23832', 'P25665', 'P26562', 'P27614']
         self.__unpIdList2 = ['P29490', 'P29496', 'P29498', 'P29499', 'P29503', 'P29506', 'P29508', 'P29509', 'P29525', 'P29533', 'P29534', 'P29547',
