@@ -14,6 +14,7 @@ __email__   = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
 import os, sys, time, getopt, re
+import gzip
 from wwpdb.utils.seqdb_v2.UnpBlastService  import UnpBlastService
 from wwpdb.utils.seqdb_v2.ReadUnpBlastXml  import ReadUnpBlastXmlString
 from wwpdb.utils.seqdb_v2.NcbiBlastService import NcbiBlastService
@@ -541,7 +542,10 @@ class BlastProcess:
 
         d={}        
         try:
-            f = file(self.__taxonomyFilePath, 'r')
+            if self.__taxonomyFilePath[-3:] == '.gz':
+                f = gzip.open(self.__taxonomyFilePath, 'rb')
+            else:
+                f = open(self.__taxonomyFilePath, 'r')
             data = f.read()
             f.close()
             #

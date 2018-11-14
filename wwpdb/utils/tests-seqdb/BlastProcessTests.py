@@ -12,7 +12,19 @@ Test cases from funning reference sequence database blast searches and processin
 
 """
 
-import sys, unittest, os, os.path, traceback
+import sys
+import unittest
+import os
+import os.path
+import traceback
+import platform
+
+HERE = os.path.abspath(os.path.dirname(__file__))
+TOPDIR = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
+TESTOUTPUT = os.path.join(HERE, 'test-output', platform.python_version())
+if not os.path.exists(TESTOUTPUT):
+    os.makedirs(TESTOUTPUT)
+mockTopPath = os.path.join(TOPDIR, 'wwpdb', 'mock-data')
 
 from wwpdb.utils.config.ConfigInfo          import ConfigInfo,getSiteId
 from wwpdb.utils.seqdb_v2.BlastProcess    import BlastProcess
@@ -27,10 +39,11 @@ class BlastProcessTests(unittest.TestCase):
         self.__lfh.write("\nTesting with site environment for:  %s\n" % self.__siteId)
         #
         cI=ConfigInfo(self.__siteId)
-        self.__testFilePath='./data'
+        self.__testModelPath=os.path.join(mockTopPath, 'MODELS')
         self.__testFileCif='4ec0.cif'
-        self.__testFileFragmentsCif='rcsb056751.cif'        
-        self.__taxonomyDataFile='nodes.dmp'
+        self.__testFileFragmentsCif='3l2j.cif'
+        self.__testTaxPath=os.path.join(mockTopPath, 'TAXONOMY')
+        self.__taxonomyDataFile='nodes.dmp.gz'
         
             
     def tearDown(self):
@@ -42,9 +55,11 @@ class BlastProcessTests(unittest.TestCase):
         self.__lfh.write("\nStarting %s %s\n" % (self.__class__.__name__, sys._getframe().f_code.co_name))
         try:
             for fn in [self.__testFileCif,self.__testFileFragmentsCif]:
-                cifFilePath=os.path.join(self.__testFilePath,fn)
-                taxonomyFilePath=os.path.join(self.__testFilePath,self.__taxonomyDataFile)
+                cifFilePath=os.path.join(self.__testModelPath, fn)
+                taxonomyFilePath=os.path.join(self.__testTaxPath, self.__taxonomyDataFile)
+
                 bp= BlastProcess(cifFilePath=cifFilePath, taxonomyFilePath=taxonomyFilePath,verbose=self.__verbose,log=self.__lfh)
+
                 ped=bp.getPolymerEntityDetails()
                 for (entityId,polyDetails) in ped.items():
                     self.__lfh.write("\n----Entry %s  Entity Id = %s -------  \n" % (fn,entityId))
@@ -62,8 +77,8 @@ class BlastProcessTests(unittest.TestCase):
         self.__lfh.write("\nStarting %s %s\n" % (self.__class__.__name__, sys._getframe().f_code.co_name))
         try:
             for fn in [self.__testFileCif,self.__testFileFragmentsCif]:            
-                cifFilePath=os.path.join(self.__testFilePath,fn)
-                taxonomyFilePath=os.path.join(self.__testFilePath,self.__taxonomyDataFile)
+                cifFilePath=os.path.join(self.__testModelPath,fn)
+                taxonomyFilePath=os.path.join(self.__testTaxPath, self.__taxonomyDataFile)
                 bp= BlastProcess(cifFilePath=cifFilePath, taxonomyFilePath=taxonomyFilePath,verbose=self.__verbose,log=self.__lfh)
                 ped=bp.getPolymerEntityDetails()
                 for (entityId,polyDetails) in ped.items():
@@ -83,9 +98,12 @@ class BlastProcessTests(unittest.TestCase):
         self.__lfh.write("\nStarting %s %s\n" % (self.__class__.__name__, sys._getframe().f_code.co_name))
         try:
             for fn in [self.__testFileCif,self.__testFileFragmentsCif]:            
-                cifFilePath=os.path.join(self.__testFilePath,fn)            
-                taxonomyFilePath=os.path.join(self.__testFilePath,self.__taxonomyDataFile)
-                bp= BlastProcess(cifFilePath=cifFilePath, taxonomyFilePath=taxonomyFilePath,verbose=self.__verbose,log=self.__lfh)
+                cifFilePath=os.path.join(self.__testModelPath,fn)            
+                taxonomyFilePath=os.path.join(self.__testTaxPath,
+                                              self.__taxonomyDataFile)
+                bp= BlastProcess(cifFilePath=cifFilePath,
+                                 taxonomyFilePath=taxonomyFilePath,
+                                 verbose=self.__verbose,log=self.__lfh)
                 ped=bp.getPolymerEntityDetails()
                 for (entityId,polyDetails) in ped.items():            
                     resultlist = bp.Run(entityId=entityId)
@@ -105,13 +123,17 @@ class BlastProcessTests(unittest.TestCase):
         try:
             for fn in [self.__testFileCif,self.__testFileFragmentsCif]:
                 entryId,fExt=os.path.splitext(fn)
-                cifFilePath=os.path.join(self.__testFilePath,fn)            
-                taxonomyFilePath=os.path.join(self.__testFilePath,self.__taxonomyDataFile)
-                bp= BlastProcess(cifFilePath=cifFilePath, taxonomyFilePath=taxonomyFilePath,verbose=self.__verbose,log=self.__lfh)
-                bp.saveBlastResults(blastPath='.',blastFileNamePrefix=entryId)
+                cifFilePath=os.path.join(self.__testModelPath,fn)            
+                taxonomyFilePath=os.path.join(self.__testTaxPath,
+                                              self.__taxonomyDataFile)
+                bp= BlastProcess(cifFilePath=cifFilePath,
+                                 taxonomyFilePath=taxonomyFilePath,
+                                 verbose=self.__verbose,log=self.__lfh)
+                bp.saveBlastResults(blastPath=TESTOUTPUT, blastFileNamePrefix=entryId)
                 ped=bp.getPolymerEntityDetails()
                 for (entityId,polyDetails) in ped.items():
-                    ofn=entryId+"_seqdb-match_P"+str(entityId)+".cif"
+                    ofn=os.path.join(TESTOUTPUT,
+                                     entryId+"_seqdb-match_P"+str(entityId)+".cif")
                     ok = bp.RunAndSave(entityId=entityId,fName=ofn)
                     self.__lfh.write("\n----Entry %s  Entity Id = %s ofn = %s status = %r -------  \n" % (fn,entityId,ofn,ok))                                        
 
