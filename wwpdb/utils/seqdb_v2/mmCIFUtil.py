@@ -11,7 +11,7 @@ __email__   = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
 import sys
-from pdbx_v2.persist.PdbxPyIoAdapter import PdbxPyIoAdapter as PdbxIoAdapter
+from mmcif_utils.persist.PdbxPyIoAdapter import PdbxPyIoAdapter as PdbxIoAdapter
 
 class mmCIFUtil:
     """Using pdbx mmCIF utility to parse mmCIF file

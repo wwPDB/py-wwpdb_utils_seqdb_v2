@@ -14,7 +14,7 @@ import sys
 import os
 import copy
 import traceback
-from wwpdb.api.facade.ConfigInfo import ConfigInfo, getSiteId
+from wwpdb.utils.config.ConfigInfo import ConfigInfo, getSiteId
 from wwpdb.utils.seqdb_v2.FetchUnpXml import FetchUnpXml
 from wwpdb.utils.seqdb_v2.FastaUtil import FastaUtil
 

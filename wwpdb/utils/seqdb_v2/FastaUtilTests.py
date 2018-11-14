@@ -13,7 +13,7 @@ Test cases for reading UniProt Fasta files -
 
 import sys, unittest, os, os.path, string, traceback
 
-from wwpdb.api.facade.ConfigInfo          import ConfigInfo,getSiteId
+from wwpdb.utils.config.ConfigInfo          import ConfigInfo,getSiteId
 from wwpdb.utils.seqdb_v2.FastaUtil       import FastaUtil
 
 class FastaUtilTests(unittest.TestCase):
