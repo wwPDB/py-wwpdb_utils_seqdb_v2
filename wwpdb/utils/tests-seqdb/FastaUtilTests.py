@@ -16,6 +16,7 @@ import sys, unittest, os, os.path, string, traceback
 from wwpdb.utils.config.ConfigInfo          import ConfigInfo,getSiteId
 from wwpdb.utils.seqdb_v2.FastaUtil       import FastaUtil
 
+@unittest.skip("Cannot test without sequence fasta files")
 class FastaUtilTests(unittest.TestCase):
     def setUp(self):
         self.__verbose=True
