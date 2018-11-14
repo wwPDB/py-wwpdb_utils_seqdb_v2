@@ -15,6 +15,7 @@ __version__ = "V0.001"
 
 import os, sys, time, getopt, re
 import gzip
+import traceback
 from wwpdb.utils.seqdb_v2.UnpBlastService  import UnpBlastService
 from wwpdb.utils.seqdb_v2.ReadUnpBlastXml  import ReadUnpBlastXmlString
 from wwpdb.utils.seqdb_v2.NcbiBlastService import NcbiBlastService
@@ -93,11 +94,11 @@ class RunBlastPerSeq:
             # re-sorting result
             #
             taxids = {}
-            if fragment.has_key('taxid'):
+            if 'taxid' in fragment:
                 taxids = self._GetTaxonomyTree(fragment['taxid'])
             #
             auth_accession_code = None
-            if fragment.has_key('accession'):
+            if 'accession' in fragment:
                 auth_accession_code = fragment['accession']
             self._SortResult(result, taxids, auth_accession_code)
 
@@ -162,10 +163,10 @@ class RunBlastPerSeq:
         dict = {}
         dict['id'] = taxid
         if self.__taxonomyData:
-            if self.__taxonomyData.has_key(taxid):
+            if taxid in self.__taxonomyData:
                 parent_id = self.__taxonomyData[taxid]
                 dict['p_id'] = parent_id
-                if self.__taxonomyData.has_key(parent_id):
+                if parent_id in self.__taxonomyData:
                     gparent_id = self.__taxonomyData[parent_id]
                     dict['gp_id'] = gparent_id
                 #
@@ -183,7 +184,7 @@ class RunBlastPerSeq:
             return
 
         sorting_list = []
-        for i in xrange(0, len(result)):
+        for i in range(0, len(result)):
             identity = (int(result[i]['identity']) - int(result[i]['gaps'])) * 100 \
                      / int(result[i]['query_length'])
             if result[i]['db_name'] == 'SP':
@@ -193,20 +194,20 @@ class RunBlastPerSeq:
                 identity += 1
             #
             target_taxids = {}
-            if result[i].has_key('taxonomy_id'):
+            if 'taxonomy_id' in result[i]:
                 target_taxids = self._GetTaxonomyTree(result[i]['taxonomy_id'])
             #
             taxid_match = 0
             if taxids and target_taxids:
                 if taxids['id'] == target_taxids['id']:
                     taxid_match = 3
-                elif taxids.has_key('p_id') and taxids['p_id'] == target_taxids['id']:
+                elif 'p_id' in taxids and taxids['p_id'] == target_taxids['id']:
                     taxid_match = 2
-                elif target_taxids.has_key('p_id') and target_taxids['p_id'] == taxids['id']:
+                elif 'p_id' in target_taxids and target_taxids['p_id'] == taxids['id']:
                     taxid_match = 2
-                elif taxids.has_key('gp_id') and taxids['gp_id'] == target_taxids['id']:
+                elif 'gp_id' in taxids and taxids['gp_id'] == target_taxids['id']:
                     taxid_match = 1
-                elif target_taxids.has_key('gp_id') and target_taxids['gp_id'] == taxids['id']:
+                elif 'gp_id' in target_taxids and target_taxids['gp_id'] == taxids['id']:
                     taxid_match = 1
             #
             identity = identity * 4 + taxid_match
@@ -216,7 +217,7 @@ class RunBlastPerSeq:
         #
         sorting_list.sort(sort_comp)
         #
-        for i in xrange(0, len(sorting_list)):
+        for i in range(0, len(sorting_list)):
             result[sorting_list[i][1]]['sort_order'] = str(i + 1)
         #
 
@@ -286,11 +287,11 @@ class RunBlastPerSeq:
             for match in fragment_result:
                 t.setValue(str(row + 1), 'id', row)
                 for item in _table_items:
-                    if match.has_key(item):
+                    if item in match:
                         t.setValue(str(match[item]), item, row)
 
                 t1.setValue(str(row + 1), 'id', row)
-                if match.has_key('sequence'):
+                if 'sequence' in match:
                     seq = re.sub('[\t \n]', '', match['sequence'])
                     t1.setValue(self._FormatSequence(str(seq)), 'sequence', row)
 
@@ -400,13 +401,13 @@ class BlastProcess:
             return dict
 
         for d in dList:
-            if not d.has_key('entity_id'):
+            if 'entity_id' in d:
                 continue
 
             sequence = ''
-            if d.has_key('pdbx_seq_one_letter_code'):
+            if 'pdbx_seq_one_letter_code' in d:
                 sequence = d['pdbx_seq_one_letter_code']
-            elif d.has_key('ndb_seq_one_letter_code'):
+            elif 'ndb_seq_one_letter_code' in d:
                 sequence = d['ndb_seq_one_letter_code']
 
             sequence = self._CleanSequence(sequence)
@@ -414,7 +415,7 @@ class BlastProcess:
                 continue
 
             type = None
-            if d.has_key('type'):
+            if 'type' in d:
                 type = d['type']
                 type = self._FindCorrectType(type)
 
@@ -460,17 +461,17 @@ class BlastProcess:
             return pList
 
         for d in dList:
-            if not d.has_key('entity_id'):
+            if 'entity_id' not in d:
                 continue
 
             if d['entity_id'] != entityid:
                 continue
 
             dict = {}
-            if d.has_key(item):
+            if item in d:
                 dict['taxid'] = d[item]
 
-            if d.has_key('pdbx_beg_seq_num') and d.has_key('pdbx_end_seq_num'):
+            if 'pdbx_beg_seq_num' in d and 'pdbx_end_seq_num' in d:
                 dict['beg'] = d['pdbx_beg_seq_num']
                 dict['end'] = d['pdbx_end_seq_num']
             else:
@@ -487,7 +488,7 @@ class BlastProcess:
                 pList[0]['end'] = str(length)
 
             for fragment in pList:
-                if fragment.has_key('taxid'):
+                if 'taxid' in fragment:
                     self.__taxFlag = True
                     break
                 #
@@ -522,7 +523,7 @@ class BlastProcess:
             return True
 
         # check start number in current fragment > end number in previous fragment
-        for i in xrange(1, n):
+        for i in range(1, n):
             end = int(pList[i-1]['end'])
             start = int(pList[i]['beg'])
             if end >= start:
@@ -543,13 +544,14 @@ class BlastProcess:
         d={}        
         try:
             if self.__taxonomyFilePath[-3:] == '.gz':
-                f = gzip.open(self.__taxonomyFilePath, 'rb')
+                f = gzip.open(self.__taxonomyFilePath, 'r')
             else:
                 f = open(self.__taxonomyFilePath, 'r')
             data = f.read()
             f.close()
             #
-            list = data.split('\t|\n')
+            # Python3 coming in as bytes from compressed file
+            list = data.decode('utf-8').split('\t|\n')
             for line in list:
                 if not line:
                     continue
@@ -557,6 +559,7 @@ class BlastProcess:
                 list1 = line.split('\t|\t')
                 d[list1[0]] = list1[1]
         except:
+            traceback.print_exc(file=self.__lfh)
             self.__lfh.write("+ERROR BlastProcess() failed to read taxonomy data file %s\n" % self.__taxonomyFilePath)
         return d            
             
@@ -610,7 +613,7 @@ class BlastProcess:
             return hitlist
 
         if entityId:
-            if self.__entitySeq.has_key(entityId):
+            if entityId in self.__entitySeq:
                 perseq = RunBlastPerSeq(entityId=entityId, entityInfo=self.__entitySeq[entityId], \
                                  taxonomyData=self.__taxonomyData,verbose=self.__verbose,log=self.__lfh)
                 if self.__saveBlastResults:
@@ -641,7 +644,7 @@ class BlastProcess:
             return False
         
         eId=str(entityId)
-        if not self.__entitySeq.has_key(eId):
+        if eId not in self.__entitySeq:
             return False
 
         perseq = RunBlastPerSeq(entityId=eId, entityInfo=self.__entitySeq[eId], taxonomyData=self.__taxonomyData,
