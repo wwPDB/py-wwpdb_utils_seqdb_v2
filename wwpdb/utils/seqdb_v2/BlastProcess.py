@@ -401,7 +401,7 @@ class BlastProcess:
             return dict
 
         for d in dList:
-            if 'entity_id' in d:
+            if 'entity_id' not in d:
                 continue
 
             sequence = ''
