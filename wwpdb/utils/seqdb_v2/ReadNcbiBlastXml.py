@@ -212,14 +212,14 @@ def main(argv):
             result = obj.GetResult()
             for align in result:
                 for (k, v) in align.items():
-                    print '%s=%s' % (k, v)
-                print '\n'
+                    print('%s=%s' % (k, v))
+                print('\n')
 
 if __name__ == "__main__":
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception, exc:
-        print exc
+    except Exception as exc:
+        print(exc)
         sys.exit(1)
 

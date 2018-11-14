@@ -581,12 +581,12 @@ def main(argv):
             obj = ReadUnpXmlFile(arg)
             dict = obj.GetResult()
             for (k, v) in dict.items():
-                print "%s=%s" % (k, v)
+                print("%s=%s" % (k, v))
 
 if __name__ == "__main__":
     try:
         main(sys.argv[1:])
         sys.exit(0)
     except Exception as exc:
-        print exc
+        print(exc)
         sys.exit(1)

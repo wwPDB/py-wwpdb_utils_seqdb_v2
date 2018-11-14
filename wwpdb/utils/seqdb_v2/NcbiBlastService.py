@@ -10,7 +10,16 @@ __author__  = "Zukang Feng"
 __email__   = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
-import re, os, sys, time, urllib, urllib2, ssl
+import re, os, sys, time
+try:
+    from urllib.parse import urlparse, urlencode
+    from urllib.request import urlopen, Request
+    from urllib.error import HTTPError
+except ImportError:
+    from urlparse import urlparse
+    from urllib import urlencode
+    from urllib2 import urlopen, Request, HTTPError
+import ssl
 import getopt
 
 class NcbiBlastService:
@@ -51,15 +60,15 @@ class NcbiBlastService:
         """Submit job"""
         # Get the data for the options
         try:
-            requestData = urllib.urlencode(params)
-            request = urllib2.Request(self._baseUrl, requestData)
+            requestData = urlencode(params)
+            request = Request(self._baseUrl, requestData)
             # We are ignoring the certificates
             gcontext = ssl._create_unverified_context()
-            reqH = urllib2.urlopen(request, context=gcontext)
+            reqH = urlopen(request, context=gcontext)
             return_data = reqH.read()
             reqH.close()    
             return return_data
-        except Exception, exc:
+        except Exception as exc:
             #print exc
             return ''
 
@@ -158,6 +167,6 @@ if __name__ == "__main__":
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception, exc:
-        print exc
+    except Exception as exc:
+        print(exc)
         sys.exit(1)

@@ -16,7 +16,15 @@ __email__   = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
 from xml.dom import minidom
-import urllib, urllib2, ssl
+try:
+    from urllib.parse import urlparse, urlencode
+    from urllib.request import urlopen, Request
+    from urllib.error import HTTPError
+except ImportError:
+    from urlparse import urlparse
+    from urllib import urlencode
+    from urllib2 import urlopen, Request, HTTPError
+import ssl
 from wwpdb.utils.seqdb_v2.ReadNcbiXml     import ReadNcbiXmlString
 from wwpdb.utils.seqdb_v2.ReadNcbiSummary import ReadNcbiSummaryString
 import sys
@@ -42,8 +50,8 @@ class FetchNcbiXml:
         params['id'] = self._id;
         params['retmode'] = 'xml'
         gcontext = ssl._create_unverified_context()
-        requestData = urllib.urlencode(params)
-        reqH = urllib2.urlopen(self._baseUrl, requestData, context=gcontext)
+        requestData = urlencode(params)
+        reqH = urlopen(self._baseUrl, requestData, context=gcontext)
         data = reqH.read()
         reqH.close()
         return data
@@ -78,9 +86,9 @@ class FetchFullNcbiXml:
         params['db'] = self._database
         params['id'] = self._id;
         params['retmode'] = 'xml'
-        requestData = urllib.urlencode(params)
+        requestData = urlencode(params)
         gcontext = ssl._create_unverified_context()
-        reqH = urllib2.urlopen(self._baseUrl, requestData, context=gcontext)
+        reqH = urlopen(self._baseUrl, requestData, context=gcontext)
         data = reqH.read()
         reqH.close()
         return data
@@ -113,12 +121,12 @@ def main(argv):
         fetchobj.WriteNcbiXml(id + '.xml')
         dict = fetchobj.ParseNcbiXmlData()
         for (k, v) in dict.items():
-            print "%s=%s" % (k, v)
+            print("%s=%s" % (k, v))
 
 if __name__ == "__main__":
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception, exc:
-        print exc
+    except Exception as exc:
+        print(exc)
         sys.exit(1)

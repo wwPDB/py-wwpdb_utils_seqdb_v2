@@ -173,7 +173,7 @@ class ReadNcbiXmlFile(ReadNcbiXml):
         self._doc = ""
         try:
             self._doc = minidom.parse(self._fileName)
-        except Exception, exc:
+        except Exception as exc:
             pass
         ReadNcbiXml.__init__(self, self._doc)
 
@@ -185,7 +185,7 @@ class ReadNcbiXmlString(ReadNcbiXml):
         self._doc = ""
         try:
             self._doc = minidom.parseString(self._data)
-        except Exception, exc:
+        except Exception as exc:
             pass
         ReadNcbiXml.__init__(self, self._doc)
 
@@ -196,12 +196,12 @@ def main(argv):
             obj = ReadNcbiXmlFile(arg)
             dict = obj.GetResult()
             for (k, v) in dict.items():
-                print "%s=%s" % (k, v)
+                print("%s=%s" % (k, v))
 
 if __name__ == "__main__":
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception, exc:
-        print exc
+    except Exception as exc:
+        print(exc)
         sys.exit(1)

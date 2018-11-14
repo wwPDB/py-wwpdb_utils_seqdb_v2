@@ -681,6 +681,6 @@ if __name__ == "__main__":
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception, exc:
+    except Exception as exc:
         sys.stderr.write( exc )
         sys.exit(1)

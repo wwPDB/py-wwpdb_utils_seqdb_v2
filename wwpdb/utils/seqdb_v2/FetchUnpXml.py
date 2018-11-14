@@ -19,12 +19,23 @@ __version__ = "V0.001"
 
 import sys
 import getopt
-import urllib
-import urllib2
+try:
+    from urllib.parse import urlparse, urlencode
+    from urllib.request import urlopen, Request
+    from urllib.error import HTTPError
+except ImportError:
+    from urlparse import urlparse
+    from urllib import urlencode
+    from urllib2 import urlopen, Request, HTTPError
 import ssl
 import traceback
 from xml.dom import minidom
-from itertools import izip_longest
+try:
+    # Python 3
+    from itertools import zip_longest
+except ImportError:
+    # Python 2
+    from itertools import izip_longest as zip_longest
 
 from wwpdb.utils.seqdb_v2.ReadUnpXml import ReadUnpXmlString
 
@@ -149,11 +160,11 @@ class FetchUnpXml:
 
     def __makeSubLists(self, n, iterable):
         args = [iter(iterable)] * n
-        return ([e for e in t if e is not None] for t in izip_longest(*args))
+        return ([e for e in t if e is not None] for t in zip_longest(*args))
 
     def __makeSubListsWithPadding(self, n, iterable, padvalue=None):
         "__sublist(3, 'abcdefg', 'x') --> ('a','b','c'), ('d','e','f'), ('g','x','x')"
-        return izip_longest(*[iter(iterable)] * n, fillvalue=padvalue)
+        return zip_longest(*[iter(iterable)] * n, fillvalue=padvalue)
 
     def __RequestUnpXml(self, idString):
         """Execute fetch Request for the input comma separated accession list.
@@ -171,18 +182,18 @@ class FetchUnpXml:
             params['format'] = 'uniprotxml'
             params['style'] = 'raw'
             #params['Retrieve'] = 'Retrieve'
-            requestData = urllib.urlencode(params)
-            reqH = urllib2.urlopen(self._baseUrl, requestData, context=gcontext)
+            requestData = urlencode(params)
+            reqH = urlopen(self._baseUrl, requestData, context=gcontext)
         else:
             params = {}
             params['size'] = '-1'
             params['accession'] = idString
 
-            requestData = urllib.urlencode(params)
+            requestData = urlencode(params)
             # Need to do this as UNP service will not take POST - so forect GET
-            request = urllib2.Request('%s?%s' % (self._baseUrlUnp, requestData))
+            request = Request('%s?%s' % (self._baseUrlUnp, requestData))
             request.add_header("Accept", "application/xml")
-            reqH = urllib2.urlopen(request, context=gcontext)
+            reqH = urlopen(request, context=gcontext)
 
         data = reqH.read()
         reqH.close()

@@ -14,7 +14,16 @@ __author__  = "Zukang Feng"
 __email__   = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
-import urllib, urllib2, ssl
+try:
+    from urllib.parse import urlparse, urlencode
+    from urllib.request import urlopen, Request
+    from urllib.error import HTTPError
+except ImportError:
+    from urlparse import urlparse
+    from urllib import urlencode
+    from urllib2 import urlopen, Request, HTTPError
+
+import ssl
 import os, sys, time
 import getopt
 
@@ -62,13 +71,13 @@ class UnpBlastService:
         try:
             requestUrl = self._baseUrl + '/run/'
             # Get the data for the options
-            requestData = urllib.urlencode(params)
+            requestData = urlencode(params)
             gcontext = ssl._create_unverified_context()
-            reqH = urllib2.urlopen(requestUrl, requestData, context=gcontext)
+            reqH = urlopen(requestUrl, requestData, context=gcontext)
             jobId = reqH.read()
             reqH.close()    
             return jobId
-        except Exception, exc:
+        except Exception as exc:
             return ''
 
     def _getResultfromServer(self, jobId):
@@ -95,11 +104,11 @@ class UnpBlastService:
         """Wrapper for a REST (HTTP GET) request"""
         try:
             gcontext = ssl._create_unverified_context()
-            reqH = urllib2.urlopen(url, context=gcontext)
+            reqH = urlopen(url, context=gcontext)
             result = reqH.read()
             reqH.close()
             return result
-        except Exception, exc:
+        except Exception as exc:
             return ''
 
 def main(argv):
@@ -122,6 +131,6 @@ if __name__ == "__main__":
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception, exc:
-        print exc
+    except Exception as exc:
+        print(exc)
         sys.exit(1)
