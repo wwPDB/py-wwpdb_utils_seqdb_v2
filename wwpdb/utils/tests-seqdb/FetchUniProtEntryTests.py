@@ -20,11 +20,18 @@ import os
 import os.path
 import string
 import traceback
+import platform
 
 from wwpdb.utils.config.ConfigInfo import ConfigInfo, getSiteId
 from wwpdb.utils.seqdb_v2.FetchUniProtEntry import FetchUniProtEntry
 
+HERE = os.path.abspath(os.path.dirname(__file__))
+TOPDIR = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
+TESTOUTPUT = os.path.join(HERE, 'test-output', platform.python_version())
+if not os.path.exists(TESTOUTPUT):
+    os.makedirs(TESTOUTPUT)
 
+@unittest.skip("Until have downloaded uniprot variant file")
 class FetchUniProtEntryTests(unittest.TestCase):
 
     def setUp(self):
@@ -49,7 +56,7 @@ class FetchUniProtEntryTests(unittest.TestCase):
             for id in self.__unpIdListV:
                 ok = fobj.fetchList([id])
                 if ok:
-                    fobj.writeUnpXml(id + '.xml')
+                    fobj.writeUnpXml(os.path.join(TESTOUTPUT, id + '.xml'))
                     dict = fobj.getResult()
                     for (eId, eDict) in dict.items():
                         for k, v in eDict.items():

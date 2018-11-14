@@ -17,10 +17,16 @@ import unittest
 import os
 import os.path
 import string
+import platform
 import traceback
 
-from wwpdb.utils.config.ConfigInfo import ConfigInfo, getSiteId
 from wwpdb.utils.seqdb_v2.FetchUnpXml import FetchUnpXml
+
+HERE = os.path.abspath(os.path.dirname(__file__))
+TOPDIR = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
+TESTOUTPUT = os.path.join(HERE, 'test-output', platform.python_version())
+if not os.path.exists(TESTOUTPUT):
+    os.makedirs(TESTOUTPUT)
 
 
 class FetchUnpXmlTests(unittest.TestCase):
@@ -29,11 +35,8 @@ class FetchUnpXmlTests(unittest.TestCase):
         self.__verbose = True
         self.__lfh = sys.stderr
         # Pick up site information from the environment or failover to the development site id.
-        self.__siteId = getSiteId(defaultSiteId='WWPDB_DEPLOY_TEST')
         self.__lfh.write("\nTesting with site environment for:  %s\n" % self.__siteId)
         #
-        cI = ConfigInfo(self.__siteId)
-        self.__testFilePath = './data'
         self.__unpIdList1 = ['P20937', 'P21877', 'P22868', 'P23832', 'P25665', 'P26562', 'P27614']
         self.__unpIdList2 = ['P29490', 'P29496', 'P29498', 'P29499', 'P29503', 'P29506', 'P29508', 'P29509', 'P29525', 'P29533', 'P29534', 'P29547',
                              'P29549', 'P29555', 'P29557', 'P29558', 'P29559', 'P29563', 'P29588', 'P29589', 'P29590', 'P29597', 'P29599', 'P29600',
@@ -56,7 +59,7 @@ class FetchUnpXmlTests(unittest.TestCase):
             for id in self.__unpIdList1:
                 ok = fobj.fetchList([id])
                 if ok:
-                    fobj.writeUnpXml(id + '.xml')
+                    fobj.writeUnpXml(os.path.join(TESTOUTPUT, id + '.xml'))
                     dict = fobj.getResult()
                     for (k, v) in dict.items():
                         self.__lfh.write("%s=%s" % (k, v))
@@ -74,7 +77,7 @@ class FetchUnpXmlTests(unittest.TestCase):
             fobj = FetchUnpXml(verbose=self.__verbose, log=self.__lfh)
             ok = fobj.fetchList(self.__unpIdList2)
             if ok:
-                fobj.writeUnpXml('batch-fetch.xml')
+                fobj.writeUnpXml(os.path.join(TESTOUTPUT, 'batch-fetch.xml'))
                 dict = fobj.getResult()
                 for (k, v) in dict.items():
                     self.__lfh.write("%s=%s" % (k, v))
@@ -101,7 +104,7 @@ class FetchUnpXmlTests(unittest.TestCase):
             for id in self.__unpIdListV:
                 ok = fobj.fetchList([id])
                 if ok:
-                    fobj.writeUnpXml(id + '.xml')
+                    fobj.writeUnpXml(os.path.join(TESTOUTPUT, id + '.xml'))
                     dict = fobj.getResult()
                     for (eId, eDict) in dict.items():
                         if 'db_isoform' in eDict and eId == id:
@@ -127,7 +130,7 @@ class FetchUnpXmlTests(unittest.TestCase):
             fobj = FetchUnpXml(verbose=self.__verbose, log=self.__lfh)
             ok = fobj.fetchList(self.__unpIdListV)
             if ok:
-                fobj.writeUnpXml('variant-batch-fetch.xml')
+                fobj.writeUnpXml(os.path.join(TESTOUTPUT, 'variant-batch-fetch.xml'))
                 dict = fobj.getResult()
                 for (eId, eDict) in dict.items():
                     self.__lfh.write("\n\n------ Entry id %s\n" % eId)
