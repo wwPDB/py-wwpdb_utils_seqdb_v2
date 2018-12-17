@@ -99,7 +99,12 @@ class FetchUnpXml:
                 idString = ','.join(subList)
                 if (self.__debug):
                     self.__lfh.write("+FetchUnpXml.fetchList() subList %s string %s\n" % (subList, idString))
-                xmlText = self.__RequestUnpXml(idString)
+
+                # If primary site has issues, automatic fallback
+                try:
+                    xmlText = self.__RequestUnpXml(idString)
+                except HTTPError:
+                    xmlText = self.__RequestUnpXml(idString, fallback = True)
                 # filter possible simple text error messages from the failed queries.
                 if ((xmlText is not None) and not xmlText.startswith("ERROR")):
                     self.__dataList.append(xmlText)
@@ -166,7 +171,7 @@ class FetchUnpXml:
         "__sublist(3, 'abcdefg', 'x') --> ('a','b','c'), ('d','e','f'), ('g','x','x')"
         return zip_longest(*[iter(iterable)] * n, fillvalue=padvalue)
 
-    def __RequestUnpXml(self, idString):
+    def __RequestUnpXml(self, idString, fallback = False):
         """Execute fetch Request for the input comma separated accession list.
 
            Return xml text for the corresentry  UniProt entries
@@ -174,7 +179,7 @@ class FetchUnpXml:
         #
         gcontext = ssl._create_unverified_context()
 
-        if False:
+        if not fallback:
             params = {}
             params['db'] = 'uniprotkb'
             params['id'] = idString
