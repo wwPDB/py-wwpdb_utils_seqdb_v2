@@ -38,6 +38,10 @@ except ImportError:
     from itertools import izip_longest as zip_longest
 
 from wwpdb.utils.seqdb_v2.ReadUnpXml import ReadUnpXmlString
+from wwpdb.utils.config.ConfigInfo import ConfigInfo
+import logging
+
+logger = logging.getLogger()
 
 
 class FetchUnpXml:
@@ -64,6 +68,9 @@ class FetchUnpXml:
         self.__idList = []
         self.__searchIdList = []
         self.__variantD = {}
+        #
+        cI = ConfigInfo()
+        self.__forcefallback = cI.get('FETCH_UNP_FORCE_FALLBACK', None)
         #
 
     def fetchList(self, idList):
@@ -101,10 +108,14 @@ class FetchUnpXml:
                     self.__lfh.write("+FetchUnpXml.fetchList() subList %s string %s\n" % (subList, idString))
 
                 # If primary site has issues, automatic fallback
-                try:
-                    xmlText = self.__RequestUnpXml(idString)
-                except HTTPError:
-                    xmlText = self.__RequestUnpXml(idString, fallback = True)
+                if self.__forcefallback:
+                    xmlText = self.__RequestUnpXml(idString, fallback=True)
+                else:
+                    try:
+                        xmlText = self.__RequestUnpXml(idString)
+                    except HTTPError:
+                        xmlText = self.__RequestUnpXml(idString, fallback = True)
+
                 # filter possible simple text error messages from the failed queries.
                 if ((xmlText is not None) and not xmlText.startswith("ERROR")):
                     self.__dataList.append(xmlText)
@@ -188,6 +199,7 @@ class FetchUnpXml:
             params['style'] = 'raw'
             #params['Retrieve'] = 'Retrieve'
             requestData = urlencode(params)
+            logger.debug("Request %s with data %s" % (self._baseUrl, requestData))
             reqH = urlopen(self._baseUrl, requestData, context=gcontext)
         else:
             params = {}
@@ -198,6 +210,7 @@ class FetchUnpXml:
             # Need to do this as UNP service will not take POST - so forect GET
             request = Request('%s?%s' % (self._baseUrlUnp, requestData))
             request.add_header("Accept", "application/xml")
+            logger.debug("Request %s with data %s" % (request, requestData))
             reqH = urlopen(request, context=gcontext)
 
         data = reqH.read()
