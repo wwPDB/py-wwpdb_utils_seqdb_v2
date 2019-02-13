@@ -16,6 +16,7 @@
 #  26-Aug-2015  jdw trap what looks like a data corruption or missing data issue for isoforms
 #  12-Dec-2015  jdw remove requirement for referenced isoforms - take any found c
 #  12-Dec-2015  jdw update constructor for ReadUnpXmlString
+#  13-Feb-2019  ep  strip newlines from sequences returned. dbfetch service started adding them.
 #
 ##
 
@@ -156,7 +157,8 @@ class ReadUnpXml:
 
                 elif node.tagName == 'sequence':
                     'Get sequence'
-                    dict['sequence'] = node.firstChild.data
+                    # Sequence must have newlines removed
+                    dict['sequence'] = node.firstChild.data.replace('\n','')
 
                 elif node.tagName == 'protein':
                     self._findProteinName(node.childNodes, dict)
@@ -517,7 +519,7 @@ class ReadUnpXml:
                 if node1.nodeType != node1.ELEMENT_NODE:
                     continue
                 if node1.tagName == 'variation':
-                    variation = node1.firstChild.data
+                    variation = node1.firstChild.data.replace('\n','')
                 elif node1.tagName == 'location':
                     for node2 in node1.childNodes:
                         if node2.nodeType != node2.ELEMENT_NODE:
