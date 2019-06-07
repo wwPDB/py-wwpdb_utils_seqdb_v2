@@ -15,31 +15,25 @@ __author__  = "Zukang Feng"
 __email__   = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
-from xml.dom import minidom
-try:
-    from urllib.parse import urlparse, urlencode
-    from urllib.request import urlopen, Request
-    from urllib.error import HTTPError
-except ImportError:
-    from urlparse import urlparse
-    from urllib import urlencode
-    from urllib2 import urlopen, Request, HTTPError
-import ssl
+import requests
+# To disable warning about not checking ssl certificates. Still needed?
+import urllib3
+urllib3.disable_warnings()
+
 from wwpdb.utils.seqdb_v2.ReadNcbiXml     import ReadNcbiXmlString
 from wwpdb.utils.seqdb_v2.ReadNcbiSummary import ReadNcbiSummaryString
 import sys
 import getopt
 
 
-
 class FetchNcbiXml:
     """Using esummary.fcgi utility to get entry summary xml file from NCBI site and
        using ReadNcbiSummary class to parse the result
     """
-    def __init__(self, id, database):
-        self._id = id;
+    def __init__(self, id, database, apikey=None):
+        self._id = id
         self._database = database
-#       self._baseUrl = 'http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi'
+        self._apikey = apikey
         self._baseUrl = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi'
         self._data = self._RequestNcbiXml()
 
@@ -47,13 +41,13 @@ class FetchNcbiXml:
         """Request summary xml from NCBI site"""
         params = {}
         params['db'] = self._database
-        params['id'] = self._id;
+        params['id'] = self._id
         params['retmode'] = 'xml'
-        gcontext = ssl._create_unverified_context()
-        requestData = urlencode(params)
-        reqH = urlopen(self._baseUrl, requestData, context=gcontext)
-        data = reqH.read()
-        reqH.close()
+        if self._apikey:
+            params['api_key'] = self._apikey
+
+        reqH = requests.get(self._baseUrl, params=params, verify=False)
+        data = reqH.text
         return data
 
     def WriteNcbiXml(self, filename):
@@ -74,9 +68,10 @@ class FetchNcbiXml:
 class FetchFullNcbiXml:
     """Using efetch.fcgi utility to get and parse the full entry xml file from NCBI site.
     """
-    def __init__(self, id, database):
+    def __init__(self, id, database, apikey=None):
         self._id = id;
         self._database = database
+        self._apikey = apikey
         self._baseUrl = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi'
         self._data = self._RequestNcbiXml()
 
@@ -86,11 +81,10 @@ class FetchFullNcbiXml:
         params['db'] = self._database
         params['id'] = self._id;
         params['retmode'] = 'xml'
-        requestData = urlencode(params)
-        gcontext = ssl._create_unverified_context()
-        reqH = urlopen(self._baseUrl, requestData, context=gcontext)
-        data = reqH.read()
-        reqH.close()
+        if self._apikey:
+            params['api_key'] = self._apikey
+        reqH = requests.get(self._baseUrl, params=params, verify=False)
+        data = reqH.text
         return data
 
     def WriteNcbiXml(self, filename):
@@ -106,18 +100,22 @@ class FetchFullNcbiXml:
 
         
 def main(argv):
-    opts, args = getopt.getopt(argv, "i:d:", ["id=", "db="])
+    opts, args = getopt.getopt(argv, "i:d:a:", ["id=", "db=", "apikey="])
 
     id = None
     db = None
+    apikey = None
     for opt, arg in opts:
         if opt in ("-i", "--id"):
             id = arg
         elif opt in ("-d", "--db"):
             db = arg
+        elif opt in ("-a", "--apikey"):
+            apikey = arg
 
     if id and db:
-        fetchobj = FetchNcbiXml(id, db)
+        fetchobj = FetchNcbiXml(id, db, apikey)
+        #fetchobj = FetchFullNcbiXml(id, db, apikey)
         fetchobj.WriteNcbiXml(id + '.xml')
         dict = fetchobj.ParseNcbiXmlData()
         for (k, v) in dict.items():
