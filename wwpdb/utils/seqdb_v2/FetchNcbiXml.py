@@ -47,6 +47,7 @@ class FetchNcbiXml:
             params['api_key'] = self._apikey
 
         reqH = requests.get(self._baseUrl, params=params, verify=False)
+        reqH.raise_for_status()
         data = reqH.text
         return data
 
@@ -84,6 +85,7 @@ class FetchFullNcbiXml:
         if self._apikey:
             params['api_key'] = self._apikey
         reqH = requests.get(self._baseUrl, params=params, verify=False)
+        reqH.raise_for_status()
         data = reqH.text
         return data
 
