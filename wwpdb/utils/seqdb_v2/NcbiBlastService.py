@@ -11,16 +11,16 @@ __email__   = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
 import re, os, sys, time
-try:
-    from urllib.parse import urlparse, urlencode
-    from urllib.request import urlopen, Request
-    from urllib.error import HTTPError
-except ImportError:
-    from urlparse import urlparse
-    from urllib import urlencode
-    from urllib2 import urlopen, Request, HTTPError
-import ssl
 import getopt
+import requests
+# To disable warning about not checking ssl certificates. Still needed?
+import urllib3
+urllib3.disable_warnings()
+
+import logging
+
+logger = logging.getLogger()
+
 
 class NcbiBlastService:
     """ Utility class for running blastn service using nt database from NCBI site
@@ -60,16 +60,12 @@ class NcbiBlastService:
         """Submit job"""
         # Get the data for the options
         try:
-            requestData = urlencode(params)
-            request = Request(self._baseUrl, requestData)
-            # We are ignoring the certificates
-            gcontext = ssl._create_unverified_context()
-            reqH = urlopen(request, context=gcontext)
-            return_data = reqH.read()
-            reqH.close()    
+            reqH = requests.post(self._baseUrl, data=params, verify=False)
+            reqH.raise_for_status()
+            return_data = reqH.text
             return return_data
         except Exception as exc:
-            #print exc
+            logger.exception("Submission params=%s" % params)
             return ''
 
     def _GetJobId(self, data):
