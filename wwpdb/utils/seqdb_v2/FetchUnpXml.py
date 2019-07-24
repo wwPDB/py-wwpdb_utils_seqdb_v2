@@ -183,8 +183,6 @@ class FetchUnpXml:
            Return xml text for the corresentry  UniProt entries
            """
         #
-        gcontext = ssl._create_unverified_context()
-
         if not fallback:
             params = {}
             params['db'] = 'uniprotkb'
