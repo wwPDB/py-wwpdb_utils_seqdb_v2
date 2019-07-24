@@ -14,18 +14,19 @@ __author__  = "Zukang Feng"
 __email__   = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
-try:
-    from urllib.parse import urlparse, urlencode
-    from urllib.request import urlopen, Request
-    from urllib.error import HTTPError
-except ImportError:
-    from urlparse import urlparse
-    from urllib import urlencode
-    from urllib2 import urlopen, Request, HTTPError
-
-import ssl
-import os, sys, time
+import sys
+import time
 import getopt
+
+import requests
+# To disable warning about not checking ssl certificates. Still needed?
+import urllib3
+urllib3.disable_warnings()
+
+import logging
+
+logger = logging.getLogger()
+
 
 class UnpBlastService:
     """ Utility class for running blastp service using uniprotkb database from Uniprot site
@@ -71,13 +72,13 @@ class UnpBlastService:
         try:
             requestUrl = self._baseUrl + '/run/'
             # Get the data for the options
-            requestData = urlencode(params)
-            gcontext = ssl._create_unverified_context()
-            reqH = urlopen(requestUrl, requestData, context=gcontext)
-            jobId = reqH.read()
-            reqH.close()    
+            reqH = requests.post(requestUrl, data=params, verify=False)
+            reqH.raise_for_status()
+            jobId = reqH.text
+            logger.debug("Blast search started. Jobid %s" % jobId)
             return jobId
         except Exception as exc:
+            logger.exception('Exception on submit %s', params)
             return ''
 
     def _getResultfromServer(self, jobId):
@@ -103,12 +104,12 @@ class UnpBlastService:
     def _restRequest(self, url):
         """Wrapper for a REST (HTTP GET) request"""
         try:
-            gcontext = ssl._create_unverified_context()
-            reqH = urlopen(url, context=gcontext)
-            result = reqH.read()
-            reqH.close()
+            reqH = requests.get(url, verify=False)
+            reqH.raise_for_status()
+            result = reqH.text
             return result
         except Exception as exc:
+            logger.exception("Retriving request %s" % url)
             return ''
 
 def main(argv):
@@ -123,7 +124,7 @@ def main(argv):
         elif opt == '--outfile':
             filename = arg + '.xml'
 
-    service = UnpBlastService(sequence)
+    service = UnpBlastService(sequence, verbose=True)
     service.RunService()
     service.WriteResultFile(filename)
 
