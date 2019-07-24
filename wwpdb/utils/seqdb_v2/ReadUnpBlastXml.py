@@ -109,13 +109,13 @@ class ReadUnpBlastXml:
                         align['query_length'] = length
                     #
                     isoForm=''
-                    if (align.has_key('db_code') and (align['db_code'].find('-') != -1)):
+                    if ('db_code' in align and (align['db_code'].find('-') != -1)):
                         tL=align['db_code'].split('-')
                         if len(tL)>1 and len(tL[1])>0:
                             isoForm=str(tL[1]).strip()
                             dbCode=str(tL[0]).strip()
                             align['db_code']=dbCode
-                    if (align.has_key('db_accession') and (align['db_accession'].find('-') != -1)):
+                    if ('db_accession' in align and (align['db_accession'].find('-') != -1)):
                         tL=align['db_accession'].split('-')
                         if len(tL)>1 and len(tL[1])>0:
                             isoForm=str(tL[1]).strip()
@@ -125,7 +125,7 @@ class ReadUnpBlastXml:
                     align['db_isoform']=isoForm
                     # Get uniprot sequence information
 
-                    if align.has_key('db_accession'):
+                    if 'db_accession' in align:
                         fetchList.append(align['db_accession'])
                         
 
@@ -139,14 +139,14 @@ class ReadUnpBlastXml:
             fobj.fetchList(fetchList)
             eD = fobj.getResult()
             for align in resultlist:
-                if align.has_key('db_accession'):
+                if 'db_accession' in align:
                     acId=align['db_accession']
-                    if eD.has_key(acId):
+                    if acId in eD:
                         dict=eD[acId]
                         for (k, v) in dict.items():
                             if (k in ['db_code']):
                                 align[k] = v                            
-                            elif not align.has_key(k):
+                            elif k not in align:
                                 align[k] = v
 
 
@@ -206,12 +206,12 @@ class ReadUnpBlastXml:
             return dict
 
         if dict:
-            if dict.has_key('query'):
+            if 'query' in dict:
                 dict['alignLen'] = str(len(dict['query']))
-            if dict.has_key('queryFrom') and dict.has_key('queryTo'):
+            if 'queryFrom' in dict and 'queryTo' in dict:
                 length = int(dict['queryTo']) - int(dict['queryFrom']) + 1
                 dict['match_length'] = str(length)
-                if dict.has_key('identity'):
+                if 'identity' in dict:
                     identity = int(math.ceil(float(length) * float(dict['identity']) / 100.0))
                     if query_length:
                         percent = identity * 100 / int(query_length)
@@ -219,13 +219,13 @@ class ReadUnpBlastXml:
                             dict.clear()
                             return dict
                     dict['identity'] = str(identity)
-                if dict.has_key('positive'):
+                if 'positive' in dict:
                     positive = int(math.ceil(float(length) * float(dict['positive']) / 100.0))
                     dict['positive'] = str(positive)
-                if dict.has_key('gaps'):
+                if 'gaps' in dict:
                     gaps = int(math.ceil(float(length) * float(dict['gaps']) / 100.0))
                     dict['gaps'] = str(gaps)
-            if not dict.has_key('gaps'):
+            if 'gaps' not in dict:
                 dict['gaps'] = '0'
         return dict
 

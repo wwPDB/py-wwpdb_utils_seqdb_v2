@@ -19,15 +19,10 @@ __version__ = "V0.001"
 
 import sys
 import getopt
-try:
-    from urllib.parse import urlparse, urlencode
-    from urllib.request import urlopen, Request
-    from urllib.error import HTTPError
-except ImportError:
-    from urlparse import urlparse
-    from urllib import urlencode
-    from urllib2 import urlopen, Request, HTTPError
-import ssl
+import requests
+# To disable warning about not checking ssl certificates. Still needed?
+import urllib3
+urllib3.disable_warnings()
 import traceback
 from xml.dom import minidom
 try:
@@ -113,7 +108,7 @@ class FetchUnpXml:
                 else:
                     try:
                         xmlText = self.__RequestUnpXml(idString)
-                    except HTTPError:
+                    except requests.exceptions.HTTPError:
                         xmlText = self.__RequestUnpXml(idString, fallback = True)
 
                 # filter possible simple text error messages from the failed queries.
@@ -198,23 +193,23 @@ class FetchUnpXml:
             params['format'] = 'uniprotxml'
             params['style'] = 'raw'
             #params['Retrieve'] = 'Retrieve'
-            requestData = urlencode(params)
-            logger.debug("Request %s with data %s" % (self._baseUrl, requestData))
-            reqH = urlopen(self._baseUrl, requestData, context=gcontext)
+            logger.debug("Request %s with data %s" % (self._baseUrl, params))
+            reqH = requests.post(self._baseUrl, data=params, verify=False)
+            reqH.raise_for_status()
         else:
             params = {}
             params['size'] = '-1'
             params['accession'] = idString
 
-            requestData = urlencode(params)
-            # Need to do this as UNP service will not take POST - so forect GET
-            request = Request('%s?%s' % (self._baseUrlUnp, requestData))
-            request.add_header("Accept", "application/xml")
-            logger.debug("Request %s with data %s" % (request, requestData))
-            reqH = urlopen(request, context=gcontext)
-
-        data = reqH.read()
-        reqH.close()
+            # Need to do this as UNP service will not take POST - so force GET
+            logger.debug("Request with data %s" % params)
+            reqH = requests.get(self._baseUrlUnp, params=params,
+                                headers={"Accept":"application/xml"},
+                                verify=False)
+            reqH.raise_for_status()
+            
+        #data = reqH.read()
+        data = reqH.text
         return data
 
     def __ParseUnpXmlData(self):
@@ -245,7 +240,7 @@ def main(argv):
     for opt, arg in opts:
         if opt in ("-i", "--id"):
             id = arg
-            fobj = FetchUnpXml()
+            fobj = FetchUnpXml(verbose=True)
             fobj.fetchList([id])
             fobj.writeUnpXml(id + '.xml')
             dict = fobj.getResult()
