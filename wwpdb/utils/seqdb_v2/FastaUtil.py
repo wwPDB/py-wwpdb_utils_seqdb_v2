@@ -66,7 +66,7 @@ class FastaUtil(object):
           self.__lfh.write("+FastaUtil.loadFastaUniProt() Read failing for file %s at %s\n" % (fastaFilePath,cmtLine))
         return seqIdList,seqDict 
         #
-      if not seqDict.has_key(seqId):
+      if seqId not in seqDict:
         seqIdList.append(seqId)
         seqDict[seqId] = {'sequence': sequence.upper(), 'description' : description, 'org' : org, 
                           'gene_name': geneName, 'db_accession': dbAccession, 'db_name': dbName, 'db_isoform': dbIsoform}

@@ -49,7 +49,7 @@ class FastaUtilTests(unittest.TestCase):
             fau=FastaUtil(verbose=self.__verbose,log=self.__lfh)
             sL,sD=fau.loadFastaUniProt(fastaFilePath=self.__variantFastaFilePath)
             for uid in self.__unpIdListV:
-                if sD.has_key(uid):
+                if uid in sD:
                     self.__lfh.write("id %s accession %s isoform %s description %s gene %s org %s length sequence %d\n" % 
                                      (uid,sD[uid]['db_accession'],sD[uid]['db_isoform'],sD[uid]['description'],
                                       sD[uid]['gene_name'],sD[uid]['org'],len(self.__cleanString(sD[uid]['sequence']))))
