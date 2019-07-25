@@ -26,11 +26,6 @@ from mmcif.api.DataCategory           import DataCategory
 from mmcif.io.PdbxWriter             import PdbxWriter
 #
 
-def sort_comp(a, b):
-    if a[0] > b[0]:
-        return True
-    return False
-
 class RunBlastPerSeq:
     """Run blast search and save result into cif file
     """
@@ -215,7 +210,7 @@ class RunBlastPerSeq:
             sorting_list.append(list)
             #
         #
-        sorting_list.sort(sort_comp)
+        sorting_list.sort(key=lambda val: val[0], reverse=True)
         #
         for i in range(0, len(sorting_list)):
             result[sorting_list[i][1]]['sort_order'] = str(i + 1)
@@ -311,7 +306,7 @@ class RunBlastPerSeq:
 
     def _FormatSequence(self, sequence):
         num_per_line = 60
-        l = len(sequence) / num_per_line
+        l = int(len(sequence) / num_per_line)
         x = len(sequence) % num_per_line
         m = l
         if x:
