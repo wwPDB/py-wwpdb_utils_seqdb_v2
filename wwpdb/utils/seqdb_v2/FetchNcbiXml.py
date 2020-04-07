@@ -45,11 +45,15 @@ class FetchNcbiXml:
         params['retmode'] = 'xml'
         if self._apikey:
             params['api_key'] = self._apikey
-
-        reqH = requests.get(self._baseUrl, params=params, verify=False)
-        reqH.raise_for_status()
-        data = reqH.text
-        return data
+        #
+        try:
+            reqH = requests.get(self._baseUrl, params=params, verify=False)
+            reqH.raise_for_status()
+            data = reqH.text
+            return data
+        except:
+            return ''
+        #
 
     def WriteNcbiXml(self, filename):
         try:
@@ -84,10 +88,15 @@ class FetchFullNcbiXml:
         params['retmode'] = 'xml'
         if self._apikey:
             params['api_key'] = self._apikey
-        reqH = requests.get(self._baseUrl, params=params, verify=False)
-        reqH.raise_for_status()
-        data = reqH.text
-        return data
+        #
+        try:
+            reqH = requests.get(self._baseUrl, params=params, verify=False)
+            reqH.raise_for_status()
+            data = reqH.text
+            return data
+        except:
+            return ''
+        #
 
     def WriteNcbiXml(self, filename):
         file = open(filename, 'w')
