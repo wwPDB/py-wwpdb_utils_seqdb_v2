@@ -11,6 +11,7 @@
 #  13-Mar-2013 jdw Fix initialization issue
 #
 #  29-Jul-2014 jdw WARNING -- Handling of variant seqeuences is incomplete --
+#  02-Sep-2020 zf  added a work-around for isoforms sequence. 
 ##
 
 __author__ = "Zukang Feng"
@@ -79,11 +80,27 @@ class FetchUnpXml:
 
         """
         try:
+            if not idList:
+                return False
+            #
             self.__result = {}
             self.__dataList = []
+            self.__idList = []
+            self.__isoformIdList = []
 
-            self.__idList = idList
+            for accId in idList:
+                splitList = accId.split("-")
+                if len(splitList) == 2:
+                    if splitList[0] not in self.__isoformIdList:
+                        self.__isoformIdList.append(splitList[0])
+                    #
+                else:
+                    if accId not in self.__idList:
+                        self.__idList.append(accId)
+                    #
+                #
             #
+
             num = self.__processIdList()
             if self.__verbose:
                 self.__lfh.write("+FetchUnpXml.fetchList() input id list len %d\n" % len(idList))
@@ -92,33 +109,44 @@ class FetchUnpXml:
                 self.__lfh.write("+FetchUnpXml.fetchList() search   list %s\n" % self.__searchIdList)
                 self.__lfh.write("+FetchUnpXml.fetchList() variants      %s\n" % self.__variantD.items())
 
-            if num == 0:
+            if (num == 0) and (not self.__isoformIdList):
                 return False
             #
-            self.__subLists = self.__makeSubLists(self.__maxLength, self.__searchIdList)
+            if num:
+                self.__subLists = self.__makeSubLists(self.__maxLength, self.__searchIdList)
 
-            for subList in self.__subLists:
-                idString = ','.join(subList)
-                if (self.__debug):
-                    self.__lfh.write("+FetchUnpXml.fetchList() subList %s string %s\n" % (subList, idString))
-
-                # If primary site has issues, automatic fallback
-                if self.__forcefallback:
-                    xmlText = self.__RequestUnpXml(idString, fallback=True)
-                else:
-                    try:
-                        xmlText = self.__RequestUnpXml(idString)
-                    except requests.exceptions.HTTPError:
-                        xmlText = self.__RequestUnpXml(idString, fallback = True)
-
-                # filter possible simple text error messages from the failed queries.
-                if ((xmlText is not None) and not xmlText.startswith("ERROR")):
+                for subList in self.__subLists:
+                    idString = ','.join(subList)
+                    if (self.__debug):
+                        self.__lfh.write("+FetchUnpXml.fetchList() subList %s string %s\n" % (subList, idString))
+                    #
+                    # If primary site has issues, automatic fallback
+                    if self.__forcefallback:
+                        xmlText = self.__RequestUnpXml(idString, fallback=True)
+                    else:
+                        try:
+                            xmlText = self.__RequestUnpXml(idString)
+                        except requests.exceptions.HTTPError:
+                            xmlText = self.__RequestUnpXml(idString, fallback = True)
+                        #
+                    #
+                    # filter possible simple text error messages from the failed queries.
+                    if ((xmlText is not None) and not xmlText.startswith("ERROR")):
+                        self.__dataList.append(xmlText)
+                    #
+                #
+            #
+            for accId in self.__isoformIdList:
+                xmlText = self.__RequestIsoformsUnpXml(accId)
+                if xmlText:
                     self.__dataList.append(xmlText)
+                #
+            #
             if len(self.__dataList) > 0:
                 ok = self.__ParseUnpXmlData()
             else:
                 ok = False
-
+            #
             return ok
         except:
             if (self.__verbose):
@@ -208,6 +236,19 @@ class FetchUnpXml:
             
         #data = reqH.read()
         data = reqH.text
+        return data
+
+    def __RequestIsoformsUnpXml(self, accId):
+        """ Using URL https://www.ebi.ac.uk/proteins/api/proteins/{accession}/isoforms
+        """
+        isoformUrl = self._baseUrlUnp + "/" + accId + "/isoforms"
+        params = {}
+        reqH = requests.get(isoformUrl, params=params, headers={"Accept":"application/xml"}, verify=False)
+        reqH.raise_for_status()
+        data = reqH.text
+        if data.find('errorMessages') >= 0:
+            return ""
+        #
         return data
 
     def __ParseUnpXmlData(self):
