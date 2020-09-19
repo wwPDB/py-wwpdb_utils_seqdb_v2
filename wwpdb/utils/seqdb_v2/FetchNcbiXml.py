@@ -11,19 +11,19 @@ Updates:
 
 """
 
-__author__  = "Zukang Feng"
-__email__   = "zfeng@rcsb.rutgers.edu"
+__author__ = "Zukang Feng"
+__email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
-import requests
-# To disable warning about not checking ssl certificates. Still needed?
-import urllib3
-urllib3.disable_warnings()
-
-from wwpdb.utils.seqdb_v2.ReadNcbiXml     import ReadNcbiXmlString
-from wwpdb.utils.seqdb_v2.ReadNcbiSummary import ReadNcbiSummaryString
 import sys
+import requests
 import getopt
+import urllib3
+
+from wwpdb.utils.seqdb_v2.ReadNcbiXml import ReadNcbiXmlString
+from wwpdb.utils.seqdb_v2.ReadNcbiSummary import ReadNcbiSummaryString
+# To disable warning about not checking ssl certificates. Still needed?
+urllib3.disable_warnings()
 
 
 class FetchNcbiXml:
@@ -51,7 +51,7 @@ class FetchNcbiXml:
             reqH.raise_for_status()
             data = reqH.text
             return data
-        except:
+        except:  # noqa: E722 pylint: disable=bare-except
             return ''
         #
 
@@ -61,7 +61,7 @@ class FetchNcbiXml:
             file.write(self._data)
             file.close()
             return True
-        except:
+        except:  # noqa: E722 pylint: disable=bare-except
             return False
 
     def ParseNcbiXmlData(self):
@@ -74,7 +74,7 @@ class FetchFullNcbiXml:
     """Using efetch.fcgi utility to get and parse the full entry xml file from NCBI site.
     """
     def __init__(self, id, database, apikey=None):
-        self._id = id;
+        self._id = id
         self._database = database
         self._apikey = apikey
         self._baseUrl = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi'
@@ -84,7 +84,7 @@ class FetchFullNcbiXml:
         """Request summary xml from NCBI site"""
         params = {}
         params['db'] = self._database
-        params['id'] = self._id;
+        params['id'] = self._id
         params['retmode'] = 'xml'
         if self._apikey:
             params['api_key'] = self._apikey
@@ -94,7 +94,7 @@ class FetchFullNcbiXml:
             reqH.raise_for_status()
             data = reqH.text
             return data
-        except:
+        except:  # noqa: E722 pylint: disable=bare-except
             return ''
         #
 
@@ -109,7 +109,7 @@ class FetchFullNcbiXml:
         readxml = ReadNcbiXmlString(self._data)
         return readxml.GetResult()
 
-        
+
 def main(argv):
     opts, args = getopt.getopt(argv, "i:d:a:", ["id=", "db=", "apikey="])
 
@@ -126,11 +126,12 @@ def main(argv):
 
     if id and db:
         fetchobj = FetchNcbiXml(id, db, apikey)
-        #fetchobj = FetchFullNcbiXml(id, db, apikey)
+        # fetchobj = FetchFullNcbiXml(id, db, apikey)
         fetchobj.WriteNcbiXml(id + '.xml')
         dict = fetchobj.ParseNcbiXmlData()
         for (k, v) in dict.items():
             print("%s=%s" % (k, v))
+
 
 if __name__ == "__main__":
     try:

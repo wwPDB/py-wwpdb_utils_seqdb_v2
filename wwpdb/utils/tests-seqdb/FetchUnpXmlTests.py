@@ -64,7 +64,7 @@ class FetchUnpXmlTests(unittest.TestCase):
                         self.__lfh.write("%s=%s" % (k, v))
                 else:
                     self.__lfh.write("+WARNING - Fetch failed for id %s\n" % id)
-        except:
+        except:  # noqa: E722 pylint: disable=bare-except
             traceback.print_exc(file=self.__lfh)
             self.fail()
 
@@ -82,7 +82,7 @@ class FetchUnpXmlTests(unittest.TestCase):
                     self.__lfh.write("%s=%s" % (k, v))
             else:
                 self.__lfh.write("+WARNING - Fetch failed for id %s\n" % id)
-        except:
+        except:  # noqa: E722 pylint: disable=bare-except
             traceback.print_exc(file=self.__lfh)
             self.fail()
 
@@ -109,7 +109,7 @@ class FetchUnpXmlTests(unittest.TestCase):
                         if 'db_isoform' in eDict and eId == id:
                             self.__lfh.write("------ sequence database code  %s has key db_isoform:  %r\n" % (eId, eDict['db_isoform']))
                             self.__lfh.write("------ sequence database code  %s sequence length %d\n" % (eId, len(self.__cleanString(eDict['sequence']))))
-                            #self.__lfh.write("------ sequence database code  %s keys %r\n" % (eId,eDict.keys()))
+                            # self.__lfh.write("------ sequence database code  %s keys %r\n" % (eId,eDict.keys()))
                             self.__lfh.write("%s\n" % self.__cleanString(eDict['sequence']))
                         elif eId == id:
                             self.__lfh.write("------ No matching isoform for %s\n" % id)
@@ -117,7 +117,7 @@ class FetchUnpXmlTests(unittest.TestCase):
                         #    self.__lfh.write("%-25s = %s\n" % (k, v))
                 else:
                     self.__lfh.write("+WARNING - Fetch failed for id %s\n" % id)
-        except:
+        except:  # noqa: E722 pylint: disable=bare-except
             traceback.print_exc(file=self.__lfh)
             self.fail()
 
@@ -138,7 +138,7 @@ class FetchUnpXmlTests(unittest.TestCase):
             else:
                 self.__lfh.write("+WARNING - Fetch failed for id %s\n" % id)
 
-        except:
+        except:  # noqa: E722 pylint: disable=bare-except
             traceback.print_exc(file=self.__lfh)
             self.fail()
 

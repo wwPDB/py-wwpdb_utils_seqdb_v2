@@ -4,18 +4,19 @@
 # Update:  24-May-2010
 # Version: 001  Initial version
 #
-# Updates - 
+# Updates -
 #  20-Apr-2013 jdw  Capture title attribute in summary as key name
 #
 ##
 
-__author__  = "Zukang Feng"
-__email__   = "zfeng@rcsb.rutgers.edu"
+__author__ = "Zukang Feng"
+__email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
 from xml.dom import minidom
 import sys
 import getopt
+
 
 class ReadNcbiSummary:
     """Parse eSummaryResult xml file from NCBI and put source organism and
@@ -79,17 +80,19 @@ class ReadNcbiSummary:
 
         return dict
 
+
 class ReadNcbiSummaryFile(ReadNcbiSummary):
     """
     """
-    def __init__(self, fileName): 
+    def __init__(self, fileName):
         self._fileName = fileName
         self._doc = ""
         try:
             self._doc = minidom.parse(self._fileName)
-        except Exception as exc:
+        except Exception as exc:  # noqa: F841 pylint: disable=bare-except
             pass
         ReadNcbiSummary.__init__(self, self._doc)
+
 
 class ReadNcbiSummaryString(ReadNcbiSummary):
     """
@@ -99,9 +102,10 @@ class ReadNcbiSummaryString(ReadNcbiSummary):
         self._doc = ""
         try:
             self._doc = minidom.parseString(self._data)
-        except Exception as exc:
+        except Exception as exc:  # noqa: F841 pylint: disable=bare-except
             pass
         ReadNcbiSummary.__init__(self, self._doc)
+
 
 def main(argv):
     opts, args = getopt.getopt(argv, "x:", ["xml="])
@@ -111,6 +115,7 @@ def main(argv):
             dict = obj.GetResult()
             for (k, v) in dict.items():
                 print("%s=%s" % (k, v))
+
 
 if __name__ == "__main__":
     try:

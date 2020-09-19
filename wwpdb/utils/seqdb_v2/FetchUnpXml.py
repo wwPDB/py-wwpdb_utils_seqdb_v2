@@ -11,7 +11,7 @@
 #  13-Mar-2013 jdw Fix initialization issue
 #
 #  29-Jul-2014 jdw WARNING -- Handling of variant seqeuences is incomplete --
-#  02-Sep-2020 zf  added a work-around for isoforms sequence. 
+#  02-Sep-2020 zf  added a work-around for isoforms sequence.
 ##
 
 __author__ = "Zukang Feng"
@@ -21,11 +21,8 @@ __version__ = "V0.001"
 import sys
 import getopt
 import requests
-# To disable warning about not checking ssl certificates. Still needed?
 import urllib3
-urllib3.disable_warnings()
 import traceback
-from xml.dom import minidom
 try:
     # Python 3
     from itertools import zip_longest
@@ -38,6 +35,9 @@ from wwpdb.utils.config.ConfigInfo import ConfigInfo
 import logging
 
 logger = logging.getLogger()
+
+# To disable warning about not checking ssl certificates. Still needed?
+urllib3.disable_warnings()
 
 
 class FetchUnpXml:
@@ -127,7 +127,7 @@ class FetchUnpXml:
                         try:
                             xmlText = self.__RequestUnpXml(idString)
                         except requests.exceptions.HTTPError:
-                            xmlText = self.__RequestUnpXml(idString, fallback = True)
+                            xmlText = self.__RequestUnpXml(idString, fallback=True)
                         #
                     #
                     # filter possible simple text error messages from the failed queries.
@@ -148,8 +148,9 @@ class FetchUnpXml:
                 ok = False
             #
             return ok
-        except:
+        except Exception as e:
             if (self.__verbose):
+                self.__lfh.write("+FetchUnpXml.fetchList() exception %s\n" % str(e))
                 traceback.print_exc(file=self.__lfh)
         return False
 
@@ -205,7 +206,7 @@ class FetchUnpXml:
         "__sublist(3, 'abcdefg', 'x') --> ('a','b','c'), ('d','e','f'), ('g','x','x')"
         return zip_longest(*[iter(iterable)] * n, fillvalue=padvalue)
 
-    def __RequestUnpXml(self, idString, fallback = False):
+    def __RequestUnpXml(self, idString, fallback=False):
         """Execute fetch Request for the input comma separated accession list.
 
            Return xml text for the corresentry  UniProt entries
@@ -218,7 +219,7 @@ class FetchUnpXml:
 
             params['format'] = 'uniprotxml'
             params['style'] = 'raw'
-            #params['Retrieve'] = 'Retrieve'
+            # params['Retrieve'] = 'Retrieve'
             logger.debug("Request %s with data %s" % (self._baseUrl, params))
             reqH = requests.post(self._baseUrl, data=params, verify=False)
             reqH.raise_for_status()
@@ -230,11 +231,11 @@ class FetchUnpXml:
             # Need to do this as UNP service will not take POST - so force GET
             logger.debug("Request with data %s" % params)
             reqH = requests.get(self._baseUrlUnp, params=params,
-                                headers={"Accept":"application/xml"},
+                                headers={"Accept" : "application/xml"},
                                 verify=False)
             reqH.raise_for_status()
-            
-        #data = reqH.read()
+
+        # data = reqH.read()
         data = reqH.text
         return data
 
@@ -243,7 +244,7 @@ class FetchUnpXml:
         """
         isoformUrl = self._baseUrlUnp + "/" + accId + "/isoforms"
         params = {}
-        reqH = requests.get(isoformUrl, params=params, headers={"Accept":"application/xml"}, verify=False)
+        reqH = requests.get(isoformUrl, params=params, headers={"Accept" : "application/xml"}, verify=False)
         reqH.raise_for_status()
         data = reqH.text
         if data.find('errorMessages') >= 0:
@@ -268,8 +269,9 @@ class FetchUnpXml:
                     readxml.addVariant(aId, vId)
                 self.__result.update(readxml.getResult())
             return True
-        except:
+        except Exception as e:
             if (self.__verbose):
+                self.__lfh.write("+FetchUnpXml.__ParseUnpXmlData() exception %s\n" % str(e))
                 traceback.print_exc(file=self.__lfh)
             return False
 
@@ -285,6 +287,8 @@ def main(argv):
             dict = fobj.getResult()
             for (k, v) in dict.items():
                 sys.stdout.write("%-30s = %s\n" % (k, v))
+
+
 if __name__ == "__main__":
     try:
         main(sys.argv[1:])

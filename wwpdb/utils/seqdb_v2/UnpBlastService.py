@@ -6,12 +6,12 @@
 #
 # Updates:
 #
-# Apr 13, 2103  jdw Adjust blast service parameters - 
+# Apr 13, 2103  jdw Adjust blast service parameters -
 #                   Add logging parameters
 ##
 
-__author__  = "Zukang Feng"
-__email__   = "zfeng@rcsb.rutgers.edu"
+__author__ = "Zukang Feng"
+__email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
 import sys
@@ -19,11 +19,11 @@ import time
 import getopt
 
 import requests
-# To disable warning about not checking ssl certificates. Still needed?
 import urllib3
-urllib3.disable_warnings()
-
 import logging
+
+# To disable warning about not checking ssl certificates. Still needed?
+urllib3.disable_warnings()
 
 logger = logging.getLogger()
 
@@ -32,19 +32,19 @@ class UnpBlastService:
     """ Utility class for running blastp service using uniprotkb database from Uniprot site
     """
     def __init__(self, sequence, verbose=False, log=sys.stderr):
-        self._sequence = sequence;
+        self._sequence = sequence
         self._baseUrl = 'https://www.ebi.ac.uk/Tools/services/rest/ncbiblast'
         self._result = None
         self._checkInterval = 10
-        self.__verbose=verbose
-        self.__lfh=log
+        self.__verbose = verbose
+        self.__lfh = log
 
     def RunService(self):
         """Main function for running blastp service"""
         params = {}
         params['email'] = 'zfeng@rcsb.rutgers.edu'
         params['sequence'] = self._sequence
-        #params['gapalign'] = False
+        # params['gapalign'] = False
         params['program'] = 'blastp'
         params['database'] = 'uniprotkb'
         params['stype'] = 'protein'
@@ -54,8 +54,8 @@ class UnpBlastService:
         # Submit the job
         jobid = self._serviceSubmit(params)
         if self.__verbose:
-            self.__lfh.write("+UnpBlastService.RunService() Blast service job %s started at %s\n" % 
-                             (jobid,time.strftime("%Y %m %d %H:%M:%S", time.localtime())))
+            self.__lfh.write("+UnpBlastService.RunService() Blast service job %s started at %s\n" %
+                             (jobid, time.strftime("%Y %m %d %H:%M:%S", time.localtime())))
         time.sleep(5)
         self._result = self._getResultfromServer(jobid)
 
@@ -78,7 +78,7 @@ class UnpBlastService:
             logger.debug("Blast search started. Jobid %s" % jobId)
             return jobId
         except Exception as exc:
-            logger.exception('Exception on submit %s', params)
+            logger.exception('Exception on submit %s %s', (params, str(exc)))
             return ''
 
     def _getResultfromServer(self, jobId):
@@ -109,8 +109,9 @@ class UnpBlastService:
             result = reqH.text
             return result
         except Exception as exc:
-            logger.exception("Retriving request %s" % url)
+            logger.exception("Retriving request %s %s" % (url, str(exc)))
             return ''
+
 
 def main(argv):
     opts, args = getopt.getopt(argv, "", ["sequence=", "outfile="])
@@ -127,6 +128,7 @@ def main(argv):
     service = UnpBlastService(sequence, verbose=True)
     service.RunService()
     service.WriteResultFile(filename)
+
 
 if __name__ == "__main__":
     try:

@@ -9,18 +9,21 @@
 # 03-Jan-2013 jdw adopt new FetchUnpXml class and fetch protocol.
 # 05-Apr-2013 jdw add description and length details from the hit attributes
 # 07-Apr-2013 jdw return isoform variant as a separate item.
-# 19-Apr-2013 jdw restore db_code from the full uniprot entry. 
+# 19-Apr-2013 jdw restore db_code from the full uniprot entry.
 ##
 
-__author__  = "Zukang Feng"
-__email__   = "zfeng@rcsb.rutgers.edu"
+__author__ = "Zukang Feng"
+__email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
-import sys, math, getopt
+import sys
+import math
+import getopt
 from xml.dom import minidom
 from wwpdb.utils.seqdb_v2.FetchUnpXml import FetchUnpXml
 
-class ReadUnpBlastXml:
+
+class ReadUnpBlastXml(object):
     """Read Uniprot blast result xml file and return the list of hits which contains:
 
            dict['db_name']
@@ -54,8 +57,8 @@ class ReadUnpBlastXml:
     """
 
     def __init__(self, doc, verbose=True, log=sys.stderr):
-        self.__verbose=verbose
-        self.__lfh=log
+        self.__verbose = verbose
+        self.__lfh = log
         self._result = self._parse(doc)
 
     def GetResult(self):
@@ -72,11 +75,11 @@ class ReadUnpBlastXml:
                 break
 
         mapping = {}
-        mapping['database']    = 'db_name'
-        mapping['id']          = 'db_code'
-        mapping['ac']          = 'db_accession'
+        mapping['database'] = 'db_name'
+        mapping['id'] = 'db_code'
+        mapping['ac'] = 'db_accession'
         mapping['description'] = 'db_description'
-        mapping['length']      = 'db_length'
+        mapping['length'] = 'db_length'
         #
         resultlist = []
         entry = None
@@ -99,7 +102,6 @@ class ReadUnpBlastXml:
             if node.tagName != 'hit':
                 continue
 
-
             alignlist = self._ProcessAlignmentsTag(node.childNodes, length)
             if alignlist:
                 for align in alignlist:
@@ -108,47 +110,45 @@ class ReadUnpBlastXml:
                     if length:
                         align['query_length'] = length
                     #
-                    isoForm=''
+                    isoForm = ''
                     if ('db_code' in align and (align['db_code'].find('-') != -1)):
-                        tL=align['db_code'].split('-')
-                        if len(tL)>1 and len(tL[1])>0:
-                            isoForm=str(tL[1]).strip()
-                            dbCode=str(tL[0]).strip()
-                            align['db_code']=dbCode
+                        tL = align['db_code'].split('-')
+                        if len(tL) > 1 and len(tL[1]) > 0:
+                            isoForm = str(tL[1]).strip()
+                            dbCode = str(tL[0]).strip()
+                            align['db_code'] = dbCode
                     if ('db_accession' in align and (align['db_accession'].find('-') != -1)):
-                        tL=align['db_accession'].split('-')
-                        if len(tL)>1 and len(tL[1])>0:
-                            isoForm=str(tL[1]).strip()
-                            dbAcc=str(tL[0]).strip()
-                            align['db_accession']=dbAcc
+                        tL = align['db_accession'].split('-')
+                        if len(tL) > 1 and len(tL[1]) > 0:
+                            isoForm = str(tL[1]).strip()
+                            dbAcc = str(tL[0]).strip()
+                            align['db_accession'] = dbAcc
 
-                    align['db_isoform']=isoForm
+                    align['db_isoform'] = isoForm
                     # Get uniprot sequence information
 
                     if 'db_accession' in align:
                         fetchList.append(align['db_accession'])
-                        
 
                     resultlist.append(align)
         #
         # incorporate additional details about each matching sequence entry.
-        #  --  DO NOT OVERWRITE EXISTING ANNOTATION other than db_code -- 
+        #  --  DO NOT OVERWRITE EXISTING ANNOTATION other than db_code --
         #
         if len(fetchList) > 0:
-            fobj = FetchUnpXml(verbose=self.__verbose,log=self.__lfh)
+            fobj = FetchUnpXml(verbose=self.__verbose, log=self.__lfh)
             fobj.fetchList(fetchList)
             eD = fobj.getResult()
             for align in resultlist:
                 if 'db_accession' in align:
-                    acId=align['db_accession']
+                    acId = align['db_accession']
                     if acId in eD:
-                        dict=eD[acId]
+                        dict = eD[acId]
                         for (k, v) in dict.items():
                             if (k in ['db_code']):
-                                align[k] = v                            
+                                align[k] = v
                             elif k not in align:
                                 align[k] = v
-
 
         return resultlist
 
@@ -162,7 +162,7 @@ class ReadUnpBlastXml:
             if total:
                 if total.value == '0':
                     continue
-    
+
             return self._ProcessAlignmentTag(node.childNodes, length)
 
     def _ProcessAlignmentTag(self, nodelist, length):
@@ -183,13 +183,13 @@ class ReadUnpBlastXml:
         for node in nodelist:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
-    
+
             if node.tagName == 'identity':
                 dict['identity'] = node.firstChild.data
             elif node.tagName == 'positives':
                 dict['positive'] = node.firstChild.data
             elif node.tagName == 'gaps':
-                dict['gaps'] = node.firstChild.data 
+                dict['gaps'] = node.firstChild.data
             elif node.tagName == 'pattern':
                 dict['midline'] = node.firstChild.data
             elif node.tagName == 'querySeq':
@@ -229,21 +229,23 @@ class ReadUnpBlastXml:
                 dict['gaps'] = '0'
         return dict
 
+
 class ReadUnpBlastXmlFile(ReadUnpBlastXml):
     """
     """
-    def __init__(self, fileName,verbose=True,log=sys.stderr):
+    def __init__(self, fileName, verbose=True, log=sys.stderr):
         self._fileName = fileName
         self._doc = minidom.parse(self._fileName)
-        ReadUnpBlastXml.__init__(self, self._doc,verbose=verbose,log=log)
+        ReadUnpBlastXml.__init__(self, self._doc, verbose=verbose, log=log)
+
 
 class ReadUnpBlastXmlString(ReadUnpBlastXml):
     """
     """
-    def __init__(self, data,verbose=True,log=sys.stderr):
+    def __init__(self, data, verbose=True, log=sys.stderr):
         self._data = data
         self._doc = minidom.parseString(self._data)
-        ReadUnpBlastXml.__init__(self, self._doc, verbose=verbose,log=log)
+        ReadUnpBlastXml.__init__(self, self._doc, verbose=verbose, log=log)
 
 
 def main(argv):
@@ -256,10 +258,11 @@ def main(argv):
                 for (k, v) in align.items():
                     sys.stdout.write('%s=%s\n' % (k, v))
 
+
 if __name__ == "__main__":
     try:
         main(sys.argv[1:])
         sys.exit(0)
     except Exception as exc:
-        sys.stderr.write( exc )
+        sys.stderr.write(exc)
         sys.exit(1)

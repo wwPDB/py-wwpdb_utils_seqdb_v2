@@ -22,7 +22,7 @@ import string
 import traceback
 import platform
 
-from wwpdb.utils.config.ConfigInfo import ConfigInfo, getSiteId
+from wwpdb.utils.config.ConfigInfo import getSiteId
 from wwpdb.utils.seqdb_v2.FetchUniProtEntry import FetchUniProtEntry
 
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -30,6 +30,7 @@ TOPDIR = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 TESTOUTPUT = os.path.join(HERE, 'test-output', platform.python_version())
 if not os.path.exists(TESTOUTPUT):
     os.makedirs(TESTOUTPUT)
+
 
 @unittest.skip("Until have downloaded uniprot variant file")
 class FetchUniProtEntryTests(unittest.TestCase):
@@ -70,7 +71,7 @@ class FetchUniProtEntryTests(unittest.TestCase):
                             self.__lfh.write("------ No matching isoform for %s\n" % id)
                 else:
                     self.__lfh.write("+WARNING - Fetch failed for id %s\n" % id)
-        except:
+        except:  # noqa: E722 pylint: disable=bare-except
             traceback.print_exc(file=self.__lfh)
             self.fail()
 

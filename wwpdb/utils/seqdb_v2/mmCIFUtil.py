@@ -6,14 +6,15 @@ Version: 001  Initial version
 
 """
 
-__author__  = "Zukang Feng"
-__email__   = "zfeng@rcsb.rutgers.edu"
+__author__ = "Zukang Feng"
+__email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
 import sys
 from mmcif_utils.persist.PdbxPyIoAdapter import PdbxPyIoAdapter as PdbxIoAdapter
 
-class mmCIFUtil:
+
+class mmCIFUtil(object):
     """Using pdbx mmCIF utility to parse mmCIF file
     """
     def __init__(self, verbose=False, log=sys.stderr, filePath=None):
@@ -26,8 +27,8 @@ class mmCIFUtil:
         #
 
     def __read(self):
-        myReader=PdbxIoAdapter(self.__verbose, self.__lfh)
-        ok=myReader.read(pdbxFilePath = self.__filePath)
+        myReader = PdbxIoAdapter(self.__verbose, self.__lfh)
+        ok = myReader.read(pdbxFilePath=self.__filePath)  # noqa: F841
         containerNameList = myReader.getContainerNameList()
         if not containerNameList:
             return
@@ -44,7 +45,7 @@ class mmCIFUtil:
         """Get category values based on category name 'catName'. The results are stored
            in a list of dictionaries with item name as key
         """
-        dList = [] 
+        dList = []
         if not self.__container:
             return dList
         #

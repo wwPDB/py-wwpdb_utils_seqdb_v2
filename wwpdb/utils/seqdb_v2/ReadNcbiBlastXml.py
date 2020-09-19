@@ -6,13 +6,15 @@ Version: 001  Initial version
 
 """
 
-__author__  = "Zukang Feng"
-__email__   = "zfeng@rcsb.rutgers.edu"
+__author__ = "Zukang Feng"
+__email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
 from xml.dom import minidom
-import sys, math, getopt
+import sys
+import getopt
 from wwpdb.utils.seqdb_v2.FetchNcbiXml import FetchNcbiXml
+
 
 class ReadNcbiBlastXml:
     """Read Uniprot blast result xml file and return the list of hits which contains:
@@ -74,8 +76,8 @@ class ReadNcbiBlastXml:
     def _ProcessHitTag(self, nodelist, length):
         resultlist = []
         alignlist = []
-        description =''
-        length=''
+        description = ''
+        length = ''
         gi = ''
         code = ''
         for node in nodelist:
@@ -97,14 +99,14 @@ class ReadNcbiBlastXml:
                 if list:
                     for li in list:
                         alignlist.append(li)
-    
+
         if not gi or not alignlist:
             return resultlist
 
-        #Get genebank sequence information
+        # Get genbank sequence information
         fetchobj = FetchNcbiXml(gi, 'Nucleotide')
         dict = fetchobj.ParseNcbiXmlData()
-        if dict and dict.has_key('taxonomy_id'):
+        if dict and "taxonomy_id" in dict:
             fetchobj = FetchNcbiXml(dict['taxonomy_id'], 'taxonomy')
             dict = fetchobj.ParseNcbiXmlData()
 
@@ -115,10 +117,10 @@ class ReadNcbiBlastXml:
             align['db_description'] = description
             align['db_length'] = length
 
-            #add genebank sequence information
+            # add genbank sequence information
             if dict:
                 for (k, v) in dict.items():
-                    if not align.has_key(k):
+                    if k not in align:
                         align[k] = v
 
             resultlist.append(align)
@@ -150,13 +152,13 @@ class ReadNcbiBlastXml:
         for node in nodelist:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
-    
+
             if node.tagName == 'Hsp_identity':
                 dict['identity'] = node.firstChild.data
             elif node.tagName == 'Hsp_positive':
                 dict['positive'] = node.firstChild.data
             elif node.tagName == 'Hsp_gaps':
-                dict['gaps'] = node.firstChild.data 
+                dict['gaps'] = node.firstChild.data
             elif node.tagName == 'Hsp_midline':
                 dict['midline'] = node.firstChild.data.replace('T', 'U')
             elif node.tagName == 'Hsp_qseq':
@@ -175,17 +177,18 @@ class ReadNcbiBlastXml:
                 dict['alignLen'] = node.firstChild.data
                 dict['match_length'] = node.firstChild.data
 
-        if dict.has_key('identity'):
-             if length:
-                 identity = int(dict['identity']) * 100 / int(length)
-                 if identity < 70:
-                     dict.clear()
-             elif dict.has_key('alignLen'):
-                 identity = int(dict['identity']) * 100 / int(dict['alignLen'])
-                 if identity < 70:
-                     dict.clear()
+        if 'identity' in dict:
+            if length:
+                identity = int(dict['identity']) * 100 / int(length)
+                if identity < 70:
+                    dict.clear()
+            elif 'alignLen' in dict:
+                identity = int(dict['identity']) * 100 / int(dict['alignLen'])
+                if identity < 70:
+                    dict.clear()
 
         return dict
+
 
 class ReadNcbiBlastXmlFile(ReadNcbiBlastXml):
     """
@@ -194,6 +197,7 @@ class ReadNcbiBlastXmlFile(ReadNcbiBlastXml):
         self._fileName = fileName
         self._doc = minidom.parse(self._fileName)
         ReadNcbiBlastXml.__init__(self, self._doc)
+
 
 class ReadNcbiBlastXmlString(ReadNcbiBlastXml):
     """
@@ -215,6 +219,7 @@ def main(argv):
                     print('%s=%s' % (k, v))
                 print('\n')
 
+
 if __name__ == "__main__":
     try:
         main(sys.argv[1:])
@@ -222,4 +227,3 @@ if __name__ == "__main__":
     except Exception as exc:
         print(exc)
         sys.exit(1)
-

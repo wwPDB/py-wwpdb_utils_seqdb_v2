@@ -98,7 +98,7 @@ class ReadUnpXml:
         try:
             self.__variantD[varId] = accessionId
             return True
-        except:
+        except:  # noqa: E722 pylint: disable=bare-except
             return False
 
     def __updateAccessionDict(self):
@@ -113,7 +113,7 @@ class ReadUnpXml:
     def __getVariantList(self, accessionId):
         try:
             return self.__accessionD[accessionId]
-        except:
+        except:  # noqa: E722 pylint: disable=bare-except
             return []
 
     def getResult(self):
@@ -158,7 +158,7 @@ class ReadUnpXml:
                 elif node.tagName == 'sequence':
                     'Get sequence'
                     # Sequence must have newlines removed
-                    dict['sequence'] = node.firstChild.data.replace('\n','')
+                    dict['sequence'] = node.firstChild.data.replace('\n', '')
 
                 elif node.tagName == 'protein':
                     self._findProteinName(node.childNodes, dict)
@@ -410,8 +410,8 @@ class ReadUnpXml:
                     dict['sequence'] = self._ProcessIsoFormSeq(dict['sequence'], refdic[ref])
             # return with seqquence updated = True
             return True, True
-        except:
-            self.__lfh.write("_findIsoFormSeq() failing -- %s\n" % vId)
+        except Exception as e:
+            self.__lfh.write("_findIsoFormSeq() failing -- %s %s\n" % (vId, str(e)))
             traceback.print_exc(file=self.__lfh)
         return False, False
 
@@ -444,7 +444,7 @@ class ReadUnpXml:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
 
-            #id = None
+            # id = None
             id = []
             type = None
             ref = None
@@ -460,7 +460,7 @@ class ReadUnpXml:
                     try:
                         if 'ref' in node1.attributes:
                             ref = node1.attributes['ref'].value
-                    except:
+                    except:  # noqa: E722 pylint: disable=bare-except
                         pass
 
             if len(id) < 1 or not type:
@@ -519,7 +519,7 @@ class ReadUnpXml:
                 if node1.nodeType != node1.ELEMENT_NODE:
                     continue
                 if node1.tagName == 'variation':
-                    variation = node1.firstChild.data.replace('\n','')
+                    variation = node1.firstChild.data.replace('\n', '')
                 elif node1.tagName == 'location':
                     for node2 in node1.childNodes:
                         if node2.nodeType != node2.ELEMENT_NODE:
@@ -584,6 +584,7 @@ def main(argv):
             dict = obj.GetResult()
             for (k, v) in dict.items():
                 print("%s=%s" % (k, v))
+
 
 if __name__ == "__main__":
     try:

@@ -14,7 +14,7 @@ import sys
 import os
 import copy
 import traceback
-from wwpdb.utils.config.ConfigInfo import ConfigInfo, getSiteId
+from wwpdb.utils.config.ConfigInfo import ConfigInfo
 from wwpdb.utils.seqdb_v2.FetchUnpXml import FetchUnpXml
 from wwpdb.utils.seqdb_v2.FastaUtil import FastaUtil
 
@@ -53,7 +53,7 @@ class FetchUniProtEntry:
         try:
             self.__vList, self.__vD = self.__fFa.loadFastaUniProt(fastaFilePath=self.__variantFastaFilePath)
             self.__faLoaded = True
-        except:
+        except:  # noqa: E722 pylint: disable=bare-except
             if (self.__verbose):
                 self.__lfh.write("+FetchUniprotEntry.__loadVariants() failed for file %s\n" % self.__variantFastaFilePath)
                 traceback.print_exc(file=self.__lfh)
@@ -73,12 +73,11 @@ class FetchUniProtEntry:
 
         """
         try:
-            oD = {}
             rD = self.__fXml.getResult()
             for uid, uD in rD.items():
                 if ('db_isoform' in uD):
                     if self.__verbose:
-                            self.__lfh.write("+FetchUniProtEntry.getResult() searching isoform %s\n" % uD['db_isoform'])
+                        self.__lfh.write("+FetchUniProtEntry.getResult() searching isoform %s\n" % uD['db_isoform'])
                     if not self.__faLoaded:
                         self.__loadVariants()
                     if uid in self.__vD:
@@ -89,10 +88,10 @@ class FetchUniProtEntry:
                             self.__lfh.write("+FetchUniProtEntry.getResult() Updating isoform sequences from FASTA data for %s\n" % uid)
                             self.__lfh.write("+FetchUniProtEntry.getResult() Updating isoform description from FASTA  %s\n" % uD['db_isoform_description'])
             return rD
-        except:
+        except:  # noqa: E722 pylint: disable=bare-except
             traceback.print_exc(file=self.__lfh)
     #
 
 
 def main(argv):
-    funp = FetchUniProtEntry()
+    funp = FetchUniProtEntry()  # noqa: F841

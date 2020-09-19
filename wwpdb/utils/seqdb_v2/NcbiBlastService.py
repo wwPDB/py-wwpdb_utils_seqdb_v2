@@ -6,18 +6,19 @@ Version: 001  Initial version
 
 """
 
-__author__  = "Zukang Feng"
-__email__   = "zfeng@rcsb.rutgers.edu"
+__author__ = "Zukang Feng"
+__email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
-import re, os, sys, time
+import re
+import sys
+import time
 import getopt
 import requests
+import logging
 # To disable warning about not checking ssl certificates. Still needed?
 import urllib3
 urllib3.disable_warnings()
-
-import logging
 
 logger = logging.getLogger()
 
@@ -26,7 +27,7 @@ class NcbiBlastService:
     """ Utility class for running blastn service using nt database from NCBI site
     """
     def __init__(self, sequence):
-        self._sequence = sequence;
+        self._sequence = sequence
         self._baseUrl = 'https://www.ncbi.nlm.nih.gov/blast/Blast.cgi'
         self._result = None
         self._checkInterval = 10
@@ -65,7 +66,7 @@ class NcbiBlastService:
             return_data = reqH.text
             return return_data
         except Exception as exc:
-            logger.exception("Submission params=%s" % params)
+            logger.exception("Submission error=%s params=%s" % (str(exc), params))
             return ''
 
     def _GetJobId(self, data):
@@ -82,7 +83,7 @@ class NcbiBlastService:
         end = data.find('QBlastInfoEnd')
 
         if start >= 0 and end > start + 15:
-            list = data[start+15:end].split('\n')
+            list = data[start + 15:end].split('\n')
             for e in list:
                 if e.find('RID') >= 0:
                     list1 = e.strip().split(' ')
@@ -132,7 +133,7 @@ class NcbiBlastService:
         end = data.find('QBlastInfoEnd')
 
         if start >= 0 and end > start + 15:
-            list = data[start+15:end].split('\n')
+            list = data[start + 15:end].split('\n')
             for e in list:
                 if e.find('Status') >= 0:
                     list1 = e.strip().split('=')
@@ -140,6 +141,7 @@ class NcbiBlastService:
                         return list1[1]
 
         return ""
+
 
 def main(argv):
     opts, args = getopt.getopt(argv, "s:o:", ["sequence=", "outfile="])
@@ -158,6 +160,7 @@ def main(argv):
         service = NcbiBlastService(sequence)
         service.RunService()
         service.WriteResultFile(filename)
+
 
 if __name__ == "__main__":
     try:
