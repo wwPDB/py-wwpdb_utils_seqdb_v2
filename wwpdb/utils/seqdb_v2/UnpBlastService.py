@@ -29,11 +29,11 @@ logger = logging.getLogger()
 
 
 class UnpBlastService:
-    """ Utility class for running blastp service using uniprotkb database from Uniprot site
-    """
+    """Utility class for running blastp service using uniprotkb database from Uniprot site"""
+
     def __init__(self, sequence, verbose=False, log=sys.stderr):
         self._sequence = sequence
-        self._baseUrl = 'https://www.ebi.ac.uk/Tools/services/rest/ncbiblast'
+        self._baseUrl = "https://www.ebi.ac.uk/Tools/services/rest/ncbiblast"
         self._result = None
         self._checkInterval = 10
         self.__verbose = verbose
@@ -42,20 +42,19 @@ class UnpBlastService:
     def RunService(self):
         """Main function for running blastp service"""
         params = {}
-        params['email'] = 'zfeng@rcsb.rutgers.edu'
-        params['sequence'] = self._sequence
+        params["email"] = "zfeng@rcsb.rutgers.edu"
+        params["sequence"] = self._sequence
         # params['gapalign'] = False
-        params['program'] = 'blastp'
-        params['database'] = 'uniprotkb'
-        params['stype'] = 'protein'
+        params["program"] = "blastp"
+        params["database"] = "uniprotkb"
+        params["stype"] = "protein"
         # Adjusted to match the defaults on the UniProt web -
-        params['gapalign'] = True
-        params['ext'] = 10
+        params["gapalign"] = True
+        params["ext"] = 10
         # Submit the job
         jobid = self._serviceSubmit(params)
         if self.__verbose:
-            self.__lfh.write("+UnpBlastService.RunService() Blast service job %s started at %s\n" %
-                             (jobid, time.strftime("%Y %m %d %H:%M:%S", time.localtime())))
+            self.__lfh.write("+UnpBlastService.RunService() Blast service job %s started at %s\n" % (jobid, time.strftime("%Y %m %d %H:%M:%S", time.localtime())))
         time.sleep(5)
         self._result = self._getResultfromServer(jobid)
 
@@ -63,14 +62,14 @@ class UnpBlastService:
         return self._result
 
     def WriteResultFile(self, filename):
-        fh = open(filename, 'w')
+        fh = open(filename, "w")
         fh.write(self._result)
         fh.close()
 
     def _serviceSubmit(self, params):
         """Submit job"""
         try:
-            requestUrl = self._baseUrl + '/run/'
+            requestUrl = self._baseUrl + "/run/"
             # Get the data for the options
             reqH = requests.post(requestUrl, data=params, verify=False)
             reqH.raise_for_status()
@@ -78,27 +77,27 @@ class UnpBlastService:
             logger.debug("Blast search started. Jobid %s", jobId)
             return jobId
         except Exception as exc:
-            logger.exception('Exception on submit %s %s', params, str(exc))
-            return ''
+            logger.exception("Exception on submit %s %s", params, str(exc))
+            return ""
 
     def _getResultfromServer(self, jobId):
         """Get result from server"""
         self._clientPoll(jobId)
-        requestUrl = self._baseUrl + '/result/' + jobId + '/xml'
+        requestUrl = self._baseUrl + "/result/" + jobId + "/xml"
         return self._restRequest(requestUrl)
 
     def _clientPoll(self, jobId):
         """Client-side poll"""
-        status = 'PENDING'
-        while status == 'RUNNING' or status == 'PENDING':
+        status = "PENDING"
+        while status == "RUNNING" or status == "PENDING":
             status = self._serviceGetStatus(jobId)
             # print >> sys.stderr, status
-            if status == 'RUNNING' or status == 'PENDING':
+            if status == "RUNNING" or status == "PENDING":
                 time.sleep(self._checkInterval)
 
     def _serviceGetStatus(self, jobId):
         """Get job status"""
-        requestUrl = self._baseUrl + '/status/' + jobId
+        requestUrl = self._baseUrl + "/status/" + jobId
         return self._restRequest(requestUrl)
 
     def _restRequest(self, url):
@@ -110,7 +109,7 @@ class UnpBlastService:
             return result
         except Exception as exc:
             logger.exception("Retriving request %s %s", url, str(exc))
-            return ''
+            return ""
 
 
 def main(argv):
@@ -118,12 +117,12 @@ def main(argv):
     sequence = None
     filename = None
     for opt, arg in opts:
-        if opt == '--sequence':
-            fh = open(arg, 'r')
+        if opt == "--sequence":
+            fh = open(arg, "r")
             sequence = fh.read()
             fh.close()
-        elif opt == '--outfile':
-            filename = arg + '.xml'
+        elif opt == "--outfile":
+            filename = arg + ".xml"
 
     service = UnpBlastService(sequence, verbose=True)
     service.RunService()

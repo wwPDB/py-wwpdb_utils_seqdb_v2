@@ -43,8 +43,8 @@ class FetchUniProtEntry:
         self.__faLoaded = False
         #
         cI = ConfigInfo(self.__siteId)
-        self.__fastaPath = cI.get('SITE_REFDATA_SEQUENCE_DB_PATH')
-        self.__variantFastaFilePath = os.path.join(self.__fastaPath, 'uniprot_sprot_varsplic.fasta')
+        self.__fastaPath = cI.get("SITE_REFDATA_SEQUENCE_DB_PATH")
+        self.__variantFastaFilePath = os.path.join(self.__fastaPath, "uniprot_sprot_varsplic.fasta")
         #
 
         self.__uidList = []
@@ -54,7 +54,7 @@ class FetchUniProtEntry:
             self.__vList, self.__vD = self.__fFa.loadFastaUniProt(fastaFilePath=self.__variantFastaFilePath)
             self.__faLoaded = True
         except:  # noqa: E722 pylint: disable=bare-except
-            if (self.__verbose):
+            if self.__verbose:
                 self.__lfh.write("+FetchUniprotEntry.__loadVariants() failed for file %s\n" % self.__variantFastaFilePath)
                 traceback.print_exc(file=self.__lfh)
 
@@ -66,30 +66,31 @@ class FetchUniProtEntry:
         return self.__fXml.writeUnpXml(filename)
 
     def getResult(self):
-        """ Get the parsed UniProt entry data in a dictionary structure.
+        """Get the parsed UniProt entry data in a dictionary structure.
 
-            Return dictionary has a key of input accession code which references
-            a dictionary containing the entry data.
+        Return dictionary has a key of input accession code which references
+        a dictionary containing the entry data.
 
         """
         try:
             rD = self.__fXml.getResult()
             for uid, uD in rD.items():
-                if ('db_isoform' in uD):
+                if "db_isoform" in uD:
                     if self.__verbose:
-                        self.__lfh.write("+FetchUniProtEntry.getResult() searching isoform %s\n" % uD['db_isoform'])
+                        self.__lfh.write("+FetchUniProtEntry.getResult() searching isoform %s\n" % uD["db_isoform"])
                     if not self.__faLoaded:
                         self.__loadVariants()
                     if uid in self.__vD:
-                        uD['sequence'] = self.__vD[uid]['sequence']
-                        uD['db_isoform_description'] = self.__vD[uid]['description']
-                        uD['isoform_sequence_updated_from_fasta'] = 'Y'
+                        uD["sequence"] = self.__vD[uid]["sequence"]
+                        uD["db_isoform_description"] = self.__vD[uid]["description"]
+                        uD["isoform_sequence_updated_from_fasta"] = "Y"
                         if self.__verbose:
                             self.__lfh.write("+FetchUniProtEntry.getResult() Updating isoform sequences from FASTA data for %s\n" % uid)
-                            self.__lfh.write("+FetchUniProtEntry.getResult() Updating isoform description from FASTA  %s\n" % uD['db_isoform_description'])
+                            self.__lfh.write("+FetchUniProtEntry.getResult() Updating isoform description from FASTA  %s\n" % uD["db_isoform_description"])
             return rD
         except:  # noqa: E722 pylint: disable=bare-except
             traceback.print_exc(file=self.__lfh)
+
     #
 
 

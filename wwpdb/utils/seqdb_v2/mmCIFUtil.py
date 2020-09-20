@@ -15,8 +15,8 @@ from mmcif_utils.persist.PdbxPyIoAdapter import PdbxPyIoAdapter as PdbxIoAdapter
 
 
 class mmCIFUtil(object):
-    """Using pdbx mmCIF utility to parse mmCIF file
-    """
+    """Using pdbx mmCIF utility to parse mmCIF file"""
+
     def __init__(self, verbose=False, log=sys.stderr, filePath=None):
         self.__verbose = verbose
         self.__lfh = log
@@ -43,7 +43,7 @@ class mmCIFUtil(object):
 
     def GetValue(self, catName):
         """Get category values based on category name 'catName'. The results are stored
-           in a list of dictionaries with item name as key
+        in a list of dictionaries with item name as key
         """
         dList = []
         if not self.__container:
@@ -61,8 +61,8 @@ class mmCIFUtil(object):
         for row in rowList:
             tD = {}
             for idxIt, itName in enumerate(itNameList):
-                if row[idxIt] != '?' and row[idxIt] != '.':
-                    tlist = itName.split('.')
+                if row[idxIt] != "?" and row[idxIt] != ".":
+                    tlist = itName.split(".")
                     tD[tlist[1]] = row[idxIt]
             #
             if tD:

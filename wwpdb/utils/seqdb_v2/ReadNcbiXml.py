@@ -20,11 +20,12 @@ import getopt
 
 class ReadNcbiXml:
     """Parse GeneBank entry xml file and put seqeunce, source organism, and
-       taxonomy information into dictionary:
-       dict['sequence']
-       dict['source_scientific']
-       dict['taxonomy_id']
+    taxonomy information into dictionary:
+    dict['sequence']
+    dict['source_scientific']
+    dict['taxonomy_id']
     """
+
     def __init__(self, doc):
         self._dict = {}
         self.__skipSequence = False
@@ -40,31 +41,31 @@ class ReadNcbiXml:
     def _parse(self, doc):
         rdict = {}
         db_code = None
-        entryList = doc.getElementsByTagName('GBSeq_accession-version')
+        entryList = doc.getElementsByTagName("GBSeq_accession-version")
         if entryList:
             for node in entryList:
                 if node.nodeType != node.ELEMENT_NODE:
                     continue
-                if node.tagName == 'GBSeq_accession-version':
+                if node.tagName == "GBSeq_accession-version":
                     db_code = node.firstChild.data
                     break
 
         # Get sequence:
         sequence = None
         if not self.__skipSequence:
-            entryList = doc.getElementsByTagName('GBSeq_sequence')
+            entryList = doc.getElementsByTagName("GBSeq_sequence")
             if entryList:
                 for node in entryList:
                     if node.nodeType != node.ELEMENT_NODE:
                         continue
-                    if node.tagName == 'GBSeq_sequence':
+                    if node.tagName == "GBSeq_sequence":
                         sequence = node.firstChild.data
                         break
 
             if sequence:
                 sequence = self._ProcessRNASequence(sequence)
 
-        entryList = doc.getElementsByTagName('GBFeature')
+        entryList = doc.getElementsByTagName("GBFeature")
         if entryList:
             for node in entryList:
                 if node.nodeType != node.ELEMENT_NODE:
@@ -75,68 +76,68 @@ class ReadNcbiXml:
                     break
 
         if sequence:
-            rdict['sequence'] = sequence
+            rdict["sequence"] = sequence
 
         if db_code:
-            rdict['db_code'] = db_code
+            rdict["db_code"] = db_code
 
         return rdict
 
     def _ProcessRNASequence(self, sequence):
         seq = sequence.upper()
-        seq = seq.replace('T', 'U')
+        seq = seq.replace("T", "U")
         return seq
 
     def _ProcessGBFeatureTag(self, nodeList):
         """Get source information from
-              <GBFeature>
-                <GBFeature_key>source</GBFeature_key>
-                ......
-                <GBFeature_quals>
-                  <GBQualifier>
-                    <GBQualifier_name>organism</GBQualifier_name>
-                    <GBQualifier_value>Thermus thermophilus HB8</GBQualifier_value>
-                  </GBQualifier>
-                  ......
-                  <GBQualifier>
-                    <GBQualifier_name>db_xref</GBQualifier_name>
-                    <GBQualifier_value>taxon:300852</GBQualifier_value>
-                  </GBQualifier>
-                  ......
-                </GBFeature_quals>
-              </GBFeature>
+        <GBFeature>
+          <GBFeature_key>source</GBFeature_key>
+          ......
+          <GBFeature_quals>
+            <GBQualifier>
+              <GBQualifier_name>organism</GBQualifier_name>
+              <GBQualifier_value>Thermus thermophilus HB8</GBQualifier_value>
+            </GBQualifier>
+            ......
+            <GBQualifier>
+              <GBQualifier_name>db_xref</GBQualifier_name>
+              <GBQualifier_value>taxon:300852</GBQualifier_value>
+            </GBQualifier>
+            ......
+          </GBFeature_quals>
+        </GBFeature>
         """
         rdict = {}
-        rtype = ''
+        rtype = ""
         for node in nodeList:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
 
-            if node.tagName == 'GBFeature_key':
+            if node.tagName == "GBFeature_key":
                 rtype = node.firstChild.data
-                if rtype != 'source':
+                if rtype != "source":
                     rdict.clear()
                     return rdict
-            elif node.tagName == 'GBFeature_quals':
+            elif node.tagName == "GBFeature_quals":
                 rdict = self._ProcessGBQualifierTag(node.childNodes)
 
-        if rtype != 'source':
+        if rtype != "source":
             rdict.clear()
 
         return rdict
 
     def _ProcessGBQualifierTag(self, nodeList):
         """Get source_scientific from
-                  <GBQualifier>
-                    <GBQualifier_name>organism</GBQualifier_name>
-                    <GBQualifier_value>Thermus thermophilus HB8</GBQualifier_value>
-                  </GBQualifier>
+               <GBQualifier>
+                 <GBQualifier_name>organism</GBQualifier_name>
+                 <GBQualifier_value>Thermus thermophilus HB8</GBQualifier_value>
+               </GBQualifier>
 
-           and taxonomy_id from
-                  <GBQualifier>
-                    <GBQualifier_name>db_xref</GBQualifier_name>
-                    <GBQualifier_value>taxon:300852</GBQualifier_value>
-                  </GBQualifier>
+        and taxonomy_id from
+               <GBQualifier>
+                 <GBQualifier_name>db_xref</GBQualifier_name>
+                 <GBQualifier_value>taxon:300852</GBQualifier_value>
+               </GBQualifier>
         """
         rdict = {}
         for node in nodeList:
@@ -149,26 +150,26 @@ class ReadNcbiXml:
                 if childnode.nodeType != node.ELEMENT_NODE:
                     continue
 
-                if childnode.tagName == 'GBQualifier_name':
+                if childnode.tagName == "GBQualifier_name":
                     name = childnode.firstChild.data
-                elif childnode.tagName == 'GBQualifier_value':
+                elif childnode.tagName == "GBQualifier_value":
                     value = childnode.firstChild.data
 
             if not name or not value:
                 continue
 
-            if name == 'organism':
-                rdict['source_scientific'] = value
-            elif name == 'db_xref' and value.find('taxon:') >= 0:
-                tlist = value.split(':')
-                rdict['taxonomy_id'] = tlist[1]
+            if name == "organism":
+                rdict["source_scientific"] = value
+            elif name == "db_xref" and value.find("taxon:") >= 0:
+                tlist = value.split(":")
+                rdict["taxonomy_id"] = tlist[1]
 
         return rdict
 
 
 class ReadNcbiXmlFile(ReadNcbiXml):
-    """
-    """
+    """"""
+
     def __init__(self, fileName):
         self._fileName = fileName
         self._doc = ""
@@ -180,8 +181,8 @@ class ReadNcbiXmlFile(ReadNcbiXml):
 
 
 class ReadNcbiXmlString(ReadNcbiXml):
-    """
-    """
+    """"""
+
     def __init__(self, data):
         self._data = data
         self._doc = ""
