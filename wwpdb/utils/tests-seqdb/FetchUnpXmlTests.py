@@ -161,15 +161,13 @@ class FetchUnpXmlTests(unittest.TestCase):
         self.__lfh.write("\nStarting FetchUnpXmlTests testFetchVariantIds\n")
         try:
             fobj = FetchUnpXml(verbose=self.__verbose, log=self.__lfh)
-            fobj = FetchUnpXml(verbose=True, log=self.__lfh)            
             for unpid in self.__unpIdListV:
                 ok = fobj.fetchList([unpid])
                 if ok:
                     fobj.writeUnpXml(os.path.join(TESTOUTPUT, unpid + ".xml"))
                     rdict = fobj.getResult()
                     for (eId, eDict) in rdict.items():
-                        if eId == unpid and ("db_isoform" in eDict or
-                                             len(eDict.get("sequence", "")) > 0):
+                        if eId == unpid and ("db_isoform" in eDict or len(eDict.get("sequence", "")) > 0):
                             if "db_isoform" in eDict:
                                 self.__lfh.write("------ sequence database code  %s has key db_isoform:  %r\n" % (eId, eDict["db_isoform"]))
                             self.__lfh.write("------ sequence database code  %s sequence length %d\n" % (eId, len(self.__cleanString(eDict["sequence"]))))
