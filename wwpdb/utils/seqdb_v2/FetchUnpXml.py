@@ -65,6 +65,8 @@ class FetchUnpXml:
         self.__searchIdList = []
         self.__variantD = {}
         #
+        self.__isoformIdList = []
+        #
         cI = ConfigInfo()
         self.__forcefallback = cI.get('FETCH_UNP_FORCE_FALLBACK', None)
         #
@@ -113,9 +115,9 @@ class FetchUnpXml:
                 return False
             #
             if num:
-                self.__subLists = self.__makeSubLists(self.__maxLength, self.__searchIdList)
+                subLists = self.__makeSubLists(self.__maxLength, self.__searchIdList)
 
-                for subList in self.__subLists:
+                for subList in subLists:
                     idString = ','.join(subList)
                     if (self.__debug):
                         self.__lfh.write("+FetchUnpXml.fetchList() subList %s string %s\n" % (subList, idString))
@@ -181,14 +183,14 @@ class FetchUnpXml:
         self.__variantD = {}
         tList = []
         #
-        for id in self.__idList:
+        for vid in self.__idList:
             # check for variant id
-            idx = id.find('-')
+            idx = vid.find('-')
             if idx == -1:
-                sId = id
+                sId = vid
             else:
-                sId = id[0:idx]
-                self.__variantD[id] = sId
+                sId = vid[0:idx]
+                self.__variantD[vid] = sId
             #
             tList.append(sId)
         #
@@ -220,7 +222,7 @@ class FetchUnpXml:
             params['format'] = 'uniprotxml'
             params['style'] = 'raw'
             # params['Retrieve'] = 'Retrieve'
-            logger.debug("Request %s with data %s" % (self._baseUrl, params))
+            logger.debug("Request %s with data %s", self._baseUrl, params)
             reqH = requests.post(self._baseUrl, data=params, verify=False)
             reqH.raise_for_status()
         else:
@@ -229,7 +231,7 @@ class FetchUnpXml:
             params['accession'] = idString
 
             # Need to do this as UNP service will not take POST - so force GET
-            logger.debug("Request with data %s" % params)
+            logger.debug("Request with data %s", params)
             reqH = requests.get(self._baseUrlUnp, params=params,
                                 headers={"Accept" : "application/xml"},
                                 verify=False)
@@ -277,15 +279,15 @@ class FetchUnpXml:
 
 
 def main(argv):
-    opts, args = getopt.getopt(argv, "i:", ["id="])
+    opts, _args = getopt.getopt(argv, "i:", ["id="])
     for opt, arg in opts:
         if opt in ("-i", "--id"):
-            id = arg
+            uid = arg
             fobj = FetchUnpXml(verbose=True)
-            fobj.fetchList([id])
-            fobj.writeUnpXml(id + '.xml')
-            dict = fobj.getResult()
-            for (k, v) in dict.items():
+            fobj.fetchList([uid])
+            fobj.writeUnpXml(uid + '.xml')
+            rdict = fobj.getResult()
+            for (k, v) in rdict.items():
                 sys.stdout.write("%-30s = %s\n" % (k, v))
 
 

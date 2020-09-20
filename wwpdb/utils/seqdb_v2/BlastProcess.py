@@ -31,7 +31,7 @@ from mmcif.io.PdbxWriter import PdbxWriter
 #
 
 
-class RunBlastPerSeq:
+class RunBlastPerSeq(object):
     """Run blast search and save result into cif file
     """
     def __init__(self, entityId=None, entityInfo=None, taxonomyData=None, verbose=False, log=sys.stderr):
@@ -46,6 +46,8 @@ class RunBlastPerSeq:
         #
         self.__saveBlastResults = False
         self.__blastFileNamePrefix = None
+        #
+        self.__blastPath = "."
         #
         if entityInfo:
             self.__sequence = entityInfo['seq']
@@ -103,18 +105,18 @@ class RunBlastPerSeq:
 
             self.__result.append(result)
 
-    def _Run(self, sequence, type, blastFilePath=None):
+    def _Run(self, sequence, rtype, blastFilePath=None):
         """ Internal method to execute the sequence search according to input polymer type.
         """
         if self.__verbose:
             self.__lfh.write("+INFO (RunBlastPerSeq._Run) Launch search for sequence      = %s\n" % sequence)
-            self.__lfh.write("+INFO (RunBlastPerSeq._Run) Launch search for sequence type = %s\n" % type)
+            self.__lfh.write("+INFO (RunBlastPerSeq._Run) Launch search for sequence type = %s\n" % rtype)
         #
         timeBegin = time.time()
         blast_match_result = []
 
         # run uniprot blast service for protein sequence
-        if type == 'polypeptide':
+        if rtype == 'polypeptide':
             service = UnpBlastService(sequence)
             service.RunService()
             # fetch the raw XML result from the Blast search
@@ -131,7 +133,7 @@ class RunBlastPerSeq:
                 blast_match_result = blastresult.GetResult()
 
         # run ncbi blast service for RNA sequence
-        elif type == 'polyribonucleotide':
+        elif rtype == 'polyribonucleotide':
             service = NcbiBlastService(sequence)
             service.RunService()
             # fetch the raw XML result from the Blast search
@@ -146,7 +148,7 @@ class RunBlastPerSeq:
                 blast_match_result = blastresult.GetResult()
 
         else:
-            self.__lfh.write("+INFO (RunBlastPerSeq._Run) Search failed for unknown type    = %s\n" % type)
+            self.__lfh.write("+INFO (RunBlastPerSeq._Run) Search failed for unknown type    = %s\n" % rtype)
 
         timeProc = time.time()
         if self.__verbose:
@@ -158,19 +160,19 @@ class RunBlastPerSeq:
         return blast_match_result
 
     def _GetTaxonomyTree(self, taxid):
-        dict = {}
-        dict['id'] = taxid
+        rdict = {}
+        rdict['id'] = taxid
         if self.__taxonomyData:
             if taxid in self.__taxonomyData:
                 parent_id = self.__taxonomyData[taxid]
-                dict['p_id'] = parent_id
+                rdict['p_id'] = parent_id
                 if parent_id in self.__taxonomyData:
                     gparent_id = self.__taxonomyData[parent_id]
-                    dict['gp_id'] = gparent_id
+                    rdict['gp_id'] = gparent_id
                 #
             #
         #
-        return dict
+        return rdict
 
     def _SortResult(self, result, taxids, auth_accession_code):
         """ Add a sorting index to the dictionary of sequence correspondence results obtained from
@@ -209,8 +211,8 @@ class RunBlastPerSeq:
                     taxid_match = 1
             #
             identity = identity * 4 + taxid_match
-            list = [identity, i]
-            sorting_list.append(list)
+            ilist = [identity, i]
+            sorting_list.append(ilist)
             #
         #
         sorting_list.sort(key=lambda val: val[0], reverse=True)
@@ -327,7 +329,7 @@ class RunBlastPerSeq:
         return seq
 
 
-class BlastProcess:
+class BlastProcess(object):
     """ Search reference sequence database for sequence correspondences for each polymer entity.
 
         Obtain sequence search target from the the one-letter-code sequences stored in category
@@ -347,7 +349,8 @@ class BlastProcess:
         self.__filePath = cifFilePath
         self.__taxonomyFilePath = taxonomyFilePath
         self.__taxonomyData = {}
-
+        #
+        self.__blastPath = "."
         #
         # Read input file and create dictionary of polymer sequence details
         self.__cifObj = mmCIFUtil(filePath=self.__filePath)
@@ -387,11 +390,11 @@ class BlastProcess:
             ['fragments'] = list of dictionaries for each sequece fragment  containing keys - beg (one based), end, & tax_id
 
         """
-        dict = {}
+        rdict = {}
 
         dList = self.__cifObj.GetValue('entity_poly')
         if not dList:
-            return dict
+            return rdict
 
         for d in dList:
             if 'entity_id' not in d:
@@ -407,28 +410,28 @@ class BlastProcess:
             if len(sequence) < 5:
                 continue
 
-            type = None
+            rtype = None
             if 'type' in d:
-                type = d['type']
-                type = self._FindCorrectType(type)
+                rtype = d['type']
+                rtype = self._FindCorrectType(rtype)
 
-            if not type:
-                type = self._FindTypeFromSeq(sequence)
+            if not rtype:
+                rtype = self._FindTypeFromSeq(sequence)
 
-            if type not in ['polyribonucleotide', 'polypeptide']:
+            if rtype not in ['polyribonucleotide', 'polypeptide']:
                 continue
 
-            if type == 'polyribonucleotide' and len(sequence) < 50:
+            if rtype == 'polyribonucleotide' and len(sequence) < 50:
                 continue
 
-            dict[d['entity_id']] = {}
-            dict[d['entity_id']]['seq'] = sequence
-            dict[d['entity_id']]['type'] = type
+            rdict[d['entity_id']] = {}
+            rdict[d['entity_id']]['seq'] = sequence
+            rdict[d['entity_id']]['type'] = rtype
             fragmentList = self._GetEntityProperty(d['entity_id'], len(sequence))
-            if property:
-                dict[d['entity_id']]['fragments'] = fragmentList
+            if fragmentList:
+                rdict[d['entity_id']]['fragments'] = fragmentList
 
-        return dict
+        return rdict
 
     def _GetEntityProperty(self, entityid, length):
         pList = self._GetTaxID(entityid, length, 'entity_src_gen', 'pdbx_gene_src_ncbi_taxonomy_id')
@@ -438,10 +441,10 @@ class BlastProcess:
             pList = self._GetTaxID(entityid, length, 'pdbx_entity_src_syn', 'ncbi_taxonomy_id')
 
         if not pList:
-            dict = {}
-            dict['beg'] = '1'
-            dict['end'] = str(length)
-            pList.append(dict)
+            rdict = {}
+            rdict['beg'] = '1'
+            rdict['end'] = str(length)
+            pList.append(rdict)
 
         return pList
 
@@ -459,18 +462,18 @@ class BlastProcess:
             if d['entity_id'] != entityid:
                 continue
 
-            dict = {}
+            rdict = {}
             if item in d:
-                dict['taxid'] = d[item]
+                rdict['taxid'] = d[item]
 
             if 'pdbx_beg_seq_num' in d and 'pdbx_end_seq_num' in d:
-                dict['beg'] = d['pdbx_beg_seq_num']
-                dict['end'] = d['pdbx_end_seq_num']
+                rdict['beg'] = d['pdbx_beg_seq_num']
+                rdict['end'] = d['pdbx_end_seq_num']
             else:
-                dict['beg'] = '1'
-                dict['end'] = str(length)
+                rdict['beg'] = '1'
+                rdict['end'] = str(length)
 
-            pList.append(dict)
+            pList.append(rdict)
         #
 
         if pList:
@@ -543,8 +546,8 @@ class BlastProcess:
             f.close()
             #
             # Python3 coming in as bytes from compressed file
-            list = data.decode('utf-8').split('\t|\n')
-            for line in list:
+            tlist = data.decode('utf-8').split('\t|\n')
+            for line in tlist:
                 if not line:
                     continue
                 #
@@ -562,22 +565,22 @@ class BlastProcess:
         seq = re.sub("\\([A-Z]{2,3}\\)", "X", seq)
         return seq
 
-    def _FindCorrectType(self, type):
-        type = type.lower()
-        type = type.strip()
-        if not type:
-            return type
-        if type.find('polydeoxyribonucleotide') >= 0 or \
-           type.find('dna') >= 0:
+    def _FindCorrectType(self, ptype):
+        ptype = ptype.lower()
+        ptype = ptype.strip()
+        if not ptype:
+            return ptype
+        if ptype.find('polydeoxyribonucleotide') >= 0 or \
+           ptype.find('dna') >= 0:
             return 'polydeoxyribonucleotide'
-        elif type == 'polyribonucleotide' or type == 'rna':
+        elif ptype == 'polyribonucleotide' or ptype == 'rna':
             return 'polyribonucleotide'
-        elif type.find('polypeptide') >= 0 or type == 'protein':
+        elif ptype.find('polypeptide') >= 0 or ptype == 'protein':
             return 'polypeptide'
-        elif type == '?' or type == '.':
+        elif ptype == '?' or ptype == '.':
             return ''
         else:
-            return type
+            return ptype
 
     def _FindTypeFromSeq(self, seq):
         if re.search('[DEFHIKLMNPQRSVWY]', seq):
@@ -649,7 +652,7 @@ class BlastProcess:
 
 def main(argv):
 
-    opts, args = getopt.getopt(argv, "i:e:t:", ["ciffile=", "entity=", "taxonomy="])
+    opts, _args = getopt.getopt(argv, "i:e:t:", ["ciffile=", "entity=", "taxonomy="])
 
     ciffile = None
     entity = None
@@ -665,7 +668,7 @@ def main(argv):
     if ciffile:
         try:
             process = BlastProcess(cifFilePath=ciffile, taxonomyFilePath=taxfile)
-            resultlist = process.Run(entityid=entity)
+            resultlist = process.Run(entityId=entity)
             for ii, rst in enumerate(resultlist):
                 sys.stdout.write("%d: %r\n" % (ii, rst))
 

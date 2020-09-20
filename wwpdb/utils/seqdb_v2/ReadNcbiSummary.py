@@ -54,7 +54,7 @@ class ReadNcbiSummary:
            dict['taxonomy_id']
            dict['name']
         """
-        dict = {}
+        rdict = {}
 
         entryList = doc.getElementsByTagName('Item')
         if entryList:
@@ -67,18 +67,18 @@ class ReadNcbiSummary:
                     continue
                 if name.value == 'TaxId':
                     if node.firstChild and node.firstChild.data != '0':
-                        dict['taxonomy_id'] = node.firstChild.data
+                        rdict['taxonomy_id'] = node.firstChild.data
                 elif name.value == 'ScientificName':
                     if node.firstChild:
-                        dict['source_scientific'] = node.firstChild.data
+                        rdict['source_scientific'] = node.firstChild.data
                 elif name.value == 'CommonName':
                     if node.firstChild:
-                        dict['source_common'] = node.firstChild.data
+                        rdict['source_common'] = node.firstChild.data
                 elif name.value == 'Title':
                     if node.firstChild:
-                        dict['name'] = node.firstChild.data
+                        rdict['name'] = node.firstChild.data
 
-        return dict
+        return rdict
 
 
 class ReadNcbiSummaryFile(ReadNcbiSummary):
@@ -89,7 +89,7 @@ class ReadNcbiSummaryFile(ReadNcbiSummary):
         self._doc = ""
         try:
             self._doc = minidom.parse(self._fileName)
-        except Exception as exc:  # noqa: F841 pylint: disable=bare-except
+        except Exception as exc:  # noqa: F841 pylint: disable=unused-variable
             pass
         ReadNcbiSummary.__init__(self, self._doc)
 
@@ -102,18 +102,18 @@ class ReadNcbiSummaryString(ReadNcbiSummary):
         self._doc = ""
         try:
             self._doc = minidom.parseString(self._data)
-        except Exception as exc:  # noqa: F841 pylint: disable=bare-except
+        except Exception as exc:  # noqa: F841 pylint: disable=unused-variable
             pass
         ReadNcbiSummary.__init__(self, self._doc)
 
 
 def main(argv):
-    opts, args = getopt.getopt(argv, "x:", ["xml="])
+    opts, _args = getopt.getopt(argv, "x:", ["xml="])
     for opt, arg in opts:
         if opt in ("-x", "--xml"):
             obj = ReadNcbiSummaryFile(arg)
-            dict = obj.GetResult()
-            for (k, v) in dict.items():
+            rdict = obj.GetResult()
+            for (k, v) in rdict.items():
                 print("%s=%s" % (k, v))
 
 

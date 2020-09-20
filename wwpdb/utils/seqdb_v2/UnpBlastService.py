@@ -75,10 +75,10 @@ class UnpBlastService:
             reqH = requests.post(requestUrl, data=params, verify=False)
             reqH.raise_for_status()
             jobId = reqH.text
-            logger.debug("Blast search started. Jobid %s" % jobId)
+            logger.debug("Blast search started. Jobid %s", jobId)
             return jobId
         except Exception as exc:
-            logger.exception('Exception on submit %s %s', (params, str(exc)))
+            logger.exception('Exception on submit %s %s', params, str(exc))
             return ''
 
     def _getResultfromServer(self, jobId):
@@ -109,12 +109,12 @@ class UnpBlastService:
             result = reqH.text
             return result
         except Exception as exc:
-            logger.exception("Retriving request %s %s" % (url, str(exc)))
+            logger.exception("Retriving request %s %s", url, str(exc))
             return ''
 
 
 def main(argv):
-    opts, args = getopt.getopt(argv, "", ["sequence=", "outfile="])
+    opts, _args = getopt.getopt(argv, "", ["sequence=", "outfile="])
     sequence = None
     filename = None
     for opt, arg in opts:

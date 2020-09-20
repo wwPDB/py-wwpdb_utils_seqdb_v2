@@ -28,7 +28,7 @@ class mmCIFUtil(object):
 
     def __read(self):
         myReader = PdbxIoAdapter(self.__verbose, self.__lfh)
-        ok = myReader.read(pdbxFilePath=self.__filePath)  # noqa: F841
+        _ok = myReader.read(pdbxFilePath=self.__filePath)  # noqa: F841
         containerNameList = myReader.getContainerNameList()
         if not containerNameList:
             return

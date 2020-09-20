@@ -38,7 +38,7 @@ class ReadNcbiXml:
         return self._dict
 
     def _parse(self, doc):
-        dict = {}
+        rdict = {}
         db_code = None
         entryList = doc.getElementsByTagName('GBSeq_accession-version')
         if entryList:
@@ -70,17 +70,17 @@ class ReadNcbiXml:
                 if node.nodeType != node.ELEMENT_NODE:
                     continue
 
-                dict = self._ProcessGBFeatureTag(node.childNodes)
-                if dict:
+                rdict = self._ProcessGBFeatureTag(node.childNodes)
+                if rdict:
                     break
 
         if sequence:
-            dict['sequence'] = sequence
+            rdict['sequence'] = sequence
 
         if db_code:
-            dict['db_code'] = db_code
+            rdict['db_code'] = db_code
 
-        return dict
+        return rdict
 
     def _ProcessRNASequence(self, sequence):
         seq = sequence.upper()
@@ -106,24 +106,24 @@ class ReadNcbiXml:
                 </GBFeature_quals>
               </GBFeature>
         """
-        dict = {}
-        type = ''
+        rdict = {}
+        rtype = ''
         for node in nodeList:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
 
             if node.tagName == 'GBFeature_key':
-                type = node.firstChild.data
-                if type != 'source':
-                    dict.clear()
-                    return dict
+                rtype = node.firstChild.data
+                if rtype != 'source':
+                    rdict.clear()
+                    return rdict
             elif node.tagName == 'GBFeature_quals':
-                dict = self._ProcessGBQualifierTag(node.childNodes)
+                rdict = self._ProcessGBQualifierTag(node.childNodes)
 
-        if type != 'source':
-            dict.clear()
+        if rtype != 'source':
+            rdict.clear()
 
-        return dict
+        return rdict
 
     def _ProcessGBQualifierTag(self, nodeList):
         """Get source_scientific from
@@ -138,7 +138,7 @@ class ReadNcbiXml:
                     <GBQualifier_value>taxon:300852</GBQualifier_value>
                   </GBQualifier>
         """
-        dict = {}
+        rdict = {}
         for node in nodeList:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
@@ -158,12 +158,12 @@ class ReadNcbiXml:
                 continue
 
             if name == 'organism':
-                dict['source_scientific'] = value
+                rdict['source_scientific'] = value
             elif name == 'db_xref' and value.find('taxon:') >= 0:
-                list = value.split(':')
-                dict['taxonomy_id'] = list[1]
+                tlist = value.split(':')
+                rdict['taxonomy_id'] = tlist[1]
 
-        return dict
+        return rdict
 
 
 class ReadNcbiXmlFile(ReadNcbiXml):
@@ -174,7 +174,7 @@ class ReadNcbiXmlFile(ReadNcbiXml):
         self._doc = ""
         try:
             self._doc = minidom.parse(self._fileName)
-        except Exception as exc:  # noqa: F841
+        except Exception as exc:  # noqa: F841 pylint: disable=unused-variable
             pass
         ReadNcbiXml.__init__(self, self._doc)
 
@@ -187,18 +187,18 @@ class ReadNcbiXmlString(ReadNcbiXml):
         self._doc = ""
         try:
             self._doc = minidom.parseString(self._data)
-        except Exception as exc:  # noqa: F841
+        except Exception as exc:  # noqa: F841 pylint: disable=unused-variable
             pass
         ReadNcbiXml.__init__(self, self._doc)
 
 
 def main(argv):
-    opts, args = getopt.getopt(argv, "x:", ["xml="])
+    opts, _args = getopt.getopt(argv, "x:", ["xml="])
     for opt, arg in opts:
         if opt in ("-x", "--xml"):
             obj = ReadNcbiXmlFile(arg)
-            dict = obj.GetResult()
-            for (k, v) in dict.items():
+            rdict = obj.GetResult()
+            for (k, v) in rdict.items():
                 print("%s=%s" % (k, v))
 
 

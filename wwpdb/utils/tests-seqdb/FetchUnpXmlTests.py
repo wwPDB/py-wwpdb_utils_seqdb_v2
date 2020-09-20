@@ -52,18 +52,18 @@ class FetchUnpXmlTests(unittest.TestCase):
     def testFetchIds(self):
         """
         """
-        self.__lfh.write("\nStarting %s %s\n" % (self.__class__.__name__, sys._getframe().f_code.co_name))
+        self.__lfh.write("\nStarting FetchUnpXmlTests testFetchIds\n")
         try:
             fobj = FetchUnpXml(verbose=self.__verbose, log=self.__lfh)
-            for id in self.__unpIdList1:
-                ok = fobj.fetchList([id])
+            for unpid in self.__unpIdList1:
+                ok = fobj.fetchList([unpid])
                 if ok:
-                    fobj.writeUnpXml(os.path.join(TESTOUTPUT, id + '.xml'))
-                    dict = fobj.getResult()
-                    for (k, v) in dict.items():
+                    fobj.writeUnpXml(os.path.join(TESTOUTPUT, unpid + '.xml'))
+                    rdict = fobj.getResult()
+                    for (k, v) in rdict.items():
                         self.__lfh.write("%s=%s" % (k, v))
                 else:
-                    self.__lfh.write("+WARNING - Fetch failed for id %s\n" % id)
+                    self.__lfh.write("+WARNING - Fetch failed for id %s\n" % unpid)
         except:  # noqa: E722 pylint: disable=bare-except
             traceback.print_exc(file=self.__lfh)
             self.fail()
@@ -71,14 +71,14 @@ class FetchUnpXmlTests(unittest.TestCase):
     def testBatchFetch(self):
         """
         """
-        self.__lfh.write("\nStarting %s %s\n" % (self.__class__.__name__, sys._getframe().f_code.co_name))
+        self.__lfh.write("\nStarting FetchUnpXmlTests testBatchFetch\n")
         try:
             fobj = FetchUnpXml(verbose=self.__verbose, log=self.__lfh)
             ok = fobj.fetchList(self.__unpIdList2)
             if ok:
                 fobj.writeUnpXml(os.path.join(TESTOUTPUT, 'batch-fetch.xml'))
-                dict = fobj.getResult()
-                for (k, v) in dict.items():
+                rdict = fobj.getResult()
+                for (k, v) in rdict.items():
                     self.__lfh.write("%s=%s" % (k, v))
             else:
                 self.__lfh.write("+WARNING - Fetch failed for id %s\n" % id)
@@ -97,26 +97,26 @@ class FetchUnpXmlTests(unittest.TestCase):
     def testFetchVariantIds(self):
         """
         """
-        self.__lfh.write("\nStarting %s %s\n" % (self.__class__.__name__, sys._getframe().f_code.co_name))
+        self.__lfh.write("\nStarting FetchUnpXmlTests testFetchVariantIds\n")
         try:
             fobj = FetchUnpXml(verbose=self.__verbose, log=self.__lfh)
-            for id in self.__unpIdListV:
-                ok = fobj.fetchList([id])
+            for unpid in self.__unpIdListV:
+                ok = fobj.fetchList([unpid])
                 if ok:
-                    fobj.writeUnpXml(os.path.join(TESTOUTPUT, id + '.xml'))
-                    dict = fobj.getResult()
-                    for (eId, eDict) in dict.items():
-                        if 'db_isoform' in eDict and eId == id:
+                    fobj.writeUnpXml(os.path.join(TESTOUTPUT, unpid + '.xml'))
+                    rdict = fobj.getResult()
+                    for (eId, eDict) in rdict.items():
+                        if 'db_isoform' in eDict and eId == unpid:
                             self.__lfh.write("------ sequence database code  %s has key db_isoform:  %r\n" % (eId, eDict['db_isoform']))
                             self.__lfh.write("------ sequence database code  %s sequence length %d\n" % (eId, len(self.__cleanString(eDict['sequence']))))
                             # self.__lfh.write("------ sequence database code  %s keys %r\n" % (eId,eDict.keys()))
                             self.__lfh.write("%s\n" % self.__cleanString(eDict['sequence']))
-                        elif eId == id:
-                            self.__lfh.write("------ No matching isoform for %s\n" % id)
+                        elif eId == unpid:
+                            self.__lfh.write("------ No matching isoform for %s\n" % unpid)
                         # for k,v in eDict.items():
                         #    self.__lfh.write("%-25s = %s\n" % (k, v))
                 else:
-                    self.__lfh.write("+WARNING - Fetch failed for id %s\n" % id)
+                    self.__lfh.write("+WARNING - Fetch failed for id %s\n" % unpid)
         except:  # noqa: E722 pylint: disable=bare-except
             traceback.print_exc(file=self.__lfh)
             self.fail()
@@ -124,14 +124,14 @@ class FetchUnpXmlTests(unittest.TestCase):
     def testBatchFetchVariants(self):
         """
         """
-        self.__lfh.write("\nStarting %s %s\n" % (self.__class__.__name__, sys._getframe().f_code.co_name))
+        self.__lfh.write("\nStarting FetchUnpXmlTests testBatchFetchVariants\n")
         try:
             fobj = FetchUnpXml(verbose=self.__verbose, log=self.__lfh)
             ok = fobj.fetchList(self.__unpIdListV)
             if ok:
                 fobj.writeUnpXml(os.path.join(TESTOUTPUT, 'variant-batch-fetch.xml'))
-                dict = fobj.getResult()
-                for (eId, eDict) in dict.items():
+                rdict = fobj.getResult()
+                for (eId, eDict) in rdict.items():
                     self.__lfh.write("\n\n------ Entry id %s\n" % eId)
                     for k, v in eDict.items():
                         self.__lfh.write("%-25s = %s\n" % (k, v))
@@ -163,12 +163,10 @@ if __name__ == '__main__':
     # Run all tests --
     # unittest.main()
     #
-    if False:
-        mySuite = suiteFetchTests()
-        unittest.TextTestRunner(verbosity=2).run(mySuite)
-        #
-    if True:
-        mySuite = suiteFetchVariantTests()
-        unittest.TextTestRunner(verbosity=2).run(mySuite)
+    mySuite = suiteFetchTests()
+    # unittest.TextTestRunner(verbosity=2).run(mySuite)
+    #
+    mySuite = suiteFetchVariantTests()
+    unittest.TextTestRunner(verbosity=2).run(mySuite)
     #
     #

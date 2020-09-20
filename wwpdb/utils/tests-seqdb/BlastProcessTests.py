@@ -45,7 +45,7 @@ class BlastProcessTests(unittest.TestCase):
     def testGetPolymerEntityDetails(self):
         """
         """
-        self.__lfh.write("\nStarting %s %s\n" % (self.__class__.__name__, sys._getframe().f_code.co_name))
+        self.__lfh.write("\nStarting BlastProcessTests testGetPolymerEntityDetails\n")
         try:
             for fn in [self.__testFileCif, self.__testFileFragmentsCif]:
                 cifFilePath = os.path.join(self.__testModelPath, fn)
@@ -67,7 +67,7 @@ class BlastProcessTests(unittest.TestCase):
     def testGetPolymerEntityDetailsFragments(self):
         """
         """
-        self.__lfh.write("\nStarting %s %s\n" % (self.__class__.__name__, sys._getframe().f_code.co_name))
+        self.__lfh.write("\nStarting BlastProcessTests testGetPolymerEntityDetailsFragments\n")
         try:
             for fn in [self.__testFileCif, self.__testFileFragmentsCif]:
                 cifFilePath = os.path.join(self.__testModelPath, fn)
@@ -87,7 +87,7 @@ class BlastProcessTests(unittest.TestCase):
     def testPolymerSearch1(self):
         """
         """
-        self.__lfh.write("\nStarting %s %s\n" % (self.__class__.__name__, sys._getframe().f_code.co_name))
+        self.__lfh.write("\nStarting BlastProcessTests testPolymerSearch1\n")
         try:
             for fn in [self.__testFileCif, self.__testFileFragmentsCif]:
                 cifFilePath = os.path.join(self.__testModelPath, fn)
@@ -97,7 +97,7 @@ class BlastProcessTests(unittest.TestCase):
                                   taxonomyFilePath=taxonomyFilePath,
                                   verbose=self.__verbose, log=self.__lfh)
                 ped = bp.getPolymerEntityDetails()
-                for (entityId, polyDetails) in ped.items():
+                for (entityId, _polyDetails) in ped.items():
                     resultlist = bp.Run(entityId=entityId)
                     self.__lfh.write("\n----Entry %s  Entity Id = %s -------  \n" % (fn, entityId))
                     for ii, rL in enumerate(resultlist):
@@ -111,10 +111,10 @@ class BlastProcessTests(unittest.TestCase):
     def testPolymerSearchAndStore(self):
         """
         """
-        self.__lfh.write("\nStarting %s %s\n" % (self.__class__.__name__, sys._getframe().f_code.co_name))
+        self.__lfh.write("\nStarting BlastProcessTests testPolymerSearchAndStore\n")
         try:
             for fn in [self.__testFileCif, self.__testFileFragmentsCif]:
-                entryId, fExt = os.path.splitext(fn)
+                entryId, _fExt = os.path.splitext(fn)
                 cifFilePath = os.path.join(self.__testModelPath, fn)
                 taxonomyFilePath = os.path.join(self.__testTaxPath,
                                                 self.__taxonomyDataFile)
@@ -123,7 +123,7 @@ class BlastProcessTests(unittest.TestCase):
                                   verbose=self.__verbose, log=self.__lfh)
                 bp.saveBlastResults(blastPath=TESTOUTPUT, blastFileNamePrefix=entryId)
                 ped = bp.getPolymerEntityDetails()
-                for (entityId, polyDetails) in ped.items():
+                for (entityId, _polyDetails) in ped.items():
                     ofn = os.path.join(TESTOUTPUT,
                                        entryId + "_seqdb-match_P" + str(entityId) + ".cif")
                     ok = bp.RunAndSave(entityId=entityId, fName=ofn)

@@ -66,7 +66,7 @@ class NcbiBlastService:
             return_data = reqH.text
             return return_data
         except Exception as exc:
-            logger.exception("Submission error=%s params=%s" % (str(exc), params))
+            logger.exception("Submission error=%s params=%s", str(exc), params)
             return ''
 
     def _GetJobId(self, data):
@@ -83,12 +83,12 @@ class NcbiBlastService:
         end = data.find('QBlastInfoEnd')
 
         if start >= 0 and end > start + 15:
-            list = data[start + 15:end].split('\n')
-            for e in list:
+            qlist = data[start + 15:end].split('\n')
+            for e in qlist:
                 if e.find('RID') >= 0:
-                    list1 = e.strip().split(' ')
-                    if len(list1) == 3:
-                        return list1[2]
+                    qlist1 = e.strip().split(' ')
+                    if len(qlist1) == 3:
+                        return qlist1[2]
 
         return ""
 
@@ -133,18 +133,18 @@ class NcbiBlastService:
         end = data.find('QBlastInfoEnd')
 
         if start >= 0 and end > start + 15:
-            list = data[start + 15:end].split('\n')
-            for e in list:
+            rlist = data[start + 15:end].split('\n')
+            for e in rlist:
                 if e.find('Status') >= 0:
-                    list1 = e.strip().split('=')
-                    if len(list1) == 2:
-                        return list1[1]
+                    rlist1 = e.strip().split('=')
+                    if len(rlist1) == 2:
+                        return rlist1[1]
 
         return ""
 
 
 def main(argv):
-    opts, args = getopt.getopt(argv, "s:o:", ["sequence=", "outfile="])
+    opts, _args = getopt.getopt(argv, "s:o:", ["sequence=", "outfile="])
     sequence = None
     filename = None
     for opt, arg in opts:

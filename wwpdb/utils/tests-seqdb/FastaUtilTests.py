@@ -51,10 +51,10 @@ class FastaUtilTests(unittest.TestCase):
     def testReadFasta(self):
         """
         """
-        self.__lfh.write("\nStarting %s %s\n" % (self.__class__.__name__, sys._getframe().f_code.co_name))
+        self.__lfh.write("\nStarting FastaUtilTests testReadFasts\n")
         try:
             fau = FastaUtil(verbose=self.__verbose, log=self.__lfh)
-            sL, sD = fau.loadFastaUniProt(fastaFilePath=self.__variantFastaFilePath)
+            _sL, sD = fau.loadFastaUniProt(fastaFilePath=self.__variantFastaFilePath)
             for uid in self.__unpIdListV:
                 if uid in sD:
                     self.__lfh.write("id %s accession %s isoform %s description %s gene %s org %s length sequence %d\n" %
@@ -76,7 +76,6 @@ def suiteReadTests():
 
 if __name__ == '__main__':
 
-    if True:
-        mySuite = suiteReadTests()
-        unittest.TextTestRunner(verbosity=2).run(mySuite)
-        #
+    mySuite = suiteReadTests()
+    unittest.TextTestRunner(verbosity=2).run(mySuite)
+    #

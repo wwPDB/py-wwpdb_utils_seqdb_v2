@@ -143,8 +143,8 @@ class ReadUnpBlastXml(object):
                 if 'db_accession' in align:
                     acId = align['db_accession']
                     if acId in eD:
-                        dict = eD[acId]
-                        for (k, v) in dict.items():
+                        edict = eD[acId]
+                        for (k, v) in edict.items():
                             if (k in ['db_code']):
                                 align[k] = v
                             elif k not in align:
@@ -173,61 +173,61 @@ class ReadUnpBlastXml(object):
             if node.tagName != 'alignment':
                 continue
 
-            dict = self._GetMatchAlignment(node.childNodes, length)
-            if dict:
-                resultlist.append(dict)
+            rdict = self._GetMatchAlignment(node.childNodes, length)
+            if rdict:
+                resultlist.append(rdict)
         return resultlist
 
     def _GetMatchAlignment(self, nodelist, query_length):
-        dict = {}
+        rdict = {}
         for node in nodelist:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
 
             if node.tagName == 'identity':
-                dict['identity'] = node.firstChild.data
+                rdict['identity'] = node.firstChild.data
             elif node.tagName == 'positives':
-                dict['positive'] = node.firstChild.data
+                rdict['positive'] = node.firstChild.data
             elif node.tagName == 'gaps':
-                dict['gaps'] = node.firstChild.data
+                rdict['gaps'] = node.firstChild.data
             elif node.tagName == 'pattern':
-                dict['midline'] = node.firstChild.data
+                rdict['midline'] = node.firstChild.data
             elif node.tagName == 'querySeq':
-                dict['queryFrom'] = node.attributes['start'].value
-                dict['queryTo'] = node.attributes['end'].value
-                dict['query'] = node.firstChild.data
+                rdict['queryFrom'] = node.attributes['start'].value
+                rdict['queryTo'] = node.attributes['end'].value
+                rdict['query'] = node.firstChild.data
             elif node.tagName == 'matchSeq':
-                dict['hitFrom'] = node.attributes['start'].value
-                dict['hitTo'] = node.attributes['end'].value
-                dict['subject'] = node.firstChild.data
+                rdict['hitFrom'] = node.attributes['start'].value
+                rdict['hitTo'] = node.attributes['end'].value
+                rdict['subject'] = node.firstChild.data
 
-        if float(dict['identity']) < 70:
-            dict.clear()
-            return dict
+        if float(rdict['identity']) < 70:
+            rdict.clear()
+            return rdict
 
-        if dict:
-            if 'query' in dict:
-                dict['alignLen'] = str(len(dict['query']))
-            if 'queryFrom' in dict and 'queryTo' in dict:
-                length = int(dict['queryTo']) - int(dict['queryFrom']) + 1
-                dict['match_length'] = str(length)
-                if 'identity' in dict:
-                    identity = int(math.ceil(float(length) * float(dict['identity']) / 100.0))
+        if rdict:
+            if 'query' in rdict:
+                rdict['alignLen'] = str(len(rdict['query']))
+            if 'queryFrom' in rdict and 'queryTo' in rdict:
+                length = int(rdict['queryTo']) - int(rdict['queryFrom']) + 1
+                rdict['match_length'] = str(length)
+                if 'identity' in rdict:
+                    identity = int(math.ceil(float(length) * float(rdict['identity']) / 100.0))
                     if query_length:
                         percent = identity * 100 / int(query_length)
                         if percent < 70:
-                            dict.clear()
-                            return dict
-                    dict['identity'] = str(identity)
-                if 'positive' in dict:
-                    positive = int(math.ceil(float(length) * float(dict['positive']) / 100.0))
-                    dict['positive'] = str(positive)
-                if 'gaps' in dict:
-                    gaps = int(math.ceil(float(length) * float(dict['gaps']) / 100.0))
-                    dict['gaps'] = str(gaps)
-            if 'gaps' not in dict:
-                dict['gaps'] = '0'
-        return dict
+                            rdict.clear()
+                            return rdict
+                    rdict['identity'] = str(identity)
+                if 'positive' in rdict:
+                    positive = int(math.ceil(float(length) * float(rdict['positive']) / 100.0))
+                    rdict['positive'] = str(positive)
+                if 'gaps' in rdict:
+                    gaps = int(math.ceil(float(length) * float(rdict['gaps']) / 100.0))
+                    rdict['gaps'] = str(gaps)
+            if 'gaps' not in rdict:
+                rdict['gaps'] = '0'
+        return rdict
 
 
 class ReadUnpBlastXmlFile(ReadUnpBlastXml):
@@ -249,7 +249,7 @@ class ReadUnpBlastXmlString(ReadUnpBlastXml):
 
 
 def main(argv):
-    opts, args = getopt.getopt(argv, "x:", ["xml="])
+    opts, _args = getopt.getopt(argv, "x:", ["xml="])
     for opt, arg in opts:
         if opt in ("-x", "--xml"):
             obj = ReadUnpBlastXmlFile(arg)

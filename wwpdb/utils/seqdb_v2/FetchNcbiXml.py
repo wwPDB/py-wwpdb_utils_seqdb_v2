@@ -30,8 +30,8 @@ class FetchNcbiXml:
     """Using esummary.fcgi utility to get entry summary xml file from NCBI site and
        using ReadNcbiSummary class to parse the result
     """
-    def __init__(self, id, database, apikey=None):
-        self._id = id
+    def __init__(self, qid, database, apikey=None):
+        self._id = qid
         self._database = database
         self._apikey = apikey
         self._baseUrl = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi'
@@ -73,8 +73,8 @@ class FetchNcbiXml:
 class FetchFullNcbiXml:
     """Using efetch.fcgi utility to get and parse the full entry xml file from NCBI site.
     """
-    def __init__(self, id, database, apikey=None):
-        self._id = id
+    def __init__(self, qid, database, apikey=None):
+        self._id = qid
         self._database = database
         self._apikey = apikey
         self._baseUrl = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi'
@@ -111,25 +111,25 @@ class FetchFullNcbiXml:
 
 
 def main(argv):
-    opts, args = getopt.getopt(argv, "i:d:a:", ["id=", "db=", "apikey="])
+    opts, _args = getopt.getopt(argv, "i:d:a:", ["id=", "db=", "apikey="])
 
-    id = None
+    tid = None
     db = None
     apikey = None
     for opt, arg in opts:
         if opt in ("-i", "--id"):
-            id = arg
+            tid = arg
         elif opt in ("-d", "--db"):
             db = arg
         elif opt in ("-a", "--apikey"):
             apikey = arg
 
-    if id and db:
-        fetchobj = FetchNcbiXml(id, db, apikey)
-        # fetchobj = FetchFullNcbiXml(id, db, apikey)
-        fetchobj.WriteNcbiXml(id + '.xml')
-        dict = fetchobj.ParseNcbiXmlData()
-        for (k, v) in dict.items():
+    if tid and db:
+        fetchobj = FetchNcbiXml(tid, db, apikey)
+        # fetchobj = FetchFullNcbiXml(tid, db, apikey)
+        fetchobj.WriteNcbiXml(tid + '.xml')
+        pdict = fetchobj.ParseNcbiXmlData()
+        for (k, v) in pdict.items():
             print("%s=%s" % (k, v))
 
 

@@ -47,8 +47,8 @@ class ReadNcbiBlastXml:
 
     def _parse(self, doc):
         resultlist = []
-        list = doc.getElementsByTagName('Hit')
-        if not list:
+        hlist = doc.getElementsByTagName('Hit')
+        if not hlist:
             return resultlist
 
         length = None
@@ -60,7 +60,7 @@ class ReadNcbiBlastXml:
                 length = node.firstChild.data
                 break
 
-        for node in list:
+        for node in hlist:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
 
@@ -95,9 +95,9 @@ class ReadNcbiBlastXml:
             elif node.tagName == 'Hit_len':
                 length = node.firstChild.data
             elif node.tagName == 'Hit_hsps':
-                list = self._ProcessHit_hspsTag(node.childNodes, length)
-                if list:
-                    for li in list:
+                hlist = self._ProcessHit_hspsTag(node.childNodes, length)
+                if hlist:
+                    for li in hlist:
                         alignlist.append(li)
 
         if not gi or not alignlist:
@@ -105,10 +105,10 @@ class ReadNcbiBlastXml:
 
         # Get genbank sequence information
         fetchobj = FetchNcbiXml(gi, 'Nucleotide')
-        dict = fetchobj.ParseNcbiXmlData()
-        if dict and "taxonomy_id" in dict:
-            fetchobj = FetchNcbiXml(dict['taxonomy_id'], 'taxonomy')
-            dict = fetchobj.ParseNcbiXmlData()
+        pdict = fetchobj.ParseNcbiXmlData()
+        if pdict and "taxonomy_id" in pdict:
+            fetchobj = FetchNcbiXml(pdict['taxonomy_id'], 'taxonomy')
+            pdict = fetchobj.ParseNcbiXmlData()
 
         for align in alignlist:
             align['db_name'] = 'GB'
@@ -118,8 +118,8 @@ class ReadNcbiBlastXml:
             align['db_length'] = length
 
             # add genbank sequence information
-            if dict:
-                for (k, v) in dict.items():
+            if pdict:
+                for (k, v) in pdict.items():
                     if k not in align:
                         align[k] = v
 
@@ -128,10 +128,11 @@ class ReadNcbiBlastXml:
         return resultlist
 
     def _parseID(self, data):
+        # Parses NCBI fasta descriptor. Ignore PDB references
         gi = ''
-        list = data.split('|')
-        if len(list) >= 2 and list[2] != 'pdb':
-            gi = list[1]
+        dlist = data.split('|')
+        if len(dlist) >= 2 and dlist[2] != 'pdb':
+            gi = dlist[1]
         return gi
 
     def _ProcessHit_hspsTag(self, nodelist, length):
@@ -142,52 +143,52 @@ class ReadNcbiBlastXml:
             if node.tagName != 'Hsp':
                 continue
 
-            dict = self._GetMatchAlignment(node.childNodes, length)
-            if dict:
-                resultlist.append(dict)
+            rdict = self._GetMatchAlignment(node.childNodes, length)
+            if rdict:
+                resultlist.append(rdict)
         return resultlist
 
     def _GetMatchAlignment(self, nodelist, length):
-        dict = {}
+        rdict = {}
         for node in nodelist:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
 
             if node.tagName == 'Hsp_identity':
-                dict['identity'] = node.firstChild.data
+                rdict['identity'] = node.firstChild.data
             elif node.tagName == 'Hsp_positive':
-                dict['positive'] = node.firstChild.data
+                rdict['positive'] = node.firstChild.data
             elif node.tagName == 'Hsp_gaps':
-                dict['gaps'] = node.firstChild.data
+                rdict['gaps'] = node.firstChild.data
             elif node.tagName == 'Hsp_midline':
-                dict['midline'] = node.firstChild.data.replace('T', 'U')
+                rdict['midline'] = node.firstChild.data.replace('T', 'U')
             elif node.tagName == 'Hsp_qseq':
-                dict['query'] = node.firstChild.data.replace('T', 'U')
+                rdict['query'] = node.firstChild.data.replace('T', 'U')
             elif node.tagName == 'Hsp_query-from':
-                dict['queryFrom'] = node.firstChild.data
+                rdict['queryFrom'] = node.firstChild.data
             elif node.tagName == 'Hsp_query-to':
-                dict['queryTo'] = node.firstChild.data
+                rdict['queryTo'] = node.firstChild.data
             elif node.tagName == 'Hsp_hseq':
-                dict['subject'] = node.firstChild.data.replace('T', 'U')
+                rdict['subject'] = node.firstChild.data.replace('T', 'U')
             elif node.tagName == 'Hsp_hit-from':
-                dict['hitFrom'] = node.firstChild.data
+                rdict['hitFrom'] = node.firstChild.data
             elif node.tagName == 'Hsp_hit-to':
-                dict['hitTo'] = node.firstChild.data
+                rdict['hitTo'] = node.firstChild.data
             elif node.tagName == 'Hsp_align-len':
-                dict['alignLen'] = node.firstChild.data
-                dict['match_length'] = node.firstChild.data
+                rdict['alignLen'] = node.firstChild.data
+                rdict['match_length'] = node.firstChild.data
 
-        if 'identity' in dict:
+        if 'identity' in rdict:
             if length:
-                identity = int(dict['identity']) * 100 / int(length)
+                identity = int(rdict['identity']) * 100 / int(length)
                 if identity < 70:
-                    dict.clear()
-            elif 'alignLen' in dict:
-                identity = int(dict['identity']) * 100 / int(dict['alignLen'])
+                    rdict.clear()
+            elif 'alignLen' in rdict:
+                identity = int(rdict['identity']) * 100 / int(rdict['alignLen'])
                 if identity < 70:
-                    dict.clear()
+                    rdict.clear()
 
-        return dict
+        return rdict
 
 
 class ReadNcbiBlastXmlFile(ReadNcbiBlastXml):
@@ -209,7 +210,7 @@ class ReadNcbiBlastXmlString(ReadNcbiBlastXml):
 
 
 def main(argv):
-    opts, args = getopt.getopt(argv, "x:", ["xml="])
+    opts, _args = getopt.getopt(argv, "x:", ["xml="])
     for opt, arg in opts:
         if opt in ("-x", "--xml"):
             obj = ReadNcbiBlastXmlFile(arg)

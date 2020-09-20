@@ -93,5 +93,5 @@ class FetchUniProtEntry:
     #
 
 
-def main(argv):
-    funp = FetchUniProtEntry()  # noqa: F841
+def main():
+    _funp = FetchUniProtEntry()  # noqa: F841
