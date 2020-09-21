@@ -129,25 +129,25 @@ jobs:
     - ${{ if startsWith(parameters.tox, 'py') }}:
       - script: |
           export CONFIG_SUPPORT_TOKEN_ENV=$(VAR_CONFIG_SUPPORT_TOKEN_ENV)
-	  export MOCKREQUESTS=1
+          export MOCKREQUESTS=1
           ${{ format('python -m tox -e {0}', parameters.tox) }}
         displayName: 'Running tox task'
     - ${{ if and(not(startsWith(parameters.tox, 'py')), startsWith(parameters.python, '3.8')) }}:
       - script: |
           export CONFIG_SUPPORT_TOKEN_ENV=$(VAR_CONFIG_SUPPORT_TOKEN_ENV)
- 	  export MOCKREQUESTS=1	
+          export MOCKREQUESTS=1 
           ${{ format('python -m tox -e {0}-py38', parameters.tox) }}
         displayName: 'Running tox task'
     - ${{ if and(not(startsWith(parameters.tox, 'py')), startsWith(parameters.python, '3.7')) }}:
       - script: |
           export CONFIG_SUPPORT_TOKEN_ENV=$(VAR_CONFIG_SUPPORT_TOKEN_ENV)
- 	  export MOCKREQUESTS=1	
+          export MOCKREQUESTS=1 
           ${{ format('python -m tox -e {0}-py37', parameters.tox) }}
         displayName: 'Running tox task'
     - ${{ if and(not(startsWith(parameters.tox, 'py')), startsWith(parameters.python, '2.7')) }}:
       - script: |
           export CONFIG_SUPPORT_TOKEN_ENV=$(VAR_CONFIG_SUPPORT_TOKEN_ENV)
- 	  export MOCKREQUESTS=1	
+          export MOCKREQUESTS=1 
           ${{ format('python -m tox -e {0}-py27', parameters.tox) }}
         displayName: 'Runing tox task'
     #
