@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1997-11-01" modified="2019-12-11" version="76">
+<accession>Q90308</accession>
+<name>VIPR_CARAU</name>
+<protein>
+<recommendedName>
+<fullName>Vasoactive intestinal polypeptide receptor</fullName>
+<shortName>VIP receptor</shortName>
+<shortName>VIP-R</shortName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">vipr1</name>
+</gene>
+<organism>
+<name type="scientific">Carassius auratus</name>
+<name type="common">Goldfish</name>
+<dbReference type="NCBI Taxonomy" id="7957"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Ostariophysi</taxon>
+<taxon>Cypriniformes</taxon>
+<taxon>Cyprinidae</taxon>
+<taxon>Carassius</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1997" name="Gen. Comp. Endocrinol." volume="105" first="176" last="185">
+<title>Molecular evolution of vertebrate VIP receptors and functional characterization of a VIP receptor from goldfish Carassius auratus.</title>
+<authorList>
+<person name="Chow B.K.C."/>
+<person name="Yuen T.T.H."/>
+<person name="Chan K.W."/>
+</authorList>
+<dbReference type="PubMed" id="9038250"/>
+<dbReference type="DOI" id="10.1006/gcen.1996.6818"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+</reference>
+<comment type="function">
+<text>This is a receptor for VIP. The activity of this receptor is mediated by G proteins which activate adenylyl cyclase.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Cell membrane</location>
+<topology>Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the G-protein coupled receptor 2 family.</text>
+</comment>
+<dbReference type="EMBL" id="U56391">
+<property type="protein sequence ID" value="AAB05459.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004999">
+<property type="term" value="F:vasoactive intestinal polypeptide receptor activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007166">
+<property type="term" value="P:cell surface receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.1240.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017981">
+<property type="entry name" value="GPCR_2-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036445">
+<property type="entry name" value="GPCR_2_extracell_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001879">
+<property type="entry name" value="GPCR_2_extracellular_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000832">
+<property type="entry name" value="GPCR_2_secretin-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017983">
+<property type="entry name" value="GPCR_2_secretin-like_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001771">
+<property type="entry name" value="GPCR_2_VIP_rcpt_1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00002">
+<property type="entry name" value="7tm_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02793">
+<property type="entry name" value="HRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00249">
+<property type="entry name" value="GPCRSECRETIN"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01154">
+<property type="entry name" value="VIP1RECEPTOR"/>
+</dbReference>
+<dbReference type="SMART" id="SM00008">
+<property type="entry name" value="HormR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF111418">
+<property type="entry name" value="SSF111418"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00649">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00650">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50227">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50261">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_4"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0297">G-protein coupled receptor</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-0807">Transducer</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Vasoactive intestinal polypeptide receptor" id="PRO_0000070331">
+<location>
+<begin position="1"/>
+<end position="447"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="1"/>
+<end position="103"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=1" evidence="2">
+<location>
+<begin position="104"/>
+<end position="128"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="129"/>
+<end position="135"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=2" evidence="2">
+<location>
+<begin position="136"/>
+<end position="155"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="156"/>
+<end position="178"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=3" evidence="2">
+<location>
+<begin position="179"/>
+<end position="202"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="203"/>
+<end position="216"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=4" evidence="2">
+<location>
+<begin position="217"/>
+<end position="238"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="239"/>
+<end position="256"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=5" evidence="2">
+<location>
+<begin position="257"/>
+<end position="280"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="281"/>
+<end position="305"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=6" evidence="2">
+<location>
+<begin position="306"/>
+<end position="325"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="326"/>
+<end position="337"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=7" evidence="2">
+<location>
+<begin position="338"/>
+<end position="357"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="358"/>
+<end position="447"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="17"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="22"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="64"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="91"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="169"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="15"/>
+<end position="36"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="27"/>
+<end position="69"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="50"/>
+<end position="86"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="177"/>
+<end position="247"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="447" mass="50959" checksum="66839E243702554C" modified="1997-11-01" version="1">MCDVVNEIELARARCENKTAGNVTSGCKGMWDIIACWPSAKVGEHVVIPCPNYFRHFSDHHEGNLSKTCTADGWTEMDPMEIAVYCGYNLNGTVDDDSFFRSVKIGYTIGHSVSLISLTTAIVILCMSRKLHCTRNYIHMHLFVSFILKAIAVFVKDAVLYDVIQESDNCSTASVGCKAVIVFFQYCIMASFFWLLVEGLYLHALLAVSFFSERKYFWWYILIGWGGPTIFIMAWSFAKAYFNDVGCWDIIENSDLFWWIIKTPILASILMNFILFICIIRILRQKINCPDIGRNESNQYSRLAKSTLLLIPLFGINFIIFAFIPENIKTELRLVFDLILGSFQGFVVAVLYCFLNGEVQAEIKRKWRRWHLERFLGPDTKYQHPSMGSNGNNFSTQISMLTRCSPKTRRASTCQDETSITVLGSTTMGYGHQNETVKGHEDVREVS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

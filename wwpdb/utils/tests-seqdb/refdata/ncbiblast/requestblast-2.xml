@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.9.0+"/>
+  <commandLine command="/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.9.0+/bin/blastp -db &quot;uniprotkb_swissprot&quot; -query ncbiblast-I20200921-211711-0705-3163486-p1m.sequence  -num_threads 32 -outfmt 11 -out ncbiblast-I20200921-211711-0705-3163486-p1m.archive -matrix BLOSUM62 -max_target_seqs 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -word_size 6 -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="364"/>
+   </sequences>
+   <databases total="1" sequences="563082" letters="202799066">
+    <database number="1" name="uniprotkb_swissprot" type="PROTEIN" created="2020-08-12T07:54:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2020-09-21T21:17:12+01:00" end="2020-09-21T21:17:18+01:00" search="P0Y0M0DT0H0M6.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="SP" id="MALE_ECOLI" ac="P0AEX9" length="396" description="Maltose/maltodextrin-binding periplasmic protein OS=Escherichia coli (strain K12) OX=83333 GN=malE PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1911</score>
+      <bits>740.725</bits>
+      <expectation>0.0</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="364">EEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDAQT</querySeq>
+      <pattern>EEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDAQT</pattern>
+      <matchSeq start="29" end="392">EEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDAQT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="SP" id="MALE_ECO57" ac="P0AEY0" length="396" description="Maltose/maltodextrin-binding periplasmic protein OS=Escherichia coli O157:H7 OX=83334 GN=malE PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1911</score>
+      <bits>740.725</bits>
+      <expectation>0.0</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="364">EEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDAQT</querySeq>
+      <pattern>EEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDAQT</pattern>
+      <matchSeq start="29" end="392">EEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDAQT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="SP" id="MALE_SALTY" ac="P19576" length="396" description="Maltose/maltodextrin-binding periplasmic protein OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=malE PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1838</score>
+      <bits>712.605</bits>
+      <expectation>0.0</expectation>
+      <identity>94.2</identity>
+      <positives>99.2</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="364">EEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDAQT</querySeq>
+      <pattern>EEGKLVIWINGDKGYNGLAEVGKKFE+DTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAE+TPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDL+PNPPKTWEEIPALDKELK KGKSA+MFNLQEPYFTWPLIAADGGYAFK+ENGKYD+KDVGVDNAGAKAGLTFL+D+IKNK+M+ADTDYSIAEAAFNKGETAMTINGPWAWSNID SKVNYGVT+LPTFKG+PSKPFVGVLSAGINAASPNKELAKEFLENYLLTD+GLEAVNKDKPLGAVALKS++E+LAKDPRIAATM+NAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVD ALKDAQ+</pattern>
+      <matchSeq start="29" end="392">EEGKLVIWINGDKGYNGLAEVGKKFEQDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEVTPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLVPNPPKTWEEIPALDKELKVKGKSAIMFNLQEPYFTWPLIAADGGYAFKFENGKYDVKDVGVDNAGAKAGLTFLIDMIKNKNMSADTDYSIAEAAFNKGETAMTINGPWAWSNIDKSKVNYGVTLLPTFKGKPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDQGLEAVNKDKPLGAVALKSFQEQLAKDPRIAATMDNAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDAALKDAQS</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="SP" id="MALE_KLEAE" ac="P18815" length="396" description="Maltose/maltodextrin-binding periplasmic protein OS=Klebsiella aerogenes OX=548 GN=malE PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>1808</score>
+      <bits>701.049</bits>
+      <expectation>0.0</expectation>
+      <identity>93.7</identity>
+      <positives>97.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="363">EEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDAQ</querySeq>
+      <pattern>EEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKV+VEHPDKLEEKFPQVAATGDGPDIIFWAHDRFG YAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYP+AVEALSLIYNKDL+PNPPKTWEEIPALDK LKAKGKSALMFNLQEPYFTWPLIAADGGYAFK+ENGKYD+K+VGVD+AGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNID SKVNYGVT+LPTFKG+PSKPFVGVLSAGINAASPNKELAKEFLENYL+TD GLEAVN DKPLGAVA+KS++E+L KDPRIAATM NAQKGEIMPNIPQMSAFWYAVRTAVINAAS RQTVD ALKDAQ</pattern>
+      <matchSeq start="29" end="391">EEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVSVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGAYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPVAVEALSLIYNKDLVPNPPKTWEEIPALDKALKAKGKSALMFNLQEPYFTWPLIAADGGYAFKFENGKYDVKNVGVDSAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDKSKVNYGVTLLPTFKGKPSKPFVGVLSAGINAASPNKELAKEFLENYLMTDPGLEAVNNDKPLGAVAVKSFQEKLEKDPRIAATMANAQKGEIMPNIPQMSAFWYAVRTAVINAASARQTVDAALKDAQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="SP" id="MDXE_BACSU" ac="O06989" length="417" description="Maltodextrin-binding protein MdxE OS=Bacillus subtilis (strain 168) OX=224308 GN=mdxE PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>389</score>
+      <bits>154.451</bits>
+      <expectation>6.7E-42</expectation>
+      <identity>30.0</identity>
+      <positives>48.2</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <querySeq start="2" end="362">EGKLVIWINGDKGYNGLAE-VGKKFEKDTGIKVTVEHPDKLE--EKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPD--KAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKE-----LKAKGKS-ALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIA----EAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTF-KGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDK---PLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDA</querySeq>
+      <pattern>+GK V+ ++ ++ Y    E +  KFEK+  + V +      E  E  P     G+ PD++  A+DR GG  Q G L +I P   K+F DK        V  +GK+   P+ +E L L YNKDLL   PKT++++  L ++        KGKS   +    + Y ++ L+A  GGY F  +NG  D  D+G++N GA   + +     +        D S A    +  F +G+ A  I GPW+ +N   +K+NYG   +PT   G+   PF G      +  +   ELA+++LE Y   D    A  +D    P    A K  +E+  K+   +A ++  +     PNIP+M+  W    + + +AASG+++   +  DA</pattern>
+      <matchSeq start="33" end="403">DGKKVLTVSVEETYKEYIESIKTKFEKENDVTVKIVEKQMFEQLEALPLDGPAGNAPDVMLAAYDRIGGLGQQGHLLDIKPSNTKSFGDK----EMQQVTVDGKVYGMPLVIETLILYYNKDLLKTAPKTFKDLEKLTEDPRFAFASEKGKSTGFLAKWTDFYMSYGLLAGYGGYVFG-KNGT-DSGDIGLNNKGAVEAVKYAEKWFETYWPKGMQDNSSADDFIQQMFLEGKAAAIIGGPWSAANYKEAKLNYGAAPIPTLPNGEEYAPFAGGKGWVASKYTKEPELAEKWLE-YAANDANAYAFYEDTNEVPANTAARKKADEQ--KNELTSAVIKQYETATPTPNIPEMAEVWTGAESLIFDAASGKKSTQTSANDA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="SP" id="MALX_STRR6" ac="P59214" length="423" description="Maltose/maltodextrin-binding protein OS=Streptococcus pneumoniae (strain ATCC BAA-255 / R6) OX=171101 GN=malX PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>383</score>
+      <bits>152.14</bits>
+      <expectation>5.5E-41</expectation>
+      <identity>31.3</identity>
+      <positives>51.1</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="364">EEGKLVIWINGDKGYNG-LAEVGKKFEKDTGIKVTVEHPDKLE--EKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEIT-PDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELK-----AKGKS-ALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKN--KHMNADTDYS--IAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTF-KGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGA-VALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDAQT</querySeq>
+      <pattern>E  +L +++  D+GY   + EV K +EK+ G+KVT++  D L   +K      +G+ PD++   +DR G     G L+E+   D A  D        A   NGK+   P  +E+L + YNKDL+ + PKT+ ++  L K+ K       GK+ A + +    Y+T+ L+A +G Y F  +NGK D KD+G+ N G+ AG+ +     +   K M  DT+ +  + +  F +G+TA  I+GPW       +KVNYGV  +PT   G+    F G  +  I  A  N E +++F++  + T++     +K   + A    +SY E    D    A ++  +  + +PNI QMSA W   +  + +A SG++    A  DA T</pattern>
+      <matchSeq start="40" end="411">EVKELTVYV--DEGYKSYIEEVAKAYEKEAGVKVTLKTGDALGGLDKLSLDNQSGNVPDVMMAPYDRVGSLGSDGQLSEVKLSDGAKTDDTTKSLVTAA--NGKVYGAPAVIESLVMYYNKDLVKDAPKTFADLENLAKDSKYAFAGEDGKTTAFLADWTNFYYTYGLLAGNGAYVFG-QNGK-DAKDIGLANDGSIAGINYAKSWYEKWPKGMQ-DTEGAGNLIQTQFQEGKTAAIIDGPWKAQAFKDAKVNYGVATIPTLPNGKEYAAFGGGKAWVIPQAVKNLEASQKFVDFLVATEQQKVLYDKTNEIPANTEARSYAEG-KNDELTTAVIKQFKNTQPLPNISQMSAVWDPAKNMLFDAVSGQKDAKTAANDAVT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="SP" id="MALX_STRPN" ac="P59213" length="423" description="Maltose/maltodextrin-binding protein OS=Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4) OX=170187 GN=malX PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>379</score>
+      <bits>150.599</bits>
+      <expectation>2.1E-40</expectation>
+      <identity>31.1</identity>
+      <positives>50.8</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="364">EEGKLVIWINGDKGYNG-LAEVGKKFEKDTGIKVTVEHPDKLE--EKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEIT-PDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELK-----AKGKS-ALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKN--KHMNADTDYS--IAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTF-KGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGA-VALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDAQT</querySeq>
+      <pattern>E  +L +++  D+GY   + EV K +EK+ G+KVT++  D L   +K      +G+ PD++   +DR G     G L+E+   D A  D        A   NGK+   P  +E+L + YNKDL+ + PKT+ ++  L K+ K       GK+ A + +    Y+T+ L+A +G Y F  +NGK D KD+G+ N G+  G+ +     +   K M  DT+ +  + +  F +G+TA  I+GPW       +KVNYGV  +PT   G+    F G  +  I  A  N E +++F++  + T++     +K   + A    +SY E    D    A ++  +  + +PNI QMSA W   +  + +A SG++    A  DA T</pattern>
+      <matchSeq start="40" end="411">EVKELTVYV--DEGYKSYIEEVAKAYEKEAGVKVTLKTGDALGGLDKLSLDNQSGNVPDVMMAPYDRVGSLGSDGQLSEVKLSDGAKTDDTTKSLVTAA--NGKVYGAPAVIESLVMYYNKDLVKDAPKTFADLENLAKDSKYAFAGEDGKTTAFLADWTNFYYTYGLLAGNGAYVFG-QNGK-DAKDIGLANDGSIVGINYAKSWYEKWPKGMQ-DTEGAGNLIQTQFQEGKTAAIIDGPWKAQAFKDAKVNYGVATIPTLPNGKEYAAFGGGKAWVIPQAVKNLEASQKFVDFLVATEQQKVLYDKTNEIPANTEARSYAEG-KNDELTTAVIKQFKNTQPLPNISQMSAVWDPAKNMLFDAVSGQKDAKTAANDAVT</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="SP" id="CYCB_BACSU" ac="O07009" length="421" description="Cyclodextrin-binding protein OS=Bacillus subtilis (strain 168) OX=224308 GN=cycB PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>375</score>
+      <bits>149.058</bits>
+      <expectation>7.5E-40</expectation>
+      <identity>29.7</identity>
+      <positives>47.6</positives>
+      <gaps>4</gaps>
+      <strand>none/none</strand>
+      <querySeq start="4" end="362">KLVIWINGDKGYNGLAEVGKKFEKDTGIKV-TVEHP-DKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNP--PKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAF-KYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNA----DTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFK-GQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEA-VNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDA</querySeq>
+      <pattern>+LV+W + +K  NG+ +    FEK+  +KV  VE P  K  E        G GPD++    D+ G     GLL E+   K  Q      +  +   + KL   P AVE   L YNKDL+     PKT EE     K+     K   +    + Y+   +++  GGY F K ++G Y+  D+G++N GA  G   +    K+    A    +   ++ E+ F +G+ A  I+GPW       + +NYG+T LP  + G+    F+GV S  ++A S N+ELA+E L  +L  ++  +    + K + AV   + +  + K     A  E ++  E  PNIP+M+  W    +A+   A+G+    +AL  A</pattern>
+      <matchSeq start="39" end="406">ELVVWEDKEKS-NGIKDAVAAFEKEHDVKVKVVEKPYAKQIEDLRMDGPAGTGPDVLTMPGDQIGTAVTEGLLKELHVKKDVQSLYTDASIQSQMVDQKLYGLPKAVETTVLFYNKDLITEKELPKTLEEWYDYSKKTADGSKFGFLALFDQIYYAESVMSGYGGYIFGKAKDGSYNPSDIGINNEGAVKGAALIQKFYKDGLFPAGIIGEQGINVLESLFTEGKAAAIISGPWNVEAFSNAGINYGITKLPKLENGKNMSSFIGVKSYNVSAFSKNEELAQE-LAVFLANEKNSKTRYEETKEVPAVKSLANDPAIMKSEAARAVTEQSRFSEPTPNIPEMNEIWTPADSALQTVATGKADPKQALDQA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="SP" id="MALE_PYRFU" ac="P58300" length="434" description="Maltotriose-binding protein OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=malE PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>349</score>
+      <bits>139.043</bits>
+      <expectation>4.8E-36</expectation>
+      <identity>28.1</identity>
+      <positives>46.3</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <querySeq start="3" end="356">GKLVIWI----NGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITP--DKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKEL--KAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTF----KGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEE-ELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVD</querySeq>
+      <pattern>GK+VIW     N  + +  LAE       +  +++  E    LE+       TG GPD+  WAHD  G +A++GLL  I     +   ++  P   DA++Y G   A P A E +++IYNK+++  PPKT++E+ A+ ++    A  K  + + +   YF   +  A GGY F  +      +  G+D      G  F    I   +M    DY+  ++ F +G   M +NGPW+ +++  + +N+GV  LP      K    +P+ GV      A   NK+ A +F +    ++E ++ +  +     V  K  ++ E+  DP I    +  Q   +MP  P+MSA W  V  A+       Q  D</pattern>
+      <matchSeq start="59" end="416">GKVVIWHAMQPNELEVFQSLAEEYMALCPE--VEIVFEQKPNLEDALKAAIPTGQGPDLFIWAHDWIGKFAEAGLLEPIDEYVTEDLLNEFAPMAQDAMQYKGHYYALPFAAETVAIIYNKEMVSEPPKTFDEMKAIMEKYYDPANEKYGIAWPI-NAYFISAIAQAFGGYYFDDKT-----EQPGLDKPETIEGFKFFFTEIW-PYMAPTGDYNTQQSIFLEGRAPMMVNGPWSINDVKKAGINFGVVPLPPIIKDGKEYWPRPYGGVKLIYFAAGIKNKDAAWKFAKWLTTSEESIKTLALELGYIPVLTKVLDDPEIKNDPVIYGFGQAVQHAYLMPKSPKMSAVWGGVDGAINEILQDPQNAD</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="SP" id="MALE_PYRAB" ac="Q9V297" length="453" description="Maltotriose-binding protein OS=Pyrococcus abyssi (strain GE5 / Orsay) OX=272844 GN=malE PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>335</score>
+      <bits>133.65</bits>
+      <expectation>6.1E-34</expectation>
+      <identity>28.0</identity>
+      <positives>44.8</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <querySeq start="3" end="361">GKLVIWINGDKG----YNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAFQD----KLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEI-PALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTF----KGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKS---YEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKD</querySeq>
+      <pattern>GK+VIW N        +  LAE       D  +++  E    LE         G GPD+  WAHD  G +A++GLL  I  D+   D    K  P   +A+ Y G   A P A E +++IYNK ++  PPKT++E+   ++K      +   +      YF   +  A GGY F  +      +  G+D      G  F  + I   +M    DY+  ++ F +G   + +NGPW+  ++  + +++GV  LP      K    +P+ GV      A + NK+ A +F++ +    E ++ +  D  LG + + S    + E+  DP I    +  Q   +MP  P+M A W  V+ A          +DE LKD</pattern>
+      <matchSeq start="78" end="430">GKVVIWHNMQPNELQVFQSLAEEYMAMCPD--VEIVFEQKPDLENALKVAIPAGQGPDLFIWAHDWIGKFAEAGLLEPI--DEYITDDLLQKFAPMAREAIEYKGHYYALPFAAETVAMIYNKKIVSEPPKTFDELKEVMEKYYDPNNEKYGIAWPINAYFISAIAQAFGGYYFDDKT-----EQPGLDKPETIEGFKFFFENIW-PYMAPTADYNTQQSIFLEGRAPIMVNGPWSIGSVKDAGIDFGVAPLPPIIKDGKEYWPRPYGGVKLIYFAAGTHNKDAAWKFVKWFTTNPEVIKQLALD--LGYIPVLSEVLNDPEIKNDPVIYGFGQAVQHAYLMPKSPKMGAVWGGVQGA----------IDEILKD</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="SP" id="MALE_PHOLU" ac="P41130" length="73" description="Maltose-binding periplasmic protein (Fragment) OS=Photorhabdus luminescens OX=29488 GN=malE PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>206</score>
+      <bits>83.9593</bits>
+      <expectation>3.6E-19</expectation>
+      <identity>90.2</identity>
+      <positives>97.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="41">EEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKL</querySeq>
+      <pattern>EEGKLVIWINGDKGYNGLA+VG+KFEKDTG+ VTVEHPDKL</pattern>
+      <matchSeq start="33" end="73">EEGKLVIWINGDKGYNGLAQVGEKFEKDTGVNVTVEHPDKL</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="SP" id="MALE_THELN" ac="Q7LYW7" length="450" description="Trehalose/maltose-binding protein MalE OS=Thermococcus litoralis (strain ATCC 51850 / DSM 5473 / JCM 8560 / NS-C) OX=523849 GN=malE PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>204</score>
+      <bits>83.1889</bits>
+      <expectation>2.9E-16</expectation>
+      <identity>28.6</identity>
+      <positives>45.1</positives>
+      <gaps>14</gaps>
+      <strand>none/none</strand>
+      <querySeq start="94" end="363">AVRYNGKLIAYPIAVEALSLIYNKDLLPN-----PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWP-------------LIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSI-----AEAAFNKGETAMTINGPWAWS--NIDTSKVN--YGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKE---FLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKDP---RIAATMENAQKGEIMPNIPQMSAFWYA-VRTAVINAASGRQTVDEALKDAQ</querySeq>
+      <pattern>A +  GKL A P+ ++A  L Y KDLL       PP+TW+E+  + +++++  +     N     F W               + ++GG   ++++GK+       +N  A   L F+VDLI    ++    Y+          F +G  A   N P+AW   N D S V    GV  LP F G  S   +G    GI+  S NK LA E   F+E+Y +  +G  A+N     G V +      ++K P    + A  ENA    I+P  PQ+S      V +A+    S ++ +D+A K+A+</pattern>
+      <matchSeq start="148" end="443">ADKQGGKLYALPVYIDAGLLYYRKDLLEKYGYSKPPETWQELVEMAQKIQSGERET---NPNFWGFVWQGKQYESLVCDFVEYVYSNGGSLGEFKDGKWVPTLNKPENVEA---LQFMVDLIHKYKISPPNTYTEMTEEPVRLMFQQGNAAFERNWPYAWGLHNADDSPVKGKVGVAPLPHFPGHKSAATLGGWHIGISKYSDNKALAWEFVKFVESYSV-QKGF-AMNLGWNPGRVDVYDDPAVVSKSPHLKELRAVFENAVPRPIVPYYPQLSEIIQKYVNSALAGKISPQEALDKAQKEAE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="SP" id="YURO_BACSU" ac="O32156" length="422" description="Uncharacterized ABC transporter extracellular-binding protein YurO OS=Bacillus subtilis (strain 168) OX=224308 GN=yurO PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>154</score>
+      <bits>63.929</bits>
+      <expectation>5.7E-10</expectation>
+      <identity>26.6</identity>
+      <positives>41.1</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <querySeq start="20" end="279">EVGKKFEKD---TGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFG-----GYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLP----NPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGK-----YDIKDVGVDNAGAKAGLTFLVDLIK--NKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQ--PSKPFVGVLSA-GINAASPNKELAKEFLE</querySeq>
+      <pattern>EV K+FEKD     I++     D  ++K   +  T   PDI F   D F      G     L +    D  +  +L         Y  K    P  ++A S  YNKD+      +PPKTW+E+  + K+LK  G + + F  +    TW +    G    +  + K     Y+ K     + G    L  L +L+   NKH+N+  D+      F  G++AM I    A   +    VN G+   P   GQ   S+   G      I++ + + + A EFL+</pattern>
+      <matchSeq start="51" end="326">EVVKEFEKDHPDIDIQIEAVLNDSYKDKIKVMLGTTSPPDIYFSWSDEFAFKFIRGNKALDLSSYYKNDTDWSSQLVQSQITPFTYENKQYGVPWQMDAKSFFYNKDIFQKLNLDPPKTWDELIDVSKKLKEHGYTPISFGTKA---TWTISHYIGTLNQRMVDEKTREKDYNAKTGEFTDEGYVKALEKLQELMPYFNKHVNS-VDHEYVRQQFKSGKSAM-IYAETAEIKL-VEPVNLGMFPFPEISGQKGSSEALTGAPEGFMISSRTKHPKEAMEFLQ</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="SP" id="UGPB_RHIME" ac="Q926H8" length="430" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Rhizobium meliloti (strain 1021) OX=266834 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>136</score>
+      <bits>56.9954</bits>
+      <expectation>1.0E-7</expectation>
+      <identity>24.7</identity>
+      <positives>38.6</positives>
+      <gaps>17</gaps>
+      <strand>none/none</strand>
+      <querySeq start="90" end="362">FTWDAVRY-----------NGKLIAYPIAVEALSLIYNKDL-------LPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTF---------LVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQ-PSKPFVGVLSAGINAASPNKEL--AKEFLENYLLTDE---GLEAVNKDKPLGAVALKS------YEEELAKDPRIAATMENA----QKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDA</querySeq>
+      <pattern>FT+D  +Y           +G ++++P    +  L YNKD        + NPPKTW E+    K++K  G  A    +   + TW  I  +   A  + N  Y   + G+     K  +           + DL K+         S A+  F  GE A+         +I  S VNYG+  LP ++G  P     G  S  + A   ++E     EF  N+L   E    L  V+   P+   A +       YE+   ++  +   M  A     KG  + N+PQ+         A++   SG+Q    AL  A</pattern>
+      <matchSeq start="111" end="416">FTFDKSQYLPGIVAYYSKPDGTMLSFPYNSSSPILYYNKDAFQKAGLNVDNPPKTWPEVFEAAKKIKTSG--AAPCGMTSTWLTW--IQTENFAA--WNNVPYGTNENGLGGTDVKLQINAPLYVEHFQAIADLAKDGAFRYGGRTSEAKQLFTSGECAILTESSGGLGDIAKSGVNYGIGQLPYYEGHGPQNTIPGGASLWVFAGKSDEEYKGVAEFF-NFLSQTEIQAKLHQVSGYMPVTMAAYEETKKSGFYEKNPGRETPLLQMMGKAPTENSKGVRLVNLPQVRDILNEEFEAML---SGQQDAKTALDKA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="SP" id="UGPB_BRUME" ac="Q8YCA7" length="433" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Brucella melitensis biotype 1 (strain 16M / ATCC 23456 / NCTC 10094) OX=224914 GN=ugpB PE=3 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>130</score>
+      <bits>54.6842</bits>
+      <expectation>5.7E-7</expectation>
+      <identity>25.1</identity>
+      <positives>39.6</positives>
+      <gaps>12</gaps>
+      <strand>none/none</strand>
+      <querySeq start="98" end="312">NGKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTF---------LVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQ-PSKPFVGVLSAGINAASPN---KELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKD</querySeq>
+      <pattern>+G ++++P    +  L YNKD           PPKTW E+    K++KA G S   F     + TW  I  +   A  + N  Y   + G+     K  +           + DL K+         S A+  F  GE AM         ++  S +NYG+  LP ++G  P     G  S  + A   +   K +A+ F  N+L   +    +++      V L +YEE    D</pattern>
+      <matchSeq start="135" end="361">DGTMLSFPYNSSSPILYYNKDAFKKAGLDENKPPKTWPEVFEAAKKIKASGASPCGFT--STWLTW--IQTENFAA--WNNVPYGTNENGLAGTDVKLEINSPLYVEHFQAIADLAKDGTFRYGGRTSEAKQLFTSGECAMLTESSGGLGDVVKSGINYGIGQLPYYEGHGPQNTIPGGASLWVFAGLSDDQYKGIAEFF--NFLSQSKIQVKLHEKSGYLPVTLAAYEETKKSD</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="SP" id="UGPB_BRUSU" ac="Q8FW10" length="433" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Brucella suis biovar 1 (strain 1330) OX=204722 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>129</score>
+      <bits>54.299</bits>
+      <expectation>7.6E-7</expectation>
+      <identity>25.1</identity>
+      <positives>39.6</positives>
+      <gaps>12</gaps>
+      <strand>none/none</strand>
+      <querySeq start="98" end="312">NGKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTF---------LVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQ-PSKPFVGVLSAGINAASPN---KELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKD</querySeq>
+      <pattern>+G ++++P    +  L YNKD           PPKTW E+    K++KA G S   F     + TW  I  +   A  + N  Y   + G+     K  +           + DL K+         S A+  F  GE AM         ++  S +NYG+  LP ++G  P     G  S  + A   +   K +A+ F  N+L   +    +++      V L +YEE    D</pattern>
+      <matchSeq start="135" end="361">DGTMLSFPYNSSSPILYYNKDAFKKAGLDENKPPKTWPEVFEAAKKIKASGASPCGFT--STWLTW--IQTENFAA--WNNVPYGTNENGLAGTDVKLEINSPLYVEHFQAIADLAKDGTFRYGGRTSEAKQLFTSGECAMLTESSGGLGDVVKSGINYGIGQLPYYEGHGPQNTIPGGASLWVFAGLSDDQYKGIAEFF--NFLSQTKIQVKLHEKSGYLPVTLAAYEETKKSD</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="SP" id="UGPB_BRUAB" ac="Q578E6" length="433" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Brucella abortus biovar 1 (strain 9-941) OX=262698 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>129</score>
+      <bits>54.299</bits>
+      <expectation>7.6E-7</expectation>
+      <identity>25.1</identity>
+      <positives>39.6</positives>
+      <gaps>12</gaps>
+      <strand>none/none</strand>
+      <querySeq start="98" end="312">NGKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTF---------LVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQ-PSKPFVGVLSAGINAASPN---KELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKD</querySeq>
+      <pattern>+G ++++P    +  L YNKD           PPKTW E+    K++KA G S   F     + TW  I  +   A  + N  Y   + G+     K  +           + DL K+         S A+  F  GE AM         ++  S +NYG+  LP ++G  P     G  S  + A   +   K +A+ F  N+L   +    +++      V L +YEE    D</pattern>
+      <matchSeq start="135" end="361">DGTMLSFPYNSSSPILYYNKDAFKKAGLDENKPPKTWPEVFEAAKKIKASGASPCGFT--STWLTW--IQTENFAA--WNNVPYGTNENGLAGTDVKLEINSPLYVEHFQAIADLAKDGTFRYGGRTSEAKQLFTSGECAMLTESSGGLGDVVKSGINYGIGQLPYYEGHGPQNTIPGGASLWVFAGLSDDQYKGIAEFF--NFLSQTKIQVKLHEKSGYLPVTLAAYEETKKSD</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="SP" id="UGPB_BRUA2" ac="Q2YKR5" length="433" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Brucella abortus (strain 2308) OX=359391 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>129</score>
+      <bits>54.299</bits>
+      <expectation>7.6E-7</expectation>
+      <identity>25.1</identity>
+      <positives>39.6</positives>
+      <gaps>12</gaps>
+      <strand>none/none</strand>
+      <querySeq start="98" end="312">NGKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTF---------LVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQ-PSKPFVGVLSAGINAASPN---KELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKD</querySeq>
+      <pattern>+G ++++P    +  L YNKD           PPKTW E+    K++KA G S   F     + TW  I  +   A  + N  Y   + G+     K  +           + DL K+         S A+  F  GE AM         ++  S +NYG+  LP ++G  P     G  S  + A   +   K +A+ F  N+L   +    +++      V L +YEE    D</pattern>
+      <matchSeq start="135" end="361">DGTMLSFPYNSSSPILYYNKDAFKKAGLDENKPPKTWPEVFEAAKKIKASGASPCGFT--STWLTW--IQTENFAA--WNNVPYGTNENGLAGTDVKLEINSPLYVEHFQAIADLAKDGTFRYGGRTSEAKQLFTSGECAMLTESSGGLGDVVKSGINYGIGQLPYYEGHGPQNTIPGGASLWVFAGLSDDQYKGIAEFF--NFLSQTKIQVKLHEKSGYLPVTLAAYEETKKSD</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="SP" id="LPQY_MYCTU" ac="P9WGU9" length="468" description="Trehalose-binding lipoprotein LpqY OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=lpqY PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>124</score>
+      <bits>52.373</bits>
+      <expectation>3.3E-6</expectation>
+      <identity>25.3</identity>
+      <positives>41.1</positives>
+      <gaps>5</gaps>
+      <strand>none/none</strand>
+      <querySeq start="97" end="246">YNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKS---ALMFNLQEPYFTW--PLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNAD---TDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLP</querySeq>
+      <pattern>+N KL A P+      L Y  DL+ +PP  W  + A    L A G+    A+  N  E    W   L+ + GG     +     + D     A   + L  L  +      +     T+   A  AF +G+ A+ +N P+ ++++  + V  GV  LP</pattern>
+      <matchSeq start="139" end="296">WNHKLYAAPVTTNTQLLWYRPDLVNSPPTDWNAMIAEAARLHAAGEPSWIAVQANQGEGLVVWFNTLLVSAGGSVLSEDGRHVTLTDTPAHRAATVSALQILKSVATTPGADPSITRTEEGSARLAFEQGKAALEVNWPFVFASMLENAVKGGVPFLP</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="SP" id="LPQY_MYCTO" ac="P9WGU8" length="468" description="Trehalose-binding lipoprotein LpqY OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=lpqY PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>124</score>
+      <bits>52.373</bits>
+      <expectation>3.3E-6</expectation>
+      <identity>25.3</identity>
+      <positives>41.1</positives>
+      <gaps>5</gaps>
+      <strand>none/none</strand>
+      <querySeq start="97" end="246">YNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKS---ALMFNLQEPYFTW--PLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNAD---TDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLP</querySeq>
+      <pattern>+N KL A P+      L Y  DL+ +PP  W  + A    L A G+    A+  N  E    W   L+ + GG     +     + D     A   + L  L  +      +     T+   A  AF +G+ A+ +N P+ ++++  + V  GV  LP</pattern>
+      <matchSeq start="139" end="296">WNHKLYAAPVTTNTQLLWYRPDLVNSPPTDWNAMIAEAARLHAAGEPSWIAVQANQGEGLVVWFNTLLVSAGGSVLSEDGRHVTLTDTPAHRAATVSALQILKSVATTPGADPSITRTEEGSARLAFEQGKAALEVNWPFVFASMLENAVKGGVPFLP</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="SP" id="DASA_STRCO" ac="Q9K491" length="425" description="Diacetylchitobiose binding protein DasA OS=Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145) OX=100226 GN=dasA PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>122</score>
+      <bits>51.6026</bits>
+      <expectation>5.5E-6</expectation>
+      <identity>23.4</identity>
+      <positives>40.0</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <querySeq start="5" end="336">LVIWI-NGDKGYNGLAEVGKKFEKDTGIKVTVEHP--DKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAF--QDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDL-----LPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTW----PLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPW----AWSNIDTSKVNYGVTVLP-TFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDE---GLEAVNKDKPLGAVALK-SYEEELAKDPRIAATMENAQKGEIMPNIPQMSA</querySeq>
+      <pattern>L +W+ +G    +  A++ K FE  T  KV  E    + +++K     +  + PD+    + +   YA++G LA+++  K     D        AV ++GK  A P  V    ++YNK +     +   PKT +E      +LK  G+      +  P   W     L+  +GG   K +  KY + ++      A          +     + D         F KG+T   I   W    A +     + + G   +P     +P   F+G  +  + A S  ++LAKEFL+   L+D+   GL   N     G +  K + +  L  +    A    A  G+  P IP+ +A</pattern>
+      <matchSeq start="42" end="385">LTVWVMDGSSPDDWQADLAKDFEAKTKAKVKFEIQKWNGIQQKLTTALSEENPPDVFEIGNTQTPAYAKTGGLADLSDLKGEIGTDWSESLNKSAV-FDGKQYAAPWFVVNRVVVYNKKIWADAGIKELPKTRDEFY---NDLKTIGEKTDAEPIYLPGQNWYHFVGLVIGEGGELVKKDGDKY-VSNLADPKVAAATETYKKFQALSKAPKDKDEATPQQGEIFAKGKTGSFIGMGWEGATAIATNPAIEKDLGYFTIPGPTADKPEGVFLGGSNLAVAAGSKKQDLAKEFLK-LALSDKYEGGLAKAN-----GVIPNKEALQSNLKGNAAAEAAAPAAGTGDTTPLIPEWAA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="SP" id="SP39_RHILO" ac="Q98H33" length="417" description="Probable sugar-binding periplasmic protein OS=Mesorhizobium japonicum (strain LMG 29417 / CECT 9101 / MAFF 303099) OX=266835 GN=mlr3050 PE=3 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>118</score>
+      <bits>50.0618</bits>
+      <expectation>1.7E-5</expectation>
+      <identity>25.8</identity>
+      <positives>43.7</positives>
+      <gaps>7</gaps>
+      <strand>none/none</strand>
+      <querySeq start="68" end="245">YAQSGLLAEITPD--KAFQDKLYPFTWDAVR-YNGKLIAYPIAVEALSLIY-NKDLLPN----PPKTWEEIPALDKELKAKGKSALMF---NLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMN-ADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVL</querySeq>
+      <pattern>YA +G++ ++T    K   DK  P        Y GK +A P+ V +++ ++ NK ++       PKT+++  AL  + KA G   L     N QE      ++ + GG  F Y+    D+ D  + +   K     L  L+     N +  D+++A A   KG+  + + G WA      +K   G   L</pattern>
+      <matchSeq start="96" end="284">YAAAGVMGDLTETAKKEGWDKSVPAALQKFSVYEGKWVAAPVNVHSVNWLWINKAVMDKIGGTEPKTFDDFVALLDKAKAAGVIPLALGGQNWQEATMFDSVVLSTGGPEF-YKKAFNDLDDASLKSDTMKKSFDNLAKLVTYVDPNFSGRDWNLATAMVIKGDALVQVMGDWAKGEFHAAKKTPGTDFL</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="SP" id="Y3748_BRUSU" ac="Q8FVS7" length="411" description="Putative binding protein BRA0748/BS1330_II0741 OS=Brucella suis biovar 1 (strain 1330) OX=204722 GN=BRA0748 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>117</score>
+      <bits>49.6766</bits>
+      <expectation>2.2E-5</expectation>
+      <identity>23.8</identity>
+      <positives>38.6</positives>
+      <gaps>14</gaps>
+      <strand>none/none</strand>
+      <querySeq start="98" end="362">NGKLIAYPIAVEALSLIYNKDL-----LPNPPKTWEEIPALDKELKAKGKSALMFNLQ------EPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNI--DTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTD--------EGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAAS----GRQTVDEALKDA</querySeq>
+      <pattern>+GK    PIA  A ++ YNKDL     + NPP  W+E+ A   ++KA G     F LQ      + Y+ + + +   G     ++G   +   G   A AK   + + D +    + +     + +  F +G+  M I  P+  + I  +   + YGV  +P         +    S  +   S NKE A + L+     D        EG   VNK++     A   Y    A      A + +A+   ++P        W  +     NA      G+   D  LKDA</pattern>
+      <matchSeq start="128" end="401">DGKTYGLPIAASARAMYYNKDLFEKAGIKNPPANWDELKADAAKIKALGGENYGFGLQGKEIETDVYYYYAMWSY--GTEILNKDGTSGLSTPGALEA-AKLYKSMIDDGLTQPGVTSYAREDV-QNLFKQGKVGMMITAPFLSNQIKEEAPNLKYGVAAIPAGPTGARGTYGVTDSVIMFQNSKNKEEAWKVLDFLFQKDWRAKFTQNEGFLPVNKEE-----AKMDYYVNNADLAAFTALLPDARFAPVIPG-------WEEIADITSNAMQSIYLGKGEPDAVLKDA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="SP" id="Y2991_BRUA2" ac="Q2YKZ9" length="411" description="Putative binding protein BAB2_0491 OS=Brucella abortus (strain 2308) OX=359391 GN=BAB2_0491 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>117</score>
+      <bits>49.6766</bits>
+      <expectation>2.2E-5</expectation>
+      <identity>23.8</identity>
+      <positives>38.6</positives>
+      <gaps>14</gaps>
+      <strand>none/none</strand>
+      <querySeq start="98" end="362">NGKLIAYPIAVEALSLIYNKDL-----LPNPPKTWEEIPALDKELKAKGKSALMFNLQ------EPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNI--DTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTD--------EGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAAS----GRQTVDEALKDA</querySeq>
+      <pattern>+GK    PIA  A ++ YNKDL     + NPP  W+E+ A   ++KA G     F LQ      + Y+ + + +   G     ++G   +   G   A AK   + + D +    + +     + +  F +G+  M I  P+  + I  +   + YGV  +P         +    S  +   S NKE A + L+     D        EG   VNK++     A   Y    A      A + +A+   ++P        W  +     NA      G+   D  LKDA</pattern>
+      <matchSeq start="128" end="401">DGKTYGLPIAASARAMYYNKDLFEKAGIKNPPANWDELKADAAKIKALGGENYGFGLQGKEIETDVYYYYAMWSY--GTEILNKDGTSGLSTPGALEA-AKLYKSMIDDGLTQPGVTSYAREDV-QNLFKQGKVGMMITAPFLSNQIKEEAPNLKYGVAAIPAGPTGARGTYGVTDSVIMFQNSKNKEEAWKVLDFLFQKDWRAKFTQNEGFLPVNKEE-----AKMDYYVNNADLAAFTALLPDARFAPVIPG-------WEEIADITSNAMQSIYLGKGEPDAVLKDA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="SP" id="Y2784_BRUAB" ac="Q578M8" length="411" description="Putative binding protein BruAb2_0484 OS=Brucella abortus biovar 1 (strain 9-941) OX=262698 GN=BruAb2_0484 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>117</score>
+      <bits>49.6766</bits>
+      <expectation>2.2E-5</expectation>
+      <identity>23.8</identity>
+      <positives>38.6</positives>
+      <gaps>14</gaps>
+      <strand>none/none</strand>
+      <querySeq start="98" end="362">NGKLIAYPIAVEALSLIYNKDL-----LPNPPKTWEEIPALDKELKAKGKSALMFNLQ------EPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNI--DTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTD--------EGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAAS----GRQTVDEALKDA</querySeq>
+      <pattern>+GK    PIA  A ++ YNKDL     + NPP  W+E+ A   ++KA G     F LQ      + Y+ + + +   G     ++G   +   G   A AK   + + D +    + +     + +  F +G+  M I  P+  + I  +   + YGV  +P         +    S  +   S NKE A + L+     D        EG   VNK++     A   Y    A      A + +A+   ++P        W  +     NA      G+   D  LKDA</pattern>
+      <matchSeq start="128" end="401">DGKTYGLPIAASARAMYYNKDLFEKAGIKNPPANWDELKADAAKIKALGGENYGFGLQGKEIETDVYYYYAMWSY--GTEILNKDGTSGLSTPGALEA-AKLYKSMIDDGLTQPGVTSYAREDV-QNLFKQGKVGMMITAPFLSNQIKEEAPNLKYGVAAIPAGPTGARGTYGVTDSVIMFQNSKNKEEAWKVLDFLFQKDWRAKFTQNEGFLPVNKEE-----AKMDYYVNNADLAAFTALLPDARFAPVIPG-------WEEIADITSNAMQSIYLGKGEPDAVLKDA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="SP" id="UGPB_AGRFC" ac="Q8UB32" length="436" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=ugpB PE=3 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>114</score>
+      <bits>48.521</bits>
+      <expectation>5.4E-5</expectation>
+      <identity>24.3</identity>
+      <positives>40.2</positives>
+      <gaps>13</gaps>
+      <strand>none/none</strand>
+      <querySeq start="98" end="250">NGKLIAYPIAVEALSLIYNKDLLP-------NPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLT---------FLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKG</querySeq>
+      <pattern>+G ++++P    +  L YNKD+         NPPKTW E+    K++K  G +   F     + TW  I  +   A  + N  Y   + G+     K  +           + DL K+         S A+  F  GE  +         +I  + +NYG+  LP ++G</pattern>
+      <matchSeq start="136" end="298">DGTMLSFPYNSSSPILYYNKDIFQKAGLDAANPPKTWPEVFEAAKKIKTSGAAQCGFT--STWLTW--IQTENFAA--WNNVSYGSNENGLGGTDVKLAVNAPLFVEHFQAIADLAKDGTFRYGGRTSEAKQLFMSGECGILTESSGGLGDIVKTGMNYGIGQLPYYEG</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="SP" id="UGPB_SALTY" ac="Q7CPK0" length="438" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>111</score>
+      <bits>47.3654</bits>
+      <expectation>1.3E-4</expectation>
+      <identity>25.0</identity>
+      <positives>40.3</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <querySeq start="98" end="258">NGKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDY----SIAEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVG</querySeq>
+      <pattern>+G L++ P       L YNKD           PPKTW+E+     +L+A G      +  + +      +A  G  F  +N  +D  D  ++    K      + L++  +   D  Y      +   F  G+ AMT     + +NI   +K NYGV ++P     KG P    +G</pattern>
+      <matchSeq start="133" end="306">SGHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQELADYTAKLRAAGMKCGYASGWQGWIQLENFSAWNGLPFASKNNGFDGTDAVLE--FNKPEQVKHIALLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIRQYAKFNYGVGMMPYDADIKGAPQNAIIG</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="SP" id="UGPB_SALTI" ac="Q8XG55" length="438" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Salmonella typhi OX=90370 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>111</score>
+      <bits>47.3654</bits>
+      <expectation>1.3E-4</expectation>
+      <identity>25.0</identity>
+      <positives>40.3</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <querySeq start="98" end="258">NGKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDY----SIAEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVG</querySeq>
+      <pattern>+G L++ P       L YNKD           PPKTW+E+     +L+A G      +  + +      +A  G  F  +N  +D  D  ++    K      + L++  +   D  Y      +   F  G+ AMT     + +NI   +K NYGV ++P     KG P    +G</pattern>
+      <matchSeq start="133" end="306">SGHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQELADYTAKLRAAGMKCGYASGWQGWIQLENFSAWNGLPFASKNNGFDGTDAVLE--FNKPEQVKHIALLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIRQYAKFNYGVGMMPYDADIKGAPQNAIIG</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="SP" id="UGPB_SALPA" ac="Q5PJK8" length="438" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Salmonella paratyphi A (strain ATCC 9150 / SARB42) OX=295319 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>111</score>
+      <bits>47.3654</bits>
+      <expectation>1.3E-4</expectation>
+      <identity>25.0</identity>
+      <positives>40.3</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <querySeq start="98" end="258">NGKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDY----SIAEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVG</querySeq>
+      <pattern>+G L++ P       L YNKD           PPKTW+E+     +L+A G      +  + +      +A  G  F  +N  +D  D  ++    K      + L++  +   D  Y      +   F  G+ AMT     + +NI   +K NYGV ++P     KG P    +G</pattern>
+      <matchSeq start="133" end="306">SGHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQELADYTAKLRAAGMKCGYASGWQGWIQLENFSAWNGLPFASKNNGFDGTDAVLE--FNKPEQVKHIALLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIRQYAKFNYGVGMMPYDADIKGAPQNAIIG</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="SP" id="UE38_DEIRA" ac="Q9RUE8" length="420" description="Probable ABC transporter-binding protein DR_1438 OS=Deinococcus radiodurans (strain ATCC 13939 / DSM 20539 / JCM 16871 / LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422) OX=243230 GN=DR_1438 PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>105</score>
+      <bits>45.0542</bits>
+      <expectation>6.7E-4</expectation>
+      <identity>28.1</identity>
+      <positives>41.4</positives>
+      <gaps>15</gaps>
+      <strand>none/none</strand>
+      <querySeq start="99" end="278">GKLIAYPIAVEALSLIYNKDLLPN-----PPKTWEEIPALDKELKA-KGKSALMF-----------NLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEA--AFNKGETAMTINGPWAWS--NIDTSKV--NYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFL</querySeq>
+      <pattern>GKLIA P   +A  L Y  DLL       PPKTW E+  + ++++A + KS   F            L      W  I++ GG +    +GK     + V+N  A   L  +  LI      A T Y   EA   +  G +A   N P+A++    + S +    GV  LP   G      +G     +NA S N + A + +</pattern>
+      <matchSeq start="125" end="320">GKLIAMPWFTDAGVLYYRTDLLKKYGYNAPPKTWNELATMAQKIQAGERKSNPKFVGYVFQGKNYEGLTCDALEW--ISSFGGGSIVDPSGK-----ITVNNPKAVQALQAIQGLIGTAAPAAVTTYGEEEARNVWQAGNSAFMRNWPYAYAAGQKEGSPIAGKIGVAALPAGPGGKPAATLGGWQLAVNAYSKNPKEAADLV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="SP" id="UGPB_SHIFL" ac="Q83PU5" length="438" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Shigella flexneri OX=623 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>104</score>
+      <bits>44.669</bits>
+      <expectation>9.1E-4</expectation>
+      <identity>25.3</identity>
+      <positives>39.0</positives>
+      <gaps>17</gaps>
+      <strand>none/none</strand>
+      <querySeq start="99" end="258">GKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTF-----LVDLIKNKHMNADTDYSI------AEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVG</querySeq>
+      <pattern>G L++ P       L YNKD           PPKTW+++     +LKA G      +  + +      +A  G  F  +N  +D         G  A L F     +  +   + MN   D+S       +   F  G+ AMT     + +NI + +K NYGV ++P     K  P    +G</pattern>
+      <matchSeq start="134" end="306">GHLLSQPFNSSTSVLYYNKDAFKKAGLDPEQPPKTWQDLADYSAKLKASGIKCGYASGWQGWIQLENFSAWNGLPFASKNNGFD---------GTDAVLEFNKPEQVKHIAMLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIREYAKFNYGVGMMPYDADAKDAPQNAIIG</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="SP" id="MSME_STRMU" ac="Q00749" length="420" description="Multiple sugar-binding protein OS=Streptococcus mutans serotype c (strain ATCC 700610 / UA159) OX=210007 GN=msmE PE=2 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>103</score>
+      <bits>44.2838</bits>
+      <expectation>0.0012</expectation>
+      <identity>25.0</identity>
+      <positives>40.6</positives>
+      <gaps>8</gaps>
+      <strand>none/none</strand>
+      <querySeq start="51" end="308">TGDGPDII--FWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNK----DLLPNPPKTWEEIPALDKELKAKGKSALMFNLQE-----PYFTWPLIAADG--GYAFKY--ENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNI--DTSKVNYGVTVLPTFK-GQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEE</querySeq>
+      <pattern>+GD PD+I  +  +  F  ++++G    +T  KA+ + L     +  + N K+ + P+      + YNK    +L    P+TW+E   L +E+KAK ++       E      Y    LI+  G    A KY   +    IK            L  L D    +       Y+ A  AF   +  MT NG WA   I     K   G    P  K G       G L+  I+A + + + A++F++ Y+ T   ++    D     VA+K   E+</pattern>
+      <matchSeq start="85" end="357">SGDVPDVINIYPQNMDFQEWSKAGYFYNMT-GKAYLNHLKNHYANEYKVNQKVYSVPLTANVSGIYYNKTKFKELGLKVPETWDEFVKLVEEIKAKKETPFALAGTEGWTLNGYHQLSLISVTGSANAANKYLRFSQPNSIKTSDKILKEDMVRLNLLADDGNQQKNWKGASYNDALVAFANEKALMTPNGSWALPAIKQQDPKFEIGTFAFPGKKTGNGITVGAGDLALSISAKTKHLKEAEKFVK-YMTTARAMQKY-YDVDGSPVAVKGVRED</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="SP" id="UGPB_SHIF8" ac="Q0SZL9" length="438" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Shigella flexneri serotype 5b (strain 8401) OX=373384 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>103</score>
+      <bits>44.2838</bits>
+      <expectation>0.0012</expectation>
+      <identity>25.3</identity>
+      <positives>39.0</positives>
+      <gaps>17</gaps>
+      <strand>none/none</strand>
+      <querySeq start="99" end="258">GKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTF-----LVDLIKNKHMNADTDYSI------AEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVG</querySeq>
+      <pattern>G L++ P       L YNKD           PPKTW+++     +LKA G      +  + +      +A  G  F  +N  +D         G  A L F     +  +   + MN   D+S       +   F  G+ AMT     + +NI + +K NYGV ++P     K  P    +G</pattern>
+      <matchSeq start="134" end="306">GHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQDLADYSAKLKASGIKCGYASGWQGWIQLENFSAWNGLPFASKNNGFD---------GTDAVLEFNKPEQVKHIAMLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIREYAKFNYGVGMMPYDADAKDAPQNAIIG</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="SP" id="UGPB_SALCH" ac="Q57IS0" length="438" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Salmonella choleraesuis (strain SC-B67) OX=321314 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>103</score>
+      <bits>44.2838</bits>
+      <expectation>0.0012</expectation>
+      <identity>24.4</identity>
+      <positives>39.8</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <querySeq start="98" end="258">NGKLIAYPIAVEALSLIYNKDLLPNP-------PKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDY----SIAEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVG</querySeq>
+      <pattern>+G L++ P       L YNKD            PKTW+E+     +L+A G      +  + +      +A  G  F  +N  +D  D  ++    K      + L++  +   D  Y      +   F  G+ AMT     + +NI   +K NYGV ++P     KG P    +G</pattern>
+      <matchSeq start="133" end="306">SGHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQLPKTWQELADYTAKLRAAGMKCGYASGWQGWIQLENFSAWNGLPFASKNNGFDGTDAVLE--FNKPEQVKHIALLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIRQYAKFNYGVGMMPYDADIKGAPQNAIIG</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="SP" id="UGPB_ECOUT" ac="Q1R5H5" length="438" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Escherichia coli (strain UTI89 / UPEC) OX=364106 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>103</score>
+      <bits>44.2838</bits>
+      <expectation>0.0012</expectation>
+      <identity>25.3</identity>
+      <positives>39.0</positives>
+      <gaps>17</gaps>
+      <strand>none/none</strand>
+      <querySeq start="99" end="258">GKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTF-----LVDLIKNKHMNADTDYSI------AEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVG</querySeq>
+      <pattern>G L++ P       L YNKD           PPKTW+++     +LKA G      +  + +      +A  G  F  +N  +D         G  A L F     +  +   + MN   D+S       +   F  G+ AMT     + +NI + +K NYGV ++P     K  P    +G</pattern>
+      <matchSeq start="134" end="306">GHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQDLADYAAKLKASGMKCGYASGWQGWIQLENFSAWNGLPFASKNNGFD---------GTDAVLEFNKPEQVKHIAMLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIREYAKFNYGVGMMPYDADAKDAPQNAIIG</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="SP" id="UGPB_ECOLI" ac="P0AG80" length="438" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Escherichia coli (strain K12) OX=83333 GN=ugpB PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>103</score>
+      <bits>44.2838</bits>
+      <expectation>0.0012</expectation>
+      <identity>25.3</identity>
+      <positives>39.0</positives>
+      <gaps>17</gaps>
+      <strand>none/none</strand>
+      <querySeq start="99" end="258">GKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTF-----LVDLIKNKHMNADTDYSI------AEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVG</querySeq>
+      <pattern>G L++ P       L YNKD           PPKTW+++     +LKA G      +  + +      +A  G  F  +N  +D         G  A L F     +  +   + MN   D+S       +   F  G+ AMT     + +NI + +K NYGV ++P     K  P    +G</pattern>
+      <matchSeq start="134" end="306">GHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQDLADYAAKLKASGMKCGYASGWQGWIQLENFSAWNGLPFASKNNGFD---------GTDAVLEFNKPEQVKHIAMLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIREYAKFNYGVGMMPYDADAKDAPQNAIIG</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="SP" id="UGPB_ECOL6" ac="Q8CVL9" length="438" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>103</score>
+      <bits>44.2838</bits>
+      <expectation>0.0012</expectation>
+      <identity>25.3</identity>
+      <positives>39.0</positives>
+      <gaps>17</gaps>
+      <strand>none/none</strand>
+      <querySeq start="99" end="258">GKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTF-----LVDLIKNKHMNADTDYSI------AEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVG</querySeq>
+      <pattern>G L++ P       L YNKD           PPKTW+++     +LKA G      +  + +      +A  G  F  +N  +D         G  A L F     +  +   + MN   D+S       +   F  G+ AMT     + +NI + +K NYGV ++P     K  P    +G</pattern>
+      <matchSeq start="134" end="306">GHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQDLADYAAKLKASGMKCGYASGWQGWIQLENFSAWNGLPFASKNNGFD---------GTDAVLEFNKPEQVKHIAMLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIREYAKFNYGVGMMPYDADAKDAPQNAIIG</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="SP" id="UGPB_ECOL5" ac="Q0TC07" length="438" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Escherichia coli O6:K15:H31 (strain 536 / UPEC) OX=362663 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>103</score>
+      <bits>44.2838</bits>
+      <expectation>0.0012</expectation>
+      <identity>25.3</identity>
+      <positives>39.0</positives>
+      <gaps>17</gaps>
+      <strand>none/none</strand>
+      <querySeq start="99" end="258">GKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTF-----LVDLIKNKHMNADTDYSI------AEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVG</querySeq>
+      <pattern>G L++ P       L YNKD           PPKTW+++     +LKA G      +  + +      +A  G  F  +N  +D         G  A L F     +  +   + MN   D+S       +   F  G+ AMT     + +NI + +K NYGV ++P     K  P    +G</pattern>
+      <matchSeq start="134" end="306">GHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQDLADYAAKLKASGMKCGYASGWQGWIQLENFSAWNGLPFASKNNGFD---------GTDAVLEFNKPEQVKHIAMLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIREYAKFNYGVGMMPYDADAKDAPQNAIIG</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="SP" id="UGPB_ECOK1" ac="A1AGY4" length="438" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Escherichia coli O1:K1 / APEC OX=405955 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>103</score>
+      <bits>44.2838</bits>
+      <expectation>0.0012</expectation>
+      <identity>25.3</identity>
+      <positives>39.0</positives>
+      <gaps>17</gaps>
+      <strand>none/none</strand>
+      <querySeq start="99" end="258">GKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTF-----LVDLIKNKHMNADTDYSI------AEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVG</querySeq>
+      <pattern>G L++ P       L YNKD           PPKTW+++     +LKA G      +  + +      +A  G  F  +N  +D         G  A L F     +  +   + MN   D+S       +   F  G+ AMT     + +NI + +K NYGV ++P     K  P    +G</pattern>
+      <matchSeq start="134" end="306">GHLLSQPFNSSTPVLYYNKDAFKKAGLDPKQPPKTWQDLADYAAKLKASGMKCGYASGWQGWIQLENFSAWNGLPFASKNNGFD---------GTDAVLEFNKPEQVKHIAMLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIREYAKFNYGVGMMPYDADAKDAPQNAIIG</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="SP" id="UGPB_ECO57" ac="P0AG81" length="438" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Escherichia coli O157:H7 OX=83334 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>103</score>
+      <bits>44.2838</bits>
+      <expectation>0.0012</expectation>
+      <identity>25.3</identity>
+      <positives>39.0</positives>
+      <gaps>17</gaps>
+      <strand>none/none</strand>
+      <querySeq start="99" end="258">GKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTF-----LVDLIKNKHMNADTDYSI------AEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVG</querySeq>
+      <pattern>G L++ P       L YNKD           PPKTW+++     +LKA G      +  + +      +A  G  F  +N  +D         G  A L F     +  +   + MN   D+S       +   F  G+ AMT     + +NI + +K NYGV ++P     K  P    +G</pattern>
+      <matchSeq start="134" end="306">GHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQDLADYAAKLKASGMKCGYASGWQGWIQLENFSAWNGLPFASKNNGFD---------GTDAVLEFNKPEQVKHIAMLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIREYAKFNYGVGMMPYDADAKDAPQNAIIG</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="SP" id="UGPB_SHIDS" ac="Q32AT3" length="438" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Shigella dysenteriae serotype 1 (strain Sd197) OX=300267 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>99</score>
+      <bits>42.743</bits>
+      <expectation>0.0037</expectation>
+      <identity>25.3</identity>
+      <positives>38.5</positives>
+      <gaps>17</gaps>
+      <strand>none/none</strand>
+      <querySeq start="99" end="258">GKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTF-----LVDLIKNKHMNADTDYSI------AEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVG</querySeq>
+      <pattern>G L++ P       L YNKD           PPKTW+++     +LKA G      +  +        +A  G  F  +N  +D         G  A L F     +  +   + MN   D+S       +   F  G+ AMT     + +NI + +K NYGV ++P     K  P    +G</pattern>
+      <matchSeq start="134" end="306">GHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQDLADYAAKLKASGMKCGYASGWQGRIQLENFSAWNGLPFASKNNGFD---------GTDAVLEFNKPEQVKHIAMLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIREYAKFNYGVGMMPYDADAKDAPQNAIIG</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="SP" id="UGPB_PECAS" ac="Q6CZ31" length="444" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Pectobacterium atrosepticum (strain SCRI 1043 / ATCC BAA-672) OX=218491 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>99</score>
+      <bits>42.743</bits>
+      <expectation>0.0038</expectation>
+      <identity>23.9</identity>
+      <positives>40.3</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <querySeq start="98" end="258">NGKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDY----SIAEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVG</querySeq>
+      <pattern>+G L++ P       L YNKD           PPKTW+++     +L++ G      +  + +      +A  G     +N  +D  D  ++    K      + L+++ +   D  Y          F  GE AMT     + +NI + +K NYGV ++P     KG P    +G</pattern>
+      <matchSeq start="140" end="313">SGHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQQMADYTAKLRSAGMKCGYASGWQGWIQIENFSAWNGLPVATKNNGFDGTDTVLE--FNKPTQVKHIQLLQDMNKKGDFTYFGRKDEPTEKFYNGECAMTTASSGSLANIREHAKFNYGVGMMPYDADAKGAPQNAIIG</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="SP" id="YOE2_STRAT" ac="Q53684" length="451" description="Uncharacterized lipoprotein in oleD 5'region OS=Streptomyces antibioticus OX=1890 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>92</score>
+      <bits>40.0466</bits>
+      <expectation>0.027</expectation>
+      <identity>26.4</identity>
+      <positives>42.6</positives>
+      <gaps>11</gaps>
+      <strand>none/none</strand>
+      <querySeq start="52" end="167">GDGPDIIFWAHDRFGGYAQSGLLAEIT---PDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLL---------PNPPKTWEEIPALDKELKAKGKSALMFNLQEPY-FTWPLIAADGGYAF</querySeq>
+      <pattern>G+ PD+I  A D    +A  G LA+++   P +   D +   +W+   +   +   P   E   LI + D L         P  P +W E   + K+L   G+  + + L+EP   T  L  + GG  F</pattern>
+      <matchSeq start="83" end="210">GEAPDVIHDASDDLADFAYGGYLADLSGLLPARLASD-IPRGSWETATFGRGVYGVPFLQEPRVLIADADRLRAAKVRIPTPGHPWSWPEFRQVAKKLTGPGRYGVAWPLKEPVSATLNLSLSAGGRLF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="SP" id="Y1039_PYRHO" ac="O58758" length="420" description="Uncharacterized ABC transporter extracellular-binding protein PH1039 OS=Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / OT-3) OX=70601 GN=PH1039 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>90</score>
+      <bits>39.2762</bits>
+      <expectation>0.046</expectation>
+      <identity>23.5</identity>
+      <positives>37.8</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <querySeq start="20" end="360">EVGKKFEKD-TGIKVTVE--HPDKLEEKFPQVAATGDGP-DIIFWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEAL-SLIYNKDLLPN----PPKTWEEIPALDKEL-KAKGKSALMFNLQEPYFTWPL-------IAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTD-EGLEAVNKDKPLGA---VALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALK</querySeq>
+      <pattern>EV K FEK    IK+  +    + L    P    + D P D+IF          + G L E+  +    ++  P   D+V  +GK+   P    A     Y K         PPKTW++  AL +E+ K  G  A +  +      WPL       I   GG   + +  K ++K    D    K     LV L+K  + +   +++ A   + KGE A+   G W    +D    + G+  LP  K     P   ++    +      ELAK     +L T+ + +    K   L     V++  Y   +    +I A +E+A   +          FW  ++   +        +DE LK</pattern>
+      <matchSeq start="65" end="411">EVLKAFEKQHPNIKIEYKTYRAEDLSTILPLQFESHDTPADVIFMWGWFIAEMGKKGHLMELN-NIINPEEYVPGILDSVTVDGKIYGAPFTAAAKPGFWYRKSFFEKHNLKPPKTWDDFVALLEEIKKIPGIKAPI--VSGDSVGWPLSDVTEHFILTFGGKDLQLKLIKGEVK--WEDPQVRKIFEEKLVPLLKAGYFSDPIEWTSAVDLWWKGEYALYFMGTWITGMVDDPN-DLGLIPLPGVKAMVIAPDYLMVPKYTSHPKEALELAK-----FLATEGQRIHVGTKSGKLATWKKVSIDDYWAPMRDVAKIVANVESAPDLDDSVGGEWQKVFWDQLKLLWVQP----DRLDEVLK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="SP" id="NGCE_STRCO" ac="O50499" length="469" description="Diacetylchitobiose binding protein NgcE OS=Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145) OX=100226 GN=ngcE PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>90</score>
+      <bits>39.2762</bits>
+      <expectation>0.048</expectation>
+      <identity>22.2</identity>
+      <positives>43.9</positives>
+      <gaps>10</gaps>
+      <strand>none/none</strand>
+      <querySeq start="81" end="262">KAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPN----PPKTWEEIPALDKELKAKGKSALMFNLQ-EPYFTWPLIAA---DGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHM----NADTDYSIAEAAFNKGETAMTI-NGPWAWSNI-DTSKVNYGVTVLP--TFKGQPSKPFVGVLSA</querySeq>
+      <pattern>K   D +YP   D   +  K +A    +    + Y+K L       PPKTW+E   L +E K KGK   +   +   Y+   LI +   +GG   +      +  + G  +  A  G+  +++ +  + M     + T +  A+A ++  + A+   +G W  + +   +K ++ +T +P  T   +P+ P+  + +A</pattern>
+      <matchSeq start="149" end="343">KKIADIVYPGVKDPGTFKDKFVALNYVMTVYGVWYSKTLFEENGWTPPKTWDEALDLGQEAKKKGKYLFVHGKEAATYYRTLLIDSAIKEGGDEVRL---ALENLEKGCWSHPAVQGVIKVMETMVKQKMFVPGGSGTQFQKAQAIWSNDQKALLYPSGGWIENEMKKATKADFQMTGIPSMTLTDKPALPYEALRAA</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="SP" id="UGPB_YERPN" ac="Q1CNC9" length="439" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Yersinia pestis bv. Antiqua (strain Nepal516) OX=377628 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>89</score>
+      <bits>38.891</bits>
+      <expectation>0.062</expectation>
+      <identity>24.3</identity>
+      <positives>41.3</positives>
+      <gaps>11</gaps>
+      <strand>none/none</strand>
+      <querySeq start="99" end="286">GKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDY----SIAEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVGVLSAGINAASPNKELAK---EFLENYLLTDE</querySeq>
+      <pattern>G+L++ P       L YNK+           PPKTW+E+ A   +L+A G S    +  + +      +A  G      N  +D  D  ++    K      + L+ + +   D  Y      + + F  G+ A+T     + ++I   +K N+GV ++P     K  P    +G  S  +     +KE  K   EFL+ YL+  E</pattern>
+      <matchSeq start="136" end="337">GRLLSQPFNSSTPVLYYNKEAFKKAGLDPEQPPKTWQELAADTAKLRAAGSSCGYASGWQGWIQIENFSAWHGQPIASRNNGFDGTDAVLE--FNKPLQVKHIQLLSDMNKKGDFTYFGRKDESTSKFYNGDCAITTASSGSLASIRHYAKFNFGVGMMPYDADAKNAPQNAIIGGASLWV-MDGKDKETYKGVAEFLQ-YLVKPE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="SP" id="UGPB_YERPE" ac="Q7CKV7" length="439" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Yersinia pestis OX=632 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>89</score>
+      <bits>38.891</bits>
+      <expectation>0.062</expectation>
+      <identity>24.3</identity>
+      <positives>41.3</positives>
+      <gaps>11</gaps>
+      <strand>none/none</strand>
+      <querySeq start="99" end="286">GKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDY----SIAEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVGVLSAGINAASPNKELAK---EFLENYLLTDE</querySeq>
+      <pattern>G+L++ P       L YNK+           PPKTW+E+ A   +L+A G S    +  + +      +A  G      N  +D  D  ++    K      + L+ + +   D  Y      + + F  G+ A+T     + ++I   +K N+GV ++P     K  P    +G  S  +     +KE  K   EFL+ YL+  E</pattern>
+      <matchSeq start="136" end="337">GRLLSQPFNSSTPVLYYNKEAFKKAGLDPEQPPKTWQELAADTAKLRAAGSSCGYASGWQGWIQIENFSAWHGQPIASRNNGFDGTDAVLE--FNKPLQVKHIQLLSDMNKKGDFTYFGRKDESTSKFYNGDCAITTASSGSLASIRHYAKFNFGVGMMPYDADAKNAPQNAIIGGASLWV-MDGKDKETYKGVAEFLQ-YLVKPE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="SP" id="UGPB_YERPA" ac="Q1CBH5" length="439" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB OS=Yersinia pestis bv. Antiqua (strain Antiqua) OX=360102 GN=ugpB PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>89</score>
+      <bits>38.891</bits>
+      <expectation>0.062</expectation>
+      <identity>24.3</identity>
+      <positives>41.3</positives>
+      <gaps>11</gaps>
+      <strand>none/none</strand>
+      <querySeq start="99" end="286">GKLIAYPIAVEALSLIYNKDLLPN-------PPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDY----SIAEAAFNKGETAMTINGPWAWSNI-DTSKVNYGVTVLP---TFKGQPSKPFVGVLSAGINAASPNKELAK---EFLENYLLTDE</querySeq>
+      <pattern>G+L++ P       L YNK+           PPKTW+E+ A   +L+A G S    +  + +      +A  G      N  +D  D  ++    K      + L+ + +   D  Y      + + F  G+ A+T     + ++I   +K N+GV ++P     K  P    +G  S  +     +KE  K   EFL+ YL+  E</pattern>
+      <matchSeq start="136" end="337">GRLLSQPFNSSTPVLYYNKEAFKKAGLDPEQPPKTWQELAADTAKLRAAGSSCGYASGWQGWIQIENFSAWHGQPIASRNNGFDGTDAVLE--FNKPLQVKHIQLLSDMNKKGDFTYFGRKDESTSKFYNGDCAITTASSGSLASIRHYAKFNFGVGMMPYDADAKNAPQNAIIGGASLWV-MDGKDKETYKGVAEFLQ-YLVKPE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="SP" id="Y1214_PYRHO" ac="O58969" length="441" description="Uncharacterized ABC transporter extracellular-binding protein PH1214 OS=Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / OT-3) OX=70601 GN=PH1214 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>89</score>
+      <bits>38.891</bits>
+      <expectation>0.062</expectation>
+      <identity>26.0</identity>
+      <positives>42.8</positives>
+      <gaps>17</gaps>
+      <strand>none/none</strand>
+      <querySeq start="95" end="246">VRYNGKLIAYPIAVEALSLI-YNKDLL------PNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWP-------LIAADGG--YAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMN-ADTDYSIAEAAFNKGETAMTINGPWAWSNIDTS----KVNYGVTVLP</querySeq>
+      <pattern>V +N    A PI V   ++I YNK +       P+  KT +++ A+ ++LK  G +      +     WP       ++ A GG  Y  K+ NG     ++  ++   K  L + V  ++  + + A   +  A A   KGE AMT+ G WA            V+YG   +P</pattern>
+      <matchSeq start="145" end="309">VIFNNHYYAVPINVHRANVIWYNKQIFKKYGIDPSSIKTIDDLFAVAEKLKENGVTPFALGDRNK---WPATQVFEVMLVAVGGVDYYEKFING-----EISANDPTLKKVLEYFVKYVEYSNPDHAAKTWDEACALVYKGEAAMTLMGDWANGYFKAKGWKPNVDYGAIPIP</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="SP" id="FBPA_HAEIN" ac="P35755" length="332" description="Iron-utilization periplasmic protein OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 GN=fbpA PE=1 SV=3">
+    <alignments total="1">
+     <alignment number="1">
+      <score>88</score>
+      <bits>38.5058</bits>
+      <expectation>0.071</expectation>
+      <identity>22.0</identity>
+      <positives>38.3</positives>
+      <gaps>15</gaps>
+      <strand>none/none</strand>
+      <querySeq start="15" end="291">YNG-----LAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGD-GPDIIFWAHD--RFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDN-AGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSK-VNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAV</querySeq>
+      <pattern>YNG        V K FE++TGIKVT+ +  K E+   Q+   GD  P  +F+      F   +++GLLA                             PI+ + +     K +   P K W  +    + +          ++++    +      G   +   +G +  + V +    G K  L +L  L +N  + A    S+A  A   GE    +   + W N+   K V    + L   + Q     V    A +  AS N+  A++F++ +L + +G EA+</pattern>
+      <matchSeq start="28" end="281">YNGQHKEAATAVAKAFEQETGIKVTL-NSGKSEQLAGQLKEEGDKTPADVFYTEQTATFADLSEAGLLA-----------------------------PISEQTIQQTAQKGVPLAPKKDWIALSGRSRVVVYDHTKLSEKDMEKSVLDYATPKWKGKIGYVSTSGAFLEQVVALSKMKGDKVALNWLKGLKENGKLYAKN--SVALQAVENGEVPAALINNYYWYNLAKEKGVENLKSRLYFVRHQDPGALVSYSGAAVLKASKNQAEAQKFVD-FLASKKGQEAL</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

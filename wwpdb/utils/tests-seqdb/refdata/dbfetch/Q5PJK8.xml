@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-06-26" modified="2020-02-26" version="66">
+<accession>Q5PJK8</accession>
+<name>UGPB_SALPA</name>
+<protein>
+<recommendedName>
+<fullName>sn-glycerol-3-phosphate-binding periplasmic protein UgpB</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">ugpB</name>
+<name type="ordered locus">SPA3409</name>
+</gene>
+<organism>
+<name type="scientific">Salmonella paratyphi A (strain ATCC 9150 / SARB42)</name>
+<dbReference type="NCBI Taxonomy" id="295319"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Salmonella</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2004" name="Nat. Genet." volume="36" first="1268" last="1274">
+<title>Comparison of genome degradation in Paratyphi A and Typhi, human-restricted serovars of Salmonella enterica that cause typhoid.</title>
+<authorList>
+<person name="McClelland M."/>
+<person name="Sanderson K.E."/>
+<person name="Clifton S.W."/>
+<person name="Latreille P."/>
+<person name="Porwollik S."/>
+<person name="Sabo A."/>
+<person name="Meyer R."/>
+<person name="Bieri T."/>
+<person name="Ozersky P."/>
+<person name="McLellan M."/>
+<person name="Harkins C.R."/>
+<person name="Wang C."/>
+<person name="Nguyen C."/>
+<person name="Berghoff A."/>
+<person name="Elliott G."/>
+<person name="Kohlberg S."/>
+<person name="Strong C."/>
+<person name="Du F."/>
+<person name="Carter J."/>
+<person name="Kremizki C."/>
+<person name="Layman D."/>
+<person name="Leonard S."/>
+<person name="Sun H."/>
+<person name="Fulton L."/>
+<person name="Nash W."/>
+<person name="Miner T."/>
+<person name="Minx P."/>
+<person name="Delehaunty K."/>
+<person name="Fronick C."/>
+<person name="Magrini V."/>
+<person name="Nhan M."/>
+<person name="Warren W."/>
+<person name="Florea L."/>
+<person name="Spieth J."/>
+<person name="Wilson R.K."/>
+</authorList>
+<dbReference type="PubMed" id="15531882"/>
+<dbReference type="DOI" id="10.1038/ng1470"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 9150 / SARB42</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">sn-glycerol-3-phosphate and glycerophosphoryl diester-binding protein interacts with the binding protein-dependent transport system UgpACE.</text>
+</comment>
+<comment type="subunit">
+<text evidence="3">The complex is composed of two ATP-binding proteins (UgpC), two transmembrane proteins (UgpA and UgpE) and a solute-binding protein (UgpB).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Periplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the bacterial solute-binding protein 1 family.</text>
+</comment>
+<dbReference type="EMBL" id="CP000026">
+<property type="protein sequence ID" value="AAV79220.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000624750.1">
+<property type="nucleotide sequence ID" value="NC_006511.1"/>
+</dbReference>
+<dbReference type="SMR" id="Q5PJK8"/>
+<dbReference type="EnsemblBacteria" id="AAV79220">
+<property type="protein sequence ID" value="AAV79220"/>
+<property type="gene ID" value="SPA3409"/>
+</dbReference>
+<dbReference type="KEGG" id="spt:SPA3409"/>
+<dbReference type="HOGENOM" id="CLU_031285_3_0_6"/>
+<dbReference type="KO" id="K05813"/>
+<dbReference type="OMA" id="ESFSAWH"/>
+<dbReference type="BioCyc" id="SENT295319:G1G44-3635-MONOMER"/>
+<dbReference type="Proteomes" id="UP000008185">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042597">
+<property type="term" value="C:periplasmic space"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0055085">
+<property type="term" value="P:transmembrane transport"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006061">
+<property type="entry name" value="SBP_1_CS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13416">
+<property type="entry name" value="SBP_bac_8"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01037">
+<property type="entry name" value="SBP_BACTERIAL_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0574">Periplasm</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="23"/>
+</location>
+</feature>
+<feature type="chain" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB" id="PRO_0000292814">
+<location>
+<begin position="24"/>
+<end position="438"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="438" mass="48455" checksum="0BF1D58D468F969A" modified="2005-01-04" version="1" precursor="true">MISLRHTALGLALSLAFTGQALAVTTIPFWHSMEGELGKEVDSLAQRFNQANPDYKIVPVYKGNYEQNLSAGIAAFRTGNAPAILQVYEVGTATMMASKAIKPVYEVFKDAGINFDESQFVPTVAGYYTDAKSGHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQELADYTAKLRAAGMKCGYASGWQGWIQLENFSAWNGLPFASKNNGFDGTDAVLEFNKPEQVKHIALLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIRQYAKFNYGVGMMPYDADIKGAPQNAIIGGASLWVMQGKYKETYTGVAKFLDFLAKPENAAEWHQKTGYLPITTAAYELTREQGYYDKNPGADIATRQMLNKPPLPFTKGLRLGNMPQIRTIVDEELESVWTGKKTPQQALDTAVERGNQLLRRFEKASKS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

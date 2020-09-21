@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2006-11-14" modified="2020-08-12" version="56">
+<accession>A0A4P1</accession>
+<name>A0A4P1_9CARY</name>
+<protein>
+<recommendedName>
+<fullName evidence="6">rRNA N-glycosidase</fullName>
+<ecNumber evidence="6">3.2.2.22</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="8">RIP</name>
+</gene>
+<organism evidence="8">
+<name type="scientific">Atriplex patens</name>
+<dbReference type="NCBI Taxonomy" id="407265"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>Caryophyllales</taxon>
+<taxon>Chenopodiaceae</taxon>
+<taxon>Chenopodioideae</taxon>
+<taxon>Atripliceae</taxon>
+<taxon>Atriplex</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="8">
+<citation type="submission" date="2006-09" db="EMBL/GenBank/DDBJ databases">
+<title>Cloning of ribosome-inactivating protein in Atriplex patens.</title>
+<authorList>
+<person name="Hu J."/>
+<person name="Zhang Z."/>
+<person name="Sun S.-R."/>
+<person name="Zhang F.-C."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<comment type="catalytic activity">
+<reaction evidence="1 6">
+<text>Endohydrolysis of the N-glycosidic bond at one specific adenosine on the 28S rRNA.</text>
+<dbReference type="EC" id="3.2.2.22"/>
+</reaction>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the ribosome-inactivating protein family.</text>
+</comment>
+<dbReference type="EC" id="3.2.2.22" evidence="6"/>
+<dbReference type="EMBL" id="DQ991968">
+<property type="protein sequence ID" value="ABJ90432.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="PRIDE" id="A0A4P1"/>
+<dbReference type="GO" id="GO:0030598">
+<property type="term" value="F:rRNA N-glycosylase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0090729">
+<property type="term" value="F:toxin activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006952">
+<property type="term" value="P:defense response"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0017148">
+<property type="term" value="P:negative regulation of translation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.420.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.470.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036041">
+<property type="entry name" value="Ribosome-inact_prot_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017989">
+<property type="entry name" value="Ribosome_inactivat_1/2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001574">
+<property type="entry name" value="Ribosome_inactivat_prot"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016138">
+<property type="entry name" value="Ribosome_inactivat_prot_sub1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016139">
+<property type="entry name" value="Ribosome_inactivat_prot_sub2"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR33453">
+<property type="entry name" value="PTHR33453"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00161">
+<property type="entry name" value="RIP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00396">
+<property type="entry name" value="SHIGARICIN"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56371">
+<property type="entry name" value="SSF56371"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0378" evidence="3 6">Hydrolase</keyword>
+<keyword id="KW-0611" evidence="4 6">Plant defense</keyword>
+<keyword id="KW-0652" evidence="5 6">Protein synthesis inhibitor</keyword>
+<keyword id="KW-0732" evidence="7">Signal</keyword>
+<keyword id="KW-0800" evidence="2 6">Toxin</keyword>
+<feature type="signal peptide" evidence="7">
+<location>
+<begin position="1"/>
+<end position="26"/>
+</location>
+</feature>
+<feature type="chain" description="rRNA N-glycosidase" id="PRO_5002621840" evidence="7">
+<location>
+<begin position="27"/>
+<end position="280"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00000237"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022656"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022801"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022821"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00023193"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU004915"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ABJ90432.1"/>
+</source>
+</evidence>
+<sequence length="280" mass="31383" checksum="F8B017D6719FB6DC" modified="2006-11-14" version="1">MQEGNKKAWVFVLAIGVWVILQQTNAADVTFKLDPKPTQNTYNTFLQAIRNQVKDPKLVYEGIPMIRAPTDPDTYLLVGLESVKNNNKISLTLALSRNDLYVVAFADKYGGKVRGHFFPNLKIDTIDKAKKVFPDVEVLVQIKYGESYSQIESNAGTNRLSSPLGFDNLRTYMEKVYGLDTSAKDYSKTEARFLLIAIQMVAEAARFKYIQGRAVVTTAPENYKIVSLETNWGSISKGIKNAVKKVINPPINLQYPNGSTWIVTQVSDIKNDMGLLKYVS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2003-07-11" modified="2020-08-12" version="94">
+<accession>Q9RUE8</accession>
+<name>UE38_DEIRA</name>
+<protein>
+<recommendedName>
+<fullName>Probable ABC transporter-binding protein DR_1438</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus">DR_1438</name>
+</gene>
+<organism>
+<name type="scientific">Deinococcus radiodurans (strain ATCC 13939 / DSM 20539 / JCM 16871 / LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422)</name>
+<dbReference type="NCBI Taxonomy" id="243230"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Deinococcus-Thermus</taxon>
+<taxon>Deinococci</taxon>
+<taxon>Deinococcales</taxon>
+<taxon>Deinococcaceae</taxon>
+<taxon>Deinococcus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1999" name="Science" volume="286" first="1571" last="1577">
+<title>Genome sequence of the radioresistant bacterium Deinococcus radiodurans R1.</title>
+<authorList>
+<person name="White O."/>
+<person name="Eisen J.A."/>
+<person name="Heidelberg J.F."/>
+<person name="Hickey E.K."/>
+<person name="Peterson J.D."/>
+<person name="Dodson R.J."/>
+<person name="Haft D.H."/>
+<person name="Gwinn M.L."/>
+<person name="Nelson W.C."/>
+<person name="Richardson D.L."/>
+<person name="Moffat K.S."/>
+<person name="Qin H."/>
+<person name="Jiang L."/>
+<person name="Pamphile W."/>
+<person name="Crosby M."/>
+<person name="Shen M."/>
+<person name="Vamathevan J.J."/>
+<person name="Lam P."/>
+<person name="McDonald L.A."/>
+<person name="Utterback T.R."/>
+<person name="Zalewski C."/>
+<person name="Makarova K.S."/>
+<person name="Aravind L."/>
+<person name="Daly M.J."/>
+<person name="Minton K.W."/>
+<person name="Fleischmann R.D."/>
+<person name="Ketchum K.A."/>
+<person name="Nelson K.E."/>
+<person name="Salzberg S.L."/>
+<person name="Smith H.O."/>
+<person name="Venter J.C."/>
+<person name="Fraser C.M."/>
+</authorList>
+<dbReference type="PubMed" id="10567266"/>
+<dbReference type="DOI" id="10.1126/science.286.5444.1571"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 13939 / DSM 20539 / JCM 16871 / LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422</strain>
+</source>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2003-05" db="UniProtKB">
+<authorList>
+<person name="Joshi B.S."/>
+<person name="Apte S.K."/>
+<person name="Schmid R."/>
+<person name="Altendorf K."/>
+</authorList>
+</citation>
+<scope>PROTEIN SEQUENCE OF 25-43</scope>
+<source>
+<strain>ATCC 13939 / DSM 20539 / JCM 16871 / LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422</strain>
+</source>
+</reference>
+<comment type="function">
+<text>Probably part of a binding-protein-dependent transport system.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the bacterial solute-binding protein 1 family.</text>
+</comment>
+<dbReference type="EMBL" id="AE000513">
+<property type="protein sequence ID" value="AAF11010.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="H75395">
+<property type="entry name" value="H75395"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_295161.1">
+<property type="nucleotide sequence ID" value="NC_001263.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010888077.1">
+<property type="nucleotide sequence ID" value="NZ_CP015081.1"/>
+</dbReference>
+<dbReference type="SMR" id="Q9RUE8"/>
+<dbReference type="STRING" id="243230.DR_1438"/>
+<dbReference type="PRIDE" id="Q9RUE8"/>
+<dbReference type="EnsemblBacteria" id="AAF11010">
+<property type="protein sequence ID" value="AAF11010"/>
+<property type="gene ID" value="DR_1438"/>
+</dbReference>
+<dbReference type="KEGG" id="dra:DR_1438"/>
+<dbReference type="PATRIC" id="fig|243230.17.peg.1634"/>
+<dbReference type="eggNOG" id="COG1653">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_031285_9_1_0"/>
+<dbReference type="InParanoid" id="Q9RUE8"/>
+<dbReference type="KO" id="K10236"/>
+<dbReference type="OMA" id="PFWANTQ"/>
+<dbReference type="OrthoDB" id="1303718at2"/>
+<dbReference type="BioCyc" id="DRAD243230:GH46-1466-MONOMER"/>
+<dbReference type="Proteomes" id="UP000002524">
+<property type="component" value="Chromosome I"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01547">
+<property type="entry name" value="SBP_bac_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51257">
+<property type="entry name" value="PROKAR_LIPOPROTEIN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" evidence="1 2">
+<location>
+<begin position="1"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="chain" description="Probable ABC transporter-binding protein DR_1438" id="PRO_0000031715">
+<location>
+<begin position="25"/>
+<end position="420"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00303"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source ref="2"/>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="420" mass="44741" checksum="05A0EC2EE09F374B" modified="2000-05-01" version="1" precursor="true">MKKFAAVLGLTVAFAAASQAHAVTLTFACDSVGQGFDECKKGADAWAKKTGNTVKLVQVPKESDARLALYQQQLGAKASDVDVYMIDVVWPGLIGQHLMDLSKSIPAAEVKAHFPAIVQNNTVGGKLIAMPWFTDAGVLYYRTDLLKKYGYNAPPKTWNELATMAQKIQAGERKSNPKFVGYVFQGKNYEGLTCDALEWISSFGGGSIVDPSGKITVNNPKAVQALQAIQGLIGTAAPAAVTTYGEEEARNVWQAGNSAFMRNWPYAYAAGQKEGSPIAGKIGVAALPAGPGGKPAATLGGWQLAVNAYSKNPKEAADLVRYLTGAQEQKRRAVQASYNPTIATLYKDKDVLKAVPFFGSLYDVFTNAVARPATVTGSKYNQVSDAFSSAVYSVLTKKSAPGPALKTLEGQLARIKGRGW</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

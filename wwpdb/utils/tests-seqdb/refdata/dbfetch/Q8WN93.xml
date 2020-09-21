@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2009-05-05" modified="2020-08-12" version="109">
+<accession>Q8WN93</accession>
+<accession>Q867C1</accession>
+<name>CALRL_PIG</name>
+<protein>
+<recommendedName>
+<fullName>Calcitonin gene-related peptide type 1 receptor</fullName>
+<shortName>CGRP type 1 receptor</shortName>
+</recommendedName>
+<alternativeName>
+<fullName>Calcitonin receptor-like receptor</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">CALCRL</name>
+<name type="synonym">CGRPR</name>
+</gene>
+<organism>
+<name type="scientific">Sus scrofa</name>
+<name type="common">Pig</name>
+<dbReference type="NCBI Taxonomy" id="9823"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Laurasiatheria</taxon>
+<taxon>Artiodactyla</taxon>
+<taxon>Suina</taxon>
+<taxon>Suidae</taxon>
+<taxon>Sus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2001" name="J. Pharmacol. Exp. Ther." volume="299" first="1086" last="1094">
+<title>Functional calcitonin gene-related peptide subtype 2 receptors in porcine coronary arteries are identified as calcitonin gene-related peptide subtype 1 receptors by radioligand binding and reverse transcription-polymerase chain reaction.</title>
+<authorList>
+<person name="Rorabaugh B.R."/>
+<person name="Scofield M.A."/>
+<person name="Smith D.D."/>
+<person name="Jeffries W.B."/>
+<person name="Abel P.W."/>
+</authorList>
+<dbReference type="PubMed" id="11714898"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<source>
+<tissue>Coronary artery</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2003" name="Hypertens. Res." volume="26" first="S15" last="S23">
+<title>Specificity of porcine calcitonin receptor and calcitonin receptor-like receptor in the presence of receptor-activity-modifying proteins.</title>
+<authorList>
+<person name="Kikumoto K."/>
+<person name="Katafuchi T."/>
+<person name="Minamino N."/>
+</authorList>
+<dbReference type="PubMed" id="12630807"/>
+<dbReference type="DOI" id="10.1291/hypres.26.s15"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>INTERACTION WITH RAMP1; RAMP2 AND RAMP3</scope>
+</reference>
+<comment type="function">
+<text evidence="1 4 5">Receptor for calcitonin-gene-related peptide (CGRP) together with RAMP1 and receptor for adrenomedullin together with RAMP2 or RAMP3. The activity of this receptor is mediated by G proteins which activate adenylyl cyclase (By similarity).</text>
+</comment>
+<comment type="subunit">
+<text>Heterodimer of CALCRL and RAMP1, RAMP2 or RAMP3.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="4">Cell membrane</location>
+<topology evidence="4">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="4">Detected in lung and coronary artery.</text>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the G-protein coupled receptor 2 family.</text>
+</comment>
+<comment type="sequence caution" evidence="6">
+<conflict type="erroneous initiation">
+<sequence resource="EMBL-CDS" id="BAC54960" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EMBL" id="AF419317">
+<property type="protein sequence ID" value="AAL37725.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB090162">
+<property type="protein sequence ID" value="BAC54960.1"/>
+<property type="status" value="ALT_INIT"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_999260.1">
+<property type="nucleotide sequence ID" value="NM_214095.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_005672071.1">
+<property type="nucleotide sequence ID" value="XM_005672014.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_005672072.1">
+<property type="nucleotide sequence ID" value="XM_005672015.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_013839785.1">
+<property type="nucleotide sequence ID" value="XM_013984331.1"/>
+</dbReference>
+<dbReference type="SMR" id="Q8WN93"/>
+<dbReference type="STRING" id="9823.ENSSSCP00000016986"/>
+<dbReference type="BindingDB" id="Q8WN93"/>
+<dbReference type="PaxDb" id="Q8WN93"/>
+<dbReference type="PeptideAtlas" id="Q8WN93"/>
+<dbReference type="PRIDE" id="Q8WN93"/>
+<dbReference type="GeneID" id="397172"/>
+<dbReference type="KEGG" id="ssc:397172"/>
+<dbReference type="CTD" id="10203"/>
+<dbReference type="eggNOG" id="KOG4564">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_002753_4_2_1"/>
+<dbReference type="InParanoid" id="Q8WN93"/>
+<dbReference type="KO" id="K04577"/>
+<dbReference type="OMA" id="TRCNEHT"/>
+<dbReference type="TreeFam" id="TF315710"/>
+<dbReference type="Proteomes" id="UP000008227">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q8WN93">
+<property type="organism ID" value="SS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001605">
+<property type="term" value="F:adrenomedullin receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001635">
+<property type="term" value="F:calcitonin gene-related peptide receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004948">
+<property type="term" value="F:calcitonin receptor activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008528">
+<property type="term" value="F:G protein-coupled peptide receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007189">
+<property type="term" value="P:adenylate cyclase-activating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000353"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007188">
+<property type="term" value="P:adenylate cyclase-modulating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:1990410">
+<property type="term" value="P:adrenomedullin receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000353"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001525">
+<property type="term" value="P:angiogenesis"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:1990408">
+<property type="term" value="P:calcitonin gene-related peptide receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000353"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007166">
+<property type="term" value="P:cell surface receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.1240.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003287">
+<property type="entry name" value="GCPR_2_calcitonin_rcpt_fam"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017981">
+<property type="entry name" value="GPCR_2-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003289">
+<property type="entry name" value="GPCR_2_CGRP1_rcpt"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036445">
+<property type="entry name" value="GPCR_2_extracell_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001879">
+<property type="entry name" value="GPCR_2_extracellular_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000832">
+<property type="entry name" value="GPCR_2_secretin-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017983">
+<property type="entry name" value="GPCR_2_secretin-like_CS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00002">
+<property type="entry name" value="7tm_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02793">
+<property type="entry name" value="HRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01351">
+<property type="entry name" value="CGRPRECEPTOR"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01350">
+<property type="entry name" value="CTRFAMILY"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00249">
+<property type="entry name" value="GPCRSECRETIN"/>
+</dbReference>
+<dbReference type="SMART" id="SM00008">
+<property type="entry name" value="HormR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF111418">
+<property type="entry name" value="SSF111418"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00649">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00650">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50227">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50261">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_4"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0297">G-protein coupled receptor</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0807">Transducer</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="signal peptide" evidence="3">
+<location>
+<begin position="1"/>
+<end position="22"/>
+</location>
+</feature>
+<feature type="chain" description="Calcitonin gene-related peptide type 1 receptor" id="PRO_0000373832">
+<location>
+<begin position="23"/>
+<end position="462"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="23"/>
+<end position="147"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=1" evidence="3">
+<location>
+<begin position="148"/>
+<end position="167"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="168"/>
+<end position="174"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=2" evidence="3">
+<location>
+<begin position="175"/>
+<end position="194"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="195"/>
+<end position="214"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=3" evidence="3">
+<location>
+<begin position="215"/>
+<end position="237"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="238"/>
+<end position="254"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=4" evidence="3">
+<location>
+<begin position="255"/>
+<end position="274"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="275"/>
+<end position="290"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=5" evidence="3">
+<location>
+<begin position="291"/>
+<end position="314"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="315"/>
+<end position="337"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=6" evidence="3">
+<location>
+<begin position="338"/>
+<end position="355"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="356"/>
+<end position="367"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=7" evidence="3">
+<location>
+<begin position="368"/>
+<end position="389"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="390"/>
+<end position="462"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine" evidence="2">
+<location>
+<position position="421"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine" evidence="2">
+<location>
+<position position="446"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="67"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="119"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="124"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="49"/>
+<end position="75"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="66"/>
+<end position="106"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="89"/>
+<end position="128"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q9R1W5"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11714898"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12630807"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<sequence length="462" mass="53656" checksum="4585B314015B43AC" modified="2002-03-01" version="1" precursor="true">MEKKYILYFLFLLPFFMILVIAETEEENPDDLIQLTVTRNKIMTAQYECYQKIMQDPIQQTEGIYCNRTWDGWLCWNDVAAGTESMQHCPDYFQDFDPSEKVTKICDQDGNWFRHPESNRTWTNYTQCNINTHEKVQTALNLFYLTIIGHGLSIASLLISLGIFFYFKSLSCQRITLHKNLFFSFVCNSIVTIIHLTAVANNQALVATNPVSCKVFQFIHLYLMGCNYFWMLCEGIYLHTLIVVAVFAEKQHLMWYYFLGWGFPLIPACIHAVARRLYYNDNCWISSDTHLLYIIHGPICAALLVNLFFLLNIVRVLITKLKVTHQAESNLYMKAVRATLILVPLLGIEFVLIPWRPEGKIAEEVYDYIMHILVHYQGLLVSTIYCFFNGEVQAILRRNWNQYKIQFGNSFSHSDALRSASYTVSTISDGAGYSHDYPSEHLNGKSIHDMENIVIKPEKLYD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

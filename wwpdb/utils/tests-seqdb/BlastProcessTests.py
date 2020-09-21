@@ -8,7 +8,7 @@
 
 ##
 """
-Test cases from funning reference sequence database blast searches and processing the search results.
+Test cases from running reference sequence database blast searches and processing the search results.
 
 """
 
@@ -18,6 +18,13 @@ import os
 import os.path
 import traceback
 import platform
+import requests_mock
+
+try:
+    from urllib.parse import parse_qs
+except ImportError:
+    from urlparse import parse_qs
+from xml.dom import minidom
 
 from wwpdb.utils.seqdb_v2.BlastProcess import BlastProcess
 
@@ -29,6 +36,84 @@ if not os.path.exists(TESTOUTPUT):
 mockTopPath = os.path.join(TOPDIR, "wwpdb", "mock-data")
 
 
+def PostCallBack(request, context):
+    """Simulates blast post request"""
+    dat = parse_qs(request.body)
+
+    context.status_code = 404
+    if dat["program"] != ["blastp"] or dat["database"] != ["uniprotkb"] or dat["stype"] != ["protein"]:
+        return ""
+
+    smap = {
+        "HMPNYKLTYFNMRGRAEIIRYIFAYLDIQYEDHRIEQADWPEIKSTLPFGKIPILEVDGLTLHQSLAIARYLTKNTDLAGNTEMEQCHVDAIVDTLDDFMSCFPWAEKKQDVKEQMFNELLTYNAPHLMQDLDTYLGGREWLIGNSVTWADFYWEICSTTLLVFKPDLLDNHPRLVTLRKKVQAIPAVANWIKRRPQTKL": "requestblast-1",  # noqa: E501
+        "EEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDAQT": "requestblast-2",  # noqa: E501
+        "DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPASIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL": "requestblast-3",  # noqa: E501
+    }
+
+    seq = dat["sequence"][0]
+    if seq in smap:
+        context.status_code = 200
+        return smap[seq]
+
+    return ""
+
+
+# dbfetch parses the request and returns data
+def dbfetchTextCallBack(request, context):
+    """Handles dbfetch requests"""
+    dat = parse_qs(request.body)
+    accs = dat["id"][0]
+
+    # Create a combined file of contents
+    node = None
+    root = None
+
+    for acc in accs.split(","):
+        fpath = os.path.join(HERE, "refdata", "dbfetch", acc + ".xml")
+        if not os.path.exists(fpath):
+            context.status_code = 404
+            print("XXX COULD NOT FIND", fpath)
+            return ""
+
+        doc = minidom.parse(fpath)
+        if not node:
+            node = doc
+            root = node.documentElement
+        else:
+            ent = doc.getElementsByTagName("entry")
+            for e in ent:
+                root.appendChild(e)
+
+    if node:
+        ret = root.toxml()
+    else:
+        ret = ""
+    return ret
+
+
+def ResultCallBack1(_request, context):
+    return commonResult("requestblast-1", context)
+
+
+def ResultCallBack2(_request, context):
+    return commonResult("requestblast-2", context)
+
+
+def ResultCallBack3(_request, context):
+    return commonResult("requestblast-3", context)
+
+
+def commonResult(req, context):
+    fpath = os.path.join(HERE, "refdata", "ncbiblast", req + ".xml")
+    if not os.path.exists(fpath):
+        context.status_code = 404
+        return ""
+    else:
+        with open(fpath, "r") as fin:
+            ret = fin.read()
+        return ret
+
+
 class BlastProcessTests(unittest.TestCase):
     def setUp(self):
         self.__verbose = True
@@ -38,9 +123,22 @@ class BlastProcessTests(unittest.TestCase):
         self.__testFileFragmentsCif = "3l2j.cif"
         self.__testTaxPath = os.path.join(mockTopPath, "TAXONOMY")
         self.__taxonomyDataFile = "nodes.dmp.gz"
+        if "MOCKREQUESTS" in os.environ:
+            self.__mock = requests_mock.Mocker()
+            url = "https://www.ebi.ac.uk/Tools/services/rest/ncbiblast"
+            self.__mock.post(url + "/run/", text=PostCallBack)
+            self.__mock.get(url + "/status/requestblast-1", [{"text": "PENDING"}, {"text": "RUNNING"}, {"text": "FINISHED"}])
+            self.__mock.get(url + "/result/requestblast-1/xml", text=ResultCallBack1)
+            self.__mock.get(url + "/status/requestblast-2", [{"text": "FINISHED"}])
+            self.__mock.get(url + "/result/requestblast-2/xml", text=ResultCallBack2)
+            self.__mock.get(url + "/status/requestblast-3", [{"text": "FINISHED"}])
+            self.__mock.get(url + "/result/requestblast-3/xml", text=ResultCallBack3)
+            self.__mock.post("https://www.ebi.ac.uk/Tools/dbfetch/dbfetch", text=dbfetchTextCallBack)
+            self.__mock.start()
 
     def tearDown(self):
-        pass
+        if self.__mock is not None:
+            self.__mock.stop()
 
     def testGetPolymerEntityDetails(self):
         """"""

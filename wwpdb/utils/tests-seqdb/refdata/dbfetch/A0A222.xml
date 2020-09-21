@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2006-11-14" modified="2020-08-12" version="72">
+<accession>A0A222</accession>
+<name>A0A222_9INFA</name>
+<protein>
+<recommendedName>
+<fullName evidence="7">Nuclear export protein</fullName>
+<shortName evidence="7">NEP</shortName>
+</recommendedName>
+<alternativeName>
+<fullName evidence="7">Non-structural protein 2</fullName>
+<shortName evidence="7">NS2</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="9">NS2</name>
+<name type="synonym" evidence="7 8">NS</name>
+</gene>
+<organism evidence="9 10">
+<name type="scientific">Influenza A virus (A/chicken/Jilin/ha/2003(H5N1))</name>
+<dbReference type="NCBI Taxonomy" id="404159"/>
+<lineage>
+<taxon>Viruses</taxon>
+<taxon>Riboviria</taxon>
+<taxon>Negarnaviricota</taxon>
+<taxon>Polyploviricotina</taxon>
+<taxon>Insthoviricetes</taxon>
+<taxon>Articulavirales</taxon>
+<taxon>Orthomyxoviridae</taxon>
+<taxon>Alphainfluenzavirus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="9 10">
+<citation type="submission" date="2006-09" db="EMBL/GenBank/DDBJ databases">
+<title>Avian Influenza Viruses in China.</title>
+<authorList>
+<person name="Liao X."/>
+<person name="Zhang X."/>
+<person name="Wang J."/>
+<person name="Yu J."/>
+<person name="Jin N."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="9">A/chicken/Jilin/ha/2003</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="7 8">Mediates the nuclear export of encapsidated genomic RNAs (ribonucleoproteins, RNPs). Acts as an adapter between viral RNPs complexes and the nuclear export machinery of the cell. Possesses no intrinsic RNA-binding activity, but includes a C-terminal M1-binding domain. This domain is believed to allow recognition of RNPs bound to the protein M1. Since protein M1 is not available in large quantities before late stages of infection, such an indirect recognition mechanism probably ensures that genomic RNPs are not exported from the host nucleus until sufficient quantities of viral mRNA and progeny genomic RNA have been synthesized. Furthermore, the RNPs enter the host cytoplasm only when associated with the M1 protein that is necessary to guide them to the plasma membrane. May down-regulate viral RNA synthesis when overproduced.</text>
+</comment>
+<comment type="function">
+<text evidence="1">Mediates the nuclear export of encapsidated genomic RNAs (ribonucleoproteins, RNPs). Acts as an adapter between viral RNPs complexes and the nuclear export machinery of the cell. Possesses no intrinsic RNA-binding activity, but includes a C-terminal M1-binding domain. This domain is believed to allow recognition of RNPs to which the M1 protein is bound. Because the M1 protein is not available in large quantities until the later stages of infection, such an indirect recognition mechanism probably ensures that genomic RNPs are not exported from the nucleus before sufficient quantities of viral mRNA and progeny genomic RNA have been synthesized. Furthermore, the RNPs enters the cytoplasm only when they have associated with the M1 protein that is necessary to guide them to the plasma membrane. May down-regulate viral RNA synthesis when overproduced.</text>
+</comment>
+<comment type="subunit">
+<text evidence="8">Binds M1 protein. May interact with host nucleoporin RAB/HRB and exportin XPO1/CRM1.</text>
+</comment>
+<comment type="subunit">
+<text evidence="5">Binds M1 protein. May interact with human nucleoporin RAB/HRB and exportin XPO1/CRM1.</text>
+</comment>
+<comment type="subunit">
+<text evidence="7">Interacts with protein M1. May interact with host nucleoporin RAB/HRB and exportin XPO1/CRM1.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3 7 8">Host nucleus</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="2">Nucleus</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="7 8">Virion</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="4 7 8">Belongs to the influenza viruses NEP family.</text>
+</comment>
+<dbReference type="EMBL" id="DQ997273">
+<property type="protein sequence ID" value="ABI98917.1"/>
+<property type="molecule type" value="Viral_cRNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000152380">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042025">
+<property type="term" value="C:host cell nucleus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019012">
+<property type="term" value="C:virion"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039675">
+<property type="term" value="P:exit of virus from host cell nucleus through nuclear pore"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_04067">
+<property type="entry name" value="INFV_NEP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000968">
+<property type="entry name" value="Flu_NS2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00601">
+<property type="entry name" value="Flu_NS2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-1048" evidence="7 8">Host nucleus</keyword>
+<keyword id="KW-0945" evidence="7 8">Host-virus interaction</keyword>
+<keyword id="KW-0813" evidence="6 7 8">Transport</keyword>
+<keyword id="KW-0946" evidence="7 8">Virion</keyword>
+<feature type="short sequence motif" description="Nuclear export signal" evidence="7">
+<location>
+<begin position="12"/>
+<end position="21"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="Nuclear export signal" evidence="7">
+<location>
+<begin position="85"/>
+<end position="94"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00002251"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00004123"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00004147"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00010673"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00011453"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022448"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000256">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_04067"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU362104"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ABI98917.1"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000152380"/>
+</source>
+</evidence>
+<sequence length="121" mass="14236" checksum="CC1EB6AF86260BDD" modified="2006-11-14" version="1">MDSNTVSSFQDILMRMSKMQLGSSSGDLNGMITQFESLKLYRDSLGEAVMRMGDLHSLQSRNGKWREQLSQKFEEIRWLIEEVRHRLKITENSFEQITFMQALQLLLEVEQEIRAFSFQLI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

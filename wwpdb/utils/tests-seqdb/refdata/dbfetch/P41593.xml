@@ -1,0 +1,701 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1995-11-01" modified="2020-08-12" version="169">
+<accession>P41593</accession>
+<accession>Q62119</accession>
+<accession>Q80WU8</accession>
+<name>PTH1R_MOUSE</name>
+<protein>
+<recommendedName>
+<fullName>Parathyroid hormone/parathyroid hormone-related peptide receptor</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>PTH/PTHrP type I receptor</fullName>
+<shortName>PTH/PTHr receptor</shortName>
+</alternativeName>
+<alternativeName>
+<fullName>Parathyroid hormone 1 receptor</fullName>
+<shortName>PTH1 receptor</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">Pth1r</name>
+<name type="synonym">Pthr</name>
+<name type="synonym">Pthr1</name>
+</gene>
+<organism>
+<name type="scientific">Mus musculus</name>
+<name type="common">Mouse</name>
+<dbReference type="NCBI Taxonomy" id="10090"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Myomorpha</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Mus</taxon>
+<taxon>Mus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1994" name="Mech. Dev." volume="47" first="29" last="42">
+<title>Expression pattern of parathyroid hormone/parathyroid hormone related peptide receptor mRNA in mouse postimplantation embryos indicates involvement in multiple developmental processes.</title>
+<authorList>
+<person name="Karperien M."/>
+<person name="van Dijk T.B."/>
+<person name="Hoeijmakers T."/>
+<person name="Cremers F."/>
+<person name="Abou-Samra A.-B."/>
+<person name="Boonstra J."/>
+<person name="de Laat S.W."/>
+<person name="Defize L.H.K."/>
+</authorList>
+<dbReference type="PubMed" id="7524627"/>
+<dbReference type="DOI" id="10.1016/0925-4773(94)90093-0"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<source>
+<strain>C3H/HEHA</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1994" name="Proc. Natl. Acad. Sci. U.S.A." volume="91" first="5051" last="5055">
+<title>Molecular cloning of the gene encoding the mouse parathyroid hormone/parathyroid hormone-related peptide receptor.</title>
+<authorList>
+<person name="McCuaig K.A."/>
+<person name="Clarke J.C."/>
+<person name="White J.H."/>
+</authorList>
+<dbReference type="PubMed" id="8197183"/>
+<dbReference type="DOI" id="10.1073/pnas.91.11.5051"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<source>
+<strain>BALB/cJ</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<strain>C57BL/6J</strain>
+<tissue>Brain</tissue>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2010" name="Cell" volume="143" first="1174" last="1189">
+<title>A tissue-specific atlas of mouse protein phosphorylation and expression.</title>
+<authorList>
+<person name="Huttlin E.L."/>
+<person name="Jedrychowski M.P."/>
+<person name="Elias J.E."/>
+<person name="Goswami T."/>
+<person name="Rad R."/>
+<person name="Beausoleil S.A."/>
+<person name="Villen J."/>
+<person name="Haas W."/>
+<person name="Sowa M.E."/>
+<person name="Gygi S.P."/>
+</authorList>
+<dbReference type="PubMed" id="21183079"/>
+<dbReference type="DOI" id="10.1016/j.cell.2010.12.001"/>
+</citation>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+<source>
+<tissue>Kidney</tissue>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2 4">Receptor for parathyroid hormone and for parathyroid hormone-related peptide (PubMed:8197183). The activity of this receptor is mediated by G proteins which activate adenylyl cyclase and also a phosphatidylinositol-calcium second messenger system.</text>
+</comment>
+<comment type="subunit">
+<text evidence="2 6">Interacts (via N-terminal extracellular domain) with PTHLH and PTH (PubMed:8197183). Homodimer in the absence of bound ligand. Peptide hormone binding leads to dissociation of the homodimer.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="4">Cell membrane</location>
+<topology evidence="5">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="4">Detected in kidney.</text>
+</comment>
+<comment type="PTM">
+<text evidence="2">N-glycosylated.</text>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the G-protein coupled receptor 2 family.</text>
+</comment>
+<dbReference type="EMBL" id="X78936">
+<property type="protein sequence ID" value="CAA55536.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L34611">
+<property type="protein sequence ID" value="AAA40011.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L34608">
+<property type="protein sequence ID" value="AAA40011.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L34607">
+<property type="protein sequence ID" value="AAA40011.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L34609">
+<property type="protein sequence ID" value="AAA40011.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L34610">
+<property type="protein sequence ID" value="AAA40011.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC051981">
+<property type="protein sequence ID" value="AAH51981.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS52940.1"/>
+<dbReference type="PIR" id="I59297">
+<property type="entry name" value="I59297"/>
+</dbReference>
+<dbReference type="PIR" id="S44203">
+<property type="entry name" value="S44203"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001077404.1">
+<property type="nucleotide sequence ID" value="NM_001083935.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001077405.1">
+<property type="nucleotide sequence ID" value="NM_001083936.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_035329.2">
+<property type="nucleotide sequence ID" value="NM_011199.2"/>
+</dbReference>
+<dbReference type="BioGRID" id="202466">
+<property type="interactions" value="1"/>
+</dbReference>
+<dbReference type="IntAct" id="P41593">
+<property type="interactions" value="1"/>
+</dbReference>
+<dbReference type="STRING" id="10090.ENSMUSP00000006005"/>
+<dbReference type="ChEMBL" id="CHEMBL1075300"/>
+<dbReference type="GlyGen" id="P41593">
+<property type="glycosylation" value="4 sites"/>
+</dbReference>
+<dbReference type="iPTMnet" id="P41593"/>
+<dbReference type="PhosphoSitePlus" id="P41593"/>
+<dbReference type="MaxQB" id="P41593"/>
+<dbReference type="PaxDb" id="P41593"/>
+<dbReference type="PRIDE" id="P41593"/>
+<dbReference type="Antibodypedia" id="1960">
+<property type="antibodies" value="401 antibodies"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSMUST00000006005">
+<property type="protein sequence ID" value="ENSMUSP00000006005"/>
+<property type="gene ID" value="ENSMUSG00000032492"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSMUST00000166716">
+<property type="protein sequence ID" value="ENSMUSP00000132064"/>
+<property type="gene ID" value="ENSMUSG00000032492"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSMUST00000198865">
+<property type="protein sequence ID" value="ENSMUSP00000143298"/>
+<property type="gene ID" value="ENSMUSG00000032492"/>
+</dbReference>
+<dbReference type="GeneID" id="19228"/>
+<dbReference type="KEGG" id="mmu:19228"/>
+<dbReference type="UCSC" id="uc009ruo.1">
+<property type="organism name" value="mouse"/>
+</dbReference>
+<dbReference type="CTD" id="5745"/>
+<dbReference type="MGI" id="MGI:97801">
+<property type="gene designation" value="Pth1r"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG4564">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00940000158574"/>
+<dbReference type="InParanoid" id="P41593"/>
+<dbReference type="KO" id="K04585"/>
+<dbReference type="OMA" id="SGTLWQI"/>
+<dbReference type="OrthoDB" id="651627at2759"/>
+<dbReference type="TreeFam" id="TF315710"/>
+<dbReference type="Reactome" id="R-MMU-373080">
+<property type="pathway name" value="Class B/2 (Secretin family receptors)"/>
+</dbReference>
+<dbReference type="Reactome" id="R-MMU-418555">
+<property type="pathway name" value="G alpha (s) signalling events"/>
+</dbReference>
+<dbReference type="BioGRID-ORCS" id="19228">
+<property type="hits" value="1 hit in 18 CRISPR screens"/>
+</dbReference>
+<dbReference type="ChiTaRS" id="Pth1r">
+<property type="organism name" value="mouse"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P41593"/>
+<dbReference type="Proteomes" id="UP000000589">
+<property type="component" value="Chromosome 9"/>
+</dbReference>
+<dbReference type="RNAct" id="P41593">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSMUSG00000032492">
+<property type="expression patterns" value="Expressed in proximal tubule and 310 other tissues"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="P41593">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="P41593">
+<property type="organism ID" value="MM"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016324">
+<property type="term" value="C:apical plasma membrane"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016323">
+<property type="term" value="C:basolateral plasma membrane"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031526">
+<property type="term" value="C:brush border membrane"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005887">
+<property type="term" value="C:integral component of plasma membrane"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005634">
+<property type="term" value="C:nucleus"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043235">
+<property type="term" value="C:receptor complex"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008528">
+<property type="term" value="F:G protein-coupled peptide receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004991">
+<property type="term" value="F:parathyroid hormone receptor activity"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0017046">
+<property type="term" value="F:peptide hormone binding"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042803">
+<property type="term" value="F:protein homodimerization activity"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043621">
+<property type="term" value="F:protein self-association"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007189">
+<property type="term" value="P:adenylate cyclase-activating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007188">
+<property type="term" value="P:adenylate cyclase-modulating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007568">
+<property type="term" value="P:aging"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030282">
+<property type="term" value="P:bone mineralization"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045453">
+<property type="term" value="P:bone resorption"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0048469">
+<property type="term" value="P:cell maturation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007166">
+<property type="term" value="P:cell surface receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006874">
+<property type="term" value="P:cellular calcium ion homeostasis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002062">
+<property type="term" value="P:chondrocyte differentiation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007187">
+<property type="term" value="P:G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001701">
+<property type="term" value="P:in utero embryonic development"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008285">
+<property type="term" value="P:negative regulation of cell population proliferation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001503">
+<property type="term" value="P:ossification"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002076">
+<property type="term" value="P:osteoblast development"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007200">
+<property type="term" value="P:phospholipase C-activating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008284">
+<property type="term" value="P:positive regulation of cell population proliferation"/>
+<property type="evidence" value="ECO:0000316"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007204">
+<property type="term" value="P:positive regulation of cytosolic calcium ion concentration"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060732">
+<property type="term" value="P:positive regulation of inositol phosphate biosynthetic process"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001501">
+<property type="term" value="P:skeletal system development"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.1240.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017981">
+<property type="entry name" value="GPCR_2-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036445">
+<property type="entry name" value="GPCR_2_extracell_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001879">
+<property type="entry name" value="GPCR_2_extracellular_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002170">
+<property type="entry name" value="GPCR_2_parathyroid_rcpt"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000832">
+<property type="entry name" value="GPCR_2_secretin-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017983">
+<property type="entry name" value="GPCR_2_secretin-like_CS"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR45620:SF27">
+<property type="entry name" value="PTHR45620:SF27"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00002">
+<property type="entry name" value="7tm_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02793">
+<property type="entry name" value="HRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00249">
+<property type="entry name" value="GPCRSECRETIN"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00393">
+<property type="entry name" value="PTRHORMONER"/>
+</dbReference>
+<dbReference type="SMART" id="SM00008">
+<property type="entry name" value="HormR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF111418">
+<property type="entry name" value="SSF111418"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00649">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00650">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50227">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50261">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_4"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0297">G-protein coupled receptor</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0807">Transducer</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="signal peptide" evidence="3">
+<location>
+<begin position="1"/>
+<end position="26"/>
+</location>
+</feature>
+<feature type="chain" description="Parathyroid hormone/parathyroid hormone-related peptide receptor" id="PRO_0000012846">
+<location>
+<begin position="27"/>
+<end position="591"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="27"/>
+<end position="188"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=1" evidence="3">
+<location>
+<begin position="189"/>
+<end position="212"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="213"/>
+<end position="219"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=2" evidence="3">
+<location>
+<begin position="220"/>
+<end position="239"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="240"/>
+<end position="282"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=3" evidence="3">
+<location>
+<begin position="283"/>
+<end position="306"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="307"/>
+<end position="320"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=4" evidence="3">
+<location>
+<begin position="321"/>
+<end position="342"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="343"/>
+<end position="361"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=5" evidence="3">
+<location>
+<begin position="362"/>
+<end position="382"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="383"/>
+<end position="409"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=6" evidence="3">
+<location>
+<begin position="410"/>
+<end position="428"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="429"/>
+<end position="440"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=7" evidence="3">
+<location>
+<begin position="441"/>
+<end position="463"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="464"/>
+<end position="591"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="Important for interaction with G proteins" evidence="1">
+<location>
+<begin position="474"/>
+<end position="477"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="151"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="161"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="166"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="176"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="48"/>
+<end position="117"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="108"/>
+<end position="148"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="131"/>
+<end position="170"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAA40011." ref="2" evidence="5">
+<original>DA</original>
+<variation>TS</variation>
+<location>
+<begin position="27"/>
+<end position="28"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAA40011." ref="2" evidence="5">
+<location>
+<begin position="464"/>
+<end position="465"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; CAA55536." ref="1" evidence="5">
+<original>VS</original>
+<variation>GA</variation>
+<location>
+<begin position="500"/>
+<end position="501"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q03431"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8197183"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<evidence key="6" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="8197183"/>
+</source>
+</evidence>
+<sequence length="591" mass="66372" checksum="C2E6CCAF2ABAFEEF" modified="2011-07-27" version="2" precursor="true">MGTARIAPSLALLLCCPVLSSAYALVDADDVFTKEEQIFLLHRAQAQCDKLLKEVLHTAANIMESDKGWTPASTSGKPRKEKAPGKFYPESKENKDVPTGSRRRGRPCLPEWDNIVCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWEVVPGHNRTWANYSECLKFMTNETREREVFDRLGMIYTVGYSMSLASLTVAVLILAYFRRLHCTRNYIHMHMFLSFMLRAASIFVKDAVLYSGFTLDEAERLTEEELHIIAQVPPPPAAAAVGYAGCRVAVTFFLYFLATNYYWILVEGLYLHSLIFMAFFSEKKYLWGFTIFGWGLPAVFVAVWVGVRATLANTGCWDLSSGHKKWIIQVPILASVVLNFILFINIIRVLATKLRETNAGRCDTRQQYRKLLRSTLVLVPLFGVHYTVFMALPYTEVSGTLWQIQMHYEMLFNSFQGFFVAIIYCFCNGEVQAEIRKSWSRWTLALDFKRKARSGSSSYSYGPMVSHTSVTNVGPRAGLSLPLSPRLLPATTNGHSQLPGHAKPGAPAIENETIPVTMTVPKDDGFLNGSCSGLDEEASGSARPPPLLQEEWETVM</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

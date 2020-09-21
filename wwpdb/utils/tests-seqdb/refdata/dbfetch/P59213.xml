@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2003-01-17" modified="2020-08-12" version="105">
+<accession>P59213</accession>
+<accession>P29850</accession>
+<name>MALX_STRPN</name>
+<protein>
+<recommendedName>
+<fullName>Maltose/maltodextrin-binding protein</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">malX</name>
+<name type="ordered locus">SP_2108</name>
+</gene>
+<organism>
+<name type="scientific">Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4)</name>
+<dbReference type="NCBI Taxonomy" id="170187"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Lactobacillales</taxon>
+<taxon>Streptococcaceae</taxon>
+<taxon>Streptococcus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2001" name="Science" volume="293" first="498" last="506">
+<title>Complete genome sequence of a virulent isolate of Streptococcus pneumoniae.</title>
+<authorList>
+<person name="Tettelin H."/>
+<person name="Nelson K.E."/>
+<person name="Paulsen I.T."/>
+<person name="Eisen J.A."/>
+<person name="Read T.D."/>
+<person name="Peterson S.N."/>
+<person name="Heidelberg J.F."/>
+<person name="DeBoy R.T."/>
+<person name="Haft D.H."/>
+<person name="Dodson R.J."/>
+<person name="Durkin A.S."/>
+<person name="Gwinn M.L."/>
+<person name="Kolonay J.F."/>
+<person name="Nelson W.C."/>
+<person name="Peterson J.D."/>
+<person name="Umayam L.A."/>
+<person name="White O."/>
+<person name="Salzberg S.L."/>
+<person name="Lewis M.R."/>
+<person name="Radune D."/>
+<person name="Holtzapple E.K."/>
+<person name="Khouri H.M."/>
+<person name="Wolf A.M."/>
+<person name="Utterback T.R."/>
+<person name="Hansen C.L."/>
+<person name="McDonald L.A."/>
+<person name="Feldblyum T.V."/>
+<person name="Angiuoli S.V."/>
+<person name="Dickinson T."/>
+<person name="Hickey E.K."/>
+<person name="Holt I.E."/>
+<person name="Loftus B.J."/>
+<person name="Yang F."/>
+<person name="Smith H.O."/>
+<person name="Venter J.C."/>
+<person name="Dougherty B.A."/>
+<person name="Morrison D.A."/>
+<person name="Hollingshead S.K."/>
+<person name="Fraser C.M."/>
+</authorList>
+<dbReference type="PubMed" id="11463916"/>
+<dbReference type="DOI" id="10.1126/science.1061217"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC BAA-334 / TIGR4</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1989" name="Gene" volume="80" first="227" last="238">
+<title>The difficulty of cloning Streptococcus pneumoniae mal and ami loci in Escherichia coli: toxicity of malX and amiA gene products.</title>
+<authorList>
+<person name="Martin B."/>
+<person name="Alloing G."/>
+<person name="Boucraut C."/>
+<person name="Claverys J.-P."/>
+</authorList>
+<dbReference type="PubMed" id="2684766"/>
+<dbReference type="DOI" id="10.1016/0378-1119(89)90287-4"/>
+</citation>
+<scope>PARTIAL NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>R6 / R800</strain>
+</source>
+</reference>
+<comment type="function">
+<text>Binding protein for maltose and maltodextrin; involved in its cellular uptake.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Cell membrane</location>
+<topology evidence="3">Lipid-anchor</topology>
+</subcellularLocation>
+</comment>
+<comment type="induction">
+<text>By maltose.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the bacterial solute-binding protein 1 family.</text>
+</comment>
+<dbReference type="EMBL" id="AE005672">
+<property type="protein sequence ID" value="AAK76167.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="F95246">
+<property type="entry name" value="F95246"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000095467.1">
+<property type="nucleotide sequence ID" value="NZ_AKVY01000001.1"/>
+</dbReference>
+<dbReference type="PDB" id="2XD2">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.90"/>
+<property type="chains" value="A/B=31-423"/>
+</dbReference>
+<dbReference type="PDB" id="2XD3">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.00"/>
+<property type="chains" value="A=31-423"/>
+</dbReference>
+<dbReference type="PDBsum" id="2XD2"/>
+<dbReference type="PDBsum" id="2XD3"/>
+<dbReference type="SMR" id="P59213"/>
+<dbReference type="STRING" id="170187.SP_2108"/>
+<dbReference type="EnsemblBacteria" id="AAK76167">
+<property type="protein sequence ID" value="AAK76167"/>
+<property type="gene ID" value="SP_2108"/>
+</dbReference>
+<dbReference type="KEGG" id="spn:SP_2108"/>
+<dbReference type="eggNOG" id="COG2182">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="KO" id="K15770"/>
+<dbReference type="OMA" id="WAHDWIG"/>
+<dbReference type="BioCyc" id="SPNE170187:G1FZB-2196-MONOMER"/>
+<dbReference type="EvolutionaryTrace" id="P59213"/>
+<dbReference type="Proteomes" id="UP000000585">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015144">
+<property type="term" value="F:carbohydrate transmembrane transporter activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006060">
+<property type="entry name" value="Maltose/Cyclodextrin-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006061">
+<property type="entry name" value="SBP_1_CS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13416">
+<property type="entry name" value="SBP_bac_8"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00181">
+<property type="entry name" value="MALTOSEBP"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51257">
+<property type="entry name" value="PROKAR_LIPOPROTEIN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01037">
+<property type="entry name" value="SBP_BACTERIAL_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0449">Lipoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0564">Palmitate</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0762">Sugar transport</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" evidence="3">
+<location>
+<begin position="1"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="chain" description="Maltose/maltodextrin-binding protein" id="PRO_0000031698">
+<location>
+<begin position="25"/>
+<end position="423"/>
+</location>
+</feature>
+<feature type="lipid moiety-binding region" description="N-palmitoyl cysteine" evidence="3">
+<location>
+<position position="25"/>
+</location>
+</feature>
+<feature type="lipid moiety-binding region" description="S-diacylglycerol cysteine" evidence="3">
+<location>
+<position position="25"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="45"/>
+<end position="48"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="50"/>
+<end position="52"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="53"/>
+<end position="66"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="72"/>
+<end position="75"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="78"/>
+<end position="83"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="85"/>
+<end position="91"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="96"/>
+<end position="101"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="102"/>
+<end position="110"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="121"/>
+<end position="123"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="127"/>
+<end position="133"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="143"/>
+<end position="148"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="151"/>
+<end position="155"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="156"/>
+<end position="158"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="166"/>
+<end position="174"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="176"/>
+<end position="178"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="183"/>
+<end position="185"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="189"/>
+<end position="191"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="197"/>
+<end position="206"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="210"/>
+<end position="212"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="213"/>
+<end position="216"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="218"/>
+<end position="223"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="227"/>
+<end position="240"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="245"/>
+<end position="248"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="253"/>
+<end position="262"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="267"/>
+<end position="271"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="273"/>
+<end position="275"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="276"/>
+<end position="281"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="286"/>
+<end position="289"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="303"/>
+<end position="310"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="318"/>
+<end position="329"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="331"/>
+<end position="341"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="344"/>
+<end position="347"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="348"/>
+<end position="357"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="360"/>
+<end position="370"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="379"/>
+<end position="383"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="385"/>
+<end position="396"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="402"/>
+<end position="416"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2XD2"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2XD3"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="423" mass="45337" checksum="3FFE39EB2E78FE66" modified="2003-01-17" version="1" precursor="true">MSSKFMKSAAVLGTATLASLLLVACGSKTADKPADSGSSEVKELTVYVDEGYKSYIEEVAKAYEKEAGVKVTLKTGDALGGLDKLSLDNQSGNVPDVMMAPYDRVGSLGSDGQLSEVKLSDGAKTDDTTKSLVTAANGKVYGAPAVIESLVMYYNKDLVKDAPKTFADLENLAKDSKYAFAGEDGKTTAFLADWTNFYYTYGLLAGNGAYVFGQNGKDAKDIGLANDGSIVGINYAKSWYEKWPKGMQDTEGAGNLIQTQFQEGKTAAIIDGPWKAQAFKDAKVNYGVATIPTLPNGKEYAAFGGGKAWVIPQAVKNLEASQKFVDFLVATEQQKVLYDKTNEIPANTEARSYAEGKNDELTTAVIKQFKNTQPLPNISQMSAVWDPAKNMLFDAVSGQKDAKTAANDAVTLIKETIKQKFGE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

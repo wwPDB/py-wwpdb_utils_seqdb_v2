@@ -1,0 +1,863 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-12-06" modified="2020-08-12" version="147">
+<accession>Q9W4Y2</accession>
+<accession>Q9NEF7</accession>
+<name>PDFR_DROME</name>
+<protein>
+<recommendedName>
+<fullName>PDF receptor</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>Pigment-dispersing factor receptor</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Protein groom-of-PDF</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">Pdfr</name>
+<name type="synonym">gop</name>
+<name type="synonym">Han</name>
+<name type="ORF">CG13758</name>
+</gene>
+<organism>
+<name type="scientific">Drosophila melanogaster</name>
+<name type="common">Fruit fly</name>
+<dbReference type="NCBI Taxonomy" id="7227"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Holometabola</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Ephydroidea</taxon>
+<taxon>Drosophilidae</taxon>
+<taxon>Drosophila</taxon>
+<taxon>Sophophora</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2000" name="Science" volume="287" first="2185" last="2195">
+<title>The genome sequence of Drosophila melanogaster.</title>
+<authorList>
+<person name="Adams M.D."/>
+<person name="Celniker S.E."/>
+<person name="Holt R.A."/>
+<person name="Evans C.A."/>
+<person name="Gocayne J.D."/>
+<person name="Amanatides P.G."/>
+<person name="Scherer S.E."/>
+<person name="Li P.W."/>
+<person name="Hoskins R.A."/>
+<person name="Galle R.F."/>
+<person name="George R.A."/>
+<person name="Lewis S.E."/>
+<person name="Richards S."/>
+<person name="Ashburner M."/>
+<person name="Henderson S.N."/>
+<person name="Sutton G.G."/>
+<person name="Wortman J.R."/>
+<person name="Yandell M.D."/>
+<person name="Zhang Q."/>
+<person name="Chen L.X."/>
+<person name="Brandon R.C."/>
+<person name="Rogers Y.-H.C."/>
+<person name="Blazej R.G."/>
+<person name="Champe M."/>
+<person name="Pfeiffer B.D."/>
+<person name="Wan K.H."/>
+<person name="Doyle C."/>
+<person name="Baxter E.G."/>
+<person name="Helt G."/>
+<person name="Nelson C.R."/>
+<person name="Miklos G.L.G."/>
+<person name="Abril J.F."/>
+<person name="Agbayani A."/>
+<person name="An H.-J."/>
+<person name="Andrews-Pfannkoch C."/>
+<person name="Baldwin D."/>
+<person name="Ballew R.M."/>
+<person name="Basu A."/>
+<person name="Baxendale J."/>
+<person name="Bayraktaroglu L."/>
+<person name="Beasley E.M."/>
+<person name="Beeson K.Y."/>
+<person name="Benos P.V."/>
+<person name="Berman B.P."/>
+<person name="Bhandari D."/>
+<person name="Bolshakov S."/>
+<person name="Borkova D."/>
+<person name="Botchan M.R."/>
+<person name="Bouck J."/>
+<person name="Brokstein P."/>
+<person name="Brottier P."/>
+<person name="Burtis K.C."/>
+<person name="Busam D.A."/>
+<person name="Butler H."/>
+<person name="Cadieu E."/>
+<person name="Center A."/>
+<person name="Chandra I."/>
+<person name="Cherry J.M."/>
+<person name="Cawley S."/>
+<person name="Dahlke C."/>
+<person name="Davenport L.B."/>
+<person name="Davies P."/>
+<person name="de Pablos B."/>
+<person name="Delcher A."/>
+<person name="Deng Z."/>
+<person name="Mays A.D."/>
+<person name="Dew I."/>
+<person name="Dietz S.M."/>
+<person name="Dodson K."/>
+<person name="Doup L.E."/>
+<person name="Downes M."/>
+<person name="Dugan-Rocha S."/>
+<person name="Dunkov B.C."/>
+<person name="Dunn P."/>
+<person name="Durbin K.J."/>
+<person name="Evangelista C.C."/>
+<person name="Ferraz C."/>
+<person name="Ferriera S."/>
+<person name="Fleischmann W."/>
+<person name="Fosler C."/>
+<person name="Gabrielian A.E."/>
+<person name="Garg N.S."/>
+<person name="Gelbart W.M."/>
+<person name="Glasser K."/>
+<person name="Glodek A."/>
+<person name="Gong F."/>
+<person name="Gorrell J.H."/>
+<person name="Gu Z."/>
+<person name="Guan P."/>
+<person name="Harris M."/>
+<person name="Harris N.L."/>
+<person name="Harvey D.A."/>
+<person name="Heiman T.J."/>
+<person name="Hernandez J.R."/>
+<person name="Houck J."/>
+<person name="Hostin D."/>
+<person name="Houston K.A."/>
+<person name="Howland T.J."/>
+<person name="Wei M.-H."/>
+<person name="Ibegwam C."/>
+<person name="Jalali M."/>
+<person name="Kalush F."/>
+<person name="Karpen G.H."/>
+<person name="Ke Z."/>
+<person name="Kennison J.A."/>
+<person name="Ketchum K.A."/>
+<person name="Kimmel B.E."/>
+<person name="Kodira C.D."/>
+<person name="Kraft C.L."/>
+<person name="Kravitz S."/>
+<person name="Kulp D."/>
+<person name="Lai Z."/>
+<person name="Lasko P."/>
+<person name="Lei Y."/>
+<person name="Levitsky A.A."/>
+<person name="Li J.H."/>
+<person name="Li Z."/>
+<person name="Liang Y."/>
+<person name="Lin X."/>
+<person name="Liu X."/>
+<person name="Mattei B."/>
+<person name="McIntosh T.C."/>
+<person name="McLeod M.P."/>
+<person name="McPherson D."/>
+<person name="Merkulov G."/>
+<person name="Milshina N.V."/>
+<person name="Mobarry C."/>
+<person name="Morris J."/>
+<person name="Moshrefi A."/>
+<person name="Mount S.M."/>
+<person name="Moy M."/>
+<person name="Murphy B."/>
+<person name="Murphy L."/>
+<person name="Muzny D.M."/>
+<person name="Nelson D.L."/>
+<person name="Nelson D.R."/>
+<person name="Nelson K.A."/>
+<person name="Nixon K."/>
+<person name="Nusskern D.R."/>
+<person name="Pacleb J.M."/>
+<person name="Palazzolo M."/>
+<person name="Pittman G.S."/>
+<person name="Pan S."/>
+<person name="Pollard J."/>
+<person name="Puri V."/>
+<person name="Reese M.G."/>
+<person name="Reinert K."/>
+<person name="Remington K."/>
+<person name="Saunders R.D.C."/>
+<person name="Scheeler F."/>
+<person name="Shen H."/>
+<person name="Shue B.C."/>
+<person name="Siden-Kiamos I."/>
+<person name="Simpson M."/>
+<person name="Skupski M.P."/>
+<person name="Smith T.J."/>
+<person name="Spier E."/>
+<person name="Spradling A.C."/>
+<person name="Stapleton M."/>
+<person name="Strong R."/>
+<person name="Sun E."/>
+<person name="Svirskas R."/>
+<person name="Tector C."/>
+<person name="Turner R."/>
+<person name="Venter E."/>
+<person name="Wang A.H."/>
+<person name="Wang X."/>
+<person name="Wang Z.-Y."/>
+<person name="Wassarman D.A."/>
+<person name="Weinstock G.M."/>
+<person name="Weissenbach J."/>
+<person name="Williams S.M."/>
+<person name="Woodage T."/>
+<person name="Worley K.C."/>
+<person name="Wu D."/>
+<person name="Yang S."/>
+<person name="Yao Q.A."/>
+<person name="Ye J."/>
+<person name="Yeh R.-F."/>
+<person name="Zaveri J.S."/>
+<person name="Zhan M."/>
+<person name="Zhang G."/>
+<person name="Zhao Q."/>
+<person name="Zheng L."/>
+<person name="Zheng X.H."/>
+<person name="Zhong F.N."/>
+<person name="Zhong W."/>
+<person name="Zhou X."/>
+<person name="Zhu S.C."/>
+<person name="Zhu X."/>
+<person name="Smith H.O."/>
+<person name="Gibbs R.A."/>
+<person name="Myers E.W."/>
+<person name="Rubin G.M."/>
+<person name="Venter J.C."/>
+</authorList>
+<dbReference type="PubMed" id="10731132"/>
+<dbReference type="DOI" id="10.1126/science.287.5461.2185"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>Berkeley</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2002" name="Genome Biol." volume="3" first="RESEARCH0083.1" last="RESEARCH0083.22">
+<title>Annotation of the Drosophila melanogaster euchromatic genome: a systematic review.</title>
+<authorList>
+<person name="Misra S."/>
+<person name="Crosby M.A."/>
+<person name="Mungall C.J."/>
+<person name="Matthews B.B."/>
+<person name="Campbell K.S."/>
+<person name="Hradecky P."/>
+<person name="Huang Y."/>
+<person name="Kaminker J.S."/>
+<person name="Millburn G.H."/>
+<person name="Prochnik S.E."/>
+<person name="Smith C.D."/>
+<person name="Tupy J.L."/>
+<person name="Whitfield E.J."/>
+<person name="Bayraktaroglu L."/>
+<person name="Berman B.P."/>
+<person name="Bettencourt B.R."/>
+<person name="Celniker S.E."/>
+<person name="de Grey A.D.N.J."/>
+<person name="Drysdale R.A."/>
+<person name="Harris N.L."/>
+<person name="Richter J."/>
+<person name="Russo S."/>
+<person name="Schroeder A.J."/>
+<person name="Shu S.Q."/>
+<person name="Stapleton M."/>
+<person name="Yamada C."/>
+<person name="Ashburner M."/>
+<person name="Gelbart W.M."/>
+<person name="Rubin G.M."/>
+<person name="Lewis S.E."/>
+</authorList>
+<dbReference type="PubMed" id="12537572"/>
+<dbReference type="DOI" id="10.1186/gb-2002-3-12-research0083"/>
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain>Berkeley</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2000" name="Science" volume="287" first="2220" last="2222">
+<title>From sequence to chromosome: the tip of the X chromosome of D. melanogaster.</title>
+<authorList>
+<person name="Benos P.V."/>
+<person name="Gatt M.K."/>
+<person name="Ashburner M."/>
+<person name="Murphy L."/>
+<person name="Harris D."/>
+<person name="Barrell B.G."/>
+<person name="Ferraz C."/>
+<person name="Vidal S."/>
+<person name="Brun C."/>
+<person name="Demailles J."/>
+<person name="Cadieu E."/>
+<person name="Dreano S."/>
+<person name="Gloux S."/>
+<person name="Lelaure V."/>
+<person name="Mottier S."/>
+<person name="Galibert F."/>
+<person name="Borkova D."/>
+<person name="Minana B."/>
+<person name="Kafatos F.C."/>
+<person name="Louis C."/>
+<person name="Siden-Kiamos I."/>
+<person name="Bolshakov S."/>
+<person name="Papagiannakis G."/>
+<person name="Spanos L."/>
+<person name="Cox S."/>
+<person name="Madueno E."/>
+<person name="de Pablos B."/>
+<person name="Modolell J."/>
+<person name="Peter A."/>
+<person name="Schoettler P."/>
+<person name="Werner M."/>
+<person name="Mourkioti F."/>
+<person name="Beinert N."/>
+<person name="Dowe G."/>
+<person name="Schaefer U."/>
+<person name="Jaeckle H."/>
+<person name="Bucheton A."/>
+<person name="Callister D.M."/>
+<person name="Campbell L.A."/>
+<person name="Darlamitsou A."/>
+<person name="Henderson N.S."/>
+<person name="McMillan P.J."/>
+<person name="Salles C."/>
+<person name="Tait E.A."/>
+<person name="Valenti P."/>
+<person name="Saunders R.D.C."/>
+<person name="Glover D.M."/>
+</authorList>
+<dbReference type="PubMed" id="10731137"/>
+<dbReference type="DOI" id="10.1126/science.287.5461.2220"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>Oregon-R</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="submission" date="2005-05" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Stapleton M."/>
+<person name="Carlson J.W."/>
+<person name="Chavez C."/>
+<person name="Frise E."/>
+<person name="George R.A."/>
+<person name="Pacleb J.M."/>
+<person name="Park S."/>
+<person name="Wan K.H."/>
+<person name="Yu C."/>
+<person name="Celniker S.E."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<strain>Berkeley</strain>
+<tissue>Head</tissue>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2005" name="Neuron" volume="48" first="213" last="219">
+<title>PDF receptor signaling in Drosophila contributes to both circadian and geotactic behaviors.</title>
+<authorList>
+<person name="Mertens I."/>
+<person name="Vandingenen A."/>
+<person name="Johnson E.C."/>
+<person name="Shafer O.T."/>
+<person name="Li W."/>
+<person name="Trigg J.S."/>
+<person name="De Loof A."/>
+<person name="Schoofs L."/>
+<person name="Taghert P.H."/>
+</authorList>
+<dbReference type="PubMed" id="16242402"/>
+<dbReference type="DOI" id="10.1016/j.neuron.2005.09.009"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>DEVELOPMENTAL STAGE</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2005" name="Neuron" volume="48" first="221" last="227">
+<title>A G protein-coupled receptor, groom-of-PDF, is required for PDF neuron action in circadian behavior.</title>
+<authorList>
+<person name="Lear B.C."/>
+<person name="Merrill C.E."/>
+<person name="Lin J.-M."/>
+<person name="Schroeder A."/>
+<person name="Zhang L."/>
+<person name="Allada R."/>
+</authorList>
+<dbReference type="PubMed" id="16242403"/>
+<dbReference type="DOI" id="10.1016/j.neuron.2005.09.008"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2005" name="Neuron" volume="48" first="267" last="278">
+<title>Drosophila GPCR Han is a receptor for the circadian clock neuropeptide PDF.</title>
+<authorList>
+<person name="Hyun S."/>
+<person name="Lee Y."/>
+<person name="Hong S.-T."/>
+<person name="Bang S."/>
+<person name="Paik D."/>
+<person name="Kang J."/>
+<person name="Shin J."/>
+<person name="Lee J."/>
+<person name="Jeon K."/>
+<person name="Hwang S."/>
+<person name="Bae E."/>
+<person name="Kim J."/>
+</authorList>
+<dbReference type="PubMed" id="16242407"/>
+<dbReference type="DOI" id="10.1016/j.neuron.2005.08.025"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>DEVELOPMENTAL STAGE</scope>
+</reference>
+<comment type="function">
+<text evidence="3 4 5">Receptor for PDF, a neuropeptide controlling circadian behavioral rhythms. Probably regulates circadian behavioral rhythms through coordination of activities of clock neurons. PDF-binding results in the elevation of cAMP synthesis.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cell membrane</location>
+<topology evidence="1">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="3 4 5">Mainly present in clock neurons of the brain. Localizes in all 4 l-LNv neurons, 1 LNd neuron, 7 DN1 neurons, and 1 DN3 neuron. In addition to the clock neurons, it is also present in approximately 13 pairs of neurons along the ventral nerve cord in third instar larvae, which do not overlap with dopaminergic or serotonergic neurons. Not present in DN2 neurons (at protein level).</text>
+</comment>
+<comment type="developmental stage">
+<text evidence="3 5">Not expressed in embryos. Does not exhibit diurnal or circadian variation.</text>
+</comment>
+<comment type="similarity">
+<text evidence="6">Belongs to the G-protein coupled receptor 2 family.</text>
+</comment>
+<comment type="sequence caution" evidence="6">
+<conflict type="erroneous gene model prediction">
+<sequence resource="EMBL-CDS" id="CAB72288" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EMBL" id="AE014298">
+<property type="protein sequence ID" value="AAF45788.2"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AL138972">
+<property type="protein sequence ID" value="CAB72288.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BT022705">
+<property type="protein sequence ID" value="AAY55121.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_570007.2">
+<property type="nucleotide sequence ID" value="NM_130651.3"/>
+</dbReference>
+<dbReference type="BioGRID" id="57768">
+<property type="interactions" value="5"/>
+</dbReference>
+<dbReference type="STRING" id="7227.FBpp0300789"/>
+<dbReference type="TCDB" id="9.A.14.4.2">
+<property type="family name" value="the g-protein-coupled receptor (gpcr) family"/>
+</dbReference>
+<dbReference type="PaxDb" id="Q9W4Y2"/>
+<dbReference type="PRIDE" id="Q9W4Y2"/>
+<dbReference type="EnsemblMetazoa" id="FBtr0070436">
+<property type="protein sequence ID" value="FBpp0099841"/>
+<property type="gene ID" value="FBgn0260753"/>
+</dbReference>
+<dbReference type="GeneID" id="31234"/>
+<dbReference type="KEGG" id="dme:Dmel_CG13758"/>
+<dbReference type="CTD" id="31234"/>
+<dbReference type="FlyBase" id="FBgn0260753">
+<property type="gene designation" value="Pdfr"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG4564">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00940000167994"/>
+<dbReference type="HOGENOM" id="CLU_002753_4_7_1"/>
+<dbReference type="InParanoid" id="Q9W4Y2"/>
+<dbReference type="KO" id="K22738"/>
+<dbReference type="PhylomeDB" id="Q9W4Y2"/>
+<dbReference type="BioGRID-ORCS" id="31234">
+<property type="hits" value="0 hits in 1 CRISPR screen"/>
+</dbReference>
+<dbReference type="GenomeRNAi" id="31234"/>
+<dbReference type="PRO" id="PR:Q9W4Y2"/>
+<dbReference type="Proteomes" id="UP000000803">
+<property type="component" value="Chromosome X"/>
+</dbReference>
+<dbReference type="Bgee" id="FBgn0260753">
+<property type="expression patterns" value="Expressed in head and 26 other tissues"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="Q9W4Y2">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q9W4Y2">
+<property type="organism ID" value="DM"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005887">
+<property type="term" value="C:integral component of plasma membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043005">
+<property type="term" value="C:neuron projection"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043025">
+<property type="term" value="C:neuronal cell body"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004948">
+<property type="term" value="F:calcitonin receptor activity"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008528">
+<property type="term" value="F:G protein-coupled peptide receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008188">
+<property type="term" value="F:neuropeptide receptor activity"/>
+<property type="evidence" value="ECO:0000353"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0017046">
+<property type="term" value="F:peptide hormone binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007189">
+<property type="term" value="P:adenylate cyclase-activating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007188">
+<property type="term" value="P:adenylate cyclase-modulating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007166">
+<property type="term" value="P:cell surface receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0048512">
+<property type="term" value="P:circadian behavior"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007623">
+<property type="term" value="P:circadian rhythm"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042745">
+<property type="term" value="P:circadian sleep/wake cycle"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060086">
+<property type="term" value="P:circadian temperature homeostasis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0055070">
+<property type="term" value="P:copper ion homeostasis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007186">
+<property type="term" value="P:G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042332">
+<property type="term" value="P:gravitaxis"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045475">
+<property type="term" value="P:locomotor rhythm"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007218">
+<property type="term" value="P:neuropeptide signaling pathway"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050850">
+<property type="term" value="P:positive regulation of calcium-mediated signaling"/>
+<property type="evidence" value="ECO:0000316"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042752">
+<property type="term" value="P:regulation of circadian rhythm"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042749">
+<property type="term" value="P:regulation of circadian sleep/wake cycle"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.1240.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017981">
+<property type="entry name" value="GPCR_2-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036445">
+<property type="entry name" value="GPCR_2_extracell_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001879">
+<property type="entry name" value="GPCR_2_extracellular_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000832">
+<property type="entry name" value="GPCR_2_secretin-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017983">
+<property type="entry name" value="GPCR_2_secretin-like_CS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00002">
+<property type="entry name" value="7tm_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02793">
+<property type="entry name" value="HRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00249">
+<property type="entry name" value="GPCRSECRETIN"/>
+</dbReference>
+<dbReference type="SMART" id="SM00008">
+<property type="entry name" value="HormR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF111418">
+<property type="entry name" value="SSF111418"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00649">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00650">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50227">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50261">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_4"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0090">Biological rhythms</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0297">G-protein coupled receptor</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0807">Transducer</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="PDF receptor" id="PRO_0000070346">
+<location>
+<begin position="1"/>
+<end position="669"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="1"/>
+<end position="244"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=1" evidence="2">
+<location>
+<begin position="245"/>
+<end position="265"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="266"/>
+<end position="274"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=2" evidence="2">
+<location>
+<begin position="275"/>
+<end position="295"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="296"/>
+<end position="334"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=3" evidence="2">
+<location>
+<begin position="335"/>
+<end position="355"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="356"/>
+<end position="366"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=4" evidence="2">
+<location>
+<begin position="367"/>
+<end position="387"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="388"/>
+<end position="411"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=5" evidence="2">
+<location>
+<begin position="412"/>
+<end position="432"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="433"/>
+<end position="449"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=6" evidence="2">
+<location>
+<begin position="450"/>
+<end position="470"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="471"/>
+<end position="480"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=7" evidence="2">
+<location>
+<begin position="481"/>
+<end position="501"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="502"/>
+<end position="669"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="111"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="117"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="130"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="137"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="148"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="198"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="308"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16242402"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16242403"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16242407"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<sequence length="669" mass="74485" checksum="ACBE93A1A83ABD5D" modified="2005-04-26" version="2">MTLLSNILDCGGCISAQRFTRLLRQSGSSGPSPSAPTAGTFESKSMLEPTSSHSLATGRVPLLHDFDASTTESPGTYVLDGVARVAQLALEPTVMDALPDSDTEQVLGNLNSSAPWNLTLASAAATNFENCSALFVNYTLPQTGLYCNWTWDTLLCWPPTPAGVLARMNCPGGFHGVDTRKFAIRKCELDGRWGSRPNATEVNPPGWTDYGPCYKPEIIRLMQQMGSKDFDAYIDIARRTRTLEIVGLCLSLFALIVSLLIFCTFRSLRNNRTKIHKNLFVAMVLQVIIRLTLYLDQFRRGNKEAATNTSLSVIENTPYLCEASYVLLEYARTAMFMWMFIEGLYLHNMVTVAVFQGSFPLKFFSRLGWCVPILMTTVWARCTVMYMDTSLGECLWNYNLTPYYWILEGPRLAVILLNFCFLVNIIRVLVMKLRQSQASDIEQTRKAVRAAIVLLPLLGITNLLHQLAPLKTATNFAVWSYGTHFLTSFQGFFIALIYCFLNGEVRAVLLKSLATQLSVRGHPEWAPKRASMYSGAYNTAPDTDAVQPAGDPSATGKRISPPNKRLNGRKPSSASIVMIHEPQQRQRLMPRLQNKAREKGKDRVEKTDAEAEPDPTISHIHSKEAGSARSRTRGSKWIMGICFRGQKVLRVPSASSVPPESVVFELSEQ</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

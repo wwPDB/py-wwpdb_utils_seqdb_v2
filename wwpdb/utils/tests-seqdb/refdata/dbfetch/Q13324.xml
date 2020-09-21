@@ -1,0 +1,1321 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1997-11-01" modified="2020-08-12" version="169">
+<accession>Q13324</accession>
+<accession>B2R967</accession>
+<accession>B3SXS6</accession>
+<accession>B3SXS7</accession>
+<accession>B3SXS8</accession>
+<accession>B3SXT0</accession>
+<accession>F8WA81</accession>
+<accession>O43461</accession>
+<accession>Q4QRJ4</accession>
+<accession>Q99431</accession>
+<name>CRFR2_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>Corticotropin-releasing factor receptor 2</fullName>
+<shortName>CRF-R-2</shortName>
+<shortName>CRF-R2</shortName>
+<shortName>CRFR-2</shortName>
+</recommendedName>
+<alternativeName>
+<fullName>Corticotropin-releasing hormone receptor 2</fullName>
+<shortName>CRH-R-2</shortName>
+<shortName>CRH-R2</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">CRHR2</name>
+<name type="synonym">CRF2R</name>
+<name type="synonym">CRH2R</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1996" name="Endocrinology" volume="137" first="72" last="77">
+<title>Cloning and characterization of the human corticotropin-releasing factor-2 receptor complementary deoxyribonucleic acid.</title>
+<authorList>
+<person name="Liaw C.W."/>
+<person name="Lovenberg T.W."/>
+<person name="Barry G."/>
+<person name="Oltersdorf T."/>
+<person name="Grigoriadis D.E."/>
+<person name="de Souza E.B."/>
+</authorList>
+<dbReference type="PubMed" id="8536644"/>
+<dbReference type="DOI" id="10.1210/endo.137.1.8536644"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM CRF2-ALPHA)</scope>
+</reference>
+<reference key="2">
+<citation type="submission" date="1997-06" db="EMBL/GenBank/DDBJ databases">
+<title>Molecular cloning of the human CRH2B receptor isoform: divergence from the rodent isoform in sequence and expression pattern.</title>
+<authorList>
+<person name="Kostich W.A."/>
+<person name="Chen A."/>
+<person name="Sperle K."/>
+<person name="Horlick R.A."/>
+<person name="Patterson J."/>
+<person name="Hyde T.M."/>
+<person name="Largent B.L."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM CRF2-BETA)</scope>
+<source>
+<tissue>Amygdala</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1998" name="Mol. Endocrinol." volume="12" first="1077" last="1085">
+<title>Molecular identification and analysis of a novel human corticotropin-releasing factor (CRF) receptor: the CRF2gamma receptor.</title>
+<authorList>
+<person name="Kostich W.A."/>
+<person name="Chen A."/>
+<person name="Sperle K."/>
+<person name="Largent B.L."/>
+</authorList>
+<dbReference type="PubMed" id="9717834"/>
+<dbReference type="DOI" id="10.1210/mend.12.8.0145"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM CRF2-GAMMA)</scope>
+<source>
+<tissue>Amygdala</tissue>
+</source>
+</reference>
+<reference key="4">
+<citation type="submission" date="2001-07" db="EMBL/GenBank/DDBJ databases">
+<title>Genome-wide discovery and analysis of human seven transmembrane helix receptor genes.</title>
+<authorList>
+<person name="Suwa M."/>
+<person name="Sato T."/>
+<person name="Okouchi I."/>
+<person name="Arita M."/>
+<person name="Futami K."/>
+<person name="Matsumoto S."/>
+<person name="Tsutsumi S."/>
+<person name="Aburatani H."/>
+<person name="Asai K."/>
+<person name="Akiyama Y."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORM CRF2-ALPHA)</scope>
+</reference>
+<reference key="5">
+<citation type="submission" date="2003-10" db="EMBL/GenBank/DDBJ databases">
+<title>cDNA clones of human proteins involved in signal transduction sequenced by the Guthrie cDNA resource center (www.cdna.org).</title>
+<authorList>
+<person name="King M.M."/>
+<person name="Aronstam R.S."/>
+<person name="Sharma S.V."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM CRF2-ALPHA)</scope>
+<source>
+<tissue>Brain</tissue>
+</source>
+</reference>
+<reference key="6">
+<citation type="submission" date="2007-07" db="EMBL/GenBank/DDBJ databases">
+<title>Identification and characterization of novel CRF receptor type 2 isoforms in human.</title>
+<authorList>
+<person name="Wu S.V."/>
+<person name="Yuan P.-Q."/>
+<person name="Lai J."/>
+<person name="Tache Y."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS D; E; F AND DESQ)</scope>
+<scope>ALTERNATIVE SPLICING</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2004" name="Nat. Genet." volume="36" first="40" last="45">
+<title>Complete sequencing and characterization of 21,243 full-length human cDNAs.</title>
+<authorList>
+<person name="Ota T."/>
+<person name="Suzuki Y."/>
+<person name="Nishikawa T."/>
+<person name="Otsuki T."/>
+<person name="Sugiyama T."/>
+<person name="Irie R."/>
+<person name="Wakamatsu A."/>
+<person name="Hayashi K."/>
+<person name="Sato H."/>
+<person name="Nagai K."/>
+<person name="Kimura K."/>
+<person name="Makita H."/>
+<person name="Sekine M."/>
+<person name="Obayashi M."/>
+<person name="Nishi T."/>
+<person name="Shibahara T."/>
+<person name="Tanaka T."/>
+<person name="Ishii S."/>
+<person name="Yamamoto J."/>
+<person name="Saito K."/>
+<person name="Kawai Y."/>
+<person name="Isono Y."/>
+<person name="Nakamura Y."/>
+<person name="Nagahari K."/>
+<person name="Murakami K."/>
+<person name="Yasuda T."/>
+<person name="Iwayanagi T."/>
+<person name="Wagatsuma M."/>
+<person name="Shiratori A."/>
+<person name="Sudo H."/>
+<person name="Hosoiri T."/>
+<person name="Kaku Y."/>
+<person name="Kodaira H."/>
+<person name="Kondo H."/>
+<person name="Sugawara M."/>
+<person name="Takahashi M."/>
+<person name="Kanda K."/>
+<person name="Yokoi T."/>
+<person name="Furuya T."/>
+<person name="Kikkawa E."/>
+<person name="Omura Y."/>
+<person name="Abe K."/>
+<person name="Kamihara K."/>
+<person name="Katsuta N."/>
+<person name="Sato K."/>
+<person name="Tanikawa M."/>
+<person name="Yamazaki M."/>
+<person name="Ninomiya K."/>
+<person name="Ishibashi T."/>
+<person name="Yamashita H."/>
+<person name="Murakawa K."/>
+<person name="Fujimori K."/>
+<person name="Tanai H."/>
+<person name="Kimata M."/>
+<person name="Watanabe M."/>
+<person name="Hiraoka S."/>
+<person name="Chiba Y."/>
+<person name="Ishida S."/>
+<person name="Ono Y."/>
+<person name="Takiguchi S."/>
+<person name="Watanabe S."/>
+<person name="Yosida M."/>
+<person name="Hotuta T."/>
+<person name="Kusano J."/>
+<person name="Kanehori K."/>
+<person name="Takahashi-Fujii A."/>
+<person name="Hara H."/>
+<person name="Tanase T.-O."/>
+<person name="Nomura Y."/>
+<person name="Togiya S."/>
+<person name="Komai F."/>
+<person name="Hara R."/>
+<person name="Takeuchi K."/>
+<person name="Arita M."/>
+<person name="Imose N."/>
+<person name="Musashino K."/>
+<person name="Yuuki H."/>
+<person name="Oshima A."/>
+<person name="Sasaki N."/>
+<person name="Aotsuka S."/>
+<person name="Yoshikawa Y."/>
+<person name="Matsunawa H."/>
+<person name="Ichihara T."/>
+<person name="Shiohata N."/>
+<person name="Sano S."/>
+<person name="Moriya S."/>
+<person name="Momiyama H."/>
+<person name="Satoh N."/>
+<person name="Takami S."/>
+<person name="Terashima Y."/>
+<person name="Suzuki O."/>
+<person name="Nakagawa S."/>
+<person name="Senoh A."/>
+<person name="Mizoguchi H."/>
+<person name="Goto Y."/>
+<person name="Shimizu F."/>
+<person name="Wakebe H."/>
+<person name="Hishigaki H."/>
+<person name="Watanabe T."/>
+<person name="Sugiyama A."/>
+<person name="Takemoto M."/>
+<person name="Kawakami B."/>
+<person name="Yamazaki M."/>
+<person name="Watanabe K."/>
+<person name="Kumagai A."/>
+<person name="Itakura S."/>
+<person name="Fukuzumi Y."/>
+<person name="Fujimori Y."/>
+<person name="Komiyama M."/>
+<person name="Tashiro H."/>
+<person name="Tanigami A."/>
+<person name="Fujiwara T."/>
+<person name="Ono T."/>
+<person name="Yamada K."/>
+<person name="Fujii Y."/>
+<person name="Ozaki K."/>
+<person name="Hirao M."/>
+<person name="Ohmori Y."/>
+<person name="Kawabata A."/>
+<person name="Hikiji T."/>
+<person name="Kobatake N."/>
+<person name="Inagaki H."/>
+<person name="Ikema Y."/>
+<person name="Okamoto S."/>
+<person name="Okitani R."/>
+<person name="Kawakami T."/>
+<person name="Noguchi S."/>
+<person name="Itoh T."/>
+<person name="Shigeta K."/>
+<person name="Senba T."/>
+<person name="Matsumura K."/>
+<person name="Nakajima Y."/>
+<person name="Mizuno T."/>
+<person name="Morinaga M."/>
+<person name="Sasaki M."/>
+<person name="Togashi T."/>
+<person name="Oyama M."/>
+<person name="Hata H."/>
+<person name="Watanabe M."/>
+<person name="Komatsu T."/>
+<person name="Mizushima-Sugano J."/>
+<person name="Satoh T."/>
+<person name="Shirai Y."/>
+<person name="Takahashi Y."/>
+<person name="Nakagawa K."/>
+<person name="Okumura K."/>
+<person name="Nagase T."/>
+<person name="Nomura N."/>
+<person name="Kikuchi H."/>
+<person name="Masuho Y."/>
+<person name="Yamashita R."/>
+<person name="Nakai K."/>
+<person name="Yada T."/>
+<person name="Nakamura Y."/>
+<person name="Ohara O."/>
+<person name="Isogai T."/>
+<person name="Sugano S."/>
+</authorList>
+<dbReference type="PubMed" id="14702039"/>
+<dbReference type="DOI" id="10.1038/ng1285"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM CRF2-ALPHA)</scope>
+<source>
+<tissue>Amygdala</tissue>
+</source>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2003" name="Nature" volume="424" first="157" last="164">
+<title>The DNA sequence of human chromosome 7.</title>
+<authorList>
+<person name="Hillier L.W."/>
+<person name="Fulton R.S."/>
+<person name="Fulton L.A."/>
+<person name="Graves T.A."/>
+<person name="Pepin K.H."/>
+<person name="Wagner-McPherson C."/>
+<person name="Layman D."/>
+<person name="Maas J."/>
+<person name="Jaeger S."/>
+<person name="Walker R."/>
+<person name="Wylie K."/>
+<person name="Sekhon M."/>
+<person name="Becker M.C."/>
+<person name="O'Laughlin M.D."/>
+<person name="Schaller M.E."/>
+<person name="Fewell G.A."/>
+<person name="Delehaunty K.D."/>
+<person name="Miner T.L."/>
+<person name="Nash W.E."/>
+<person name="Cordes M."/>
+<person name="Du H."/>
+<person name="Sun H."/>
+<person name="Edwards J."/>
+<person name="Bradshaw-Cordum H."/>
+<person name="Ali J."/>
+<person name="Andrews S."/>
+<person name="Isak A."/>
+<person name="Vanbrunt A."/>
+<person name="Nguyen C."/>
+<person name="Du F."/>
+<person name="Lamar B."/>
+<person name="Courtney L."/>
+<person name="Kalicki J."/>
+<person name="Ozersky P."/>
+<person name="Bielicki L."/>
+<person name="Scott K."/>
+<person name="Holmes A."/>
+<person name="Harkins R."/>
+<person name="Harris A."/>
+<person name="Strong C.M."/>
+<person name="Hou S."/>
+<person name="Tomlinson C."/>
+<person name="Dauphin-Kohlberg S."/>
+<person name="Kozlowicz-Reilly A."/>
+<person name="Leonard S."/>
+<person name="Rohlfing T."/>
+<person name="Rock S.M."/>
+<person name="Tin-Wollam A.-M."/>
+<person name="Abbott A."/>
+<person name="Minx P."/>
+<person name="Maupin R."/>
+<person name="Strowmatt C."/>
+<person name="Latreille P."/>
+<person name="Miller N."/>
+<person name="Johnson D."/>
+<person name="Murray J."/>
+<person name="Woessner J.P."/>
+<person name="Wendl M.C."/>
+<person name="Yang S.-P."/>
+<person name="Schultz B.R."/>
+<person name="Wallis J.W."/>
+<person name="Spieth J."/>
+<person name="Bieri T.A."/>
+<person name="Nelson J.O."/>
+<person name="Berkowicz N."/>
+<person name="Wohldmann P.E."/>
+<person name="Cook L.L."/>
+<person name="Hickenbotham M.T."/>
+<person name="Eldred J."/>
+<person name="Williams D."/>
+<person name="Bedell J.A."/>
+<person name="Mardis E.R."/>
+<person name="Clifton S.W."/>
+<person name="Chissoe S.L."/>
+<person name="Marra M.A."/>
+<person name="Raymond C."/>
+<person name="Haugen E."/>
+<person name="Gillett W."/>
+<person name="Zhou Y."/>
+<person name="James R."/>
+<person name="Phelps K."/>
+<person name="Iadanoto S."/>
+<person name="Bubb K."/>
+<person name="Simms E."/>
+<person name="Levy R."/>
+<person name="Clendenning J."/>
+<person name="Kaul R."/>
+<person name="Kent W.J."/>
+<person name="Furey T.S."/>
+<person name="Baertsch R.A."/>
+<person name="Brent M.R."/>
+<person name="Keibler E."/>
+<person name="Flicek P."/>
+<person name="Bork P."/>
+<person name="Suyama M."/>
+<person name="Bailey J.A."/>
+<person name="Portnoy M.E."/>
+<person name="Torrents D."/>
+<person name="Chinwalla A.T."/>
+<person name="Gish W.R."/>
+<person name="Eddy S.R."/>
+<person name="McPherson J.D."/>
+<person name="Olson M.V."/>
+<person name="Eichler E.E."/>
+<person name="Green E.D."/>
+<person name="Waterston R.H."/>
+<person name="Wilson R.K."/>
+</authorList>
+<dbReference type="PubMed" id="12853948"/>
+<dbReference type="DOI" id="10.1038/nature01782"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="9">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM CRF2-ALPHA)</scope>
+</reference>
+<reference key="10">
+<citation type="journal article" date="1997" name="Biochim. Biophys. Acta" volume="1352" first="129" last="132">
+<title>A new functional isoform of the human CRF2 receptor for corticotropin-releasing factor.</title>
+<authorList>
+<person name="Valdenaire O."/>
+<person name="Giller T."/>
+<person name="Breu V."/>
+<person name="Gottowik J."/>
+<person name="Kilpatrick G."/>
+</authorList>
+<dbReference type="PubMed" id="9199241"/>
+<dbReference type="DOI" id="10.1016/s0167-4781(97)00047-x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] OF 1-88 (ISOFORM CRF2-BETA)</scope>
+<source>
+<tissue>Skeletal muscle</tissue>
+</source>
+</reference>
+<reference key="11">
+<citation type="journal article" date="2012" name="J. Biol. Chem." volume="287" first="27265" last="27274">
+<title>The Pseudo signal peptide of the corticotropin-releasing factor receptor type 2A prevents receptor oligomerization.</title>
+<authorList>
+<person name="Teichmann A."/>
+<person name="Rutz C."/>
+<person name="Kreuchwig A."/>
+<person name="Krause G."/>
+<person name="Wiesner B."/>
+<person name="Schulein R."/>
+</authorList>
+<dbReference type="PubMed" id="22689579"/>
+<dbReference type="DOI" id="10.1074/jbc.m112.360594"/>
+</citation>
+<scope>SUBUNIT</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>NON-CLEAVABLE SIGNAL SEQUENCE</scope>
+</reference>
+<reference key="12">
+<citation type="journal article" date="2010" name="J. Biol. Chem." volume="285" first="40351" last="40361">
+<title>Structural basis for hormone recognition by the Human CRFR2{alpha} G protein-coupled receptor.</title>
+<authorList>
+<person name="Pal K."/>
+<person name="Swaminathan K."/>
+<person name="Xu H.E."/>
+<person name="Pioszak A.A."/>
+</authorList>
+<dbReference type="PubMed" id="20966082"/>
+<dbReference type="DOI" id="10.1074/jbc.m110.186072"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) OF 3-104 IN COMPLEXES WITH UCN; UCN2 AND UCN3</scope>
+<scope>INTERACTION WITH CRF; UCN; UCN2 AND UCN3</scope>
+<scope>DISULFIDE BONDS</scope>
+</reference>
+<comment type="function">
+<text>G-protein coupled receptor for CRH (corticotropin-releasing factor), UCN (urocortin), UCN2 and UCN3. Has high affinity for UCN. Ligand binding causes a conformation change that triggers signaling via guanine nucleotide-binding proteins (G proteins) and down-stream effectors, such as adenylate cyclase. Promotes the activation of adenylate cyclase, leading to increased intracellular cAMP levels.</text>
+</comment>
+<comment type="subunit">
+<text evidence="4 5">Monomer. Interacts (via N-terminal extracellular domain) with CRF, UCN, UCN2 and UCN3. Has highest affinity for UCN, and considerably lower affinity for CRF, UNC2 and UCN3.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-23865243">
+<id>Q13324-2</id>
+</interactant>
+<interactant intactId="EBI-750078">
+<id>Q13021</id>
+<label>MALL</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="5">Cell membrane</location>
+<topology evidence="5">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>Q13324-1</id>
+<name>CRF2-alpha</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>Q13324-2</id>
+<name>CRF2-beta</name>
+<sequence type="described" ref="VSP_001999"/>
+</isoform>
+<isoform>
+<id>Q13324-3</id>
+<name>CRF2-gamma</name>
+<sequence type="described" ref="VSP_002000"/>
+</isoform>
+<isoform>
+<id>Q13324-4</id>
+<name>D</name>
+<sequence type="described" ref="VSP_053565"/>
+</isoform>
+<isoform>
+<id>Q13324-5</id>
+<name>E</name>
+<sequence type="described" ref="VSP_053566"/>
+</isoform>
+<isoform>
+<id>Q13324-6</id>
+<name>F</name>
+<sequence type="described" ref="VSP_053567"/>
+</isoform>
+<isoform>
+<id>Q13324-7</id>
+<name>desQ</name>
+<sequence type="described" ref="VSP_053564"/>
+</isoform>
+</comment>
+<comment type="domain">
+<text evidence="2">The transmembrane domain is composed of seven transmembrane helices that are arranged in V-shape. Transmembrane helix 7 assumes a sharply kinked structure (By similarity).</text>
+</comment>
+<comment type="domain">
+<text evidence="5">The uncleaved pseudo signal peptide prevents receptor's oligomerization and coupling to G(i) subunits. It is also responsible for the rather low receptor localization at the plasma membrane (PubMed:22689579).</text>
+</comment>
+<comment type="PTM">
+<text evidence="2">A N-glycosylation site within the signal peptide impedes its proper cleavage and function.</text>
+</comment>
+<comment type="similarity">
+<text evidence="10">Belongs to the G-protein coupled receptor 2 family.</text>
+</comment>
+<dbReference type="EMBL" id="U34587">
+<property type="protein sequence ID" value="AAA91320.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AF011406">
+<property type="protein sequence ID" value="AAB94503.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AF019381">
+<property type="protein sequence ID" value="AAB94562.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB065699">
+<property type="protein sequence ID" value="BAC05922.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY449734">
+<property type="protein sequence ID" value="AAR18078.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="EU012439">
+<property type="protein sequence ID" value="ABV59313.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="EU012440">
+<property type="protein sequence ID" value="ABV59314.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="EU012441">
+<property type="protein sequence ID" value="ABV59315.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="EU012443">
+<property type="protein sequence ID" value="ABV59317.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AK313661">
+<property type="protein sequence ID" value="BAG36414.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AC004976">
+<property type="protein sequence ID" value="AAC71653.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AC004976">
+<property type="protein sequence ID" value="AAC71654.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC096830">
+<property type="protein sequence ID" value="AAH96830.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="Y10151">
+<property type="protein sequence ID" value="CAA71235.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS5429.1">
+<molecule id="Q13324-1"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS56477.1">
+<molecule id="Q13324-3"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS56478.1">
+<molecule id="Q13324-2"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS75576.1">
+<molecule id="Q13324-4"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001189404.1">
+<molecule id="Q13324-2"/>
+<property type="nucleotide sequence ID" value="NM_001202475.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001189410.1">
+<molecule id="Q13324-3"/>
+<property type="nucleotide sequence ID" value="NM_001202481.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001189411.1">
+<molecule id="Q13324-7"/>
+<property type="nucleotide sequence ID" value="NM_001202482.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001189412.1">
+<molecule id="Q13324-4"/>
+<property type="nucleotide sequence ID" value="NM_001202483.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001874.2">
+<molecule id="Q13324-1"/>
+<property type="nucleotide sequence ID" value="NM_001883.4"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_011513430.1">
+<property type="nucleotide sequence ID" value="XM_011515128.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_011513431.1">
+<property type="nucleotide sequence ID" value="XM_011515129.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_016867241.1">
+<molecule id="Q13324-3"/>
+<property type="nucleotide sequence ID" value="XM_017011752.1"/>
+</dbReference>
+<dbReference type="PDB" id="3N93">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.50"/>
+<property type="chains" value="A/B=3-104"/>
+</dbReference>
+<dbReference type="PDB" id="3N95">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.72"/>
+<property type="chains" value="A/B/C/D=3-104"/>
+</dbReference>
+<dbReference type="PDB" id="3N96">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.75"/>
+<property type="chains" value="A/B/C/D=3-104"/>
+</dbReference>
+<dbReference type="PDB" id="6PB1">
+<property type="method" value="EM"/>
+<property type="resolution" value="2.80"/>
+<property type="chains" value="P=2-388"/>
+</dbReference>
+<dbReference type="PDBsum" id="3N93"/>
+<dbReference type="PDBsum" id="3N95"/>
+<dbReference type="PDBsum" id="3N96"/>
+<dbReference type="PDBsum" id="6PB1"/>
+<dbReference type="SMR" id="Q13324"/>
+<dbReference type="BioGRID" id="107785">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="IntAct" id="Q13324">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="MINT" id="Q13324"/>
+<dbReference type="STRING" id="9606.ENSP00000340943"/>
+<dbReference type="BindingDB" id="Q13324"/>
+<dbReference type="ChEMBL" id="CHEMBL4069"/>
+<dbReference type="DrugCentral" id="Q13324"/>
+<dbReference type="GuidetoPHARMACOLOGY" id="213"/>
+<dbReference type="GlyGen" id="Q13324">
+<property type="glycosylation" value="5 sites"/>
+</dbReference>
+<dbReference type="PhosphoSitePlus" id="Q13324"/>
+<dbReference type="BioMuta" id="CRHR2"/>
+<dbReference type="DMDM" id="6226847"/>
+<dbReference type="PaxDb" id="Q13324"/>
+<dbReference type="PeptideAtlas" id="Q13324"/>
+<dbReference type="PRIDE" id="Q13324"/>
+<dbReference type="ProteomicsDB" id="30449"/>
+<dbReference type="ProteomicsDB" id="59312">
+<molecule id="Q13324-1"/>
+</dbReference>
+<dbReference type="ProteomicsDB" id="59313">
+<molecule id="Q13324-2"/>
+</dbReference>
+<dbReference type="ProteomicsDB" id="59314">
+<molecule id="Q13324-3"/>
+</dbReference>
+<dbReference type="Antibodypedia" id="12618">
+<property type="antibodies" value="622 antibodies"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000341843">
+<molecule id="Q13324-3"/>
+<property type="protein sequence ID" value="ENSP00000344304"/>
+<property type="gene ID" value="ENSG00000106113"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000348438">
+<molecule id="Q13324-2"/>
+<property type="protein sequence ID" value="ENSP00000340943"/>
+<property type="gene ID" value="ENSG00000106113"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000471646">
+<molecule id="Q13324-1"/>
+<property type="protein sequence ID" value="ENSP00000418722"/>
+<property type="gene ID" value="ENSG00000106113"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000506074">
+<molecule id="Q13324-4"/>
+<property type="protein sequence ID" value="ENSP00000426498"/>
+<property type="gene ID" value="ENSG00000106113"/>
+</dbReference>
+<dbReference type="GeneID" id="1395"/>
+<dbReference type="KEGG" id="hsa:1395"/>
+<dbReference type="UCSC" id="uc003tbn.4">
+<molecule id="Q13324-1"/>
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="1395"/>
+<dbReference type="DisGeNET" id="1395"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000106113.18"/>
+<dbReference type="GeneCards" id="CRHR2"/>
+<dbReference type="HGNC" id="HGNC:2358">
+<property type="gene designation" value="CRHR2"/>
+</dbReference>
+<dbReference type="HPA" id="ENSG00000106113">
+<property type="expression patterns" value="Tissue enhanced (brain)"/>
+</dbReference>
+<dbReference type="MIM" id="602034">
+<property type="type" value="gene"/>
+</dbReference>
+<dbReference type="neXtProt" id="NX_Q13324"/>
+<dbReference type="OpenTargets" id="ENSG00000106113"/>
+<dbReference type="PharmGKB" id="PA26875"/>
+<dbReference type="eggNOG" id="KOG4564">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00940000156795"/>
+<dbReference type="HOGENOM" id="CLU_002753_4_1_1"/>
+<dbReference type="InParanoid" id="Q13324"/>
+<dbReference type="KO" id="K04579"/>
+<dbReference type="OMA" id="EFDVNCS"/>
+<dbReference type="OrthoDB" id="1163977at2759"/>
+<dbReference type="PhylomeDB" id="Q13324"/>
+<dbReference type="TreeFam" id="TF315710"/>
+<dbReference type="PathwayCommons" id="Q13324"/>
+<dbReference type="Reactome" id="R-HSA-373080">
+<property type="pathway name" value="Class B/2 (Secretin family receptors)"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-418555">
+<property type="pathway name" value="G alpha (s) signalling events"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-422085">
+<property type="pathway name" value="Synthesis, secretion, and deacylation of Ghrelin"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-9660821">
+<property type="pathway name" value="ADORA2B mediated anti-inflammatory cytokines production"/>
+</dbReference>
+<dbReference type="BioGRID-ORCS" id="1395">
+<property type="hits" value="3 hits in 864 CRISPR screens"/>
+</dbReference>
+<dbReference type="ChiTaRS" id="CRHR2">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="Q13324"/>
+<dbReference type="GeneWiki" id="Corticotropin_releasing_hormone_receptor_2"/>
+<dbReference type="GenomeRNAi" id="1395"/>
+<dbReference type="Pharos" id="Q13324">
+<property type="development level" value="Tbio"/>
+</dbReference>
+<dbReference type="PRO" id="PR:Q13324"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 7"/>
+</dbReference>
+<dbReference type="RNAct" id="Q13324">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000106113">
+<property type="expression patterns" value="Expressed in frontal cortex and 107 other tissues"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="Q13324">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q13324">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043679">
+<property type="term" value="C:axon terminus"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030425">
+<property type="term" value="C:dendrite"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005887">
+<property type="term" value="C:integral component of plasma membrane"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015056">
+<property type="term" value="F:corticotrophin-releasing factor receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043404">
+<property type="term" value="F:corticotropin-releasing hormone receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008528">
+<property type="term" value="F:G protein-coupled peptide receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0017046">
+<property type="term" value="F:peptide hormone binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007188">
+<property type="term" value="P:adenylate cyclase-modulating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007166">
+<property type="term" value="P:cell surface receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007186">
+<property type="term" value="P:G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060291">
+<property type="term" value="P:long-term synaptic potentiation"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.1240.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017981">
+<property type="entry name" value="GPCR_2-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003053">
+<property type="entry name" value="GPCR_2_CRF2_rcpt"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003051">
+<property type="entry name" value="GPCR_2_CRF_rcpt"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036445">
+<property type="entry name" value="GPCR_2_extracell_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001879">
+<property type="entry name" value="GPCR_2_extracellular_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000832">
+<property type="entry name" value="GPCR_2_secretin-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017983">
+<property type="entry name" value="GPCR_2_secretin-like_CS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00002">
+<property type="entry name" value="7tm_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02793">
+<property type="entry name" value="HRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01279">
+<property type="entry name" value="CRFRECEPTOR"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01281">
+<property type="entry name" value="CRFRECEPTOR2"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00249">
+<property type="entry name" value="GPCRSECRETIN"/>
+</dbReference>
+<dbReference type="SMART" id="SM00008">
+<property type="entry name" value="HormR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF111418">
+<property type="entry name" value="SSF111418"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00649">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00650">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50227">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50261">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_4"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0297">G-protein coupled receptor</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0621">Polymorphism</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0807">Transducer</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Corticotropin-releasing factor receptor 2" id="PRO_0000012820">
+<location>
+<begin position="1"/>
+<end position="411"/>
+</location>
+</feature>
+<feature type="signal peptide" description="Not cleaved">
+<location>
+<begin position="1"/>
+<end position="19"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="1"/>
+<end position="108"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=1" evidence="2">
+<location>
+<begin position="109"/>
+<end position="139"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="140"/>
+<end position="146"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=2" evidence="2">
+<location>
+<begin position="147"/>
+<end position="171"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="172"/>
+<end position="185"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=3" evidence="2">
+<location>
+<begin position="186"/>
+<end position="214"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="215"/>
+<end position="221"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=4" evidence="2">
+<location>
+<begin position="222"/>
+<end position="249"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="250"/>
+<end position="265"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=5" evidence="2">
+<location>
+<begin position="266"/>
+<end position="291"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="292"/>
+<end position="302"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=6" evidence="2">
+<location>
+<begin position="303"/>
+<end position="327"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="328"/>
+<end position="334"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=7" evidence="2">
+<location>
+<begin position="335"/>
+<end position="364"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="365"/>
+<end position="411"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="13"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="41"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="74"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="86"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="94"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="4">
+<location>
+<begin position="14"/>
+<end position="50"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="4">
+<location>
+<begin position="40"/>
+<end position="83"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="4">
+<location>
+<begin position="64"/>
+<end position="98"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="184"/>
+<end position="254"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform CRF2-beta." id="VSP_001999" evidence="6 8">
+<original>MDAALLHSLLEANCSLALAEELLLDGWGPPLDPE</original>
+<variation>MRGPSGPPGLLYVPHLLLCLLCLLPPPLQYAAGQSQMPKDQPLWALLEQYCHTIMTLTNLS</variation>
+<location>
+<begin position="1"/>
+<end position="34"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform CRF2-gamma." id="VSP_002000" evidence="7">
+<original>MDAALLHSLLEANCSLALAEELLLDGWGPPLDPE</original>
+<variation>MGREPWPEDRDLGFPQLFCQ</variation>
+<location>
+<begin position="1"/>
+<end position="34"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform desQ." id="VSP_053564" evidence="9">
+<location>
+<position position="106"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform D." id="VSP_053565" evidence="9">
+<original>VRSAVRKRWHRWQDHHSLRVPMARAMSIPTSPTRISFHSIKQTAAV</original>
+<variation>SWVSKEAQAAGPHGREKPEQRW</variation>
+<location>
+<begin position="366"/>
+<end position="411"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform E." id="VSP_053566" evidence="9">
+<original>VRSAVRKRWHRWQDHHSLRVPMARAMSIPTSPTRISFHSIKQTAAV</original>
+<variation>GLEPV</variation>
+<location>
+<begin position="366"/>
+<end position="411"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform F." id="VSP_053567" evidence="9">
+<location>
+<begin position="367"/>
+<end position="411"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs34625936." id="VAR_049455">
+<original>E</original>
+<variation>D</variation>
+<location>
+<position position="220"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA91320 and 6; ABV59313/ABV59314/ABV59315/ABV59317." ref="1 6" evidence="10">
+<original>R</original>
+<variation>H</variation>
+<location>
+<position position="185"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 7; BAG36414." ref="7" evidence="10">
+<original>W</original>
+<variation>R</variation>
+<location>
+<position position="374"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="111"/>
+<end position="140"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="147"/>
+<end position="170"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="174"/>
+<end position="178"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="182"/>
+<end position="213"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="219"/>
+<end position="221"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="224"/>
+<end position="231"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="232"/>
+<end position="236"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="237"/>
+<end position="247"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="253"/>
+<end position="255"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="266"/>
+<end position="297"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="301"/>
+<end position="315"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="316"/>
+<end position="320"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="321"/>
+<end position="324"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="334"/>
+<end position="349"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="351"/>
+<end position="360"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="364"/>
+<end position="381"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="10">
+<location sequence="Q13324-2">
+<begin position="51"/>
+<end position="77"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="6PB1"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250"/>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="20966082"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="22689579"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="9199241"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="9717834"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000303">
+<source ref="2"/>
+</evidence>
+<evidence key="9" type="ECO:0000303">
+<source ref="6"/>
+</evidence>
+<evidence key="10" type="ECO:0000305"/>
+<sequence length="411" mass="47688" checksum="96B99A93594CF07F" modified="2000-05-30" version="2">MDAALLHSLLEANCSLALAEELLLDGWGPPLDPEGPYSYCNTTLDQIGTCWPRSAAGALVERPCPEYFNGVKYNTTRNAYRECLENGTWASKINYSQCEPILDDKQRKYDLHYRIALVVNYLGHCVSVAALVAAFLLFLALRSIRCLRNVIHWNLITTFILRNVMWFLLQLVDHEVHESNEVWCRCITTIFNYFVVTNFFWMFVEGCYLHTAIVMTYSTERLRKCLFLFIGWCIPFPIIVAWAIGKLYYENEQCWFGKEPGDLVDYIYQGPIILVLLINFVFLFNIVRILMTKLRASTTSETIQYRKAVKATLVLLPLLGITYMLFFVNPGEDDLSQIMFIYFNSFLQSFQGFFVSVFYCFFNGEVRSAVRKRWHRWQDHHSLRVPMARAMSIPTSPTRISFHSIKQTAAV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

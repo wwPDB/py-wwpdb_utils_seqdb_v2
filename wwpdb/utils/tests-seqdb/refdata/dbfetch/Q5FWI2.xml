@@ -1,0 +1,626 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-12-06" modified="2020-08-12" version="120">
+<accession>Q5FWI2</accession>
+<accession>Q80T66</accession>
+<name>SCTR_MOUSE</name>
+<protein>
+<recommendedName>
+<fullName evidence="10">Secretin receptor</fullName>
+<shortName>SCT-R</shortName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="10 12">Sctr</name>
+</gene>
+<organism>
+<name type="scientific">Mus musculus</name>
+<name type="common">Mouse</name>
+<dbReference type="NCBI Taxonomy" id="10090"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Myomorpha</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Mus</taxon>
+<taxon>Mus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<strain>C57BL/6J</strain>
+<tissue>Eye</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2003" name="Proc. Natl. Acad. Sci. U.S.A." volume="100" first="4903" last="4908">
+<title>The G protein-coupled receptor repertoires of human and mouse.</title>
+<authorList>
+<person name="Vassilatis D.K."/>
+<person name="Hohmann J.G."/>
+<person name="Zeng H."/>
+<person name="Li F."/>
+<person name="Ranchalis J.E."/>
+<person name="Mortrud M.T."/>
+<person name="Brown A."/>
+<person name="Rodriguez S.S."/>
+<person name="Weller J.R."/>
+<person name="Wright A.C."/>
+<person name="Bergmann J.E."/>
+<person name="Gaitanaris G.A."/>
+</authorList>
+<dbReference type="PubMed" id="12679517"/>
+<dbReference type="DOI" id="10.1073/pnas.0230374100"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 264-360</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2006" name="Hum. Mol. Genet." volume="15" first="3241" last="3250">
+<title>Secretin receptor-deficient mice exhibit impaired synaptic plasticity and social behavior.</title>
+<authorList>
+<person name="Nishijima I."/>
+<person name="Yamagata T."/>
+<person name="Spencer C.M."/>
+<person name="Weeber E.J."/>
+<person name="Alekseyenko O."/>
+<person name="Sweatt J.D."/>
+<person name="Momoi M.Y."/>
+<person name="Ito M."/>
+<person name="Armstrong D.L."/>
+<person name="Nelson D.L."/>
+<person name="Paylor R."/>
+<person name="Bradley A."/>
+</authorList>
+<dbReference type="PubMed" id="17008357"/>
+<dbReference type="DOI" id="10.1093/hmg/ddl402"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2007" name="Mol. Cell. Biol." volume="27" first="2499" last="2511">
+<title>Phenotypes developed in secretin receptor-null mice indicated a role for secretin in regulating renal water reabsorption.</title>
+<authorList>
+<person name="Chu J.Y."/>
+<person name="Chung S.C."/>
+<person name="Lam A.K."/>
+<person name="Tam S."/>
+<person name="Chung S.K."/>
+<person name="Chow B.K."/>
+</authorList>
+<dbReference type="PubMed" id="17283064"/>
+<dbReference type="DOI" id="10.1128/mcb.01088-06"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2011" name="Neuropsychopharmacology" volume="36" first="459" last="471">
+<title>Central and peripheral administration of secretin inhibits food intake in mice through the activation of the melanocortin system.</title>
+<authorList>
+<person name="Cheng C.Y."/>
+<person name="Chu J.Y."/>
+<person name="Chow B.K."/>
+</authorList>
+<dbReference type="PubMed" id="20927047"/>
+<dbReference type="DOI" id="10.1038/npp.2010.178"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2014" name="FASEB J." volume="28" first="3494" last="3505">
+<title>Secretin receptor-knockout mice are resistant to high-fat diet-induced obesity and exhibit impaired intestinal lipid absorption.</title>
+<authorList>
+<person name="Sekar R."/>
+<person name="Chow B.K."/>
+</authorList>
+<dbReference type="PubMed" id="24769669"/>
+<dbReference type="DOI" id="10.1096/fj.13-247536"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2014" name="J. Lipid Res." volume="55" first="190" last="200">
+<title>Lipolytic actions of secretin in mouse adipocytes.</title>
+<authorList>
+<person name="Sekar R."/>
+<person name="Chow B.K."/>
+</authorList>
+<dbReference type="PubMed" id="24273196"/>
+<dbReference type="DOI" id="10.1194/jlr.m038042"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2018" name="Cell" volume="175" first="1561" last="1574">
+<title>Secretin-activated brown fat mediates prandial thermogenesis to induce satiation.</title>
+<authorList>
+<person name="Li Y."/>
+<person name="Schnabl K."/>
+<person name="Gabler S.M."/>
+<person name="Willershaeuser M."/>
+<person name="Reber J."/>
+<person name="Karlas A."/>
+<person name="Laurila S."/>
+<person name="Lahesmaa M."/>
+<person name="U Din M."/>
+<person name="Bast-Habersbrunner A."/>
+<person name="Virtanen K.A."/>
+<person name="Fromme T."/>
+<person name="Bolze F."/>
+<person name="O'Farrell L.S."/>
+<person name="Alsina-Fernandez J."/>
+<person name="Coskun T."/>
+<person name="Ntziachristos V."/>
+<person name="Nuutila P."/>
+<person name="Klingenspor M."/>
+</authorList>
+<dbReference type="PubMed" id="30449620"/>
+<dbReference type="DOI" id="10.1016/j.cell.2018.10.016"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<comment type="function">
+<text evidence="1 4 5 6 7 9">Receptor for secretin (SCT), which is involved in different processes such as regulation of the pH of the duodenal content, food intake and water homeostasis (PubMed:20927047, PubMed:24273196, PubMed:30449620). The activity of this receptor is mediated by G proteins which activate adenylyl cyclase (PubMed:30449620). Upon binding to secretin, regulates the pH of the duodenum by (1) inhibiting the secretion of gastric acid from the parietal cells of the stomach and (2) stimulating the production of bicarbonate (NaHCO(3)) from the ductal cells of the pancreas (By similarity). In addition to regulating the pH of the duodenal content, plays a central role in diet induced thermogenesis: acts as a non-sympathetic brown fat (BAT) activator mediating prandial thermogenesis, which consequentially induces satiation (PubMed:30449620). Mechanistically, secretin released by the gut after a meal binds to secretin receptor (SCTR) in brown adipocytes, activating brown fat thermogenesis by stimulating lipolysis, which is sensed in the brain and promotes satiation (PubMed:30449620). Also able to stimulate lipolysis in white adipocytes (PubMed:24273196). Also plays an important role in cellular osmoregulation by regulating renal water reabsorption (PubMed:17283064). Also plays a role in the central nervous system: required for synaptic plasticity (PubMed:17008357).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="2">Cell membrane</location>
+<topology evidence="3">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="4 9">In brain, expressed in the hippocampal CA1 region, the lower layer of cerebral cortex, the anterior olfactory nuclei, the anterior ventrolateral thalamus, the lateral region of hypothalamus, substantia nigra, tegmental area and central nucleus of the inferior colliculus, the ventral supramamillary nucleus and the cerebellum (PubMed:17008357). Expressed in brown adipocytes: expression predominates in mature brown adipocytes (at protein level) (PubMed:30449620).</text>
+</comment>
+<comment type="PTM">
+<text evidence="2">Phosphorylated on Ser and Thr residues at the cytoplasmic C-terminus by G protein-coupled receptor kinases (GRKs).</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="4 5 8">Mice are overtly normal and fertile (PubMed:17008357). Mice however display impaired synaptic plasticity in the hippocampus: the number of dendritic spines in the CA1 hippocampal pyramidal cells is slightly reduced and mice show abnormal social behavior (PubMed:17008357). Mice are not hyperphagic and display normal food intake (PubMed:24769669). Following a 12 week high-fat diet, knockout mice gain significantly less weight and exhibit lower body fat content, possibly caused by reduced fat absorption in the intestine (PubMed:24769669). Mice also show mild polydipsia and polyuria; kidney display altered glomerular and tubular morphology (PubMed:17283064).</text>
+</comment>
+<comment type="similarity">
+<text evidence="11">Belongs to the G-protein coupled receptor 2 family.</text>
+</comment>
+<dbReference type="EMBL" id="BC089355">
+<property type="protein sequence ID" value="AAH89355.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY255623">
+<property type="protein sequence ID" value="AAO85135.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS78668.1"/>
+<dbReference type="RefSeq" id="NP_001012322.2">
+<property type="nucleotide sequence ID" value="NM_001012322.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001298006.1">
+<property type="nucleotide sequence ID" value="NM_001311077.1"/>
+</dbReference>
+<dbReference type="STRING" id="10090.ENSMUSP00000072660"/>
+<dbReference type="GlyGen" id="Q5FWI2">
+<property type="glycosylation" value="5 sites"/>
+</dbReference>
+<dbReference type="PaxDb" id="Q5FWI2"/>
+<dbReference type="PRIDE" id="Q5FWI2"/>
+<dbReference type="Antibodypedia" id="18314">
+<property type="antibodies" value="260 antibodies"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSMUST00000189037">
+<property type="protein sequence ID" value="ENSMUSP00000139932"/>
+<property type="gene ID" value="ENSMUSG00000026387"/>
+</dbReference>
+<dbReference type="GeneID" id="319229"/>
+<dbReference type="KEGG" id="mmu:319229"/>
+<dbReference type="UCSC" id="uc007cjc.1">
+<property type="organism name" value="mouse"/>
+</dbReference>
+<dbReference type="CTD" id="6344"/>
+<dbReference type="MGI" id="MGI:2441720">
+<property type="gene designation" value="Sctr"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG4564">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00940000160618"/>
+<dbReference type="InParanoid" id="Q5FWI2"/>
+<dbReference type="KO" id="K04588"/>
+<dbReference type="OMA" id="NEKRHEY"/>
+<dbReference type="OrthoDB" id="651627at2759"/>
+<dbReference type="PhylomeDB" id="Q5FWI2"/>
+<dbReference type="Reactome" id="R-MMU-418555">
+<property type="pathway name" value="G alpha (s) signalling events"/>
+</dbReference>
+<dbReference type="Reactome" id="R-MMU-420092">
+<property type="pathway name" value="Glucagon-type ligand receptors"/>
+</dbReference>
+<dbReference type="BioGRID-ORCS" id="319229">
+<property type="hits" value="0 hits in 18 CRISPR screens"/>
+</dbReference>
+<dbReference type="PRO" id="PR:Q5FWI2"/>
+<dbReference type="Proteomes" id="UP000000589">
+<property type="component" value="Chromosome 1"/>
+</dbReference>
+<dbReference type="RNAct" id="Q5FWI2">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSMUSG00000026387">
+<property type="expression patterns" value="Expressed in stomach and 67 other tissues"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q5FWI2">
+<property type="organism ID" value="MM"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005881">
+<property type="term" value="C:cytoplasmic microtubule"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008528">
+<property type="term" value="F:G protein-coupled peptide receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042277">
+<property type="term" value="F:peptide binding"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0017046">
+<property type="term" value="F:peptide hormone binding"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015055">
+<property type="term" value="F:secretin receptor activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007188">
+<property type="term" value="P:adenylate cyclase-modulating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007420">
+<property type="term" value="P:brain development"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007166">
+<property type="term" value="P:cell surface receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009992">
+<property type="term" value="P:cellular water homeostasis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002024">
+<property type="term" value="P:diet induced thermogenesis"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007186">
+<property type="term" value="P:G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043950">
+<property type="term" value="P:positive regulation of cAMP-mediated signaling"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050996">
+<property type="term" value="P:positive regulation of lipid catabolic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0032098">
+<property type="term" value="P:regulation of appetite"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0048167">
+<property type="term" value="P:regulation of synaptic plasticity"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070295">
+<property type="term" value="P:renal water absorption"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031667">
+<property type="term" value="P:response to nutrient levels"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.1240.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017981">
+<property type="entry name" value="GPCR_2-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036445">
+<property type="entry name" value="GPCR_2_extracell_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001879">
+<property type="entry name" value="GPCR_2_extracellular_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000832">
+<property type="entry name" value="GPCR_2_secretin-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017983">
+<property type="entry name" value="GPCR_2_secretin-like_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002144">
+<property type="entry name" value="GPCR_2_secretin_rcpt"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR45620:SF13">
+<property type="entry name" value="PTHR45620:SF13"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00002">
+<property type="entry name" value="7tm_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02793">
+<property type="entry name" value="HRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00249">
+<property type="entry name" value="GPCRSECRETIN"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00490">
+<property type="entry name" value="SECRETINR"/>
+</dbReference>
+<dbReference type="SMART" id="SM00008">
+<property type="entry name" value="HormR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF111418">
+<property type="entry name" value="SSF111418"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00649">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50227">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50261">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_4"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0297">G-protein coupled receptor</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0807">Transducer</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="signal peptide" evidence="3">
+<location>
+<begin position="1"/>
+<end position="28"/>
+</location>
+</feature>
+<feature type="chain" description="Secretin receptor" id="PRO_0000043222">
+<location>
+<begin position="29"/>
+<end position="447"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="29"/>
+<end position="142"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=1" evidence="3">
+<location>
+<begin position="143"/>
+<end position="166"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="167"/>
+<end position="173"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=2" evidence="3">
+<location>
+<begin position="174"/>
+<end position="193"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="194"/>
+<end position="215"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=3" evidence="3">
+<location>
+<begin position="216"/>
+<end position="239"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="240"/>
+<end position="253"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=4" evidence="3">
+<location>
+<begin position="254"/>
+<end position="275"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="276"/>
+<end position="293"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=5" evidence="3">
+<location>
+<begin position="294"/>
+<end position="316"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="317"/>
+<end position="342"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=6" evidence="3">
+<location>
+<begin position="343"/>
+<end position="361"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="362"/>
+<end position="368"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=7" evidence="3">
+<location>
+<begin position="369"/>
+<end position="391"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="392"/>
+<end position="447"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="71"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="99"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="105"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="127"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="290"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P11384"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P23811"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="17008357"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="17283064"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="20927047"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="24273196"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="24769669"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="30449620"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="30449620"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000305"/>
+<evidence key="12" type="ECO:0000312">
+<source>
+<dbReference type="MGI" id="MGI:2441720"/>
+</source>
+</evidence>
+<sequence length="447" mass="50932" checksum="DD937AFC33D41115" modified="2005-03-01" version="1" precursor="true">MLSTMSPRLSLLLLWLLLLINAAHPVGALPRLCDVRRVLLEERAECLRELSEEKKALGPKTASGCERFWDNMSCWPSSALAQTVEVPCPKFLRMFSGRNGSLFRNCTKDGWSETFPRPDLACGVNMNGSFNERRHAYLLKLKVMYTVGYSSSLAMLLVALSILCSFRRLHCTRNYIHMHLFVSFILRALSNFIKDAVLFPADDVTYCDAHRAGCKLVMIFFQYCIMANYAWLLVEGLYLHTLLAISFFSERKCLQAFVLFGWGSPAIFVALWAVTRHFLEDFGCWDINSNASIWWVIRGPVILSIVINFIFFINILRILMRKLRTQETRGNETHHYKRLAKSTLLLIPLFGIHYIVFAFSPEGAMEVQLFFELALGSFQGLVVAVLYCFLNGELEVQKKWRQWHLQEFPLRPVALSNSFSNATNGPTHSTKAGTSEQSRSIPGANVI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

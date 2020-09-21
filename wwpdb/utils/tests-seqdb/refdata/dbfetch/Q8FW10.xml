@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-06-12" modified="2020-08-12" version="80">
+<accession>Q8FW10</accession>
+<accession>G0KD32</accession>
+<name>UGPB_BRUSU</name>
+<protein>
+<recommendedName>
+<fullName>sn-glycerol-3-phosphate-binding periplasmic protein UgpB</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">ugpB</name>
+<name type="ordered locus">BRA0655</name>
+<name type="ordered locus">BS1330_II0649</name>
+</gene>
+<organism>
+<name type="scientific">Brucella suis biovar 1 (strain 1330)</name>
+<dbReference type="NCBI Taxonomy" id="204722"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rhizobiales</taxon>
+<taxon>Brucellaceae</taxon>
+<taxon>Brucella</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2002" name="Proc. Natl. Acad. Sci. U.S.A." volume="99" first="13148" last="13153">
+<title>The Brucella suis genome reveals fundamental similarities between animal and plant pathogens and symbionts.</title>
+<authorList>
+<person name="Paulsen I.T."/>
+<person name="Seshadri R."/>
+<person name="Nelson K.E."/>
+<person name="Eisen J.A."/>
+<person name="Heidelberg J.F."/>
+<person name="Read T.D."/>
+<person name="Dodson R.J."/>
+<person name="Umayam L.A."/>
+<person name="Brinkac L.M."/>
+<person name="Beanan M.J."/>
+<person name="Daugherty S.C."/>
+<person name="DeBoy R.T."/>
+<person name="Durkin A.S."/>
+<person name="Kolonay J.F."/>
+<person name="Madupu R."/>
+<person name="Nelson W.C."/>
+<person name="Ayodeji B."/>
+<person name="Kraul M."/>
+<person name="Shetty J."/>
+<person name="Malek J.A."/>
+<person name="Van Aken S.E."/>
+<person name="Riedmuller S."/>
+<person name="Tettelin H."/>
+<person name="Gill S.R."/>
+<person name="White O."/>
+<person name="Salzberg S.L."/>
+<person name="Hoover D.L."/>
+<person name="Lindler L.E."/>
+<person name="Halling S.M."/>
+<person name="Boyle S.M."/>
+<person name="Fraser C.M."/>
+</authorList>
+<dbReference type="PubMed" id="12271122"/>
+<dbReference type="DOI" id="10.1073/pnas.192319099"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>1330</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2011" name="J. Bacteriol." volume="193" first="6410" last="6410">
+<title>Revised genome sequence of Brucella suis 1330.</title>
+<authorList>
+<person name="Tae H."/>
+<person name="Shallom S."/>
+<person name="Settlage R."/>
+<person name="Preston D."/>
+<person name="Adams L.G."/>
+<person name="Garner H.R."/>
+</authorList>
+<dbReference type="PubMed" id="22038969"/>
+<dbReference type="DOI" id="10.1128/jb.06181-11"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>1330</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Part of the ABC transporter complex UgpABCE involved in sn-glycerol-3-phosphate import.</text>
+</comment>
+<comment type="subunit">
+<text evidence="3">The complex is composed of two ATP-binding proteins (UgpC), two transmembrane proteins (UgpA and UgpE) and a solute-binding protein (UgpB).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Periplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the bacterial solute-binding protein 1 family.</text>
+</comment>
+<dbReference type="EMBL" id="AE014292">
+<property type="protein sequence ID" value="AAN33844.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CP002998">
+<property type="protein sequence ID" value="AEM20120.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_004686048.1">
+<property type="nucleotide sequence ID" value="NC_004311.2"/>
+</dbReference>
+<dbReference type="SMR" id="Q8FW10"/>
+<dbReference type="EnsemblBacteria" id="AAN33844">
+<property type="protein sequence ID" value="AAN33844"/>
+<property type="gene ID" value="BRA0655"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="AEM20120">
+<property type="protein sequence ID" value="AEM20120"/>
+<property type="gene ID" value="BS1330_II0649"/>
+</dbReference>
+<dbReference type="GeneID" id="45053686"/>
+<dbReference type="KEGG" id="bms:BRA0655"/>
+<dbReference type="KEGG" id="bsi:BS1330_II0649"/>
+<dbReference type="PATRIC" id="fig|204722.22.peg.2342"/>
+<dbReference type="HOGENOM" id="CLU_031285_3_0_5"/>
+<dbReference type="KO" id="K05813"/>
+<dbReference type="OMA" id="ESFSAWH"/>
+<dbReference type="PRO" id="PR:Q8FW10"/>
+<dbReference type="Proteomes" id="UP000007104">
+<property type="component" value="Chromosome II"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042597">
+<property type="term" value="C:periplasmic space"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008643">
+<property type="term" value="P:carbohydrate transport"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13416">
+<property type="entry name" value="SBP_bac_8"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0574">Periplasm</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0762">Sugar transport</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="25"/>
+</location>
+</feature>
+<feature type="chain" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB" id="PRO_0000290128">
+<location>
+<begin position="26"/>
+<end position="433"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="433" mass="47109" checksum="A61E33FFAF9A85A8" modified="2003-03-01" version="1" precursor="true">MFTRLITTSALTGAIALTIGSQAFAQTELAWWHGMTGANNEMVNELSKEFNESQSEYKIVPVYKGNYPETLNAGIAAFRSKQPPAILQVFDAGSGVMMAAEGAIVPAAEVLEKGGYKFDKSQYLPGIVAYYSKPDGTMLSFPYNSSSPILYYNKDAFKKAGLDENKPPKTWPEVFEAAKKIKASGASPCGFTSTWLTWIQTENFAAWNNVPYGTNENGLAGTDVKLEINSPLYVEHFQAIADLAKDGTFRYGGRTSEAKQLFTSGECAMLTESSGGLGDVVKSGINYGIGQLPYYEGHGPQNTIPGGASLWVFAGLSDDQYKGIAEFFNFLSQTKIQVKLHEKSGYLPVTLAAYEETKKSDFYEKNPGRETPILQMMGKEPTENSKGVRLVNLPQVRDILNEEFEAMLGGKQDAKTALDNAVKRGNAAIAAAQ</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

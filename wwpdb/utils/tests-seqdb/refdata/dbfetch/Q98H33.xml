@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2003-11-07" modified="2020-08-12" version="82">
+<accession>Q98H33</accession>
+<name>SP39_RHILO</name>
+<protein>
+<recommendedName>
+<fullName>Probable sugar-binding periplasmic protein</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus">mlr3050</name>
+</gene>
+<organism>
+<name type="scientific">Mesorhizobium japonicum (strain LMG 29417 / CECT 9101 / MAFF 303099)</name>
+<name type="synonym">Mesorhizobium loti (strain MAFF 303099)</name>
+<dbReference type="NCBI Taxonomy" id="266835"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rhizobiales</taxon>
+<taxon>Phyllobacteriaceae</taxon>
+<taxon>Mesorhizobium</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2000" name="DNA Res." volume="7" first="331" last="338">
+<title>Complete genome structure of the nitrogen-fixing symbiotic bacterium Mesorhizobium loti.</title>
+<authorList>
+<person name="Kaneko T."/>
+<person name="Nakamura Y."/>
+<person name="Sato S."/>
+<person name="Asamizu E."/>
+<person name="Kato T."/>
+<person name="Sasamoto S."/>
+<person name="Watanabe A."/>
+<person name="Idesawa K."/>
+<person name="Ishikawa A."/>
+<person name="Kawashima K."/>
+<person name="Kimura T."/>
+<person name="Kishida Y."/>
+<person name="Kiyokawa C."/>
+<person name="Kohara M."/>
+<person name="Matsumoto M."/>
+<person name="Matsuno A."/>
+<person name="Mochizuki Y."/>
+<person name="Nakayama S."/>
+<person name="Nakazaki N."/>
+<person name="Shimpo S."/>
+<person name="Sugimoto M."/>
+<person name="Takeuchi C."/>
+<person name="Yamada M."/>
+<person name="Tabata S."/>
+</authorList>
+<dbReference type="PubMed" id="11214968"/>
+<dbReference type="DOI" id="10.1093/dnares/7.6.331"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>LMG 29417 / CECT 9101 / MAFF 303099</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="2">Part of a binding-protein-dependent transport system for a sugar.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="2">Periplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the bacterial solute-binding protein 1 family.</text>
+</comment>
+<comment type="sequence caution" evidence="2">
+<conflict type="erroneous initiation">
+<sequence resource="EMBL-CDS" id="BAB50033" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EMBL" id="BA000012">
+<property type="protein sequence ID" value="BAB50033.1"/>
+<property type="status" value="ALT_INIT"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_044548311.1">
+<property type="nucleotide sequence ID" value="NC_002678.2"/>
+</dbReference>
+<dbReference type="SMR" id="Q98H33"/>
+<dbReference type="STRING" id="266835.14023427"/>
+<dbReference type="PRIDE" id="Q98H33"/>
+<dbReference type="EnsemblBacteria" id="BAB50033">
+<property type="protein sequence ID" value="BAB50033"/>
+<property type="gene ID" value="BAB50033"/>
+</dbReference>
+<dbReference type="KEGG" id="mlo:mlr3050"/>
+<dbReference type="PATRIC" id="fig|266835.9.peg.2436"/>
+<dbReference type="eggNOG" id="COG1653">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_031285_15_0_5"/>
+<dbReference type="KO" id="K17315"/>
+<dbReference type="OrthoDB" id="1746871at2"/>
+<dbReference type="BioCyc" id="MLOT266835:G1G20-2428-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000552">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042597">
+<property type="term" value="C:periplasmic space"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008643">
+<property type="term" value="P:carbohydrate transport"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01547">
+<property type="entry name" value="SBP_bac_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0574">Periplasm</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0762">Sugar transport</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="21"/>
+</location>
+</feature>
+<feature type="chain" description="Probable sugar-binding periplasmic protein" id="PRO_0000031711">
+<location>
+<begin position="22"/>
+<end position="417"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255"/>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="417" mass="44319" checksum="E4C17CB8774D4881" modified="2003-11-07" version="2" precursor="true">MLRKLLIGTALATSFAFSAHAADVKEVQMLHWWTSGGEAAALNVLKGDLAKEGFAWKDVPVAGGGGDAAMTALKAMVAAGNYPTASQMLGYTVLDYAAAGVMGDLTETAKKEGWDKSVPAALQKFSVYEGKWVAAPVNVHSVNWLWINKAVMDKIGGTEPKTFDDFVALLDKAKAAGVIPLALGGQNWQEATMFDSVVLSTGGPEFYKKAFNDLDDASLKSDTMKKSFDNLAKLVTYVDPNFSGRDWNLATAMVIKGDALVQVMGDWAKGEFHAAKKTPGTDFLCYRFPGTDGSVIYNSDMFGMFNVPDDRKAAQVALATATLSKSFQSAFNVVKGSVPARTDVPDTDFDACGKKGIADLKKANEGGTLFGSLAQGYGAPPAVANAYKDVVSKFVHGQIKTSDEAVTELVKAIDDAK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

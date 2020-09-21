@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1999-07-15" modified="2020-08-12" version="102">
+<accession>O46502</accession>
+<name>SCTR_RABIT</name>
+<protein>
+<recommendedName>
+<fullName>Secretin receptor</fullName>
+<shortName>SCT-R</shortName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">SCTR</name>
+</gene>
+<organism>
+<name type="scientific">Oryctolagus cuniculus</name>
+<name type="common">Rabbit</name>
+<dbReference type="NCBI Taxonomy" id="9986"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Lagomorpha</taxon>
+<taxon>Leporidae</taxon>
+<taxon>Oryctolagus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1998" name="Peptides" volume="19" first="1055" last="1062">
+<title>Molecular cloning and in vitro properties of the recombinant rabbit secretin receptor.</title>
+<authorList>
+<person name="Svoboda M."/>
+<person name="Tastenoy M."/>
+<person name="de Neef P."/>
+<person name="Delporte C."/>
+<person name="Waelbroeck M."/>
+<person name="Robberecht P."/>
+</authorList>
+<dbReference type="PubMed" id="9700755"/>
+<dbReference type="DOI" id="10.1016/s0196-9781(98)00040-0"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+</reference>
+<comment type="function">
+<text evidence="1 3">Receptor for secretin (SCT), which is involved in different processes such as regulation of the pH of the duodenal content, food intake and water homeostasis. The activity of this receptor is mediated by G proteins which activate adenylyl cyclase (By similarity). Upon binding to secretin, regulates the pH of the duodenum by (1) inhibiting the secretion of gastric acid from the parietal cells of the stomach and (2) stimulating the production of bicarbonate (NaHCO(3)) from the ductal cells of the pancreas (By similarity). In addition to regulating the pH of the duodenal content, plays a central role in diet induced thermogenesis: acts as a non-sympathetic brown fat (BAT) activator mediating prandial thermogenesis, which consequentially induces satiation. Mechanistically, secretin released by the gut after a meal binds to secretin receptor (SCTR) in brown adipocytes, activating brown fat thermogenesis by stimulating lipolysis, which is sensed in the brain and promotes satiation. Also able to stimulate lipolysis in white adipocytes. Also plays an important role in cellular osmoregulation by regulating renal water reabsorption. Also plays a role in the central nervous system: required for synaptic plasticity (By similarity).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="2">Cell membrane</location>
+<topology evidence="4">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="PTM">
+<text evidence="2">Phosphorylated on Ser and Thr residues at the cytoplasmic C-terminus by G protein-coupled receptor kinases (GRKs).</text>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the G-protein coupled receptor 2 family.</text>
+</comment>
+<dbReference type="EMBL" id="AF025411">
+<property type="protein sequence ID" value="AAC32767.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001075497.1">
+<property type="nucleotide sequence ID" value="NM_001082028.1"/>
+</dbReference>
+<dbReference type="SMR" id="O46502"/>
+<dbReference type="STRING" id="9986.ENSOCUP00000006668"/>
+<dbReference type="PRIDE" id="O46502"/>
+<dbReference type="GeneID" id="100008671"/>
+<dbReference type="KEGG" id="ocu:100008671"/>
+<dbReference type="CTD" id="6344"/>
+<dbReference type="eggNOG" id="KOG4564">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="InParanoid" id="O46502"/>
+<dbReference type="KO" id="K04588"/>
+<dbReference type="OrthoDB" id="651627at2759"/>
+<dbReference type="Proteomes" id="UP000001811">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005881">
+<property type="term" value="C:cytoplasmic microtubule"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004930">
+<property type="term" value="F:G protein-coupled receptor activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007166">
+<property type="term" value="P:cell surface receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009992">
+<property type="term" value="P:cellular water homeostasis"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002024">
+<property type="term" value="P:diet induced thermogenesis"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043950">
+<property type="term" value="P:positive regulation of cAMP-mediated signaling"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0032098">
+<property type="term" value="P:regulation of appetite"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0048167">
+<property type="term" value="P:regulation of synaptic plasticity"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031667">
+<property type="term" value="P:response to nutrient levels"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.1240.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017981">
+<property type="entry name" value="GPCR_2-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036445">
+<property type="entry name" value="GPCR_2_extracell_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001879">
+<property type="entry name" value="GPCR_2_extracellular_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000832">
+<property type="entry name" value="GPCR_2_secretin-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017983">
+<property type="entry name" value="GPCR_2_secretin-like_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002144">
+<property type="entry name" value="GPCR_2_secretin_rcpt"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR45620:SF13">
+<property type="entry name" value="PTHR45620:SF13"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00002">
+<property type="entry name" value="7tm_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02793">
+<property type="entry name" value="HRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00249">
+<property type="entry name" value="GPCRSECRETIN"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00490">
+<property type="entry name" value="SECRETINR"/>
+</dbReference>
+<dbReference type="SMART" id="SM00008">
+<property type="entry name" value="HormR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF111418">
+<property type="entry name" value="SSF111418"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00649">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00650">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50227">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50261">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_4"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0297">G-protein coupled receptor</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0807">Transducer</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="signal peptide" evidence="4">
+<location>
+<begin position="1"/>
+<end position="21"/>
+</location>
+</feature>
+<feature type="chain" description="Secretin receptor" id="PRO_0000012853">
+<location>
+<begin position="22"/>
+<end position="445"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="4">
+<location>
+<begin position="22"/>
+<end position="139"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=1" evidence="4">
+<location>
+<begin position="140"/>
+<end position="163"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="4">
+<location>
+<begin position="164"/>
+<end position="170"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=2" evidence="4">
+<location>
+<begin position="171"/>
+<end position="190"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="4">
+<location>
+<begin position="191"/>
+<end position="212"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=3" evidence="4">
+<location>
+<begin position="213"/>
+<end position="236"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="4">
+<location>
+<begin position="237"/>
+<end position="250"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=4" evidence="4">
+<location>
+<begin position="251"/>
+<end position="272"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="4">
+<location>
+<begin position="273"/>
+<end position="290"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=5" evidence="4">
+<location>
+<begin position="291"/>
+<end position="313"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="4">
+<location>
+<begin position="314"/>
+<end position="339"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=6" evidence="4">
+<location>
+<begin position="340"/>
+<end position="358"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="4">
+<location>
+<begin position="359"/>
+<end position="365"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=7" evidence="4">
+<location>
+<begin position="366"/>
+<end position="388"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="4">
+<location>
+<begin position="389"/>
+<end position="445"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="68"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="96"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="102"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="124"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P11384"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P23811"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q5FWI2"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000255"/>
+<evidence key="5" type="ECO:0000305"/>
+<sequence length="445" mass="50495" checksum="31C4169CB099F194" modified="1998-06-01" version="1" precursor="true">MCPRPGPPLGLWLLLGFACAAHLVGAPPRLCDVLWVLQEERDQCLQELERERLGEEQPVPGCQGLWDNVSCWPSSAPGRMVELECPRFLRMLTNSNGSLFRNCTQDGWTETFPRPDLACGVSMNDSSHERQHAYLLKLKVMYTVGYSSSLVMLLVALGILCAFRRLHCTRNYIHMHLFLSFILRALSNFIKDAVLFSSDDAIHCDAHRVGCKLVMVFFQYCIMANYAWLLVEGLYLHSLLVVSFFSERKCLQGFVVLGWGSPAMFVTSWAVTRHFLEDSGCWDINANAAIWWVIRGPVILSILINFILFINILRILTRKLRTQETRGQDMNHYKRLARSTLLLIPLFGVHYIVFVFSPEGAMEIQLFFELALGSFQGLVVAVLYCFLNGEVQLEVQKKWQQWHLWEPPLCPVALSSSFSNGTSSLNSTKACPSGRSRDTCKVSII</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

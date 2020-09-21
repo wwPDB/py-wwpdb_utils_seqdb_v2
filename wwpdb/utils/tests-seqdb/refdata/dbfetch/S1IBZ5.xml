@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-09-18" modified="2020-08-12" version="27">
+<accession>S1IBZ5</accession>
+<name>S1IBZ5_ECOLX</name>
+<protein>
+<recommendedName>
+<fullName evidence="4">Maltodextrin-binding protein</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="ORF" evidence="5">A1WU_01325</name>
+</gene>
+<organism evidence="5 6">
+<name type="scientific">Escherichia coli KTE108</name>
+<dbReference type="NCBI Taxonomy" id="1182704"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="5 6">
+<citation type="submission" date="2013-01" db="EMBL/GenBank/DDBJ databases">
+<title>The Genome Sequence of Escherichia coli KTE108.</title>
+<authorList>
+<consortium name="The Broad Institute Genome Sequencing Platform"/>
+<consortium name="The Broad Institute Genome Sequencing Center for Infectious Disease"/>
+<person name="Feldgarden M."/>
+<person name="Nielsen K.L."/>
+<person name="Frimodt-Moller N."/>
+<person name="Andersen P.S."/>
+<person name="Walker B."/>
+<person name="Young S.K."/>
+<person name="Zeng Q."/>
+<person name="Gargeya S."/>
+<person name="Fitzgerald M."/>
+<person name="Haas B."/>
+<person name="Abouelleil A."/>
+<person name="Alvarado L."/>
+<person name="Arachchi H.M."/>
+<person name="Berlin A.M."/>
+<person name="Chapman S.B."/>
+<person name="Dewar J."/>
+<person name="Goldberg J."/>
+<person name="Griggs A."/>
+<person name="Gujja S."/>
+<person name="Hansen M."/>
+<person name="Howarth C."/>
+<person name="Imamovic A."/>
+<person name="Larimer J."/>
+<person name="McCowan C."/>
+<person name="Murphy C."/>
+<person name="Neiman D."/>
+<person name="Pearson M."/>
+<person name="Priest M."/>
+<person name="Roberts A."/>
+<person name="Saif S."/>
+<person name="Shea T."/>
+<person name="Sisk P."/>
+<person name="Sykes S."/>
+<person name="Wortman J."/>
+<person name="Nusbaum C."/>
+<person name="Birren B."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5 6">KTE108</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="4">Part of the ABC transporter complex MalEFGK involved in maltose/maltodextrin import. Binds maltose and higher maltodextrins.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="4">Periplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1 4">Belongs to the bacterial solute-binding protein 1 family.</text>
+</comment>
+<comment type="caution">
+<text evidence="5">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="ASVJ01000027">
+<property type="protein sequence ID" value="EOW25317.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000695387.1">
+<property type="nucleotide sequence ID" value="NZ_KE137211.1"/>
+</dbReference>
+<dbReference type="SMR" id="S1IBZ5"/>
+<dbReference type="EnsemblBacteria" id="EOW25317">
+<property type="protein sequence ID" value="EOW25317"/>
+<property type="gene ID" value="A1WU_01325"/>
+</dbReference>
+<dbReference type="PATRIC" id="fig|1182704.3.peg.1342"/>
+<dbReference type="HOGENOM" id="CLU_031285_17_0_6"/>
+<dbReference type="Proteomes" id="UP000014187">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042597">
+<property type="term" value="C:periplasmic space"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015144">
+<property type="term" value="F:carbohydrate transmembrane transporter activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006060">
+<property type="entry name" value="Maltose/Cyclodextrin-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006061">
+<property type="entry name" value="SBP_1_CS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13416">
+<property type="entry name" value="SBP_bac_8"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00181">
+<property type="entry name" value="MALTOSEBP"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01037">
+<property type="entry name" value="SBP_BACTERIAL_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0574" evidence="4">Periplasm</keyword>
+<keyword id="KW-0732" evidence="3 4">Signal</keyword>
+<keyword id="KW-0762" evidence="2 4">Sugar transport</keyword>
+<keyword id="KW-0813" evidence="2 4">Transport</keyword>
+<feature type="signal peptide" evidence="4">
+<location>
+<begin position="1"/>
+<end position="26"/>
+</location>
+</feature>
+<feature type="chain" description="Maltodextrin-binding protein" id="PRO_5013426655" evidence="4">
+<location>
+<begin position="27"/>
+<end position="396"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00008520"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022597"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022729"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU365005"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EOW25317.1"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000014187"/>
+</source>
+</evidence>
+<sequence length="396" mass="43388" checksum="A4C1B3C1777ADE47" modified="2013-09-18" version="1">MKIKTGARILALSALTTMMFSASALAKIEEGKLVIWINGDKGYNGLAEVGKKFEKDTGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRFGGYAQSGLLAEITPDKAFQDKLYPFTWDAVRYNGKLIAYPIAVEALSLIYNKDLLPNPPKTWEEIPALDKELKAKGKSALMFNLQEPYFTWPLIAADGGYAFKYENGKYDIKDVGVDNAGAKAGLTFLVDLIKNKHMNADTDYSIAEAAFNKGETAMTINGPWAWSNIDTSKVNYGVTVLPTFKGQPSKPFVGVLSAGINAASPNKELAKEFLENYLLTDEGLEAVNKDKPLGAVALKSYEEELAKDPRIAATMENAQKGEIMPNIPQMSAFWYAVRTAVINAASGRQTVDEALKDAQTRITK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

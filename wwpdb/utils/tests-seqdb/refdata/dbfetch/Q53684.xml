@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1997-11-01" modified="2020-08-12" version="67">
+<accession>Q53684</accession>
+<name>YOE2_STRAT</name>
+<protein>
+<recommendedName>
+<fullName>Uncharacterized lipoprotein in oleD 5'region</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>ORF2</fullName>
+</alternativeName>
+</protein>
+<organism>
+<name type="scientific">Streptomyces antibioticus</name>
+<dbReference type="NCBI Taxonomy" id="1890"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Streptomycetales</taxon>
+<taxon>Streptomycetaceae</taxon>
+<taxon>Streptomyces</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1993" name="Gene" volume="134" first="139" last="140">
+<title>Characterization of a Streptomyces antibioticus gene cluster encoding a glycosyltransferase involved in oleandomycin inactivation.</title>
+<authorList>
+<person name="Hernandez C."/>
+<person name="Olano C."/>
+<person name="Mendez C."/>
+<person name="Salas J.A."/>
+</authorList>
+<dbReference type="PubMed" id="8244027"/>
+<dbReference type="DOI" id="10.1016/0378-1119(93)90189-a"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 11891 / DSM 40868 / BCRC 11580 / NCIMB 11506 / PSA 205</strain>
+</source>
+</reference>
+<comment type="function">
+<text>May participate in oleandomycin glycosylation and secretion during antibiotic production.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cell membrane</location>
+<topology evidence="1">Lipid-anchor</topology>
+</subcellularLocation>
+</comment>
+<dbReference type="EMBL" id="Z22577">
+<property type="protein sequence ID" value="CAA80300.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S78104">
+<property type="entry name" value="S78104"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01547">
+<property type="entry name" value="SBP_bac_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51257">
+<property type="entry name" value="PROKAR_LIPOPROTEIN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0449">Lipoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0564">Palmitate</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="18"/>
+</location>
+</feature>
+<feature type="chain" description="Uncharacterized lipoprotein in oleD 5'region" id="PRO_0000022712">
+<location>
+<begin position="19"/>
+<end position="451"/>
+</location>
+</feature>
+<feature type="lipid moiety-binding region" description="N-palmitoyl cysteine" evidence="1">
+<location>
+<position position="19"/>
+</location>
+</feature>
+<feature type="lipid moiety-binding region" description="S-diacylglycerol cysteine" evidence="1">
+<location>
+<position position="19"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00303"/>
+</source>
+</evidence>
+<sequence length="451" mass="48542" checksum="B8B2DF4ABB0CC5F2" modified="1996-11-01" version="1" precursor="true">MRTRITLALAVLLLLLAGCSPGAPADGPVTLRFQSLAWQPDSVAATKELVGEWNATHPDVKVEYIQGSWDSVHDQLLTSFEGGEAPDVIHDASDDLADFAYGGYLADLSGLLPARLASDIPRGSWETATFGRGVYGVPFLQEPRVLIADADRLRAAKVRIPTPGHPWSWPEFRQVAKKLTGPGRYGVAWPLKEPVSATLNLSLSAGGRLFHRGADDKVTVRFEAGDEVVARTIHDQVAVDREHAPASTLGSGGADTLPGLFGGRYAMVPLGFSYRQQIVRQAPEDFHWQVLPAPAGAGGLTQGVSPQTLSVSADCPHKKEAVAFIDFLLRPRNMVRLALGDWMLPTGTQALKDPALHTARHGWATGTALAARLRPAPAQSVRGYPEWKDKVATPAYQRYYSGASTLADVRHAWSGTATWCWPATSADPPPGVPRAGKRNIRDATSRLPSTP</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>
