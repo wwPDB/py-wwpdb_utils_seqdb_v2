@@ -1,0 +1,641 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="159">
+<accession>P29768</accession>
+<name>NANH_SALTY</name>
+<protein>
+<recommendedName>
+<fullName>Sialidase</fullName>
+<ecNumber>3.2.1.18</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>N-acylneuraminate glycohydrolase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Neuraminidase</fullName>
+<shortName>NANase</shortName>
+</alternativeName>
+<alternativeName>
+<fullName>STNA</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">nanH</name>
+<name type="ordered locus">STM0928</name>
+</gene>
+<organism>
+<name type="scientific">Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)</name>
+<dbReference type="NCBI Taxonomy" id="99287"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Salmonella</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1992" name="Mol. Microbiol." volume="6" first="873" last="884">
+<title>Cloning, sequencing and distribution of the Salmonella typhimurium LT2 sialidase gene, nanH, provides evidence for interspecies gene transfer.</title>
+<authorList>
+<person name="Hoyer L.L."/>
+<person name="Hamilton A.C."/>
+<person name="Steenbergen S.M."/>
+<person name="Vimr E.R."/>
+</authorList>
+<dbReference type="PubMed" id="1602967"/>
+<dbReference type="DOI" id="10.1111/j.1365-2958.1992.tb01538.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>PROTEIN SEQUENCE OF 2-40</scope>
+<source>
+<strain>LT2</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2001" name="Nature" volume="413" first="852" last="856">
+<title>Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.</title>
+<authorList>
+<person name="McClelland M."/>
+<person name="Sanderson K.E."/>
+<person name="Spieth J."/>
+<person name="Clifton S.W."/>
+<person name="Latreille P."/>
+<person name="Courtney L."/>
+<person name="Porwollik S."/>
+<person name="Ali J."/>
+<person name="Dante M."/>
+<person name="Du F."/>
+<person name="Hou S."/>
+<person name="Layman D."/>
+<person name="Leonard S."/>
+<person name="Nguyen C."/>
+<person name="Scott K."/>
+<person name="Holmes A."/>
+<person name="Grewal N."/>
+<person name="Mulvaney E."/>
+<person name="Ryan E."/>
+<person name="Sun H."/>
+<person name="Florea L."/>
+<person name="Miller W."/>
+<person name="Stoneking T."/>
+<person name="Nhan M."/>
+<person name="Waterston R."/>
+<person name="Wilson R.K."/>
+</authorList>
+<dbReference type="PubMed" id="11677609"/>
+<dbReference type="DOI" id="10.1038/35101614"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>LT2 / SGSC1412 / ATCC 700720</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1992" name="J. Mol. Biol." volume="226" first="1287" last="1290">
+<title>Purification, crystallization and preliminary crystallographic study of neuraminidase from Vibrio cholerae and Salmonella typhimurium LT2.</title>
+<authorList>
+<person name="Taylor G.L."/>
+<person name="Vimr E.R."/>
+<person name="Garman E.F."/>
+<person name="Laver W.G."/>
+</authorList>
+<dbReference type="PubMed" id="1518058"/>
+<dbReference type="DOI" id="10.1016/0022-2836(92)91069-2"/>
+</citation>
+<scope>CHARACTERIZATION</scope>
+<scope>X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS)</scope>
+<source>
+<strain>LT2</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1993" name="Proc. Natl. Acad. Sci. U.S.A." volume="90" first="9852" last="9856">
+<title>Crystal structure of a bacterial sialidase (from Salmonella typhimurium LT2) shows the same fold as an influenza virus neuraminidase.</title>
+<authorList>
+<person name="Crennell S.J."/>
+<person name="Garman E.F."/>
+<person name="Laver W.G."/>
+<person name="Vimr E.R."/>
+<person name="Taylor G.L."/>
+</authorList>
+<dbReference type="PubMed" id="8234325"/>
+<dbReference type="DOI" id="10.1073/pnas.90.21.9852"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS)</scope>
+<scope>SEQUENCE REVISION TO C-TERMINUS</scope>
+<source>
+<strain>LT2</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1996" name="J. Mol. Biol." volume="259" first="264" last="280">
+<title>The structures of Salmonella typhimurium LT2 neuraminidase and its complexes with three inhibitors at high resolution.</title>
+<authorList>
+<person name="Crennell S.J."/>
+<person name="Garman E.F."/>
+<person name="Philippon C."/>
+<person name="Vasella A."/>
+<person name="Laver W.G."/>
+<person name="Vimr E.R."/>
+<person name="Taylor G.L."/>
+</authorList>
+<dbReference type="PubMed" id="8656428"/>
+<dbReference type="DOI" id="10.1006/jmbi.1996.0318"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.6 ANGSTROMS)</scope>
+<source>
+<strain>LT2</strain>
+</source>
+</reference>
+<reference key="6">
+<citation type="submission" date="1998-07" db="PDB data bank">
+<authorList>
+<person name="Garman E.F."/>
+<person name="Wouters J."/>
+<person name="Schneider T.R."/>
+<person name="Vimr E.R."/>
+<person name="Laver W.G."/>
+<person name="Sheldrick G.M."/>
+</authorList>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.05 ANGSTROMS)</scope>
+</reference>
+<comment type="function">
+<text>Cleaves the terminal sialic acid (N-acetyl neuraminic acid) from carbohydrate chains in glycoproteins providing free sialic acid which can be used as carbon and energy sources. Sialidases have been suggested to be pathogenic factors in microbial infections.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>Hydrolysis of alpha-(2->3)-, alpha-(2->6)-, alpha-(2->8)- glycosidic linkages of terminal sialic acid residues in oligosaccharides, glycoproteins, glycolipids, colominic acid and synthetic substrates.</text>
+<dbReference type="EC" id="3.2.1.18"/>
+</reaction>
+</comment>
+<comment type="subunit">
+<text>Monomer.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the glycosyl hydrolase 33 family.</text>
+</comment>
+<comment type="sequence caution" evidence="4">
+<conflict type="erroneous initiation">
+<sequence resource="EMBL-CDS" id="AAL19864" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EC" id="3.2.1.18"/>
+<dbReference type="EMBL" id="M55342">
+<property type="protein sequence ID" value="AAA27168.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE006468">
+<property type="protein sequence ID" value="AAL19864.1"/>
+<property type="status" value="ALT_INIT"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PDB" id="1DIL">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.90"/>
+<property type="chains" value="A=2-382"/>
+</dbReference>
+<dbReference type="PDB" id="1DIM">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.60"/>
+<property type="chains" value="A=2-382"/>
+</dbReference>
+<dbReference type="PDB" id="2SIL">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.60"/>
+<property type="chains" value="A=2-382"/>
+</dbReference>
+<dbReference type="PDB" id="2SIM">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.60"/>
+<property type="chains" value="A=2-382"/>
+</dbReference>
+<dbReference type="PDB" id="3SIL">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.05"/>
+<property type="chains" value="A=4-382"/>
+</dbReference>
+<dbReference type="PDB" id="6TRG">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.00"/>
+<property type="chains" value="XXX=4-382"/>
+</dbReference>
+<dbReference type="PDB" id="6TVI">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.00"/>
+<property type="chains" value="AAA=4-382"/>
+</dbReference>
+<dbReference type="PDBsum" id="1DIL"/>
+<dbReference type="PDBsum" id="1DIM"/>
+<dbReference type="PDBsum" id="2SIL"/>
+<dbReference type="PDBsum" id="2SIM"/>
+<dbReference type="PDBsum" id="3SIL"/>
+<dbReference type="PDBsum" id="6TRG"/>
+<dbReference type="PDBsum" id="6TVI"/>
+<dbReference type="SMR" id="P29768"/>
+<dbReference type="DrugBank" id="DB04561">
+<property type="generic name" value="4-acetamido-2,4-didexoy-D-glycero-beta-D-galacto-octopyranosylphosphonic acid"/>
+</dbReference>
+<dbReference type="CAZy" id="GH33">
+<property type="family name" value="Glycoside Hydrolase Family 33"/>
+</dbReference>
+<dbReference type="PaxDb" id="P29768"/>
+<dbReference type="PRIDE" id="P29768"/>
+<dbReference type="EnsemblBacteria" id="AAL19864">
+<property type="protein sequence ID" value="AAL19864"/>
+<property type="gene ID" value="STM0928"/>
+</dbReference>
+<dbReference type="PATRIC" id="fig|99287.12.peg.978"/>
+<dbReference type="HOGENOM" id="CLU_667119_0_0_6"/>
+<dbReference type="EvolutionaryTrace" id="P29768"/>
+<dbReference type="Proteomes" id="UP000001014">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043231">
+<property type="term" value="C:intracellular membrane-bounded organelle"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016020">
+<property type="term" value="C:membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052794">
+<property type="term" value="F:exo-alpha-(2->3)-sialidase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052795">
+<property type="term" value="F:exo-alpha-(2->6)-sialidase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052796">
+<property type="term" value="F:exo-alpha-(2->8)-sialidase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004308">
+<property type="term" value="F:exo-alpha-sialidase activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006689">
+<property type="term" value="P:ganglioside catabolic process"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009313">
+<property type="term" value="P:oligosaccharide catabolic process"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009405">
+<property type="term" value="P:pathogenesis"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011040">
+<property type="entry name" value="Sialidase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR026856">
+<property type="entry name" value="Sialidase_fam"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036278">
+<property type="entry name" value="Sialidase_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008377">
+<property type="entry name" value="Sialidase_trypan"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR10628">
+<property type="entry name" value="PTHR10628"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13859">
+<property type="entry name" value="BNR_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01803">
+<property type="entry name" value="TCSIALIDASE"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50939">
+<property type="entry name" value="SSF50939"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0326">Glycosidase</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<feature type="initiator methionine" description="Removed" evidence="3">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Sialidase" id="PRO_0000208909">
+<location>
+<begin position="2"/>
+<end position="382"/>
+</location>
+</feature>
+<feature type="repeat" description="BNR 1">
+<location>
+<begin position="71"/>
+<end position="82"/>
+</location>
+</feature>
+<feature type="repeat" description="BNR 2">
+<location>
+<begin position="145"/>
+<end position="156"/>
+</location>
+</feature>
+<feature type="repeat" description="BNR 3">
+<location>
+<begin position="210"/>
+<end position="220"/>
+</location>
+</feature>
+<feature type="repeat" description="BNR 4">
+<location>
+<begin position="254"/>
+<end position="265"/>
+</location>
+</feature>
+<feature type="active site" description="Proton acceptor" evidence="2">
+<location>
+<position position="62"/>
+</location>
+</feature>
+<feature type="active site" description="Nucleophile" evidence="2">
+<location>
+<position position="342"/>
+</location>
+</feature>
+<feature type="active site">
+<location>
+<position position="361"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate">
+<location>
+<position position="37"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate">
+<location>
+<position position="246"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate">
+<location>
+<position position="309"/>
+</location>
+</feature>
+<feature type="disulfide bond">
+<location>
+<begin position="42"/>
+<end position="103"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA27168." ref="1" evidence="4">
+<original>D</original>
+<variation>A</variation>
+<location>
+<position position="329"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="5"/>
+<end position="9"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="29"/>
+<end position="31"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="35"/>
+<end position="43"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="49"/>
+<end position="58"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="62"/>
+<end position="64"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="66"/>
+<end position="78"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="81"/>
+<end position="86"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="93"/>
+<end position="95"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="97"/>
+<end position="108"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="111"/>
+<end position="123"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="128"/>
+<end position="130"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="133"/>
+<end position="136"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="141"/>
+<end position="149"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="155"/>
+<end position="157"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="161"/>
+<end position="168"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="170"/>
+<end position="176"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="178"/>
+<end position="180"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="189"/>
+<end position="197"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="204"/>
+<end position="219"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="232"/>
+<end position="237"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="240"/>
+<end position="245"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="248"/>
+<end position="250"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="254"/>
+<end position="261"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="267"/>
+<end position="271"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="283"/>
+<end position="289"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="292"/>
+<end position="300"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="312"/>
+<end position="317"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="319"/>
+<end position="321"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="324"/>
+<end position="331"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="343"/>
+<end position="350"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="353"/>
+<end position="362"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="365"/>
+<end position="370"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="372"/>
+<end position="374"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="375"/>
+<end position="379"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="3SIL"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="1602967"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="382" mass="42073" checksum="C15515CF9C15597E" modified="2007-01-23" version="4">MTVEKSVVFKAEGEHFTDQKGNTIVGSGSGGTTKYFRIPAMCTTSKGTIVVFADARHNTASDQSFIDTAAARSTDGGKTWNKKIAIYNDRVNSKLSRVMDPTCIVANIQGRETILVMVGKWNNNDKTWGAYRDKAPDTDWDLVLYKSTDDGVTFSKVETNIHDIVTKNGTISAMLGGVGSGLQLNDGKLVFPVQMVRTKNITTVLNTSFIYSTDGITWSLPSGYCEGFGSENNIIEFNASLVNNIRNSGLRRSFETKDFGKTWTEFPPMDKKVDNRNHGVQGSTITIPSGNKLVAAHSSAQNKNNDYTRSDISLYAHNLYSGEVKLIDDFYPKVGNASGAGYSCLSYRKNVDKETLYVVYEANGSIEFQDLSRHLPVIKSYN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

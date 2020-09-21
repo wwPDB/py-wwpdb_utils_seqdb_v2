@@ -1,0 +1,521 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="169">
+<accession>P29691</accession>
+<accession>G3MU53</accession>
+<accession>O17837</accession>
+<name>EF2_CAEEL</name>
+<protein>
+<recommendedName>
+<fullName>Elongation factor 2</fullName>
+<shortName>EF-2</shortName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">eef-2</name>
+<name type="ORF">F25H5.4</name>
+</gene>
+<organism>
+<name type="scientific">Caenorhabditis elegans</name>
+<dbReference type="NCBI Taxonomy" id="6239"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Chromadorea</taxon>
+<taxon>Rhabditida</taxon>
+<taxon>Rhabditina</taxon>
+<taxon>Rhabditomorpha</taxon>
+<taxon>Rhabditoidea</taxon>
+<taxon>Rhabditidae</taxon>
+<taxon>Peloderinae</taxon>
+<taxon>Caenorhabditis</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1991" name="DNA Cell Biol." volume="10" first="603" last="611">
+<title>Molecular cloning and characterization of the Caenorhabditis elegans elongation factor 2 gene (eft-2).</title>
+<authorList>
+<person name="Ofulue E.N."/>
+<person name="Candido E.P.M."/>
+</authorList>
+<dbReference type="PubMed" id="1930695"/>
+<dbReference type="DOI" id="10.1089/dna.1991.10.603"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1998" name="Science" volume="282" first="2012" last="2018">
+<title>Genome sequence of the nematode C. elegans: a platform for investigating biology.</title>
+<authorList>
+<consortium name="The C. elegans sequencing consortium"/>
+</authorList>
+<dbReference type="PubMed" id="9851916"/>
+<dbReference type="DOI" id="10.1126/science.282.5396.2012"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<scope>ALTERNATIVE SPLICING</scope>
+<source>
+<strain>Bristol N2</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2008" name="Genes Dev." volume="22" first="1025" last="1036">
+<title>Semaphorin controls epidermal morphogenesis by stimulating mRNA translation via eIF2alpha in Caenorhabditis elegans.</title>
+<authorList>
+<person name="Nukazuka A."/>
+<person name="Fujisawa H."/>
+<person name="Inada T."/>
+<person name="Oda Y."/>
+<person name="Takagi S."/>
+</authorList>
+<dbReference type="PubMed" id="18413715"/>
+<dbReference type="DOI" id="10.1101/gad.1644008"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2016" name="PLoS Genet." volume="12" first="E1006023" last="E1006023">
+<title>The Caenorhabditis elegans protein FIC-1 is an AMPylase that covalently modifies heat-shock 70 family proteins, translation elongation factors and histones.</title>
+<authorList>
+<person name="Truttmann M.C."/>
+<person name="Cruz V.E."/>
+<person name="Guo X."/>
+<person name="Engert C."/>
+<person name="Schwartz T.U."/>
+<person name="Ploegh H.L."/>
+</authorList>
+<dbReference type="PubMed" id="27138431"/>
+<dbReference type="DOI" id="10.1371/journal.pgen.1006023"/>
+</citation>
+<scope>AMPYLATION</scope>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+</reference>
+<comment type="function">
+<text evidence="4">Catalyzes the GTP-dependent ribosomal translocation step during translation elongation. During this step, the ribosome changes from the pre-translocational (PRE) to the post-translocational (POST) state as the newly formed A-site-bound peptidyl-tRNA and P-site-bound deacylated tRNA move to the P and E sites, respectively. Catalyzes the coordinated movement of the two tRNA molecules, the mRNA and conformational changes in the ribosome. Involved in the morphogenesis of epidermal tissues.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>P29691-1</id>
+<name>a</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>P29691-2</id>
+<name>b</name>
+<sequence type="described" ref="VSP_044101"/>
+</isoform>
+</comment>
+<comment type="PTM">
+<text evidence="2">Phosphorylation by EF-2 kinase completely inactivates EF-2.</text>
+</comment>
+<comment type="PTM">
+<text evidence="5">AMPylated by fic-1.</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="4">Ray defect.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the TRAFAC class translation factor GTPase superfamily. Classic translation factor GTPase family. EF-G/EF-2 subfamily.</text>
+</comment>
+<dbReference type="EMBL" id="M86959">
+<property type="protein sequence ID" value="AAD03339.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="Z81068">
+<property type="protein sequence ID" value="CAB02985.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="Z81068">
+<property type="protein sequence ID" value="CCD31064.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="A40411">
+<property type="entry name" value="A40411"/>
+</dbReference>
+<dbReference type="PIR" id="T21362">
+<property type="entry name" value="T21362"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001251010.1">
+<molecule id="P29691-1"/>
+<property type="nucleotide sequence ID" value="NM_001264081.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001251011.1">
+<molecule id="P29691-2"/>
+<property type="nucleotide sequence ID" value="NM_001264082.1"/>
+</dbReference>
+<dbReference type="SMR" id="P29691"/>
+<dbReference type="BioGRID" id="38174">
+<property type="interactions" value="82"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-26688N"/>
+<dbReference type="IntAct" id="P29691">
+<property type="interactions" value="5"/>
+</dbReference>
+<dbReference type="MINT" id="P29691"/>
+<dbReference type="STRING" id="6239.F25H5.4a.1"/>
+<dbReference type="iPTMnet" id="P29691"/>
+<dbReference type="World-2DPAGE" id="0020:P29691"/>
+<dbReference type="EPD" id="P29691"/>
+<dbReference type="PaxDb" id="P29691"/>
+<dbReference type="PeptideAtlas" id="P29691"/>
+<dbReference type="PRIDE" id="P29691"/>
+<dbReference type="EnsemblMetazoa" id="F25H5.4a.1">
+<molecule id="P29691-1"/>
+<property type="protein sequence ID" value="F25H5.4a.1"/>
+<property type="gene ID" value="WBGene00001167"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="F25H5.4a.2">
+<molecule id="P29691-1"/>
+<property type="protein sequence ID" value="F25H5.4a.2"/>
+<property type="gene ID" value="WBGene00001167"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="F25H5.4a.3">
+<molecule id="P29691-1"/>
+<property type="protein sequence ID" value="F25H5.4a.3"/>
+<property type="gene ID" value="WBGene00001167"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="F25H5.4b.1">
+<molecule id="P29691-2"/>
+<property type="protein sequence ID" value="F25H5.4b.1"/>
+<property type="gene ID" value="WBGene00001167"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="F25H5.4b.2">
+<molecule id="P29691-2"/>
+<property type="protein sequence ID" value="F25H5.4b.2"/>
+<property type="gene ID" value="WBGene00001167"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="F25H5.4b.3">
+<molecule id="P29691-2"/>
+<property type="protein sequence ID" value="F25H5.4b.3"/>
+<property type="gene ID" value="WBGene00001167"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="F25H5.4b.4">
+<molecule id="P29691-2"/>
+<property type="protein sequence ID" value="F25H5.4b.4"/>
+<property type="gene ID" value="WBGene00001167"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="F25H5.4b.5">
+<molecule id="P29691-2"/>
+<property type="protein sequence ID" value="F25H5.4b.5"/>
+<property type="gene ID" value="WBGene00001167"/>
+</dbReference>
+<dbReference type="GeneID" id="172743"/>
+<dbReference type="KEGG" id="cel:CELE_F25H5.4"/>
+<dbReference type="UCSC" id="F25H5.4.2">
+<molecule id="P29691-1"/>
+<property type="organism name" value="c. elegans"/>
+</dbReference>
+<dbReference type="CTD" id="172743"/>
+<dbReference type="WormBase" id="F25H5.4a">
+<molecule id="P29691-1"/>
+<property type="protein sequence ID" value="CE15900"/>
+<property type="gene ID" value="WBGene00001167"/>
+<property type="gene designation" value="eef-2"/>
+</dbReference>
+<dbReference type="WormBase" id="F25H5.4b">
+<molecule id="P29691-2"/>
+<property type="protein sequence ID" value="CE46149"/>
+<property type="gene ID" value="WBGene00001167"/>
+<property type="gene designation" value="eef-2"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG0469">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00940000154662"/>
+<dbReference type="HOGENOM" id="CLU_002794_11_2_1"/>
+<dbReference type="InParanoid" id="P29691"/>
+<dbReference type="KO" id="K03234"/>
+<dbReference type="OMA" id="GVMTQTE"/>
+<dbReference type="OrthoDB" id="140796at2759"/>
+<dbReference type="PhylomeDB" id="P29691"/>
+<dbReference type="Reactome" id="R-CEL-156902">
+<property type="pathway name" value="Peptide chain elongation"/>
+</dbReference>
+<dbReference type="Reactome" id="R-CEL-5358493">
+<property type="pathway name" value="Synthesis of diphthamide-EEF2"/>
+</dbReference>
+<dbReference type="Reactome" id="R-CEL-6798695">
+<property type="pathway name" value="Neutrophil degranulation"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P29691"/>
+<dbReference type="Proteomes" id="UP000001940">
+<property type="component" value="Chromosome I"/>
+</dbReference>
+<dbReference type="Bgee" id="WBGene00001167">
+<property type="expression patterns" value="Expressed in adult organism and 5 other tissues"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:1990904">
+<property type="term" value="C:ribonucleoprotein complex"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005525">
+<property type="term" value="F:GTP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003924">
+<property type="term" value="F:GTPase activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043022">
+<property type="term" value="F:ribosome binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003746">
+<property type="term" value="F:translation elongation factor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050829">
+<property type="term" value="P:defense response to Gram-negative bacterium"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010629">
+<property type="term" value="P:negative regulation of gene expression"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006414">
+<property type="term" value="P:translational elongation"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.230.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR041095">
+<property type="entry name" value="EFG_II"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR035647">
+<property type="entry name" value="EFG_III/V"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000640">
+<property type="entry name" value="EFG_V-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR004161">
+<property type="entry name" value="EFTu-like_2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR031157">
+<property type="entry name" value="G_TR_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027417">
+<property type="entry name" value="P-loop_NTPase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020568">
+<property type="entry name" value="Ribosomal_S5_D2-typ_fold"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014721">
+<property type="entry name" value="Ribosomal_S5_D2-typ_fold_subgr"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005225">
+<property type="entry name" value="Small_GTP-bd_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000795">
+<property type="entry name" value="TF_GTP-bd_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009000">
+<property type="entry name" value="Transl_B-barrel_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005517">
+<property type="entry name" value="Transl_elong_EFG/EF2_IV"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00679">
+<property type="entry name" value="EFG_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF14492">
+<property type="entry name" value="EFG_II"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03764">
+<property type="entry name" value="EFG_IV"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00009">
+<property type="entry name" value="GTP_EFTU"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03144">
+<property type="entry name" value="GTP_EFTU_D2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00315">
+<property type="entry name" value="ELONGATNFCT"/>
+</dbReference>
+<dbReference type="SMART" id="SM00838">
+<property type="entry name" value="EFG_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00889">
+<property type="entry name" value="EFG_IV"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50447">
+<property type="entry name" value="SSF50447"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52540">
+<property type="entry name" value="SSF52540"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54211">
+<property type="entry name" value="SSF54211"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54980">
+<property type="entry name" value="SSF54980"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00231">
+<property type="entry name" value="small_GTP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00301">
+<property type="entry name" value="G_TR_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51722">
+<property type="entry name" value="G_TR_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0251">Elongation factor</keyword>
+<keyword id="KW-0342">GTP-binding</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-0648">Protein biosynthesis</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="initiator methionine" description="Removed" evidence="1">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Elongation factor 2" id="PRO_0000091008">
+<location>
+<begin position="2"/>
+<end position="852"/>
+</location>
+</feature>
+<feature type="domain" description="tr-type G" evidence="3">
+<location>
+<begin position="17"/>
+<end position="356"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="GTP" evidence="1">
+<location>
+<begin position="26"/>
+<end position="33"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="GTP" evidence="1">
+<location>
+<begin position="116"/>
+<end position="120"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="GTP" evidence="1">
+<location>
+<begin position="170"/>
+<end position="173"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphothreonine" evidence="1">
+<location>
+<position position="57"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphothreonine" evidence="1">
+<location>
+<position position="59"/>
+</location>
+</feature>
+<feature type="modified residue" description="Diphthamide" evidence="1">
+<location>
+<position position="709"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform b." id="VSP_044101" evidence="6">
+<location>
+<begin position="1"/>
+<end position="12"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAD03339." ref="1" evidence="6">
+<original>R</original>
+<variation>G</variation>
+<location>
+<position position="132"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAD03339." ref="1" evidence="6">
+<original>N</original>
+<variation>S</variation>
+<location>
+<position position="617"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAD03339." ref="1" evidence="6">
+<original>ILA</original>
+<variation>YPG</variation>
+<location>
+<begin position="628"/>
+<end position="630"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAD03339." ref="1" evidence="6">
+<original>D</original>
+<variation>A</variation>
+<location>
+<position position="636"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P13639"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU01059"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18413715"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="27138431"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<sequence length="852" mass="94796" checksum="849676A861DBC4C4" modified="2007-01-23" version="4">MVNFTVDEIRALMDRKRNIRNMSVIAHVDHGKSTLTDSLVSKAGIIAGSKAGETRFTDTRKDEQERCITIKSTAISLFFELEKKDLEFVKGENQFETVEVDGKKEKYNGFLINLIDSPGHVDFSSEVTAALRVTDGALVVVDCVSGVCVQTETVLRQAIAERIKPVLFMNKMDRALLELQLGAEELFQTFQRIVENINVIIATYGDDDGPMGPIMVDPSIGNVGFGSGLHGWAFTLKQFAEMYAGKFGVQVDKLMKNLWGDRFFDLKTKKWSSTQTDESKRGFCQFVLDPIFMVFDAVMNIKKDKTAALVEKLGIKLANDEKDLEGKPLMKVFMRKWLPAGDTMLQMIAFHLPSPVTAQKYRMEMLYEGPHDDEAAVAIKTCDPNGPLMMYISKMVPTSDKGRFYAFGRVFSGKVATGMKARIQGPNYVPGKKEDLYEKTIQRTILMMGRFIEPIEDIPSGNIAGLVGVDQYLVKGGTITTYKDAHNMRVMKFSVSPVVRVAVEAKNPADLPKLVEGLKRLAKSDPMVQCIFEESGEHIIAGAGELHLEICLKDLEEDHACIPLKKSDPVVSYRETVQSESNQICLSKSPNKHNRLHCTAQPMPDGLADDIEGGTVNARDEFKARAKILAEKYEYDVTEARKIWCFGPDGTGPNLLMDVTKGVQYLNEIKDSVVAGFQWATREGVLSDENMRGVRFNVHDVTLHADAIHRGGGQIIPTARRVFYASVLTAEPRLLEPVYLVEIQCPEAAVGGIYGVLNRRRGHVFEESQVTGTPMFVVKAYLPVNESFGFTADLRSNTGGQAFPQCVFDHWQVLPGDPLEAGTKPNQIVLDTRKRKGLKEGVPALDNYLDKM</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

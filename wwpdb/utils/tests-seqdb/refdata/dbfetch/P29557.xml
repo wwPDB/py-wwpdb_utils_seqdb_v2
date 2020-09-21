@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="100">
+<accession>P29557</accession>
+<name>IF4E1_WHEAT</name>
+<protein>
+<recommendedName>
+<fullName>Eukaryotic translation initiation factor 4E-1</fullName>
+<shortName>eIF-4E-1</shortName>
+<shortName>eIF4E-1</shortName>
+</recommendedName>
+<alternativeName>
+<fullName>eIF-4F 25 kDa subunit</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>eIF-4F p26 subunit</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>mRNA cap-binding protein</fullName>
+</alternativeName>
+</protein>
+<organism>
+<name type="scientific">Triticum aestivum</name>
+<name type="common">Wheat</name>
+<dbReference type="NCBI Taxonomy" id="4565"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Poales</taxon>
+<taxon>Poaceae</taxon>
+<taxon>BOP clade</taxon>
+<taxon>Pooideae</taxon>
+<taxon>Triticodae</taxon>
+<taxon>Triticeae</taxon>
+<taxon>Triticinae</taxon>
+<taxon>Triticum</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2002-09" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Metz A.M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1992" name="Nucleic Acids Res." volume="20" first="4096" last="4096">
+<title>Isolation and sequence of a cDNA encoding the cap binding protein of wheat eukaryotic protein synthesis initiation factor 4F.</title>
+<authorList>
+<person name="Metz A.M."/>
+<person name="Timmer R.T."/>
+<person name="Browning K.S."/>
+</authorList>
+<dbReference type="PubMed" id="1508698"/>
+<dbReference type="DOI" id="10.1093/nar/20.15.4096"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] OF 19-215</scope>
+<scope>PARTIAL PROTEIN SEQUENCE</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2007" name="Plant Physiol." volume="143" first="1504" last="1518">
+<title>The structure of eukaryotic translation initiation factor-4E from wheat reveals a novel disulfide bond.</title>
+<authorList>
+<person name="Monzingo A.F."/>
+<person name="Dhaliwal S."/>
+<person name="Dutt-Chaudhuri A."/>
+<person name="Lyon A."/>
+<person name="Sadow J.H."/>
+<person name="Hoffman D.W."/>
+<person name="Robertus J.D."/>
+<person name="Browning K.S."/>
+</authorList>
+<dbReference type="PubMed" id="17322339"/>
+<dbReference type="DOI" id="10.1104/pp.106.093146"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.85 ANGSTROMS) OF 39-215</scope>
+<scope>DISULFIDE BOND</scope>
+</reference>
+<comment type="function">
+<text>Component of the protein complex eIF4F, which is involved in the recognition of the mRNA cap, ATP-dependent unwinding of 5'-terminal secondary structure and recruitment of mRNA to the ribosome. Recognizes and binds the 7-methylguanosine-containing mRNA cap during an early step in the initiation of protein synthesis and facilitates ribosome binding by inducing the unwinding of the mRNAs secondary structures.</text>
+</comment>
+<comment type="subunit">
+<text>EIF4F is a multi-subunit complex, the composition of which varies with external and internal environmental conditions. It is composed of at least EIF4A, EIF4E and EIF4G. EIF4E is also known to interact with other partners. In higher plants two isoforms of EIF4F have been identified, named isoform EIF4F and isoform EIF(iso)4F. Isoform EIF4F has subunits p220 and p26, whereas isoform EIF(iso)4F has subunits p82 and p28.</text>
+</comment>
+<comment type="PTM">
+<text>According to the redox status, the Cys-113-Cys-151 disulfide bridge may have a role in regulating protein function by affecting its ability to bind capped mRNA.</text>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the eukaryotic initiation factor 4E family.</text>
+</comment>
+<dbReference type="EMBL" id="Z12616">
+<property type="protein sequence ID" value="CAA78262.2"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="PIR" id="S26493">
+<property type="entry name" value="S26493"/>
+</dbReference>
+<dbReference type="PDB" id="2IDR">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.85"/>
+<property type="chains" value="A/B=39-215"/>
+</dbReference>
+<dbReference type="PDB" id="2IDV">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.30"/>
+<property type="chains" value="A=39-215"/>
+</dbReference>
+<dbReference type="PDBsum" id="2IDR"/>
+<dbReference type="PDBsum" id="2IDV"/>
+<dbReference type="SMR" id="P29557"/>
+<dbReference type="ELM" id="P29557"/>
+<dbReference type="IntAct" id="P29557">
+<property type="interactions" value="1"/>
+</dbReference>
+<dbReference type="STRING" id="4565.Traes_3B_B2BA7CF8B.1"/>
+<dbReference type="EnsemblPlants" id="TraesCS3A02G521500.1">
+<property type="protein sequence ID" value="TraesCS3A02G521500.1"/>
+<property type="gene ID" value="TraesCS3A02G521500"/>
+</dbReference>
+<dbReference type="EnsemblPlants" id="TraesCS3D02G527800.1">
+<property type="protein sequence ID" value="TraesCS3D02G527800.1"/>
+<property type="gene ID" value="TraesCS3D02G527800"/>
+</dbReference>
+<dbReference type="Gramene" id="TraesCS3A02G521500.1">
+<property type="protein sequence ID" value="TraesCS3A02G521500.1"/>
+<property type="gene ID" value="TraesCS3A02G521500"/>
+</dbReference>
+<dbReference type="Gramene" id="TraesCS3D02G527800.1">
+<property type="protein sequence ID" value="TraesCS3D02G527800.1"/>
+<property type="gene ID" value="TraesCS3D02G527800"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG1670">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="OMA" id="HPLENTW"/>
+<dbReference type="EvolutionaryTrace" id="P29557"/>
+<dbReference type="Proteomes" id="UP000019116">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="P29557">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016281">
+<property type="term" value="C:eukaryotic translation initiation factor 4F complex"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000340">
+<property type="term" value="F:RNA 7-methylguanosine cap binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003743">
+<property type="term" value="F:translation initiation factor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.760.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR023398">
+<property type="entry name" value="TIF_eIF4e-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001040">
+<property type="entry name" value="TIF_eIF_4E"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR019770">
+<property type="entry name" value="TIF_eIF_4E_CS"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR11960">
+<property type="entry name" value="PTHR11960"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01652">
+<property type="entry name" value="IF4E"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF55418">
+<property type="entry name" value="SSF55418"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00813">
+<property type="entry name" value="IF4E"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0396">Initiation factor</keyword>
+<keyword id="KW-0648">Protein biosynthesis</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0694">RNA-binding</keyword>
+<keyword id="KW-0810">Translation regulation</keyword>
+<feature type="chain" description="Eukaryotic translation initiation factor 4E-1" id="PRO_0000193662">
+<location>
+<begin position="1"/>
+<end position="215"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="3">
+<location>
+<begin position="113"/>
+<end position="151"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="41"/>
+<end position="51"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="59"/>
+<end position="61"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="64"/>
+<end position="66"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="69"/>
+<end position="74"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="75"/>
+<end position="82"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="88"/>
+<end position="90"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="96"/>
+<end position="101"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="102"/>
+<end position="104"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="112"/>
+<end position="115"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="117"/>
+<end position="123"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="129"/>
+<end position="140"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="147"/>
+<end position="149"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="150"/>
+<end position="157"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="162"/>
+<end position="169"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="174"/>
+<end position="188"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="195"/>
+<end position="198"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="199"/>
+<end position="203"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="206"/>
+<end position="208"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="212"/>
+<end position="214"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2IDR"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000305"/>
+<evidence key="3" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="17322339"/>
+</source>
+</evidence>
+<sequence length="215" mass="23991" checksum="80D148F5EAFF27EF" modified="2003-05-16" version="3">MAEDTETRPASAGAEEREEGEIADDGDGSSAAAAGRITAHPLENAWTFWFDNPQGKSRQVAWGSTIHPIHTFSTVEDFWGLYNNIHNPSKLNVGADFHCFKNKIEPKWEDPICANGGKWTISCGRGKSDTFWLHTLLAMIGEQFDFGDEICGAVVSVRQKQERVAIWTKNAANEAAQISIGKQWKEFLDYKDSIGFIVHEDAKRSDKGPKNRYTV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="91">
+<accession>P29748</accession>
+<accession>Q5SHZ6</accession>
+<name>T2T8_THET8</name>
+<protein>
+<recommendedName>
+<fullName>Type-2 restriction enzyme TthHB8I</fullName>
+<shortName>R.TthHB8I</shortName>
+<ecNumber>3.1.21.4</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Endonuclease TthHB8I</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Type II restriction enzyme TthHB8I</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">tthHB8IR</name>
+<name type="ordered locus">TTHA1584</name>
+</gene>
+<organism>
+<name type="scientific">Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)</name>
+<dbReference type="NCBI Taxonomy" id="300852"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Deinococcus-Thermus</taxon>
+<taxon>Deinococci</taxon>
+<taxon>Thermales</taxon>
+<taxon>Thermaceae</taxon>
+<taxon>Thermus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1992" name="Gene" volume="112" first="3" last="12">
+<title>Cloning and sequencing of genes encoding the TthHB8I restriction and modification enzymes: comparison with the isoschizomeric TaqI enzymes.</title>
+<authorList>
+<person name="Barany F."/>
+<person name="Danzitz M."/>
+<person name="Zebala J."/>
+<person name="Mayer A."/>
+</authorList>
+<dbReference type="PubMed" id="1339363"/>
+<dbReference type="DOI" id="10.1016/0378-1119(92)90296-2"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="2">
+<citation type="submission" date="2004-11" db="EMBL/GenBank/DDBJ databases">
+<title>Complete genome sequence of Thermus thermophilus HB8.</title>
+<authorList>
+<person name="Masui R."/>
+<person name="Kurokawa K."/>
+<person name="Nakagawa N."/>
+<person name="Tokunaga F."/>
+<person name="Koyama Y."/>
+<person name="Shibata T."/>
+<person name="Oshima T."/>
+<person name="Yokoyama S."/>
+<person name="Yasunaga T."/>
+<person name="Kuramitsu S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>HB8 / ATCC 27634 / DSM 579</strain>
+</source>
+</reference>
+<comment type="function">
+<text>Recognizes the double-stranded sequence TCGA and cleaves after T-1.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>Endonucleolytic cleavage of DNA to give specific double-stranded fragments with terminal 5'-phosphates.</text>
+<dbReference type="EC" id="3.1.21.4"/>
+</reaction>
+</comment>
+<dbReference type="EC" id="3.1.21.4"/>
+<dbReference type="EMBL" id="M76680">
+<property type="protein sequence ID" value="AAA27490.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="M74795">
+<property type="protein sequence ID" value="AAA27489.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP008226">
+<property type="protein sequence ID" value="BAD71407.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_011228787.1">
+<property type="nucleotide sequence ID" value="NC_006461.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_144850.1">
+<property type="nucleotide sequence ID" value="NC_006461.1"/>
+</dbReference>
+<dbReference type="SMR" id="P29748"/>
+<dbReference type="STRING" id="300852.55772966"/>
+<dbReference type="REBASE" id="1831">
+<property type="entry name" value="TthHB8I"/>
+</dbReference>
+<dbReference type="PRIDE" id="P29748"/>
+<dbReference type="EnsemblBacteria" id="BAD71407">
+<property type="protein sequence ID" value="BAD71407"/>
+<property type="gene ID" value="BAD71407"/>
+</dbReference>
+<dbReference type="GeneID" id="3170138"/>
+<dbReference type="KEGG" id="ttj:TTHA1584"/>
+<dbReference type="eggNOG" id="ENOG5032U4T">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_1072404_0_0_0"/>
+<dbReference type="OMA" id="ARMYRTW"/>
+<dbReference type="BioCyc" id="TTHE300852:G1GKC-1590-MONOMER"/>
+<dbReference type="PRO" id="PR:P29748"/>
+<dbReference type="Proteomes" id="UP000000532">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003677">
+<property type="term" value="F:DNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009036">
+<property type="term" value="F:type II site-specific deoxyribonuclease activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009307">
+<property type="term" value="P:DNA restriction-modification system"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR019073">
+<property type="entry name" value="Restrct_endonuc_II_TaqI"/>
+</dbReference>
+<dbReference type="Pfam" id="PF09573">
+<property type="entry name" value="RE_TaqI"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0255">Endonuclease</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0540">Nuclease</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0680">Restriction system</keyword>
+<feature type="chain" description="Type-2 restriction enzyme TthHB8I" id="PRO_0000077370">
+<location>
+<begin position="1"/>
+<end position="263"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA27490/AAA27489." ref="1" evidence="1">
+<original>C</original>
+<variation>S</variation>
+<location>
+<position position="119"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000305"/>
+<sequence length="263" mass="31584" checksum="10EF1995DB291D98" modified="2005-03-29" version="2">MAPTQAQKVLEAFEDFLKCLDLESYQEKYRPIKTVEQDLPRELNPLPDLYDHYWKPNGNTLHFPDFETFFDQWWEKRLRPLNEFIRKYFWGCSYEFVRLGLEARLYRTAVSIWTQFHFCYRWNASCQLRLTATWELDAQGIDAQIQAEDRLIGIQIKKETYRSEAREGNRFLRRREHSALLEVPYTLQSPEELERKAQRARTREEAYRLWVKIAHHLERLPNGFVIFRESYVKDLENFLKQNATTLSGLIPWDKVAREALTGP</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

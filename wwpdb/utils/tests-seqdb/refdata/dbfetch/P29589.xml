@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-02-26" version="87">
+<accession>P29589</accession>
+<accession>A0A1S0SZW8</accession>
+<accession>P38807</accession>
+<name>AHT1_YEAST</name>
+<protein>
+<recommendedName>
+<fullName>Hexose transport activator protein</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">AHT1</name>
+<name type="ordered locus">YHR093W</name>
+</gene>
+<organism>
+<name type="scientific">Saccharomyces cerevisiae (strain ATCC 204508 / S288c)</name>
+<name type="common">Baker's yeast</name>
+<dbReference type="NCBI Taxonomy" id="559292"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+<taxon>Saccharomyces</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="1991-05" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Oezcan S."/>
+<person name="Ciriacy M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>MC 971 B</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1994" name="Science" volume="265" first="2077" last="2082">
+<title>Complete nucleotide sequence of Saccharomyces cerevisiae chromosome VIII.</title>
+<authorList>
+<person name="Johnston M."/>
+<person name="Andrews S."/>
+<person name="Brinkman R."/>
+<person name="Cooper J."/>
+<person name="Ding H."/>
+<person name="Dover J."/>
+<person name="Du Z."/>
+<person name="Favello A."/>
+<person name="Fulton L."/>
+<person name="Gattung S."/>
+<person name="Geisel C."/>
+<person name="Kirsten J."/>
+<person name="Kucaba T."/>
+<person name="Hillier L.W."/>
+<person name="Jier M."/>
+<person name="Johnston L."/>
+<person name="Langston Y."/>
+<person name="Latreille P."/>
+<person name="Louis E.J."/>
+<person name="Macri C."/>
+<person name="Mardis E."/>
+<person name="Menezes S."/>
+<person name="Mouser L."/>
+<person name="Nhan M."/>
+<person name="Rifkin L."/>
+<person name="Riles L."/>
+<person name="St Peter H."/>
+<person name="Trevaskis E."/>
+<person name="Vaughan K."/>
+<person name="Vignati D."/>
+<person name="Wilcox L."/>
+<person name="Wohldman P."/>
+<person name="Waterston R."/>
+<person name="Wilson R."/>
+<person name="Vaudin M."/>
+</authorList>
+<dbReference type="PubMed" id="8091229"/>
+<dbReference type="DOI" id="10.1126/science.8091229"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 204508 / S288c</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2014" name="G3 (Bethesda)" volume="4" first="389" last="398">
+<title>The reference genome sequence of Saccharomyces cerevisiae: Then and now.</title>
+<authorList>
+<person name="Engel S.R."/>
+<person name="Dietrich F.S."/>
+<person name="Fisk D.G."/>
+<person name="Binkley G."/>
+<person name="Balakrishnan R."/>
+<person name="Costanzo M.C."/>
+<person name="Dwight S.S."/>
+<person name="Hitz B.C."/>
+<person name="Karra K."/>
+<person name="Nash R.S."/>
+<person name="Weng S."/>
+<person name="Wong E.D."/>
+<person name="Lloyd P."/>
+<person name="Skrzypek M.S."/>
+<person name="Miyasato S.R."/>
+<person name="Simison M."/>
+<person name="Cherry J.M."/>
+</authorList>
+<dbReference type="PubMed" id="24374639"/>
+<dbReference type="DOI" id="10.1534/g3.113.008995"/>
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain>ATCC 204508 / S288c</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2007" name="Genome Res." volume="17" first="536" last="543">
+<title>Approaching a complete repository of sequence-verified protein-encoding clones for Saccharomyces cerevisiae.</title>
+<authorList>
+<person name="Hu Y."/>
+<person name="Rolfs A."/>
+<person name="Bhullar B."/>
+<person name="Murthy T.V.S."/>
+<person name="Zhu C."/>
+<person name="Berger M.F."/>
+<person name="Camargo A.A."/>
+<person name="Kelley F."/>
+<person name="McCarron S."/>
+<person name="Jepson D."/>
+<person name="Richardson A."/>
+<person name="Raphael J."/>
+<person name="Moreira D."/>
+<person name="Taycher E."/>
+<person name="Zuo D."/>
+<person name="Mohr S."/>
+<person name="Kane M.F."/>
+<person name="Williamson J."/>
+<person name="Simpson A.J.G."/>
+<person name="Bulyk M.L."/>
+<person name="Harlow E."/>
+<person name="Marsischky G."/>
+<person name="Kolodner R.D."/>
+<person name="LaBaer J."/>
+</authorList>
+<dbReference type="PubMed" id="17322287"/>
+<dbReference type="DOI" id="10.1101/gr.6037607"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 204508 / S288c</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1993" name="J. Bacteriol." volume="175" first="5520" last="5528">
+<title>Glucose uptake and catabolite repression in dominant HTR1 mutants of Saccharomyces cerevisiae.</title>
+<authorList>
+<person name="Oezcan S."/>
+<person name="Freidel K."/>
+<person name="Leuker A."/>
+<person name="Ciriacy M."/>
+</authorList>
+<dbReference type="PubMed" id="8366037"/>
+<dbReference type="DOI" id="10.1128/jb.175.17.5520-5528.1993"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="1994" name="Genetics" volume="137" first="957" last="966">
+<title>High-copy suppression of glucose transport defects by HXT4 and regulatory elements in the promoters of the HXT genes in Saccharomyces cerevisiae.</title>
+<authorList>
+<person name="Theodoris G."/>
+<person name="Fong N.M."/>
+<person name="Coons D.M."/>
+<person name="Bisson L.F."/>
+</authorList>
+<dbReference type="PubMed" id="7982576"/>
+</citation>
+<scope>IDENTIFICATION AS PROBABLE DUBIOUS PREDICTION</scope>
+</reference>
+<comment type="function">
+<text evidence="1">Multicopy expression suppresses glucose-uptake defects in various yeast mutants.</text>
+</comment>
+<comment type="caution">
+<text evidence="2">Present in the 5'-UTR of low-affinity glucose transporter HXT4, the multicopy suppression phenotype is probably due to the presence of an HXT4 regulatory element in this region.</text>
+</comment>
+<dbReference type="EMBL" id="X59464">
+<property type="protein sequence ID" value="CAA42071.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U00060">
+<property type="protein sequence ID" value="AAB68925.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY693252">
+<property type="protein sequence ID" value="AAT93271.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BK006934">
+<property type="protein sequence ID" value="DAA80259.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S17005">
+<property type="entry name" value="S17005"/>
+</dbReference>
+<dbReference type="SMR" id="P29589"/>
+<dbReference type="STRING" id="4932.YHR093W"/>
+<dbReference type="PaxDb" id="P29589"/>
+<dbReference type="EnsemblFungi" id="YHR093W_mRNA">
+<property type="protein sequence ID" value="YHR093W"/>
+<property type="gene ID" value="YHR093W"/>
+</dbReference>
+<dbReference type="SGD" id="S000001135">
+<property type="gene designation" value="AHT1"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_134598_0_0_1"/>
+<dbReference type="OMA" id="DIFLPCF"/>
+<dbReference type="PRO" id="PR:P29589"/>
+<dbReference type="Proteomes" id="UP000002311">
+<property type="component" value="Chromosome VIII"/>
+</dbReference>
+<dbReference type="RNAct" id="P29589">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Hexose transport activator protein" id="PRO_0000064511">
+<location>
+<begin position="1"/>
+<end position="182"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8366037"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="7982576"/>
+</source>
+</evidence>
+<sequence length="182" mass="19776" checksum="7B0723BAA1066713" modified="1993-04-01" version="1">MDCKIKAAGKNSGIFHEGGTKSSKSFLTVFIRSVFPLSPSFPAGGGIWGPMEKKPGGVGKKKGSEKKTAQGNIFFSTERDAGQEKCGILYKHCFSILYGFFWKKADKPKEKTGNGSGLGIVFPIGQKKIPEPADSDIFLPCFRYAAASDFTKAKRFLVEITAVYWVSLEAQPSSASCLFILI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

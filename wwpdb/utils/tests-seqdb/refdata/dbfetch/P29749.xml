@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="118">
+<accession>P29749</accession>
+<accession>Q5SHZ7</accession>
+<name>MTT8_THET8</name>
+<protein>
+<recommendedName>
+<fullName>Modification methylase TthHB8I</fullName>
+<shortName>M.TthHB8I</shortName>
+<ecNumber>2.1.1.72</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Adenine-specific methyltransferase TthHB8I</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">tthHB8IM</name>
+<name type="ordered locus">TTHA1583</name>
+</gene>
+<organism>
+<name type="scientific">Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)</name>
+<dbReference type="NCBI Taxonomy" id="300852"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Deinococcus-Thermus</taxon>
+<taxon>Deinococci</taxon>
+<taxon>Thermales</taxon>
+<taxon>Thermaceae</taxon>
+<taxon>Thermus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1992" name="Gene" volume="112" first="3" last="12">
+<title>Cloning and sequencing of genes encoding the TthHB8I restriction and modification enzymes: comparison with the isoschizomeric TaqI enzymes.</title>
+<authorList>
+<person name="Barany F."/>
+<person name="Danzitz M."/>
+<person name="Zebala J."/>
+<person name="Mayer A."/>
+</authorList>
+<dbReference type="PubMed" id="1339363"/>
+<dbReference type="DOI" id="10.1016/0378-1119(92)90296-2"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="2">
+<citation type="submission" date="2004-11" db="EMBL/GenBank/DDBJ databases">
+<title>Complete genome sequence of Thermus thermophilus HB8.</title>
+<authorList>
+<person name="Masui R."/>
+<person name="Kurokawa K."/>
+<person name="Nakagawa N."/>
+<person name="Tokunaga F."/>
+<person name="Koyama Y."/>
+<person name="Shibata T."/>
+<person name="Oshima T."/>
+<person name="Yokoyama S."/>
+<person name="Yasunaga T."/>
+<person name="Kuramitsu S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>HB8 / ATCC 27634 / DSM 579</strain>
+</source>
+</reference>
+<comment type="function">
+<text>This methylase recognizes the double-stranded sequence TCGA, causes specific methylation on A-4 on both strands and protects the DNA from cleavage by the TthHB8I endonuclease.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>a 2'-deoxyadenosine in DNA + S-adenosyl-L-methionine = an N(6)-methyl-2'-deoxyadenosine in DNA + H(+) + S-adenosyl-L-homocysteine</text>
+<dbReference type="Rhea" id="RHEA:15197"/>
+<dbReference type="Rhea" id="RHEA-COMP:12418"/>
+<dbReference type="Rhea" id="RHEA-COMP:12419"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:57856"/>
+<dbReference type="ChEBI" id="CHEBI:59789"/>
+<dbReference type="ChEBI" id="CHEBI:90615"/>
+<dbReference type="ChEBI" id="CHEBI:90616"/>
+<dbReference type="EC" id="2.1.1.72"/>
+</reaction>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the N(4)/N(6)-methyltransferase family.</text>
+</comment>
+<dbReference type="EC" id="2.1.1.72"/>
+<dbReference type="EMBL" id="M74795">
+<property type="protein sequence ID" value="AAA27488.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP008226">
+<property type="protein sequence ID" value="BAD71406.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="JH0634">
+<property type="entry name" value="JH0634"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_011228786.1">
+<property type="nucleotide sequence ID" value="NC_006461.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_144849.1">
+<property type="nucleotide sequence ID" value="NC_006461.1"/>
+</dbReference>
+<dbReference type="SMR" id="P29749"/>
+<dbReference type="STRING" id="300852.55772965"/>
+<dbReference type="REBASE" id="3523">
+<property type="entry name" value="M.TthHB8I"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAD71406">
+<property type="protein sequence ID" value="BAD71406"/>
+<property type="gene ID" value="BAD71406"/>
+</dbReference>
+<dbReference type="GeneID" id="3169149"/>
+<dbReference type="KEGG" id="ttj:TTHA1583"/>
+<dbReference type="PATRIC" id="fig|300852.9.peg.1554"/>
+<dbReference type="eggNOG" id="COG0732">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0827">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_681415_0_0_0"/>
+<dbReference type="KO" id="K07317"/>
+<dbReference type="OMA" id="AYPWREE"/>
+<dbReference type="BioCyc" id="TTHE300852:G1GKC-1589-MONOMER"/>
+<dbReference type="PRO" id="PR:P29749"/>
+<dbReference type="Proteomes" id="UP000000532">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003677">
+<property type="term" value="F:DNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009007">
+<property type="term" value="F:site-specific DNA-methyltransferase (adenine-specific) activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009307">
+<property type="term" value="P:DNA restriction-modification system"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.90.220.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002052">
+<property type="entry name" value="DNA_methylase_N6_adenine_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR021188">
+<property type="entry name" value="N6_DNA_MeTrfase_TaqI"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR023135">
+<property type="entry name" value="N6_DNA_MeTrfase_TaqI_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011639">
+<property type="entry name" value="RM_methylase_Eco57I"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029063">
+<property type="entry name" value="SAM-dependent_MTases"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025931">
+<property type="entry name" value="TaqI_C"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07669">
+<property type="entry name" value="Eco57I"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12950">
+<property type="entry name" value="TaqI_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF037236">
+<property type="entry name" value="Ade-sp_methyltransferase_TaqI"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53335">
+<property type="entry name" value="SSF53335"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00092">
+<property type="entry name" value="N6_MTASE"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0489">Methyltransferase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0680">Restriction system</keyword>
+<keyword id="KW-0949">S-adenosyl-L-methionine</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="Modification methylase TthHB8I" id="PRO_0000087981">
+<location>
+<begin position="1"/>
+<end position="428"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA27488." ref="1" evidence="1">
+<original>P</original>
+<variation>R</variation>
+<location>
+<position position="36"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA27488." ref="1" evidence="1">
+<original>G</original>
+<variation>V</variation>
+<location>
+<position position="39"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA27488." ref="1" evidence="1">
+<original>R</original>
+<variation>P</variation>
+<location>
+<position position="56"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA27488." ref="1" evidence="1">
+<original>EWKGEII</original>
+<variation>GMEGRDH</variation>
+<location>
+<begin position="235"/>
+<end position="241"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA27488." ref="1" evidence="1">
+<original>R</original>
+<variation>P</variation>
+<location>
+<position position="265"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000305"/>
+<sequence length="428" mass="48408" checksum="6F1407F702D79B57" modified="2005-03-29" version="2">MLFPPSLPPTASGRSLGRVETPPGLVRFMVGLAEAPKGGRVLEPACADGPFLRAFREAHGTGYRFVGVEIDPHALDLPPWAEGVVADFLLWEPGEAFDLILGNPPYGIVGEASKYPIHVLREVKGLYKKTLSTWKGKYNLYGAFIEKSVRLLREGGTLVFVVPATWLVLDDFSLLRSFLAREGRTEVYYLGEVFPGRKVSAVVLRFRKGGKGLALWDTRRDGETFTPLLWSEKPEWKGEIIRFETGWTREMEASGPPLGSLFHIRFAARSPEFKKHPAVQKEPEPGLVPVLTGRNLKPGWIDYESNHSGLWMPKERAKELRDFYATPHLVVAHTKGTKVVAAWDEKAYPWREEFHLLPKEGVELDPLFLVEWLNSDKIQEYVKTLYRDFVPHLTLRMLERIPALLPRKGNTERRKHGPYTSPESAGSF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

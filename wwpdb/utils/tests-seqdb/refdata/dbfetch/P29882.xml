@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="55">
+<accession>P29882</accession>
+<accession>Q777D5</accession>
+<name>CEP1_EBVB9</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">Cytoplasmic envelopment protein 1</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="ORF">BBRF2</name>
+</gene>
+<organism>
+<name type="scientific">Epstein-Barr virus (strain B95-8)</name>
+<name type="common">HHV-4</name>
+<name type="synonym">Human herpesvirus 4</name>
+<dbReference type="NCBI Taxonomy" id="10377"/>
+<lineage>
+<taxon>Viruses</taxon>
+<taxon>Duplodnaviria</taxon>
+<taxon>Heunggongvirae</taxon>
+<taxon>Peploviricota</taxon>
+<taxon>Herviviricetes</taxon>
+<taxon>Herpesvirales</taxon>
+<taxon>Herpesviridae</taxon>
+<taxon>Gammaherpesvirinae</taxon>
+<taxon>Lymphocryptovirus</taxon>
+</lineage>
+</organism>
+<organismHost>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+</organismHost>
+<reference key="1">
+<citation type="journal article" date="1984" name="Nature" volume="310" first="207" last="211">
+<title>DNA sequence and expression of the B95-8 Epstein-Barr virus genome.</title>
+<authorList>
+<person name="Baer R."/>
+<person name="Bankier A.T."/>
+<person name="Biggin M.D."/>
+<person name="Deininger P.L."/>
+<person name="Farrell P.J."/>
+<person name="Gibson T.J."/>
+<person name="Hatfull G."/>
+<person name="Hudson G.S."/>
+<person name="Satchwell S.C."/>
+<person name="Seguin C."/>
+<person name="Tuffnell P.S."/>
+<person name="Barrell B.G."/>
+</authorList>
+<dbReference type="PubMed" id="6087149"/>
+<dbReference type="DOI" id="10.1038/310207a0"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<comment type="function">
+<text evidence="1">Plays a critical role in cytoplasmic virus egress. Participates in the final step of tegumentation and envelope acquisition within the host cytoplasm.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Virion</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="1">Virion tegument</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="1">Host cytoplasm</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="1">Host Golgi apparatus</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the herpesviridae cytoplasmic envelopment protein 1 family.</text>
+</comment>
+<comment type="sequence caution" evidence="2">
+<conflict type="erroneous initiation">
+<sequence resource="EMBL-CDS" id="CAA24822" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EMBL" id="V01555">
+<property type="protein sequence ID" value="CAA24822.1"/>
+<property type="status" value="ALT_INIT"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AJ507799">
+<property type="protein sequence ID" value="CAD53433.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="YP_401683.1">
+<property type="nucleotide sequence ID" value="NC_007605.1"/>
+</dbReference>
+<dbReference type="IntAct" id="P29882">
+<property type="interactions" value="18"/>
+</dbReference>
+<dbReference type="MINT" id="P29882"/>
+<dbReference type="PRIDE" id="P29882"/>
+<dbReference type="GeneID" id="3783686"/>
+<dbReference type="KEGG" id="vg:3783686"/>
+<dbReference type="KO" id="K19453"/>
+<dbReference type="Proteomes" id="UP000153037">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044177">
+<property type="term" value="C:host cell Golgi apparatus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019033">
+<property type="term" value="C:viral tegument"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_04038">
+<property type="entry name" value="HSV_CEP1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002600">
+<property type="entry name" value="Herpes_UL7"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01677">
+<property type="entry name" value="Herpes_UL7"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-1035">Host cytoplasm</keyword>
+<keyword id="KW-1040">Host Golgi apparatus</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0946">Virion</keyword>
+<keyword id="KW-0920">Virion tegument</keyword>
+<feature type="chain" description="Cytoplasmic envelopment protein 1" id="PRO_0000115922">
+<location>
+<begin position="1"/>
+<end position="278"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_04038"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="278" mass="31272" checksum="1FF730E3775BDB63" modified="1993-04-01" version="1">MASGKHHQPGGTRSLTMQKVSLRVTPRLVLEVNRHNAICVATNVPEFYNARGDLNIRDLRAHVKARMISSQFCGYVLVSLLDSEDQVDHLNIFPHVFSERMILYKPNNVNLMEMCALLSMIENAKSPSIGLCREVLGRLTLLHSKCNNLDSLFLYNGARTLLSTLVKYHDLEEGAATPGPWNEGLSLFKLHKELKRAPSEARDLMQSLFLTSGKMGCLARSPKDYCADLNKEEDANSGFTFNLFYQDSLLTKHFQCQTVLQTLRRKCLGSDTVSKIIP</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

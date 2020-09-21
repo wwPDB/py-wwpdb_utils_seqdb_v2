@@ -1,0 +1,1013 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="183">
+<accession>P29503</accession>
+<accession>Q26306</accession>
+<accession>Q27273</accession>
+<accession>Q8INP6</accession>
+<accession>Q8INP7</accession>
+<accession>Q960M1</accession>
+<name>NEUR_DROME</name>
+<protein>
+<recommendedName>
+<fullName>Protein neuralized</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">neur</name>
+<name type="synonym">neu</name>
+<name type="ORF">CG11988</name>
+</gene>
+<organism>
+<name type="scientific">Drosophila melanogaster</name>
+<name type="common">Fruit fly</name>
+<dbReference type="NCBI Taxonomy" id="7227"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Holometabola</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Ephydroidea</taxon>
+<taxon>Drosophilidae</taxon>
+<taxon>Drosophila</taxon>
+<taxon>Sophophora</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1991" name="EMBO J." volume="10" first="2975" last="2983">
+<title>The Drosophila neurogenic gene neuralized encodes a novel protein and is expressed in precursors of larval and adult neurons.</title>
+<authorList>
+<person name="Boulianne G.L."/>
+<person name="de la Concha A."/>
+<person name="Campos-Ortega J.A."/>
+<person name="Jan L.Y."/>
+<person name="Jan Y.N."/>
+</authorList>
+<dbReference type="PubMed" id="1717258"/>
+<dbReference type="DOI" id="10.1002/j.1460-2075.1991.tb07848.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA] (ISOFORM 2)</scope>
+<source>
+<strain>Oregon-R</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1993" name="EMBO J." volume="12" first="2586" last="2586">
+<authorList>
+<person name="Boulianne G.L."/>
+<person name="de la Concha A."/>
+<person name="Campos-Ortega J.A."/>
+<person name="Jan L.Y."/>
+<person name="Jan Y.N."/>
+</authorList>
+<dbReference type="PubMed" id="8508781"/>
+<dbReference type="DOI" id="10.1002/j.1460-2075.1993.tb05914.x"/>
+</citation>
+<scope>ERRATUM OF PUBMED:1717258</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1993" name="EMBO J." volume="12" first="2411" last="2418">
+<title>The Drosophila neuralized gene encodes a C3HC4 zinc finger.</title>
+<authorList>
+<person name="Price B.D."/>
+<person name="Chang Z."/>
+<person name="Smith R."/>
+<person name="Bockheim S."/>
+<person name="Laughon A."/>
+</authorList>
+<dbReference type="PubMed" id="8508767"/>
+<dbReference type="DOI" id="10.1002/j.1460-2075.1993.tb05895.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2000" name="Science" volume="287" first="2185" last="2195">
+<title>The genome sequence of Drosophila melanogaster.</title>
+<authorList>
+<person name="Adams M.D."/>
+<person name="Celniker S.E."/>
+<person name="Holt R.A."/>
+<person name="Evans C.A."/>
+<person name="Gocayne J.D."/>
+<person name="Amanatides P.G."/>
+<person name="Scherer S.E."/>
+<person name="Li P.W."/>
+<person name="Hoskins R.A."/>
+<person name="Galle R.F."/>
+<person name="George R.A."/>
+<person name="Lewis S.E."/>
+<person name="Richards S."/>
+<person name="Ashburner M."/>
+<person name="Henderson S.N."/>
+<person name="Sutton G.G."/>
+<person name="Wortman J.R."/>
+<person name="Yandell M.D."/>
+<person name="Zhang Q."/>
+<person name="Chen L.X."/>
+<person name="Brandon R.C."/>
+<person name="Rogers Y.-H.C."/>
+<person name="Blazej R.G."/>
+<person name="Champe M."/>
+<person name="Pfeiffer B.D."/>
+<person name="Wan K.H."/>
+<person name="Doyle C."/>
+<person name="Baxter E.G."/>
+<person name="Helt G."/>
+<person name="Nelson C.R."/>
+<person name="Miklos G.L.G."/>
+<person name="Abril J.F."/>
+<person name="Agbayani A."/>
+<person name="An H.-J."/>
+<person name="Andrews-Pfannkoch C."/>
+<person name="Baldwin D."/>
+<person name="Ballew R.M."/>
+<person name="Basu A."/>
+<person name="Baxendale J."/>
+<person name="Bayraktaroglu L."/>
+<person name="Beasley E.M."/>
+<person name="Beeson K.Y."/>
+<person name="Benos P.V."/>
+<person name="Berman B.P."/>
+<person name="Bhandari D."/>
+<person name="Bolshakov S."/>
+<person name="Borkova D."/>
+<person name="Botchan M.R."/>
+<person name="Bouck J."/>
+<person name="Brokstein P."/>
+<person name="Brottier P."/>
+<person name="Burtis K.C."/>
+<person name="Busam D.A."/>
+<person name="Butler H."/>
+<person name="Cadieu E."/>
+<person name="Center A."/>
+<person name="Chandra I."/>
+<person name="Cherry J.M."/>
+<person name="Cawley S."/>
+<person name="Dahlke C."/>
+<person name="Davenport L.B."/>
+<person name="Davies P."/>
+<person name="de Pablos B."/>
+<person name="Delcher A."/>
+<person name="Deng Z."/>
+<person name="Mays A.D."/>
+<person name="Dew I."/>
+<person name="Dietz S.M."/>
+<person name="Dodson K."/>
+<person name="Doup L.E."/>
+<person name="Downes M."/>
+<person name="Dugan-Rocha S."/>
+<person name="Dunkov B.C."/>
+<person name="Dunn P."/>
+<person name="Durbin K.J."/>
+<person name="Evangelista C.C."/>
+<person name="Ferraz C."/>
+<person name="Ferriera S."/>
+<person name="Fleischmann W."/>
+<person name="Fosler C."/>
+<person name="Gabrielian A.E."/>
+<person name="Garg N.S."/>
+<person name="Gelbart W.M."/>
+<person name="Glasser K."/>
+<person name="Glodek A."/>
+<person name="Gong F."/>
+<person name="Gorrell J.H."/>
+<person name="Gu Z."/>
+<person name="Guan P."/>
+<person name="Harris M."/>
+<person name="Harris N.L."/>
+<person name="Harvey D.A."/>
+<person name="Heiman T.J."/>
+<person name="Hernandez J.R."/>
+<person name="Houck J."/>
+<person name="Hostin D."/>
+<person name="Houston K.A."/>
+<person name="Howland T.J."/>
+<person name="Wei M.-H."/>
+<person name="Ibegwam C."/>
+<person name="Jalali M."/>
+<person name="Kalush F."/>
+<person name="Karpen G.H."/>
+<person name="Ke Z."/>
+<person name="Kennison J.A."/>
+<person name="Ketchum K.A."/>
+<person name="Kimmel B.E."/>
+<person name="Kodira C.D."/>
+<person name="Kraft C.L."/>
+<person name="Kravitz S."/>
+<person name="Kulp D."/>
+<person name="Lai Z."/>
+<person name="Lasko P."/>
+<person name="Lei Y."/>
+<person name="Levitsky A.A."/>
+<person name="Li J.H."/>
+<person name="Li Z."/>
+<person name="Liang Y."/>
+<person name="Lin X."/>
+<person name="Liu X."/>
+<person name="Mattei B."/>
+<person name="McIntosh T.C."/>
+<person name="McLeod M.P."/>
+<person name="McPherson D."/>
+<person name="Merkulov G."/>
+<person name="Milshina N.V."/>
+<person name="Mobarry C."/>
+<person name="Morris J."/>
+<person name="Moshrefi A."/>
+<person name="Mount S.M."/>
+<person name="Moy M."/>
+<person name="Murphy B."/>
+<person name="Murphy L."/>
+<person name="Muzny D.M."/>
+<person name="Nelson D.L."/>
+<person name="Nelson D.R."/>
+<person name="Nelson K.A."/>
+<person name="Nixon K."/>
+<person name="Nusskern D.R."/>
+<person name="Pacleb J.M."/>
+<person name="Palazzolo M."/>
+<person name="Pittman G.S."/>
+<person name="Pan S."/>
+<person name="Pollard J."/>
+<person name="Puri V."/>
+<person name="Reese M.G."/>
+<person name="Reinert K."/>
+<person name="Remington K."/>
+<person name="Saunders R.D.C."/>
+<person name="Scheeler F."/>
+<person name="Shen H."/>
+<person name="Shue B.C."/>
+<person name="Siden-Kiamos I."/>
+<person name="Simpson M."/>
+<person name="Skupski M.P."/>
+<person name="Smith T.J."/>
+<person name="Spier E."/>
+<person name="Spradling A.C."/>
+<person name="Stapleton M."/>
+<person name="Strong R."/>
+<person name="Sun E."/>
+<person name="Svirskas R."/>
+<person name="Tector C."/>
+<person name="Turner R."/>
+<person name="Venter E."/>
+<person name="Wang A.H."/>
+<person name="Wang X."/>
+<person name="Wang Z.-Y."/>
+<person name="Wassarman D.A."/>
+<person name="Weinstock G.M."/>
+<person name="Weissenbach J."/>
+<person name="Williams S.M."/>
+<person name="Woodage T."/>
+<person name="Worley K.C."/>
+<person name="Wu D."/>
+<person name="Yang S."/>
+<person name="Yao Q.A."/>
+<person name="Ye J."/>
+<person name="Yeh R.-F."/>
+<person name="Zaveri J.S."/>
+<person name="Zhan M."/>
+<person name="Zhang G."/>
+<person name="Zhao Q."/>
+<person name="Zheng L."/>
+<person name="Zheng X.H."/>
+<person name="Zhong F.N."/>
+<person name="Zhong W."/>
+<person name="Zhou X."/>
+<person name="Zhu S.C."/>
+<person name="Zhu X."/>
+<person name="Smith H.O."/>
+<person name="Gibbs R.A."/>
+<person name="Myers E.W."/>
+<person name="Rubin G.M."/>
+<person name="Venter J.C."/>
+</authorList>
+<dbReference type="PubMed" id="10731132"/>
+<dbReference type="DOI" id="10.1126/science.287.5461.2185"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>Berkeley</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2002" name="Genome Biol." volume="3" first="RESEARCH0083.1" last="RESEARCH0083.22">
+<title>Annotation of the Drosophila melanogaster euchromatic genome: a systematic review.</title>
+<authorList>
+<person name="Misra S."/>
+<person name="Crosby M.A."/>
+<person name="Mungall C.J."/>
+<person name="Matthews B.B."/>
+<person name="Campbell K.S."/>
+<person name="Hradecky P."/>
+<person name="Huang Y."/>
+<person name="Kaminker J.S."/>
+<person name="Millburn G.H."/>
+<person name="Prochnik S.E."/>
+<person name="Smith C.D."/>
+<person name="Tupy J.L."/>
+<person name="Whitfield E.J."/>
+<person name="Bayraktaroglu L."/>
+<person name="Berman B.P."/>
+<person name="Bettencourt B.R."/>
+<person name="Celniker S.E."/>
+<person name="de Grey A.D.N.J."/>
+<person name="Drysdale R.A."/>
+<person name="Harris N.L."/>
+<person name="Richter J."/>
+<person name="Russo S."/>
+<person name="Schroeder A.J."/>
+<person name="Shu S.Q."/>
+<person name="Stapleton M."/>
+<person name="Yamada C."/>
+<person name="Ashburner M."/>
+<person name="Gelbart W.M."/>
+<person name="Rubin G.M."/>
+<person name="Lewis S.E."/>
+</authorList>
+<dbReference type="PubMed" id="12537572"/>
+<dbReference type="DOI" id="10.1186/gb-2002-3-12-research0083"/>
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain>Berkeley</strain>
+</source>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2002" name="Genome Biol." volume="3" first="RESEARCH0080.1" last="RESEARCH0080.8">
+<title>A Drosophila full-length cDNA resource.</title>
+<authorList>
+<person name="Stapleton M."/>
+<person name="Carlson J.W."/>
+<person name="Brokstein P."/>
+<person name="Yu C."/>
+<person name="Champe M."/>
+<person name="George R.A."/>
+<person name="Guarin H."/>
+<person name="Kronmiller B."/>
+<person name="Pacleb J.M."/>
+<person name="Park S."/>
+<person name="Wan K.H."/>
+<person name="Rubin G.M."/>
+<person name="Celniker S.E."/>
+</authorList>
+<dbReference type="PubMed" id="12537569"/>
+<dbReference type="DOI" id="10.1186/gb-2002-3-12-research0080"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 2 AND 3)</scope>
+<source>
+<strain>Berkeley</strain>
+</source>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2008" name="J. Proteome Res." volume="7" first="1675" last="1682">
+<title>Phosphoproteome analysis of Drosophila melanogaster embryos.</title>
+<authorList>
+<person name="Zhai B."/>
+<person name="Villen J."/>
+<person name="Beausoleil S.A."/>
+<person name="Mintseris J."/>
+<person name="Gygi S.P."/>
+</authorList>
+<dbReference type="PubMed" id="18327897"/>
+<dbReference type="DOI" id="10.1021/pr700696a"/>
+</citation>
+<scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-338 AND SER-341</scope>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+<source>
+<tissue>Embryo</tissue>
+</source>
+</reference>
+<reference key="8">
+<citation type="submission" date="2007-10" db="PDB data bank">
+<title>Solution structure of the neuz (NHR) domain in neuralized from Drosophila melanogaster.</title>
+<authorList>
+<consortium name="RIKEN structural genomics initiative (RSGI)"/>
+</authorList>
+</citation>
+<scope>STRUCTURE BY NMR OF 106-266</scope>
+</reference>
+<comment type="function">
+<text>Involved in neurogenesis. Interacts with other neurogenic proteins in the specification of the neuroblast versus epidermoblast cell fate.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="8">Nucleus</location>
+</subcellularLocation>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>P29503-1</id>
+<name>1</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>P29503-2</id>
+<name>2</name>
+<sequence type="described" ref="VSP_008046"/>
+</isoform>
+<isoform>
+<id>P29503-3</id>
+<name>3</name>
+<sequence type="described" ref="VSP_008045"/>
+</isoform>
+<isoform>
+<id>P29503-4</id>
+<name>4</name>
+<sequence type="described" ref="VSP_008045 VSP_008046"/>
+</isoform>
+</comment>
+<comment type="sequence caution" evidence="8">
+<conflict type="frameshift">
+<sequence resource="EMBL-CDS" id="CAA43806" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EMBL" id="X61617">
+<property type="protein sequence ID" value="CAA43806.1"/>
+<property type="status" value="ALT_FRAME"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="S62597">
+<property type="protein sequence ID" value="AAB27151.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="S62583">
+<property type="protein sequence ID" value="AAB27147.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L12218">
+<property type="protein sequence ID" value="AAA28403.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE014297">
+<property type="protein sequence ID" value="AAF54330.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE014297">
+<property type="protein sequence ID" value="AAF54326.2"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE014297">
+<property type="protein sequence ID" value="AAN13406.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE014297">
+<property type="protein sequence ID" value="AAN13407.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY051987">
+<property type="protein sequence ID" value="AAK93411.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BT003772">
+<property type="protein sequence ID" value="AAO41451.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="PIR" id="S35371">
+<property type="entry name" value="S35371"/>
+</dbReference>
+<dbReference type="PIR" id="S35503">
+<property type="entry name" value="S35503"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001163563.1">
+<molecule id="P29503-3"/>
+<property type="nucleotide sequence ID" value="NM_001170092.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_476652.1">
+<molecule id="P29503-1"/>
+<property type="nucleotide sequence ID" value="NM_057304.5"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_731309.1">
+<molecule id="P29503-4"/>
+<property type="nucleotide sequence ID" value="NM_169255.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_731310.1">
+<molecule id="P29503-3"/>
+<property type="nucleotide sequence ID" value="NM_169256.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_731311.1">
+<molecule id="P29503-2"/>
+<property type="nucleotide sequence ID" value="NM_169257.3"/>
+</dbReference>
+<dbReference type="PDB" id="2YUE">
+<property type="method" value="NMR"/>
+<property type="chains" value="A=106-266"/>
+</dbReference>
+<dbReference type="PDB" id="4KG0">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.10"/>
+<property type="chains" value="A=105-260"/>
+</dbReference>
+<dbReference type="PDBsum" id="2YUE"/>
+<dbReference type="PDBsum" id="4KG0"/>
+<dbReference type="SMR" id="P29503"/>
+<dbReference type="BioGRID" id="66253">
+<property type="interactions" value="29"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-17176N"/>
+<dbReference type="IntAct" id="P29503">
+<property type="interactions" value="4"/>
+</dbReference>
+<dbReference type="MINT" id="P29503"/>
+<dbReference type="STRING" id="7227.FBpp0081481"/>
+<dbReference type="iPTMnet" id="P29503"/>
+<dbReference type="PaxDb" id="P29503"/>
+<dbReference type="PRIDE" id="P29503"/>
+<dbReference type="EnsemblMetazoa" id="FBtr0082001">
+<molecule id="P29503-3"/>
+<property type="protein sequence ID" value="FBpp0081479"/>
+<property type="gene ID" value="FBgn0002932"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="FBtr0082002">
+<molecule id="P29503-4"/>
+<property type="protein sequence ID" value="FBpp0081480"/>
+<property type="gene ID" value="FBgn0002932"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="FBtr0082003">
+<molecule id="P29503-1"/>
+<property type="protein sequence ID" value="FBpp0081481"/>
+<property type="gene ID" value="FBgn0002932"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="FBtr0082004">
+<molecule id="P29503-2"/>
+<property type="protein sequence ID" value="FBpp0081482"/>
+<property type="gene ID" value="FBgn0002932"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="FBtr0300414">
+<molecule id="P29503-3"/>
+<property type="protein sequence ID" value="FBpp0289643"/>
+<property type="gene ID" value="FBgn0002932"/>
+</dbReference>
+<dbReference type="GeneID" id="41085"/>
+<dbReference type="KEGG" id="dme:Dmel_CG11988"/>
+<dbReference type="UCSC" id="CG11988-RA">
+<molecule id="P29503-1"/>
+<property type="organism name" value="d. melanogaster"/>
+</dbReference>
+<dbReference type="CTD" id="41085"/>
+<dbReference type="FlyBase" id="FBgn0002932">
+<property type="gene designation" value="neur"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG4172">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG4625">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00940000166233"/>
+<dbReference type="InParanoid" id="P29503"/>
+<dbReference type="KO" id="K01931"/>
+<dbReference type="OMA" id="ANGSRMI"/>
+<dbReference type="PhylomeDB" id="P29503"/>
+<dbReference type="SignaLink" id="P29503"/>
+<dbReference type="BioGRID-ORCS" id="41085">
+<property type="hits" value="0 hits in 5 CRISPR screens"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="P29503"/>
+<dbReference type="GenomeRNAi" id="41085"/>
+<dbReference type="PRO" id="PR:P29503"/>
+<dbReference type="Proteomes" id="UP000000803">
+<property type="component" value="Chromosome 3R"/>
+</dbReference>
+<dbReference type="Bgee" id="FBgn0002932">
+<property type="expression patterns" value="Expressed in embryo and 92 other tissues"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="P29503">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="P29503">
+<property type="organism ID" value="DM"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005634">
+<property type="term" value="C:nucleus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0048471">
+<property type="term" value="C:perinuclear region of cytoplasm"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003677">
+<property type="term" value="F:DNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:1901981">
+<property type="term" value="F:phosphatidylinositol phosphate binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0061630">
+<property type="term" value="F:ubiquitin protein ligase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008270">
+<property type="term" value="F:zinc ion binding"/>
+<property type="evidence" value="ECO:0000255"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008356">
+<property type="term" value="P:asymmetric cell division"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0048749">
+<property type="term" value="P:compound eye development"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030718">
+<property type="term" value="P:germ-line stem cell population maintenance"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007476">
+<property type="term" value="P:imaginal disc-derived wing morphogenesis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007616">
+<property type="term" value="P:long-term memory"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007498">
+<property type="term" value="P:mesoderm development"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035204">
+<property type="term" value="P:negative regulation of lamellocyte differentiation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007399">
+<property type="term" value="P:nervous system development"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007422">
+<property type="term" value="P:peripheral nervous system development"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045807">
+<property type="term" value="P:positive regulation of endocytosis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045747">
+<property type="term" value="P:positive regulation of Notch signaling pathway"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008104">
+<property type="term" value="P:protein localization"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000209">
+<property type="term" value="P:protein polyubiquitination"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045314">
+<property type="term" value="P:regulation of compound eye photoreceptor development"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046532">
+<property type="term" value="P:regulation of photoreceptor cell differentiation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007423">
+<property type="term" value="P:sensory organ development"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016360">
+<property type="term" value="P:sensory organ precursor cell fate determination"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007419">
+<property type="term" value="P:ventral cord development"/>
+<property type="evidence" value="ECO:0007001"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.120.920">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.40.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR043136">
+<property type="entry name" value="B30.2/SPRY_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR037962">
+<property type="entry name" value="Neuralized"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006573">
+<property type="entry name" value="NHR_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001841">
+<property type="entry name" value="Znf_RING"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013083">
+<property type="entry name" value="Znf_RING/FYVE/PHD"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR12429">
+<property type="entry name" value="PTHR12429"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07177">
+<property type="entry name" value="Neuralized"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SMART" id="SM00588">
+<property type="entry name" value="NEUZ"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SMART" id="SM00184">
+<property type="entry name" value="RING"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51065">
+<property type="entry name" value="NHR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50089">
+<property type="entry name" value="ZF_RING_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-0217">Developmental protein</keyword>
+<keyword id="KW-0221">Differentiation</keyword>
+<keyword id="KW-0238">DNA-binding</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0524">Neurogenesis</keyword>
+<keyword id="KW-0539">Nucleus</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0862">Zinc</keyword>
+<keyword id="KW-0863">Zinc-finger</keyword>
+<feature type="chain" description="Protein neuralized" id="PRO_0000055975">
+<location>
+<begin position="1"/>
+<end position="754"/>
+</location>
+</feature>
+<feature type="domain" description="NHR 1" evidence="4">
+<location>
+<begin position="106"/>
+<end position="260"/>
+</location>
+</feature>
+<feature type="domain" description="NHR 2" evidence="4">
+<location>
+<begin position="368"/>
+<end position="523"/>
+</location>
+</feature>
+<feature type="zinc finger region" description="RING-type" evidence="3">
+<location>
+<begin position="701"/>
+<end position="742"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Gln-rich">
+<location>
+<begin position="23"/>
+<end position="55"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine" evidence="5">
+<location>
+<position position="338"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine" evidence="5">
+<location>
+<position position="341"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 3 and isoform 4." id="VSP_008045" evidence="6">
+<original>MGLSDIPANYMQGSHPHLTLHPQQQHHQNQQHLQHLQQMQQLHNAMPTPAQQAAQVLAMESNELLMSTKDKLSSKKKMHLLKKIKKRFGL</original>
+<variation>MGQSAGKI</variation>
+<location>
+<begin position="1"/>
+<end position="90"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2 and isoform 4." id="VSP_008046" evidence="6 7">
+<location>
+<position position="672"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; CAA43806." ref="1" evidence="8">
+<original>T</original>
+<variation>S</variation>
+<location>
+<position position="234"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 3; AAB27151." ref="3" evidence="8">
+<original>A</original>
+<variation>V</variation>
+<location>
+<position position="270"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 3; AAB27151." ref="3" evidence="8">
+<original>T</original>
+<variation>N</variation>
+<location>
+<position position="588"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 3; AAB27151." ref="3" evidence="8">
+<original>S</original>
+<variation>R</variation>
+<location>
+<position position="694"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="109"/>
+<end position="113"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="117"/>
+<end position="119"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="125"/>
+<end position="128"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="130"/>
+<end position="133"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="136"/>
+<end position="141"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="149"/>
+<end position="156"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="158"/>
+<end position="162"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="165"/>
+<end position="171"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="173"/>
+<end position="176"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="184"/>
+<end position="188"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="194"/>
+<end position="198"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="201"/>
+<end position="203"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="209"/>
+<end position="214"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="220"/>
+<end position="224"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="227"/>
+<end position="233"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="242"/>
+<end position="247"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="250"/>
+<end position="257"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="260"/>
+<end position="263"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2YUE"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="4KG0"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00175"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00400"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18327897"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="12537569"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="1717258"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000305"/>
+<sequence length="754" mass="82325" checksum="A2887404502D70BF" modified="2003-08-22" version="2">MGLSDIPANYMQGSHPHLTLHPQQQHHQNQQHLQHLQQMQQLHNAMPTPAQQAAQVLAMESNELLMSTKDKLSSKKKMHLLKKIKKRFGLVRRSPSSCPGPNNLPPLQFHSVHGDNIRISRDGTLARRFESFCRAITFSARPVRINERICVKFAEISNNWNGGIRFGFTSNDPVTLEGTLPKYACPDLTNRPGFWAKALHEQYCEKDNILYYYVNGAGDVIYGINNEEKGVILTGIDTRSLLWTVIDIYGNCTGIEFLDSRIYMYQQQPAAIPMATVPAQQQQMPQPAANASSALNSHHPHQQSRRSLPGHTAAIEHDLERHVMPSLQSLHLAGNGGSVASVEQAAIAHDLANGLPPLRYNANGRLIPVPFHNTKGRNVRLSQDRFVASRTESDFCQGYVFTARPIRIGEKLIVQVLKTEQMYVGALALGLTSCNPAMLQPNDLPNDSDFLLDRPEYWVVSKDIAAAPQRGDEIAFFVAPNGEVSISKNNGPAVVVMHVDQSLQLWAFLDVYGSTQSLRMFRQQLPNMVAYPSQPQVNVNASSSSACNAASTSRMLPMTESMSSLNAGATAKLLHHPSQLSVAQSTSTLASAGGVNGSRMISMPSNGDILQIQPNGGGTVLVVNLPPASSSHDINGQLAARPTATVTSSGVLAGACSSGTLISTTSSQYIEQPIANSTNNAANKWKDSLSDQQSTDSSAECTICYENPIDSVLYMCGHMCMCYDCAIEQWRGVGGGQCPLCRAVIRDVIRTYTT</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

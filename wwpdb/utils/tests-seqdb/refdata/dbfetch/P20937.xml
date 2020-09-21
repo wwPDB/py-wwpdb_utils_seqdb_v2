@@ -1,0 +1,431 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1991-02-01" modified="2020-08-12" version="139">
+<accession>P20937</accession>
+<name>KLRA1_MOUSE</name>
+<protein>
+<recommendedName>
+<fullName>T-cell surface glycoprotein YE1/48</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>Lymphocyte antigen 49a</fullName>
+<shortName>Ly-49a</shortName>
+</alternativeName>
+<alternativeName>
+<fullName>T lymphocyte antigen A1</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">Klra1</name>
+<name type="synonym">Ly-49</name>
+<name type="synonym">Ly-49a</name>
+<name type="synonym">Ly49</name>
+<name type="synonym">Ly49A</name>
+</gene>
+<organism>
+<name type="scientific">Mus musculus</name>
+<name type="common">Mouse</name>
+<dbReference type="NCBI Taxonomy" id="10090"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Myomorpha</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Mus</taxon>
+<taxon>Mus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1989" name="J. Immunol." volume="142" first="1727" last="1736">
+<title>Molecular cloning and characterization of a novel murine T cell surface antigen, YE1/48.</title>
+<authorList>
+<person name="Chan P.-Y."/>
+<person name="Takei F."/>
+</authorList>
+<dbReference type="PubMed" id="2783949"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1989" name="J. Immunol." volume="143" first="1379" last="1386">
+<title>A murine T lymphocyte antigen belongs to a supergene family of type II integral membrane proteins.</title>
+<authorList>
+<person name="Yokoyama W.M."/>
+<person name="Jacobs L."/>
+<person name="Kanagawa O."/>
+<person name="Shevach E.M."/>
+<person name="Cohen D.I."/>
+</authorList>
+<dbReference type="PubMed" id="2787364"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1999" name="Nature" volume="402" first="623" last="631">
+<title>Crystal structure of a lectin-like natural killer cell receptor bound to its MHC class I ligand.</title>
+<authorList>
+<person name="Tormo J."/>
+<person name="Natarajan K."/>
+<person name="Margulies D.H."/>
+<person name="Mariuzza R.A."/>
+</authorList>
+<dbReference type="PubMed" id="10604468"/>
+<dbReference type="DOI" id="10.1038/45170"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) OF 127-262 IN COMPLEX WITH UNGLYCOSYLATED H-2D</scope>
+<scope>SUBUNIT</scope>
+<scope>DISULFIDE BONDS</scope>
+</reference>
+<comment type="function">
+<text>Receptor on natural killer (NK) cells for H-2d alleles. Inhibits the activity of NK cells thus preventing cell lysis.</text>
+</comment>
+<comment type="subunit">
+<text evidence="4">Homodimer; disulfide-linked.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Membrane</location>
+<topology>Single-pass type II membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text>High, in T-lymphoma lines, very low in normal lymphocytes.</text>
+</comment>
+<dbReference type="EMBL" id="M25775">
+<property type="protein sequence ID" value="AAA40578.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="M25812">
+<property type="protein sequence ID" value="AAA37242.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS20602.1"/>
+<dbReference type="PIR" id="A30573">
+<property type="entry name" value="A30573"/>
+</dbReference>
+<dbReference type="PIR" id="A45813">
+<property type="entry name" value="A45813"/>
+</dbReference>
+<dbReference type="PDB" id="1QO3">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.30"/>
+<property type="chains" value="C/D=126-262"/>
+</dbReference>
+<dbReference type="PDBsum" id="1QO3"/>
+<dbReference type="SMR" id="P20937"/>
+<dbReference type="STRING" id="10090.ENSMUSP00000032288"/>
+<dbReference type="GlyGen" id="P20937">
+<property type="glycosylation" value="3 sites"/>
+</dbReference>
+<dbReference type="MaxQB" id="P20937"/>
+<dbReference type="PaxDb" id="P20937"/>
+<dbReference type="PRIDE" id="P20937"/>
+<dbReference type="MGI" id="MGI:101907">
+<property type="gene designation" value="Klra1"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG4297">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="InParanoid" id="P20937"/>
+<dbReference type="PhylomeDB" id="P20937"/>
+<dbReference type="ChiTaRS" id="Klra1">
+<property type="organism name" value="mouse"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="P20937"/>
+<dbReference type="PRO" id="PR:P20937"/>
+<dbReference type="Proteomes" id="UP000000589">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="RNAct" id="P20937">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009897">
+<property type="term" value="C:external side of plasma membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030246">
+<property type="term" value="F:carbohydrate binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0038023">
+<property type="term" value="F:signaling receptor activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007155">
+<property type="term" value="P:cell adhesion"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="CDD" id="cd03593">
+<property type="entry name" value="CLECT_NK_receptors_like"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.10.100.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001304">
+<property type="entry name" value="C-type_lectin-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016186">
+<property type="entry name" value="C-type_lectin-like/link_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016187">
+<property type="entry name" value="CTDL_fold"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013600">
+<property type="entry name" value="Ly49_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033992">
+<property type="entry name" value="NKR-like_CTLD"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00059">
+<property type="entry name" value="Lectin_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF08391">
+<property type="entry name" value="Ly49"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00034">
+<property type="entry name" value="CLECT"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56436">
+<property type="entry name" value="SSF56436"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50041">
+<property type="entry name" value="C_TYPE_LECTIN_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0130">Cell adhesion</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0430">Lectin</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0735">Signal-anchor</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="T-cell surface glycoprotein YE1/48" id="PRO_0000046679">
+<location>
+<begin position="1"/>
+<end position="262"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="5">
+<location>
+<begin position="1"/>
+<end position="44"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Signal-anchor for type II membrane protein" evidence="2">
+<location>
+<begin position="45"/>
+<end position="66"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="5">
+<location>
+<begin position="67"/>
+<end position="262"/>
+</location>
+</feature>
+<feature type="domain" description="C-type lectin" evidence="3">
+<location>
+<begin position="138"/>
+<end position="257"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="Cell attachment site">
+<location>
+<begin position="137"/>
+<end position="139"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="86"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="103"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="123"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="3 4">
+<location>
+<begin position="145"/>
+<end position="150"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="3 4">
+<location>
+<begin position="163"/>
+<end position="251"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="3 4">
+<location>
+<begin position="167"/>
+<end position="253"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="3 4">
+<location>
+<begin position="232"/>
+<end position="245"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAA37242." ref="2" evidence="5">
+<original>NCE</original>
+<variation>KLQ</variation>
+<location>
+<begin position="76"/>
+<end position="78"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAA37242." ref="2" evidence="5">
+<original>I</original>
+<variation>M</variation>
+<location>
+<position position="106"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAA40578/AAA37242." ref="2" evidence="5">
+<original>A</original>
+<variation>T</variation>
+<location>
+<position position="166"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAA37242." ref="2" evidence="5">
+<original>G</original>
+<variation>R</variation>
+<location>
+<position position="223"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="141"/>
+<end position="146"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="149"/>
+<end position="158"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="160"/>
+<end position="169"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="180"/>
+<end position="189"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="195"/>
+<end position="202"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="203"/>
+<end position="205"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="207"/>
+<end position="210"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="227"/>
+<end position="229"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="231"/>
+<end position="235"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="240"/>
+<end position="243"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="249"/>
+<end position="256"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1QO3"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00040"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10604468"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<sequence length="262" mass="30498" checksum="3C3328D265F71B5E" modified="1991-02-01" version="1">MSEQEVTYSMVRFHKSAGLQKQVRPEETKGPREAGYRRCSFHWKFIVIALGIFCFLLLVAVSVLAIKIFQYDQQKNCEEFLNHHNNCSNMQSDINLKDEMLKNKSIECDLLESLNRDQNRLYNKTKTVLDSLQHTGRGDKVYWFCYGMKCYYFVMDRKTWSGCKQACQSSSLSLLKIDDEDELKFLQLVVPSDSCWVGLSYDNKKKDWAWIDNRPSKLALNTGKYNIRDGGCMLLSKTRLDNGNCDQVFICICGKRLDKFPH</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

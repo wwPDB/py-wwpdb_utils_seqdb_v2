@@ -1,0 +1,726 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="159">
+<accession>P29534</accession>
+<accession>Q5FVS3</accession>
+<accession>Q63669</accession>
+<name>VCAM1_RAT</name>
+<protein>
+<recommendedName>
+<fullName>Vascular cell adhesion protein 1</fullName>
+<shortName>V-CAM 1</shortName>
+<shortName>VCAM-1</shortName>
+</recommendedName>
+<cdAntigenName>CD106</cdAntigenName>
+</protein>
+<gene>
+<name type="primary">Vcam1</name>
+<name type="synonym">Vcam-1</name>
+</gene>
+<organism>
+<name type="scientific">Rattus norvegicus</name>
+<name type="common">Rat</name>
+<dbReference type="NCBI Taxonomy" id="10116"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Myomorpha</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Rattus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1992" name="Biochem. Biophys. Res. Commun." volume="183" first="163" last="169">
+<title>Cloning of murine and rat vascular cell adhesion molecule-1.</title>
+<authorList>
+<person name="Hession C."/>
+<person name="Moy P."/>
+<person name="Tizard R."/>
+<person name="Chisholm P."/>
+<person name="Williams C."/>
+<person name="Wysk M."/>
+<person name="Burkly L."/>
+<person name="Miyake K."/>
+<person name="Kincade P."/>
+<person name="Lobb R."/>
+</authorList>
+<dbReference type="PubMed" id="1371918"/>
+<dbReference type="DOI" id="10.1016/0006-291x(92)91623-x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<source>
+<tissue>Lung</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1992" name="Biochim. Biophys. Acta" volume="1131" first="214" last="216">
+<title>Nucleotide sequence of rat vascular cell adhesion molecule-1 cDNA.</title>
+<authorList>
+<person name="Williams A.J."/>
+<person name="Atkins R.C."/>
+<person name="Fries J.W.U."/>
+<person name="Gimbrone M.A. Jr."/>
+<person name="Cybulsky M.I."/>
+<person name="Collins T."/>
+</authorList>
+<dbReference type="PubMed" id="1377031"/>
+<dbReference type="DOI" id="10.1016/0167-4781(92)90081-a"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<source>
+<strain>Sprague-Dawley</strain>
+<tissue>Lung</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<tissue>Spleen</tissue>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2017" name="Proc. Natl. Acad. Sci. U.S.A." volume="114" first="2072" last="2077">
+<title>MicroRNA-10a is crucial for endothelial response to different flow patterns via interaction of retinoid acid receptors and histone deacetylases.</title>
+<authorList>
+<person name="Lee D.Y."/>
+<person name="Lin T.E."/>
+<person name="Lee C.I."/>
+<person name="Zhou J."/>
+<person name="Huang Y.H."/>
+<person name="Lee P.L."/>
+<person name="Shih Y.T."/>
+<person name="Chien S."/>
+<person name="Chiu J.J."/>
+</authorList>
+<dbReference type="PubMed" id="28167758"/>
+<dbReference type="DOI" id="10.1073/pnas.1621425114"/>
+</citation>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<comment type="function">
+<text>Important in cell-cell recognition. Appears to function in leukocyte-endothelial cell adhesion. Interacts with integrin alpha-4/beta-1 (ITGA4/ITGB1) on leukocytes, and mediates both adhesion and signal transduction. The VCAM1/ITGA4/ITGB1 interaction may play a pathophysiologic role both in immune responses and in leukocyte emigration to sites of inflammation.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Binds to ECMV-D capsid proteins and acts as a receptor for this virus.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Membrane</location>
+<topology>Single-pass type I membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="4 5">Expressed in aortic endothelial cells, with low expression in the descending thoracic aorta and the outer curvature of the aortic arch, where pulsatory shear stress exists, and high in the inner curvature of the aortic arch, where oscillatory shear stress prevails (at protein level) (PubMed:28167758). Expressed on inflamed vascular endothelium, as well as on macrophage-like and dendritic cell types in both normal and inflamed tissue (PubMed:1371918).</text>
+</comment>
+<dbReference type="EMBL" id="M84488">
+<property type="protein sequence ID" value="AAA42332.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="X63722">
+<property type="protein sequence ID" value="CAA45254.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC089812">
+<property type="protein sequence ID" value="AAH89812.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="PIR" id="JS0675">
+<property type="entry name" value="JS0675"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_037021.1">
+<property type="nucleotide sequence ID" value="NM_012889.1"/>
+</dbReference>
+<dbReference type="SMR" id="P29534"/>
+<dbReference type="STRING" id="10116.ENSRNOP00000019377"/>
+<dbReference type="CarbonylDB" id="P29534"/>
+<dbReference type="GlyGen" id="P29534">
+<property type="glycosylation" value="5 sites"/>
+</dbReference>
+<dbReference type="PhosphoSitePlus" id="P29534"/>
+<dbReference type="PaxDb" id="P29534"/>
+<dbReference type="PRIDE" id="P29534"/>
+<dbReference type="Ensembl" id="ENSRNOT00000019377">
+<property type="protein sequence ID" value="ENSRNOP00000019377"/>
+<property type="gene ID" value="ENSRNOG00000014333"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSRNOT00000078806">
+<property type="protein sequence ID" value="ENSRNOP00000071423"/>
+<property type="gene ID" value="ENSRNOG00000014333"/>
+</dbReference>
+<dbReference type="GeneID" id="25361"/>
+<dbReference type="KEGG" id="rno:25361"/>
+<dbReference type="UCSC" id="RGD:3952">
+<property type="organism name" value="rat"/>
+</dbReference>
+<dbReference type="CTD" id="7412"/>
+<dbReference type="RGD" id="3952">
+<property type="gene designation" value="Vcam1"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG502QSKQ">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00940000156511"/>
+<dbReference type="InParanoid" id="P29534"/>
+<dbReference type="KO" id="K06527"/>
+<dbReference type="OMA" id="YTIHKAQ"/>
+<dbReference type="OrthoDB" id="544376at2759"/>
+<dbReference type="PhylomeDB" id="P29534"/>
+<dbReference type="TreeFam" id="TF333571"/>
+<dbReference type="Reactome" id="R-RNO-198933">
+<property type="pathway name" value="Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell"/>
+</dbReference>
+<dbReference type="Reactome" id="R-RNO-216083">
+<property type="pathway name" value="Integrin cell surface interactions"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P29534"/>
+<dbReference type="Proteomes" id="UP000002494">
+<property type="component" value="Chromosome 2"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSRNOG00000014333">
+<property type="expression patterns" value="Expressed in spleen and 20 other tissues"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="P29534">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="P29534">
+<property type="organism ID" value="RN"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071065">
+<property type="term" value="C:alpha9-beta1 integrin-vascular cell adhesion molecule-1 complex"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045177">
+<property type="term" value="C:apical part of cell"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071944">
+<property type="term" value="C:cell periphery"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009986">
+<property type="term" value="C:cell surface"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005769">
+<property type="term" value="C:early endosome"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005783">
+<property type="term" value="C:endoplasmic reticulum"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009897">
+<property type="term" value="C:external side of plasma membrane"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005615">
+<property type="term" value="C:extracellular space"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030175">
+<property type="term" value="C:filopodium"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005794">
+<property type="term" value="C:Golgi apparatus"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005887">
+<property type="term" value="C:integral component of plasma membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005902">
+<property type="term" value="C:microvillus"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002102">
+<property type="term" value="C:podosome"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042383">
+<property type="term" value="C:sarcolemma"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050839">
+<property type="term" value="F:cell adhesion molecule binding"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005178">
+<property type="term" value="F:integrin binding"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008131">
+<property type="term" value="F:primary amine oxidase activity"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002526">
+<property type="term" value="P:acute inflammatory response"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007568">
+<property type="term" value="P:aging"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009308">
+<property type="term" value="P:amine metabolic process"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035584">
+<property type="term" value="P:calcium-mediated signaling using intracellular calcium source"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060945">
+<property type="term" value="P:cardiac neuron differentiation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007155">
+<property type="term" value="P:cell adhesion"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060326">
+<property type="term" value="P:cell chemotaxis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0140039">
+<property type="term" value="P:cell-cell adhesion in response to extracellular stimulus"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007160">
+<property type="term" value="P:cell-matrix adhesion"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:1904646">
+<property type="term" value="P:cellular response to amyloid-beta"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071333">
+<property type="term" value="P:cellular response to glucose stimulus"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071356">
+<property type="term" value="P:cellular response to tumor necrosis factor"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035924">
+<property type="term" value="P:cellular response to vascular endothelial growth factor stimulus"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060710">
+<property type="term" value="P:chorio-allantoic fusion"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002544">
+<property type="term" value="P:chronic inflammatory response"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060669">
+<property type="term" value="P:embryonic placenta morphogenesis"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007507">
+<property type="term" value="P:heart development"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007157">
+<property type="term" value="P:heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0034113">
+<property type="term" value="P:heterotypic cell-cell adhesion"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060384">
+<property type="term" value="P:innervation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007159">
+<property type="term" value="P:leukocyte cell-cell adhesion"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050901">
+<property type="term" value="P:leukocyte tethering or rolling"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0022614">
+<property type="term" value="P:membrane to membrane docking"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042102">
+<property type="term" value="P:positive regulation of T cell proliferation"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045471">
+<property type="term" value="P:response to ethanol"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001666">
+<property type="term" value="P:response to hypoxia"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010212">
+<property type="term" value="P:response to ionizing radiation"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0032496">
+<property type="term" value="P:response to lipopolysaccharide"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035094">
+<property type="term" value="P:response to nicotine"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007584">
+<property type="term" value="P:response to nutrient"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010043">
+<property type="term" value="P:response to zinc ion"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016032">
+<property type="term" value="P:viral process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.10">
+<property type="match status" value="7"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003987">
+<property type="entry name" value="ICAM_VCAM_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR007110">
+<property type="entry name" value="Ig-like_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036179">
+<property type="entry name" value="Ig-like_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013783">
+<property type="entry name" value="Ig-like_fold"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008424">
+<property type="entry name" value="Ig_C2-set"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013098">
+<property type="entry name" value="Ig_I-set"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003599">
+<property type="entry name" value="Ig_sub"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003598">
+<property type="entry name" value="Ig_sub2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013151">
+<property type="entry name" value="Immunoglobulin"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003989">
+<property type="entry name" value="VCAM-1"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR13771:SF14">
+<property type="entry name" value="PTHR13771:SF14"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF05790">
+<property type="entry name" value="C2-set"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07679">
+<property type="entry name" value="I-set"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00047">
+<property type="entry name" value="ig"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13895">
+<property type="entry name" value="Ig_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01472">
+<property type="entry name" value="ICAMVCAM1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01474">
+<property type="entry name" value="VCAM1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00409">
+<property type="entry name" value="IG"/>
+<property type="match status" value="5"/>
+</dbReference>
+<dbReference type="SMART" id="SM00408">
+<property type="entry name" value="IGc2"/>
+<property type="match status" value="5"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48726">
+<property type="entry name" value="SSF48726"/>
+<property type="match status" value="7"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50835">
+<property type="entry name" value="IG_LIKE"/>
+<property type="match status" value="5"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0130">Cell adhesion</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0945">Host-virus interaction</keyword>
+<keyword id="KW-0393">Immunoglobulin domain</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="signal peptide" evidence="6">
+<location>
+<begin position="1"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="chain" description="Vascular cell adhesion protein 1" id="PRO_0000014999">
+<location>
+<begin position="25"/>
+<end position="739"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="25"/>
+<end position="698"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="699"/>
+<end position="720"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="721"/>
+<end position="739"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like C2-type 1">
+<location>
+<begin position="25"/>
+<end position="111"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like C2-type 2">
+<location>
+<begin position="119"/>
+<end position="212"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like C2-type 3">
+<location>
+<begin position="223"/>
+<end position="309"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like C2-type 4">
+<location>
+<begin position="312"/>
+<end position="397"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like C2-type 5">
+<location>
+<begin position="408"/>
+<end position="506"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like C2-type 6">
+<location>
+<begin position="514"/>
+<end position="595"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like C2-type 7">
+<location>
+<begin position="601"/>
+<end position="682"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="273"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="424"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="531"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="561"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="650"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="3">
+<location>
+<begin position="47"/>
+<end position="95"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="3">
+<location>
+<begin position="52"/>
+<end position="99"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="3">
+<location>
+<begin position="137"/>
+<end position="195"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="3">
+<location>
+<begin position="246"/>
+<end position="291"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="3">
+<location>
+<begin position="335"/>
+<end position="383"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="3">
+<location>
+<begin position="534"/>
+<end position="579"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; CAA45254." ref="2" evidence="6">
+<original>V</original>
+<variation>G</variation>
+<location>
+<position position="3"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; CAA45254." ref="2" evidence="6">
+<original>QF</original>
+<variation>HL</variation>
+<location>
+<begin position="122"/>
+<end position="123"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; CAA45254." ref="2" evidence="6">
+<original>D</original>
+<variation>N</variation>
+<location>
+<position position="166"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; CAA45254." ref="2" evidence="6">
+<original>V</original>
+<variation>G</variation>
+<location>
+<position position="739"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00114"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="28167758"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="1371918"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000305"/>
+<sequence length="739" mass="81246" checksum="5C608E5A1A1B100C" modified="1993-04-01" version="1" precursor="true">MPVKMVAIFGASTVLWILFAVSQAFKIEISPEYKTLAQIGDSMLLTCSTTGCESPSFSWRTQIDSPLNGKVKTEGAKSVLTMDPVSFENEHSYLCTATCNSGKLERGIQVDIYSFPKDPEIQFSGPLEVGKPVMVKCLAPDVYPIDRLEIELFKGDRLMKKQDFVDEMAKKSLETKSLEVIFTPVIEDIEKALVCRAKLYIDQTDSIPKERETVRELQVYTSPKNTEISVHPSTRLHEGAAVTMTCASEGLPAPEIFWSKKLDNGVLQLLSGNATLTLIAMRMEDSGIYVCEGVNLVGRDKTEVELIVQEKPFTVDISPGSQVAAQVGDSVVLTCAAVGCDSPSFSWRTQTDSPLNGEVRDEGATSTLTLSPVGVEDEHSYLCTVTCQRRKLEKTIQVEVYSFPEDPEIEISGPLVHGRPVTVNCTVPNVYPFDHLEIELLKGETTLLNKFLREEIGTKSLETKSLEMTFIPTAEDTGKALVCLAKLHSSQMESEPKQRQSTQTLYVNVAPKEPTIWVSPSPVPEEGSPVNLTCSSDGFPTPKILWSRQLKNGELQPLSQNTTLSFMATKMEDSGIYVCEGINEAGISKKSVELIIQGSSKDIQLTVFPSKSVKEGDTVIISCTCGSVPEIWIILKKKAKTGDMVLKSVNGSYTIRKAQLQDAGVYECESKTEVGSQLRSLTLDVKGKENNKDYFSPELLALYFASSLVIPAIGMIIYFARKANMKGSYSLVEAQKSKV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

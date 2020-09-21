@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="134">
+<accession>P29830</accession>
+<accession>Q8GWH1</accession>
+<name>HS176_ARATH</name>
+<protein>
+<recommendedName>
+<fullName>17.6 kDa class II heat shock protein</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>17.6 kDa heat shock protein</fullName>
+<shortName>AtHsp17.6</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">HSP17.6</name>
+<name type="ordered locus">At5g12020</name>
+<name type="ORF">F14F18.190</name>
+</gene>
+<organism>
+<name type="scientific">Arabidopsis thaliana</name>
+<name type="common">Mouse-ear cress</name>
+<dbReference type="NCBI Taxonomy" id="3702"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>malvids</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+<taxon>Camelineae</taxon>
+<taxon>Arabidopsis</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1992" name="Plant Mol. Biol." volume="18" first="1007" last="1008">
+<title>An Arabidopsis thaliana cDNA clone encoding a 17.6 kDa class II heat shock protein.</title>
+<authorList>
+<person name="Bartling D."/>
+<person name="Buelter H."/>
+<person name="Liebeton K."/>
+<person name="Weiler E.W."/>
+</authorList>
+<dbReference type="PubMed" id="1581560"/>
+<dbReference type="DOI" id="10.1007/bf00019220"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<source>
+<strain>cv. Landsberg erecta</strain>
+<tissue>Leaf</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2000" name="Nature" volume="408" first="823" last="826">
+<title>Sequence and analysis of chromosome 5 of the plant Arabidopsis thaliana.</title>
+<authorList>
+<person name="Tabata S."/>
+<person name="Kaneko T."/>
+<person name="Nakamura Y."/>
+<person name="Kotani H."/>
+<person name="Kato T."/>
+<person name="Asamizu E."/>
+<person name="Miyajima N."/>
+<person name="Sasamoto S."/>
+<person name="Kimura T."/>
+<person name="Hosouchi T."/>
+<person name="Kawashima K."/>
+<person name="Kohara M."/>
+<person name="Matsumoto M."/>
+<person name="Matsuno A."/>
+<person name="Muraki A."/>
+<person name="Nakayama S."/>
+<person name="Nakazaki N."/>
+<person name="Naruo K."/>
+<person name="Okumura S."/>
+<person name="Shinpo S."/>
+<person name="Takeuchi C."/>
+<person name="Wada T."/>
+<person name="Watanabe A."/>
+<person name="Yamada M."/>
+<person name="Yasuda M."/>
+<person name="Sato S."/>
+<person name="de la Bastide M."/>
+<person name="Huang E."/>
+<person name="Spiegel L."/>
+<person name="Gnoj L."/>
+<person name="O'Shaughnessy A."/>
+<person name="Preston R."/>
+<person name="Habermann K."/>
+<person name="Murray J."/>
+<person name="Johnson D."/>
+<person name="Rohlfing T."/>
+<person name="Nelson J."/>
+<person name="Stoneking T."/>
+<person name="Pepin K."/>
+<person name="Spieth J."/>
+<person name="Sekhon M."/>
+<person name="Armstrong J."/>
+<person name="Becker M."/>
+<person name="Belter E."/>
+<person name="Cordum H."/>
+<person name="Cordes M."/>
+<person name="Courtney L."/>
+<person name="Courtney W."/>
+<person name="Dante M."/>
+<person name="Du H."/>
+<person name="Edwards J."/>
+<person name="Fryman J."/>
+<person name="Haakensen B."/>
+<person name="Lamar E."/>
+<person name="Latreille P."/>
+<person name="Leonard S."/>
+<person name="Meyer R."/>
+<person name="Mulvaney E."/>
+<person name="Ozersky P."/>
+<person name="Riley A."/>
+<person name="Strowmatt C."/>
+<person name="Wagner-McPherson C."/>
+<person name="Wollam A."/>
+<person name="Yoakum M."/>
+<person name="Bell M."/>
+<person name="Dedhia N."/>
+<person name="Parnell L."/>
+<person name="Shah R."/>
+<person name="Rodriguez M."/>
+<person name="Hoon See L."/>
+<person name="Vil D."/>
+<person name="Baker J."/>
+<person name="Kirchoff K."/>
+<person name="Toth K."/>
+<person name="King L."/>
+<person name="Bahret A."/>
+<person name="Miller B."/>
+<person name="Marra M.A."/>
+<person name="Martienssen R."/>
+<person name="McCombie W.R."/>
+<person name="Wilson R.K."/>
+<person name="Murphy G."/>
+<person name="Bancroft I."/>
+<person name="Volckaert G."/>
+<person name="Wambutt R."/>
+<person name="Duesterhoeft A."/>
+<person name="Stiekema W."/>
+<person name="Pohl T."/>
+<person name="Entian K.-D."/>
+<person name="Terryn N."/>
+<person name="Hartley N."/>
+<person name="Bent E."/>
+<person name="Johnson S."/>
+<person name="Langham S.-A."/>
+<person name="McCullagh B."/>
+<person name="Robben J."/>
+<person name="Grymonprez B."/>
+<person name="Zimmermann W."/>
+<person name="Ramsperger U."/>
+<person name="Wedler H."/>
+<person name="Balke K."/>
+<person name="Wedler E."/>
+<person name="Peters S."/>
+<person name="van Staveren M."/>
+<person name="Dirkse W."/>
+<person name="Mooijman P."/>
+<person name="Klein Lankhorst R."/>
+<person name="Weitzenegger T."/>
+<person name="Bothe G."/>
+<person name="Rose M."/>
+<person name="Hauf J."/>
+<person name="Berneiser S."/>
+<person name="Hempel S."/>
+<person name="Feldpausch M."/>
+<person name="Lamberth S."/>
+<person name="Villarroel R."/>
+<person name="Gielen J."/>
+<person name="Ardiles W."/>
+<person name="Bents O."/>
+<person name="Lemcke K."/>
+<person name="Kolesov G."/>
+<person name="Mayer K.F.X."/>
+<person name="Rudd S."/>
+<person name="Schoof H."/>
+<person name="Schueller C."/>
+<person name="Zaccaria P."/>
+<person name="Mewes H.-W."/>
+<person name="Bevan M."/>
+<person name="Fransz P.F."/>
+</authorList>
+<dbReference type="PubMed" id="11130714"/>
+<dbReference type="DOI" id="10.1038/35048507"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>cv. Columbia</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2017" name="Plant J." volume="89" first="789" last="804">
+<title>Araport11: a complete reannotation of the Arabidopsis thaliana reference genome.</title>
+<authorList>
+<person name="Cheng C.Y."/>
+<person name="Krishnakumar V."/>
+<person name="Chan A.P."/>
+<person name="Thibaud-Nissen F."/>
+<person name="Schobel S."/>
+<person name="Town C.D."/>
+</authorList>
+<dbReference type="PubMed" id="27862469"/>
+<dbReference type="DOI" id="10.1111/tpj.13415"/>
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain>cv. Columbia</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2002" name="Science" volume="296" first="141" last="145">
+<title>Functional annotation of a full-length Arabidopsis cDNA collection.</title>
+<authorList>
+<person name="Seki M."/>
+<person name="Narusaka M."/>
+<person name="Kamiya A."/>
+<person name="Ishida J."/>
+<person name="Satou M."/>
+<person name="Sakurai T."/>
+<person name="Nakajima M."/>
+<person name="Enju A."/>
+<person name="Akiyama K."/>
+<person name="Oono Y."/>
+<person name="Muramatsu M."/>
+<person name="Hayashizaki Y."/>
+<person name="Kawai J."/>
+<person name="Carninci P."/>
+<person name="Itoh M."/>
+<person name="Ishii Y."/>
+<person name="Arakawa T."/>
+<person name="Shibata K."/>
+<person name="Shinagawa A."/>
+<person name="Shinozaki K."/>
+</authorList>
+<dbReference type="PubMed" id="11910074"/>
+<dbReference type="DOI" id="10.1126/science.1071006"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<strain>cv. Columbia</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="submission" date="2002-03" db="EMBL/GenBank/DDBJ databases">
+<title>Full-length cDNA from Arabidopsis thaliana.</title>
+<authorList>
+<person name="Brover V.V."/>
+<person name="Troukhan M.E."/>
+<person name="Alexandrov N.A."/>
+<person name="Lu Y.-P."/>
+<person name="Flavell R.B."/>
+<person name="Feldmann K.A."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="1996" name="Plant J." volume="9" first="101" last="124">
+<title>Further progress towards a catalogue of all Arabidopsis genes: analysis of a set of 5000 non-redundant ESTs.</title>
+<authorList>
+<person name="Cooke R."/>
+<person name="Raynal M."/>
+<person name="Laudie M."/>
+<person name="Grellet F."/>
+<person name="Delseny M."/>
+<person name="Morris P.-C."/>
+<person name="Guerrier D."/>
+<person name="Giraudat J."/>
+<person name="Quigley F."/>
+<person name="Clabault G."/>
+<person name="Li Y.-F."/>
+<person name="Mache R."/>
+<person name="Krivitzky M."/>
+<person name="Gy I.J.-J."/>
+<person name="Kreis M."/>
+<person name="Lecharny A."/>
+<person name="Parmentier Y."/>
+<person name="Marbach J."/>
+<person name="Fleck J."/>
+<person name="Clement B."/>
+<person name="Philipps G."/>
+<person name="Herve C."/>
+<person name="Bardet C."/>
+<person name="Tremousaygue D."/>
+<person name="Lescure B."/>
+<person name="Lacomme C."/>
+<person name="Roby D."/>
+<person name="Jourjon M.-F."/>
+<person name="Chabrier P."/>
+<person name="Charpenteau J.-L."/>
+<person name="Desprez T."/>
+<person name="Amselem J."/>
+<person name="Chiapello H."/>
+<person name="Hoefte H."/>
+</authorList>
+<dbReference type="PubMed" id="8580968"/>
+<dbReference type="DOI" id="10.1046/j.1365-313x.1996.09010101.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 1-90</scope>
+<source>
+<strain>cv. Columbia</strain>
+<tissue>Dry seed</tissue>
+</source>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2001" name="Plant J." volume="27" first="407" last="415">
+<title>At-HSP17.6A, encoding a small heat-shock protein in Arabidopsis, can enhance osmotolerance upon overexpression.</title>
+<authorList>
+<person name="Sun W."/>
+<person name="Bernard C."/>
+<person name="van de Cotte B."/>
+<person name="Van Montagu M."/>
+<person name="Verbruggen N."/>
+</authorList>
+<dbReference type="PubMed" id="11576425"/>
+<dbReference type="DOI" id="10.1046/j.1365-313x.2001.01107.x"/>
+</citation>
+<scope>DEVELOPMENTAL STAGE</scope>
+<scope>INDUCTION</scope>
+</reference>
+<comment type="subunit">
+<text>May form oligomeric structures.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="developmental stage">
+<text evidence="2">Expressed in seeds from 1 to 4 days after imbibition.</text>
+</comment>
+<comment type="induction">
+<text evidence="2">By heat shock.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the small heat shock protein (HSP20) family.</text>
+</comment>
+<comment type="sequence caution" evidence="3">
+<conflict type="frameshift">
+<sequence resource="EMBL-CDS" id="BAC43441" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EMBL" id="X63443">
+<property type="protein sequence ID" value="CAA45039.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AL163812">
+<property type="protein sequence ID" value="CAB87675.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CP002688">
+<property type="protein sequence ID" value="AED91751.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AK118853">
+<property type="protein sequence ID" value="BAC43441.1"/>
+<property type="status" value="ALT_FRAME"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY086235">
+<property type="protein sequence ID" value="AAM64311.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="Z46682">
+<property type="protein sequence ID" value="CAA86670.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="PIR" id="S20871">
+<property type="entry name" value="HHMU17"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_196763.1">
+<property type="nucleotide sequence ID" value="NM_121240.3"/>
+</dbReference>
+<dbReference type="SMR" id="P29830"/>
+<dbReference type="STRING" id="3702.AT5G12020.1"/>
+<dbReference type="PaxDb" id="P29830"/>
+<dbReference type="PRIDE" id="P29830"/>
+<dbReference type="ProteomicsDB" id="232101"/>
+<dbReference type="EnsemblPlants" id="AT5G12020.1">
+<property type="protein sequence ID" value="AT5G12020.1"/>
+<property type="gene ID" value="AT5G12020"/>
+</dbReference>
+<dbReference type="GeneID" id="831075"/>
+<dbReference type="Gramene" id="AT5G12020.1">
+<property type="protein sequence ID" value="AT5G12020.1"/>
+<property type="gene ID" value="AT5G12020"/>
+</dbReference>
+<dbReference type="KEGG" id="ath:AT5G12020"/>
+<dbReference type="Araport" id="AT5G12020"/>
+<dbReference type="TAIR" id="locus:2143109">
+<property type="gene designation" value="AT5G12020"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG0710">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_046737_5_1_1"/>
+<dbReference type="InParanoid" id="P29830"/>
+<dbReference type="KO" id="K13993"/>
+<dbReference type="OMA" id="HNEKTRN"/>
+<dbReference type="OrthoDB" id="1187096at2759"/>
+<dbReference type="PhylomeDB" id="P29830"/>
+<dbReference type="PRO" id="PR:P29830"/>
+<dbReference type="Proteomes" id="UP000006548">
+<property type="component" value="Chromosome 5"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="P29830">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="P29830">
+<property type="organism ID" value="AT"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043621">
+<property type="term" value="F:protein self-association"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051082">
+<property type="term" value="F:unfolded protein binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071456">
+<property type="term" value="P:cellular response to hypoxia"/>
+<property type="evidence" value="ECO:0007007"/>
+<property type="project" value="TAIR"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051259">
+<property type="term" value="P:protein complex oligomerization"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006457">
+<property type="term" value="P:protein folding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009408">
+<property type="term" value="P:response to heat"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042542">
+<property type="term" value="P:response to hydrogen peroxide"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000302">
+<property type="term" value="P:response to reactive oxygen species"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009651">
+<property type="term" value="P:response to salt stress"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.790">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002068">
+<property type="entry name" value="A-crystallin/Hsp20_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR031107">
+<property type="entry name" value="HSP20"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008978">
+<property type="entry name" value="HSP20-like_chaperone"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR11527">
+<property type="entry name" value="PTHR11527"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00011">
+<property type="entry name" value="HSP20"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF49764">
+<property type="entry name" value="SSF49764"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01031">
+<property type="entry name" value="SHSP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0346">Stress response</keyword>
+<feature type="chain" description="17.6 kDa class II heat shock protein" id="PRO_0000125991">
+<location>
+<begin position="1"/>
+<end position="155"/>
+</location>
+</feature>
+<feature type="domain" description="sHSP" evidence="1">
+<location>
+<begin position="38"/>
+<end position="155"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00285"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11576425"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="155" mass="17623" checksum="6590ACD7064930B9" modified="1993-04-01" version="1">MDLGRFPIISILEDMLEVPEDHNNEKTRNNPSRVYMRDAKAMAATPADVIEHPNAYAFVVDMPGIKGDEIKVQVENDNVLVVSGERQRENKENEGVKYVRMERRMGKFMRKFQLPENADLDKISAVCHDGVLKVTVQKLPPPEPKKPKTIQVQVA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

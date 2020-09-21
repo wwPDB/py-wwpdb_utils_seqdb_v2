@@ -1,0 +1,617 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1991-08-01" modified="2020-08-12" version="155">
+<accession>P22868</accession>
+<accession>Q609N2</accession>
+<name>MMOC_METCA</name>
+<protein>
+<recommendedName>
+<fullName>Methane monooxygenase component C</fullName>
+<ecNumber>1.14.13.25</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Methane hydroxylase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Methane monooxygenase reductase</fullName>
+<shortName>MMOR</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">mmoC</name>
+<name type="ordered locus">MCA1200</name>
+</gene>
+<organism>
+<name type="scientific">Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath)</name>
+<dbReference type="NCBI Taxonomy" id="243233"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Methylococcales</taxon>
+<taxon>Methylococcaceae</taxon>
+<taxon>Methylococcus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1990" name="Gene" volume="91" first="27" last="34">
+<title>The methane monooxygenase gene cluster of Methylococcus capsulatus (Bath).</title>
+<authorList>
+<person name="Stainthorpe A.C."/>
+<person name="Lees V."/>
+<person name="Salmond G.P.C."/>
+<person name="Dalton H."/>
+<person name="Murrell J.C."/>
+</authorList>
+<dbReference type="PubMed" id="2205538"/>
+<dbReference type="DOI" id="10.1016/0378-1119(90)90158-n"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>PROTEIN SEQUENCE OF 1-16</scope>
+<source>
+<strain>ATCC 33009 / NCIMB 11132 / Bath</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="submission" date="2000-05" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="McDonald I."/>
+<person name="Murrell J.C."/>
+</authorList>
+</citation>
+<scope>SEQUENCE REVISION TO 254</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2004" name="PLoS Biol." volume="2" first="1616" last="1628">
+<title>Genomic insights into methanotrophy: the complete genome sequence of Methylococcus capsulatus (Bath).</title>
+<authorList>
+<person name="Ward N.L."/>
+<person name="Larsen O."/>
+<person name="Sakwa J."/>
+<person name="Bruseth L."/>
+<person name="Khouri H.M."/>
+<person name="Durkin A.S."/>
+<person name="Dimitrov G."/>
+<person name="Jiang L."/>
+<person name="Scanlan D."/>
+<person name="Kang K.H."/>
+<person name="Lewis M.R."/>
+<person name="Nelson K.E."/>
+<person name="Methe B.A."/>
+<person name="Wu M."/>
+<person name="Heidelberg J.F."/>
+<person name="Paulsen I.T."/>
+<person name="Fouts D.E."/>
+<person name="Ravel J."/>
+<person name="Tettelin H."/>
+<person name="Ren Q."/>
+<person name="Read T.D."/>
+<person name="DeBoy R.T."/>
+<person name="Seshadri R."/>
+<person name="Salzberg S.L."/>
+<person name="Jensen H.B."/>
+<person name="Birkeland N.K."/>
+<person name="Nelson W.C."/>
+<person name="Dodson R.J."/>
+<person name="Grindhaug S.H."/>
+<person name="Holt I.E."/>
+<person name="Eidhammer I."/>
+<person name="Jonasen I."/>
+<person name="Vanaken S."/>
+<person name="Utterback T.R."/>
+<person name="Feldblyum T.V."/>
+<person name="Fraser C.M."/>
+<person name="Lillehaug J.R."/>
+<person name="Eisen J.A."/>
+</authorList>
+<dbReference type="PubMed" id="15383840"/>
+<dbReference type="DOI" id="10.1371/journal.pbio.0020303"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 33009 / NCIMB 11132 / Bath</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2002" name="Biochemistry" volume="41" first="42" last="51">
+<title>NMR structure of the [2Fe-2S] ferredoxin domain from soluble methane monooxygenase reductase and interaction with its hydroxylase.</title>
+<authorList>
+<person name="Mueller J."/>
+<person name="Lugovskoy A.A."/>
+<person name="Wagner G."/>
+<person name="Lippard S.J."/>
+</authorList>
+<dbReference type="PubMed" id="11772001"/>
+<dbReference type="DOI" id="10.1021/bi015668k"/>
+</citation>
+<scope>STRUCTURE BY NMR</scope>
+<source>
+<strain>ATCC 33009 / NCIMB 11132 / Bath</strain>
+</source>
+</reference>
+<comment type="function">
+<text>Responsible for the initial oxygenation of methane to methanol in methanotrophs. It also catalyzes the monohydroxylation of a variety of unactivated alkenes, alicyclic, aromatic and heterocyclic compounds. The component C is the iron-sulfur flavoprotein of sMMO.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>H(+) + methane + NADH + O2 = H2O + methanol + NAD(+)</text>
+<dbReference type="Rhea" id="RHEA:13637"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15379"/>
+<dbReference type="ChEBI" id="CHEBI:16183"/>
+<dbReference type="ChEBI" id="CHEBI:17790"/>
+<dbReference type="ChEBI" id="CHEBI:57540"/>
+<dbReference type="ChEBI" id="CHEBI:57945"/>
+<dbReference type="EC" id="1.14.13.25"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>H(+) + methane + NADPH + O2 = H2O + methanol + NADP(+)</text>
+<dbReference type="Rhea" id="RHEA:13641"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15379"/>
+<dbReference type="ChEBI" id="CHEBI:16183"/>
+<dbReference type="ChEBI" id="CHEBI:17790"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+<dbReference type="EC" id="1.14.13.25"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor>
+<name>[2Fe-2S] cluster</name>
+<dbReference type="ChEBI" id="CHEBI:49601"/>
+</cofactor>
+<text>Binds 1 [2Fe-2S] cluster.</text>
+</comment>
+<comment type="subunit">
+<text>The soluble methane monooxygenase (sMMO) consists of four components A/MMOH (composed of alpha/MmoX, beta/MmoY and gamma/MmoZ), B/MMOB (MmoB), C/MMOR (MmoC) and D/MMOD (MmoD).</text>
+</comment>
+<dbReference type="EC" id="1.14.13.25"/>
+<dbReference type="EMBL" id="M90050">
+<property type="protein sequence ID" value="AAB62391.2"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE017282">
+<property type="protein sequence ID" value="AAU92722.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="JQ0701">
+<property type="entry name" value="JQ0701"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010960487.1">
+<property type="nucleotide sequence ID" value="NC_002977.6"/>
+</dbReference>
+<dbReference type="PDB" id="1JQ4">
+<property type="method" value="NMR"/>
+<property type="chains" value="A=1-98"/>
+</dbReference>
+<dbReference type="PDB" id="1TVC">
+<property type="method" value="NMR"/>
+<property type="chains" value="A=99-348"/>
+</dbReference>
+<dbReference type="PDBsum" id="1JQ4"/>
+<dbReference type="PDBsum" id="1TVC"/>
+<dbReference type="SMR" id="P22868"/>
+<dbReference type="STRING" id="243233.MCA1200"/>
+<dbReference type="EnsemblBacteria" id="AAU92722">
+<property type="protein sequence ID" value="AAU92722"/>
+<property type="gene ID" value="MCA1200"/>
+</dbReference>
+<dbReference type="KEGG" id="mca:MCA1200"/>
+<dbReference type="eggNOG" id="COG0543">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG0633">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_003827_7_0_6"/>
+<dbReference type="KO" id="K16161"/>
+<dbReference type="OMA" id="CGTCKCH"/>
+<dbReference type="OrthoDB" id="1834577at2"/>
+<dbReference type="BioCyc" id="MCAP243233:G1G0X-1200-MONOMER"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-3864"/>
+<dbReference type="EvolutionaryTrace" id="P22868"/>
+<dbReference type="Proteomes" id="UP000006821">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051537">
+<property type="term" value="F:2 iron, 2 sulfur cluster binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009055">
+<property type="term" value="F:electron transfer activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015049">
+<property type="term" value="F:methane monooxygenase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006730">
+<property type="term" value="P:one-carbon metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="CDD" id="cd00207">
+<property type="entry name" value="fer2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="DisProt" id="DP00379"/>
+<dbReference type="Gene3D" id="3.10.20.30">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.80">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036010">
+<property type="entry name" value="2Fe-2S_ferredoxin-like_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001041">
+<property type="entry name" value="2Fe-2S_ferredoxin-type"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006058">
+<property type="entry name" value="2Fe2S_fd_BS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012675">
+<property type="entry name" value="Beta-grasp_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008333">
+<property type="entry name" value="Cbr1-like_FAD-bd_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017927">
+<property type="entry name" value="FAD-bd_FR_type"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001709">
+<property type="entry name" value="Flavoprot_Pyr_Nucl_cyt_Rdtase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR039261">
+<property type="entry name" value="FNR_nucleotide-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001433">
+<property type="entry name" value="OxRdtase_FAD/NAD-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017938">
+<property type="entry name" value="Riboflavin_synthase-like_b-brl"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00970">
+<property type="entry name" value="FAD_binding_6"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00111">
+<property type="entry name" value="Fer2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00175">
+<property type="entry name" value="NAD_binding_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00371">
+<property type="entry name" value="FPNCR"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52343">
+<property type="entry name" value="SSF52343"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54292">
+<property type="entry name" value="SSF54292"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF63380">
+<property type="entry name" value="SSF63380"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00197">
+<property type="entry name" value="2FE2S_FER_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51085">
+<property type="entry name" value="2FE2S_FER_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51384">
+<property type="entry name" value="FAD_FR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0001">2Fe-2S</keyword>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0249">Electron transport</keyword>
+<keyword id="KW-0274">FAD</keyword>
+<keyword id="KW-0285">Flavoprotein</keyword>
+<keyword id="KW-0408">Iron</keyword>
+<keyword id="KW-0411">Iron-sulfur</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0503">Monooxygenase</keyword>
+<keyword id="KW-0521">NADP</keyword>
+<keyword id="KW-0554">One-carbon metabolism</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="chain" description="Methane monooxygenase component C" id="PRO_0000189408">
+<location>
+<begin position="1"/>
+<end position="348"/>
+</location>
+</feature>
+<feature type="domain" description="2Fe-2S ferredoxin-type" evidence="4">
+<location>
+<begin position="5"/>
+<end position="98"/>
+</location>
+</feature>
+<feature type="domain" description="FAD-binding FR-type" evidence="5">
+<location>
+<begin position="106"/>
+<end position="211"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="FAD" evidence="3">
+<location>
+<begin position="221"/>
+<end position="235"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (2Fe-2S)">
+<location>
+<position position="42"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (2Fe-2S)">
+<location>
+<position position="47"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (2Fe-2S)">
+<location>
+<position position="50"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (2Fe-2S)">
+<location>
+<position position="82"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="4"/>
+<end position="11"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="12"/>
+<end position="14"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="15"/>
+<end position="23"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="27"/>
+<end position="34"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="54"/>
+<end position="56"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="66"/>
+<end position="68"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="71"/>
+<end position="77"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="81"/>
+<end position="83"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="90"/>
+<end position="93"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="106"/>
+<end position="113"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="117"/>
+<end position="120"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="123"/>
+<end position="128"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="134"/>
+<end position="138"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="147"/>
+<end position="150"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="156"/>
+<end position="161"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="167"/>
+<end position="170"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="173"/>
+<end position="177"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="183"/>
+<end position="185"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="186"/>
+<end position="192"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="193"/>
+<end position="205"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="214"/>
+<end position="216"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="218"/>
+<end position="225"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="228"/>
+<end position="240"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="246"/>
+<end position="251"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="253"/>
+<end position="255"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="261"/>
+<end position="270"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="271"/>
+<end position="273"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="275"/>
+<end position="278"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="288"/>
+<end position="295"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="296"/>
+<end position="304"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="305"/>
+<end position="316"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="317"/>
+<end position="330"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="335"/>
+<end position="339"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="343"/>
+<end position="345"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1JQ4"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1TVC"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000250"/>
+<evidence key="4" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00465"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00716"/>
+</source>
+</evidence>
+<sequence length="348" mass="38542" checksum="7577BEB408CA1C1F" modified="2001-09-26" version="2">MQRVHTITAVTEDGESLRFECRSDEDVITAALRQNIFLMSSCREGGCATCKALCSEGDYDLKGCSVQALPPEEEEEGLVLLCRTYPKTDLEIELPYTHCRISFGEVGSFEAEVVGLNWVSSNTVQFLLQKRPDECGNRGVKFEPGQFMDLTIPGTDVSRSYSPANLPNPEGRLEFLIRVLPEGRFSDYLRNDARVGQVLSVKGPLGVFGLKERGMAPRYFVAGGTGLAPVVSMVRQMQEWTAPNETRIYFGVNTEPELFYIDELKSLERSMRNLTVKACVWHPSGDWEGEQGSPIDALREDLESSDANPDIYLCGPPGMIDAACELVRSRGIPGEQVFFEKFLPSGAA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

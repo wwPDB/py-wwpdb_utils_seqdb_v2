@@ -2,3 +2,4 @@ mmcif
 mmcif.utils
 wwpdb.utils.config
 requests
+requests-mock

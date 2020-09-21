@@ -1,0 +1,564 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="138">
+<accession>P29603</accession>
+<name>FER_PYRFU</name>
+<protein>
+<recommendedName>
+<fullName>Ferredoxin</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">fdxA</name>
+<name type="ordered locus">PF1909</name>
+</gene>
+<organism>
+<name type="scientific">Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1)</name>
+<dbReference type="NCBI Taxonomy" id="186497"/>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+<taxon>Pyrococcus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1994" name="J. Bacteriol." volume="176" first="4790" last="4793">
+<title>Cloning, expression, and molecular characterization of the gene encoding an extremely thermostable [4Fe-4S] ferredoxin from the hyperthermophilic archaeon Pyrococcus furiosus.</title>
+<authorList>
+<person name="Heltzel A."/>
+<person name="Smith E.T."/>
+<person name="Zhou Z.H."/>
+<person name="Blamey J.M."/>
+<person name="Adams M.W.W."/>
+</authorList>
+<dbReference type="PubMed" id="8045914"/>
+<dbReference type="DOI" id="10.1128/jb.176.15.4790-4793.1994"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 43587 / DSM 3638 / JCM 8422 / Vc1</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1999" name="Genetics" volume="152" first="1299" last="1305">
+<title>Divergence of the hyperthermophilic archaea Pyrococcus furiosus and P. horikoshii inferred from complete genomic sequences.</title>
+<authorList>
+<person name="Maeder D.L."/>
+<person name="Weiss R.B."/>
+<person name="Dunn D.M."/>
+<person name="Cherry J.L."/>
+<person name="Gonzalez J.M."/>
+<person name="DiRuggiero J."/>
+<person name="Robb F.T."/>
+</authorList>
+<dbReference type="PubMed" id="10430560"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 43587 / DSM 3638 / JCM 8422 / Vc1</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1997" name="Biochemistry" volume="36" first="10892" last="10900">
+<title>Site-directed mutations of the 4Fe-ferredoxin from the hyperthermophilic archaeon Pyrococcus furiosus: role of the cluster-coordinating aspartate in physiological electron transfer reactions.</title>
+<authorList>
+<person name="Zhou Z.H."/>
+<person name="Adams M.W.W."/>
+</authorList>
+<dbReference type="PubMed" id="9283079"/>
+<dbReference type="DOI" id="10.1021/bi9708141"/>
+</citation>
+<scope>MUTAGENESIS OF ASP-15</scope>
+<scope>CIRCULAR DICHROISM ANALYSIS</scope>
+<scope>EPR SPECTROSCOPY</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1998" name="J. Am. Chem. Soc." volume="120" first="8525" last="8526">
+<title>Spectroscopic evidence for a new type of [Fe3S4] cluster in a mutant form of Pyrococcus furiosus ferredoxin.</title>
+<authorList>
+<person name="Duderstadt R.E."/>
+<person name="Brereton P.S."/>
+<person name="Adams M.W.W."/>
+<person name="Johnson M.K."/>
+</authorList>
+</citation>
+<scope>MUTAGENESIS OF ALA-34</scope>
+<scope>MAGNETIC CIRCULAR DICHROISM</scope>
+<scope>EPR SPECTROSCOPY</scope>
+<scope>RESONANCE RAMAN SPECTROSCOPY OF (3FE--4S) FORM</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1999" name="Biochemistry" volume="38" first="10594" last="10605">
+<title>Effect of serinate ligation at each of the iron sites of the [Fe4S4] cluster of Pyrococcus furiosus ferredoxin on the redox, spectroscopic, and biological properties.</title>
+<authorList>
+<person name="Brereton P.S."/>
+<person name="Duderstadt R.E."/>
+<person name="Staples C.R."/>
+<person name="Johnson M.K."/>
+<person name="Adams M.W.W."/>
+</authorList>
+<dbReference type="PubMed" id="10441157"/>
+<dbReference type="DOI" id="10.1021/bi990671d"/>
+</citation>
+<scope>MUTAGENESIS OF CYSTEINE RESIDUES</scope>
+<scope>MAGNETIC CIRCULAR DICHROISM</scope>
+<scope>EPR SPECTROSCOPY</scope>
+<scope>RESONANCE RAMAN SPECTROSCOPY</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="1999" name="FEBS Lett." volume="454" first="21" last="26">
+<title>A pure S=3/2 [Fe4S4]+ cluster in the A33Y variant of Pyrococcus furiosus ferredoxin.</title>
+<authorList>
+<person name="Duderstadt R.E."/>
+<person name="Brereton P.S."/>
+<person name="Adams M.W.W."/>
+<person name="Johnson M.K."/>
+</authorList>
+<dbReference type="PubMed" id="10413088"/>
+<dbReference type="DOI" id="10.1016/s0014-5793(99)00766-8"/>
+</citation>
+<scope>MUTAGENESIS OF ALA-34</scope>
+<scope>MAGNETIC CIRCULAR DICHROISM</scope>
+<scope>EPR SPECTROSCOPY</scope>
+<scope>RESONANCE RAMAN SPECTROSCOPY</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="1992" name="Biochemistry" volume="31" first="11952" last="11962">
+<title>Proton NMR investigation of the oxidized three-iron clusters in the ferredoxins from the hyperthermophilic archae Pyrococcus furiosus and Thermococcus litoralis.</title>
+<authorList>
+<person name="Busse S.C."/>
+<person name="la Mar G.N."/>
+<person name="Yu L.P."/>
+<person name="Howard J.B."/>
+<person name="Smith E.T."/>
+<person name="Zhou Z.H."/>
+<person name="Adams M.W.W."/>
+</authorList>
+<dbReference type="PubMed" id="1445925"/>
+<dbReference type="DOI" id="10.1021/bi00162a038"/>
+</citation>
+<scope>STRUCTURE BY NMR</scope>
+</reference>
+<reference key="8">
+<citation type="journal article" date="1994" name="Biochemistry" volume="33" first="6316" last="6326">
+<title>Solution 1H NMR determination of secondary structure for the three-iron form of ferredoxin from the hyperthermophilic archaeon Pyrococcus furiosus.</title>
+<authorList>
+<person name="Teng Q."/>
+<person name="Zhou Z.H."/>
+<person name="Smith E.T."/>
+<person name="Busse S.C."/>
+<person name="Howard J.B."/>
+<person name="Adams M.W.W."/>
+<person name="La Mar G.N."/>
+</authorList>
+<dbReference type="PubMed" id="8193147"/>
+<dbReference type="DOI" id="10.1021/bi00186a035"/>
+</citation>
+<scope>STRUCTURE BY NMR OF 3FE--4S FORM</scope>
+</reference>
+<reference key="9">
+<citation type="journal article" date="1995" name="Biochemistry" volume="34" first="11373" last="11384">
+<title>1H NMR investigation of the electronic and molecular structure of the four-iron cluster ferredoxin from the hyperthermophile Pyrococcus furiosus. Identification of Asp 14 as a cluster ligand in each of the four redox states.</title>
+<authorList>
+<person name="Calzolai L."/>
+<person name="Gorst C.M."/>
+<person name="Zhou Z.H."/>
+<person name="Teng Q."/>
+<person name="Adams M.W.W."/>
+<person name="La Mar G.N."/>
+</authorList>
+<dbReference type="PubMed" id="7547865"/>
+<dbReference type="DOI" id="10.1021/bi00036a010"/>
+</citation>
+<scope>STRUCTURE BY NMR</scope>
+</reference>
+<reference key="10">
+<citation type="journal article" date="1995" name="Biochemistry" volume="34" first="600" last="610">
+<title>1H NMR investigation of the paramagnetic cluster environment in Pyrococcus furiosus three-iron ferredoxin: sequence-specific assignment of ligated cysteines independent of tertiary structure.</title>
+<authorList>
+<person name="Gorst C.M."/>
+<person name="Yeh Y.-H."/>
+<person name="Teng Q."/>
+<person name="Calzolai L."/>
+<person name="Zhou Z.H."/>
+<person name="Adams M.W.W."/>
+<person name="La Mar G.N."/>
+</authorList>
+<dbReference type="PubMed" id="7819255"/>
+<dbReference type="DOI" id="10.1021/bi00002a027"/>
+</citation>
+<scope>STRUCTURE BY NMR OF 3FE--4S FORM</scope>
+</reference>
+<reference key="11">
+<citation type="journal article" date="1995" name="Biochemistry" volume="34" first="8788" last="8795">
+<title>Participation of the disulfide bridge in the redox cycle of the ferredoxin from the hyperthermophile Pyrococcus furiosus: 1H nuclear magnetic resonance time resolution of the four redox states at ambient temperature.</title>
+<authorList>
+<person name="Gorst C.M."/>
+<person name="Zhou Z.H."/>
+<person name="Teng Q."/>
+<person name="Howard J.B."/>
+<person name="Adams M.W.W."/>
+<person name="La Mar G.N."/>
+</authorList>
+<dbReference type="PubMed" id="7612619"/>
+<dbReference type="DOI" id="10.1021/bi00027a030"/>
+</citation>
+<scope>STRUCTURE BY NMR</scope>
+<scope>DISULFIDE BOND</scope>
+</reference>
+<reference key="12">
+<citation type="journal article" date="1996" name="J. Am. Chem. Soc." volume="118" first="2513" last="2514">
+<title>Role of cluster-ligated aspartate in gating electron transfer in the four-iron ferredoxin from the hyperthermophilic archaeon Pyrococcus furiosus.</title>
+<authorList>
+<person name="Calzolai L."/>
+<person name="Zhou Z.H."/>
+<person name="Adams M.W.W."/>
+<person name="La Mar G.N."/>
+</authorList>
+</citation>
+<scope>STRUCTURE BY NMR</scope>
+<scope>MUTAGENESIS OF ASP-15</scope>
+</reference>
+<reference key="13">
+<citation type="journal article" date="1997" name="J. Am. Chem. Soc." volume="119" first="9341" last="9350">
+<title>Solution NMR study of the electronic structure and magnetic properties of cluster ligation mutants of the four-iron ferredoxin from the hyperthermophilic archaeon Pyrococcus furiosus.</title>
+<authorList>
+<person name="Calzolai L."/>
+<person name="Gorst C.M."/>
+<person name="Bren K.L."/>
+<person name="Zhou Z.H."/>
+<person name="Adams M.W.W."/>
+<person name="La Mar G.N."/>
+</authorList>
+</citation>
+<scope>STRUCTURE BY NMR</scope>
+<scope>MUTAGENESIS OF ASP-15</scope>
+</reference>
+<reference key="14">
+<citation type="journal article" date="2001" name="Biochemistry" volume="40" first="12575" last="12583">
+<title>Solution NMR characterization of the thermodynamics of the disulfide bond orientational isomerism and its effect of cluster electronic properties for the hyperthermostable three-iron cluster ferredoxin from the archaeon Pyrococcus furiosus.</title>
+<authorList>
+<person name="Webba da Silva M."/>
+<person name="Sham S."/>
+<person name="Gorst C.M."/>
+<person name="Calzolai L."/>
+<person name="Brereton P.S."/>
+<person name="Adams M.W.W."/>
+<person name="La Mar G.N."/>
+</authorList>
+<dbReference type="PubMed" id="11601981"/>
+<dbReference type="DOI" id="10.1021/bi0106179"/>
+</citation>
+<scope>STRUCTURE BY NMR OF 3FE--4S FORM</scope>
+</reference>
+<reference key="15">
+<citation type="journal article" date="2004" name="Biochemistry" volume="43" first="5188" last="5194">
+<title>The 1.5 A resolution crystal structure of [Fe3S4]-ferredoxin from the hyperthermophilic archaeon Pyrococcus furiosus.</title>
+<authorList>
+<person name="Nielsen M.S."/>
+<person name="Harris P."/>
+<person name="Ooi B.L."/>
+<person name="Christensen H.E."/>
+</authorList>
+<dbReference type="PubMed" id="15122884"/>
+<dbReference type="DOI" id="10.1021/bi049942x"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.5 ANGSTROMS) IN COMPLEX WITH IRON-SULFUR CLUSTER</scope>
+<scope>SUBUNIT</scope>
+</reference>
+<comment type="function">
+<text>Ferredoxins are iron-sulfur proteins that transfer electrons in a wide variety of metabolic reactions.</text>
+</comment>
+<comment type="cofactor">
+<cofactor>
+<name>[4Fe-4S] cluster</name>
+<dbReference type="ChEBI" id="CHEBI:49883"/>
+</cofactor>
+<cofactor>
+<name>[3Fe-4S] cluster</name>
+<dbReference type="ChEBI" id="CHEBI:21137"/>
+</cofactor>
+<text>Binds 1 [4Fe-4S] cluster which readily converts to a stable [3Fe-4S] form.</text>
+</comment>
+<comment type="subunit">
+<text evidence="10">Homodimer.</text>
+</comment>
+<dbReference type="EMBL" id="X79502">
+<property type="protein sequence ID" value="CAA56040.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE009950">
+<property type="protein sequence ID" value="AAL82033.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="A44203">
+<property type="entry name" value="A44203"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_011013049.1">
+<property type="nucleotide sequence ID" value="NZ_CP023154.1"/>
+</dbReference>
+<dbReference type="PDB" id="1SIZ">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.25"/>
+<property type="chains" value="A/C=2-67"/>
+</dbReference>
+<dbReference type="PDB" id="1SJ1">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.50"/>
+<property type="chains" value="A/B=2-67"/>
+</dbReference>
+<dbReference type="PDB" id="2Z8Q">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.70"/>
+<property type="chains" value="A/B=2-67"/>
+</dbReference>
+<dbReference type="PDB" id="3PNI">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.80"/>
+<property type="chains" value="A/B=2-67"/>
+</dbReference>
+<dbReference type="PDB" id="4DHV">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.95"/>
+<property type="chains" value="A/B=2-67"/>
+</dbReference>
+<dbReference type="PDBsum" id="1SIZ"/>
+<dbReference type="PDBsum" id="1SJ1"/>
+<dbReference type="PDBsum" id="2Z8Q"/>
+<dbReference type="PDBsum" id="3PNI"/>
+<dbReference type="PDBsum" id="4DHV"/>
+<dbReference type="SMR" id="P29603"/>
+<dbReference type="STRING" id="186497.PF1909"/>
+<dbReference type="PRIDE" id="P29603"/>
+<dbReference type="EnsemblBacteria" id="AAL82033">
+<property type="protein sequence ID" value="AAL82033"/>
+<property type="gene ID" value="PF1909"/>
+</dbReference>
+<dbReference type="GeneID" id="41713730"/>
+<dbReference type="KEGG" id="pfu:PF1909"/>
+<dbReference type="PATRIC" id="fig|186497.12.peg.1980"/>
+<dbReference type="eggNOG" id="arCOG00349">
+<property type="taxonomic scope" value="Archaea"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_139698_6_4_2"/>
+<dbReference type="KO" id="K05337"/>
+<dbReference type="OMA" id="DVFEMND"/>
+<dbReference type="OrthoDB" id="111853at2157"/>
+<dbReference type="BioCyc" id="PFUR186497:G1FZR-1969-MONOMER"/>
+<dbReference type="EvolutionaryTrace" id="P29603"/>
+<dbReference type="Proteomes" id="UP000001013">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051538">
+<property type="term" value="F:3 iron, 4 sulfur cluster binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051539">
+<property type="term" value="F:4 iron, 4 sulfur cluster binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009055">
+<property type="term" value="F:electron transfer activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005506">
+<property type="term" value="F:iron ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001080">
+<property type="entry name" value="3Fe4S_ferredoxin"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017896">
+<property type="entry name" value="4Fe4S_Fe-S-bd"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00352">
+<property type="entry name" value="3FE4SFRDOXIN"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51379">
+<property type="entry name" value="4FE4S_FER_2"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0003">3Fe-4S</keyword>
+<keyword id="KW-0004">4Fe-4S</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0249">Electron transport</keyword>
+<keyword id="KW-0408">Iron</keyword>
+<keyword id="KW-0411">Iron-sulfur</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="initiator methionine" description="Removed">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Ferredoxin" id="PRO_0000159199">
+<location>
+<begin position="2"/>
+<end position="67"/>
+</location>
+</feature>
+<feature type="domain" description="4Fe-4S ferredoxin-type 1" evidence="2">
+<location>
+<begin position="3"/>
+<end position="31"/>
+</location>
+</feature>
+<feature type="domain" description="4Fe-4S ferredoxin-type 2" evidence="2">
+<location>
+<begin position="36"/>
+<end position="67"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (4Fe-4S)">
+<location>
+<position position="12"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (4Fe-4S)">
+<location>
+<position position="15"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (4Fe-4S)">
+<location>
+<position position="18"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (4Fe-4S)">
+<location>
+<position position="57"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="4 5">
+<location>
+<begin position="22"/>
+<end position="49"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No effect on the efficiency of electron transfer." evidence="6 7 8">
+<original>D</original>
+<variation>C</variation>
+<location>
+<position position="15"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="The efficiency of electron transfer is compromised." evidence="6 7 8">
+<original>D</original>
+<variation>S</variation>
+<location>
+<position position="15"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="The mixed spin cluster is converted into a homogeneous spin cluster (S=3/2)." evidence="3 9">
+<original>A</original>
+<variation>C</variation>
+<location>
+<position position="34"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="3"/>
+<end position="7"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="9"/>
+<end position="11"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="17"/>
+<end position="21"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="23"/>
+<end position="25"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="26"/>
+<end position="28"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="34"/>
+<end position="37"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="44"/>
+<end position="56"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="62"/>
+<end position="66"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1SJ1"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00711"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10413088"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="7612619"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="7819255"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9283079"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source ref="12"/>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source ref="13"/>
+</evidence>
+<evidence key="9" type="ECO:0000269">
+<source ref="4"/>
+</evidence>
+<evidence key="10" type="ECO:0000305"/>
+<sequence length="67" mass="7298" checksum="AF9B062690B34420" modified="2007-01-23" version="2">MAWKVSVDQDTCIGDAICASLCPDVFEMNDEGKAQPKVEVIEDEELYNCAKEAMEACPVSAITIEEA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

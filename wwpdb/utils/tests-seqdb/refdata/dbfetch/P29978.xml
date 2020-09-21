@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="87">
+<accession>P29978</accession>
+<accession>Q44140</accession>
+<name>Y1448_NOSS1</name>
+<protein>
+<recommendedName>
+<fullName>Uncharacterized protein alr1448</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus">alr1448</name>
+</gene>
+<organism>
+<name type="scientific">Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576)</name>
+<dbReference type="NCBI Taxonomy" id="103690"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Cyanobacteria</taxon>
+<taxon>Nostocales</taxon>
+<taxon>Nostocaceae</taxon>
+<taxon>Nostoc</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1990" name="J. Bacteriol." volume="172" first="6981" last="6990">
+<title>Developmental rearrangement of cyanobacterial nif genes: nucleotide sequence, open reading frames, and cytochrome P-450 homology of the Anabaena sp. strain PCC 7120 nifD element.</title>
+<authorList>
+<person name="Lammers P.J."/>
+<person name="McLaughlin S."/>
+<person name="Papin S."/>
+<person name="Trujillo-Provencio C."/>
+<person name="Ryncarz A.J. II"/>
+</authorList>
+<dbReference type="PubMed" id="2123860"/>
+<dbReference type="DOI" id="10.1128/jb.172.12.6981-6990.1990"/>
+</citation>
+<scope>PRELIMINARY NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="2">
+<citation type="submission" date="1995-10" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Lammers P.J."/>
+<person name="Trujillo-Provencio C."/>
+<person name="Sanchez C."/>
+<person name="Carillo M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2001" name="DNA Res." volume="8" first="205" last="213">
+<title>Complete genomic sequence of the filamentous nitrogen-fixing cyanobacterium Anabaena sp. strain PCC 7120.</title>
+<authorList>
+<person name="Kaneko T."/>
+<person name="Nakamura Y."/>
+<person name="Wolk C.P."/>
+<person name="Kuritz T."/>
+<person name="Sasamoto S."/>
+<person name="Watanabe A."/>
+<person name="Iriguchi M."/>
+<person name="Ishikawa A."/>
+<person name="Kawashima K."/>
+<person name="Kimura T."/>
+<person name="Kishida Y."/>
+<person name="Kohara M."/>
+<person name="Matsumoto M."/>
+<person name="Matsuno A."/>
+<person name="Muraki A."/>
+<person name="Nakazaki N."/>
+<person name="Shimpo S."/>
+<person name="Sugimoto M."/>
+<person name="Takazawa M."/>
+<person name="Yamada M."/>
+<person name="Yasuda M."/>
+<person name="Tabata S."/>
+</authorList>
+<dbReference type="PubMed" id="11759840"/>
+<dbReference type="DOI" id="10.1093/dnares/8.5.205"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>PCC 7120 / SAG 25.82 / UTEX 2576</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="U38537">
+<property type="protein sequence ID" value="AAC82965.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BA000019">
+<property type="protein sequence ID" value="BAB73405.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="A37842">
+<property type="entry name" value="A37842"/>
+</dbReference>
+<dbReference type="PIR" id="AE1987">
+<property type="entry name" value="AE1987"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010995620.1">
+<property type="nucleotide sequence ID" value="NZ_RSCN01000040.1"/>
+</dbReference>
+<dbReference type="STRING" id="103690.17130795"/>
+<dbReference type="ESTHER" id="anasp-y1448">
+<property type="family name" value="Duf_900"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="BAB73405">
+<property type="protein sequence ID" value="BAB73405"/>
+<property type="gene ID" value="BAB73405"/>
+</dbReference>
+<dbReference type="KEGG" id="ana:alr1448"/>
+<dbReference type="eggNOG" id="COG4782">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="OMA" id="YMAHYLA"/>
+<dbReference type="OrthoDB" id="1489199at2"/>
+<dbReference type="BioCyc" id="NSP103690:G13AZ-1460-MONOMER"/>
+<dbReference type="Proteomes" id="UP000002483">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009399">
+<property type="term" value="P:nitrogen fixation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029058">
+<property type="entry name" value="AB_hydrolase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR010297">
+<property type="entry name" value="DUF900_hydrolase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF05990">
+<property type="entry name" value="DUF900"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53474">
+<property type="entry name" value="SSF53474"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0535">Nitrogen fixation</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Uncharacterized protein alr1448" id="PRO_0000208892">
+<location>
+<begin position="1"/>
+<end position="384"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAC82965." ref="2" evidence="1">
+<original>I</original>
+<variation>M</variation>
+<location>
+<position position="59"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAC82965." ref="2" evidence="1">
+<original>LKKEAVKHIIIGTHGYNVPFHGALTSFSILADT</original>
+<variation>SKRGVNTLSLALMVTCPFMGINSFRFGRP</variation>
+<location>
+<begin position="71"/>
+<end position="103"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAC82965." ref="2" evidence="1">
+<location>
+<position position="126"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAC82965." ref="2" evidence="1">
+<original>ML</original>
+<variation>YV</variation>
+<location>
+<begin position="194"/>
+<end position="195"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000305"/>
+<sequence length="384" mass="43757" checksum="3394D754F0DD4664" modified="2002-01-23" version="3">MQIRFFATNRDRQNLGLNVDRDTRIKLLKFGYHWVDMKKYMAHYLATTDPSTMPPGVIIEDSEETVFNKFLKKEAVKHIIIGTHGYNVPFHGALTSFSILADTLKGALKKHNFTLIADPEEKIDIDNSNQNLIAFVGFSWPSNGKVLDYNSDRTECVQSAPALANLISYIRTKKPDIKIYVIAHSMGSYLVCHMLEQLVNQAFEPTELNEEIKNRLKRKDRGGENTFFVDRYFMLAPDVERREVTKCDLGGSEYTGPFYSGLEHLVQESHVFYSRYDNALKASVVEKDAIRESLQKGFELFTGPDLQKRWESSLGLNPLPALAPNNVYSHNATVLTNRQIDHGDYFDAPAIIDQIANIISEANTSRIPELPWRFSESSDRPLIE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

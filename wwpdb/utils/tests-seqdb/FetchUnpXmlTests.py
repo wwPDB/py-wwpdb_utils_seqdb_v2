@@ -19,6 +19,14 @@ import os.path
 import string
 import platform
 import traceback
+import requests
+import requests_mock
+
+try:
+    from urllib.parse import parse_qs
+except ImportError:
+    from urlparse import parse_qs
+from xml.dom import minidom
 
 from wwpdb.utils.seqdb_v2.FetchUnpXml import FetchUnpXml
 
@@ -27,6 +35,69 @@ TOPDIR = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 TESTOUTPUT = os.path.join(HERE, "test-output", platform.python_version())
 if not os.path.exists(TESTOUTPUT):
     os.makedirs(TESTOUTPUT)
+
+
+# Mock request handler
+def isoformMatcher(request):
+    """Isoform search matcher of the form
+    https://www.ebi.ac.uk/proteins/api/proteins/P29994/isoforms
+    """
+    if "https://www.ebi.ac.uk/proteins/api" in request.url:
+        resp = requests.Response()
+
+        # Parse the request to get the id
+        preq = request.path_url.split("/")
+        if len(preq) < 6:
+            return None
+        iso = preq[5]
+        acc = preq[4]
+        if iso != "isoforms":
+            return None
+
+        fpath = os.path.join(HERE, "refdata", "ebi_proteins_isoforms", acc + ".xml")
+        if not os.path.exists(fpath):
+            resp.status_code = 404
+            return resp
+
+        resp.status_code = 200
+        with open(fpath, "rb") as fin:
+            resp._content = fin.read()  # pylint: disable=protected-access
+        return resp
+    # Error - not found
+    return None
+
+
+# dbfetch parses the request and returns data
+def dbfetchTextCallBack(request, context):
+    """Handles dbfetch requests"""
+    dat = parse_qs(request.body)
+    accs = dat["id"][0]
+
+    # Create a combined file of contents
+    node = None
+    root = None
+
+    for acc in accs.split(","):
+        fpath = os.path.join(HERE, "refdata", "dbfetch", acc + ".xml")
+        if not os.path.exists(fpath):
+            context.status_code = 404
+            # print("XXX COULD NOT FIND", fpath)
+            return ""
+
+        doc = minidom.parse(fpath)
+        if not node:
+            node = doc
+            root = node.documentElement
+        else:
+            ent = doc.getElementsByTagName("entry")
+            for e in ent:
+                root.appendChild(e)
+
+    if node:
+        ret = root.toxml()
+    else:
+        ret = ""
+    return ret
 
 
 class FetchUnpXmlTests(unittest.TestCase):
@@ -109,9 +180,16 @@ class FetchUnpXmlTests(unittest.TestCase):
         ]
 
         self.__unpIdListV = ["P42284", "P42284-1", "P42284-2", "P42284-3", "P29994-1", "P29994-2", "P29994-3", "P29994-4", "P29994-5", "P29994-6", "P29994-7"]
+        self.__mock = None
+        if "MOCKREQUESTS" in os.environ:
+            self.__mock = requests_mock.Mocker()
+            self.__mock.post("https://www.ebi.ac.uk/Tools/dbfetch/dbfetch", text=dbfetchTextCallBack)
+            self.__mock.add_matcher(isoformMatcher)
+            self.__mock.start()
 
     def tearDown(self):
-        pass
+        if self.__mock is not None:
+            self.__mock.stop()
 
     def testFetchIds(self):
         """"""
@@ -186,6 +264,7 @@ class FetchUnpXmlTests(unittest.TestCase):
     def testBatchFetchVariants(self):
         """"""
         self.__lfh.write("\nStarting FetchUnpXmlTests testBatchFetchVariants\n")
+        fail = False
         try:
             fobj = FetchUnpXml(verbose=self.__verbose, log=self.__lfh)
             ok = fobj.fetchList(self.__unpIdListV)
@@ -198,9 +277,13 @@ class FetchUnpXmlTests(unittest.TestCase):
                         self.__lfh.write("%-25s = %s\n" % (k, v))
             else:
                 self.__lfh.write("+WARNING - Fetch failed for id %s\n" % id)
+                fail = True
 
         except:  # noqa: E722 pylint: disable=bare-except
             traceback.print_exc(file=self.__lfh)
+            self.fail()
+
+        if fail:
             self.fail()
 
 

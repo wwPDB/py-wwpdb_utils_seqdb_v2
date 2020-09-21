@@ -1,0 +1,1345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="170">
+<accession>P29813</accession>
+<accession>Q66785</accession>
+<name>POLG_EC11G</name>
+<protein>
+<recommendedName>
+<fullName>Genome polyprotein</fullName>
+</recommendedName>
+<component>
+<recommendedName>
+<fullName>P1</fullName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Capsid protein VP0</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>VP4-VP2</fullName>
+</alternativeName>
+</component>
+<component>
+<recommendedName>
+<fullName>Capsid protein VP4</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>P1A</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Virion protein 4</fullName>
+</alternativeName>
+</component>
+<component>
+<recommendedName>
+<fullName>Capsid protein VP2</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>P1B</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Virion protein 2</fullName>
+</alternativeName>
+</component>
+<component>
+<recommendedName>
+<fullName>Capsid protein VP3</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>P1C</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Virion protein 3</fullName>
+</alternativeName>
+</component>
+<component>
+<recommendedName>
+<fullName>Capsid protein VP1</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>P1D</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Virion protein 1</fullName>
+</alternativeName>
+</component>
+<component>
+<recommendedName>
+<fullName>P2</fullName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Protease 2A</fullName>
+<shortName>P2A</shortName>
+<ecNumber evidence="3">3.4.22.29</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Picornain 2A</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Protein 2A</fullName>
+</alternativeName>
+</component>
+<component>
+<recommendedName>
+<fullName>Protein 2B</fullName>
+<shortName>P2B</shortName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Protein 2C</fullName>
+<shortName>P2C</shortName>
+<ecNumber evidence="3">3.6.1.15</ecNumber>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>P3</fullName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Protein 3AB</fullName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Protein 3A</fullName>
+<shortName>P3A</shortName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Viral protein genome-linked</fullName>
+<shortName>VPg</shortName>
+</recommendedName>
+<alternativeName>
+<fullName>Protein 3B</fullName>
+<shortName>P3B</shortName>
+</alternativeName>
+</component>
+<component>
+<recommendedName>
+<fullName>Protein 3CD</fullName>
+<ecNumber>3.4.22.28</ecNumber>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName evidence="12">Protease 3C</fullName>
+<ecNumber evidence="12">3.4.22.28</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="12">Picornain 3C</fullName>
+<shortName evidence="12">P3C</shortName>
+</alternativeName>
+</component>
+<component>
+<recommendedName>
+<fullName evidence="10">RNA-directed RNA polymerase</fullName>
+<shortName>RdRp</shortName>
+<ecNumber evidence="10">2.7.7.48</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>3D polymerase</fullName>
+<shortName>3Dpol</shortName>
+</alternativeName>
+<alternativeName>
+<fullName>Protein 3D</fullName>
+<shortName>3D</shortName>
+</alternativeName>
+</component>
+</protein>
+<organism>
+<name type="scientific">Echovirus 11 (strain Gregory)</name>
+<dbReference type="NCBI Taxonomy" id="31705"/>
+<lineage>
+<taxon>Viruses</taxon>
+<taxon>Riboviria</taxon>
+<taxon>Picornavirales</taxon>
+<taxon>Picornaviridae</taxon>
+<taxon>Enterovirus</taxon>
+<taxon>Enterovirus B</taxon>
+</lineage>
+</organism>
+<organismHost>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+</organismHost>
+<reference key="1">
+<citation type="journal article" date="1995" name="Virus Res." volume="35" first="215" last="222">
+<title>The genome of echovirus 11.</title>
+<authorList>
+<person name="Dahllund L."/>
+<person name="Nissinen L."/>
+<person name="Pulli T."/>
+<person name="Hyttinen V.P."/>
+<person name="Stanway G."/>
+<person name="Hyypiae T."/>
+</authorList>
+<dbReference type="PubMed" id="7762294"/>
+<dbReference type="DOI" id="10.1016/0168-1702(94)00104-k"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA]</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1990" name="J. Gen. Virol." volume="71" first="2133" last="2139">
+<title>Echoviruses include genetically distinct serotypes.</title>
+<authorList>
+<person name="Auvinen P."/>
+<person name="Hyypiae T."/>
+</authorList>
+<dbReference type="PubMed" id="2170575"/>
+<dbReference type="DOI" id="10.1099/0022-1317-71-9-2133"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA] OF 822-2195</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1994" name="Proc. Natl. Acad. Sci. U.S.A." volume="91" first="6245" last="6248">
+<title>Decay-accelerating factor (CD55), a glycosylphosphatidylinositol-anchored complement regulatory protein, is a receptor for several echoviruses.</title>
+<authorList>
+<person name="Bergelson J.M."/>
+<person name="Chan M."/>
+<person name="Solomon K.R."/>
+<person name="St John N.F."/>
+<person name="Lin H."/>
+<person name="Finberg R.W."/>
+</authorList>
+<dbReference type="PubMed" id="7517044"/>
+<dbReference type="DOI" id="10.1073/pnas.91.13.6245"/>
+</citation>
+<scope>INTERACTION WITH HOST CD55</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2019" name="Proc. Natl. Acad. Sci. U.S.A." volume="116" first="3758" last="3763">
+<title>The neonatal Fc receptor is a pan-echovirus receptor.</title>
+<authorList>
+<person name="Morosky S."/>
+<person name="Wells A.I."/>
+<person name="Lemon K."/>
+<person name="Evans A.S."/>
+<person name="Schamus S."/>
+<person name="Bakkenist C.J."/>
+<person name="Coyne C.B."/>
+</authorList>
+<dbReference type="PubMed" id="30808762"/>
+<dbReference type="DOI" id="10.1073/pnas.1817341116"/>
+</citation>
+<scope>FUNCTION (CAPSID PROTEIN VP1)</scope>
+<scope>INTERACTION WITH HOST FCGRT (CAPSID PROTEIN VP1)</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2002" name="J. Virol." volume="76" first="7694" last="7704">
+<title>Determination of the structure of a decay accelerating factor-binding clinical isolate of echovirus 11 allows mapping of mutants with altered receptor requirements for infection.</title>
+<authorList>
+<person name="Stuart A.D."/>
+<person name="McKee T.A."/>
+<person name="Williams P.A."/>
+<person name="Harley C."/>
+<person name="Shen S."/>
+<person name="Stuart D.I."/>
+<person name="Brown T.D."/>
+<person name="Lea S.M."/>
+</authorList>
+<dbReference type="PubMed" id="12097583"/>
+<dbReference type="DOI" id="10.1128/jvi.76.15.7694-7704.2002"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.9 ANGSTROMS) OF 1-859</scope>
+<source>
+<strain>Isolate clinical EV11-207</strain>
+</source>
+</reference>
+<comment type="function">
+<molecule>Capsid protein VP1</molecule>
+<text evidence="3">Forms an icosahedral capsid of pseudo T=3 symmetry with capsid proteins VP2 and VP3 (By similarity). The capsid is 300 Angstroms in diameter, composed of 60 copies of each capsid protein and enclosing the viral positive strand RNA genome (By similarity). Capsid protein VP1 mainly forms the vertices of the capsid (By similarity). Capsid protein VP1 interacts with host cell receptor to provide virion attachment to target host cells (By similarity). This attachment induces virion internalization (By similarity). Tyrosine kinases are probably involved in the entry process (By similarity). After binding to its receptor, the capsid undergoes conformational changes (By similarity). Capsid protein VP1 N-terminus (that contains an amphipathic alpha-helix) and capsid protein VP4 are externalized (By similarity). Together, they shape a pore in the host membrane through which viral genome is translocated to host cell cytoplasm (By similarity).</text>
+</comment>
+<comment type="function">
+<molecule>Capsid protein VP2</molecule>
+<text evidence="3">Forms an icosahedral capsid of pseudo T=3 symmetry with capsid proteins VP2 and VP3 (By similarity). The capsid is 300 Angstroms in diameter, composed of 60 copies of each capsid protein and enclosing the viral positive strand RNA genome (By similarity).</text>
+</comment>
+<comment type="function">
+<molecule>Capsid protein VP3</molecule>
+<text evidence="3">Forms an icosahedral capsid of pseudo T=3 symmetry with capsid proteins VP2 and VP3 (By similarity). The capsid is 300 Angstroms in diameter, composed of 60 copies of each capsid protein and enclosing the viral positive strand RNA genome (By similarity).</text>
+</comment>
+<comment type="function">
+<molecule>Capsid protein VP4</molecule>
+<text evidence="3">Lies on the inner surface of the capsid shell (By similarity). After binding to the host receptor, the capsid undergoes conformational changes (By similarity). Capsid protein VP4 is released, Capsid protein VP1 N-terminus is externalized, and together, they shape a pore in the host membrane through which the viral genome is translocated into the host cell cytoplasm (By similarity).</text>
+</comment>
+<comment type="function">
+<molecule>Capsid protein VP0</molecule>
+<text evidence="3">Component of immature procapsids, which is cleaved into capsid proteins VP4 and VP2 after maturation (By similarity). Allows the capsid to remain inactive before the maturation step (By similarity).</text>
+</comment>
+<comment type="function">
+<molecule>Protease 2A</molecule>
+<text evidence="3 4">Cysteine protease that cleaves viral polyprotein and specific host proteins (By similarity). It is responsible for the autocatalytic cleavage between the P1 and P2 regions, which is the first cleavage occurring in the polyprotein (By similarity). Cleaves also the host translation initiation factor EIF4G1, in order to shut down the capped cellular mRNA translation (By similarity). Inhibits the host nucleus-cytoplasm protein and RNA trafficking by cleaving host members of the nuclear pores (By similarity). Counteracts stress granule formation probably by antagonizing its assembly or promoting its dissassembly (By similarity).</text>
+</comment>
+<comment type="function">
+<molecule>Protein 2B</molecule>
+<text evidence="3">Plays an essential role in the virus replication cycle by acting as a viroporin. Creates a pore in the host reticulum endoplasmic and as a consequence releases Ca2+ in the cytoplasm of infected cell. In turn, high levels of cytoplasmic calcium may trigger membrane trafficking and transport of viral ER-associated proteins to viroplasms, sites of viral genome replication.</text>
+</comment>
+<comment type="function">
+<molecule>Protein 2C</molecule>
+<text evidence="3">Induces and associates with structural rearrangements of intracellular membranes. Displays RNA-binding, nucleotide binding and NTPase activities. May play a role in virion morphogenesis and viral RNA encapsidation by interacting with the capsid protein VP3.</text>
+</comment>
+<comment type="function">
+<molecule>Protein 3AB</molecule>
+<text evidence="3">Localizes the viral replication complex to the surface of membranous vesicles. Together with protein 3CD binds the Cis-Active RNA Element (CRE) which is involved in RNA synthesis initiation. Acts as a cofactor to stimulate the activity of 3D polymerase, maybe through a nucleid acid chaperone activity.</text>
+</comment>
+<comment type="function">
+<molecule>Protein 3A</molecule>
+<text evidence="3">Localizes the viral replication complex to the surface of membranous vesicles (By similarity). It inhibits host cell endoplasmic reticulum-to-Golgi apparatus transport and causes the disassembly of the Golgi complex, possibly through GBF1 interaction (By similarity). This would result in depletion of MHC, trail receptors and IFN receptors at the host cell surface (By similarity). Plays an essential role in viral RNA replication by recruiting ACBD3 and PI4KB at the viral replication sites, thereby allowing the formation of the rearranged membranous structures where viral replication takes place (By similarity).</text>
+</comment>
+<comment type="function">
+<molecule>Viral protein genome-linked</molecule>
+<text evidence="3">Acts as a primer for viral RNA replication and remains covalently bound to viral genomic RNA. VPg is uridylylated prior to priming replication into VPg-pUpU (By similarity). The oriI viral genomic sequence may act as a template for this. The VPg-pUpU is then used as primer on the genomic RNA poly(A) by the RNA-dependent RNA polymerase to replicate the viral genome (By similarity). Following genome release from the infecting virion in the cytoplasm, the VPg-RNA linkage is probably removed by host TDP2 (By similarity). During the late stage of the replication cycle, host TDP2 is excluded from sites of viral RNA synthesis and encapsidation, allowing for the generation of progeny virions (By similarity).</text>
+</comment>
+<comment type="function">
+<molecule>Protein 3CD</molecule>
+<text evidence="3">Involved in the viral replication complex and viral polypeptide maturation. It exhibits protease activity with a specificity and catalytic efficiency that is different from protease 3C. Protein 3CD lacks polymerase activity. The 3C domain in the context of protein 3CD may have an RNA binding activity.Protein 3CD binds to the 5'UTR of the viral genome.</text>
+</comment>
+<comment type="function">
+<molecule>Protease 3C</molecule>
+<text evidence="3 5">Major viral protease that mediates proteolytic processing of the polyprotein (By similarity). Cleaves host EIF5B, contributing to host translation shutoff (By similarity). Cleaves also host PABPC1, contributing to host translation shutoff (By similarity).</text>
+</comment>
+<comment type="function">
+<molecule>RNA-directed RNA polymerase</molecule>
+<text evidence="3">Replicates the viral genomic RNA on the surface of intracellular membranes. May form linear arrays of subunits that propagate along a strong head-to-tail interaction called interface-I. Covalently attaches UMP to a tyrosine of VPg, which is used to prime RNA synthesis. The positive stranded RNA genome is first replicated at virus induced membranous vesicles, creating a dsRNA genomic replication form. This dsRNA is then used as template to synthesize positive stranded RNA genomes. ss(+)RNA genomes are either translated, replicated or encapsidated.</text>
+</comment>
+<comment type="catalytic activity">
+<molecule>Protein 2C</molecule>
+<reaction evidence="3">
+<text>a ribonucleoside 5'-triphosphate + H2O = a ribonucleoside 5'-diphosphate + H(+) + phosphate</text>
+<dbReference type="Rhea" id="RHEA:23680"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:43474"/>
+<dbReference type="ChEBI" id="CHEBI:57930"/>
+<dbReference type="ChEBI" id="CHEBI:61557"/>
+<dbReference type="EC" id="3.6.1.15"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<molecule>Protease 2A</molecule>
+<reaction evidence="3">
+<text>Selective cleavage of Tyr-|-Gly bond in the picornavirus polyprotein.</text>
+<dbReference type="EC" id="3.4.22.29"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<molecule>RNA-directed RNA polymerase</molecule>
+<reaction evidence="10">
+<text>a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate + RNA(n+1)</text>
+<dbReference type="Rhea" id="RHEA:21248"/>
+<dbReference type="Rhea" id="RHEA-COMP:11128"/>
+<dbReference type="Rhea" id="RHEA-COMP:11129"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:61557"/>
+<dbReference type="ChEBI" id="CHEBI:83400"/>
+<dbReference type="EC" id="2.7.7.48"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<molecule>Protease 3C</molecule>
+<reaction evidence="12">
+<text>Selective cleavage of Gln-|-Gly bond in the poliovirus polyprotein. In other picornavirus reactions Glu may be substituted for Gln, and Ser or Thr for Gly.</text>
+<dbReference type="EC" id="3.4.22.28"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<molecule>RNA-directed RNA polymerase</molecule>
+<cofactor evidence="3">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+<text evidence="3 5">Binds 2 magnesium ions that constitute a dinuclear catalytic metal center (By similarity). The magnesium ions are not prebound but only present for catalysis (By similarity). Requires the presence of 3CDpro or 3CPro (By similarity).</text>
+</comment>
+<comment type="activity regulation">
+<molecule>RNA-directed RNA polymerase</molecule>
+<text evidence="3">Replication or transcription is subject to high level of random mutations by the nucleotide analog ribavirin.</text>
+</comment>
+<comment type="subunit">
+<molecule>Capsid protein VP0</molecule>
+<text evidence="3">Interacts with capsid protein VP1 and capsid protein VP3 to form heterotrimeric protomers.</text>
+</comment>
+<comment type="subunit">
+<molecule>Capsid protein VP1</molecule>
+<text evidence="3">Interacts with capsid protein VP0, and capsid protein VP3 to form heterotrimeric protomers (By similarity). Five protomers subsequently associate to form pentamers which serve as building blocks for the capsid (By similarity). Interacts with capsid protein VP2, capsid protein VP3 and capsid protein VP4 following cleavage of capsid protein VP0 (By similarity).</text>
+</comment>
+<comment type="subunit">
+<molecule>Capsid protein VP2</molecule>
+<text evidence="3">Interacts with capsid protein VP1 and capsid protein VP3 in the mature capsid.</text>
+</comment>
+<comment type="subunit">
+<molecule>Capsid protein VP3</molecule>
+<text evidence="3">Interacts with capsid protein VP0 and capsid protein VP1 to form heterotrimeric protomers (By similarity). Five protomers subsequently associate to form pentamers which serve as building blocks for the capsid (By similarity). Interacts with capsid protein VP4 in the mature capsid (By similarity). Interacts with protein 2C; this interaction may be important for virion morphogenesis (By similarity).</text>
+</comment>
+<comment type="subunit">
+<molecule>Capsid protein VP4</molecule>
+<text evidence="3">Interacts with capsid protein VP1 and capsid protein VP3.</text>
+</comment>
+<comment type="subunit">
+<molecule>Protease 2A</molecule>
+<text evidence="6">Homodimer.</text>
+</comment>
+<comment type="subunit">
+<molecule>Protein 2C</molecule>
+<text evidence="3">Homohexamer; forms a hexameric ring structure with 6-fold symmetry characteristic of AAA+ ATPases (By similarity). Interacts (via N-terminus) with host RTN3 (via reticulon domain); this interaction is important for viral replication (By similarity). Interacts with capsid protein VP3; this interaction may be important for virion morphogenesis (By similarity).</text>
+</comment>
+<comment type="subunit">
+<molecule>Protein 3AB</molecule>
+<text evidence="3">Interacts with protein 3CD.</text>
+</comment>
+<comment type="subunit">
+<molecule>Protein 3A</molecule>
+<text evidence="3">Homodimer (By similarity). Interacts with host GBF1 (By similarity). Interacts (via GOLD domain) with host ACBD3 (via GOLD domain); this interaction allows the formation of a viral protein 3A/ACBD3 heterotetramer with a 2:2 stoichiometry, which will stimulate the recruitment of host PI4KB in order to synthesize PI4P at the viral RNA replication sites (By similarity).</text>
+</comment>
+<comment type="subunit">
+<molecule>Viral protein genome-linked</molecule>
+<text evidence="3">Interacts with RNA-directed RNA polymerase.</text>
+</comment>
+<comment type="subunit">
+<molecule>Protein 3CD</molecule>
+<text evidence="3">Interacts with protein 3AB and with RNA-directed RNA polymerase.</text>
+</comment>
+<comment type="subunit">
+<molecule>RNA-directed RNA polymerase</molecule>
+<text evidence="3">Interacts with Viral protein genome-linked and with protein 3CD.</text>
+</comment>
+<comment type="subcellular location">
+<molecule>Capsid protein VP0</molecule>
+<subcellularLocation>
+<location>Virion</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="13">Host cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="subcellular location">
+<molecule>Capsid protein VP4</molecule>
+<subcellularLocation>
+<location>Virion</location>
+</subcellularLocation>
+</comment>
+<comment type="subcellular location">
+<molecule>Capsid protein VP2</molecule>
+<subcellularLocation>
+<location evidence="3">Virion</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="13">Host cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="subcellular location">
+<molecule>Capsid protein VP3</molecule>
+<subcellularLocation>
+<location evidence="3">Virion</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="13">Host cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="subcellular location">
+<molecule>Capsid protein VP1</molecule>
+<subcellularLocation>
+<location evidence="3">Virion</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="13">Host cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="subcellular location">
+<molecule>Protein 2B</molecule>
+<subcellularLocation>
+<location evidence="13">Host cytoplasmic vesicle membrane</location>
+<topology evidence="13">Peripheral membrane protein</topology>
+<orientation evidence="13">Cytoplasmic side</orientation>
+</subcellularLocation>
+<text>Probably localizes to the surface of intracellular membrane vesicles that are induced after virus infection as the site for viral RNA replication. These vesicles are derived from the endoplasmic reticulum.</text>
+</comment>
+<comment type="subcellular location">
+<molecule>Protein 2C</molecule>
+<subcellularLocation>
+<location evidence="13">Host cytoplasmic vesicle membrane</location>
+<topology evidence="13">Peripheral membrane protein</topology>
+<orientation evidence="13">Cytoplasmic side</orientation>
+</subcellularLocation>
+<text>Probably localizes to the surface of intracellular membrane vesicles that are induced after virus infection as the site for viral RNA replication. These vesicles are derived from the endoplasmic reticulum.</text>
+</comment>
+<comment type="subcellular location">
+<molecule>Protein 3A</molecule>
+<subcellularLocation>
+<location evidence="13">Host cytoplasmic vesicle membrane</location>
+<topology evidence="13">Peripheral membrane protein</topology>
+<orientation evidence="13">Cytoplasmic side</orientation>
+</subcellularLocation>
+<text>Probably localizes to the surface of intracellular membrane vesicles that are induced after virus infection as the site for viral RNA replication. These vesicles are derived from the endoplasmic reticulum.</text>
+</comment>
+<comment type="subcellular location">
+<molecule>Protein 3AB</molecule>
+<subcellularLocation>
+<location evidence="13">Host cytoplasmic vesicle membrane</location>
+<topology evidence="13">Peripheral membrane protein</topology>
+<orientation evidence="13">Cytoplasmic side</orientation>
+</subcellularLocation>
+<text>Probably localizes to the surface of intracellular membrane vesicles that are induced after virus infection as the site for viral RNA replication. These vesicles are derived from the endoplasmic reticulum.</text>
+</comment>
+<comment type="subcellular location">
+<molecule>Viral protein genome-linked</molecule>
+<subcellularLocation>
+<location evidence="3">Virion</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="7">Host cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="subcellular location">
+<molecule>Protease 3C</molecule>
+<subcellularLocation>
+<location>Host cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="subcellular location">
+<molecule>Protein 3CD</molecule>
+<subcellularLocation>
+<location evidence="3">Host nucleus</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="3">Host cytoplasm</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="13">Host cytoplasmic vesicle membrane</location>
+<topology evidence="13">Peripheral membrane protein</topology>
+<orientation evidence="13">Cytoplasmic side</orientation>
+</subcellularLocation>
+<text>Probably localizes to the surface of intracellular membrane vesicles that are induced after virus infection as the site for viral RNA replication. These vesicles are derived from the endoplasmic reticulum.</text>
+</comment>
+<comment type="subcellular location">
+<molecule>RNA-directed RNA polymerase</molecule>
+<subcellularLocation>
+<location evidence="13">Host cytoplasmic vesicle membrane</location>
+<topology evidence="13">Peripheral membrane protein</topology>
+<orientation evidence="13">Cytoplasmic side</orientation>
+</subcellularLocation>
+<text>Probably localizes to the surface of intracellular membrane vesicles that are induced after virus infection as the site for viral RNA replication. These vesicles are derived from the endoplasmic reticulum.</text>
+</comment>
+<comment type="domain">
+<molecule>Protein 2C</molecule>
+<text evidence="2 3">The N-terminus has membrane-binding (By similarity). The N-terminus also displays RNA-binding properties (By similarity). The N-terminus is involved in oligomerization (By similarity). The central part contains an ATPase domain and a degenerate C4-type zinc-finger with only 3 cysteines (By similarity). The C-terminus is involved in RNA-binding (By similarity). The extreme C-terminus contains a region involved in oligomerization (By similarity).</text>
+</comment>
+<comment type="PTM">
+<molecule>Genome polyprotein</molecule>
+<text evidence="3">Specific enzymatic cleavages in vivo by the viral proteases yield processing intermediates and the mature proteins.</text>
+</comment>
+<comment type="PTM">
+<molecule>Capsid protein VP0</molecule>
+<text evidence="3">Myristoylation is required for the formation of pentamers during virus assembly. Further assembly of 12 pentamers and a molecule of genomic RNA generates the provirion.</text>
+</comment>
+<comment type="PTM">
+<molecule>Capsid protein VP0</molecule>
+<text evidence="3">During virion maturation, immature virions are rendered infectious following cleavage of VP0 into VP4 and VP2. This maturation seems to be an autocatalytic event triggered by the presence of RNA in the capsid and it is followed by a conformational change infectious virion.</text>
+</comment>
+<comment type="PTM">
+<molecule>Capsid protein VP4</molecule>
+<text evidence="3">Myristoylation is required during RNA encapsidation and formation of the mature virus particle.</text>
+</comment>
+<comment type="PTM">
+<molecule>Viral protein genome-linked</molecule>
+<text evidence="3">VPg is uridylylated by the polymerase into VPg-pUpU. This acts as a nucleotide-peptide primer for the genomic RNA replication.</text>
+</comment>
+<comment type="similarity">
+<text evidence="13">Belongs to the picornaviruses polyprotein family.</text>
+</comment>
+<comment type="online information" name="Virus Particle ExploreR db">
+<link uri="http://viperdb.scripps.edu/info_page.php?VDB=1h8t"/>
+<text>Icosahedral capsid structure</text>
+</comment>
+<dbReference type="EC" id="3.4.22.29" evidence="3"/>
+<dbReference type="EC" id="3.6.1.15" evidence="3"/>
+<dbReference type="EC" id="3.4.22.28" evidence="12"/>
+<dbReference type="EC" id="2.7.7.48" evidence="10"/>
+<dbReference type="EMBL" id="X80059">
+<property type="protein sequence ID" value="CAA56365.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="D10582">
+<property type="protein sequence ID" value="BAA01439.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="PIR" id="A36642">
+<property type="entry name" value="GNNYEC"/>
+</dbReference>
+<dbReference type="PDB" id="2C8I">
+<property type="method" value="EM"/>
+<property type="resolution" value="14.00"/>
+<property type="chains" value="A=570-857, B=79-328, C=332-569, D=2-69"/>
+</dbReference>
+<dbReference type="PDBsum" id="2C8I"/>
+<dbReference type="SMR" id="P29813"/>
+<dbReference type="DrugBank" id="DB08231">
+<property type="generic name" value="Myristic acid"/>
+</dbReference>
+<dbReference type="MEROPS" id="C03.011"/>
+<dbReference type="PRIDE" id="P29813"/>
+<dbReference type="EvolutionaryTrace" id="P29813"/>
+<dbReference type="Proteomes" id="UP000002684">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044162">
+<property type="term" value="C:host cell cytoplasmic vesicle membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042025">
+<property type="term" value="C:host cell nucleus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044385">
+<property type="term" value="C:integral to membrane of host cell"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016020">
+<property type="term" value="C:membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039618">
+<property type="term" value="C:T=pseudo3 icosahedral viral capsid"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004197">
+<property type="term" value="F:cysteine-type endopeptidase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005216">
+<property type="term" value="F:ion channel activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003723">
+<property type="term" value="F:RNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003724">
+<property type="term" value="F:RNA helicase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003968">
+<property type="term" value="F:RNA-directed 5'-3' RNA polymerase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005198">
+<property type="term" value="F:structural molecule activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006260">
+<property type="term" value="P:DNA replication"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0075509">
+<property type="term" value="P:endocytosis involved in viral entry into host cell"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039520">
+<property type="term" value="P:induction by virus of host autophagy"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039707">
+<property type="term" value="P:pore formation by virus in membrane of host cell"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044694">
+<property type="term" value="P:pore-mediated entry of viral genome into host cell"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039690">
+<property type="term" value="P:positive stranded viral RNA replication"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051259">
+<property type="term" value="P:protein complex oligomerization"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0018144">
+<property type="term" value="P:RNA-protein covalent cross-linking"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039657">
+<property type="term" value="P:suppression by virus of host gene expression"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039522">
+<property type="term" value="P:suppression by virus of host mRNA export from nucleus"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039540">
+<property type="term" value="P:suppression by virus of host RIG-I activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039611">
+<property type="term" value="P:suppression by virus of host translation initiation factor activity"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006351">
+<property type="term" value="P:transcription, DNA-templated"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039694">
+<property type="term" value="P:viral RNA genome replication"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019062">
+<property type="term" value="P:virion attachment to host cell"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="CDD" id="cd00205">
+<property type="entry name" value="rhv_like"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.10.870">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.40.10.10">
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.120.20">
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.70.270">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.80.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003593">
+<property type="entry name" value="AAA+_ATPase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR043502">
+<property type="entry name" value="DNA/RNA_pol_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000605">
+<property type="entry name" value="Helicase_SF3_ssDNA/RNA_vir"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014759">
+<property type="entry name" value="Helicase_SF3_ssRNA_vir"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027417">
+<property type="entry name" value="P-loop_NTPase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014838">
+<property type="entry name" value="P3A"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036203">
+<property type="entry name" value="P3A_soluble_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000081">
+<property type="entry name" value="Peptidase_C3"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000199">
+<property type="entry name" value="Peptidase_C3A/C3B_picornavir"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009003">
+<property type="entry name" value="Peptidase_S1_PA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR043504">
+<property type="entry name" value="Peptidase_S1_PA_chymotrypsin"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003138">
+<property type="entry name" value="Pico_P1A"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036988">
+<property type="entry name" value="Pico_P1A_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002527">
+<property type="entry name" value="Pico_P2B"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001676">
+<property type="entry name" value="Picornavirus_capsid"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR043128">
+<property type="entry name" value="Rev_trsase/Diguanyl_cyclase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033703">
+<property type="entry name" value="Rhv-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001205">
+<property type="entry name" value="RNA-dir_pol_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR007094">
+<property type="entry name" value="RNA-dir_pol_PSvirus"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029053">
+<property type="entry name" value="Viral_coat"/>
+</dbReference>
+<dbReference type="Pfam" id="PF08727">
+<property type="entry name" value="P3A"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00548">
+<property type="entry name" value="Peptidase_C3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02226">
+<property type="entry name" value="Pico_P1A"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00947">
+<property type="entry name" value="Pico_P2A"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01552">
+<property type="entry name" value="Pico_P2B"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00680">
+<property type="entry name" value="RdRP_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00073">
+<property type="entry name" value="Rhv"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00910">
+<property type="entry name" value="RNA_helicase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00382">
+<property type="entry name" value="AAA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50494">
+<property type="entry name" value="SSF50494"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52540">
+<property type="entry name" value="SSF52540"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56672">
+<property type="entry name" value="SSF56672"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF89043">
+<property type="entry name" value="SSF89043"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51874">
+<property type="entry name" value="PCV_3C_PRO"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50507">
+<property type="entry name" value="RDRP_SSRNA_POS"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51218">
+<property type="entry name" value="SF3_HELICASE_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-1072">Activation of host autophagy by virus</keyword>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0068">Autocatalytic cleavage</keyword>
+<keyword id="KW-0167">Capsid protein</keyword>
+<keyword id="KW-0191">Covalent protein-RNA linkage</keyword>
+<keyword id="KW-0235">DNA replication</keyword>
+<keyword id="KW-1262">Eukaryotic host gene expression shutoff by virus</keyword>
+<keyword id="KW-1193">Eukaryotic host translation shutoff by virus</keyword>
+<keyword id="KW-0347">Helicase</keyword>
+<keyword id="KW-1035">Host cytoplasm</keyword>
+<keyword id="KW-1036">Host cytoplasmic vesicle</keyword>
+<keyword id="KW-1190">Host gene expression shutoff by virus</keyword>
+<keyword id="KW-1043">Host membrane</keyword>
+<keyword id="KW-1192">Host mRNA suppression by virus</keyword>
+<keyword id="KW-1048">Host nucleus</keyword>
+<keyword id="KW-0945">Host-virus interaction</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-1090">Inhibition of host innate immune response by virus</keyword>
+<keyword id="KW-1099">Inhibition of host mRNA nuclear export by virus</keyword>
+<keyword id="KW-1088">Inhibition of host RIG-I by virus</keyword>
+<keyword id="KW-1113">Inhibition of host RLR pathway by virus</keyword>
+<keyword id="KW-0407">Ion channel</keyword>
+<keyword id="KW-0406">Ion transport</keyword>
+<keyword id="KW-0449">Lipoprotein</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0519">Myristate</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-0548">Nucleotidyltransferase</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-1172">Pore-mediated penetration of viral genome into host cell</keyword>
+<keyword id="KW-0645">Protease</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0694">RNA-binding</keyword>
+<keyword id="KW-0696">RNA-directed RNA polymerase</keyword>
+<keyword id="KW-1143">T=pseudo3 icosahedral capsid protein</keyword>
+<keyword id="KW-0788">Thiol protease</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<keyword id="KW-1161">Viral attachment to host cell</keyword>
+<keyword id="KW-0899">Viral immunoevasion</keyword>
+<keyword id="KW-1182">Viral ion channel</keyword>
+<keyword id="KW-1162">Viral penetration into host cytoplasm</keyword>
+<keyword id="KW-0693">Viral RNA replication</keyword>
+<keyword id="KW-0946">Virion</keyword>
+<keyword id="KW-1164">Virus endocytosis by host</keyword>
+<keyword id="KW-1160">Virus entry into host cell</keyword>
+<keyword id="KW-0862">Zinc</keyword>
+<keyword id="KW-0863">Zinc-finger</keyword>
+<feature type="initiator methionine" description="Removed; by host" evidence="3">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Genome polyprotein" id="PRO_0000426431">
+<location>
+<begin position="2"/>
+<end position="2195"/>
+</location>
+</feature>
+<feature type="chain" description="P1" id="PRO_0000426432">
+<location>
+<begin position="2"/>
+<end position="861"/>
+</location>
+</feature>
+<feature type="chain" description="Capsid protein VP0" id="PRO_0000426433">
+<location>
+<begin position="2"/>
+<end position="331"/>
+</location>
+</feature>
+<feature type="chain" description="Capsid protein VP4" id="PRO_0000426434">
+<location>
+<begin position="2"/>
+<end position="69"/>
+</location>
+</feature>
+<feature type="chain" description="Capsid protein VP2" id="PRO_0000426435">
+<location>
+<begin position="70"/>
+<end position="331"/>
+</location>
+</feature>
+<feature type="chain" description="Capsid protein VP3" id="PRO_0000426436">
+<location>
+<begin position="332"/>
+<end position="567"/>
+</location>
+</feature>
+<feature type="chain" description="Capsid protein VP1" id="PRO_0000426437">
+<location>
+<begin position="567"/>
+<end position="861"/>
+</location>
+</feature>
+<feature type="chain" description="P2" id="PRO_0000426438">
+<location>
+<begin position="862"/>
+<end position="1439"/>
+</location>
+</feature>
+<feature type="chain" description="Protease 2A" id="PRO_0000426439">
+<location>
+<begin position="862"/>
+<end position="1011"/>
+</location>
+</feature>
+<feature type="chain" description="Protein 2B" id="PRO_0000039708">
+<location>
+<begin position="1012"/>
+<end position="1110"/>
+</location>
+</feature>
+<feature type="chain" description="Protein 2C" id="PRO_0000039709">
+<location>
+<begin position="1111"/>
+<end position="1439"/>
+</location>
+</feature>
+<feature type="chain" description="P3" id="PRO_0000426440">
+<location>
+<begin position="1440"/>
+<end position="2195"/>
+</location>
+</feature>
+<feature type="chain" description="Protein 3AB" id="PRO_0000426441">
+<location>
+<begin position="1440"/>
+<end position="1550"/>
+</location>
+</feature>
+<feature type="chain" description="Protein 3A" id="PRO_0000039710">
+<location>
+<begin position="1440"/>
+<end position="1528"/>
+</location>
+</feature>
+<feature type="chain" description="Viral protein genome-linked" id="PRO_0000426442">
+<location>
+<begin position="1529"/>
+<end position="1550"/>
+</location>
+</feature>
+<feature type="chain" description="Protein 3CD" id="PRO_0000426443">
+<location>
+<begin position="1551"/>
+<end position="2195"/>
+</location>
+</feature>
+<feature type="chain" description="Protease 3C" id="PRO_0000426444">
+<location>
+<begin position="1551"/>
+<end position="1733"/>
+</location>
+</feature>
+<feature type="chain" description="RNA-directed RNA polymerase" id="PRO_0000426445">
+<location>
+<begin position="1734"/>
+<end position="2195"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="9">
+<location>
+<begin position="2"/>
+<end position="1505"/>
+</location>
+</feature>
+<feature type="intramembrane region" evidence="9">
+<location>
+<begin position="1506"/>
+<end position="1521"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="9">
+<location>
+<begin position="1522"/>
+<end position="2195"/>
+</location>
+</feature>
+<feature type="domain" description="SF3 helicase" evidence="11">
+<location>
+<begin position="1215"/>
+<end position="1371"/>
+</location>
+</feature>
+<feature type="domain" description="Peptidase C3" evidence="12">
+<location>
+<begin position="1551"/>
+<end position="1729"/>
+</location>
+</feature>
+<feature type="domain" description="RdRp catalytic" evidence="10">
+<location>
+<begin position="1960"/>
+<end position="2076"/>
+</location>
+</feature>
+<feature type="zinc finger region" description="C4-type; degenerate" evidence="2">
+<location>
+<begin position="1379"/>
+<end position="1396"/>
+</location>
+</feature>
+<feature type="region of interest" description="Amphipatic alpha-helix" evidence="9">
+<location>
+<begin position="567"/>
+<end position="583"/>
+</location>
+</feature>
+<feature type="region of interest" description="Oligomerization" evidence="3">
+<location>
+<begin position="1111"/>
+<end position="1249"/>
+</location>
+</feature>
+<feature type="region of interest" description="Membrane-binding" evidence="3">
+<location>
+<begin position="1111"/>
+<end position="1183"/>
+</location>
+</feature>
+<feature type="region of interest" description="RNA-binding" evidence="3">
+<location>
+<begin position="1132"/>
+<end position="1136"/>
+</location>
+</feature>
+<feature type="region of interest" description="RNA-binding" evidence="3">
+<location>
+<begin position="1423"/>
+<end position="1430"/>
+</location>
+</feature>
+<feature type="region of interest" description="Oligomerization" evidence="3">
+<location>
+<begin position="1434"/>
+<end position="1439"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="1">
+<location>
+<begin position="1440"/>
+<end position="1463"/>
+</location>
+</feature>
+<feature type="active site" description="For protease 2A activity" evidence="3">
+<location>
+<position position="882"/>
+</location>
+</feature>
+<feature type="active site" description="For protease 2A activity" evidence="3">
+<location>
+<position position="900"/>
+</location>
+</feature>
+<feature type="active site" description="For protease 2A activity" evidence="3">
+<location>
+<position position="971"/>
+</location>
+</feature>
+<feature type="active site" description="For protease 3C activity" evidence="12">
+<location>
+<position position="1590"/>
+</location>
+</feature>
+<feature type="active site" description="For protease 3C activity" evidence="12">
+<location>
+<position position="1621"/>
+</location>
+</feature>
+<feature type="active site" description="For protease 3C activity" evidence="12">
+<location>
+<position position="1697"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc; structural" evidence="8">
+<location>
+<position position="917"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc; structural" evidence="8">
+<location>
+<position position="919"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc; structural" evidence="8">
+<location>
+<position position="977"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc; via pros nitrogen; structural" evidence="8">
+<location>
+<position position="979"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc" evidence="2">
+<location>
+<position position="1379"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc" evidence="2">
+<location>
+<position position="1391"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc" evidence="2">
+<location>
+<position position="1396"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1; catalytic; for RdRp activity" evidence="3">
+<location>
+<position position="1966"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2; catalytic; for RdRp activity" evidence="3">
+<location>
+<position position="1966"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 1; catalytic; for RdRp activity" evidence="3">
+<location>
+<position position="2062"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Magnesium 2; catalytic; for RdRp activity" evidence="3">
+<location>
+<position position="2062"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by autolysis" evidence="3">
+<location>
+<begin position="69"/>
+<end position="70"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by protease 3C" evidence="4">
+<location>
+<begin position="331"/>
+<end position="332"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by autolysis" evidence="4">
+<location>
+<begin position="861"/>
+<end position="862"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by protease 3C" evidence="4">
+<location>
+<begin position="1011"/>
+<end position="1012"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by protease 3C" evidence="4">
+<location>
+<begin position="1110"/>
+<end position="1111"/>
+</location>
+</feature>
+<feature type="site" description="Involved in the interaction with host RTN3" evidence="7">
+<location>
+<position position="1135"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by protease 3C" evidence="4">
+<location>
+<begin position="1439"/>
+<end position="1440"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by protease 3C" evidence="4">
+<location>
+<begin position="1528"/>
+<end position="1529"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by protease 3C" evidence="4">
+<location>
+<begin position="1550"/>
+<end position="1551"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by protease 3C" evidence="4">
+<location>
+<begin position="1733"/>
+<end position="1734"/>
+</location>
+</feature>
+<feature type="modified residue" description="O-(5'-phospho-RNA)-tyrosine" evidence="3">
+<location>
+<position position="1531"/>
+</location>
+</feature>
+<feature type="lipid moiety-binding region" description="N-myristoyl glycine; by host" evidence="3">
+<location>
+<position position="2"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; BAA01439." ref="2" evidence="13">
+<original>RLCQY</original>
+<variation>SYANT</variation>
+<location>
+<begin position="823"/>
+<end position="827"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="B9VUU3"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P03300"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P03301"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P03313"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P04936"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q66478"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q9QF31"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000255"/>
+<evidence key="10" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00539"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00551"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU01222"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000305"/>
+<sequence length="2195" mass="245407" checksum="1CFC5DF288831AF0" modified="2007-01-23" version="4">MGAQVSTQKTGAHETGLNASGSSIIHYTNINYYKDAASNSANRQEFSQDPGKFTEPVKDIMVKSLPALNSPSAEECGYSDRVRSITLGNSTITTQESANVVVGYGRWPEYLKDNEATAEDQPTQPDVATCRFYTLESVTWERDSPGWWWKFPDALKDMGLFGQNMYYHYLGRAGYTLHVQCNASKFHQGCLLVVCVPEAEMGCSQVDGTVNEHGLSEGETAKKFSSTSTNGTNTVQTIVTNAGMGVGVGNLTIYPHQWINLRTNNCATIVMPYINNVPMDNMFRHHNFTLMIIPFVPLDYSSDSSTYVPITVTVAPMCAEYNGLRLSTSLQGLPVMNTPGSNQFLTSDDFQSPSAMPQFDVTPELNIPGEVQNLMEIAEVDSVVPVNNVEGKLDTMEVYRIPVQSGNHQSDQVFGFQVQPGLDSVFKHTLLGEILNYFAHWSGSIKLTFVFCGSAMATGKFLLAYAPPGANAPKNRKDAMLGTHIIWDVGLQSSCVLCVPWISQTHYRLVQQDEYTSAGNVTCWYQTGIVVPAGTPTSCSIMCFVSACNDFSVRLLKDTPFIEQTALLQGDVVEAVENAVARVADTIGSGPSNSQAVPALTAVETGHTSQVTPSDTMQTRHVKNYHSRSESSIENFLSRSACVYMGGYHTTNTDQTKLFASWTISARRMVQMRRKLEIFTYVRFDVEVTFVITSKQDQGSRLGQDMPPLTHQIMYIPPGGPIPKSVTDYAWQTSTNPSIFWTEGNAPPRMSIPFISIGNAYSNFYDGWSHFSQNGVYGYNTLNHMGQIYVRHVNGSSPLPMTSTVRMYFKPKHVKAWVPRPPRLCQYKNASTVNFTPTNVTDKRTSINYIPETVKPDLSNYGAFGYQSGAVYVVNYRVVNRHLATHTDWQNCVWEDYNRDLLISTTTAHGCDVIARCRCSTGVYYCQSKGKHYPVNFEGPGLVEVQESEYYPKRYQSHVLLAAGFSEPGDCGGILRCEHGVIGIVTMGGEGVVGFADVRDLLWLEDDAMEQGVKDYVEQLGNAFGSGFTNQICEQVNLLKESLVGQDSILEKSLKALVKIISALVIVVRNHDDLITVTATLALIGCTSSPWRWLKQKVSQYYGIPMAERQNNGWLKKFTEMTNSCKGMEWISIKIQKFIEWLKVKILPEVREKHEFLNRLKQLPLLESQIATIEQSAPSQSDQEQLFSNVQYFAHYCRKYAPLYASEAKRVFSLEKKMSNYIQFKSKCRIEPVCLLLHGSPGAGKSVATNLIGRSLAEKLNSSVYTLPPDPDHFDGYKQQAVVIVDDLCQNPDGKDVSLFCQMVSSVDFVPPMAALEEKGILFTSLFVLASTNAGSINAPTVSDSRALARRFHFDMNIEVISMYSQNGKINMPMSEKTCDEECCPVNFKRCCPLVCGKAIQFIDRRTQVRYSLDMLVTEMFREYNHRHSVGATLEALFQGPPIYREIKISVAPETPPPPAIADLLKSVDSEAVREYCKEKGWLVPEVNSTLQIEKHVSRAFICLQALTTFVSVAGIIYIIYKLFAGFQGAYTGMPNQKPKVPTLRQAKVQGPAFEFAVAMMKRNSSTVKTEYREFTMLGIYDRWAVLPRHAKPGPTILMNNQEVGVLDAKELVDKDGTNLELTLLKLNRNEKFRDIRGFLAKEEVEANQAVLAINTSKFPNMYIPVGQVTDYGFLNLGGTPTKRMLMSNFPTRAGQCGGVLMSTGKVLGIHVGGNGHQGFSAALLKHYFNDEQGEIEFIESSKDAGFPIINTPSKTKLEPSVFHQVFEGDKEPAVLRNGDPRLKANFEEAIFSKYIGNVNTHVDEYMLEAVDHYAGQLATLDISTEPMRLEDAVYGTEGLEALDLTTSAGYPYVALGIKKRDILSRRTRDLTKLKECMDKYGLNLPMVTYVKDELRSADKVAKGKSRLIEASSLNDSVAMRQTFGNLYRTFHLNPGIVTGSAVGCDPDLFWSKIPVMLDGHLIAFDYSGYDASLSPVWFACLKLLLEKLGYTHKETNYIDYLCNSHHLYRDKHYFERGGMPSGYSGTSMFNSMINNIIIRTLMLKVYKGIDLDQFRMIAYGDDVIASYPWPIDASLLAETGKGYGLIMTPADKGECFNEVTWTNVTFLKRYFRADEQYPFLVHPVMPMKDIHESIRWTKDPKNTQDHVRSLCLLAWHNGEHEYEEFIRKIRSVPVGRCLTLPAFSTLRRKWLDSF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

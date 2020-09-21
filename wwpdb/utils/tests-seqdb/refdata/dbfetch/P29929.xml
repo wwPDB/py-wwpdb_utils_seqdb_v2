@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2019-12-11" version="73">
+<accession>P29929</accession>
+<name>COBN_SINSX</name>
+<protein>
+<recommendedName>
+<fullName>Aerobic cobaltochelatase subunit CobN</fullName>
+<ecNumber>6.6.1.2</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Hydrogenobyrinic acid a,c-diamide cobaltochelatase subunit CobN</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">cobN</name>
+</gene>
+<organism>
+<name type="scientific">Sinorhizobium sp.</name>
+<dbReference type="NCBI Taxonomy" id="42445"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rhizobiales</taxon>
+<taxon>Rhizobiaceae</taxon>
+<taxon>Sinorhizobium/Ensifer group</taxon>
+<taxon>Sinorhizobium</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1991" name="J. Bacteriol." volume="173" first="6074" last="6087">
+<title>Nucleotide sequence and genetic analysis of a 13.1-kilobase-pair Pseudomonas denitrificans DNA fragment containing five cob genes and identification of structural genes encoding Cob(I)alamin adenosyltransferase, cobyric acid synthase, and bifunctional cobinamide kinase-cobinamide phosphate guanylyltransferase.</title>
+<authorList>
+<person name="Crouzet J."/>
+<person name="Levy-Schil S."/>
+<person name="Cameron B."/>
+<person name="Cauchois L."/>
+<person name="Rigault S."/>
+<person name="Rouyez M.-C."/>
+<person name="Blanche F."/>
+<person name="Debussche L."/>
+<person name="Thibaut D."/>
+</authorList>
+<dbReference type="PubMed" id="1655697"/>
+<dbReference type="DOI" id="10.1128/jb.173.19.6074-6087.1991"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>SC510</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1992" name="J. Bacteriol." volume="174" first="7445" last="7451">
+<title>Assay, purification, and characterization of cobaltochelatase, a unique complex enzyme catalyzing cobalt insertion in hydrogenobyrinic acid a,c-diamide during coenzyme B12 biosynthesis in Pseudomonas denitrificans.</title>
+<authorList>
+<person name="Debussche L."/>
+<person name="Couder M."/>
+<person name="Thibaut D."/>
+<person name="Cameron B."/>
+<person name="Crouzet J."/>
+<person name="Blanche F."/>
+</authorList>
+<dbReference type="PubMed" id="1429466"/>
+<dbReference type="DOI" id="10.1128/jb.174.22.7445-7451.1992"/>
+</citation>
+<scope>CHARACTERIZATION</scope>
+</reference>
+<comment type="function">
+<text>Catalyzes cobalt insertion in the corrin ring.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>ATP + Co(2+) + H2O + hydrogenobyrinate a,c-diamide = ADP + cob(II)yrinate a,c diamide + 5 H(+) + phosphate</text>
+<dbReference type="Rhea" id="RHEA:15341"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:30616"/>
+<dbReference type="ChEBI" id="CHEBI:43474"/>
+<dbReference type="ChEBI" id="CHEBI:48828"/>
+<dbReference type="ChEBI" id="CHEBI:58537"/>
+<dbReference type="ChEBI" id="CHEBI:77874"/>
+<dbReference type="ChEBI" id="CHEBI:456216"/>
+<dbReference type="EC" id="6.6.1.2"/>
+</reaction>
+</comment>
+<comment type="pathway">
+<text>Cofactor biosynthesis; adenosylcobalamin biosynthesis; cob(II)yrinate a,c-diamide from precorrin-2 (aerobic route): step 10/10.</text>
+</comment>
+<comment type="subunit">
+<text>Heterotrimer of CobN, CobS and CobT.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the CobN family.</text>
+</comment>
+<comment type="caution">
+<text evidence="1">Was originally thought to originate from Pseudomonas denitrificans, but similarity searches show that the sequence is much closer to Sinorhizobium. The entry's taxonomy has been changed.</text>
+</comment>
+<dbReference type="EC" id="6.6.1.2"/>
+<dbReference type="EMBL" id="M62866">
+<property type="protein sequence ID" value="AAA25780.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="SMR" id="P29929"/>
+<dbReference type="PRIDE" id="P29929"/>
+<dbReference type="KEGG" id="ag:AAA25780"/>
+<dbReference type="KO" id="K02230"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-121"/>
+<dbReference type="UniPathway" id="UPA00148">
+<property type="reaction ID" value="UER00221"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051116">
+<property type="term" value="F:cobaltochelatase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009236">
+<property type="term" value="P:cobalamin biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniPathway"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006779">
+<property type="term" value="P:porphyrin-containing compound biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011953">
+<property type="entry name" value="Cobalto_CobN"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003672">
+<property type="entry name" value="CobN/Mg_chltase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02514">
+<property type="entry name" value="CobN-Mg_chel"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR02257">
+<property type="entry name" value="cobalto_cobN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0169">Cobalamin biosynthesis</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0436">Ligase</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-0627">Porphyrin biosynthesis</keyword>
+<feature type="chain" description="Aerobic cobaltochelatase subunit CobN" id="PRO_0000089991">
+<location>
+<begin position="1"/>
+<end position="1275"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000305"/>
+<sequence length="1275" mass="138056" checksum="3FDF2858434E4C78" modified="1993-04-01" version="1">MHLLLAQKGTIADGNEAIDLGQTPADILFLSAADTELSSIAAAHGRRDGGLSLRIASLMSLMHPMSVDTYVERTARHAKLIVVRPLGGASYFRYLLEALHAAAVTHRFEIAVLPGDDKPDPGLEPFSTVAADDRQRLWAYFTEGGSDNAGLFLDYAAALVTGAEKPQPAKPLLKAGIWWPGAGVIGVSEWQSLVQGRMVAREGFEPPTVGICFYRALVQSGETRPVEALIDALEAEGVRALPVFVSSLKDAVSVGTLQAIFSEAAPDVVMNATGFAVSSPGADRQPTVLESTGAPVLQVIFSGSSRAQWETSPQGLMARDLAMNVALPEVDGRILARAVSFKAASIYDAKVEANIVGHEPLEGRVRFAADLAVNWANVRRAEPAERRIAIVMANYPNRDGRLGNGVGLDTPAGTVEVLSAMAREGYAVGEVPADGDALIRFLMAGPTNAASHDREIRERISLNDYKTFFDSLPKQIKDEVAGRWGVPEADPFFLDGAFALPLARFGEVIVGIQPARGYNIDPKESYHSPDLVPPHGYLAFYAFLRQQFGAQAIVHMGKHGNLEWLPGKALALSETCYPEAIFGPLPHIYPFIVNDPGEGTQAKRRTSAVIIDHLTPPLTRAESYGPLKDLEALVDEYYDAAGGDPRRLRLLSRQILDLVRDIGLDSDAGIDRGDSDDKALEKLDAYLCDLKEMQIRDGLHIFGVAPEGRLLTDLTVALARVPRGLGEGGDQSLQRAIAADAGLRGFAIPTSAGGNPARDAQPFDPLDCVMSDTWTGPKPSILADLSDAPWRTAGDTVERIELLAANLVSGELACPDHWANTRAVLGEIETRLKPSISNSGAAEMTGFLTGLSGRFVAPGPSGAPTRGRPDVLPTGRNFYSVDSRAVPTPAAYELGKKSAELLIRRYLQDHGEWPSSFGLTAWGTANMRTGGDDIAQALALIGAKPTWDMVSRRVMGYEIVPLAVLGRPRVDVTLRISGFFRDAFPDQIALFDKAIRAVALEEDDADNMIAARMRAESRRLEAEGVEAAEAARRASYRVFGAKPGAYGAALQALIDEKGWETKADLAEAYLTWGAYAYGAGEEGKAERDLFEERLRTIEAVVQNQDNREHDLLDSDDYYQFEGGMSAAAEQLGGHRPAIYHNDHSRPEKPVIRSLEEEIGRVVRARVVNPKWIDGVMRHGYKGAFEIAATVDYMFAFAATTGAVRDHHFEAAYQAFIVDERVADFMRDKNPAAFAELAERLLEAIDRNLWTPRSNSARFELAGIGTAATRLRAGNE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

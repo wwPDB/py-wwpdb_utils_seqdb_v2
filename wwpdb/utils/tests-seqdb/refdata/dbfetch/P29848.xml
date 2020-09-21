@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="139">
+<accession>P29848</accession>
+<name>CYSM_SALTY</name>
+<protein>
+<recommendedName>
+<fullName>Cysteine synthase B</fullName>
+<shortName>CSase B</shortName>
+<ecNumber>2.5.1.47</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>O-acetylserine (thiol)-lyase B</fullName>
+<shortName>OAS-TL B</shortName>
+</alternativeName>
+<alternativeName>
+<fullName>O-acetylserine sulfhydrylase B</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">cysM</name>
+<name type="ordered locus">STM2440</name>
+</gene>
+<organism>
+<name type="scientific">Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)</name>
+<dbReference type="NCBI Taxonomy" id="99287"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Salmonella</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="1991-05" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Sivaprasad A.V."/>
+<person name="Kuczek E.S."/>
+<person name="Bawden C.S."/>
+<person name="Rogers G.E."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>LT2</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2001" name="Nature" volume="413" first="852" last="856">
+<title>Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.</title>
+<authorList>
+<person name="McClelland M."/>
+<person name="Sanderson K.E."/>
+<person name="Spieth J."/>
+<person name="Clifton S.W."/>
+<person name="Latreille P."/>
+<person name="Courtney L."/>
+<person name="Porwollik S."/>
+<person name="Ali J."/>
+<person name="Dante M."/>
+<person name="Du F."/>
+<person name="Hou S."/>
+<person name="Layman D."/>
+<person name="Leonard S."/>
+<person name="Nguyen C."/>
+<person name="Scott K."/>
+<person name="Holmes A."/>
+<person name="Grewal N."/>
+<person name="Mulvaney E."/>
+<person name="Ryan E."/>
+<person name="Sun H."/>
+<person name="Florea L."/>
+<person name="Miller W."/>
+<person name="Stoneking T."/>
+<person name="Nhan M."/>
+<person name="Waterston R."/>
+<person name="Wilson R.K."/>
+</authorList>
+<dbReference type="PubMed" id="11677609"/>
+<dbReference type="DOI" id="10.1038/35101614"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>LT2 / SGSC1412 / ATCC 700720</strain>
+</source>
+</reference>
+<comment type="function">
+<text>Two cysteine synthase enzymes are found. Both catalyze the same reaction. Cysteine synthase B can also use thiosulfate in place of sulfide to give cysteine thiosulfonate as a product.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>hydrogen sulfide + O-acetyl-L-serine = acetate + L-cysteine</text>
+<dbReference type="Rhea" id="RHEA:14829"/>
+<dbReference type="ChEBI" id="CHEBI:29919"/>
+<dbReference type="ChEBI" id="CHEBI:30089"/>
+<dbReference type="ChEBI" id="CHEBI:35235"/>
+<dbReference type="ChEBI" id="CHEBI:58340"/>
+<dbReference type="EC" id="2.5.1.47"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor>
+<name>pyridoxal 5'-phosphate</name>
+<dbReference type="ChEBI" id="CHEBI:597326"/>
+</cofactor>
+</comment>
+<comment type="pathway">
+<text>Amino-acid biosynthesis; L-cysteine biosynthesis; L-cysteine from L-serine: step 2/2.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the cysteine synthase/cystathionine beta-synthase family.</text>
+</comment>
+<dbReference type="EC" id="2.5.1.47"/>
+<dbReference type="EMBL" id="X59595">
+<property type="protein sequence ID" value="CAA42164.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE006468">
+<property type="protein sequence ID" value="AAL21334.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S29567">
+<property type="entry name" value="S29567"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_461375.1">
+<property type="nucleotide sequence ID" value="NC_003197.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_001093886.1">
+<property type="nucleotide sequence ID" value="NC_003197.2"/>
+</dbReference>
+<dbReference type="PDB" id="2JC3">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.30"/>
+<property type="chains" value="A/B/C/D/E/F/G/H=1-303"/>
+</dbReference>
+<dbReference type="PDBsum" id="2JC3"/>
+<dbReference type="SMR" id="P29848"/>
+<dbReference type="PaxDb" id="P29848"/>
+<dbReference type="PRIDE" id="P29848"/>
+<dbReference type="EnsemblBacteria" id="AAL21334">
+<property type="protein sequence ID" value="AAL21334"/>
+<property type="gene ID" value="STM2440"/>
+</dbReference>
+<dbReference type="GeneID" id="1253962"/>
+<dbReference type="KEGG" id="stm:STM2440"/>
+<dbReference type="PATRIC" id="fig|99287.12.peg.2578"/>
+<dbReference type="HOGENOM" id="CLU_021018_1_0_6"/>
+<dbReference type="KO" id="K12339"/>
+<dbReference type="OMA" id="MWGAEII"/>
+<dbReference type="PhylomeDB" id="P29848"/>
+<dbReference type="BioCyc" id="SENT99287:STM2440-MONOMER"/>
+<dbReference type="BRENDA" id="2.5.1.47">
+<property type="organism ID" value="5542"/>
+</dbReference>
+<dbReference type="SABIO-RK" id="P29848"/>
+<dbReference type="UniPathway" id="UPA00136">
+<property type="reaction ID" value="UER00200"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="P29848"/>
+<dbReference type="Proteomes" id="UP000001014">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004124">
+<property type="term" value="F:cysteine synthase activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0080146">
+<property type="term" value="F:L-cysteine desulfhydrase activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030170">
+<property type="term" value="F:pyridoxal phosphate binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006535">
+<property type="term" value="P:cysteine biosynthetic process from serine"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.1100">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005856">
+<property type="entry name" value="Cys_synth"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005858">
+<property type="entry name" value="CysM"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001216">
+<property type="entry name" value="P-phosphate_BS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001926">
+<property type="entry name" value="PLP-dep"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036052">
+<property type="entry name" value="Trypto_synt_PLP_dependent"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR10314:SF100">
+<property type="entry name" value="PTHR10314:SF100"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00291">
+<property type="entry name" value="PALP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53686">
+<property type="entry name" value="SSF53686"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01136">
+<property type="entry name" value="cysKM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01138">
+<property type="entry name" value="cysM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00901">
+<property type="entry name" value="CYS_SYNTHASE"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0028">Amino-acid biosynthesis</keyword>
+<keyword id="KW-0198">Cysteine biosynthesis</keyword>
+<keyword id="KW-0663">Pyridoxal phosphate</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<feature type="chain" description="Cysteine synthase B" id="PRO_0000167109">
+<location>
+<begin position="1"/>
+<end position="303"/>
+</location>
+</feature>
+<feature type="region of interest" description="Pyridoxal phosphate binding" evidence="2">
+<location>
+<begin position="174"/>
+<end position="178"/>
+</location>
+</feature>
+<feature type="binding site" description="Pyridoxal phosphate" evidence="2">
+<location>
+<position position="71"/>
+</location>
+</feature>
+<feature type="binding site" description="Pyridoxal phosphate" evidence="2">
+<location>
+<position position="255"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-(pyridoxal phosphate)lysine" evidence="2">
+<location>
+<position position="41"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="4"/>
+<end position="7"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="13"/>
+<end position="15"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="17"/>
+<end position="20"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="22"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="26"/>
+<end position="31"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="32"/>
+<end position="34"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="41"/>
+<end position="54"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="63"/>
+<end position="67"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="71"/>
+<end position="83"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="86"/>
+<end position="93"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="97"/>
+<end position="104"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="105"/>
+<end position="107"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="109"/>
+<end position="113"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="115"/>
+<end position="117"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="118"/>
+<end position="132"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="134"/>
+<end position="137"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="140"/>
+<end position="142"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="145"/>
+<end position="152"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="154"/>
+<end position="161"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="162"/>
+<end position="164"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="168"/>
+<end position="172"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="174"/>
+<end position="176"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="177"/>
+<end position="187"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="189"/>
+<end position="191"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="194"/>
+<end position="200"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="223"/>
+<end position="225"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="227"/>
+<end position="232"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="234"/>
+<end position="248"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="254"/>
+<end position="269"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="274"/>
+<end position="279"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="281"/>
+<end position="283"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="284"/>
+<end position="289"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2JC3"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250"/>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="303" mass="32645" checksum="95435A8C09209EFD" modified="1993-04-01" version="1">MNTLEQTIGNTPLVKLQRLGPDNGSEIWVKLEGNNPAGSVKDRAALSMIVEAEKRGEIKPGDVLIEATSGNTGIALAMIAALKGYRMKLLMPDNMSQERRAAMRAYGAELILVTKEQGMEGARDLALAMSERGEGKLLDQFNNPDNPYAHYTTTGPEIWRQTSGRITHFVSSMGTTGTITGVSRFLREQEKPVTIVGLQPEEGSSIPGIRRWPAEYMPGIFNASLVDEVLDIHQNDAENTMRELAVREGIFCGVSSGGAVAGALRVARATPGAIVVAIICDRGDRYLSTGVFGEEHFSQGAGI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

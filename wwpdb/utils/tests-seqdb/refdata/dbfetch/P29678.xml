@@ -1,0 +1,676 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="146">
+<accession>P29678</accession>
+<name>MP2K1_RABIT</name>
+<protein>
+<recommendedName>
+<fullName>Dual specificity mitogen-activated protein kinase kinase 1</fullName>
+<shortName>MAP kinase kinase 1</shortName>
+<shortName>MAPKK 1</shortName>
+<ecNumber>2.7.12.2</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>ERK activator kinase 1</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>MAPK/ERK kinase 1</fullName>
+<shortName>MEK 1</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">MAP2K1</name>
+<name type="synonym">MEK1</name>
+<name type="synonym">PRKMK1</name>
+</gene>
+<organism>
+<name type="scientific">Oryctolagus cuniculus</name>
+<name type="common">Rabbit</name>
+<dbReference type="NCBI Taxonomy" id="9986"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Lagomorpha</taxon>
+<taxon>Leporidae</taxon>
+<taxon>Oryctolagus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1994" name="EMBO J." volume="13" first="1610" last="1619">
+<title>Identification of the sites in MAP kinase kinase-1 phosphorylated by p74raf-1.</title>
+<authorList>
+<person name="Alessi D.R."/>
+<person name="Saito Y."/>
+<person name="Campbell D.G."/>
+<person name="Cohen P."/>
+<person name="Sithanadam G."/>
+<person name="Rapp U."/>
+<person name="Ashworth A."/>
+<person name="Marshall C.J."/>
+<person name="Cowley S."/>
+</authorList>
+<dbReference type="PubMed" id="8157000"/>
+<dbReference type="DOI" id="10.1002/j.1460-2075.1994.tb06424.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>PHOSPHORYLATION AT SER-218 AND SER-222 BY RAF</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1992" name="Oncogene" volume="7" first="2555" last="2556">
+<title>The amino acid sequence of a mammalian MAP kinase kinase.</title>
+<authorList>
+<person name="Ashworth A."/>
+<person name="Nakielny S."/>
+<person name="Cohen P."/>
+<person name="Marshall C."/>
+</authorList>
+<dbReference type="PubMed" id="1461659"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] OF 16-393</scope>
+<scope>PARTIAL PROTEIN SEQUENCE</scope>
+<source>
+<tissue>Brain</tissue>
+<tissue>Skeletal muscle</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1992" name="FEBS Lett." volume="308" first="183" last="189">
+<title>MAP kinase kinase from rabbit skeletal muscle. A novel dual specificity enzyme showing homology to yeast protein kinases involved in pheromone-dependent signal transduction.</title>
+<authorList>
+<person name="Nakielny S."/>
+<person name="Campbell D.G."/>
+<person name="Cohen P."/>
+</authorList>
+<dbReference type="PubMed" id="1499729"/>
+<dbReference type="DOI" id="10.1016/0014-5793(92)81271-m"/>
+</citation>
+<scope>PROTEIN SEQUENCE OF 2-16; 85-96 AND 190-201</scope>
+<source>
+<tissue>Skeletal muscle</tissue>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1992" name="Biochem. J." volume="285" first="701" last="705">
+<title>Renaturation and partial peptide sequencing of mitogen-activated protein kinase (MAP kinase) activator from rabbit skeletal muscle.</title>
+<authorList>
+<person name="Wu J."/>
+<person name="Michel H."/>
+<person name="Rossomando A."/>
+<person name="Haystead T."/>
+<person name="Shabanowitz J."/>
+<person name="Hunt D.F."/>
+<person name="Sturgill T.W."/>
+</authorList>
+<dbReference type="PubMed" id="1379797"/>
+<dbReference type="DOI" id="10.1042/bj2850701"/>
+</citation>
+<scope>PROTEIN SEQUENCE OF 85-96 AND 190-201</scope>
+<source>
+<tissue>Skeletal muscle</tissue>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2011" name="Nature" volume="472" first="366" last="369">
+<title>A Raf-induced allosteric transition of KSR stimulates phosphorylation of MEK.</title>
+<authorList>
+<person name="Brennan D.F."/>
+<person name="Dar A.C."/>
+<person name="Hertz N.T."/>
+<person name="Chao W.C."/>
+<person name="Burlingame A.L."/>
+<person name="Shokat K.M."/>
+<person name="Barford D."/>
+</authorList>
+<dbReference type="PubMed" id="21441910"/>
+<dbReference type="DOI" id="10.1038/nature09860"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (3.46 ANGSTROMS) IN COMPLEX WITH ATP AND HUMAN KSR2</scope>
+<scope>PHOSPHORYLATION</scope>
+</reference>
+<comment type="function">
+<text evidence="2 5">Dual specificity protein kinase which acts as an essential component of the MAP kinase signal transduction pathway. Binding of extracellular ligands such as growth factors, cytokines and hormones to their cell-surface receptors activates RAS and this initiates RAF1 activation. RAF1 then further activates the dual-specificity protein kinases MAP2K1/MEK1 and MAP2K2/MEK2. Both MAP2K1/MEK1 and MAP2K2/MEK2 function specifically in the MAPK/ERK cascade, and catalyze the concomitant phosphorylation of a threonine and a tyrosine residue in a Thr-Glu-Tyr sequence located in the extracellular signal-regulated kinases MAPK3/ERK1 and MAPK1/ERK2, leading to their activation and further transduction of the signal within the MAPK/ERK cascade. Activates BRAF in a KSR1 or KSR2-dependent manner; by binding to KSR1 or KSR2 releases the inhibitory intramolecular interaction between KSR1 or KSR2 protein kinase and N-terminal domains which promotes KSR1 or KSR2-BRAF dimerization and BRAF activation (By similarity). Depending on the cellular context, this pathway mediates diverse biological functions such as cell growth, adhesion, survival and differentiation, predominantly through the regulation of transcription, metabolism and cytoskeletal rearrangements. One target of the MAPK/ERK cascade is peroxisome proliferator-activated receptor gamma (PPARG), a nuclear receptor that promotes differentiation and apoptosis. MAP2K1/MEK1 has been shown to export PPARG from the nucleus. The MAPK/ERK cascade is also involved in the regulation of endosomal dynamics, including lysosome processing and endosome cycling through the perinuclear recycling compartment (PNRC), as well as in the fragmentation of the Golgi apparatus during mitosis (By similarity).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>ATP + L-seryl-[protein] = ADP + H(+) + O-phospho-L-seryl-[protein]</text>
+<dbReference type="Rhea" id="RHEA:17989"/>
+<dbReference type="Rhea" id="RHEA-COMP:9863"/>
+<dbReference type="Rhea" id="RHEA-COMP:11604"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:29999"/>
+<dbReference type="ChEBI" id="CHEBI:30616"/>
+<dbReference type="ChEBI" id="CHEBI:83421"/>
+<dbReference type="ChEBI" id="CHEBI:456216"/>
+<dbReference type="EC" id="2.7.12.2"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>ATP + L-threonyl-[protein] = ADP + H(+) + O-phospho-L-threonyl-[protein]</text>
+<dbReference type="Rhea" id="RHEA:46608"/>
+<dbReference type="Rhea" id="RHEA-COMP:11060"/>
+<dbReference type="Rhea" id="RHEA-COMP:11605"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:30013"/>
+<dbReference type="ChEBI" id="CHEBI:30616"/>
+<dbReference type="ChEBI" id="CHEBI:61977"/>
+<dbReference type="ChEBI" id="CHEBI:456216"/>
+<dbReference type="EC" id="2.7.12.2"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>ATP + L-tyrosyl-[protein] = ADP + H(+) + O-phospho-L-tyrosyl-[protein]</text>
+<dbReference type="Rhea" id="RHEA:10596"/>
+<dbReference type="Rhea" id="RHEA-COMP:10136"/>
+<dbReference type="Rhea" id="RHEA-COMP:10137"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:30616"/>
+<dbReference type="ChEBI" id="CHEBI:46858"/>
+<dbReference type="ChEBI" id="CHEBI:82620"/>
+<dbReference type="ChEBI" id="CHEBI:456216"/>
+<dbReference type="EC" id="2.7.12.2"/>
+</reaction>
+</comment>
+<comment type="activity regulation">
+<text evidence="4 5">Ras proteins such as HRAS mediate the activation of RAF proteins such as RAF1 or BRAF which in turn activate extracellular signal-regulated kinases (ERK) through MAPK (mitogen-activated protein kinases) and ERK kinases MAP2K1/MEK1 and MAP2K2/MEK2. Activation occurs through phosphorylation of Ser-218 and Ser-222 (By similarity). MAP2K1/MEK1 binds KSR1 or KSR2 releasing the inhibitory intramolecular interaction between KSR1 or KSR2 protein kinase and N-terminal domains (By similarity). This allows KSR1 or KSR2 dimerization with BRAF leading to BRAF activation and phosphorylation of MAP2K1 (By similarity). MAP2K1/MEK1 is also the target of negative feed-back regulation by its substrate kinases, such as MAPK1/ERK2. These phosphorylate MAP2K1/MEK1 on Thr-292, thereby facilitating dephosphorylation of the activating residues Ser-218 and Ser-222. Inhibited by serine/threonine phosphatase 2A (By similarity).</text>
+</comment>
+<comment type="subunit">
+<text evidence="3 4 5 9">Found in a complex with at least BRAF, HRAS, MAP2K1, MAPK3/ERK1 and RGS14 (By similarity). Forms a heterodimer with MAP2K2/MEK2 (By similarity). Forms heterodimers with KSR2 which further dimerize to form tetramers (PubMed:21441910). Interacts with KSR1 or KSR2 and BRAF; the interaction with KSR1 or KSR2 mediates KSR1-BRAF or KSR2-BRAF dimerization (By similarity). Interacts with ARBB2, LAMTOR3, MAPK1/ERK2 and RAF1 (By similarity). Interacts with MORG1 (By similarity). Interacts with PPARG (By similarity). Interacts with SGK1 (By similarity). Interacts with BIRC6/bruce (By similarity). Interacts with KAT7; the interaction promotes KAT7 phosphorylation (By similarity). Interacts with RAF1 and NEK10; the interaction is required for ERK1/2-signaling pathway activation in response to UV irradiation (By similarity).</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-1631983">
+<id>P29678</id>
+</interactant>
+<interactant intactId="EBI-365980">
+<id>P15056</id>
+<label>BRAF</label>
+</interactant>
+<organismsDiffer>true</organismsDiffer>
+<experiments>2</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-1631983">
+<id>P29678</id>
+</interactant>
+<interactant intactId="EBI-15916808">
+<id>Q6VAB6-1</id>
+<label>KSR2</label>
+</interactant>
+<organismsDiffer>true</organismsDiffer>
+<experiments>6</experiments>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="5">Cytoplasm</location>
+<location evidence="5">Cytoskeleton</location>
+<location evidence="5">Microtubule organizing center</location>
+<location evidence="5">Centrosome</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="5">Cytoplasm</location>
+<location evidence="5">Cytoskeleton</location>
+<location evidence="5">Microtubule organizing center</location>
+<location evidence="5">Spindle pole body</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="5">Cytoplasm</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="5">Nucleus</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="5">Membrane</location>
+<topology evidence="5">Peripheral membrane protein</topology>
+</subcellularLocation>
+<text evidence="5">Localizes at centrosomes during prometaphase, midzone during anaphase and midbody during telophase/cytokinesis. Membrane localization is probably regulated by its interaction with KSR1.</text>
+</comment>
+<comment type="domain">
+<text evidence="2">The proline-rich region localized between residues 270 and 307 is important for the binding to RAF1 and activation of MAP2K1/MEK1.</text>
+</comment>
+<comment type="PTM">
+<text evidence="5">Phosphorylation at Ser-218 and Ser-222 by MAP kinase kinase kinases (RAF or MEKK1) regulates positively the kinase activity (By similarity). Also phosphorylated at Thr-292 by MAPK1/ERK2 and at Ser-298 by PAK (By similarity). MAPK1/ERK2 phosphorylation of Thr-292 occurs in response to cellular adhesion and leads to inhibition of Ser-298 phosphorylation by PAK (By similarity). Autophosphorylated at Ser-218 and Ser-222, autophosphosphorylation is promoted by NEK10 following UV irradiation (By similarity).</text>
+</comment>
+<comment type="similarity">
+<text evidence="11">Belongs to the protein kinase superfamily. STE Ser/Thr protein kinase family. MAP kinase kinase subfamily.</text>
+</comment>
+<dbReference type="EC" id="2.7.12.2"/>
+<dbReference type="EMBL" id="Z30163">
+<property type="protein sequence ID" value="CAA82912.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="PIR" id="S42068">
+<property type="entry name" value="S42068"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001076098.1">
+<property type="nucleotide sequence ID" value="NM_001082629.1"/>
+</dbReference>
+<dbReference type="PDB" id="2Y4I">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="3.46"/>
+<property type="chains" value="C=1-393"/>
+</dbReference>
+<dbReference type="PDB" id="5KKR">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="3.51"/>
+<property type="chains" value="C=1-393"/>
+</dbReference>
+<dbReference type="PDBsum" id="2Y4I"/>
+<dbReference type="PDBsum" id="5KKR"/>
+<dbReference type="SMR" id="P29678"/>
+<dbReference type="DIP" id="DIP-40535N"/>
+<dbReference type="IntAct" id="P29678">
+<property type="interactions" value="3"/>
+</dbReference>
+<dbReference type="STRING" id="9986.ENSOCUP00000007582"/>
+<dbReference type="BindingDB" id="P29678"/>
+<dbReference type="ChEMBL" id="CHEMBL5740"/>
+<dbReference type="iPTMnet" id="P29678"/>
+<dbReference type="PRIDE" id="P29678"/>
+<dbReference type="GeneID" id="100009316"/>
+<dbReference type="KEGG" id="ocu:100009316"/>
+<dbReference type="CTD" id="5604"/>
+<dbReference type="eggNOG" id="KOG0581">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="InParanoid" id="P29678"/>
+<dbReference type="KO" id="K04368"/>
+<dbReference type="OrthoDB" id="688282at2759"/>
+<dbReference type="BRENDA" id="2.7.12.2">
+<property type="organism ID" value="1749"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P29678"/>
+<dbReference type="Proteomes" id="UP000001811">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016020">
+<property type="term" value="C:membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005815">
+<property type="term" value="C:microtubule organizing center"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005634">
+<property type="term" value="C:nucleus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004708">
+<property type="term" value="F:MAP kinase kinase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004674">
+<property type="term" value="F:protein serine/threonine kinase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004713">
+<property type="term" value="F:protein tyrosine kinase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011009">
+<property type="entry name" value="Kinase-like_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000719">
+<property type="entry name" value="Prot_kinase_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017441">
+<property type="entry name" value="Protein_kinase_ATP_BS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008271">
+<property type="entry name" value="Ser/Thr_kinase_AS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00069">
+<property type="entry name" value="Pkinase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00220">
+<property type="entry name" value="S_TKc"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56112">
+<property type="entry name" value="SSF56112"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00107">
+<property type="entry name" value="PROTEIN_KINASE_ATP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50011">
+<property type="entry name" value="PROTEIN_KINASE_DOM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00108">
+<property type="entry name" value="PROTEIN_KINASE_ST"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0206">Cytoskeleton</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0418">Kinase</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-0539">Nucleus</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0723">Serine/threonine-protein kinase</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0829">Tyrosine-protein kinase</keyword>
+<feature type="initiator methionine" description="Removed" evidence="8">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Dual specificity mitogen-activated protein kinase kinase 1" id="PRO_0000086368">
+<location>
+<begin position="2"/>
+<end position="393"/>
+</location>
+</feature>
+<feature type="domain" description="Protein kinase" evidence="6">
+<location>
+<begin position="68"/>
+<end position="361"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="ATP" evidence="6 9">
+<location>
+<begin position="74"/>
+<end position="82"/>
+</location>
+</feature>
+<feature type="region of interest" description="RAF1-binding" evidence="2">
+<location>
+<begin position="270"/>
+<end position="307"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Pro-rich">
+<location>
+<begin position="262"/>
+<end position="307"/>
+</location>
+</feature>
+<feature type="active site" description="Proton acceptor" evidence="6 7">
+<location>
+<position position="190"/>
+</location>
+</feature>
+<feature type="binding site" description="ATP" evidence="6 9">
+<location>
+<position position="97"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by anthrax lethal factor" evidence="2">
+<location>
+<begin position="8"/>
+<end position="9"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine; by RAF" evidence="10">
+<location>
+<position position="218"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine; by RAF" evidence="10">
+<location>
+<position position="222"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphothreonine" evidence="5">
+<location>
+<position position="286"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphothreonine; by MAPK1" evidence="4">
+<location>
+<position position="292"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine; by PAK" evidence="5">
+<location>
+<position position="298"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="44"/>
+<end position="55"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="56"/>
+<end position="59"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="65"/>
+<end position="67"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="73"/>
+<end position="75"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="88"/>
+<end position="91"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="95"/>
+<end position="100"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="105"/>
+<end position="115"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="116"/>
+<end position="120"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="129"/>
+<end position="133"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="136"/>
+<end position="143"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="151"/>
+<end position="156"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="163"/>
+<end position="184"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="193"/>
+<end position="195"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="196"/>
+<end position="198"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="204"/>
+<end position="206"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="213"/>
+<end position="218"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="232"/>
+<end position="236"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="242"/>
+<end position="258"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="271"/>
+<end position="273"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="310"/>
+<end position="319"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="327"/>
+<end position="329"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="332"/>
+<end position="341"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="346"/>
+<end position="348"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="352"/>
+<end position="356"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="359"/>
+<end position="366"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="371"/>
+<end position="375"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="376"/>
+<end position="378"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2Y4I"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250"/>
+<evidence key="3" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P31938"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q01986"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q02750"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00159"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU10027"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="1499729"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="21441910"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8157000"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000305"/>
+<sequence length="393" mass="43453" checksum="0341B42FF9218D51" modified="2007-01-23" version="2">MPKKKPTPIQLNPAPDGSAVNGTSSAETNLEALQKKLEELELDEQQRKRLEAFLTQKQKVGELKDDDFEKISELGAGNGGVVFKVSHKPSGLVMARKLIHLEIKPAIRNQIIRELQVLHECNSPYIVGFYGAFYSDGEISICMEHMDGGSLDQVLKKAGRIPEQILGKVSIAVIKGLTYLREKHKIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSMANSFVGTRSYMSPERLQGTHYSVQSDIWSMGLSLVEMAVGRYPIPPPDAKELELMFGCQVEGDAAETPPRPRTPGRPLSSYGMDSRPPMAIFELLDYIVNEPPPKLPSAVFSLEFQDFVNKCLIKNPAERADLKQLMVHAFIKRSDAEEVDFAGWLCSTIGLNQPSTPTHAAGV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="120">
+<accession>P29498</accession>
+<accession>Q8T5U8</accession>
+<accession>Q8T5U9</accession>
+<name>FABP_SCHMA</name>
+<protein>
+<recommendedName>
+<fullName>14 kDa fatty acid-binding protein</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>Sm14</fullName>
+</alternativeName>
+</protein>
+<organism>
+<name type="scientific">Schistosoma mansoni</name>
+<name type="common">Blood fluke</name>
+<dbReference type="NCBI Taxonomy" id="6183"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Spiralia</taxon>
+<taxon>Lophotrochozoa</taxon>
+<taxon>Platyhelminthes</taxon>
+<taxon>Trematoda</taxon>
+<taxon>Digenea</taxon>
+<taxon>Strigeidida</taxon>
+<taxon>Schistosomatoidea</taxon>
+<taxon>Schistosomatidae</taxon>
+<taxon>Schistosoma</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1991" name="J. Biol. Chem." volume="266" first="8447" last="8454">
+<title>A 14-kDa Schistosoma mansoni polypeptide is homologous to a gene family of fatty acid binding proteins.</title>
+<authorList>
+<person name="Moser D."/>
+<person name="Tendler M."/>
+<person name="Griffiths G."/>
+<person name="Klinkert M.-Q."/>
+</authorList>
+<dbReference type="PubMed" id="2022660"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE (ISOFORM 1)</scope>
+</reference>
+<reference key="2">
+<citation type="submission" date="2001-09" db="EMBL/GenBank/DDBJ databases">
+<title>Cloning and sequence of the gene encoding Schistosoma mansoni fatty acid-binding protein, Sm14.</title>
+<authorList>
+<person name="Romero-Ramos C.R."/>
+<person name="Tendler M."/>
+<person name="Ho P.L."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE (ISOFORM 1)</scope>
+<source>
+<strain>Brazilian BH</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="submission" date="2002-03" db="EMBL/GenBank/DDBJ databases">
+<title>Polymorphism of the Schistosoma mansoni Sm14 fatty acid-binding protein: structural and functional analysis.</title>
+<authorList>
+<person name="Romero-Ramos C.R."/>
+<person name="Figueredo R.C.R."/>
+<person name="Pertinhez T.A."/>
+<person name="Nasciemento A.L.T.O."/>
+<person name="Tendler M."/>
+<person name="Raw I."/>
+<person name="Spisni A."/>
+<person name="Ho P.L."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE (ISOFORMS 1 AND 2)</scope>
+<scope>VARIANT THR-20</scope>
+<source>
+<strain>Brazilian BH</strain>
+<strain>LE</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2004" name="Biochemistry" volume="43" first="13000" last="13011">
+<title>Schistosoma mansoni fatty acid binding protein: specificity and functional control as revealed by crystallographic structure.</title>
+<authorList>
+<person name="Angelucci F."/>
+<person name="Johnson K.A."/>
+<person name="Baiocco P."/>
+<person name="Miele A.E."/>
+<person name="Brunori M."/>
+<person name="Valle C."/>
+<person name="Vigorosi F."/>
+<person name="Troiani A.R."/>
+<person name="Liberti P."/>
+<person name="Cioli D."/>
+<person name="Klinkert M.-Q."/>
+<person name="Bellelli A."/>
+</authorList>
+<dbReference type="PubMed" id="15476393"/>
+<dbReference type="DOI" id="10.1021/bi048505f"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.85 ANGSTROMS) IN COMPLEXES WITH FATTY ACIDS</scope>
+</reference>
+<comment type="function">
+<text>May play a role in the transport of fatty acids. Binds various fatty acids, such as arachidonic, oleic, palmitic and linolenic acid (in vitro).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>P29498-1</id>
+<name>1</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>P29498-2</id>
+<name>2</name>
+<name>Delta E3</name>
+<sequence type="described" ref="VSP_010234"/>
+</isoform>
+</comment>
+<comment type="tissue specificity">
+<text>Tubercles, muscle layers and body.</text>
+</comment>
+<comment type="domain">
+<text>Forms a beta-barrel structure that accommodates hydrophobic ligands in its interior.</text>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the calycin superfamily. Fatty-acid binding protein (FABP) family.</text>
+</comment>
+<dbReference type="EMBL" id="M60895">
+<property type="protein sequence ID" value="AAA63516.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY055467">
+<property type="protein sequence ID" value="AAL15461.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AF492389">
+<property type="protein sequence ID" value="AAM18480.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AF492390">
+<property type="protein sequence ID" value="AAM18481.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="PIR" id="A39818">
+<property type="entry name" value="A39818"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_018647195.1">
+<molecule id="P29498-2"/>
+<property type="nucleotide sequence ID" value="XM_018792798.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_018647196.1">
+<molecule id="P29498-1"/>
+<property type="nucleotide sequence ID" value="XM_018792809.1"/>
+</dbReference>
+<dbReference type="PDB" id="1VYF">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.85"/>
+<property type="chains" value="A=1-133"/>
+</dbReference>
+<dbReference type="PDB" id="1VYG">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.40"/>
+<property type="chains" value="A=1-133"/>
+</dbReference>
+<dbReference type="PDB" id="2POA">
+<property type="method" value="NMR"/>
+<property type="chains" value="A=1-133"/>
+</dbReference>
+<dbReference type="PDBsum" id="1VYF"/>
+<dbReference type="PDBsum" id="1VYG"/>
+<dbReference type="PDBsum" id="2POA"/>
+<dbReference type="SMR" id="P29498"/>
+<dbReference type="STRING" id="6183.Smp_095360.1"/>
+<dbReference type="DrugBank" id="DB04557">
+<property type="generic name" value="Arachidonic Acid"/>
+</dbReference>
+<dbReference type="DrugBank" id="DB04224">
+<property type="generic name" value="Oleic Acid"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="Smp_095360.1">
+<molecule id="P29498-1"/>
+<property type="protein sequence ID" value="Smp_095360.1:pep"/>
+<property type="gene ID" value="Smp_095360"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="Smp_095360.2">
+<molecule id="P29498-2"/>
+<property type="protein sequence ID" value="Smp_095360.2:pep"/>
+<property type="gene ID" value="Smp_095360"/>
+</dbReference>
+<dbReference type="GeneDB" id="Smp_095360.1:pep"/>
+<dbReference type="GeneID" id="8344852"/>
+<dbReference type="KEGG" id="smm:Smp_095360.1"/>
+<dbReference type="CTD" id="8344852"/>
+<dbReference type="eggNOG" id="KOG4015">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_113772_0_2_1"/>
+<dbReference type="KO" id="K08756"/>
+<dbReference type="OMA" id="DKFVHTQ"/>
+<dbReference type="PhylomeDB" id="P29498"/>
+<dbReference type="EvolutionaryTrace" id="P29498"/>
+<dbReference type="Proteomes" id="UP000008854">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008289">
+<property type="term" value="F:lipid binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.40.128.20">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012674">
+<property type="entry name" value="Calycin"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000463">
+<property type="entry name" value="Fatty_acid-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR031259">
+<property type="entry name" value="ILBP"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000566">
+<property type="entry name" value="Lipocln_cytosolic_FA-bd_dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR11955">
+<property type="entry name" value="PTHR11955"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00061">
+<property type="entry name" value="Lipocalin"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00178">
+<property type="entry name" value="FATTYACIDBP"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50814">
+<property type="entry name" value="SSF50814"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00214">
+<property type="entry name" value="FABP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0446">Lipid-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="chain" description="14 kDa fatty acid-binding protein" id="PRO_0000067358">
+<location>
+<begin position="1"/>
+<end position="133"/>
+</location>
+</feature>
+<feature type="region of interest" description="Fatty acid binding">
+<location>
+<begin position="127"/>
+<end position="129"/>
+</location>
+</feature>
+<feature type="binding site" description="Fatty acid">
+<location>
+<position position="107"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2." id="VSP_010234" evidence="5">
+<location>
+<begin position="82"/>
+<end position="116"/>
+</location>
+</feature>
+<feature type="sequence variant" evidence="4">
+<original>M</original>
+<variation>T</variation>
+<location>
+<position position="20"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="2"/>
+<end position="4"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="6"/>
+<end position="15"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="16"/>
+<end position="22"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="27"/>
+<end position="33"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="39"/>
+<end position="45"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="48"/>
+<end position="54"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="60"/>
+<end position="64"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="66"/>
+<end position="68"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="70"/>
+<end position="73"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="75"/>
+<end position="77"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="79"/>
+<end position="88"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="91"/>
+<end position="97"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="102"/>
+<end position="110"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="113"/>
+<end position="120"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="123"/>
+<end position="131"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1VYF"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2POA"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000250"/>
+<evidence key="4" type="ECO:0000269">
+<source ref="3"/>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<sequence length="133" mass="14848" checksum="1A1E0E262C59D76F" modified="1993-04-01" version="1">MSSFLGKWKLSESHNFDAVMSKLGVSWATRQIGNTVTPTVTFTMDGDKMTMLTESTFKNLSCTFKFGEEFDEKTSDGRNVKSVVEKNSESKLTQTQVDPKNTTVIVREVDGDTMKTTVTVGDVTAIRNYKRLS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

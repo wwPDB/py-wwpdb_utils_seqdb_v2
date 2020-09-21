@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1992-08-01" modified="2020-08-12" version="175">
+<accession>P27614</accession>
+<accession>D6VW16</accession>
+<name>CBPS_YEAST</name>
+<protein>
+<recommendedName>
+<fullName>Carboxypeptidase S</fullName>
+<ecNumber>3.4.17.4</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>GLY-X carboxypeptidase</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>YSCS</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">CPS1</name>
+<name type="synonym">CPS</name>
+<name type="ordered locus">YJL172W</name>
+<name type="ORF">J0510</name>
+</gene>
+<organism>
+<name type="scientific">Saccharomyces cerevisiae (strain ATCC 204508 / S288c)</name>
+<name type="common">Baker's yeast</name>
+<dbReference type="NCBI Taxonomy" id="559292"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+<taxon>Saccharomyces</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1991" name="Eur. J. Biochem." volume="197" first="399" last="405">
+<title>Carboxypeptidase yscS: gene structure and function of the vacuolar enzyme.</title>
+<authorList>
+<person name="Spormann D.O."/>
+<person name="Heim J."/>
+<person name="Wolf D.H."/>
+</authorList>
+<dbReference type="PubMed" id="2026161"/>
+<dbReference type="DOI" id="10.1111/j.1432-1033.1991.tb15924.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 204508 / S288c</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1991" name="FEBS Lett." volume="283" first="27" last="32">
+<title>Molecular cloning and sequencing of genomic DNA encoding yeast vacuolar carboxypeptidase yscS.</title>
+<authorList>
+<person name="Bordallo J."/>
+<person name="Bordallo C."/>
+<person name="Gascon S."/>
+<person name="Suarez-Rendueles P."/>
+</authorList>
+<dbReference type="PubMed" id="1709881"/>
+<dbReference type="DOI" id="10.1016/0014-5793(91)80546-f"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 204510 / AB320</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1996" name="EMBO J." volume="15" first="2031" last="2049">
+<title>Complete nucleotide sequence of Saccharomyces cerevisiae chromosome X.</title>
+<authorList>
+<person name="Galibert F."/>
+<person name="Alexandraki D."/>
+<person name="Baur A."/>
+<person name="Boles E."/>
+<person name="Chalwatzis N."/>
+<person name="Chuat J.-C."/>
+<person name="Coster F."/>
+<person name="Cziepluch C."/>
+<person name="de Haan M."/>
+<person name="Domdey H."/>
+<person name="Durand P."/>
+<person name="Entian K.-D."/>
+<person name="Gatius M."/>
+<person name="Goffeau A."/>
+<person name="Grivell L.A."/>
+<person name="Hennemann A."/>
+<person name="Herbert C.J."/>
+<person name="Heumann K."/>
+<person name="Hilger F."/>
+<person name="Hollenberg C.P."/>
+<person name="Huang M.-E."/>
+<person name="Jacq C."/>
+<person name="Jauniaux J.-C."/>
+<person name="Katsoulou C."/>
+<person name="Kirchrath L."/>
+<person name="Kleine K."/>
+<person name="Kordes E."/>
+<person name="Koetter P."/>
+<person name="Liebl S."/>
+<person name="Louis E.J."/>
+<person name="Manus V."/>
+<person name="Mewes H.-W."/>
+<person name="Miosga T."/>
+<person name="Obermaier B."/>
+<person name="Perea J."/>
+<person name="Pohl T.M."/>
+<person name="Portetelle D."/>
+<person name="Pujol A."/>
+<person name="Purnelle B."/>
+<person name="Ramezani Rad M."/>
+<person name="Rasmussen S.W."/>
+<person name="Rose M."/>
+<person name="Rossau R."/>
+<person name="Schaaff-Gerstenschlaeger I."/>
+<person name="Smits P.H.M."/>
+<person name="Scarcez T."/>
+<person name="Soriano N."/>
+<person name="To Van D."/>
+<person name="Tzermia M."/>
+<person name="Van Broekhoven A."/>
+<person name="Vandenbol M."/>
+<person name="Wedler H."/>
+<person name="von Wettstein D."/>
+<person name="Wambutt R."/>
+<person name="Zagulski M."/>
+<person name="Zollner A."/>
+<person name="Karpfinger-Hartl L."/>
+</authorList>
+<dbReference type="PubMed" id="8641269"/>
+<dbReference type="DOI" id="10.1002/j.1460-2075.1996.tb00557.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 204508 / S288c</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2014" name="G3 (Bethesda)" volume="4" first="389" last="398">
+<title>The reference genome sequence of Saccharomyces cerevisiae: Then and now.</title>
+<authorList>
+<person name="Engel S.R."/>
+<person name="Dietrich F.S."/>
+<person name="Fisk D.G."/>
+<person name="Binkley G."/>
+<person name="Balakrishnan R."/>
+<person name="Costanzo M.C."/>
+<person name="Dwight S.S."/>
+<person name="Hitz B.C."/>
+<person name="Karra K."/>
+<person name="Nash R.S."/>
+<person name="Weng S."/>
+<person name="Wong E.D."/>
+<person name="Lloyd P."/>
+<person name="Skrzypek M.S."/>
+<person name="Miyasato S.R."/>
+<person name="Simison M."/>
+<person name="Cherry J.M."/>
+</authorList>
+<dbReference type="PubMed" id="24374639"/>
+<dbReference type="DOI" id="10.1534/g3.113.008995"/>
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain>ATCC 204508 / S288c</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1992" name="J. Biol. Chem." volume="267" first="8021" last="8029">
+<title>Biogenesis of the yeast vacuole (lysosome). The precursor forms of the soluble hydrolase carboxypeptidase yscS are associated with the vacuolar membrane.</title>
+<authorList>
+<person name="Spormann D.O."/>
+<person name="Heim J."/>
+<person name="Wolf D.H."/>
+</authorList>
+<dbReference type="PubMed" id="1569061"/>
+</citation>
+<scope>SUBCELLULAR LOCATION</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="1994" name="Genomics" volume="19" first="97" last="107">
+<title>Protein family classification based on searching a database of blocks.</title>
+<authorList>
+<person name="Henikoff S."/>
+<person name="Henikoff J.G."/>
+</authorList>
+<dbReference type="PubMed" id="8188249"/>
+<dbReference type="DOI" id="10.1006/geno.1994.1018"/>
+</citation>
+<scope>SIMILARITY TO ARGE/DAPE/ACY1/CPG2/YSCS FAMILY</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2001" name="EMBO J." volume="20" first="5176" last="5186">
+<title>Sorting of proteins into multivesicular bodies: ubiquitin-dependent and -independent targeting.</title>
+<authorList>
+<person name="Reggiori F."/>
+<person name="Pelham H.R.B."/>
+</authorList>
+<dbReference type="PubMed" id="11566881"/>
+<dbReference type="DOI" id="10.1093/emboj/20.18.5176"/>
+</citation>
+<scope>SUBCELLULAR LOCATION</scope>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2002" name="Nat. Cell Biol." volume="4" first="117" last="123">
+<title>A transmembrane ubiquitin ligase required to sort membrane proteins into multivesicular bodies.</title>
+<authorList>
+<person name="Reggiori F."/>
+<person name="Pelham H.R.B."/>
+</authorList>
+<dbReference type="PubMed" id="11788821"/>
+<dbReference type="DOI" id="10.1038/ncb743"/>
+</citation>
+<scope>UBIQUITINATION BY TUL1</scope>
+</reference>
+<reference key="9">
+<citation type="journal article" date="2003" name="Nature" volume="425" first="737" last="741">
+<title>Global analysis of protein expression in yeast.</title>
+<authorList>
+<person name="Ghaemmaghami S."/>
+<person name="Huh W.-K."/>
+<person name="Bower K."/>
+<person name="Howson R.W."/>
+<person name="Belle A."/>
+<person name="Dephoure N."/>
+<person name="O'Shea E.K."/>
+<person name="Weissman J.S."/>
+</authorList>
+<dbReference type="PubMed" id="14562106"/>
+<dbReference type="DOI" id="10.1038/nature02046"/>
+</citation>
+<scope>LEVEL OF PROTEIN EXPRESSION [LARGE SCALE ANALYSIS]</scope>
+</reference>
+<reference key="10">
+<citation type="journal article" date="2012" name="Proc. Natl. Acad. Sci. U.S.A." volume="109" first="12449" last="12454">
+<title>N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.</title>
+<authorList>
+<person name="Van Damme P."/>
+<person name="Lasa M."/>
+<person name="Polevoda B."/>
+<person name="Gazquez C."/>
+<person name="Elosegui-Artola A."/>
+<person name="Kim D.S."/>
+<person name="De Juan-Pardo E."/>
+<person name="Demeyer K."/>
+<person name="Hole K."/>
+<person name="Larrea E."/>
+<person name="Timmerman E."/>
+<person name="Prieto J."/>
+<person name="Arnesen T."/>
+<person name="Sherman F."/>
+<person name="Gevaert K."/>
+<person name="Aldabe R."/>
+</authorList>
+<dbReference type="PubMed" id="22814378"/>
+<dbReference type="DOI" id="10.1073/pnas.1210303109"/>
+</citation>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+</reference>
+<reference key="11">
+<citation type="journal article" date="2012" name="Proteomics" volume="12" first="236" last="240">
+<title>Sites of ubiquitin attachment in Saccharomyces cerevisiae.</title>
+<authorList>
+<person name="Starita L.M."/>
+<person name="Lo R.S."/>
+<person name="Eng J.K."/>
+<person name="von Haller P.D."/>
+<person name="Fields S."/>
+</authorList>
+<dbReference type="PubMed" id="22106047"/>
+<dbReference type="DOI" id="10.1002/pmic.201100166"/>
+</citation>
+<scope>UBIQUITINATION [LARGE SCALE ANALYSIS] AT LYS-8</scope>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+</reference>
+<comment type="function">
+<text>Necessary for use of certain peptides as sole nitrogen source. May also cleave intracellularly generated peptides to recycle amino acids for protein synthesis.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>Release of a C-terminal amino acid from a peptide in which glycine is the penultimate amino acid, e.g. Z-Gly-|-Leu.</text>
+<dbReference type="EC" id="3.4.17.4"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="2">
+<name>Zn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29105"/>
+</cofactor>
+<text evidence="2">Binds 2 Zn(2+) ions per subunit.</text>
+</comment>
+<comment type="subunit">
+<text>yscS is synthesized as one polypeptide chain precursor which after carbohydrate modification in the secretory pathway yields two active precursor molecules. The proteolytically unprocessed forms are associated with the membrane, whereas the mature forms of the enzyme are soluble.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="4 7">Vacuole membrane</location>
+<topology evidence="4 7">Single-pass membrane protein</topology>
+</subcellularLocation>
+<text>Lysosome-like vacuoles.</text>
+</comment>
+<comment type="domain">
+<text>The transmembrane domain contains polar residues that mediate the recognition by TUL1.</text>
+</comment>
+<comment type="PTM">
+<text>Glycosylated.</text>
+</comment>
+<comment type="PTM">
+<text evidence="5">Ubiquitinated. Ubiquitination mediates sorting into internal vesicles in late endosomes. TUL1 is required for ubiquitination.</text>
+</comment>
+<comment type="miscellaneous">
+<text evidence="6">Present with 721 molecules/cell in log phase SD medium.</text>
+</comment>
+<comment type="similarity">
+<text evidence="8">Belongs to the peptidase M20A family.</text>
+</comment>
+<dbReference type="EC" id="3.4.17.4"/>
+<dbReference type="EMBL" id="X57316">
+<property type="protein sequence ID" value="CAA40571.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="X63068">
+<property type="protein sequence ID" value="CAA44790.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="Z49447">
+<property type="protein sequence ID" value="CAA89467.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BK006943">
+<property type="protein sequence ID" value="DAA08632.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S16693">
+<property type="entry name" value="S16693"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_012363.1">
+<property type="nucleotide sequence ID" value="NM_001181605.1"/>
+</dbReference>
+<dbReference type="SMR" id="P27614"/>
+<dbReference type="BioGRID" id="33588">
+<property type="interactions" value="66"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-5566N"/>
+<dbReference type="IntAct" id="P27614">
+<property type="interactions" value="4"/>
+</dbReference>
+<dbReference type="MINT" id="P27614"/>
+<dbReference type="STRING" id="4932.YJL172W"/>
+<dbReference type="MEROPS" id="M20.002"/>
+<dbReference type="iPTMnet" id="P27614"/>
+<dbReference type="MaxQB" id="P27614"/>
+<dbReference type="PaxDb" id="P27614"/>
+<dbReference type="PRIDE" id="P27614"/>
+<dbReference type="EnsemblFungi" id="YJL172W_mRNA">
+<property type="protein sequence ID" value="YJL172W"/>
+<property type="gene ID" value="YJL172W"/>
+</dbReference>
+<dbReference type="GeneID" id="853267"/>
+<dbReference type="KEGG" id="sce:YJL172W"/>
+<dbReference type="EuPathDB" id="FungiDB:YJL172W"/>
+<dbReference type="SGD" id="S000003708">
+<property type="gene designation" value="CPS1"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG2275">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_021802_11_0_1"/>
+<dbReference type="InParanoid" id="P27614"/>
+<dbReference type="KO" id="K01293"/>
+<dbReference type="OMA" id="IQDVFEN"/>
+<dbReference type="BioCyc" id="MetaCyc:YJL172W-MONOMER"/>
+<dbReference type="BioCyc" id="YEAST:YJL172W-MONOMER"/>
+<dbReference type="Reactome" id="R-SCE-9673163">
+<property type="pathway name" value="Oleoyl-phe metabolism"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P27614"/>
+<dbReference type="Proteomes" id="UP000002311">
+<property type="component" value="Chromosome X"/>
+</dbReference>
+<dbReference type="RNAct" id="P27614">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000324">
+<property type="term" value="C:fungal-type vacuole"/>
+<property type="evidence" value="ECO:0007005"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000328">
+<property type="term" value="C:fungal-type vacuole lumen"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005775">
+<property type="term" value="C:vacuolar lumen"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="CAFA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005774">
+<property type="term" value="C:vacuolar membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004180">
+<property type="term" value="F:carboxypeptidase activity"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004181">
+<property type="term" value="F:metallocarboxypeptidase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006807">
+<property type="term" value="P:nitrogen compound metabolic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051603">
+<property type="term" value="P:proteolysis involved in cellular protein catabolic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001261">
+<property type="entry name" value="ArgE/DapE_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036264">
+<property type="entry name" value="Bact_exopeptidase_dim_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017141">
+<property type="entry name" value="Pept_M20_carboxypep"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002933">
+<property type="entry name" value="Peptidase_M20"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011650">
+<property type="entry name" value="Peptidase_M20_dimer"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07687">
+<property type="entry name" value="M20_dimer"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01546">
+<property type="entry name" value="Peptidase_M20"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF037217">
+<property type="entry name" value="Carboxypeptidase_S"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF55031">
+<property type="entry name" value="SSF55031"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00758">
+<property type="entry name" value="ARGE_DAPE_CPG2_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00759">
+<property type="entry name" value="ARGE_DAPE_CPG2_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0121">Carboxypeptidase</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-1017">Isopeptide bond</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0645">Protease</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<keyword id="KW-0832">Ubl conjugation</keyword>
+<keyword id="KW-0926">Vacuole</keyword>
+<keyword id="KW-0862">Zinc</keyword>
+<feature type="chain" description="Carboxypeptidase S" id="PRO_0000185271">
+<location>
+<begin position="1"/>
+<end position="576"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="1"/>
+<end position="19"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="20"/>
+<end position="40"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="3">
+<location>
+<begin position="41"/>
+<end position="576"/>
+</location>
+</feature>
+<feature type="active site" evidence="2">
+<location>
+<position position="170"/>
+</location>
+</feature>
+<feature type="active site" description="Proton acceptor" evidence="2">
+<location>
+<position position="239"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 2" evidence="2">
+<location>
+<position position="168"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 1" evidence="2">
+<location>
+<position position="205"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 2" evidence="2">
+<location>
+<position position="205"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 1" evidence="2">
+<location>
+<position position="240"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 2" evidence="2">
+<location>
+<position position="268"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 1" evidence="2">
+<location>
+<position position="547"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="88"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="176"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="228"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="381"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="525"/>
+</location>
+</feature>
+<feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)" evidence="1">
+<location>
+<position position="8"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; CAA40571." ref="2" evidence="8">
+<original>S</original>
+<variation>T</variation>
+<location>
+<position position="387"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PubMed" id="22106047"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250"/>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11566881"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11788821"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="14562106"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="1569061"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000305"/>
+<sequence length="576" mass="64597" checksum="5CBB536D421B5F70" modified="1995-11-01" version="2">MIALPVEKAPRKSLWQRHRAFISGIVALIIIGTFFLTSGLHPAPPHEAKRPHHGKGPMHSPKCEKIEPLSPSFKHSVDTILHDPAFRNSSIEKLSNAVRIPTVVQDKNPNPADDPDFYKHFYELHDYFEKTFPNIHKHLKLEKVNELGLLYTWEGSDPDLKPLLLMAHQDVVPVNNETLSSWKFPPFSGHYDPETDFVWGRGSNDCKNLLIAEFEAIEQLLIDGFKPNRTIVMSLGFDEEASGTLGAASLASFLHERYGDDGIYSIIDEGEGIMEVDKDVFVATPINAEKGYVDFEVSILGHGGHSSVPPDHTTIGIASELITEFEANPFDYEFEFDNPIYGLLTCAAEHSKSLSKDVKKTILGAPFCPRRKDKLVEYISNQSHLRSLIRTTQAVDIINGGVKANALPETTRFLINHRINLHSSVAEVFERNIEYAKKIAEKYGYGLSKNGDDYIIPETELGHIDITLLRELEPAPLSPSSGPVWDILAGTIQDVFENGVLQNNEEFYVTTGLFSGNTDTKYYWNLSKNIYRFVGSIIDIDLLKTLHSVNEHVDVPGHLSAIAFVYEYIVNVNEYA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>
