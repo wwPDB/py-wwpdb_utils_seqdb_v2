@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>21614549</Id>
+	<Item Name="Caption" Type="String">NM_005546</Item>
+	<Item Name="Title" Type="String">Homo sapiens IL2 inducible T cell kinase (ITK), mRNA</Item>
+	<Item Name="Extra" Type="String">gi|21614549|ref|NM_005546.3|[21614549]</Item>
+	<Item Name="Gi" Type="Integer">21614549</Item>
+	<Item Name="CreateDate" Type="String">1999/06/09</Item>
+	<Item Name="UpdateDate" Type="String">2019/09/24</Item>
+	<Item Name="Flags" Type="Integer">512</Item>
+	<Item Name="TaxId" Type="Integer">9606</Item>
+	<Item Name="Length" Type="Integer">4366</Item>
+	<Item Name="Status" Type="String">replaced</Item>
+	<Item Name="ReplacedBy" Type="String">NM_005546.4</Item>
+	<Item Name="Comment" Type="String"><![CDATA[ This sequence has been updated. ]]></Item>
+	<Item Name="AccessionVersion" Type="String">NM_005546.3</Item>
+</DocSum>
+
+</eSummaryResult>
