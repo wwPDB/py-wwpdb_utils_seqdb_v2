@@ -94,5 +94,5 @@ class FetchUniProtEntry:
     #
 
 
-def main():
+def main():  # pragma: no cover
     _funp = FetchUniProtEntry()  # noqa: F841

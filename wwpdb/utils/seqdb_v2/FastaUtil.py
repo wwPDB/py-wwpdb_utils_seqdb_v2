@@ -132,6 +132,6 @@ class FastaUtil(object):
         return result
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     fa = FastaUtil(verbose=True, log=sys.stderr)
     sList, sDict = fa.loadFastaUniProt("uniprot_sprot_varsplic.fasta")

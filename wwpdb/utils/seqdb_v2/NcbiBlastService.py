@@ -145,7 +145,7 @@ class NcbiBlastService:
         return ""
 
 
-def main(argv):
+def main(argv):  # pragma: no cover
     opts, _args = getopt.getopt(argv, "s:o:", ["sequence=", "outfile="])
     sequence = None
     filename = None
@@ -164,7 +164,7 @@ def main(argv):
         service.WriteResultFile(filename)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)

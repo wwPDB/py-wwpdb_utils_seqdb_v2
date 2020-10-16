@@ -278,7 +278,7 @@ class FetchUnpXml:
             return False
 
 
-def main(argv):
+def main(argv):  # pragma: no cover
     opts, _args = getopt.getopt(argv, "i:", ["id="])
     for opt, arg in opts:
         if opt in ("-i", "--id"):
@@ -291,7 +291,7 @@ def main(argv):
                 sys.stdout.write("%-30s = %s\n" % (k, v))
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)

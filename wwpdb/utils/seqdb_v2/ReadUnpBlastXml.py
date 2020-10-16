@@ -248,7 +248,7 @@ class ReadUnpBlastXmlString(ReadUnpBlastXml):
         ReadUnpBlastXml.__init__(self, self._doc, verbose=verbose, log=log)
 
 
-def main(argv):
+def main(argv):  # pragma: no cover
     opts, _args = getopt.getopt(argv, "x:", ["xml="])
     for opt, arg in opts:
         if opt in ("-x", "--xml"):
@@ -259,7 +259,7 @@ def main(argv):
                     sys.stdout.write("%s=%s\n" % (k, v))
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)

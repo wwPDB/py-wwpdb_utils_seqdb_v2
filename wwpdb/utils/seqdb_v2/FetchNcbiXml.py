@@ -111,7 +111,7 @@ class FetchFullNcbiXml:
         return readxml.GetResult()
 
 
-def main(argv):
+def main(argv):  # pragma: no cover
     opts, _args = getopt.getopt(argv, "i:d:a:", ["id=", "db=", "apikey="])
 
     tid = None
@@ -134,7 +134,7 @@ def main(argv):
             print("%s=%s" % (k, v))
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)
