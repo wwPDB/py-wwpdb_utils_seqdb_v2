@@ -18,7 +18,13 @@ import os
 import os.path
 import traceback
 import platform
+
+try:
+    from unittest.mock import patch
+except ImportError:
+    from mock import patch
 import requests_mock
+
 
 try:
     from urllib.parse import parse_qs
@@ -27,6 +33,7 @@ except ImportError:
 from xml.dom import minidom
 
 from wwpdb.utils.seqdb_v2.BlastProcess import BlastProcess
+from wwpdb.utils.seqdb_v2.UnpBlastService import UnpBlastService
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 TOPDIR = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
@@ -34,6 +41,16 @@ TESTOUTPUT = os.path.join(HERE, "test-output", platform.python_version())
 if not os.path.exists(TESTOUTPUT):
     os.makedirs(TESTOUTPUT)
 mockTopPath = os.path.join(TOPDIR, "wwpdb", "mock-data")
+
+
+class MyUnpBlastService(UnpBlastService):
+    """A class to allow setting the check interval to speed up tests"""
+
+    def __init__(self, sequence):
+        super(MyUnpBlastService, self).__init__(sequence)
+        if "MOCKREQUESTS" in os.environ:
+            self._checkInterval = 0.01
+            self._initWait = 0.01
 
 
 def PostCallBack(request, context):
@@ -180,7 +197,8 @@ class BlastProcessTests(unittest.TestCase):
             traceback.print_exc(file=self.__lfh)
             self.fail()
 
-    def testPolymerSearch1(self):
+    @patch("wwpdb.utils.seqdb_v2.BlastProcess.UnpBlastService", side_effect=MyUnpBlastService)
+    def testPolymerSearch1(self, mock1):  # pylint: disable=unused-argument
         """"""
         self.__lfh.write("\nStarting BlastProcessTests testPolymerSearch1\n")
         try:
@@ -200,7 +218,8 @@ class BlastProcessTests(unittest.TestCase):
             traceback.print_exc(file=self.__lfh)
             self.fail()
 
-    def testPolymerSearchAndStore(self):
+    @patch("wwpdb.utils.seqdb_v2.BlastProcess.UnpBlastService", side_effect=MyUnpBlastService)
+    def testPolymerSearchAndStore(self, mock1):  # pylint: disable=unused-argument
         """"""
         self.__lfh.write("\nStarting BlastProcessTests testPolymerSearchAndStore\n")
         try:
@@ -224,7 +243,7 @@ class BlastProcessTests(unittest.TestCase):
 def suiteSearchTests():
     suiteSelect = unittest.TestSuite()
     suiteSelect.addTest(BlastProcessTests("testGetPolymerEntityDetails"))
-    # suiteSelect.addTest(BlastProcessTests("testPolymerSearch1"))e
+    suiteSelect.addTest(BlastProcessTests("testPolymerSearch1"))
     suiteSelect.addTest(BlastProcessTests("testPolymerSearchAndStore"))
     #
     return suiteSelect

@@ -2,4 +2,6 @@ mmcif
 mmcif.utils
 wwpdb.utils.config
 requests
+# For testing
 requests-mock
+mock; python_version < '3'
