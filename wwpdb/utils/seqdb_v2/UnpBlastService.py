@@ -28,7 +28,7 @@ urllib3.disable_warnings()
 logger = logging.getLogger()
 
 
-class UnpBlastService:
+class UnpBlastService(object):
     """Utility class for running blastp service using uniprotkb database from Uniprot site"""
 
     def __init__(self, sequence, verbose=False, log=sys.stderr):
@@ -36,6 +36,8 @@ class UnpBlastService:
         self._baseUrl = "https://www.ebi.ac.uk/Tools/services/rest/ncbiblast"
         self._result = None
         self._checkInterval = 10
+        # Delay after first request
+        self._initWait = 5
         self.__verbose = verbose
         self.__lfh = log
 
@@ -55,7 +57,7 @@ class UnpBlastService:
         jobid = self._serviceSubmit(params)
         if self.__verbose:
             self.__lfh.write("+UnpBlastService.RunService() Blast service job %s started at %s\n" % (jobid, time.strftime("%Y %m %d %H:%M:%S", time.localtime())))
-        time.sleep(5)
+        time.sleep(self._initWait)
         self._result = self._getResultfromServer(jobid)
 
     def GetResult(self):
