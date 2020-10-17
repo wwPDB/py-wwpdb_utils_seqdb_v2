@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<EBIApplicationResult xmlns="http://www.ebi.ac.uk/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ebi.ac.uk/Tools/common/schema/ApplicationResult.xsd">
+ <Header>
+  <program name="blastp" version="BLASTP 2.9.0+"/>
+  <commandLine command="/nfs/public/ro/es/appbin/linux-x86_64/ncbi-blast-2.9.0+/bin/blastp -db &quot;uniprotkb_swissprot&quot; -query ncbiblast-I20200921-231308-0701-71691418-p2m.sequence  -num_threads 32 -outfmt 11 -out ncbiblast-I20200921-231308-0701-71691418-p2m.archive -matrix BLOSUM62 -max_target_seqs 50 -evalue 10 -gapopen 11 -gapextend 1 -seg no -word_size 6 -comp_based_stats F"/>
+  <parameters>
+   <sequences total="1">
+    <sequence number="1" name="EMBOSS_001" type="PROTEIN" length="159"/>
+   </sequences>
+   <databases total="1" sequences="563082" letters="202799066">
+    <database number="1" name="uniprotkb_swissprot" type="PROTEIN" created="2020-08-12T07:54:00+01:00"/>
+   </databases>
+   <alignments>50</alignments>
+   <expectationUpper>10.0</expectationUpper>
+   <filter>F</filter>
+   <gapExtension>1.0</gapExtension>
+   <gapOpen>11.0</gapOpen>
+   <matrix>BLOSUM62</matrix>
+   <scores>50</scores>
+  </parameters>
+  <timeInfo start="2020-09-21T23:13:09+01:00" end="2020-09-21T23:13:23+01:00" search="P0Y0M0DT0H0M14.000S"/>
+ </Header>
+ <SequenceSimilaritySearchResult>
+  <hits total="50">
+   <hit number="1" database="SP" id="PTH1R_HUMAN" ac="Q03431" length="593" description="Parathyroid hormone/parathyroid hormone-related peptide receptor OS=Homo sapiens OX=9606 GN=PTH1R PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>884</score>
+      <bits>345.125</bits>
+      <expectation>8.9E-117</expectation>
+      <identity>100.0</identity>
+      <positives>100.0</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="159">DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPASIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</querySeq>
+      <pattern>DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPASIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</pattern>
+      <matchSeq start="29" end="187">DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPASIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="2" database="SP" id="PTH1R_CANLF" ac="Q9TU31" length="595" description="Parathyroid hormone/parathyroid hormone-related peptide receptor OS=Canis lupus familiaris OX=9615 GN=PTH1R PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>856</score>
+      <bits>334.339</bits>
+      <expectation>1.5E-112</expectation>
+      <identity>95.6</identity>
+      <positives>98.1</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="159">DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPASIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</querySeq>
+      <pattern>DDVMTKEEQIFLLHRAQAQC+KRLKEVLQRPA IMESDKGW SASTSGKP+K+KASGKLYPESEEDKE PTGSR+RGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</pattern>
+      <matchSeq start="29" end="187">DDVMTKEEQIFLLHRAQAQCQKRLKEVLQRPADIMESDKGWASASTSGKPKKEKASGKLYPESEEDKEVPTGSRHRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="3" database="SP" id="PTH1R_PONAB" ac="Q5RAQ1" length="594" description="Parathyroid hormone/parathyroid hormone-related peptide receptor OS=Pongo abelii OX=9601 GN=PTH1R PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>850</score>
+      <bits>332.028</bits>
+      <expectation>1.2E-111</expectation>
+      <identity>96.9</identity>
+      <positives>97.5</positives>
+      <gaps>1</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="159">DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPASIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAP-GEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</querySeq>
+      <pattern>DDVMTKEEQIFLLHRAQAQC KRLKEVLQRPA IMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPT SRYRGRPCLPEWDHILCWPLGAP GEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECV+FLTNETREREVFDRL</pattern>
+      <matchSeq start="29" end="188">DDVMTKEEQIFLLHRAQAQCGKRLKEVLQRPADIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTDSRYRGRPCLPEWDHILCWPLGAPQGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVQFLTNETREREVFDRL</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="4" database="SP" id="PTH1R_BOVIN" ac="Q1LZF7" length="589" description="Parathyroid hormone/parathyroid hormone-related peptide receptor OS=Bos taurus OX=9913 GN=PTH1R PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>841</score>
+      <bits>328.561</bits>
+      <expectation>2.4E-110</expectation>
+      <identity>94.3</identity>
+      <positives>96.9</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="159">DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPASIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</querySeq>
+      <pattern>DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPA IMESDKGW SASTSGKP+K+K SGKL+PESEEDKE PTGSR RGRPCLPEWDHILCWPLGAPGEVVA+PCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</pattern>
+      <matchSeq start="29" end="187">DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPADIMESDKGWASASTSGKPKKEKPSGKLHPESEEDKEVPTGSRPRGRPCLPEWDHILCWPLGAPGEVVAMPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="5" database="SP" id="PTH1R_PIG" ac="P50133" length="585" description="Parathyroid hormone/parathyroid hormone-related peptide receptor OS=Sus scrofa OX=9823 GN=PTH1R PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>811</score>
+      <bits>317.005</bits>
+      <expectation>6.9E-106</expectation>
+      <identity>92.5</identity>
+      <positives>95.0</positives>
+      <gaps>3</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="159">DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPASIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</querySeq>
+      <pattern>DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPA IMESDKGW SA TSGKPRK+KASGKLYPES ED    TGSR++GRPCLPEWDHILCWPLGAPGEVVA+PCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</pattern>
+      <matchSeq start="29" end="183">DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPADIMESDKGWASAPTSGKPRKEKASGKLYPESGED----TGSRHQGRPCLPEWDHILCWPLGAPGEVVAMPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="6" database="SP" id="PTH1R_RAT" ac="P25961" length="591" description="Parathyroid hormone/parathyroid hormone-related peptide receptor OS=Rattus norvegicus OX=10116 GN=Pth1r PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>791</score>
+      <bits>309.301</bits>
+      <expectation>8.1E-103</expectation>
+      <identity>87.4</identity>
+      <positives>94.3</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="159">DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPASIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</querySeq>
+      <pattern>DDV TKEEQIFLLHRAQAQC+K LKEVL   A+IMESDKGWT ASTSGKPRK+KASGK YPES+E+K+ PTGSR RGRPCLPEWD+I+CWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWE+VPGHNRTWANYSEC+KF+TNETREREVFDRL</pattern>
+      <matchSeq start="29" end="187">DDVFTKEEQIFLLHRAQAQCDKLLKEVLHTAANIMESDKGWTPASTSGKPRKEKASGKFYPESKENKDVPTGSRRRGRPCLPEWDNIVCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWEVVPGHNRTWANYSECLKFMTNETREREVFDRL</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="7" database="SP" id="PTH1R_MOUSE" ac="P41593" length="591" description="Parathyroid hormone/parathyroid hormone-related peptide receptor OS=Mus musculus OX=10090 GN=Pth1r PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>786</score>
+      <bits>307.375</bits>
+      <expectation>4.6E-102</expectation>
+      <identity>86.8</identity>
+      <positives>93.7</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="159">DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPASIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</querySeq>
+      <pattern>DDV TKEEQIFLLHRAQAQC+K LKEVL   A+IMESDKGWT ASTSGKPRK+KA GK YPES+E+K+ PTGSR RGRPCLPEWD+I+CWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWE+VPGHNRTWANYSEC+KF+TNETREREVFDRL</pattern>
+      <matchSeq start="29" end="187">DDVFTKEEQIFLLHRAQAQCDKLLKEVLHTAANIMESDKGWTPASTSGKPRKEKAPGKFYPESKENKDVPTGSRRRGRPCLPEWDNIVCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWEVVPGHNRTWANYSECLKFMTNETREREVFDRL</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="8" database="SP" id="PTH1R_DIDVI" ac="P25107" length="585" description="Parathyroid hormone/parathyroid hormone-related peptide receptor OS=Didelphis virginiana OX=9267 GN=PTH1R PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>602</score>
+      <bits>236.498</bits>
+      <expectation>1.2E-74</expectation>
+      <identity>71.1</identity>
+      <positives>80.5</positives>
+      <gaps>2</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="159">DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPASIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</querySeq>
+      <pattern>DDV+TKEEQI LL  AQAQCE+RLKEVL+ P  + ES K W S S   K +K+K + KLY ++EE +E    SR +   CLPEWD+I+CWP G PG+VVAVPCPDYIYDFNHKG AYRRCD NGSWELVPG+NRTWANYSECVKFLTNETREREVFDRL</pattern>
+      <matchSeq start="29" end="184">DDVITKEEQIILLRNAQAQCEQRLKEVLRVP-ELAESAKDWMSRSA--KTKKEKPAEKLYSQAEESREVSDRSRLQDGFCLPEWDNIVCWPAGVPGKVVAVPCPDYIYDFNHKGRAYRRCDSNGSWELVPGNNRTWANYSECVKFLTNETREREVFDRL</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="9" database="SP" id="PTH2R_HUMAN" ac="P49190" length="550" description="Parathyroid hormone 2 receptor OS=Homo sapiens OX=9606 GN=PTH2R PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>278</score>
+      <bits>111.694</bits>
+      <expectation>4.4E-28</expectation>
+      <identity>36.6</identity>
+      <positives>50.9</positives>
+      <gaps>29</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="159">DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPASIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETR--EREVFDRL</querySeq>
+      <pattern>D  +T EEQI L+ +A+ QCE  +   LQ                                E E +             C PEWD ++CWP G  G++ AVPCP YIYDFNHKG A+R C+ NG+W+ +   N+TWANYS+C++FL  +    ++E F+RL</pattern>
+      <matchSeq start="29" end="144">DGTITIEEQIVLVLKAKVQCELNITAQLQ--------------------------------EGEGN-------------CFPEWDGLICWPRGTVGKISAVPCPPYIYDFNHKGVAFRHCNPNGTWDFMHSLNKTWANYSDCLRFLQPDISIGKQEFFERL</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="10" database="SP" id="PTH2R_MOUSE" ac="Q91V95" length="546" description="Parathyroid hormone 2 receptor OS=Mus musculus OX=10090 GN=Pth2r PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>264</score>
+      <bits>106.301</bits>
+      <expectation>3.7E-26</expectation>
+      <identity>35.8</identity>
+      <positives>47.8</positives>
+      <gaps>28</gaps>
+      <strand>none/none</strand>
+      <querySeq start="1" end="159">DDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPASIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</querySeq>
+      <pattern>D  +T EEQI L+ +A+ QCE  +   LQ                                E E +             C PEWD I+CWP G  G++ AVPCP Y+YDFNHKG A+R C  NG+W+ + G N+TWANYS+C         ++E F+ L</pattern>
+      <matchSeq start="29" end="142">DGTITIEEQIVLVMKAKMQCELNITAQLQ--------------------------------EGEGN-------------CFPEWDGIICWPRGTVGKMSAVPCPPYVYDFNHKGVAFRHCTPNGTWDSIHGSNKTWANYSDCFLQPDINIGKQEFFESL</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="11" database="SP" id="PTH2R_RAT" ac="P70555" length="546" description="Parathyroid hormone 2 receptor OS=Rattus norvegicus OX=10116 GN=Pth2r PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>262</score>
+      <bits>105.531</bits>
+      <expectation>6.9E-26</expectation>
+      <identity>50.0</identity>
+      <positives>67.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="80" end="159">CLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</querySeq>
+      <pattern>C PEWD ++CWP G  G+  A+PCP Y+YDFNHKG A+R C  NG+W+ + G N+TWANYS+C         ++E F+ L</pattern>
+      <matchSeq start="63" end="142">CFPEWDGLICWPRGTAGKTSAMPCPSYVYDFNHKGVAFRHCTPNGTWDFIHGSNKTWANYSDCFLQPDINIGKQEFFENL</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="12" database="SP" id="CALRL_XENLA" ac="Q7ZXS8" length="476" description="Calcitonin gene-related peptide type 1 receptor OS=Xenopus laevis OX=8355 GN=calcrl PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>152</score>
+      <bits>63.1586</bits>
+      <expectation>4.5E-11</expectation>
+      <identity>40.6</identity>
+      <positives>49.3</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="77" end="145">GRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKF</querySeq>
+      <pattern>G+ C   WD  LCW   A G +    CPDY  DF+      + C +NG W   P  NRTW NY+ C  F</pattern>
+      <matchSeq start="77" end="145">GQFCNRTWDGWLCWGDVAAGIISEQRCPDYFQDFDPSEKVTKECGKNGHWFRHPDSNRTWTNYTRCNTF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="13" database="SP" id="CALRL_XENTR" ac="Q0P4Y4" length="472" description="Calcitonin gene-related peptide type 1 receptor OS=Xenopus tropicalis OX=8364 GN=calcrl PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>149</score>
+      <bits>62.003</bits>
+      <expectation>1.1E-10</expectation>
+      <identity>39.1</identity>
+      <positives>47.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="77" end="145">GRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKF</querySeq>
+      <pattern>G  C   WD  LCW   + G +    CPDY  DF+      + C +NG W   P  NRTW NY+ C  F</pattern>
+      <matchSeq start="72" end="140">GHFCNRTWDGWLCWGDVSAGVISEQRCPDYFQDFDPSEKVTKECGKNGHWFRHPDSNRTWTNYTRCNTF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="14" database="SP" id="CALRL_BOVIN" ac="A6QP74" length="462" description="Calcitonin gene-related peptide type 1 receptor OS=Bos taurus OX=9913 GN=CALCRL PE=2 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>147</score>
+      <bits>61.2326</bits>
+      <expectation>2.1E-10</expectation>
+      <identity>41.3</identity>
+      <positives>52.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="80" end="142">CLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSEC</querySeq>
+      <pattern>C   WD  LCW   A G      CPDY  DF+      + CD++G+W   P  NRTW NY++C</pattern>
+      <matchSeq start="66" end="128">CNRTWDGWLCWNDVAAGTESMQHCPDYFQDFDPSEKVTKICDQDGNWFRHPASNRTWTNYTQC</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="15" database="SP" id="CALRL_HUMAN" ac="Q16602" length="461" description="Calcitonin gene-related peptide type 1 receptor OS=Homo sapiens OX=9606 GN=CALCRL PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>146</score>
+      <bits>60.8474</bits>
+      <expectation>2.8E-10</expectation>
+      <identity>41.3</identity>
+      <positives>52.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="80" end="142">CLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSEC</querySeq>
+      <pattern>C   WD  LCW   A G      CPDY  DF+      + CD++G+W   P  NRTW NY++C</pattern>
+      <matchSeq start="65" end="127">CNRTWDGWLCWNDVAAGTESMQLCPDYFQDFDPSEKVTKICDQDGNWFRHPASNRTWTNYTQC</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="16" database="SP" id="CALCR_MOUSE" ac="Q60755" length="533" description="Calcitonin receptor OS=Mus musculus OX=10090 GN=Calcr PE=2 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>146</score>
+      <bits>60.8474</bits>
+      <expectation>2.9E-10</expectation>
+      <identity>35.4</identity>
+      <positives>45.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="77" end="155">GRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREV</querySeq>
+      <pattern>G  C   WD  +CW     G      CPDY  DF+      + CD NG W   P  NRTW+NY+ C  F + + +   V</pattern>
+      <matchSeq start="86" end="164">GLYCNRTWDGWMCWDDTPAGATAYQHCPDYFPDFDTAEKVSKYCDENGEWFRHPDSNRTWSNYTLCNAFTSEKLQNAYV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="17" database="SP" id="CALRL_PIG" ac="Q8WN93" length="462" description="Calcitonin gene-related peptide type 1 receptor OS=Sus scrofa OX=9823 GN=CALCRL PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>145</score>
+      <bits>60.4622</bits>
+      <expectation>3.8E-10</expectation>
+      <identity>41.3</identity>
+      <positives>52.4</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="80" end="142">CLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSEC</querySeq>
+      <pattern>C   WD  LCW   A G      CPDY  DF+      + CD++G+W   P  NRTW NY++C</pattern>
+      <matchSeq start="66" end="128">CNRTWDGWLCWNDVAAGTESMQHCPDYFQDFDPSEKVTKICDQDGNWFRHPESNRTWTNYTQC</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="18" database="SP" id="CALRL_RAT" ac="Q63118" length="464" description="Calcitonin gene-related peptide type 1 receptor OS=Rattus norvegicus OX=10116 GN=Calcrl PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>144</score>
+      <bits>60.077</bits>
+      <expectation>5.2E-10</expectation>
+      <identity>39.0</identity>
+      <positives>48.1</positives>
+      <gaps>5</gaps>
+      <strand>none/none</strand>
+      <querySeq start="77" end="153">GRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETRER</querySeq>
+      <pattern>G  C   WD  LCW   A G      CPDY  DF+      + CD++G+W   P  NRTW NY+ C     N T E+</pattern>
+      <matchSeq start="62" end="134">GLYCNRTWDGWLCWNDVAAGTESMQYCPDYFQDFDPSEKVTKICDQDGNWFRHPDSNRTWTNYTLC----NNSTHEK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="19" database="SP" id="CALRL_ONCGO" ac="Q8AXU4" length="465" description="Calcitonin gene-related peptide type 1 receptor OS=Oncorhynchus gorbuscha OX=8017 GN=calcrl PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>143</score>
+      <bits>59.6918</bits>
+      <expectation>7.1E-10</expectation>
+      <identity>41.3</identity>
+      <positives>46.7</positives>
+      <gaps>1</gaps>
+      <strand>none/none</strand>
+      <querySeq start="77" end="151">GRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETR</querySeq>
+      <pattern>G  C   WD  LCW     G      CPDY  DF+      + C  NG W L P  NRTW NY+ C +  TNE R</pattern>
+      <matchSeq start="64" end="137">GPVCNRTWDGWLCWDDTEAGFTSEQYCPDYFQDFDPSELVTKICSDNGHWFLHPESNRTWTNYTRCNEH-TNEGR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="20" database="SP" id="CALRL_MOUSE" ac="Q9R1W5" length="463" description="Calcitonin gene-related peptide type 1 receptor OS=Mus musculus OX=10090 GN=Calcrl PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>142</score>
+      <bits>59.3066</bits>
+      <expectation>9.6E-10</expectation>
+      <identity>39.0</identity>
+      <positives>46.8</positives>
+      <gaps>5</gaps>
+      <strand>none/none</strand>
+      <querySeq start="77" end="153">GRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETRER</querySeq>
+      <pattern>G  C   WD  LCW   A G      CPDY  DF+      + CD++G W   P  NRTW NY+ C     N T E+</pattern>
+      <matchSeq start="61" end="133">GLYCNRTWDGWLCWNDVAAGTESMQYCPDYFQDFDPSEKVTKICDQDGHWFRHPDSNRTWTNYTLC----NNSTHEK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="21" database="SP" id="CALRL_PAROL" ac="Q9IB86" length="465" description="Calcitonin gene-related peptide type 1 receptor OS=Paralichthys olivaceus OX=8255 GN=calcrl PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>142</score>
+      <bits>59.3066</bits>
+      <expectation>9.6E-10</expectation>
+      <identity>40.3</identity>
+      <positives>48.6</positives>
+      <gaps>1</gaps>
+      <strand>none/none</strand>
+      <querySeq start="80" end="151">CLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETR</querySeq>
+      <pattern>C   WD  LCW     G +    CPDY  DF+      + C   G W L P  NRTW+NY+ C +  TNE R</pattern>
+      <matchSeq start="67" end="137">CNRTWDGWLCWDDTKAGVISEQHCPDYFQDFDPSEMVTKICADTGDWFLHPVSNRTWSNYTRCNQH-TNEVR</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="22" database="SP" id="CALCR_RAT" ac="P32214" length="516" description="Calcitonin receptor OS=Rattus norvegicus OX=10116 GN=Calcr PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>142</score>
+      <bits>59.3066</bits>
+      <expectation>9.9E-10</expectation>
+      <identity>39.1</identity>
+      <positives>47.8</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="77" end="145">GRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKF</querySeq>
+      <pattern>G  C   WD  +CW     G +    CPDY  DF+      + CD NG W   P  NRTW+NY+ C  F</pattern>
+      <matchSeq start="69" end="137">GPYCNRTWDGWMCWDDTPAGVMSYQHCPDYFPDFDPTEKVSKYCDENGEWFRHPDSNRTWSNYTLCNAF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="23" database="SP" id="CRFR1_CHICK" ac="Q90812" length="420" description="Corticotropin-releasing factor receptor 1 OS=Gallus gallus OX=9031 GN=CRHR1 PE=3 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>138</score>
+      <bits>57.7658</bits>
+      <expectation>3.2E-9</expectation>
+      <identity>36.9</identity>
+      <positives>50.0</positives>
+      <gaps>12</gaps>
+      <strand>none/none</strand>
+      <querySeq start="73" end="153">SRYRGRPCLPEWDHI-LCWPLGAPGEVVAVPCPDYIYD--FNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETRER</querySeq>
+      <pattern>+ + G  C    D I  CWP  A G++VA PCP+Y Y   +N   + YR C  NGSW           NYS+C + L+ E R +</pattern>
+      <matchSeq start="42" end="118">TNHTGPQCNASVDLIGTCWPRSAVGQLVARPCPEYFYGVRYNTTNNGYRECLANGSW-------AARVNYSQCQEILSEEKRSK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="24" database="SP" id="CALRL_DANRE" ac="Q68EK2" length="470" description="Calcitonin gene-related peptide type 1 receptor OS=Danio rerio OX=7955 GN=calcrla PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>138</score>
+      <bits>57.7658</bits>
+      <expectation>3.3E-9</expectation>
+      <identity>38.8</identity>
+      <positives>46.3</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="76" end="142">RGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSEC</querySeq>
+      <pattern>RG  C   WD  LCW     G      CPDY  DF+      + C  +G W L P  NRTW N++ C</pattern>
+      <matchSeq start="69" end="135">RGPVCNRTWDGWLCWDDTEAGITSEQHCPDYFQDFDPTEMVTKICTESGQWFLHPESNRTWTNFTRC</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="25" database="SP" id="CALCR_RABIT" ac="P79222" length="474" description="Calcitonin receptor OS=Oryctolagus cuniculus OX=9986 GN=CALCR PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>138</score>
+      <bits>57.7658</bits>
+      <expectation>3.3E-9</expectation>
+      <identity>37.7</identity>
+      <positives>49.3</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="77" end="145">GRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKF</querySeq>
+      <pattern>G  C   WD  +CW     G +    CPDY  DF+      + CD  G W   PG+N+TW+NY+ C  F</pattern>
+      <matchSeq start="69" end="137">GPYCNRTWDGWMCWDDTPAGVLGFQYCPDYFPDFDPTEKVTKYCDETGVWFKHPGNNQTWSNYTMCNAF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="26" database="SP" id="CALCR_HUMAN" ac="P30988" length="474" description="Calcitonin receptor OS=Homo sapiens OX=9606 GN=CALCR PE=1 SV=3">
+    <alignments total="1">
+     <alignment number="1">
+      <score>138</score>
+      <bits>57.7658</bits>
+      <expectation>3.3E-9</expectation>
+      <identity>35.4</identity>
+      <positives>45.6</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="77" end="155">GRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREV</querySeq>
+      <pattern>G  C   WD  LCW     G +    CPDY  DF+      + CD  G W   P +NRTW+NY+ C  F   + +   V</pattern>
+      <matchSeq start="69" end="147">GPYCNRTWDGWLCWDDTPAGVLSYQFCPDYFPDFDPSEKVTKYCDEKGVWFKHPENNRTWSNYTMCNAFTPEKLKNAYV</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="27" database="SP" id="CALCR_CAVPO" ac="O08893" length="478" description="Calcitonin receptor OS=Cavia porcellus OX=10141 GN=CALCR PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>137</score>
+      <bits>57.3806</bits>
+      <expectation>4.5E-9</expectation>
+      <identity>37.7</identity>
+      <positives>49.3</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="77" end="145">GRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKF</querySeq>
+      <pattern>G  C   WD  +CW     G +    CPDY  DF+      + CD +G W   P +NRTW+NY+ C  F</pattern>
+      <matchSeq start="69" end="137">GPYCNRTWDGWMCWDDTPAGVLSVQLCPDYFPDFDPTEKVTKYCDESGVWFKHPENNRTWSNYTLCNAF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="28" database="SP" id="CRFR2_XENLA" ac="O42603" length="413" description="Corticotropin-releasing factor receptor 2 OS=Xenopus laevis OX=8355 GN=crhr2 PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>130</score>
+      <bits>54.6842</bits>
+      <expectation>3.7E-8</expectation>
+      <identity>36.3</identity>
+      <positives>47.5</positives>
+      <gaps>13</gaps>
+      <strand>none/none</strand>
+      <querySeq start="75" end="151">YRGRPCLPEWDHI-LCWPLGAPGEVVAVPCPDYI--YDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETR</querySeq>
+      <pattern>+ G  C    D I  CWP    GE+V  PCPD      +N   + YR C  NG+W        +W NYS+CV  L N+ +</pattern>
+      <matchSeq start="38" end="110">FEGPYCSATIDQIGTCWPRSLAGELVERPCPDSFNGIRYNTTRNVYRECFENGTW-------ASWMNYSQCVPILDNKRK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="29" database="SP" id="CRFR1_XENLA" ac="O42602" length="415" description="Corticotropin-releasing factor receptor 1 OS=Xenopus laevis OX=8355 GN=crhr1 PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>130</score>
+      <bits>54.6842</bits>
+      <expectation>3.7E-8</expectation>
+      <identity>34.5</identity>
+      <positives>50.0</positives>
+      <gaps>12</gaps>
+      <strand>none/none</strand>
+      <querySeq start="73" end="153">SRYRGRPCLPEWDHI-LCWPLGAPGEVVAVPCPDYIY--DFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETRER</querySeq>
+      <pattern>S + G  C    D I  CWP  A G++VA PCP+Y +   +N  G+ YR C  NGSW           +Y++C + L  E + +</pattern>
+      <matchSeq start="37" end="113">SNFTGLACNASIDMIGTCWPSTAAGQMVARPCPEYFHGVQYNTTGNVYRECHLNGSW-------AGRGDYAQCQEILKQEKKTK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="30" database="SP" id="GLP2R_MOUSE" ac="Q5IXF8" length="512" description="Glucagon-like peptide 2 receptor OS=Mus musculus OX=10090 GN=Glp2r PE=2 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>130</score>
+      <bits>54.6842</bits>
+      <expectation>3.9E-8</expectation>
+      <identity>40.0</identity>
+      <positives>53.8</positives>
+      <gaps>5</gaps>
+      <strand>none/none</strand>
+      <querySeq start="80" end="142">CLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHK--GHAYRRCDRNGSWELVPGHNRTWANYSEC</querySeq>
+      <pattern>C   +D  +CWP   PG V +VPCP Y+  +N +  G AYR C   G+W+       TW + SEC</pattern>
+      <matchSeq start="56" end="119">CNGTFDKYVCWPHSFPGNV-SVPCPSYLPWWNKESPGRAYRHCLAQGTWQKQENSTDTWQDESEC</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="31" database="SP" id="GLP2R_HUMAN" ac="O95838" length="553" description="Glucagon-like peptide 2 receptor OS=Homo sapiens OX=9606 GN=GLP2R PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>130</score>
+      <bits>54.6842</bits>
+      <expectation>4.0E-8</expectation>
+      <identity>36.9</identity>
+      <positives>52.3</positives>
+      <gaps>5</gaps>
+      <strand>none/none</strand>
+      <querySeq start="80" end="142">CLPEWDHILCWPLGAPGEVVAVPCPDYI--YDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSEC</querySeq>
+      <pattern>C   +D  +CWP  +PG V +VPCP Y+  +     G AYR C   G+W+ +      W + SEC</pattern>
+      <matchSeq start="96" end="159">CNGTFDQYVCWPHSSPGNV-SVPCPSYLPWWSEESSGRAYRHCLAQGTWQTIENATDIWQDDSEC</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="32" database="SP" id="GLP2R_RAT" ac="Q9Z0W0" length="550" description="Glucagon-like peptide 2 receptor OS=Rattus norvegicus OX=10116 GN=Glp2r PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>126</score>
+      <bits>53.1434</bits>
+      <expectation>1.4E-7</expectation>
+      <identity>37.5</identity>
+      <positives>51.4</positives>
+      <gaps>4</gaps>
+      <strand>none/none</strand>
+      <querySeq start="73" end="142">SRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHK--GHAYRRCDRNGSWELVPGHNRTWANYSEC</querySeq>
+      <pattern>+R  G  C   +D  +CWP   PG V +VPCP Y+  +N +  G AYR C   G+W+        W + SEC</pattern>
+      <matchSeq start="89" end="159">NRLSGIFCNGTFDRYVCWPHSYPGNV-SVPCPSYLPWWNAESPGRAYRHCLAQGTWQTRENTTDIWQDESEC</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="33" database="SP" id="CRFR2_RAT" ac="P47866" length="411" description="Corticotropin-releasing factor receptor 2 OS=Rattus norvegicus OX=10116 GN=Crhr2 PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>125</score>
+      <bits>52.7582</bits>
+      <expectation>1.7E-7</expectation>
+      <identity>35.6</identity>
+      <positives>52.1</positives>
+      <gaps>12</gaps>
+      <strand>none/none</strand>
+      <querySeq start="89" end="159">CWPLGAPGEVVAVPCPDYI--YDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</querySeq>
+      <pattern>CWP  APG +V  PCP+Y     +N   +AYR C  NG+W        +  NYS C   L ++ R+ ++  R+</pattern>
+      <matchSeq start="50" end="115">CWPQSAPGALVERPCPEYFNGIKYNTTRNAYRECLENGTW-------ASRVNYSHCEPILDDKQRKYDLHYRI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="34" database="SP" id="CRFR2_MOUSE" ac="Q60748" length="411" description="Corticotropin-releasing factor receptor 2 OS=Mus musculus OX=10090 GN=Crhr2 PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>125</score>
+      <bits>52.7582</bits>
+      <expectation>1.7E-7</expectation>
+      <identity>35.6</identity>
+      <positives>52.1</positives>
+      <gaps>12</gaps>
+      <strand>none/none</strand>
+      <querySeq start="89" end="159">CWPLGAPGEVVAVPCPDYI--YDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</querySeq>
+      <pattern>CWP  APG +V  PCP+Y     +N   +AYR C  NG+W        +  NYS C   L ++ R+ ++  R+</pattern>
+      <matchSeq start="50" end="115">CWPQSAPGALVERPCPEYFNGIKYNTTRNAYRECLENGTW-------ASRVNYSHCEPILDDKQRKYDLHYRI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="35" database="SP" id="CRFR1_MOUSE" ac="P35347" length="415" description="Corticotropin-releasing factor receptor 1 OS=Mus musculus OX=10090 GN=Crhr1 PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>122</score>
+      <bits>51.6026</bits>
+      <expectation>4.3E-7</expectation>
+      <identity>30.5</identity>
+      <positives>43.2</positives>
+      <gaps>11</gaps>
+      <strand>none/none</strand>
+      <querySeq start="62" end="153">ESEEDKEAPTGSRYRGRPCLPEWDHI-LCWPLGAPGEVVAVPCPDYIYD--FNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETRER</querySeq>
+      <pattern>+ ++ +     S   G  C    D I  CWP    G++V  PCP + Y   +N   + YR C  NGSW           NYSEC + L  E + +</pattern>
+      <matchSeq start="26" end="113">QDQQCESLSLASNVSGLQCNASVDLIGTCWPRSPAGQLVVRPCPAFFYGVRYNTTNNGYRECLANGSW-------AARVNYSECQEILNEEKKSK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="36" database="SP" id="CRFR1_RAT" ac="P35353" length="415" description="Corticotropin-releasing factor receptor 1 OS=Rattus norvegicus OX=10116 GN=Crhr1 PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>121</score>
+      <bits>51.2174</bits>
+      <expectation>5.8E-7</expectation>
+      <identity>34.5</identity>
+      <positives>44.0</positives>
+      <gaps>12</gaps>
+      <strand>none/none</strand>
+      <querySeq start="73" end="153">SRYRGRPCLPEWDHI-LCWPLGAPGEVVAVPCPDYIYD--FNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETRER</querySeq>
+      <pattern>S   G  C    D I  CWP    G++V  PCP + Y   +N   + YR C  NGSW           NYSEC + L  E + +</pattern>
+      <matchSeq start="37" end="113">SNVSGLQCNASVDLIGTCWPRSPAGQLVVRPCPAFFYGVRYNTTNNGYRECLANGSW-------AARVNYSECQEILNEEKKSK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="37" database="SP" id="CRFR1_MACMU" ac="Q76LL8" length="415" description="Corticotropin-releasing factor receptor 1 OS=Macaca mulatta OX=9544 GN=CRHR1 PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>121</score>
+      <bits>51.2174</bits>
+      <expectation>5.8E-7</expectation>
+      <identity>34.5</identity>
+      <positives>44.0</positives>
+      <gaps>12</gaps>
+      <strand>none/none</strand>
+      <querySeq start="73" end="153">SRYRGRPCLPEWDHI-LCWPLGAPGEVVAVPCPDYIYD--FNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETRER</querySeq>
+      <pattern>S   G  C    D I  CWP    G++V  PCP + Y   +N   + YR C  NGSW           NYSEC + L  E + +</pattern>
+      <matchSeq start="37" end="113">SNISGLQCNASVDLIGTCWPRSPAGQLVVRPCPAFFYGVRYNTTNNGYRECLANGSW-------AARVNYSECQEILNEEKKSK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="38" database="SP" id="CRFR1_HUMAN" ac="P34998" length="444" description="Corticotropin-releasing factor receptor 1 OS=Homo sapiens OX=9606 GN=CRHR1 PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>121</score>
+      <bits>51.2174</bits>
+      <expectation>5.9E-7</expectation>
+      <identity>34.5</identity>
+      <positives>44.0</positives>
+      <gaps>12</gaps>
+      <strand>none/none</strand>
+      <querySeq start="73" end="153">SRYRGRPCLPEWDHI-LCWPLGAPGEVVAVPCPDYIYD--FNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETRER</querySeq>
+      <pattern>S   G  C    D I  CWP    G++V  PCP + Y   +N   + YR C  NGSW           NYSEC + L  E + +</pattern>
+      <matchSeq start="37" end="113">SNISGLQCNASVDLIGTCWPRSPAGQLVVRPCPAFFYGVRYNTTNNGYRECLANGSW-------AARVNYSECQEILNEEKKSK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="39" database="SP" id="CRFR2_HUMAN" ac="Q13324" length="411" description="Corticotropin-releasing factor receptor 2 OS=Homo sapiens OX=9606 GN=CRHR2 PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>118</score>
+      <bits>50.0618</bits>
+      <expectation>1.5E-6</expectation>
+      <identity>34.2</identity>
+      <positives>52.1</positives>
+      <gaps>12</gaps>
+      <strand>none/none</strand>
+      <querySeq start="89" end="159">CWPLGAPGEVVAVPCPDYI--YDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRL</querySeq>
+      <pattern>CWP  A G +V  PCP+Y     +N   +AYR C  NG+W        +  NYS+C   L ++ R+ ++  R+</pattern>
+      <matchSeq start="50" end="115">CWPRSAAGALVERPCPEYFNGVKYNTTRNAYRECLENGTW-------ASKINYSQCEPILDDKQRKYDLHYRI</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="40" database="SP" id="CALCR_PIG" ac="P25117" length="498" description="Calcitonin receptor OS=Sus scrofa OX=9823 GN=CALCR PE=2 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>117</score>
+      <bits>49.6766</bits>
+      <expectation>2.1E-6</expectation>
+      <identity>33.3</identity>
+      <positives>43.5</positives>
+      <gaps>0</gaps>
+      <strand>none/none</strand>
+      <querySeq start="77" end="145">GRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKF</querySeq>
+      <pattern>G  C   WD   CW     G +    CPDY  DF+      + C  +G W   P  N +W+NY+ C  F</pattern>
+      <matchSeq start="70" end="138">GLYCNRTWDGWSCWDDTPAGVLAEQYCPDYFPDFDAAEKVTKYCGEDGDWYRHPESNISWSNYTMCNAF</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="41" database="SP" id="VIPR_CARAU" ac="Q90308" length="447" description="Vasoactive intestinal polypeptide receptor OS=Carassius auratus OX=7957 GN=vipr1 PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>116</score>
+      <bits>49.2914</bits>
+      <expectation>2.7E-6</expectation>
+      <identity>34.9</identity>
+      <positives>50.8</positives>
+      <gaps>3</gaps>
+      <strand>none/none</strand>
+      <querySeq start="80" end="140">CLPEWDHILCWPLGAPGEVVAVPCPDYIYDF--NHKGHAYRRCDRNGSWELVPGHNRTWANYS</querySeq>
+      <pattern>C   WD I CWP    GE V +PCP+Y   F  +H+G+  + C  +G  E+ P     +  Y+</pattern>
+      <matchSeq start="27" end="89">CKGMWDIIACWPSAKVGEHVVIPCPNYFRHFSDHHEGNLSKTCTADGWTEMDPMEIAVYCGYN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="42" database="SP" id="GLP1R_HUMAN" ac="P43220" length="463" description="Glucagon-like peptide 1 receptor OS=Homo sapiens OX=9606 GN=GLP1R PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>115</score>
+      <bits>48.9062</bits>
+      <expectation>3.7E-6</expectation>
+      <identity>36.9</identity>
+      <positives>44.6</positives>
+      <gaps>3</gaps>
+      <strand>none/none</strand>
+      <querySeq start="80" end="142">CLPEWDHILCWPLGAPGEVVAVPCPDYI--YDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSEC</querySeq>
+      <pattern>C   +D   CWP G PG  V V CP Y+       +GH YR C   G W      +  W + SEC</pattern>
+      <matchSeq start="62" end="126">CNRTFDEYACWPDGEPGSFVNVSCPWYLPWASSVPQGHVYRFCTAEGLWLQKDNSSLPWRDLSEC</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="43" database="SP" id="GLP1R_RAT" ac="P32301" length="463" description="Glucagon-like peptide 1 receptor OS=Rattus norvegicus OX=10116 GN=Glp1r PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>114</score>
+      <bits>48.521</bits>
+      <expectation>5.1E-6</expectation>
+      <identity>33.8</identity>
+      <positives>42.9</positives>
+      <gaps>3</gaps>
+      <strand>none/none</strand>
+      <querySeq start="80" end="154">CLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNH--KGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETRERE</querySeq>
+      <pattern>C   +D   CWP G PG  V V CP Y+   +   +GH YR C   G W      +  W + SEC +    E    E</pattern>
+      <matchSeq start="62" end="138">CNRTFDDYACWPDGPPGSFVNVSCPWYLPWASSVLQGHVYRFCTAEGIWLHKDNSSLPWRDLSECEESKQGERNSPE</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="44" database="SP" id="GLP1R_MOUSE" ac="O35659" length="463" description="Glucagon-like peptide 1 receptor OS=Mus musculus OX=10090 GN=Glp1r PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>113</score>
+      <bits>48.1358</bits>
+      <expectation>6.9E-6</expectation>
+      <identity>36.9</identity>
+      <positives>46.2</positives>
+      <gaps>3</gaps>
+      <strand>none/none</strand>
+      <querySeq start="80" end="142">CLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNH--KGHAYRRCDRNGSWELVPGHNRTWANYSEC</querySeq>
+      <pattern>C   +D   CWP G PG  V V CP Y+   +   +GH YR C   G W      +  W + SEC</pattern>
+      <matchSeq start="62" end="126">CNRTFDDYACWPDGPPGSFVNVSCPWYLPWASSVLQGHVYRFCTAEGLWLHKDNSSLPWRDLSEC</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="45" database="SP" id="GHRHR_HUMAN" ac="Q02643" length="423" description="Growth hormone-releasing hormone receptor OS=Homo sapiens OX=9606 GN=GHRHR PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>108</score>
+      <bits>46.2098</bits>
+      <expectation>3.1E-5</expectation>
+      <identity>40.4</identity>
+      <positives>51.9</positives>
+      <gaps>2</gaps>
+      <strand>none/none</strand>
+      <querySeq start="80" end="130">CLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRR-CDRNGSWELVP</querySeq>
+      <pattern>C   WD +LCWP    GE V +PCPD+   F+ +  A +R C   G  E  P</pattern>
+      <matchSeq start="55" end="106">CPATWDGLLCWPTAGSGEWVTLPCPDFFSHFSSESGAVKRDCTITGWSEPFP</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="46" database="SP" id="GHRHR_PIG" ac="P34999" length="423" description="Growth hormone-releasing hormone receptor OS=Sus scrofa OX=9823 GN=GHRHR PE=2 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>107</score>
+      <bits>45.8246</bits>
+      <expectation>4.2E-5</expectation>
+      <identity>40.4</identity>
+      <positives>51.9</positives>
+      <gaps>2</gaps>
+      <strand>none/none</strand>
+      <querySeq start="80" end="130">CLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRR-CDRNGSWELVP</querySeq>
+      <pattern>C   WD +LCWP   PGE V +PCP +   F+ +  A +R C   G  E  P</pattern>
+      <matchSeq start="55" end="106">CPRTWDGLLCWPTAGPGEWVTLPCPAFFSHFSSEPGALKRDCTTTGWSEPFP</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="47" database="SP" id="SCTR_RABIT" ac="O46502" length="445" description="Secretin receptor OS=Oryctolagus cuniculus OX=9986 GN=SCTR PE=2 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>107</score>
+      <bits>45.8246</bits>
+      <expectation>4.3E-5</expectation>
+      <identity>36.5</identity>
+      <positives>53.8</positives>
+      <gaps>2</gaps>
+      <strand>none/none</strand>
+      <querySeq start="80" end="130">CLPEWDHILCWPLGAPGEVVAVPCPDYIYDF-NHKGHAYRRCDRNGSWELVP</querySeq>
+      <pattern>C   WD++ CWP  APG +V + CP ++    N  G  +R C ++G  E  P</pattern>
+      <matchSeq start="62" end="113">CQGLWDNVSCWPSSAPGRMVELECPRFLRMLTNSNGSLFRNCTQDGWTETFP</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="48" database="SP" id="PDFR_DROME" ac="Q9W4Y2" length="669" description="PDF receptor OS=Drosophila melanogaster OX=7227 GN=Pdfr PE=1 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>106</score>
+      <bits>45.4394</bits>
+      <expectation>6.2E-5</expectation>
+      <identity>29.2</identity>
+      <positives>43.1</positives>
+      <gaps>6</gaps>
+      <strand>none/none</strand>
+      <querySeq start="77" end="144">GRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRT----WANYSECVK</querySeq>
+      <pattern>G  C   WD +LCWP    G +  + CP   +  + +  A R+C+ +G W   P         W +Y  C K</pattern>
+      <matchSeq start="144" end="215">GLYCNWTWDTLLCWPPTPAGVLARMNCPGGFHGVDTRKFAIRKCELDGRWGSRPNATEVNPPGWTDYGPCYK</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="49" database="SP" id="SCTR_MOUSE" ac="Q5FWI2" length="447" description="Secretin receptor OS=Mus musculus OX=10090 GN=Sctr PE=1 SV=1">
+    <alignments total="1">
+     <alignment number="1">
+      <score>105</score>
+      <bits>45.0542</bits>
+      <expectation>7.8E-5</expectation>
+      <identity>34.3</identity>
+      <positives>50.0</positives>
+      <gaps>4</gaps>
+      <strand>none/none</strand>
+      <querySeq start="62" end="130">ESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFN-HKGHAYRRCDRNGSWELVP</querySeq>
+      <pattern>E  E+K+A       G  C   WD++ CWP  A  + V VPCP ++  F+   G  +R C ++G  E  P</pattern>
+      <matchSeq start="49" end="116">ELSEEKKALGPKTASG--CERFWDNMSCWPSSALAQTVEVPCPKFLRMFSGRNGSLFRNCTKDGWSETFP</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+   <hit number="50" database="SP" id="SCTR_HUMAN" ac="P47872" length="440" description="Secretin receptor OS=Homo sapiens OX=9606 GN=SCTR PE=2 SV=2">
+    <alignments total="1">
+     <alignment number="1">
+      <score>104</score>
+      <bits>44.669</bits>
+      <expectation>1.1E-4</expectation>
+      <identity>36.4</identity>
+      <positives>50.9</positives>
+      <gaps>2</gaps>
+      <strand>none/none</strand>
+      <querySeq start="80" end="133">CLPEWDHILCWPLGAPGEVVAVPCPDYIYDF-NHKGHAYRRCDRNGSWELVPGHN</querySeq>
+      <pattern>C   WD+I CWP   PG +V V CP ++    +  G  +R C ++G  E  P  N</pattern>
+      <matchSeq start="66" end="120">CEGMWDNISCWPSSVPGRMVEVECPRFLRMLTSRNGSLFRNCTQDGWSETFPRPN</matchSeq>
+     </alignment>
+    </alignments>
+   </hit>
+  </hits>
+ </SequenceSimilaritySearchResult></EBIApplicationResult>

@@ -1,0 +1,1099 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2004-08-16" modified="2020-08-12" version="161">
+<accession>Q9D6K9</accession>
+<accession>Q3UL17</accession>
+<accession>Q80YB2</accession>
+<accession>Q8BPH6</accession>
+<accession>Q921T8</accession>
+<accession>Q924Z3</accession>
+<name>CERS5_MOUSE</name>
+<protein>
+<recommendedName>
+<fullName evidence="15">Ceramide synthase 5</fullName>
+<shortName evidence="15">CerS5</shortName>
+<ecNumber evidence="5 6 7 8 9">2.3.1.-</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="14">LAG1 longevity assurance homolog 5</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="15">Sphingosine N-acyltransferase CERS5</fullName>
+<ecNumber evidence="5">2.3.1.24</ecNumber>
+</alternativeName>
+<alternativeName>
+<fullName evidence="12">Translocating chain-associating membrane protein homolog 4</fullName>
+<shortName evidence="12">TRAM homolog 4</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="17">Cers5</name>
+<name type="synonym" evidence="14">Lass5</name>
+<name type="synonym" evidence="12">Trh4</name>
+</gene>
+<organism>
+<name type="scientific">Mus musculus</name>
+<name type="common">Mouse</name>
+<dbReference type="NCBI Taxonomy" id="10090"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Myomorpha</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Mus</taxon>
+<taxon>Mus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2001-04" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Hartmann E."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2005" name="Science" volume="309" first="1559" last="1563">
+<title>The transcriptional landscape of the mammalian genome.</title>
+<authorList>
+<person name="Carninci P."/>
+<person name="Kasukawa T."/>
+<person name="Katayama S."/>
+<person name="Gough J."/>
+<person name="Frith M.C."/>
+<person name="Maeda N."/>
+<person name="Oyama R."/>
+<person name="Ravasi T."/>
+<person name="Lenhard B."/>
+<person name="Wells C."/>
+<person name="Kodzius R."/>
+<person name="Shimokawa K."/>
+<person name="Bajic V.B."/>
+<person name="Brenner S.E."/>
+<person name="Batalov S."/>
+<person name="Forrest A.R."/>
+<person name="Zavolan M."/>
+<person name="Davis M.J."/>
+<person name="Wilming L.G."/>
+<person name="Aidinis V."/>
+<person name="Allen J.E."/>
+<person name="Ambesi-Impiombato A."/>
+<person name="Apweiler R."/>
+<person name="Aturaliya R.N."/>
+<person name="Bailey T.L."/>
+<person name="Bansal M."/>
+<person name="Baxter L."/>
+<person name="Beisel K.W."/>
+<person name="Bersano T."/>
+<person name="Bono H."/>
+<person name="Chalk A.M."/>
+<person name="Chiu K.P."/>
+<person name="Choudhary V."/>
+<person name="Christoffels A."/>
+<person name="Clutterbuck D.R."/>
+<person name="Crowe M.L."/>
+<person name="Dalla E."/>
+<person name="Dalrymple B.P."/>
+<person name="de Bono B."/>
+<person name="Della Gatta G."/>
+<person name="di Bernardo D."/>
+<person name="Down T."/>
+<person name="Engstrom P."/>
+<person name="Fagiolini M."/>
+<person name="Faulkner G."/>
+<person name="Fletcher C.F."/>
+<person name="Fukushima T."/>
+<person name="Furuno M."/>
+<person name="Futaki S."/>
+<person name="Gariboldi M."/>
+<person name="Georgii-Hemming P."/>
+<person name="Gingeras T.R."/>
+<person name="Gojobori T."/>
+<person name="Green R.E."/>
+<person name="Gustincich S."/>
+<person name="Harbers M."/>
+<person name="Hayashi Y."/>
+<person name="Hensch T.K."/>
+<person name="Hirokawa N."/>
+<person name="Hill D."/>
+<person name="Huminiecki L."/>
+<person name="Iacono M."/>
+<person name="Ikeo K."/>
+<person name="Iwama A."/>
+<person name="Ishikawa T."/>
+<person name="Jakt M."/>
+<person name="Kanapin A."/>
+<person name="Katoh M."/>
+<person name="Kawasawa Y."/>
+<person name="Kelso J."/>
+<person name="Kitamura H."/>
+<person name="Kitano H."/>
+<person name="Kollias G."/>
+<person name="Krishnan S.P."/>
+<person name="Kruger A."/>
+<person name="Kummerfeld S.K."/>
+<person name="Kurochkin I.V."/>
+<person name="Lareau L.F."/>
+<person name="Lazarevic D."/>
+<person name="Lipovich L."/>
+<person name="Liu J."/>
+<person name="Liuni S."/>
+<person name="McWilliam S."/>
+<person name="Madan Babu M."/>
+<person name="Madera M."/>
+<person name="Marchionni L."/>
+<person name="Matsuda H."/>
+<person name="Matsuzawa S."/>
+<person name="Miki H."/>
+<person name="Mignone F."/>
+<person name="Miyake S."/>
+<person name="Morris K."/>
+<person name="Mottagui-Tabar S."/>
+<person name="Mulder N."/>
+<person name="Nakano N."/>
+<person name="Nakauchi H."/>
+<person name="Ng P."/>
+<person name="Nilsson R."/>
+<person name="Nishiguchi S."/>
+<person name="Nishikawa S."/>
+<person name="Nori F."/>
+<person name="Ohara O."/>
+<person name="Okazaki Y."/>
+<person name="Orlando V."/>
+<person name="Pang K.C."/>
+<person name="Pavan W.J."/>
+<person name="Pavesi G."/>
+<person name="Pesole G."/>
+<person name="Petrovsky N."/>
+<person name="Piazza S."/>
+<person name="Reed J."/>
+<person name="Reid J.F."/>
+<person name="Ring B.Z."/>
+<person name="Ringwald M."/>
+<person name="Rost B."/>
+<person name="Ruan Y."/>
+<person name="Salzberg S.L."/>
+<person name="Sandelin A."/>
+<person name="Schneider C."/>
+<person name="Schoenbach C."/>
+<person name="Sekiguchi K."/>
+<person name="Semple C.A."/>
+<person name="Seno S."/>
+<person name="Sessa L."/>
+<person name="Sheng Y."/>
+<person name="Shibata Y."/>
+<person name="Shimada H."/>
+<person name="Shimada K."/>
+<person name="Silva D."/>
+<person name="Sinclair B."/>
+<person name="Sperling S."/>
+<person name="Stupka E."/>
+<person name="Sugiura K."/>
+<person name="Sultana R."/>
+<person name="Takenaka Y."/>
+<person name="Taki K."/>
+<person name="Tammoja K."/>
+<person name="Tan S.L."/>
+<person name="Tang S."/>
+<person name="Taylor M.S."/>
+<person name="Tegner J."/>
+<person name="Teichmann S.A."/>
+<person name="Ueda H.R."/>
+<person name="van Nimwegen E."/>
+<person name="Verardo R."/>
+<person name="Wei C.L."/>
+<person name="Yagi K."/>
+<person name="Yamanishi H."/>
+<person name="Zabarovsky E."/>
+<person name="Zhu S."/>
+<person name="Zimmer A."/>
+<person name="Hide W."/>
+<person name="Bult C."/>
+<person name="Grimmond S.M."/>
+<person name="Teasdale R.D."/>
+<person name="Liu E.T."/>
+<person name="Brusic V."/>
+<person name="Quackenbush J."/>
+<person name="Wahlestedt C."/>
+<person name="Mattick J.S."/>
+<person name="Hume D.A."/>
+<person name="Kai C."/>
+<person name="Sasaki D."/>
+<person name="Tomaru Y."/>
+<person name="Fukuda S."/>
+<person name="Kanamori-Katayama M."/>
+<person name="Suzuki M."/>
+<person name="Aoki J."/>
+<person name="Arakawa T."/>
+<person name="Iida J."/>
+<person name="Imamura K."/>
+<person name="Itoh M."/>
+<person name="Kato T."/>
+<person name="Kawaji H."/>
+<person name="Kawagashira N."/>
+<person name="Kawashima T."/>
+<person name="Kojima M."/>
+<person name="Kondo S."/>
+<person name="Konno H."/>
+<person name="Nakano K."/>
+<person name="Ninomiya N."/>
+<person name="Nishio T."/>
+<person name="Okada M."/>
+<person name="Plessy C."/>
+<person name="Shibata K."/>
+<person name="Shiraki T."/>
+<person name="Suzuki S."/>
+<person name="Tagami M."/>
+<person name="Waki K."/>
+<person name="Watahiki A."/>
+<person name="Okamura-Oho Y."/>
+<person name="Suzuki H."/>
+<person name="Kawai J."/>
+<person name="Hayashizaki Y."/>
+</authorList>
+<dbReference type="PubMed" id="16141072"/>
+<dbReference type="DOI" id="10.1126/science.1112014"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)</scope>
+<source>
+<strain>C57BL/6J</strain>
+<tissue>Tongue</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2)</scope>
+<source>
+<strain>C57BL/6J</strain>
+<tissue>Brain</tissue>
+<tissue>Mammary tumor</tissue>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2003" name="J. Biol. Chem." volume="278" first="43452" last="43459">
+<title>Two mammalian longevity assurance gene (LAG1) family members, trh1 and trh4, regulate dihydroceramide synthesis using different fatty acyl-CoA donors.</title>
+<authorList>
+<person name="Riebeling C."/>
+<person name="Allegood J.C."/>
+<person name="Wang E."/>
+<person name="Merrill A.H. Jr."/>
+<person name="Futerman A.H."/>
+</authorList>
+<dbReference type="PubMed" id="12912983"/>
+<dbReference type="DOI" id="10.1074/jbc.m307104200"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>PATHWAY</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2005" name="Biochem. J." volume="390" first="263" last="271">
+<title>Mammalian Lass6 and its related family members regulate synthesis of specific ceramides.</title>
+<authorList>
+<person name="Mizutani Y."/>
+<person name="Kihara A."/>
+<person name="Igarashi Y."/>
+</authorList>
+<dbReference type="PubMed" id="15823095"/>
+<dbReference type="DOI" id="10.1042/bj20050291"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>PATHWAY</scope>
+<scope>GLYCOSYLATION AT ASN-26</scope>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2005" name="J. Biol. Chem." volume="280" first="33735" last="33738">
+<title>LASS5 is a bona fide dihydroceramide synthase that selectively utilizes palmitoyl-CoA as acyl donor.</title>
+<authorList>
+<person name="Lahiri S."/>
+<person name="Futerman A.H."/>
+</authorList>
+<dbReference type="PubMed" id="16100120"/>
+<dbReference type="DOI" id="10.1074/jbc.m506485200"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>PATHWAY</scope>
+<scope>ACTIVITY REGULATION</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2010" name="Cell" volume="143" first="1174" last="1189">
+<title>A tissue-specific atlas of mouse protein phosphorylation and expression.</title>
+<authorList>
+<person name="Huttlin E.L."/>
+<person name="Jedrychowski M.P."/>
+<person name="Elias J.E."/>
+<person name="Goswami T."/>
+<person name="Rad R."/>
+<person name="Beausoleil S.A."/>
+<person name="Villen J."/>
+<person name="Haas W."/>
+<person name="Sowa M.E."/>
+<person name="Gygi S.P."/>
+</authorList>
+<dbReference type="PubMed" id="21183079"/>
+<dbReference type="DOI" id="10.1016/j.cell.2010.12.001"/>
+</citation>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+<source>
+<tissue>Testis</tissue>
+</source>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2007" name="FEBS Lett." volume="581" first="5289" last="5294">
+<title>Kinetic characterization of mammalian ceramide synthases: determination of K(m) values towards sphinganine.</title>
+<authorList>
+<person name="Lahiri S."/>
+<person name="Lee H."/>
+<person name="Mesicek J."/>
+<person name="Fuks Z."/>
+<person name="Haimovitz-Friedman A."/>
+<person name="Kolesnick R.N."/>
+<person name="Futerman A.H."/>
+</authorList>
+<dbReference type="PubMed" id="17977534"/>
+<dbReference type="DOI" id="10.1016/j.febslet.2007.10.018"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>PATHWAY</scope>
+</reference>
+<reference key="9">
+<citation type="journal article" date="2007" name="J. Biol. Chem." volume="282" first="27366" last="27373">
+<title>A new functional motif in Hox domain-containing ceramide synthases: identification of a novel region flanking the Hox and TLC domains essential for activity.</title>
+<authorList>
+<person name="Mesika A."/>
+<person name="Ben-Dor S."/>
+<person name="Laviad E.L."/>
+<person name="Futerman A.H."/>
+</authorList>
+<dbReference type="PubMed" id="17609214"/>
+<dbReference type="DOI" id="10.1074/jbc.m703487200"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>PATHWAY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>MUTAGENESIS OF 129-ARG--LYS-140; LYS-134; 136-PRO--LYS-140 AND LYS-140</scope>
+</reference>
+<reference key="10">
+<citation type="journal article" date="2016" name="J. Biol. Chem." volume="291" first="6989" last="7003">
+<title>Ceramide Synthase 5 is essential to maintain C16:0-ceramide pools and contributes to the development of diet-induced obesity.</title>
+<authorList>
+<person name="Gosejacob D."/>
+<person name="Jaeger P.S."/>
+<person name="Vom Dorp K."/>
+<person name="Frejno M."/>
+<person name="Carstensen A.C."/>
+<person name="Koehnke M."/>
+<person name="Degen J."/>
+<person name="Doermann P."/>
+<person name="Hoch M."/>
+</authorList>
+<dbReference type="PubMed" id="26853464"/>
+<dbReference type="DOI" id="10.1074/jbc.m115.691212"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+</reference>
+<reference key="11">
+<citation type="journal article" date="2019" name="Cell" volume="177" first="1536" last="1552">
+<title>CerS6-derived sphingolipids interact with Mff and promote mitochondrial fragmentation in obesity.</title>
+<authorList>
+<person name="Hammerschmidt P."/>
+<person name="Ostkotte D."/>
+<person name="Nolte H."/>
+<person name="Gerl M.J."/>
+<person name="Jais A."/>
+<person name="Brunner H.L."/>
+<person name="Sprenger H.G."/>
+<person name="Awazawa M."/>
+<person name="Nicholls H.T."/>
+<person name="Turpin-Nolan S.M."/>
+<person name="Langer T."/>
+<person name="Krueger M."/>
+<person name="Bruegger B."/>
+<person name="Bruening J.C."/>
+</authorList>
+<dbReference type="PubMed" id="31150623"/>
+<dbReference type="DOI" id="10.1016/j.cell.2019.05.008"/>
+</citation>
+<scope>CAUTION</scope>
+</reference>
+<reference key="12">
+<citation type="submission" date="2005-11" db="PDB data bank">
+<title>Solution structure of RSGI RUH-034, a homeodomain from mouse cDNA.</title>
+<authorList>
+<consortium name="RIKEN structural genomics initiative (RSGI)"/>
+</authorList>
+</citation>
+<scope>STRUCTURE BY NMR OF 77-135</scope>
+</reference>
+<comment type="function">
+<text evidence="5 6 7 8 9 10">Ceramide synthase that catalyzes formation of ceramide from sphinganine and acyl-CoA substrates, with high selectivity toward palmitoyl-CoA (hexadecanoyl-CoA; C16:0-CoA) as acyl donor (PubMed:12912983, PubMed:15823095, PubMed:16100120, PubMed:17977534, PubMed:17609214, PubMed:26853464). Can use other acyl donors, but with less efficiency (PubMed:15823095).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="5 6 9">
+<text>hexadecanoyl-CoA + sphinganine = CoA + H(+) + N-hexadecanoylsphinganine</text>
+<dbReference type="Rhea" id="RHEA:36539"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:57287"/>
+<dbReference type="ChEBI" id="CHEBI:57379"/>
+<dbReference type="ChEBI" id="CHEBI:57817"/>
+<dbReference type="ChEBI" id="CHEBI:67042"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="5 6 9">
+<dbReference type="Rhea" id="RHEA:36540"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="5 6">
+<text>2-hydroxyhexadecanoyl-CoA + sphinganine = CoA + H(+) + N-(2-hydroxyhexadecanoyl)-sphinganine</text>
+<dbReference type="Rhea" id="RHEA:36647"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:57287"/>
+<dbReference type="ChEBI" id="CHEBI:57817"/>
+<dbReference type="ChEBI" id="CHEBI:67043"/>
+<dbReference type="ChEBI" id="CHEBI:74115"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="5 6">
+<dbReference type="Rhea" id="RHEA:36648"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="2">
+<text>hexadecanoyl-CoA + hexadecasphinganine = CoA + H(+) + N-hexadecanoylhexadecasphinganine</text>
+<dbReference type="Rhea" id="RHEA:43040"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:57287"/>
+<dbReference type="ChEBI" id="CHEBI:57379"/>
+<dbReference type="ChEBI" id="CHEBI:71009"/>
+<dbReference type="ChEBI" id="CHEBI:82810"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="2">
+<dbReference type="Rhea" id="RHEA:43041"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="6">
+<text>sphinganine + tetradecanoyl-CoA = CoA + H(+) + N-(tetradecanoyl)-sphinganine</text>
+<dbReference type="Rhea" id="RHEA:36571"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:57287"/>
+<dbReference type="ChEBI" id="CHEBI:57385"/>
+<dbReference type="ChEBI" id="CHEBI:57817"/>
+<dbReference type="ChEBI" id="CHEBI:67045"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="6">
+<dbReference type="Rhea" id="RHEA:36572"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="6">
+<text>(9Z)-octadecenoyl-CoA + sphinganine = CoA + H(+) + N-(9Z-octadecenoyl)-sphinganine</text>
+<dbReference type="Rhea" id="RHEA:36575"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:57287"/>
+<dbReference type="ChEBI" id="CHEBI:57387"/>
+<dbReference type="ChEBI" id="CHEBI:57817"/>
+<dbReference type="ChEBI" id="CHEBI:74100"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="6">
+<dbReference type="Rhea" id="RHEA:36576"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="5">
+<text>an acyl-CoA + sphing-4-enine = an N-acylsphing-4-enine + CoA + H(+)</text>
+<dbReference type="Rhea" id="RHEA:23768"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:52639"/>
+<dbReference type="ChEBI" id="CHEBI:57287"/>
+<dbReference type="ChEBI" id="CHEBI:57756"/>
+<dbReference type="ChEBI" id="CHEBI:58342"/>
+<dbReference type="EC" id="2.3.1.24"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="5">
+<dbReference type="Rhea" id="RHEA:23769"/>
+</physiologicalReaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="5">
+<text>hexadecanoyl-CoA + sphing-4-enine = CoA + H(+) + N-hexadecanoylsphing-4-enine</text>
+<dbReference type="Rhea" id="RHEA:36687"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:57287"/>
+<dbReference type="ChEBI" id="CHEBI:57379"/>
+<dbReference type="ChEBI" id="CHEBI:57756"/>
+<dbReference type="ChEBI" id="CHEBI:72959"/>
+</reaction>
+<physiologicalReaction direction="left-to-right" evidence="5">
+<dbReference type="Rhea" id="RHEA:36688"/>
+</physiologicalReaction>
+</comment>
+<comment type="activity regulation">
+<text evidence="7">Inhibited by fumonisin B1.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="9">1.8 uM for sphinganine</KM>
+<KM evidence="8">3.6 uM for sphinganine</KM>
+<Vmax evidence="8">215 pmol/min/mg enzyme with sphinganine as substrate</Vmax>
+</kinetics>
+</comment>
+<comment type="pathway" evidence="5 6 7 8 9">
+<text>Lipid metabolism; sphingolipid metabolism.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="5">Endoplasmic reticulum membrane</location>
+<topology evidence="3">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>Q9D6K9-1</id>
+<name>1</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>Q9D6K9-2</id>
+<name>2</name>
+<sequence type="described" ref="VSP_011192 VSP_011193"/>
+</isoform>
+</comment>
+<comment type="tissue specificity">
+<text evidence="5 6">Ubiquitously expressed, with highest levels in testis and kidney.</text>
+</comment>
+<comment type="domain">
+<text evidence="2">The last loop motif confers selectivity toward palmitoyl-CoA (hexadecanoyl-CoA; C16:0-CoA) as acyl donor.</text>
+</comment>
+<comment type="PTM">
+<text evidence="2">Phosphorylated at the C-terminus by CK2.</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="10">Mice are viable and show no apparent morphological alterations in normal conditions (PubMed:26853464). Decreased palmitoyl (C16:0) ceramide pools (PubMed:26853464).</text>
+</comment>
+<comment type="caution">
+<text evidence="10 11">According to a report, deletion of Cers5 protects from obesity: knockout mice are associated with reduced weight gain and improved systemic health after high fat diet challenge (PubMed:26853464). This result was however not confirmed by another study, which did not observe any protection from diet-induced obesity in knockout mice (PubMed:31150623). Effects observed in the first study might be indirect and caused by a large deletion that affects neighboring genes and/or deletes non-coding RNAs (PubMed:26853464, PubMed:31150623).</text>
+</comment>
+<comment type="caution">
+<text evidence="3 5">Some prediction bioinformatics tools predict the presence of a homeobox domain (By similarity). However, the domain is degenerate and residues that are important for DNA-binding are absent (By similarity). Moreover, the protein localizes in the endoplasmic reticulum and not in the nucleus, strongly suggesting that it does not constitute a canonical homeobox domain (PubMed:12912983).</text>
+</comment>
+<dbReference type="EC" id="2.3.1.-" evidence="5 6 7 8 9"/>
+<dbReference type="EC" id="2.3.1.24" evidence="5"/>
+<dbReference type="EMBL" id="AY029533">
+<property type="protein sequence ID" value="AAK40301.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AK010241">
+<property type="protein sequence ID" value="BAB26792.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AK075694">
+<property type="protein sequence ID" value="BAC35894.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AK145589">
+<property type="protein sequence ID" value="BAE26527.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AK145762">
+<property type="protein sequence ID" value="BAE26634.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC010670">
+<property type="protein sequence ID" value="AAH10670.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC043059">
+<property type="protein sequence ID" value="AAH43059.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC046797">
+<property type="protein sequence ID" value="AAH46797.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS27830.1">
+<molecule id="Q9D6K9-1"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_082291.1">
+<molecule id="Q9D6K9-1"/>
+<property type="nucleotide sequence ID" value="NM_028015.2"/>
+</dbReference>
+<dbReference type="PDB" id="2CQX">
+<property type="method" value="NMR"/>
+<property type="chains" value="A=77-135"/>
+</dbReference>
+<dbReference type="PDB" id="5E8N">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.25"/>
+<property type="chains" value="C/F/I/L=379-387"/>
+</dbReference>
+<dbReference type="PDB" id="5E8O">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.98"/>
+<property type="chains" value="C/F=379-387"/>
+</dbReference>
+<dbReference type="PDB" id="5E8P">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.00"/>
+<property type="chains" value="C/F=379-387"/>
+</dbReference>
+<dbReference type="PDBsum" id="2CQX"/>
+<dbReference type="PDBsum" id="5E8N"/>
+<dbReference type="PDBsum" id="5E8O"/>
+<dbReference type="PDBsum" id="5E8P"/>
+<dbReference type="SMR" id="Q9D6K9"/>
+<dbReference type="BioGRID" id="215049">
+<property type="interactions" value="3"/>
+</dbReference>
+<dbReference type="STRING" id="10090.ENSMUSP00000023762"/>
+<dbReference type="SwissLipids" id="SLP:000000118"/>
+<dbReference type="GlyGen" id="Q9D6K9">
+<property type="glycosylation" value="1 site"/>
+</dbReference>
+<dbReference type="iPTMnet" id="Q9D6K9"/>
+<dbReference type="PhosphoSitePlus" id="Q9D6K9"/>
+<dbReference type="SwissPalm" id="Q9D6K9"/>
+<dbReference type="EPD" id="Q9D6K9"/>
+<dbReference type="PaxDb" id="Q9D6K9"/>
+<dbReference type="PeptideAtlas" id="Q9D6K9"/>
+<dbReference type="PRIDE" id="Q9D6K9"/>
+<dbReference type="Antibodypedia" id="14183">
+<property type="antibodies" value="201 antibodies"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSMUST00000023762">
+<molecule id="Q9D6K9-1"/>
+<property type="protein sequence ID" value="ENSMUSP00000023762"/>
+<property type="gene ID" value="ENSMUSG00000023021"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSMUST00000109035">
+<molecule id="Q9D6K9-2"/>
+<property type="protein sequence ID" value="ENSMUSP00000104663"/>
+<property type="gene ID" value="ENSMUSG00000023021"/>
+</dbReference>
+<dbReference type="GeneID" id="71949"/>
+<dbReference type="KEGG" id="mmu:71949"/>
+<dbReference type="UCSC" id="uc007xqf.1">
+<molecule id="Q9D6K9-1"/>
+<property type="organism name" value="mouse"/>
+</dbReference>
+<dbReference type="UCSC" id="uc007xqg.1">
+<molecule id="Q9D6K9-2"/>
+<property type="organism name" value="mouse"/>
+</dbReference>
+<dbReference type="CTD" id="91012"/>
+<dbReference type="MGI" id="MGI:1919199">
+<property type="gene designation" value="Cers5"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG1607">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00990000203544"/>
+<dbReference type="HOGENOM" id="CLU_028277_1_1_1"/>
+<dbReference type="InParanoid" id="Q9D6K9"/>
+<dbReference type="KO" id="K23727"/>
+<dbReference type="OMA" id="SHHLATV"/>
+<dbReference type="OrthoDB" id="987268at2759"/>
+<dbReference type="PhylomeDB" id="Q9D6K9"/>
+<dbReference type="TreeFam" id="TF314319"/>
+<dbReference type="BRENDA" id="2.3.1.24">
+<property type="organism ID" value="3474"/>
+</dbReference>
+<dbReference type="Reactome" id="R-MMU-1660661">
+<property type="pathway name" value="Sphingolipid de novo biosynthesis"/>
+</dbReference>
+<dbReference type="UniPathway" id="UPA00222"/>
+<dbReference type="BioGRID-ORCS" id="71949">
+<property type="hits" value="3 hits in 19 CRISPR screens"/>
+</dbReference>
+<dbReference type="ChiTaRS" id="Cers5">
+<property type="organism name" value="mouse"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="Q9D6K9"/>
+<dbReference type="PRO" id="PR:Q9D6K9"/>
+<dbReference type="Proteomes" id="UP000000589">
+<property type="component" value="Chromosome 15"/>
+</dbReference>
+<dbReference type="RNAct" id="Q9D6K9">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSMUSG00000023021">
+<property type="expression patterns" value="Expressed in skin of abdomen and 308 other tissues"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="Q9D6K9">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q9D6K9">
+<property type="organism ID" value="MM"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005783">
+<property type="term" value="C:endoplasmic reticulum"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005789">
+<property type="term" value="C:endoplasmic reticulum membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003677">
+<property type="term" value="F:DNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016410">
+<property type="term" value="F:N-acyltransferase activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050291">
+<property type="term" value="F:sphingosine N-acyltransferase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046513">
+<property type="term" value="P:ceramide biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030148">
+<property type="term" value="P:sphingolipid biosynthetic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="CDD" id="cd00086">
+<property type="entry name" value="homeodomain"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009057">
+<property type="entry name" value="Homeobox-like_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001356">
+<property type="entry name" value="Homeobox_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016439">
+<property type="entry name" value="Lag1/Lac1-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006634">
+<property type="entry name" value="TLC-dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR12560">
+<property type="entry name" value="PTHR12560"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00046">
+<property type="entry name" value="Homeodomain"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF03798">
+<property type="entry name" value="TRAM_LAG1_CLN8"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF005225">
+<property type="entry name" value="LAG1_LAC1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00724">
+<property type="entry name" value="TLC"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF46689">
+<property type="entry name" value="SSF46689"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50922">
+<property type="entry name" value="TLC"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-0256">Endoplasmic reticulum</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0444">Lipid biosynthesis</keyword>
+<keyword id="KW-0443">Lipid metabolism</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0746">Sphingolipid metabolism</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Ceramide synthase 5" id="PRO_0000185515">
+<location>
+<begin position="1"/>
+<end position="414"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="16">
+<location>
+<begin position="1"/>
+<end position="43"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="44"/>
+<end position="64"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="148"/>
+<end position="168"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="187"/>
+<end position="207"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="214"/>
+<end position="234"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="272"/>
+<end position="292"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="312"/>
+<end position="332"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="333"/>
+<end position="414"/>
+</location>
+</feature>
+<feature type="domain" description="TLC" evidence="4">
+<location>
+<begin position="139"/>
+<end position="340"/>
+</location>
+</feature>
+<feature type="region of interest" description="Homeobox-like" evidence="15">
+<location>
+<begin position="75"/>
+<end position="136"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="Last loop motif" evidence="2">
+<location>
+<begin position="299"/>
+<end position="309"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="6">
+<location>
+<position position="26"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2." id="VSP_011192" evidence="13">
+<original>SKDDRSDVESSSEEEDETTHKNNLSGSSSSNGANCMNGYMGGS</original>
+<variation>LSQEGLDPGSVPSALSHLLPLFSAWWQLDSSILCMCLRMTAVM</variation>
+<location>
+<begin position="345"/>
+<end position="387"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2." id="VSP_011193" evidence="13">
+<location>
+<begin position="388"/>
+<end position="414"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolished ceramide synthase activity." evidence="8">
+<location>
+<begin position="129"/>
+<end position="140"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolished ceramide synthase activity." evidence="8">
+<original>K</original>
+<variation>A</variation>
+<location>
+<position position="134"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Does not affect ceramide synthase activity." evidence="8">
+<original>K</original>
+<variation>R</variation>
+<location>
+<position position="134"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolished ceramide synthase activity." evidence="8">
+<location>
+<begin position="136"/>
+<end position="140"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolished ceramide synthase activity." evidence="8">
+<original>K</original>
+<variation>A</variation>
+<location>
+<position position="140"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Does not affect ceramide synthase activity." evidence="8">
+<original>K</original>
+<variation>R</variation>
+<location>
+<position position="140"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAK40301." ref="1" evidence="15">
+<original>P</original>
+<variation>A</variation>
+<location>
+<position position="82"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; BAC35894." ref="2" evidence="15">
+<original>W</original>
+<variation>R</variation>
+<location>
+<position position="310"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="91"/>
+<end position="98"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="105"/>
+<end position="114"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="119"/>
+<end position="133"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2CQX"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q8N5B7"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00205"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12912983"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15823095"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16100120"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="17609214"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="17977534"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="26853464"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="31150623"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="12912983"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="15489334"/>
+</source>
+</evidence>
+<evidence key="14" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="16100120"/>
+</source>
+</evidence>
+<evidence key="15" type="ECO:0000305"/>
+<evidence key="16" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="15823095"/>
+</source>
+</evidence>
+<evidence key="17" type="ECO:0000312">
+<source>
+<dbReference type="MGI" id="MGI:1919199"/>
+</source>
+</evidence>
+<sequence length="414" mass="48167" checksum="E3536F344A459D49" modified="2001-06-01" version="1">MATAAAETLGLLWGWLWSESFWLPQNVSWADLEGPGDGYGYPRAQHVLSVFPLAVCIFSVRMLFERFIAKPCALRVGIKDSPVNKVEPNDTLEKVFVSVTKYPDEKRLKGLSKQLDWSVRKIQCWFRHRRNQDKPPTLTKFCESMWRFTYYLCIFCYGIRFLWSMPWFWDTRQCWYNYPYQPLSRELYYYYITQLAFYWSLMFSQFIDVKRKDFLMMFIHHMIGIMLTTFSYVNNMVRVGALIFCLHDFADPLLEAAKMANYARRERLCTTLFVIFGAAFIVSRLAIFPLWILNTTLFESWEIIGPYPSWWLFNALLLILQVLHAIWSYLIVQTASKALSRGKVSKDDRSDVESSSEEEDETTHKNNLSGSSSSNGANCMNGYMGGSHLAEEQGTCKATGNLHFRASPHLHSCD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>
