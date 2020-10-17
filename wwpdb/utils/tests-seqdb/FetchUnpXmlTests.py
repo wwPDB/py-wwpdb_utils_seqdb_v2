@@ -295,7 +295,7 @@ def suiteFetchTests():
     return suiteSelect
 
 
-def suiteFetchVariantTests():
+def suiteFetchVariantTests():  # pragma: no cover
     suiteSelect = unittest.TestSuite()
     suiteSelect.addTest(FetchUnpXmlTests("testFetchVariantIds"))
     # suiteSelect.addTest(FetchUnpXmlTests("testBatchFetchVariants"))
@@ -303,13 +303,7 @@ def suiteFetchVariantTests():
     return suiteSelect
 
 
-if __name__ == "__main__":
-    # Run all tests --
-    # unittest.main()
-    #
-    mySuite = suiteFetchTests()
-    # unittest.TextTestRunner(verbosity=2).run(mySuite)
-    #
+if __name__ == "__main__":  # pragma: no cover
     mySuite = suiteFetchVariantTests()
     unittest.TextTestRunner(verbosity=2).run(mySuite)
     #

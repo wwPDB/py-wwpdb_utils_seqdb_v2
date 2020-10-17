@@ -79,14 +79,14 @@ class FastaUtilTests(unittest.TestCase):
             self.fail()
 
 
-def suiteReadTests():
+def suiteReadTests():  # pragma: no cover
     suiteSelect = unittest.TestSuite()
     suiteSelect.addTest(FastaUtilTests("testReadFasta"))
     #
     return suiteSelect
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     mySuite = suiteReadTests()
     unittest.TextTestRunner(verbosity=2).run(mySuite)
     #

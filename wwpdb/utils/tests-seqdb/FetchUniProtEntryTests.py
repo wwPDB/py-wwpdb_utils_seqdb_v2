@@ -181,13 +181,13 @@ class FetchUniProtEntryTests(unittest.TestCase):
         return "".join(sL)
 
 
-def suiteFetchVariantTests():
+def suiteFetchVariantTests():  # pragma: no cover
     suiteSelect = unittest.TestSuite()
     suiteSelect.addTest(FetchUniProtEntryTests("testFetchVariantIds"))
     #
     return suiteSelect
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     mySuite = suiteFetchVariantTests()
     unittest.TextTestRunner(verbosity=2).run(mySuite)

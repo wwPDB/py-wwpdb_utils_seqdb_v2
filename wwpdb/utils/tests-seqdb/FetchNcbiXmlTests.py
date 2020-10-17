@@ -108,7 +108,7 @@ class FetchNcbiXmlTests(unittest.TestCase):
                 time.sleep(0.5)
 
 
-def suiteFetchTests():
+def suiteFetchTests():  # pragma: no cover
     suiteSelect = unittest.TestSuite()
     suiteSelect.addTest(FetchNcbiXmlTests("testFetchSummaries"))
     suiteSelect.addTest(FetchNcbiXmlTests("testFetchFullNcbiXml"))
@@ -116,7 +116,7 @@ def suiteFetchTests():
     return suiteSelect
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     #
     mySuite = suiteFetchTests()
     unittest.TextTestRunner(verbosity=2).run(mySuite)

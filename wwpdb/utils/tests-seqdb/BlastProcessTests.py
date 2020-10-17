@@ -240,7 +240,7 @@ class BlastProcessTests(unittest.TestCase):
             self.fail()
 
 
-def suiteSearchTests():
+def suiteSearchTests():  # pragma: no cover
     suiteSelect = unittest.TestSuite()
     suiteSelect.addTest(BlastProcessTests("testGetPolymerEntityDetails"))
     suiteSelect.addTest(BlastProcessTests("testPolymerSearch1"))
@@ -249,7 +249,7 @@ def suiteSearchTests():
     return suiteSelect
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     # Run all tests --
     # unittest.main()
     #
