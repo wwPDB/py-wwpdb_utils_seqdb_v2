@@ -1,5 +1,9 @@
 # OneDep Sequence Search/Retrieval Library
 
+Master: [![Build Status](https://dev.azure.com/wwPDB/wwPDB%20Python%20Projects/_apis/build/status/wwPDB.py-wwpdb_utils_seqdb_v2?branchName=master)](https://dev.azure.com/wwPDB/wwPDB%20Python%20Projects/_build/latest?definitionId=10&branchName=master)
+
+Develop: [![Build Status](https://dev.azure.com/wwPDB/wwPDB%20Python%20Projects/_apis/build/status/wwPDB.py-wwpdb_utils_seqdb_v2?branchName=develop)](https://dev.azure.com/wwPDB/wwPDB%20Python%20Projects/_build/latest?definitionId=10&branchName=develop)
+
 ## Introduction
 
 This repository povides the tools and access to remote sequence search and retrieval.
