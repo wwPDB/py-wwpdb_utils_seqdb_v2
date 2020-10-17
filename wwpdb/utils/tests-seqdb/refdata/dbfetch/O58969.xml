@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1998-12-15" modified="2020-08-12" version="111">
+<accession>O58969</accession>
+<name>Y1214_PYRHO</name>
+<protein>
+<recommendedName>
+<fullName>Uncharacterized ABC transporter extracellular-binding protein PH1214</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus">PH1214</name>
+<name type="ORF">PHBK040</name>
+</gene>
+<organism>
+<name type="scientific">Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / OT-3)</name>
+<dbReference type="NCBI Taxonomy" id="70601"/>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+<taxon>Pyrococcus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1998" name="DNA Res." volume="5" first="55" last="76">
+<title>Complete sequence and gene organization of the genome of a hyper-thermophilic archaebacterium, Pyrococcus horikoshii OT3.</title>
+<authorList>
+<person name="Kawarabayasi Y."/>
+<person name="Sawada M."/>
+<person name="Horikawa H."/>
+<person name="Haikawa Y."/>
+<person name="Hino Y."/>
+<person name="Yamamoto S."/>
+<person name="Sekine M."/>
+<person name="Baba S."/>
+<person name="Kosugi H."/>
+<person name="Hosoyama A."/>
+<person name="Nagai Y."/>
+<person name="Sakai M."/>
+<person name="Ogura K."/>
+<person name="Otsuka R."/>
+<person name="Nakazawa H."/>
+<person name="Takamiya M."/>
+<person name="Ohfuku Y."/>
+<person name="Funahashi T."/>
+<person name="Tanaka T."/>
+<person name="Kudoh Y."/>
+<person name="Yamazaki J."/>
+<person name="Kushida N."/>
+<person name="Oguchi A."/>
+<person name="Aoki K."/>
+<person name="Yoshizawa T."/>
+<person name="Nakamura Y."/>
+<person name="Robb F.T."/>
+<person name="Horikoshi K."/>
+<person name="Masuchi Y."/>
+<person name="Shizuya H."/>
+<person name="Kikuchi H."/>
+</authorList>
+<dbReference type="PubMed" id="9679194"/>
+<dbReference type="DOI" id="10.1093/dnares/5.2.55"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / OT-3</strain>
+</source>
+</reference>
+<comment type="function">
+<text>Probably part of a binding-protein-dependent transport system PH1214/15/16.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="2">Cell membrane</location>
+<topology evidence="2">Lipid-anchor</topology>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the bacterial solute-binding protein 1 family.</text>
+</comment>
+<dbReference type="EMBL" id="BA000001">
+<property type="protein sequence ID" value="BAA30314.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="H71064">
+<property type="entry name" value="H71064"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010885301.1">
+<property type="nucleotide sequence ID" value="NC_000961.1"/>
+</dbReference>
+<dbReference type="PDB" id="1R25">
+<property type="method" value="Model"/>
+<property type="chains" value="A=42-432"/>
+</dbReference>
+<dbReference type="PDBsum" id="1R25"/>
+<dbReference type="SMR" id="O58969"/>
+<dbReference type="STRING" id="70601.3257631"/>
+<dbReference type="EnsemblBacteria" id="BAA30314">
+<property type="protein sequence ID" value="BAA30314"/>
+<property type="gene ID" value="BAA30314"/>
+</dbReference>
+<dbReference type="GeneID" id="1443536"/>
+<dbReference type="KEGG" id="pho:PH1214"/>
+<dbReference type="eggNOG" id="arCOG00150">
+<property type="taxonomic scope" value="Archaea"/>
+</dbReference>
+<dbReference type="KO" id="K17315"/>
+<dbReference type="OMA" id="NWLWINP"/>
+<dbReference type="OrthoDB" id="16335at2157"/>
+<dbReference type="BioCyc" id="PHOR70601:G1G39-1174-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000752">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01547">
+<property type="entry name" value="SBP_bac_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51257">
+<property type="entry name" value="PROKAR_LIPOPROTEIN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0007">Acetylation</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0449">Lipoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="23"/>
+</location>
+</feature>
+<feature type="chain" description="Uncharacterized ABC transporter extracellular-binding protein PH1214" id="PRO_0000031717">
+<location>
+<begin position="24"/>
+<end position="441"/>
+</location>
+</feature>
+<feature type="modified residue" description="N-acetylcysteine" evidence="1">
+<location>
+<position position="24"/>
+</location>
+</feature>
+<feature type="lipid moiety-binding region" description="S-archaeol cysteine" evidence="1">
+<location>
+<position position="24"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255"/>
+<evidence key="2" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00303"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="441" mass="48896" checksum="558D963D816CA7EE" modified="1998-08-01" version="1" precursor="true">MSRKYLLSLLLVGALVISVVASGCIGGSQTPTSSPTKTQQVQELEIYHWWTAGGEKEAFDALAKKFEKKYPNIKIKANPVSGGGGVNLKMVLQSLMLAGKPPDTFQVHAGYEMARYIKANQLTPIDDIWTEDMKKNYPKVIQQMVIFNNHYYAVPINVHRANVIWYNKQIFKKYGIDPSSIKTIDDLFAVAEKLKENGVTPFALGDRNKWPATQVFEVMLVAVGGVDYYEKFINGEISANDPTLKKVLEYFVKYVEYSNPDHAAKTWDEACALVYKGEAAMTLMGDWANGYFKAKGWKPNVDYGAIPIPAGVYDLVIDTFVLPAKAAHPNAAKKWLSFIGTVEAQNTFNPIKGSIPPRKDAPADPYDPIQKSFIKELSSSETKLIPSIAHGSAVPEAFLADLNDIISELATSKDVNKAATEIINAMKKDLLPNKIKEWHLS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

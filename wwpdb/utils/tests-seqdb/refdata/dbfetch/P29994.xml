@@ -1,0 +1,1449 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="191">
+<accession>P29994</accession>
+<accession>Q62869</accession>
+<name>ITPR1_RAT</name>
+<protein>
+<recommendedName>
+<fullName>Inositol 1,4,5-trisphosphate receptor type 1</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>IP3 receptor isoform 1</fullName>
+<shortName>IP-3-R</shortName>
+<shortName>IP3R 1</shortName>
+<shortName>InsP3R1</shortName>
+</alternativeName>
+<alternativeName>
+<fullName>Type 1 inositol 1,4,5-trisphosphate receptor</fullName>
+<shortName>Type 1 InsP3 receptor</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">Itpr1</name>
+<name type="synonym">Insp3r</name>
+</gene>
+<organism>
+<name type="scientific">Rattus norvegicus</name>
+<name type="common">Rat</name>
+<dbReference type="NCBI Taxonomy" id="10116"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Myomorpha</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Rattus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1990" name="J. Biol. Chem." volume="265" first="12679" last="12685">
+<title>Structure and expression of the rat inositol 1,4,5-trisphosphate receptor.</title>
+<authorList>
+<person name="Mignery G.A."/>
+<person name="Newton C.L."/>
+<person name="Archer B.T. III"/>
+<person name="Suedhof T.C."/>
+</authorList>
+<dbReference type="PubMed" id="2165071"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 3 AND 4)</scope>
+<scope>VARIANT PHE-1372 DEL</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1991" name="Proc. Natl. Acad. Sci. U.S.A." volume="88" first="2951" last="2955">
+<title>Inositol 1,4,5-trisphosphate receptors: distinct neuronal and nonneuronal forms derived by alternative splicing differ in phosphorylation.</title>
+<authorList>
+<person name="Danoff S.K."/>
+<person name="Ferris C.D."/>
+<person name="Donath C."/>
+<person name="Fischer G.A."/>
+<person name="Munemitsu S."/>
+<person name="Ullrich A."/>
+<person name="Snyder S.H."/>
+<person name="Ross C.A."/>
+</authorList>
+<dbReference type="PubMed" id="1849282"/>
+<dbReference type="DOI" id="10.1073/pnas.88.7.2951"/>
+</citation>
+<scope>PARTIAL NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 7)</scope>
+<source>
+<tissue>Brain</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1997" name="Brain Res. Mol. Brain Res." volume="44" first="347" last="354">
+<title>Inositol 1,4,5-trisphosphate receptor expression in mammalian olfactory tissue.</title>
+<authorList>
+<person name="Smutzer G."/>
+<person name="Zimmerman J.E."/>
+<person name="Hahn C.-G."/>
+<person name="Ruscheinsky D.D."/>
+<person name="Rodriguez A."/>
+<person name="Han L.-Y."/>
+<person name="Arnold S.E."/>
+</authorList>
+<dbReference type="PubMed" id="9073177"/>
+<dbReference type="DOI" id="10.1016/s0169-328x(96)00282-3"/>
+</citation>
+<scope>PARTIAL NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 3; 4; 7 AND 8)</scope>
+<source>
+<strain>Sprague-Dawley</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1999" name="J. Biol. Chem." volume="274" first="29483" last="29492">
+<title>Subunit oligomerization, and topology of the inositol 1,4, 5-trisphosphate receptor.</title>
+<authorList>
+<person name="Galvan D.L."/>
+<person name="Borrego-Diaz E."/>
+<person name="Perez P.J."/>
+<person name="Mignery G.A."/>
+</authorList>
+<dbReference type="PubMed" id="10506212"/>
+<dbReference type="DOI" id="10.1074/jbc.274.41.29483"/>
+</citation>
+<scope>CHARACTERIZATION</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2002" name="Proc. Natl. Acad. Sci. U.S.A." volume="99" first="7711" last="7716">
+<title>Identification of a family of calcium sensors as protein ligands of inositol trisphosphate receptor Ca(2+) release channels.</title>
+<authorList>
+<person name="Yang J."/>
+<person name="McBride S."/>
+<person name="Mak D.-O.D."/>
+<person name="Vardi N."/>
+<person name="Palczewski K."/>
+<person name="Haeseleer F."/>
+<person name="Foskett J.K."/>
+</authorList>
+<dbReference type="PubMed" id="12032348"/>
+<dbReference type="DOI" id="10.1073/pnas.102006299"/>
+</citation>
+<scope>INTERACTION WITH CABP1</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2008" name="J. Biol. Chem." volume="283" first="35319" last="35328">
+<title>Mass spectrometric analysis of type 1 inositol 1,4,5-trisphosphate receptor ubiquitination.</title>
+<authorList>
+<person name="Sliter D.A."/>
+<person name="Kubota K."/>
+<person name="Kirkpatrick D.S."/>
+<person name="Alzayady K.J."/>
+<person name="Gygi S.P."/>
+<person name="Wojcikiewicz R.J."/>
+</authorList>
+<dbReference type="PubMed" id="18955483"/>
+<dbReference type="DOI" id="10.1074/jbc.m807288200"/>
+</citation>
+<scope>UBIQUITINATION AT LYS-916; LYS-962; LYS-1572; LYS-1772; LYS-1885; LYS-1886; LYS-1887; LYS-1902; LYS-1925; LYS-2119 AND LYS-2258</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2012" name="Nat. Commun." volume="3" first="876" last="876">
+<title>Quantitative maps of protein phosphorylation sites across 14 different rat organs and tissues.</title>
+<authorList>
+<person name="Lundby A."/>
+<person name="Secher A."/>
+<person name="Lage K."/>
+<person name="Nordsborg N.B."/>
+<person name="Dmytriyev A."/>
+<person name="Lundby C."/>
+<person name="Olsen J.V."/>
+</authorList>
+<dbReference type="PubMed" id="22673903"/>
+<dbReference type="DOI" id="10.1038/ncomms1871"/>
+</citation>
+<scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-1589 AND SER-1756</scope>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+</reference>
+<comment type="function">
+<text evidence="4">Intracellular channel that mediates calcium release from the endoplasmic reticulum following stimulation by inositol 1,4,5-trisphosphate. Involved in the regulation of epithelial secretion of electrolytes and fluid through the interaction with AHCYL1 Plays a role in ER stress-induced apoptosis. Cytoplasmic calcium released from the ER triggers apoptosis by the activation of CaM kinase II, eventually leading to the activation of downstream apoptosis pathways.</text>
+</comment>
+<comment type="subunit">
+<text evidence="4 5">omotetramer. Interacts with TRPC4. The PPXXF motif binds HOM1, HOM2 and HOM3. Interacts with RYR1, RYR2, ITPR1, SHANK1 and SHANK3. Interacts with ERP44 in a pH-, redox state- and calcium-dependent manner which results in the inhibition the calcium channel activity. The strength of this interaction inversely correlates with calcium concentration. Part of cGMP kinase signaling complex at least composed of ACTA2/alpha-actin, CNN1/calponin H1, PLN/phospholamban, PRKG1 and ITPR1. Interacts with IRAG1 and CABP1 (via N-terminus). Interacts with TESPA1. Interacts (when not phosphorylated) with AHCYL1 (when phosphorylated); the interaction suppresses inositol 1,4,5-trisphosphate binding to ITPR1. Interacts with AHCYL2 (with lower affinity than with AHCYL1) (By similarity). Interacts with BOK (via BH4 domain); protects ITPR1 from proteolysis by CASP3 during apoptosis (By similarity).</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-8614640">
+<id>P29994</id>
+</interactant>
+<interactant intactId="EBI-994549">
+<id>P54256-1</id>
+<label>Hap1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>2</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-8614640">
+<id>P29994</id>
+</interactant>
+<interactant intactId="EBI-994554">
+<id>P54256-2</id>
+<label>Hap1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>4</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-8614640">
+<id>P29994</id>
+</interactant>
+<interactant intactId="EBI-9674649">
+<id>P51111</id>
+<label>Htt</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>4</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-8614640">
+<id>P29994</id>
+</interactant>
+<interactant intactId="EBI-466029">
+<id>P42858</id>
+<label>HTT</label>
+</interactant>
+<organismsDiffer>true</organismsDiffer>
+<experiments>2</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-15683709">
+<id>P29994-1</id>
+</interactant>
+<interactant intactId="EBI-15683709">
+<id>P29994-1</id>
+<label>Itpr1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>2</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-15683709">
+<id>P29994-1</id>
+</interactant>
+<interactant intactId="EBI-8018890">
+<id>Q3U182</id>
+<label>Crtc2</label>
+</interactant>
+<organismsDiffer>true</organismsDiffer>
+<experiments>2</experiments>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="6">Endoplasmic reticulum membrane</location>
+<topology evidence="7">Multi-pass membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="6">Cytoplasmic vesicle</location>
+<location evidence="6">Secretory vesicle membrane</location>
+<topology evidence="7">Multi-pass membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="5">Cytoplasm</location>
+<location evidence="5">Perinuclear region</location>
+</subcellularLocation>
+<text evidence="6">Endoplasmic reticulum and secretory granules (By similarity).</text>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>P29994-1</id>
+<name>1</name>
+<name>SISIIABC</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>P29994-2</id>
+<name>2</name>
+<name>SI-SIIABC</name>
+<sequence type="described" ref="VSP_002695"/>
+</isoform>
+<isoform>
+<id>P29994-3</id>
+<name>3</name>
+<name>SISIIAC</name>
+<sequence type="described" ref="VSP_002697"/>
+</isoform>
+<isoform>
+<id>P29994-4</id>
+<name>4</name>
+<name>SI-SIIAC</name>
+<sequence type="described" ref="VSP_002695 VSP_002697"/>
+</isoform>
+<isoform>
+<id>P29994-5</id>
+<name>5</name>
+<name>SISIIA</name>
+<sequence type="described" ref="VSP_002697 VSP_002698"/>
+</isoform>
+<isoform>
+<id>P29994-6</id>
+<name>6</name>
+<name>SI-SIIA</name>
+<sequence type="described" ref="VSP_002695 VSP_002697 VSP_002698"/>
+</isoform>
+<isoform>
+<id>P29994-7</id>
+<name>7</name>
+<name>SISII</name>
+<sequence type="described" ref="VSP_002696 VSP_002697 VSP_002698"/>
+</isoform>
+<isoform>
+<id>P29994-8</id>
+<name>8</name>
+<name>SI-SII</name>
+<sequence type="described" ref="VSP_002695 VSP_002696 VSP_002697 VSP_002698"/>
+</isoform>
+<text>There is a combination of two alternatively spliced domains at site SI and site SII (A, B and C). Experimental confirmation may be lacking for some isoforms.</text>
+</comment>
+<comment type="tissue specificity">
+<text>Isoform 3 is found in the brain while isoform 7 is found in the fetal brain and peripheral tissues.</text>
+</comment>
+<comment type="domain">
+<text>The receptor contains a calcium channel in its C-terminal extremity. Its large N-terminal cytoplasmic region has the ligand-binding site in the N-terminus and modulatory sites in the middle portion immediately upstream of the channel region.</text>
+</comment>
+<comment type="PTM">
+<text evidence="4">Phosphorylated by cAMP kinase (PKA). Phosphorylation prevents the ligand-induced opening of the calcium channels. Phosphorylation by PKA increases the interaction with inositol 1,4,5-trisphosphate and decreases the interaction with AHCYL1.</text>
+</comment>
+<comment type="PTM">
+<text evidence="5">Phosphorylated on tyrosine residues.</text>
+</comment>
+<comment type="PTM">
+<text evidence="9">Ubiquitination at multiple lysines targets ITPR1 for proteasomal degradation. Approximately 40% of the ITPR1-associated ubiquitin is monoubiquitin, and polyubiquitins are both 'Lys-48'- and 'Lys-63'-linked.</text>
+</comment>
+<comment type="PTM">
+<text evidence="4">Palmitoylated by ZDHHC6 in immune cells, leading to regulate ITPR1 stability and function.</text>
+</comment>
+<comment type="miscellaneous">
+<text>Calcium appears to inhibit ligand binding to the receptor, most probably by interacting with a distinct calcium-binding protein which then inhibits the receptor.</text>
+</comment>
+<comment type="similarity">
+<text evidence="12">Belongs to the InsP3 receptor family.</text>
+</comment>
+<dbReference type="EMBL" id="J05510">
+<property type="protein sequence ID" value="AAA41358.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="J05510">
+<property type="protein sequence ID" value="AAA41357.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="M64699">
+<property type="protein sequence ID" value="AAA41447.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="M64698">
+<property type="protein sequence ID" value="AAA41448.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U38653">
+<property type="protein sequence ID" value="AAC53099.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U38812">
+<property type="protein sequence ID" value="AAC53100.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U38665">
+<property type="protein sequence ID" value="AAB51330.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="PIR" id="A36579">
+<property type="entry name" value="A36579"/>
+</dbReference>
+<dbReference type="PIR" id="B36579">
+<property type="entry name" value="B36579"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001257526.1">
+<property type="nucleotide sequence ID" value="NM_001270597.1"/>
+</dbReference>
+<dbReference type="PDB" id="3JAV">
+<property type="method" value="EM"/>
+<property type="resolution" value="4.70"/>
+<property type="chains" value="A/B/C/D=1-2750"/>
+</dbReference>
+<dbReference type="PDB" id="3T8S">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="3.77"/>
+<property type="chains" value="A/B=7-602"/>
+</dbReference>
+<dbReference type="PDB" id="3UJ0">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="3.60"/>
+<property type="chains" value="A/B=1-604"/>
+</dbReference>
+<dbReference type="PDB" id="3UJ4">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="3.00"/>
+<property type="chains" value="A/B=1-604"/>
+</dbReference>
+<dbReference type="PDB" id="6MU1">
+<property type="method" value="EM"/>
+<property type="resolution" value="4.10"/>
+<property type="chains" value="A/B/C/D=1-2739"/>
+</dbReference>
+<dbReference type="PDB" id="6MU2">
+<property type="method" value="EM"/>
+<property type="resolution" value="3.90"/>
+<property type="chains" value="A/B/C/D=1-2750"/>
+</dbReference>
+<dbReference type="PDBsum" id="3JAV"/>
+<dbReference type="PDBsum" id="3T8S"/>
+<dbReference type="PDBsum" id="3UJ0"/>
+<dbReference type="PDBsum" id="3UJ4"/>
+<dbReference type="PDBsum" id="6MU1"/>
+<dbReference type="PDBsum" id="6MU2"/>
+<dbReference type="SMR" id="P29994"/>
+<dbReference type="BioGRID" id="247302">
+<property type="interactions" value="13"/>
+</dbReference>
+<dbReference type="CORUM" id="P29994"/>
+<dbReference type="DIP" id="DIP-29715N"/>
+<dbReference type="IntAct" id="P29994">
+<property type="interactions" value="6"/>
+</dbReference>
+<dbReference type="MINT" id="P29994"/>
+<dbReference type="STRING" id="10116.ENSRNOP00000063885"/>
+<dbReference type="BindingDB" id="P29994"/>
+<dbReference type="ChEMBL" id="CHEMBL2804"/>
+<dbReference type="iPTMnet" id="P29994"/>
+<dbReference type="PhosphoSitePlus" id="P29994"/>
+<dbReference type="SwissPalm" id="P29994"/>
+<dbReference type="jPOST" id="P29994"/>
+<dbReference type="PaxDb" id="P29994"/>
+<dbReference type="PRIDE" id="P29994"/>
+<dbReference type="GeneID" id="25262"/>
+<dbReference type="KEGG" id="rno:25262"/>
+<dbReference type="CTD" id="3708"/>
+<dbReference type="RGD" id="2933">
+<property type="gene designation" value="Itpr1"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG3533">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="InParanoid" id="P29994"/>
+<dbReference type="KO" id="K04958"/>
+<dbReference type="OrthoDB" id="94996at2759"/>
+<dbReference type="PhylomeDB" id="P29994"/>
+<dbReference type="Reactome" id="R-RNO-114508">
+<property type="pathway name" value="Effects of PIP2 hydrolysis"/>
+</dbReference>
+<dbReference type="Reactome" id="R-RNO-139853">
+<property type="pathway name" value="Elevation of cytosolic Ca2+ levels"/>
+</dbReference>
+<dbReference type="Reactome" id="R-RNO-381676">
+<property type="pathway name" value="Glucagon-like Peptide-1 (GLP1) regulates insulin secretion"/>
+</dbReference>
+<dbReference type="Reactome" id="R-RNO-418457">
+<property type="pathway name" value="cGMP effects"/>
+</dbReference>
+<dbReference type="Reactome" id="R-RNO-5578775">
+<property type="pathway name" value="Ion homeostasis"/>
+</dbReference>
+<dbReference type="Reactome" id="R-RNO-983695">
+<property type="pathway name" value="Antigen activates B Cell Receptor (BCR) leading to generation of second messengers"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P29994"/>
+<dbReference type="Proteomes" id="UP000002494">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005955">
+<property type="term" value="C:calcineurin complex"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030659">
+<property type="term" value="C:cytoplasmic vesicle membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030425">
+<property type="term" value="C:dendrite"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005783">
+<property type="term" value="C:endoplasmic reticulum"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005789">
+<property type="term" value="C:endoplasmic reticulum membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0098982">
+<property type="term" value="C:GABA-ergic synapse"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SynGO"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030176">
+<property type="term" value="C:integral component of endoplasmic reticulum membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SynGO"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043231">
+<property type="term" value="C:intracellular membrane-bounded organelle"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045121">
+<property type="term" value="C:membrane raft"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043025">
+<property type="term" value="C:neuronal cell body"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005635">
+<property type="term" value="C:nuclear envelope"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005637">
+<property type="term" value="C:nuclear inner membrane"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005730">
+<property type="term" value="C:nucleolus"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0048471">
+<property type="term" value="C:perinuclear region of cytoplasm"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031088">
+<property type="term" value="C:platelet dense granule membrane"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031094">
+<property type="term" value="C:platelet dense tubular network"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0098794">
+<property type="term" value="C:postsynapse"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SynGO"/>
+</dbReference>
+<dbReference type="GO" id="GO:0014069">
+<property type="term" value="C:postsynaptic density"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0098793">
+<property type="term" value="C:presynapse"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SynGO"/>
+</dbReference>
+<dbReference type="GO" id="GO:0032991">
+<property type="term" value="C:protein-containing complex"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016529">
+<property type="term" value="C:sarcoplasmic reticulum"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0098685">
+<property type="term" value="C:Schaffer collateral - CA1 synapse"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030667">
+<property type="term" value="C:secretory granule membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030868">
+<property type="term" value="C:smooth endoplasmic reticulum membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SynGO"/>
+</dbReference>
+<dbReference type="GO" id="GO:0097060">
+<property type="term" value="C:synaptic membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030658">
+<property type="term" value="C:transport vesicle membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019855">
+<property type="term" value="F:calcium channel inhibitor activity"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005509">
+<property type="term" value="F:calcium ion binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015278">
+<property type="term" value="F:calcium-release channel activity"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042802">
+<property type="term" value="F:identical protein binding"/>
+<property type="evidence" value="ECO:0000353"/>
+<property type="project" value="IntAct"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070679">
+<property type="term" value="F:inositol 1,4,5 trisphosphate binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0098695">
+<property type="term" value="F:inositol 1,4,5-trisphosphate receptor activity involved in regulation of postsynaptic cytosolic calcium levels"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005220">
+<property type="term" value="F:inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044325">
+<property type="term" value="F:ion channel binding"/>
+<property type="evidence" value="ECO:0000353"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035091">
+<property type="term" value="F:phosphatidylinositol binding"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008022">
+<property type="term" value="F:protein C-terminus binding"/>
+<property type="evidence" value="ECO:0000353"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019903">
+<property type="term" value="F:protein phosphatase binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044877">
+<property type="term" value="F:protein-containing complex binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006816">
+<property type="term" value="P:calcium ion transport"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071320">
+<property type="term" value="P:cellular response to cAMP"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071456">
+<property type="term" value="P:cellular response to hypoxia"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016358">
+<property type="term" value="P:dendrite development"/>
+<property type="evidence" value="ECO:0000270"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0032469">
+<property type="term" value="P:endoplasmic reticulum calcium ion homeostasis"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042045">
+<property type="term" value="P:epithelial fluid transport"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070059">
+<property type="term" value="P:intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0097421">
+<property type="term" value="P:liver regeneration"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050849">
+<property type="term" value="P:negative regulation of calcium-mediated signaling"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:1901215">
+<property type="term" value="P:negative regulation of neuron death"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043065">
+<property type="term" value="P:positive regulation of apoptotic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051928">
+<property type="term" value="P:positive regulation of calcium ion transport"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007204">
+<property type="term" value="P:positive regulation of cytosolic calcium ion concentration"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:2000347">
+<property type="term" value="P:positive regulation of hepatocyte proliferation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0010976">
+<property type="term" value="P:positive regulation of neuron projection development"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009791">
+<property type="term" value="P:post-embryonic development"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051209">
+<property type="term" value="P:release of sequestered calcium ion into cytosol"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="BHF-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001666">
+<property type="term" value="P:response to hypoxia"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050882">
+<property type="term" value="P:voluntary musculoskeletal movement"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016024">
+<property type="entry name" value="ARM-type_fold"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014821">
+<property type="entry name" value="Ins145_P3_rcpt"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000493">
+<property type="entry name" value="InsP3_rcpt"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005821">
+<property type="entry name" value="Ion_trans_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036300">
+<property type="entry name" value="MIR_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016093">
+<property type="entry name" value="MIR_motif"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013662">
+<property type="entry name" value="RIH_assoc-dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000699">
+<property type="entry name" value="RIH_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR035910">
+<property type="entry name" value="RyR/IP3R_RIH_dom_sf"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR45816">
+<property type="entry name" value="PTHR45816"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF08709">
+<property type="entry name" value="Ins145_P3_rec"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00520">
+<property type="entry name" value="Ion_trans"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02815">
+<property type="entry name" value="MIR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF08454">
+<property type="entry name" value="RIH_assoc"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01365">
+<property type="entry name" value="RYDR_ITPR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00779">
+<property type="entry name" value="INSP3RECEPTR"/>
+</dbReference>
+<dbReference type="SMART" id="SM00472">
+<property type="entry name" value="MIR"/>
+<property type="match status" value="4"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF100909">
+<property type="entry name" value="SSF100909"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48371">
+<property type="entry name" value="SSF48371"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF82109">
+<property type="entry name" value="SSF82109"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50919">
+<property type="entry name" value="MIR"/>
+<property type="match status" value="5"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-0053">Apoptosis</keyword>
+<keyword id="KW-0106">Calcium</keyword>
+<keyword id="KW-0107">Calcium channel</keyword>
+<keyword id="KW-0109">Calcium transport</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0968">Cytoplasmic vesicle</keyword>
+<keyword id="KW-0256">Endoplasmic reticulum</keyword>
+<keyword id="KW-0407">Ion channel</keyword>
+<keyword id="KW-0406">Ion transport</keyword>
+<keyword id="KW-1017">Isopeptide bond</keyword>
+<keyword id="KW-1071">Ligand-gated ion channel</keyword>
+<keyword id="KW-0449">Lipoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0564">Palmitate</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-0621">Polymorphism</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<keyword id="KW-0832">Ubl conjugation</keyword>
+<feature type="chain" description="Inositol 1,4,5-trisphosphate receptor type 1" id="PRO_0000153922">
+<location>
+<begin position="1"/>
+<end position="2750"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="7">
+<location>
+<begin position="1"/>
+<end position="2274"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="7">
+<location>
+<begin position="2275"/>
+<end position="2295"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="7">
+<location>
+<begin position="2296"/>
+<end position="2306"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="7">
+<location>
+<begin position="2307"/>
+<end position="2327"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="7">
+<location>
+<begin position="2328"/>
+<end position="2353"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="7">
+<location>
+<begin position="2354"/>
+<end position="2374"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="7">
+<location>
+<begin position="2375"/>
+<end position="2397"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="7">
+<location>
+<begin position="2398"/>
+<end position="2418"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="7">
+<location>
+<begin position="2419"/>
+<end position="2440"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="7">
+<location>
+<begin position="2441"/>
+<end position="2461"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="7">
+<location>
+<begin position="2462"/>
+<end position="2569"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="7">
+<location>
+<begin position="2570"/>
+<end position="2590"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="7">
+<location>
+<begin position="2591"/>
+<end position="2750"/>
+</location>
+</feature>
+<feature type="domain" description="MIR 1" evidence="8">
+<location>
+<begin position="112"/>
+<end position="166"/>
+</location>
+</feature>
+<feature type="domain" description="MIR 2" evidence="8">
+<location>
+<begin position="173"/>
+<end position="223"/>
+</location>
+</feature>
+<feature type="domain" description="MIR 3" evidence="8">
+<location>
+<begin position="231"/>
+<end position="287"/>
+</location>
+</feature>
+<feature type="domain" description="MIR 4" evidence="8">
+<location>
+<begin position="294"/>
+<end position="373"/>
+</location>
+</feature>
+<feature type="domain" description="MIR 5" evidence="8">
+<location>
+<begin position="379"/>
+<end position="435"/>
+</location>
+</feature>
+<feature type="region of interest" description="Inositol 1,4,5-trisphosphate binding" evidence="3">
+<location>
+<begin position="265"/>
+<end position="269"/>
+</location>
+</feature>
+<feature type="region of interest" description="Inositol 1,4,5-trisphosphate binding" evidence="3">
+<location>
+<begin position="508"/>
+<end position="511"/>
+</location>
+</feature>
+<feature type="region of interest" description="Inositol 1,4,5-trisphosphate binding" evidence="3">
+<location>
+<begin position="567"/>
+<end position="569"/>
+</location>
+</feature>
+<feature type="region of interest" description="Interaction with ERP44">
+<location>
+<begin position="2464"/>
+<end position="2529"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphotyrosine" evidence="7">
+<location>
+<position position="482"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine" evidence="2">
+<location>
+<position position="1589"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine" evidence="2">
+<location>
+<position position="1756"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphotyrosine" evidence="7">
+<location>
+<position position="2656"/>
+</location>
+</feature>
+<feature type="lipid moiety-binding region" description="S-palmitoyl cysteine" evidence="4">
+<location>
+<position position="56"/>
+</location>
+</feature>
+<feature type="lipid moiety-binding region" description="S-palmitoyl cysteine" evidence="4">
+<location>
+<position position="849"/>
+</location>
+</feature>
+<feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)" evidence="9">
+<location>
+<position position="916"/>
+</location>
+</feature>
+<feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)" evidence="9">
+<location>
+<position position="962"/>
+</location>
+</feature>
+<feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)" evidence="9">
+<location>
+<position position="1572"/>
+</location>
+</feature>
+<feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)" evidence="9">
+<location>
+<position position="1772"/>
+</location>
+</feature>
+<feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)" evidence="9">
+<location>
+<position position="1885"/>
+</location>
+</feature>
+<feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)" evidence="9">
+<location>
+<position position="1886"/>
+</location>
+</feature>
+<feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)" evidence="9">
+<location>
+<position position="1887"/>
+</location>
+</feature>
+<feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)" evidence="9">
+<location>
+<position position="1902"/>
+</location>
+</feature>
+<feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)" evidence="9">
+<location>
+<position position="1925"/>
+</location>
+</feature>
+<feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)" evidence="9">
+<location>
+<position position="2119"/>
+</location>
+</feature>
+<feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)" evidence="9">
+<location>
+<position position="2258"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2, isoform 4, isoform 6 and isoform 8." id="VSP_002695" evidence="11">
+<location>
+<begin position="322"/>
+<end position="336"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 7 and isoform 8." id="VSP_002696" evidence="12">
+<location>
+<begin position="1693"/>
+<end position="1715"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 3, isoform 4, isoform 5, isoform 6, isoform 7 and isoform 8." id="VSP_002697" evidence="11">
+<location>
+<position position="1716"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 5, isoform 6, isoform 7 and isoform 8." id="VSP_002698" evidence="12">
+<location>
+<begin position="1717"/>
+<end position="1732"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In all but PI17 clones." evidence="10">
+<location>
+<position position="1372"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAA41447/AAA41448." ref="2" evidence="12">
+<original>P</original>
+<variation>R</variation>
+<location>
+<position position="1764"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="14"/>
+<end position="23"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="25"/>
+<end position="30"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="36"/>
+<end position="39"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="41"/>
+<end position="43"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="53"/>
+<end position="56"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="57"/>
+<end position="61"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="67"/>
+<end position="74"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="87"/>
+<end position="108"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="109"/>
+<end position="112"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="120"/>
+<end position="125"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="126"/>
+<end position="129"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="130"/>
+<end position="139"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="141"/>
+<end position="143"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="147"/>
+<end position="154"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="157"/>
+<end position="159"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="161"/>
+<end position="167"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="181"/>
+<end position="189"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="193"/>
+<end position="199"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="201"/>
+<end position="203"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="207"/>
+<end position="213"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="217"/>
+<end position="224"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="226"/>
+<end position="228"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="239"/>
+<end position="244"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="245"/>
+<end position="248"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="249"/>
+<end position="256"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="259"/>
+<end position="265"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="278"/>
+<end position="280"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="281"/>
+<end position="286"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="302"/>
+<end position="307"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="308"/>
+<end position="310"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="313"/>
+<end position="318"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="353"/>
+<end position="359"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="364"/>
+<end position="366"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="368"/>
+<end position="374"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="387"/>
+<end position="392"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="393"/>
+<end position="395"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="398"/>
+<end position="406"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="408"/>
+<end position="412"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="415"/>
+<end position="423"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="430"/>
+<end position="434"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="437"/>
+<end position="462"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="467"/>
+<end position="483"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="504"/>
+<end position="512"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="515"/>
+<end position="522"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="552"/>
+<end position="562"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="563"/>
+<end position="566"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="568"/>
+<end position="575"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="3UJ4"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PubMed" id="22673903"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000250"/>
+<evidence key="4" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P11881"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q14643"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q9TU34"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000255"/>
+<evidence key="8" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00131"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18955483"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="2165071"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="2165071"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000305"/>
+<sequence length="2750" mass="313264" checksum="174BB77CBF6F21AC" modified="2001-11-02" version="2">MSDKMSSFLHIGDICSLYAEGSTNGFISTLGLVDDRCVVQPEAGDLNNPPKKFRDCLFKLCPMNRYSAQKQFWKAAKPGANSTTDAVLLNKLHHAADLEKKQNETENRKLLGTVIQYGNVIQLLHLKSNKYLTVNKRLPALLEKNAMRVTLDEAGNEGSWFYIQPFYKLRSIGDSVVIGDKVVLNPVNAGQPLHASSHQLVDNPGCNEVNSVNCNTSWKIVLFMKWSDNKDDILKGGDVVRLFHAEQEKFLTCDEHRKKQHVFLRTTGRQSATSATSSKALWEVEVVQHDPCRGGAGYWNSLFRFKHLATGHYLAAEVDPDFEEECLEFQPSVDPDQDASRSRLRNAQEKMVYSLVSVPEGNDISSIFELDPTTLRGGDSLVPRNSYVRLRHLCTNTWVHSTNIPIDKEEEKPVMLKIGTSPLKEDKEAFAIVPVSPAEVRDLDFANDASKVLGSIAGKLEKGTITQNERRSVTKLLEDLVYFVTGGTNSGQDVLEVVFSKPNRERQKLMREQNILKQIFKLLQAPFTDCGDGPMLRLEELGDQRHAPFRHICRLCYRVLRHSQQDYRKNQEYIAKQFGFMQKQIGYDVLAEDTITALLHNNRKLLEKHITAAEIDTFVSLVRKNREPRFLDYLSDLCVSMNKSIPVTQELICKAVLNPTNADILIETKLVLSRFEFEGVSTGENALEAGEDEEEVWLFWRDSNKEIRSKSVRELAQDAKEGQKEDRDVLSYYRYQLNLFARMCLDRQYLAINEISGQLDVDLILRCMSDENLPYDLRASFCRLMLHMHVDRDPQEQVTPVKYARLWSEIPSEIAIDDYDSSGASKDEIKERFAQTMEFVEEYLRDVVCQRFPFSDKEKNKLTFEVVNLARNLIYFGFYNFSDLLRLTKILLAILDCVHVTTIFPISKMTKGEENKGSNVMRSIHGVGELMTQVVLRGGGFLPMTPMAAAPEGNVKQAEPEKEDIMVMDTKLKIIEILQFILNVRLDYRISCLLCIFKREFDESNSQSSETSSGNSSQEGPSNVPGALDFEHIEEQAEGIFGGSEENTPLDLDDHGGRTFLRVLLHLTMHDYPPLVSGALQLLFRHFSQRQEVLQAFKQVQLLVTSQDVDNYKQIKQDLDQLRSIVEKSELWVYKGQGPDEPMDGASGENEHKKTEEGTSKPLKHESTSSYNYRVVKEILIRLSKLCVQESASVRKSRKQQQRLLRNMGAHAVVLELLQIPYEKAEDTKMQEIMRLAHEFLQNFCAGNQQNQALLHKHINLFLNPGILEAVTMQHIFMNNFQLCSEINERVVQHFVHCIETHGRNVQYIKFLQTIVKAEGKFIKKCQDMVMAELVNSGEDVLVFYNDRASFQTLIQMMRSERDRMDENSPLFMYHIHLVELLAVCTEGKNVYTEIKCNSLLPLDDIVRVVTHEDCIPEVKIAYINFLNHCYVDTEVEMKEIYTSNHMWKLFENFLVDICRACNNTSDRKHADSVLEKYVTEIVMSIVTTFFSSPFSDQSTTLQTRQPVFVQLLQGVFRVYHCNWLMPSQKASVESCIRVLSDVAKSRAIAIPVDLDSQVNNLFLKSHNIVQKTAMNWRLSARNAARRDSVLAASRDYRNIIERLQDIVSALEDRLRPLVQAELSVLVDVLHRPELLFPENTDARRKCESGGFICKLIKHTKQLLEENEEKLCIKVLQTLREMMTKDRGYGEKQISIDELENAELPQPPEAENSTEQELEPSPPLRQLEDHKRGEALRQILVNRYYGNIRPSGRRESLTSFGNGPLSPGGPSKPGGGGGGPGSGSTSRGEMSLAEVQCHLDKEGASNLVIDLIMNASSDRVFHESILLAIALLEGGNTTIQHSFFCRLTEDKKSEKFFKVFYDRMKVAQQEIKATVTVNTSDLGNKKKDDEVDRDAPSRKKAKEPTTQITEEVRDQLLEASAATRKAFTTFRREADPDDHYQSGEGTQATTDKAKDDLEMSAVITIMQPILRFLQLLCENHNRDLQNFLRCQNNKTNYNLVCETLQFLDCICGSTTGGLGLLGLYINEKNVALINQTLESLTEYCQGPCHENQNCIATHESNGIDIITALILNDINPLGKKRMDLVLELKNNASKLLLAIMESRHDSENAERILYNMRPKELVEVIKKAYMQGEVEFEDGENGEDGAASPRNVGHNIYILAHQLARHNKELQTMLKPGGQVDGDEALEFYAKHTAQIEIVRLDRTMEQIVFPVPSICEFLTKESKLRIYYTTERDEQGSKINDFFLRSEDLFNEMNWQKKLRAQPVLYWCARNMSFWSSISFNLAVLMNLLVAFFYPFKGVRGGTLEPHWSGLLWTAMLISLAIVIALPKPHGIRALIASTILRLIFSVGLQPTLFLLGAFNVCNKIIFLMSFVGNCGTFTRGYRAMVLDVEFLYHLLYLLICAMGLFVHEFFYSLLLFDLVYREETLLNVIKSVTRNGRPIILTAALALILVYLFSIVGYLFFKDDFILEVDRLPNETAGPETGESLANDFLYSDVCRVETGENCTSPAPKEELLPVEETEQDKEHTCETLLMCIVTVLSHGLRSGGGVGDVLRKPSKEEPLFAARVIYDLLFFFMVIIIVLNLIFGVIIDTFADLRSEKQKKEEILKTTCFICGLERDKFDNKTVTFEEHIKEEHNMWHYLCFIVLVKVKDSTEYTGPESYVAEMIRERNLDWFPRMRAMSLVSSDSEGEQNELRNLQEKLESTMKLVTNLSGQLSELKDQMTEQRKQKQRIGLLGHPPHMNVNPQQPA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

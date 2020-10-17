@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-06-12" modified="2020-08-12" version="93">
+<accession>Q8UB32</accession>
+<accession>Q7CRU2</accession>
+<name>UGPB_AGRFC</name>
+<protein>
+<recommendedName>
+<fullName>sn-glycerol-3-phosphate-binding periplasmic protein UgpB</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">ugpB</name>
+<name type="ordered locus">Atu3185</name>
+<name type="ORF">AGR_L_3248</name>
+</gene>
+<organism>
+<name type="scientific">Agrobacterium fabrum (strain C58 / ATCC 33970)</name>
+<name type="synonym">Agrobacterium tumefaciens (strain C58)</name>
+<dbReference type="NCBI Taxonomy" id="176299"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rhizobiales</taxon>
+<taxon>Rhizobiaceae</taxon>
+<taxon>Rhizobium/Agrobacterium group</taxon>
+<taxon>Agrobacterium</taxon>
+<taxon>Agrobacterium tumefaciens complex</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2001" name="Science" volume="294" first="2317" last="2323">
+<title>The genome of the natural genetic engineer Agrobacterium tumefaciens C58.</title>
+<authorList>
+<person name="Wood D.W."/>
+<person name="Setubal J.C."/>
+<person name="Kaul R."/>
+<person name="Monks D.E."/>
+<person name="Kitajima J.P."/>
+<person name="Okura V.K."/>
+<person name="Zhou Y."/>
+<person name="Chen L."/>
+<person name="Wood G.E."/>
+<person name="Almeida N.F. Jr."/>
+<person name="Woo L."/>
+<person name="Chen Y."/>
+<person name="Paulsen I.T."/>
+<person name="Eisen J.A."/>
+<person name="Karp P.D."/>
+<person name="Bovee D. Sr."/>
+<person name="Chapman P."/>
+<person name="Clendenning J."/>
+<person name="Deatherage G."/>
+<person name="Gillet W."/>
+<person name="Grant C."/>
+<person name="Kutyavin T."/>
+<person name="Levy R."/>
+<person name="Li M.-J."/>
+<person name="McClelland E."/>
+<person name="Palmieri A."/>
+<person name="Raymond C."/>
+<person name="Rouse G."/>
+<person name="Saenphimmachak C."/>
+<person name="Wu Z."/>
+<person name="Romero P."/>
+<person name="Gordon D."/>
+<person name="Zhang S."/>
+<person name="Yoo H."/>
+<person name="Tao Y."/>
+<person name="Biddle P."/>
+<person name="Jung M."/>
+<person name="Krespan W."/>
+<person name="Perry M."/>
+<person name="Gordon-Kamm B."/>
+<person name="Liao L."/>
+<person name="Kim S."/>
+<person name="Hendrick C."/>
+<person name="Zhao Z.-Y."/>
+<person name="Dolan M."/>
+<person name="Chumley F."/>
+<person name="Tingey S.V."/>
+<person name="Tomb J.-F."/>
+<person name="Gordon M.P."/>
+<person name="Olson M.V."/>
+<person name="Nester E.W."/>
+</authorList>
+<dbReference type="PubMed" id="11743193"/>
+<dbReference type="DOI" id="10.1126/science.1066804"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>C58 / ATCC 33970</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2001" name="Science" volume="294" first="2323" last="2328">
+<title>Genome sequence of the plant pathogen and biotechnology agent Agrobacterium tumefaciens C58.</title>
+<authorList>
+<person name="Goodner B."/>
+<person name="Hinkle G."/>
+<person name="Gattung S."/>
+<person name="Miller N."/>
+<person name="Blanchard M."/>
+<person name="Qurollo B."/>
+<person name="Goldman B.S."/>
+<person name="Cao Y."/>
+<person name="Askenazi M."/>
+<person name="Halling C."/>
+<person name="Mullin L."/>
+<person name="Houmiel K."/>
+<person name="Gordon J."/>
+<person name="Vaudin M."/>
+<person name="Iartchouk O."/>
+<person name="Epp A."/>
+<person name="Liu F."/>
+<person name="Wollam C."/>
+<person name="Allinger M."/>
+<person name="Doughty D."/>
+<person name="Scott C."/>
+<person name="Lappas C."/>
+<person name="Markelz B."/>
+<person name="Flanagan C."/>
+<person name="Crowell C."/>
+<person name="Gurson J."/>
+<person name="Lomo C."/>
+<person name="Sear C."/>
+<person name="Strub G."/>
+<person name="Cielo C."/>
+<person name="Slater S."/>
+</authorList>
+<dbReference type="PubMed" id="11743194"/>
+<dbReference type="DOI" id="10.1126/science.1066803"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>C58 / ATCC 33970</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Part of the ABC transporter complex UgpABCE involved in sn-glycerol-3-phosphate import.</text>
+</comment>
+<comment type="subunit">
+<text evidence="3">The complex is composed of two ATP-binding proteins (UgpC), two transmembrane proteins (UgpA and UgpE) and a solute-binding protein (UgpB).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Periplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the bacterial solute-binding protein 1 family.</text>
+</comment>
+<comment type="sequence caution" evidence="3">
+<conflict type="erroneous initiation">
+<sequence resource="EMBL-CDS" id="AAK90201" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EMBL" id="AE007870">
+<property type="protein sequence ID" value="AAK90201.1"/>
+<property type="status" value="ALT_INIT"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="AC2948">
+<property type="entry name" value="AC2948"/>
+</dbReference>
+<dbReference type="PIR" id="G98334">
+<property type="entry name" value="G98334"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_357416.1">
+<property type="nucleotide sequence ID" value="NC_003063.2"/>
+</dbReference>
+<dbReference type="SMR" id="Q8UB32"/>
+<dbReference type="STRING" id="176299.Atu3185"/>
+<dbReference type="EnsemblBacteria" id="AAK90201">
+<property type="protein sequence ID" value="AAK90201"/>
+<property type="gene ID" value="Atu3185"/>
+</dbReference>
+<dbReference type="KEGG" id="atu:Atu3185"/>
+<dbReference type="PATRIC" id="fig|176299.10.peg.3030"/>
+<dbReference type="eggNOG" id="COG1653">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_031285_3_0_5"/>
+<dbReference type="KO" id="K05813"/>
+<dbReference type="OMA" id="ASIANWP"/>
+<dbReference type="Proteomes" id="UP000000813">
+<property type="component" value="Chromosome linear"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042597">
+<property type="term" value="C:periplasmic space"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008643">
+<property type="term" value="P:carbohydrate transport"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13416">
+<property type="entry name" value="SBP_bac_8"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0574">Periplasm</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0762">Sugar transport</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="26"/>
+</location>
+</feature>
+<feature type="chain" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB" id="PRO_0000290124">
+<location>
+<begin position="27"/>
+<end position="436"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="436" mass="47261" checksum="564ED9184BF12EAC" modified="2007-06-12" version="2" precursor="true">MTLKKLSYRLAAASALSFFVTSNAFAATEIQWWHAMTGANNEVVDTLAKEFNDSQKDYKITPVFKGTYPETLNAGIAAFRAKQPPAIIQVFDAGSGVMMGAAGAIKPVADVLKEGGYTFNKDEYLAGIVAYYSKPDGTMLSFPYNSSSPILYYNKDIFQKAGLDAANPPKTWPEVFEAAKKIKTSGAAQCGFTSTWLTWIQTENFAAWNNVSYGSNENGLGGTDVKLAVNAPLFVEHFQAIADLAKDGTFRYGGRTSEAKQLFMSGECGILTESSGGLGDIVKTGMNYGIGQLPYYEGHGPQNTIPGGASLWVFGGKSDAEYKGVAEFFHFLSQTKIQSRLHQVSGYMPVTIAAYEETKKSGFYDKNPARETPLLQMMGKPPTENSKGVRLVNLPQVRDIMNEEFEAMLAGKQDAKAALDKIVERGDAAIKQAAGN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

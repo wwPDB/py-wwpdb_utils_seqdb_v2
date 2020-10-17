@@ -1,0 +1,632 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2009-05-05" modified="2020-08-12" version="96">
+<accession>Q68EK2</accession>
+<accession>A1L211</accession>
+<accession>B0S6C2</accession>
+<name>CALRL_DANRE</name>
+<protein>
+<recommendedName>
+<fullName>Calcitonin gene-related peptide type 1 receptor</fullName>
+<shortName>CGRP type 1 receptor</shortName>
+</recommendedName>
+<alternativeName>
+<fullName>Calcitonin receptor-like receptor</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">calcrla</name>
+<name type="synonym">calcrl</name>
+<name type="ORF">si:dkey-249o24.2</name>
+<name type="ORF">zgc:100872</name>
+</gene>
+<organism>
+<name type="scientific">Danio rerio</name>
+<name type="common">Zebrafish</name>
+<name type="synonym">Brachydanio rerio</name>
+<dbReference type="NCBI Taxonomy" id="7955"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Ostariophysi</taxon>
+<taxon>Cypriniformes</taxon>
+<taxon>Cyprinidae</taxon>
+<taxon>Danio</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2013" name="Nature" volume="496" first="498" last="503">
+<title>The zebrafish reference genome sequence and its relationship to the human genome.</title>
+<authorList>
+<person name="Howe K."/>
+<person name="Clark M.D."/>
+<person name="Torroja C.F."/>
+<person name="Torrance J."/>
+<person name="Berthelot C."/>
+<person name="Muffato M."/>
+<person name="Collins J.E."/>
+<person name="Humphray S."/>
+<person name="McLaren K."/>
+<person name="Matthews L."/>
+<person name="McLaren S."/>
+<person name="Sealy I."/>
+<person name="Caccamo M."/>
+<person name="Churcher C."/>
+<person name="Scott C."/>
+<person name="Barrett J.C."/>
+<person name="Koch R."/>
+<person name="Rauch G.J."/>
+<person name="White S."/>
+<person name="Chow W."/>
+<person name="Kilian B."/>
+<person name="Quintais L.T."/>
+<person name="Guerra-Assuncao J.A."/>
+<person name="Zhou Y."/>
+<person name="Gu Y."/>
+<person name="Yen J."/>
+<person name="Vogel J.H."/>
+<person name="Eyre T."/>
+<person name="Redmond S."/>
+<person name="Banerjee R."/>
+<person name="Chi J."/>
+<person name="Fu B."/>
+<person name="Langley E."/>
+<person name="Maguire S.F."/>
+<person name="Laird G.K."/>
+<person name="Lloyd D."/>
+<person name="Kenyon E."/>
+<person name="Donaldson S."/>
+<person name="Sehra H."/>
+<person name="Almeida-King J."/>
+<person name="Loveland J."/>
+<person name="Trevanion S."/>
+<person name="Jones M."/>
+<person name="Quail M."/>
+<person name="Willey D."/>
+<person name="Hunt A."/>
+<person name="Burton J."/>
+<person name="Sims S."/>
+<person name="McLay K."/>
+<person name="Plumb B."/>
+<person name="Davis J."/>
+<person name="Clee C."/>
+<person name="Oliver K."/>
+<person name="Clark R."/>
+<person name="Riddle C."/>
+<person name="Eliott D."/>
+<person name="Threadgold G."/>
+<person name="Harden G."/>
+<person name="Ware D."/>
+<person name="Mortimer B."/>
+<person name="Kerry G."/>
+<person name="Heath P."/>
+<person name="Phillimore B."/>
+<person name="Tracey A."/>
+<person name="Corby N."/>
+<person name="Dunn M."/>
+<person name="Johnson C."/>
+<person name="Wood J."/>
+<person name="Clark S."/>
+<person name="Pelan S."/>
+<person name="Griffiths G."/>
+<person name="Smith M."/>
+<person name="Glithero R."/>
+<person name="Howden P."/>
+<person name="Barker N."/>
+<person name="Stevens C."/>
+<person name="Harley J."/>
+<person name="Holt K."/>
+<person name="Panagiotidis G."/>
+<person name="Lovell J."/>
+<person name="Beasley H."/>
+<person name="Henderson C."/>
+<person name="Gordon D."/>
+<person name="Auger K."/>
+<person name="Wright D."/>
+<person name="Collins J."/>
+<person name="Raisen C."/>
+<person name="Dyer L."/>
+<person name="Leung K."/>
+<person name="Robertson L."/>
+<person name="Ambridge K."/>
+<person name="Leongamornlert D."/>
+<person name="McGuire S."/>
+<person name="Gilderthorp R."/>
+<person name="Griffiths C."/>
+<person name="Manthravadi D."/>
+<person name="Nichol S."/>
+<person name="Barker G."/>
+<person name="Whitehead S."/>
+<person name="Kay M."/>
+<person name="Brown J."/>
+<person name="Murnane C."/>
+<person name="Gray E."/>
+<person name="Humphries M."/>
+<person name="Sycamore N."/>
+<person name="Barker D."/>
+<person name="Saunders D."/>
+<person name="Wallis J."/>
+<person name="Babbage A."/>
+<person name="Hammond S."/>
+<person name="Mashreghi-Mohammadi M."/>
+<person name="Barr L."/>
+<person name="Martin S."/>
+<person name="Wray P."/>
+<person name="Ellington A."/>
+<person name="Matthews N."/>
+<person name="Ellwood M."/>
+<person name="Woodmansey R."/>
+<person name="Clark G."/>
+<person name="Cooper J."/>
+<person name="Tromans A."/>
+<person name="Grafham D."/>
+<person name="Skuce C."/>
+<person name="Pandian R."/>
+<person name="Andrews R."/>
+<person name="Harrison E."/>
+<person name="Kimberley A."/>
+<person name="Garnett J."/>
+<person name="Fosker N."/>
+<person name="Hall R."/>
+<person name="Garner P."/>
+<person name="Kelly D."/>
+<person name="Bird C."/>
+<person name="Palmer S."/>
+<person name="Gehring I."/>
+<person name="Berger A."/>
+<person name="Dooley C.M."/>
+<person name="Ersan-Urun Z."/>
+<person name="Eser C."/>
+<person name="Geiger H."/>
+<person name="Geisler M."/>
+<person name="Karotki L."/>
+<person name="Kirn A."/>
+<person name="Konantz J."/>
+<person name="Konantz M."/>
+<person name="Oberlander M."/>
+<person name="Rudolph-Geiger S."/>
+<person name="Teucke M."/>
+<person name="Osoegawa K."/>
+<person name="Zhu B."/>
+<person name="Rapp A."/>
+<person name="Widaa S."/>
+<person name="Langford C."/>
+<person name="Yang F."/>
+<person name="Carter N.P."/>
+<person name="Harrow J."/>
+<person name="Ning Z."/>
+<person name="Herrero J."/>
+<person name="Searle S.M."/>
+<person name="Enright A."/>
+<person name="Geisler R."/>
+<person name="Plasterk R.H."/>
+<person name="Lee C."/>
+<person name="Westerfield M."/>
+<person name="de Jong P.J."/>
+<person name="Zon L.I."/>
+<person name="Postlethwait J.H."/>
+<person name="Nusslein-Volhard C."/>
+<person name="Hubbard T.J."/>
+<person name="Roest Crollius H."/>
+<person name="Rogers J."/>
+<person name="Stemple D.L."/>
+</authorList>
+<dbReference type="PubMed" id="23594743"/>
+<dbReference type="DOI" id="10.1038/nature12111"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>Tuebingen</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="submission" date="2006-12" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<consortium name="NIH - Zebrafish Gene Collection (ZGC) project"/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<tissue>Brain</tissue>
+<tissue>Embryo</tissue>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Receptor for calcitonin-gene-related peptide (CGRP) (By similarity). Receptor specificity may be modulated by accessory proteins. The activity of this receptor is mediated by G proteins which activate adenylyl cyclase (By similarity).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cell membrane</location>
+<topology evidence="1">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the G-protein coupled receptor 2 family.</text>
+</comment>
+<comment type="sequence caution" evidence="3">
+<conflict type="erroneous initiation">
+<sequence resource="EMBL-CDS" id="CAQ13571" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EMBL" id="BX470245">
+<property type="protein sequence ID" value="CAQ13571.1"/>
+<property type="status" value="ALT_INIT"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC080226">
+<property type="protein sequence ID" value="AAH80226.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC129300">
+<property type="protein sequence ID" value="AAI29301.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001004010.1">
+<property type="nucleotide sequence ID" value="NM_001004010.1"/>
+</dbReference>
+<dbReference type="SMR" id="Q68EK2"/>
+<dbReference type="STRING" id="7955.ENSDARP00000111592"/>
+<dbReference type="PaxDb" id="Q68EK2"/>
+<dbReference type="GeneID" id="445508"/>
+<dbReference type="KEGG" id="dre:445508"/>
+<dbReference type="CTD" id="445508"/>
+<dbReference type="ZFIN" id="ZDB-GENE-040822-26">
+<property type="gene designation" value="calcrla"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG4564">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="InParanoid" id="Q68EK2"/>
+<dbReference type="KO" id="K04577"/>
+<dbReference type="OrthoDB" id="1005634at2759"/>
+<dbReference type="PhylomeDB" id="Q68EK2"/>
+<dbReference type="TreeFam" id="TF315710"/>
+<dbReference type="Reactome" id="R-DRE-418555">
+<property type="pathway name" value="G alpha (s) signalling events"/>
+</dbReference>
+<dbReference type="Reactome" id="R-DRE-419812">
+<property type="pathway name" value="Calcitonin-like ligand receptors"/>
+</dbReference>
+<dbReference type="PRO" id="PR:Q68EK2"/>
+<dbReference type="Proteomes" id="UP000000437">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001605">
+<property type="term" value="F:adrenomedullin receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001635">
+<property type="term" value="F:calcitonin gene-related peptide receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004948">
+<property type="term" value="F:calcitonin receptor activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008528">
+<property type="term" value="F:G protein-coupled peptide receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007189">
+<property type="term" value="P:adenylate cyclase-activating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007188">
+<property type="term" value="P:adenylate cyclase-modulating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001525">
+<property type="term" value="P:angiogenesis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="ZFIN"/>
+</dbReference>
+<dbReference type="GO" id="GO:0048844">
+<property type="term" value="P:artery morphogenesis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="ZFIN"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007166">
+<property type="term" value="P:cell surface receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0055064">
+<property type="term" value="P:chloride ion homeostasis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="ZFIN"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001756">
+<property type="term" value="P:somitogenesis"/>
+<property type="evidence" value="ECO:0000316"/>
+<property type="project" value="ZFIN"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.1240.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003287">
+<property type="entry name" value="GCPR_2_calcitonin_rcpt_fam"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017981">
+<property type="entry name" value="GPCR_2-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003289">
+<property type="entry name" value="GPCR_2_CGRP1_rcpt"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036445">
+<property type="entry name" value="GPCR_2_extracell_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001879">
+<property type="entry name" value="GPCR_2_extracellular_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000832">
+<property type="entry name" value="GPCR_2_secretin-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017983">
+<property type="entry name" value="GPCR_2_secretin-like_CS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00002">
+<property type="entry name" value="7tm_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02793">
+<property type="entry name" value="HRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01351">
+<property type="entry name" value="CGRPRECEPTOR"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01350">
+<property type="entry name" value="CTRFAMILY"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00249">
+<property type="entry name" value="GPCRSECRETIN"/>
+</dbReference>
+<dbReference type="SMART" id="SM00008">
+<property type="entry name" value="HormR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF111418">
+<property type="entry name" value="SSF111418"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00649">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00650">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50227">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50261">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_4"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0297">G-protein coupled receptor</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0807">Transducer</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="23"/>
+</location>
+</feature>
+<feature type="chain" description="Calcitonin gene-related peptide type 1 receptor" id="PRO_0000373833">
+<location>
+<begin position="24"/>
+<end position="470"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="24"/>
+<end position="154"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=1" evidence="2">
+<location>
+<begin position="155"/>
+<end position="174"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="175"/>
+<end position="181"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=2" evidence="2">
+<location>
+<begin position="182"/>
+<end position="201"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="202"/>
+<end position="221"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=3" evidence="2">
+<location>
+<begin position="222"/>
+<end position="244"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="245"/>
+<end position="261"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=4" evidence="2">
+<location>
+<begin position="262"/>
+<end position="281"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="282"/>
+<end position="297"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=5" evidence="2">
+<location>
+<begin position="298"/>
+<end position="321"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="322"/>
+<end position="344"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=6" evidence="2">
+<location>
+<begin position="345"/>
+<end position="362"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="363"/>
+<end position="374"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=7" evidence="2">
+<location>
+<begin position="375"/>
+<end position="396"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="397"/>
+<end position="470"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="28"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="74"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="126"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="131"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="295"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="56"/>
+<end position="82"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="73"/>
+<end position="113"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="96"/>
+<end position="135"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAI29301." ref="2" evidence="3">
+<original>C</original>
+<variation>R</variation>
+<location>
+<position position="82"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAI29301." ref="2" evidence="3">
+<original>C</original>
+<variation>R</variation>
+<location>
+<position position="113"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; AAI29301." ref="2" evidence="3">
+<original>Y</original>
+<variation>F</variation>
+<location>
+<position position="285"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; CAQ13571 and 2; AAI29301." ref="1 2" evidence="3">
+<original>K</original>
+<variation>E</variation>
+<location>
+<position position="335"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; CAQ13571." ref="1" evidence="3">
+<original>F</original>
+<variation>L</variation>
+<location>
+<position position="469"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="470" mass="54102" checksum="7CB0C91BF7AE4921" modified="2004-10-11" version="1" precursor="true">MTASCWTICLFLLGSVTEFIVLASPEVNESQQQHPQNVYHDIGVTRNKIVTAQFECYQKIMKDNSQDRRGPVCNRTWDGWLCWDDTEAGITSEQHCPDYFQDFDPTEMVTKICTESGQWFLHPESNRTWTNFTRCNLHTTEGRRTAMNLFYLALIGHGLSLTSLFISLGIFFHFKSLSCQRITLHKNLFFSFVLNSIITIIWLTAVANNQELVQQNPISCKISQFIHLYIFGCNYFWMLCEGIYLHTLIVVAVFAEKQHLMWYYLLGWGFPLIPATIHAVARSYYYNDNCWISSNTSLLYIIHGPICAAMLVNLFFLLNIVRVLITKLKVTHQAKSSLYMKAVRATLILVPLLGIQYVLLPYKPSGRVSAEIYDYIMHILMHYQGLLVATIFCFFNGEVQAVLRRHWNQYRIQFGSTITQSDALRSASYTASSITEVQGCYSIDGHTEHLNGKNYHDFDNAIIKPENPFA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

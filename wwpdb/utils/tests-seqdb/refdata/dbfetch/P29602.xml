@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2019-12-11" version="99">
+<accession>P29602</accession>
+<name>CPC_CUCSA</name>
+<protein>
+<recommendedName>
+<fullName>Cucumber peeling cupredoxin</fullName>
+<shortName>CPC</shortName>
+</recommendedName>
+<alternativeName>
+<fullName>Stellacyanin</fullName>
+</alternativeName>
+</protein>
+<organism>
+<name type="scientific">Cucumis sativus</name>
+<name type="common">Cucumber</name>
+<dbReference type="NCBI Taxonomy" id="3659"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliopsida</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>Gunneridae</taxon>
+<taxon>Pentapetalae</taxon>
+<taxon>rosids</taxon>
+<taxon>fabids</taxon>
+<taxon>Cucurbitales</taxon>
+<taxon>Cucurbitaceae</taxon>
+<taxon>Benincaseae</taxon>
+<taxon>Cucumis</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1992" name="FEBS Lett." volume="314" first="220" last="223">
+<title>The amino acid sequence of a type I copper protein with an unusual serine- and hydroxyproline-rich C-terminal domain isolated from cucumber peelings.</title>
+<authorList>
+<person name="Mann K."/>
+<person name="Schaefer W."/>
+<person name="Thoenes U."/>
+<person name="Messerschmidt A."/>
+<person name="Mehrabian Z."/>
+<person name="Nalbandyan R."/>
+</authorList>
+<dbReference type="PubMed" id="1468551"/>
+<dbReference type="DOI" id="10.1016/0014-5793(92)81475-2"/>
+</citation>
+<scope>PROTEIN SEQUENCE</scope>
+<scope>PYROGLUTAMATE FORMATION AT GLN-1</scope>
+<scope>HYDROXYLATION AT PRO-115; PRO-116; PRO-117; PRO-121; PRO-122; PRO-127; PRO-128; PRO-129; PRO-133; PRO-134 AND PRO-136</scope>
+<source>
+<tissue>Peelings</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1996" name="Protein Sci." volume="5" first="2175" last="2183">
+<title>A missing link in cupredoxins: crystal structure of cucumber stellacyanin at 1.6-A resolution.</title>
+<authorList>
+<person name="Hart P.J."/>
+<person name="Nersissian A.M."/>
+<person name="Herrmann R.G."/>
+<person name="Nalbandyan R.M."/>
+<person name="Valentine J.S."/>
+<person name="Eisenberg D."/>
+</authorList>
+<dbReference type="PubMed" id="8931136"/>
+<dbReference type="DOI" id="10.1002/pro.5560051104"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.6 ANGSTROMS)</scope>
+<scope>DISULFIDE BOND</scope>
+<scope>METAL-BINDING SITES HIS-46; CYS-89; HIS-94 AND GLN-99</scope>
+</reference>
+<dbReference type="PIR" id="S27034">
+<property type="entry name" value="SSKV"/>
+</dbReference>
+<dbReference type="PDB" id="1JER">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.60"/>
+<property type="chains" value="A=1-137"/>
+</dbReference>
+<dbReference type="PDBsum" id="1JER"/>
+<dbReference type="SMR" id="P29602"/>
+<dbReference type="STRING" id="3659.XP_004163544.1"/>
+<dbReference type="EnsemblPlants" id="KGN45265">
+<property type="protein sequence ID" value="KGN45265"/>
+<property type="gene ID" value="Csa_7G432470"/>
+</dbReference>
+<dbReference type="Gramene" id="KGN45265">
+<property type="protein sequence ID" value="KGN45265"/>
+<property type="gene ID" value="Csa_7G432470"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="P29602"/>
+<dbReference type="GO" id="GO:0009055">
+<property type="term" value="F:electron transfer activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.420">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR028871">
+<property type="entry name" value="BlueCu_1_BS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008972">
+<property type="entry name" value="Cupredoxin"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR039391">
+<property type="entry name" value="Phytocyanin"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003245">
+<property type="entry name" value="Phytocyanin_dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR33021">
+<property type="entry name" value="PTHR33021"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02298">
+<property type="entry name" value="Cu_bind_like"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF49503">
+<property type="entry name" value="SSF49503"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00196">
+<property type="entry name" value="COPPER_BLUE"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51485">
+<property type="entry name" value="PHYTOCYANIN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0186">Copper</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0249">Electron transport</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0379">Hydroxylation</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0873">Pyrrolidone carboxylic acid</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="chain" description="Cucumber peeling cupredoxin" id="PRO_0000085553">
+<location>
+<begin position="1"/>
+<end position="137"/>
+</location>
+</feature>
+<feature type="domain" description="Phytocyanin" evidence="2">
+<location>
+<begin position="3"/>
+<end position="107"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Copper">
+<location>
+<position position="46"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Copper">
+<location>
+<position position="89"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Copper">
+<location>
+<position position="94"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Copper">
+<location>
+<position position="99"/>
+</location>
+</feature>
+<feature type="modified residue" description="Pyrrolidone carboxylic acid" evidence="3">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="modified residue" description="4-hydroxyproline; partial" evidence="3">
+<location>
+<position position="115"/>
+</location>
+</feature>
+<feature type="modified residue" description="4-hydroxyproline" evidence="3">
+<location>
+<position position="116"/>
+</location>
+</feature>
+<feature type="modified residue" description="4-hydroxyproline" evidence="3">
+<location>
+<position position="117"/>
+</location>
+</feature>
+<feature type="modified residue" description="4-hydroxyproline" evidence="3">
+<location>
+<position position="121"/>
+</location>
+</feature>
+<feature type="modified residue" description="4-hydroxyproline" evidence="3">
+<location>
+<position position="122"/>
+</location>
+</feature>
+<feature type="modified residue" description="4-hydroxyproline; partial" evidence="3">
+<location>
+<position position="127"/>
+</location>
+</feature>
+<feature type="modified residue" description="4-hydroxyproline" evidence="3">
+<location>
+<position position="128"/>
+</location>
+</feature>
+<feature type="modified residue" description="4-hydroxyproline" evidence="3">
+<location>
+<position position="129"/>
+</location>
+</feature>
+<feature type="modified residue" description="4-hydroxyproline" evidence="3">
+<location>
+<position position="133"/>
+</location>
+</feature>
+<feature type="modified residue" description="4-hydroxyproline" evidence="3">
+<location>
+<position position="134"/>
+</location>
+</feature>
+<feature type="modified residue" description="4-hydroxyproline" evidence="3">
+<location>
+<position position="136"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine">
+<location>
+<position position="109"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2 4">
+<location>
+<begin position="60"/>
+<end position="95"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="4"/>
+<end position="6"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="9"/>
+<end position="11"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="21"/>
+<end position="27"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="36"/>
+<end position="39"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="43"/>
+<end position="45"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="49"/>
+<end position="52"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="54"/>
+<end position="59"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="75"/>
+<end position="78"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="81"/>
+<end position="88"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="92"/>
+<end position="94"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="95"/>
+<end position="97"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="100"/>
+<end position="106"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1JER"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00818"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="1468551"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8931136"/>
+</source>
+</evidence>
+<sequence length="137" mass="14747" checksum="F15FBCB5CB34A8CB" modified="1994-02-01" version="3">QSTVHIVGDNTGWSVPSSPNFYSQWAAGKTFRVGDSLQFNFPANAHNVHEMETKQSFDACNFVNSDNDVERTSPVIERLDELGMHYFVCTVGTHCSNGQKLSINVVAANATVSMPPPSSSPPSSVMPPPVMPPPSPS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

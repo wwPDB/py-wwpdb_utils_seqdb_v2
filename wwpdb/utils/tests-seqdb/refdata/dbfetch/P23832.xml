@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1991-11-01" modified="2020-08-12" version="79">
+<accession>P23832</accession>
+<name>SAMB_SALTM</name>
+<protein>
+<recommendedName>
+<fullName>Protein SamB</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">samB</name>
+</gene>
+<organism>
+<name type="scientific">Salmonella typhimurium</name>
+<dbReference type="NCBI Taxonomy" id="90371"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Salmonella</taxon>
+</lineage>
+</organism>
+<geneLocation type="plasmid">
+<name>60-MDa cryptic</name>
+</geneLocation>
+<reference key="1">
+<citation type="journal article" date="1991" name="J. Bacteriol." volume="173" first="1051" last="1063">
+<title>Salmonella typhimurium has two homologous but different umuDC operons: cloning of a new umuDC-like operon (samAB) present in a 60-megadalton cryptic plasmid of S. typhimurium.</title>
+<authorList>
+<person name="Nohmi T."/>
+<person name="Hakura A."/>
+<person name="Nakai Y."/>
+<person name="Watanabe M."/>
+<person name="Murayama S.Y."/>
+<person name="Sofuni T."/>
+</authorList>
+<dbReference type="PubMed" id="1991707"/>
+<dbReference type="DOI" id="10.1128/jb.173.3.1051-1063.1991"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 29631 / TA 1538</strain>
+</source>
+</reference>
+<comment type="function">
+<text>Involved in UV protection and mutation.</text>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the DNA polymerase type-Y family.</text>
+</comment>
+<dbReference type="EMBL" id="D90202">
+<property type="protein sequence ID" value="BAA14226.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="B38176">
+<property type="entry name" value="B38176"/>
+</dbReference>
+<dbReference type="SMR" id="P23832"/>
+<dbReference type="PRIDE" id="P23832"/>
+<dbReference type="GO" id="GO:0003684">
+<property type="term" value="F:damaged DNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006281">
+<property type="term" value="P:DNA repair"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009432">
+<property type="term" value="P:SOS response"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.1490.100">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.70.270">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR043502">
+<property type="entry name" value="DNA/RNA_pol_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036775">
+<property type="entry name" value="DNA_pol_Y-fam_lit_finger_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017961">
+<property type="entry name" value="DNA_pol_Y-fam_little_finger"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR025188">
+<property type="entry name" value="DUF4113"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR043128">
+<property type="entry name" value="Rev_trsase/Diguanyl_cyclase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001126">
+<property type="entry name" value="UmuC"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13438">
+<property type="entry name" value="DUF4113"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00817">
+<property type="entry name" value="IMS"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF11799">
+<property type="entry name" value="IMS_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF100879">
+<property type="entry name" value="SSF100879"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56672">
+<property type="entry name" value="SSF56672"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50173">
+<property type="entry name" value="UMUC"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0227">DNA damage</keyword>
+<keyword id="KW-0234">DNA repair</keyword>
+<keyword id="KW-0614">Plasmid</keyword>
+<keyword id="KW-0741">SOS mutagenesis</keyword>
+<keyword id="KW-0742">SOS response</keyword>
+<feature type="chain" description="Protein SamB" id="PRO_0000173981">
+<location>
+<begin position="1"/>
+<end position="424"/>
+</location>
+</feature>
+<feature type="domain" description="UmuC" evidence="1">
+<location>
+<begin position="2"/>
+<end position="189"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00216"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="424" mass="47727" checksum="FF8C47476CC58A2B" modified="1991-11-01" version="1">MFALADVNSFYASCEKVFRPDLRDRSVVVLSNNDGCVIPRSAEAKKLGIKMGVPWFQLRSAKFPEPVIAFSSNYALYASMSNRVMVHLEELAPRVEQYSIDEMFLDIRGIDSCIDFEDFGRQLREHVRSGTGLTIGVGMGPTKTLAKSAQWASKEWSQFGGVLALTLHNQKRTEKLLSLQPVEEIWGVGRRISKKLNTMGITTALQLARANPTFIRKNFNVVLERTVRELNGESCISLEEAPPPKQQIVCSRSFGERVTTYEAMRQAVCQHAERAAEKLRGERQFCRHIAVFVKTSPFAVTEPYYGNLASEKLLIPTQDTRDIIAAAVRALDRIWVDGHRYAKAGCMLNDFTPTGVSQLNLFDEVQPRERSEQLMQVLDGINHPGKGKIWFAGRGIAPEWQMKRELLSPAYTTRWADIPAAKLT</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

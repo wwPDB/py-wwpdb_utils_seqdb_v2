@@ -1,0 +1,878 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1995-11-01" modified="2020-08-12" version="143">
+<accession>P42284</accession>
+<accession>Q867M9</accession>
+<accession>Q867R1</accession>
+<accession>Q868A5</accession>
+<name>LOLA2_DROME</name>
+<protein>
+<recommendedName>
+<fullName>Longitudinals lacking protein, isoforms H/M/V</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="9">lola</name>
+<name type="ORF" evidence="9">CG12052</name>
+</gene>
+<organism>
+<name type="scientific">Drosophila melanogaster</name>
+<name type="common">Fruit fly</name>
+<dbReference type="NCBI Taxonomy" id="7227"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Holometabola</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Ephydroidea</taxon>
+<taxon>Drosophilidae</taxon>
+<taxon>Drosophila</taxon>
+<taxon>Sophophora</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1994" name="Development" volume="120" first="1385" last="1398">
+<title>Lola encodes a putative transcription factor required for axon growth and guidance in Drosophila.</title>
+<authorList>
+<person name="Giniger E."/>
+<person name="Tietje K."/>
+<person name="Jan L.Y."/>
+<person name="Jan Y.N."/>
+</authorList>
+<dbReference type="PubMed" id="8050351"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM M)</scope>
+<scope>FUNCTION</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>DEVELOPMENTAL STAGE</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2003" name="Gene" volume="311" first="59" last="69">
+<title>Drosophila lola encodes a family of BTB-transcription regulators with highly variable C-terminal domains containing zinc finger motifs.</title>
+<authorList>
+<person name="Ohsako T."/>
+<person name="Horiuchi T."/>
+<person name="Matsuo T."/>
+<person name="Komaya S."/>
+<person name="Aigaki T."/>
+</authorList>
+<dbReference type="PubMed" id="12853139"/>
+<dbReference type="DOI" id="10.1016/s0378-1119(03)00554-7"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS H; M AND V)</scope>
+<source>
+<strain>Canton-S</strain>
+<tissue>Embryo</tissue>
+<tissue>Larva</tissue>
+<tissue>Pupae</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2000" name="Science" volume="287" first="2185" last="2195">
+<title>The genome sequence of Drosophila melanogaster.</title>
+<authorList>
+<person name="Adams M.D."/>
+<person name="Celniker S.E."/>
+<person name="Holt R.A."/>
+<person name="Evans C.A."/>
+<person name="Gocayne J.D."/>
+<person name="Amanatides P.G."/>
+<person name="Scherer S.E."/>
+<person name="Li P.W."/>
+<person name="Hoskins R.A."/>
+<person name="Galle R.F."/>
+<person name="George R.A."/>
+<person name="Lewis S.E."/>
+<person name="Richards S."/>
+<person name="Ashburner M."/>
+<person name="Henderson S.N."/>
+<person name="Sutton G.G."/>
+<person name="Wortman J.R."/>
+<person name="Yandell M.D."/>
+<person name="Zhang Q."/>
+<person name="Chen L.X."/>
+<person name="Brandon R.C."/>
+<person name="Rogers Y.-H.C."/>
+<person name="Blazej R.G."/>
+<person name="Champe M."/>
+<person name="Pfeiffer B.D."/>
+<person name="Wan K.H."/>
+<person name="Doyle C."/>
+<person name="Baxter E.G."/>
+<person name="Helt G."/>
+<person name="Nelson C.R."/>
+<person name="Miklos G.L.G."/>
+<person name="Abril J.F."/>
+<person name="Agbayani A."/>
+<person name="An H.-J."/>
+<person name="Andrews-Pfannkoch C."/>
+<person name="Baldwin D."/>
+<person name="Ballew R.M."/>
+<person name="Basu A."/>
+<person name="Baxendale J."/>
+<person name="Bayraktaroglu L."/>
+<person name="Beasley E.M."/>
+<person name="Beeson K.Y."/>
+<person name="Benos P.V."/>
+<person name="Berman B.P."/>
+<person name="Bhandari D."/>
+<person name="Bolshakov S."/>
+<person name="Borkova D."/>
+<person name="Botchan M.R."/>
+<person name="Bouck J."/>
+<person name="Brokstein P."/>
+<person name="Brottier P."/>
+<person name="Burtis K.C."/>
+<person name="Busam D.A."/>
+<person name="Butler H."/>
+<person name="Cadieu E."/>
+<person name="Center A."/>
+<person name="Chandra I."/>
+<person name="Cherry J.M."/>
+<person name="Cawley S."/>
+<person name="Dahlke C."/>
+<person name="Davenport L.B."/>
+<person name="Davies P."/>
+<person name="de Pablos B."/>
+<person name="Delcher A."/>
+<person name="Deng Z."/>
+<person name="Mays A.D."/>
+<person name="Dew I."/>
+<person name="Dietz S.M."/>
+<person name="Dodson K."/>
+<person name="Doup L.E."/>
+<person name="Downes M."/>
+<person name="Dugan-Rocha S."/>
+<person name="Dunkov B.C."/>
+<person name="Dunn P."/>
+<person name="Durbin K.J."/>
+<person name="Evangelista C.C."/>
+<person name="Ferraz C."/>
+<person name="Ferriera S."/>
+<person name="Fleischmann W."/>
+<person name="Fosler C."/>
+<person name="Gabrielian A.E."/>
+<person name="Garg N.S."/>
+<person name="Gelbart W.M."/>
+<person name="Glasser K."/>
+<person name="Glodek A."/>
+<person name="Gong F."/>
+<person name="Gorrell J.H."/>
+<person name="Gu Z."/>
+<person name="Guan P."/>
+<person name="Harris M."/>
+<person name="Harris N.L."/>
+<person name="Harvey D.A."/>
+<person name="Heiman T.J."/>
+<person name="Hernandez J.R."/>
+<person name="Houck J."/>
+<person name="Hostin D."/>
+<person name="Houston K.A."/>
+<person name="Howland T.J."/>
+<person name="Wei M.-H."/>
+<person name="Ibegwam C."/>
+<person name="Jalali M."/>
+<person name="Kalush F."/>
+<person name="Karpen G.H."/>
+<person name="Ke Z."/>
+<person name="Kennison J.A."/>
+<person name="Ketchum K.A."/>
+<person name="Kimmel B.E."/>
+<person name="Kodira C.D."/>
+<person name="Kraft C.L."/>
+<person name="Kravitz S."/>
+<person name="Kulp D."/>
+<person name="Lai Z."/>
+<person name="Lasko P."/>
+<person name="Lei Y."/>
+<person name="Levitsky A.A."/>
+<person name="Li J.H."/>
+<person name="Li Z."/>
+<person name="Liang Y."/>
+<person name="Lin X."/>
+<person name="Liu X."/>
+<person name="Mattei B."/>
+<person name="McIntosh T.C."/>
+<person name="McLeod M.P."/>
+<person name="McPherson D."/>
+<person name="Merkulov G."/>
+<person name="Milshina N.V."/>
+<person name="Mobarry C."/>
+<person name="Morris J."/>
+<person name="Moshrefi A."/>
+<person name="Mount S.M."/>
+<person name="Moy M."/>
+<person name="Murphy B."/>
+<person name="Murphy L."/>
+<person name="Muzny D.M."/>
+<person name="Nelson D.L."/>
+<person name="Nelson D.R."/>
+<person name="Nelson K.A."/>
+<person name="Nixon K."/>
+<person name="Nusskern D.R."/>
+<person name="Pacleb J.M."/>
+<person name="Palazzolo M."/>
+<person name="Pittman G.S."/>
+<person name="Pan S."/>
+<person name="Pollard J."/>
+<person name="Puri V."/>
+<person name="Reese M.G."/>
+<person name="Reinert K."/>
+<person name="Remington K."/>
+<person name="Saunders R.D.C."/>
+<person name="Scheeler F."/>
+<person name="Shen H."/>
+<person name="Shue B.C."/>
+<person name="Siden-Kiamos I."/>
+<person name="Simpson M."/>
+<person name="Skupski M.P."/>
+<person name="Smith T.J."/>
+<person name="Spier E."/>
+<person name="Spradling A.C."/>
+<person name="Stapleton M."/>
+<person name="Strong R."/>
+<person name="Sun E."/>
+<person name="Svirskas R."/>
+<person name="Tector C."/>
+<person name="Turner R."/>
+<person name="Venter E."/>
+<person name="Wang A.H."/>
+<person name="Wang X."/>
+<person name="Wang Z.-Y."/>
+<person name="Wassarman D.A."/>
+<person name="Weinstock G.M."/>
+<person name="Weissenbach J."/>
+<person name="Williams S.M."/>
+<person name="Woodage T."/>
+<person name="Worley K.C."/>
+<person name="Wu D."/>
+<person name="Yang S."/>
+<person name="Yao Q.A."/>
+<person name="Ye J."/>
+<person name="Yeh R.-F."/>
+<person name="Zaveri J.S."/>
+<person name="Zhan M."/>
+<person name="Zhang G."/>
+<person name="Zhao Q."/>
+<person name="Zheng L."/>
+<person name="Zheng X.H."/>
+<person name="Zhong F.N."/>
+<person name="Zhong W."/>
+<person name="Zhou X."/>
+<person name="Zhu S.C."/>
+<person name="Zhu X."/>
+<person name="Smith H.O."/>
+<person name="Gibbs R.A."/>
+<person name="Myers E.W."/>
+<person name="Rubin G.M."/>
+<person name="Venter J.C."/>
+</authorList>
+<dbReference type="PubMed" id="10731132"/>
+<dbReference type="DOI" id="10.1126/science.287.5461.2185"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>Berkeley</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2002" name="Genome Biol." volume="3" first="RESEARCH0083.1" last="RESEARCH0083.22">
+<title>Annotation of the Drosophila melanogaster euchromatic genome: a systematic review.</title>
+<authorList>
+<person name="Misra S."/>
+<person name="Crosby M.A."/>
+<person name="Mungall C.J."/>
+<person name="Matthews B.B."/>
+<person name="Campbell K.S."/>
+<person name="Hradecky P."/>
+<person name="Huang Y."/>
+<person name="Kaminker J.S."/>
+<person name="Millburn G.H."/>
+<person name="Prochnik S.E."/>
+<person name="Smith C.D."/>
+<person name="Tupy J.L."/>
+<person name="Whitfield E.J."/>
+<person name="Bayraktaroglu L."/>
+<person name="Berman B.P."/>
+<person name="Bettencourt B.R."/>
+<person name="Celniker S.E."/>
+<person name="de Grey A.D.N.J."/>
+<person name="Drysdale R.A."/>
+<person name="Harris N.L."/>
+<person name="Richter J."/>
+<person name="Russo S."/>
+<person name="Schroeder A.J."/>
+<person name="Shu S.Q."/>
+<person name="Stapleton M."/>
+<person name="Yamada C."/>
+<person name="Ashburner M."/>
+<person name="Gelbart W.M."/>
+<person name="Rubin G.M."/>
+<person name="Lewis S.E."/>
+</authorList>
+<dbReference type="PubMed" id="12537572"/>
+<dbReference type="DOI" id="10.1186/gb-2002-3-12-research0083"/>
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<scope>ALTERNATIVE SPLICING</scope>
+<source>
+<strain>Berkeley</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2002" name="Development" volume="129" first="1317" last="1325">
+<title>Lola regulates midline crossing of CNS axons in Drosophila.</title>
+<authorList>
+<person name="Crowner D."/>
+<person name="Madden K."/>
+<person name="Goeke S."/>
+<person name="Giniger E."/>
+</authorList>
+<dbReference type="PubMed" id="11880341"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>MUTAGENESIS OF ALA-107</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2003" name="Genes Dev." volume="17" first="2496" last="2501">
+<title>Alternative trans-splicing of constant and variable exons of a Drosophila axon guidance gene, lola.</title>
+<authorList>
+<person name="Horiuchi T."/>
+<person name="Giniger E."/>
+<person name="Aigaki T."/>
+</authorList>
+<dbReference type="PubMed" id="14522953"/>
+<dbReference type="DOI" id="10.1101/gad.1137303"/>
+</citation>
+<scope>TRANS-SPLICING</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2003" name="J. Biol. Chem." volume="278" first="11696" last="11704">
+<title>A developmentally regulated splice variant from the complex lola locus encoding multiple different zinc finger domain proteins interacts with the chromosomal kinase JIL-1.</title>
+<authorList>
+<person name="Zhang W."/>
+<person name="Wang Y."/>
+<person name="Long J."/>
+<person name="Girton J."/>
+<person name="Johansen J."/>
+<person name="Johansen K.M."/>
+</authorList>
+<dbReference type="PubMed" id="12538650"/>
+<dbReference type="DOI" id="10.1074/jbc.m213269200"/>
+</citation>
+<scope>DEVELOPMENTAL STAGE</scope>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2003" name="Nat. Neurosci." volume="6" first="917" last="924">
+<title>Alternative splicing of lola generates 19 transcription factors controlling axon guidance in Drosophila.</title>
+<authorList>
+<person name="Goeke S."/>
+<person name="Greene E.A."/>
+<person name="Grant P.K."/>
+<person name="Gates M.A."/>
+<person name="Crowner D."/>
+<person name="Aigaki T."/>
+<person name="Giniger E."/>
+</authorList>
+<dbReference type="PubMed" id="12897787"/>
+<dbReference type="DOI" id="10.1038/nn1105"/>
+</citation>
+<scope>DEVELOPMENTAL STAGE</scope>
+</reference>
+<comment type="function">
+<text evidence="2 5">Putative transcription factor required for axon growth and guidance in the central and peripheral nervous systems. Repels CNS axons away from the midline by promoting the expression of the midline repellent sli and its receptor robo.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="5">Nucleus</location>
+</subcellularLocation>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>P42284-2</id>
+<name>V</name>
+<name>Ohsako-G</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>P42284-3</id>
+<name>H</name>
+<name>Ohsako-M</name>
+<sequence type="described" ref="VSP_015404 VSP_015406"/>
+</isoform>
+<isoform>
+<id>P42284-1</id>
+<name>M</name>
+<name>Short</name>
+<name>Ohsako-A</name>
+<sequence type="described" ref="VSP_015403 VSP_015405"/>
+</isoform>
+<isoform>
+<id>Q7KQZ4-2</id>
+<name>A</name>
+<name>Ohsako-D</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q7KQZ4-1</id>
+<name>B</name>
+<name>C</name>
+<name>Ohsako-L</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q7KQZ4-3</id>
+<name>D</name>
+<name>E</name>
+<name>Ohsako-F</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q867Z4-2</id>
+<name>F</name>
+<name>Ohsako-I</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>P42283-1</id>
+<name>G</name>
+<name>Long</name>
+<name>Ohsako-T</name>
+<name>R</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q867Z4-1</id>
+<name>I</name>
+<name>Ohsako-K</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q9V5M6-2</id>
+<name>J</name>
+<name>Ohsako-O</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q867Z4-3</id>
+<name>K</name>
+<name>Ohsako-H</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q7KQZ4-4</id>
+<name>L</name>
+<name>Ohsako-C</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q9V5M3-1</id>
+<name>N</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q9V5M3-2</id>
+<name>O</name>
+<name>Ohsako-P</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q9V5M6-1</id>
+<name>P</name>
+<name>Ohsako-N</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q9V5M6-3</id>
+<name>Q</name>
+<name>Ohsako-B</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q9V5M6-4</id>
+<name>S</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q867Z4-5</id>
+<name>T</name>
+<name>U</name>
+<name>Ohsako-J</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q9V5M3-3</id>
+<name>W</name>
+<name>Ohsako-Q</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q9V5M3-4</id>
+<name>X</name>
+<name>Ohsako-S</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q9V5M3-5</id>
+<name>Y</name>
+<name>Ohsako-R</name>
+<sequence type="external"/>
+</isoform>
+<isoform>
+<id>Q9V5M6-5</id>
+<name>Z</name>
+<name>Ohsako-E</name>
+<sequence type="external"/>
+</isoform>
+<text>Some isoforms may be generated by alternative trans-splicing of exons sequentially encoded by the same DNA strand.</text>
+</comment>
+<comment type="tissue specificity">
+<text evidence="5">Mostly neuronal.</text>
+</comment>
+<comment type="developmental stage">
+<text evidence="3 4 5">Expressed both maternally and zygotically. At least one isoform is present at each developmental stage.</text>
+</comment>
+<dbReference type="EMBL" id="U07606">
+<property type="protein sequence ID" value="AAA19592.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB107272">
+<property type="protein sequence ID" value="BAC67577.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB107278">
+<property type="protein sequence ID" value="BAC67583.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB107284">
+<property type="protein sequence ID" value="BAC67589.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB107292">
+<property type="protein sequence ID" value="BAC67597.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB107298">
+<property type="protein sequence ID" value="BAC67603.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB107304">
+<property type="protein sequence ID" value="BAC67609.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB107312">
+<property type="protein sequence ID" value="BAC67617.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB107318">
+<property type="protein sequence ID" value="BAC67623.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB107324">
+<property type="protein sequence ID" value="BAC67629.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB107332">
+<property type="protein sequence ID" value="BAC67637.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB107338">
+<property type="protein sequence ID" value="BAC67643.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AB107344">
+<property type="protein sequence ID" value="BAC67649.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE013599">
+<property type="protein sequence ID" value="AAF58777.2"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE013599">
+<property type="protein sequence ID" value="AAO41431.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE013599">
+<property type="protein sequence ID" value="AAS64877.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_724945.1">
+<molecule id="P42284-3"/>
+<property type="nucleotide sequence ID" value="NM_170617.5"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_788320.1">
+<molecule id="P42284-1"/>
+<property type="nucleotide sequence ID" value="NM_176140.4"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_995807.1">
+<molecule id="P42284-2"/>
+<property type="nucleotide sequence ID" value="NM_206085.4"/>
+</dbReference>
+<dbReference type="SMR" id="P42284"/>
+<dbReference type="BioGRID" id="69126">
+<property type="interactions" value="46"/>
+</dbReference>
+<dbReference type="PRIDE" id="P42284"/>
+<dbReference type="EnsemblMetazoa" id="FBtr0089346">
+<molecule id="P42284-3"/>
+<property type="protein sequence ID" value="FBpp0088380"/>
+<property type="gene ID" value="FBgn0283521"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="FBtr0089362">
+<molecule id="P42284-1"/>
+<property type="protein sequence ID" value="FBpp0088396"/>
+<property type="gene ID" value="FBgn0283521"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="FBtr0089363">
+<molecule id="P42284-2"/>
+<property type="protein sequence ID" value="FBpp0088949"/>
+<property type="gene ID" value="FBgn0283521"/>
+</dbReference>
+<dbReference type="GeneID" id="44548"/>
+<dbReference type="CTD" id="44548"/>
+<dbReference type="FlyBase" id="FBgn0283521">
+<property type="gene designation" value="lola"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00940000174551"/>
+<dbReference type="BioGRID-ORCS" id="44548">
+<property type="hits" value="1 hit in 1 CRISPR screen"/>
+</dbReference>
+<dbReference type="ChiTaRS" id="lola">
+<property type="organism name" value="fly"/>
+</dbReference>
+<dbReference type="GenomeRNAi" id="44548"/>
+<dbReference type="Proteomes" id="UP000000803">
+<property type="component" value="Chromosome 2R"/>
+</dbReference>
+<dbReference type="Bgee" id="FBgn0005630">
+<property type="expression patterns" value="Expressed in cleaving embryo and 38 other tissues"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="P42284">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="P42284">
+<property type="organism ID" value="DM"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005654">
+<property type="term" value="C:nucleoplasm"/>
+<property type="evidence" value="ECO:0007005"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005634">
+<property type="term" value="C:nucleus"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003700">
+<property type="term" value="F:DNA-binding transcription factor activity"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007411">
+<property type="term" value="P:axon guidance"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016199">
+<property type="term" value="P:axon midline choice point recognition"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007409">
+<property type="term" value="P:axonogenesis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0048813">
+<property type="term" value="P:dendrite morphogenesis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008406">
+<property type="term" value="P:gonad development"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035167">
+<property type="term" value="P:larval lymph gland hemopoiesis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007526">
+<property type="term" value="P:larval somatic muscle development"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045476">
+<property type="term" value="P:nurse cell apoptotic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045893">
+<property type="term" value="P:positive regulation of transcription, DNA-templated"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007464">
+<property type="term" value="P:R3/R4 cell fate commitment"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045467">
+<property type="term" value="P:R7 cell development"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006357">
+<property type="term" value="P:regulation of transcription by RNA polymerase II"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006355">
+<property type="term" value="P:regulation of transcription, DNA-templated"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="FlyBase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000210">
+<property type="entry name" value="BTB/POZ_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011333">
+<property type="entry name" value="SKP1/BTB/POZ_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00651">
+<property type="entry name" value="BTB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00225">
+<property type="entry name" value="BTB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54695">
+<property type="entry name" value="SSF54695"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50097">
+<property type="entry name" value="BTB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-0217">Developmental protein</keyword>
+<keyword id="KW-0221">Differentiation</keyword>
+<keyword id="KW-0524">Neurogenesis</keyword>
+<keyword id="KW-0539">Nucleus</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0804">Transcription</keyword>
+<keyword id="KW-0805">Transcription regulation</keyword>
+<feature type="chain" description="Longitudinals lacking protein, isoforms H/M/V" id="PRO_0000047073">
+<location>
+<begin position="1"/>
+<end position="549"/>
+</location>
+</feature>
+<feature type="domain" description="BTB" evidence="1">
+<location>
+<begin position="32"/>
+<end position="97"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform H." id="VSP_015404" evidence="6">
+<original>DVSTNQTVVLPHYSIYHYYSNIYYLLSHTTIYEADRTVSVSCPGKLNCLPQRNDLQETKSVTVL</original>
+<variation>DEAGQNEGGESRIRVRNWLMLADKSIIGKSSDEPSVLHIVLLLSTHRHIISFLLIIQSFIDKIY</variation>
+<location>
+<begin position="455"/>
+<end position="518"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform M." id="VSP_015403" evidence="6 7">
+<original>DVSTNQTVVLP</original>
+<variation>GECLLPLKSII</variation>
+<location>
+<begin position="455"/>
+<end position="465"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform M." id="VSP_015405" evidence="6 7">
+<location>
+<begin position="466"/>
+<end position="549"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform H." id="VSP_015406" evidence="6">
+<location>
+<begin position="519"/>
+<end position="549"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="In ORE120; defective in embryonic axon guidance." evidence="2">
+<original>A</original>
+<variation>V</variation>
+<location>
+<position position="107"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA19592." ref="1" evidence="8">
+<original>I</original>
+<variation>YEL</variation>
+<location sequence="P42284-1">
+<position position="465"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00037"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11880341"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12538650"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12897787"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8050351"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="12853139"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="8050351"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000305"/>
+<evidence key="9" type="ECO:0000312">
+<source>
+<dbReference type="FlyBase" id="FBgn0283521"/>
+</source>
+</evidence>
+<sequence length="549" mass="59323" checksum="0FB6C88602ADAB49" modified="2005-08-30" version="2">MDDDQQFCLRWNNHQSTLISVFDTLLENETLVDCTLAAEGKFLKAHKVVLSACSPYFATLLQEQYDKHPIFILKDVKYQELRAMMDYMYRGEVNISQDQLAALLKAAESLQIKGLSDNRTGGGVAPKPESSGHHRGGKLSGAYTLEQTKRARLATGGAMDTSGDVSGSREGSSSPSRRRRKVRRRSMENDAHDNSNSSVLQAAASNQSILQQTGAGLAVSALVTTQLSSGPAAGTSSQASSTQQQQPLTSTNVTKKTESAKLTSSTAAPASGASASAAVQQAHLHQQQAQTTSDAINTENVQAQSQGGAQGVQGDDEDIDEGSAVGGPNSATGPNPASASASAVHAGVVVKQLASVVDKSSSNHKHKIKDNSVSSVGSEMVIEPKAEYDDDAHDENVEDLTLDEEDMTMEELDQTAGTSQGGEGSSQTYATWQHDRSQDELGLMAQDAQQRDPQDVSTNQTVVLPHYSIYHYYSNIYYLLSHTTIYEADRTVSVSCPGKLNCLPQRNDLQETKSVTVLYTIHFFLYILMIYIFVLCKILPRIVFVWVST</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

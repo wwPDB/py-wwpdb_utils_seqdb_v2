@@ -1,0 +1,6 @@
+To download reference data test cases:
+
+acc=$1
+fout=$1.xml
+
+wget -O $fout "https://www.ebi.ac.uk/Tools/dbfetch/dbfetch?db=uniprotkb&id=$acc&format=uniprotxml&style=raw&Retrieve=Retrieve" 

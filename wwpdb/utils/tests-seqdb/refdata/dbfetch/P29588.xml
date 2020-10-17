@@ -1,0 +1,498 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-06-17" version="120">
+<accession>P29588</accession>
+<name>MIG_METTF</name>
+<protein>
+<recommendedName>
+<fullName evidence="8">Thymine/uracil-DNA glycosylase</fullName>
+<ecNumber evidence="4 5">3.2.2.-</ecNumber>
+<ecNumber evidence="4 5">3.2.2.29</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="7">DNA mismatch glycosylase</fullName>
+<shortName evidence="6">MIG</shortName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="8">G/T mismatches repair enzyme</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="7">mig</name>
+</gene>
+<organism>
+<name type="scientific">Methanothermobacter thermautotrophicus</name>
+<name type="synonym">Methanobacterium thermoformicicum</name>
+<dbReference type="NCBI Taxonomy" id="145262"/>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanomada group</taxon>
+<taxon>Methanobacteria</taxon>
+<taxon>Methanobacteriales</taxon>
+<taxon>Methanobacteriaceae</taxon>
+<taxon>Methanothermobacter</taxon>
+</lineage>
+</organism>
+<geneLocation type="plasmid">
+<name>pFV1</name>
+</geneLocation>
+<reference key="1">
+<citation type="journal article" date="1992" name="Nucleic Acids Res." volume="20" first="6501" last="6507">
+<title>Modular organization of related Archaeal plasmids encoding different restriction-modification systems in Methanobacterium thermoformicicum.</title>
+<authorList>
+<person name="Noelling J."/>
+<person name="van Eeden F.J.M."/>
+<person name="Eggen R.I.L."/>
+<person name="de Vos W.M."/>
+</authorList>
+<dbReference type="PubMed" id="1336177"/>
+<dbReference type="DOI" id="10.1093/nar/20.24.6501"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>DSM 3848 / THF</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1996" name="EMBO J." volume="15" first="5459" last="5469">
+<title>Counteracting the mutagenic effect of hydrolytic deamination of DNA 5-methylcytosine residues at high temperature: DNA mismatch N-glycosylase Mig.Mth of the thermophilic archaeon Methanobacterium thermoautotrophicum THF.</title>
+<authorList>
+<person name="Horst J.P."/>
+<person name="Fritz H.J."/>
+</authorList>
+<dbReference type="PubMed" id="8895589"/>
+<dbReference type="DOI" id="10.1002/j.1460-2075.1996.tb00929.x"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<source>
+<strain>DSM 3848 / THF</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2002" name="Nucleic Acids Res." volume="30" first="614" last="621">
+<title>Two amino acid replacements change the substrate preference of DNA mismatch glycosylase Mig.MthI from T/G to A/G.</title>
+<authorList>
+<person name="Fondufe-Mittendorf Y.N."/>
+<person name="Haerer C."/>
+<person name="Kramer W."/>
+<person name="Fritz H.J."/>
+</authorList>
+<dbReference type="PubMed" id="11788726"/>
+<dbReference type="DOI" id="10.1093/nar/30.2.614"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>MUTAGENESIS OF ALA-50 AND LEU-187</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2002" name="J. Mol. Biol." volume="315" first="373" last="384">
+<title>Structure and activity of a thermostable thymine-DNA glycosylase: evidence for base twisting to remove mismatched normal DNA bases.</title>
+<authorList>
+<person name="Mol C.D."/>
+<person name="Arvai A.S."/>
+<person name="Begley T.J."/>
+<person name="Cunningham R.P."/>
+<person name="Tainer J.A."/>
+</authorList>
+<dbReference type="PubMed" id="11786018"/>
+<dbReference type="DOI" id="10.1006/jmbi.2001.5264"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS)</scope>
+<scope>MUTAGENESIS OF GLU-42; ARG-47; TYR-126; ASP-144 AND ASN-146</scope>
+</reference>
+<comment type="function">
+<text evidence="4 5">DNA glycosylase that excises thymine from T/G mismatches and uracil from U/G mismatches (PubMed:8895589, PubMed:11788726). Acts as a repair enzyme able to counteract the mutagenic effect of spontaneous hydrolytic deamination of DNA 5-methylcytosine (5-meC) residues that leads to the formation of T/G mismatches (PubMed:8895589). May also repair U/G mismatches arising from hydrolytic deamination of DNA cytosine residues (PubMed:8895589). G/G, A/G, T/C and U/C are minor substrates (PubMed:8895589, PubMed:11788726).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="4 5">
+<text>Hydrolyzes mismatched double-stranded DNA and polynucleotides, releasing free thymine.</text>
+<dbReference type="EC" id="3.2.2.29"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="2">
+<name>[4Fe-4S] cluster</name>
+<dbReference type="ChEBI" id="CHEBI:49883"/>
+</cofactor>
+<text evidence="2">Binds 1 [4Fe-4S] cluster. The cluster has a structural role.</text>
+</comment>
+<comment type="similarity">
+<text evidence="8">Belongs to the Nth/MutY family.</text>
+</comment>
+<dbReference type="EC" id="3.2.2.-" evidence="4 5"/>
+<dbReference type="EC" id="3.2.2.29" evidence="4 5"/>
+<dbReference type="EMBL" id="X68366">
+<property type="protein sequence ID" value="CAA48433.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S30312">
+<property type="entry name" value="S30312"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_039762.1">
+<property type="nucleotide sequence ID" value="NC_001336.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010889848.1">
+<property type="nucleotide sequence ID" value="NC_001336.1"/>
+</dbReference>
+<dbReference type="PDB" id="1KEA">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.00"/>
+<property type="chains" value="A=1-221"/>
+</dbReference>
+<dbReference type="PDBsum" id="1KEA"/>
+<dbReference type="SMR" id="P29588"/>
+<dbReference type="REBASE" id="6523">
+<property type="entry name" value="V.MthTI"/>
+</dbReference>
+<dbReference type="PRIDE" id="P29588"/>
+<dbReference type="GeneID" id="3355209"/>
+<dbReference type="EvolutionaryTrace" id="P29588"/>
+<dbReference type="GO" id="GO:0051539">
+<property type="term" value="F:4 iron, 4 sulfur cluster binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016798">
+<property type="term" value="F:hydrolase activity, acting on glycosyl bonds"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006284">
+<property type="term" value="P:base-excision repair"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="CDD" id="cd00056">
+<property type="entry name" value="ENDO3c"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.1670.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011257">
+<property type="entry name" value="DNA_glycosylase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR004036">
+<property type="entry name" value="Endonuclease-III-like_CS2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003651">
+<property type="entry name" value="Endonuclease3_FeS-loop_motif"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR004035">
+<property type="entry name" value="Endouclease-III_FeS-bd_BS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003265">
+<property type="entry name" value="HhH-GPD_domain"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR023170">
+<property type="entry name" value="HTH_base_excis_C"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00730">
+<property type="entry name" value="HhH-GPD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00478">
+<property type="entry name" value="ENDO3c"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00525">
+<property type="entry name" value="FES"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48150">
+<property type="entry name" value="SSF48150"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00764">
+<property type="entry name" value="ENDONUCLEASE_III_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01155">
+<property type="entry name" value="ENDONUCLEASE_III_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0004">4Fe-4S</keyword>
+<keyword id="KW-0227">DNA damage</keyword>
+<keyword id="KW-0234">DNA repair</keyword>
+<keyword id="KW-0326">Glycosidase</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0408">Iron</keyword>
+<keyword id="KW-0411">Iron-sulfur</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0614">Plasmid</keyword>
+<feature type="chain" description="Thymine/uracil-DNA glycosylase" id="PRO_0000102237">
+<location>
+<begin position="1"/>
+<end position="221"/>
+</location>
+</feature>
+<feature type="domain" description="HhH">
+<location>
+<begin position="105"/>
+<end position="133"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (4Fe-4S)" evidence="2">
+<location>
+<position position="197"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (4Fe-4S)" evidence="2">
+<location>
+<position position="204"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (4Fe-4S)" evidence="2">
+<location>
+<position position="207"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (4Fe-4S)" evidence="2">
+<location>
+<position position="213"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="5-fold lower activity." evidence="3">
+<original>E</original>
+<variation>D</variation>
+<location>
+<position position="42"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="25-fold lower activity." evidence="3">
+<original>E</original>
+<variation>S</variation>
+<location>
+<position position="42"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="15-fold lower activity." evidence="3">
+<original>R</original>
+<variation>A</variation>
+<location>
+<position position="47"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Affects T/G versus U/G selectivity. Changes substrate discrimination between T/G and A/G by a factor of 117 in favor of the latter; when associated with Q-187." evidence="4">
+<original>A</original>
+<variation>V</variation>
+<location>
+<position position="50"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="60-fold lower activity." evidence="3">
+<original>Y</original>
+<variation>F</variation>
+<location>
+<position position="126"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No activity." evidence="3">
+<original>Y</original>
+<variation>K</variation>
+<location>
+<position position="126"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Almost no activity." evidence="3">
+<original>Y</original>
+<variation>S</variation>
+<location>
+<position position="126"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="15-fold lower activity." evidence="3">
+<original>D</original>
+<variation>A</variation>
+<location>
+<position position="144"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="No activity." evidence="3">
+<original>D</original>
+<variation>N</variation>
+<location>
+<position position="144"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Almost no activity." evidence="3">
+<original>N</original>
+<variation>E</variation>
+<variation>H</variation>
+<location>
+<position position="146"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Accelerates the A/G reaction and decreases activity on T/G and U/G. Changes substrate discrimination between T/G and A/G by a factor of 117 in favor of the latter; when associated with V-50." evidence="4">
+<original>L</original>
+<variation>Q</variation>
+<location>
+<position position="187"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="5"/>
+<end position="22"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="28"/>
+<end position="31"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="35"/>
+<end position="44"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="45"/>
+<end position="47"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="50"/>
+<end position="63"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="67"/>
+<end position="72"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="75"/>
+<end position="81"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="83"/>
+<end position="85"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="88"/>
+<end position="106"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="114"/>
+<end position="118"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="125"/>
+<end position="134"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="145"/>
+<end position="155"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="157"/>
+<end position="159"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="167"/>
+<end position="176"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="182"/>
+<end position="195"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="199"/>
+<end position="201"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="204"/>
+<end position="206"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="208"/>
+<end position="212"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="214"/>
+<end position="217"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1KEA"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P83847"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11786018"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11788726"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8895589"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="11786018"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="8895589"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000305"/>
+<sequence length="221" mass="25401" checksum="D085FCEE1DDC4B62" modified="1993-04-01" version="1">MDDATNKKRKVFVSTILTFWNTDRRDFPWRHTRDPYVILITEILLRRTTAGHVKKIYDKFFVKYKCFEDILKTPKSEIAKDIKEIGLSNQRAEQLKELARVVINDYGGRVPRNRKAILDLPGVGKYTCAAVMCLAFGKKAAMVDANFVRVINRYFGGSYENLNYNHKALWELAETLVPGGKCRDFNLGLMDFSAIICAPRKPKCEKCGMSKLCSYYEKCST</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

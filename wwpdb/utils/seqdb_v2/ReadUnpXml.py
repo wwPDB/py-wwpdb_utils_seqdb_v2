@@ -31,57 +31,57 @@ import copy
 import traceback
 
 
-class ReadUnpXml:
+class ReadUnpXml(object):
 
     """Read Uniprot entry xml file and put the following information into
-       dictionary:
-           dict['db_code']           - code
-           dict['db_accession']      - first accession code
-           dict['sequence']          - sequence
-           dict['ec']                - EC number(s)
-           dict['keyword']           - keywords
-           dict['name']              - protein name
-           dict['synonyms']          - protein synonyms
-           dict['gene']              - gene
-           dict['source_scientific'] - source scientific name
-           dict['source_common']     - source common name
-           dict['taxonomy_id']       - source taxonomy ID
-           dict['comments']          - Uniprot comments
+    dictionary:
+        dict['db_code']           - code
+        dict['db_accession']      - first accession code
+        dict['sequence']          - sequence
+        dict['ec']                - EC number(s)
+        dict['keyword']           - keywords
+        dict['name']              - protein name
+        dict['synonyms']          - protein synonyms
+        dict['gene']              - gene
+        dict['source_scientific'] - source scientific name
+        dict['source_common']     - source common name
+        dict['taxonomy_id']       - source taxonomy ID
+        dict['comments']          - Uniprot comments
 
-        If there is a registered variant, <isoform> tags are parsed:
+     If there is a registered variant, <isoform> tags are parsed:
 
-           <isoform>
-             <id>P42284-2</id>
-             <name>V</name>
-             <name>Ohsako-G</name>
-             <sequence type="displayed"/>
-           </isoform>
-           <isoform>
-             <id>P42284-3</id>
-             <name>H</name>
-             <name>Ohsako-M</name>
-             <sequence type="described" ref="VSP_015404 VSP_015406"/>
-           </isoform>
+        <isoform>
+          <id>P42284-2</id>
+          <name>V</name>
+          <name>Ohsako-G</name>
+          <sequence type="displayed"/>
+        </isoform>
+        <isoform>
+          <id>P42284-3</id>
+          <name>H</name>
+          <name>Ohsako-M</name>
+          <sequence type="described" ref="VSP_015404 VSP_015406"/>
+        </isoform>
 
-       and <feature type="splice variant"> tags:
+    and <feature type="splice variant"> tags:
 
-           <feature type="splice variant" id="VSP_015404" description="(in isoform H)">
-             <original>DVSTNQTVVLPHYSIYHYYSNIYYLLSHTTIYEADRTVSVSCPGKLNCLPQRNDLQETKSVTVL</original>
-             <variation>DEAGQNEGGESRIRVRNWLMLADKSIIGKSSDEPSVLHIVLLLSTHRHIISFLLIIQSFIDKIY</variation>
-             <location>
-               <begin position="455"/>
-               <end position="518"/>
-             </location>
-           </feature>
-           <feature type="splice variant" id="VSP_015406" description="(in isoform H)">
-             <location>
-               <begin position="519"/>
-               <end position="549"/>
-             </location>
-           </feature>
+        <feature type="splice variant" id="VSP_015404" description="(in isoform H)">
+          <original>DVSTNQTVVLPHYSIYHYYSNIYYLLSHTTIYEADRTVSVSCPGKLNCLPQRNDLQETKSVTVL</original>
+          <variation>DEAGQNEGGESRIRVRNWLMLADKSIIGKSSDEPSVLHIVLLLSTHRHIISFLLIIQSFIDKIY</variation>
+          <location>
+            <begin position="455"/>
+            <end position="518"/>
+          </location>
+        </feature>
+        <feature type="splice variant" id="VSP_015406" description="(in isoform H)">
+          <location>
+            <begin position="519"/>
+            <end position="549"/>
+          </location>
+        </feature>
 
-       to find the isoform sequence. If no match found, the default sequence from <sequence> tag
-       will be used.
+    to find the isoform sequence. If no match found, the default sequence from <sequence> tag
+    will be used.
     """
 
     def __init__(self, doc, verbose=True, log=sys.stderr):
@@ -91,19 +91,18 @@ class ReadUnpXml:
         self.__variantD = {}
         self.__accessionD = {}
         self.__doc = doc
+        self._entryDict = {}
 
     def addVariant(self, accessionId, varId):
-        """ Register a variant id with the input accession code.
-        """
+        """Register a variant id with the input accession code."""
         try:
             self.__variantD[varId] = accessionId
             return True
-        except:
+        except:  # noqa: E722 pylint: disable=bare-except
             return False
 
     def __updateAccessionDict(self):
-        """ Update the list of registered variants for each accession code.
-        """
+        """Update the list of registered variants for each accession code."""
         self.__accessionD = {}
         for vId, aId in self.__variantD.items():
             if aId not in self.__accessionD:
@@ -113,7 +112,7 @@ class ReadUnpXml:
     def __getVariantList(self, accessionId):
         try:
             return self.__accessionD[accessionId]
-        except:
+        except:  # noqa: E722 pylint: disable=bare-except
             return []
 
     def getResult(self):
@@ -123,7 +122,7 @@ class ReadUnpXml:
 
     def _parse(self, doc):
         entryDict = {}
-        entryList = doc.getElementsByTagName('entry')
+        entryList = doc.getElementsByTagName("entry")
 
         entryDict = {}
         for entry in entryList:
@@ -132,251 +131,249 @@ class ReadUnpXml:
             if entry.nodeType != entry.ELEMENT_NODE:
                 continue
 
-            dict = {}
-            if entry.attributes['dataset'].value == 'Swiss-Prot':
-                dict['db_name'] = 'SP'
-            elif entry.attributes['dataset'].value == 'TrEMBL':
-                dict['db_name'] = 'TR'
+            rdict = {}
+            if entry.attributes["dataset"].value == "Swiss-Prot":
+                rdict["db_name"] = "SP"
+            elif entry.attributes["dataset"].value == "TrEMBL":
+                rdict["db_name"] = "TR"
             else:
-                dict['db_name'] = str(entry.attributes['dataset'].value)
+                rdict["db_name"] = str(entry.attributes["dataset"].value)
 
             for node in entry.childNodes:
                 if node.nodeType != node.ELEMENT_NODE:
                     continue
 
-                if node.tagName == 'name':
-                    'Get entry code'
-                    dict['db_code'] = node.firstChild.data
+                if node.tagName == "name":
+                    # Get entry code
+                    rdict["db_code"] = node.firstChild.data
 
-                elif node.tagName == 'accession':
-                    'Get entry first accession'
-                    if 'db_accession' in dict:
+                elif node.tagName == "accession":
+                    # Get entry first accession
+                    if "db_accession" in rdict:
                         pass
                     else:
-                        dict['db_accession'] = node.firstChild.data
+                        rdict["db_accession"] = node.firstChild.data
 
-                elif node.tagName == 'sequence':
-                    'Get sequence'
+                elif node.tagName == "sequence":
+                    # Get sequence
                     # Sequence must have newlines removed
-                    dict['sequence'] = node.firstChild.data.replace('\n','')
+                    rdict["sequence"] = node.firstChild.data.replace("\n", "")
 
-                elif node.tagName == 'protein':
-                    self._findProteinName(node.childNodes, dict)
+                elif node.tagName == "protein":
+                    self._findProteinName(node.childNodes, rdict)
 
-                elif node.tagName == 'gene':
-                    self._findGeneName(node.childNodes, dict)
+                elif node.tagName == "gene":
+                    self._findGeneName(node.childNodes, rdict)
 
-                elif node.tagName == 'organism':
-                    self._findSourceOrganism(node.childNodes, dict)
+                elif node.tagName == "organism":
+                    self._findSourceOrganism(node.childNodes, rdict)
 
-                elif node.tagName == 'dbReference':
-                    """Get EC number from <dbReference type="EC" key="1" id="3.1.-.-"/>
-                        and concatenate them using comma separator
-                    """
-                    type = node.attributes['type']
-                    if type and type.value == 'EC':
-                        id = node.attributes['id']
-                        if id:
-                            if 'ec' in dict:
-                                dict['ec'] = dict['ec'] + ', ' + id.value
+                elif node.tagName == "dbReference":
+                    # Get EC number from <dbReference type="EC" key="1" id="3.1.-.-"/>
+                    # and concatenate them using comma separator
+                    ntype = node.attributes["type"]
+                    if ntype and ntype.value == "EC":
+                        eid = node.attributes["id"]
+                        if eid:
+                            if "ec" in rdict:
+                                rdict["ec"] = rdict["ec"] + ", " + eid.value
                             else:
-                                dict['ec'] = id.value
+                                rdict["ec"] = eid.value
 
-                elif node.tagName == 'keyword':
-                    """Get keyword from <keyword id="KW-0181">Complete proteome</keyword>
-                        and concatenate them using comma separator
-                    """
-                    if 'keyword' in dict:
-                        dict['keyword'] = dict['keyword'] + ', ' + node.firstChild.data
+                elif node.tagName == "keyword":
+                    # Get keyword from <keyword id="KW-0181">Complete proteome</keyword>
+                    # and concatenate them using comma separator
+                    if "keyword" in rdict:
+                        rdict["keyword"] = rdict["keyword"] + ", " + node.firstChild.data
                     else:
-                        dict['keyword'] = node.firstChild.data
+                        rdict["keyword"] = node.firstChild.data
 
-                elif node.tagName == 'comment':
-                    self._findComments(node, dict)
+                elif node.tagName == "comment":
+                    self._findComments(node, rdict)
 
             #
             # This is an improbable situation of entry lacking an accession code.
             #
-            if 'db_accession' not in dict:
+            if "db_accession" not in rdict:
                 continue
 
-            dbAccession = dict['db_accession']
+            dbAccession = rdict["db_accession"]
             #
             # Add variants if these have been specified --
             #
             vList = self.__getVariantList(dbAccession)
-            if len(vList) > 0 and 'sequence' in dict:
+            if len(vList) > 0 and "sequence" in rdict:
                 for vId in vList:
-                    vDict = copy.deepcopy(dict)
+                    vDict = copy.deepcopy(rdict)
                     ok, seqUpdated = self._FindIsoFormSeq(doc, vId, vDict)
                     if seqUpdated:
-                        vDict['isoform_sequence_updated'] = 'Y'
+                        vDict["isoform_sequence_updated"] = "Y"
                     else:
-                        vDict['isoform_sequence_updated'] = 'N'
+                        vDict["isoform_sequence_updated"] = "N"
                     if ok:
-                        vDict['db_isoform'] = vId
+                        vDict["db_isoform"] = vId
                         entryDict[vId] = vDict
 
-            entryDict[dict['db_accession']] = dict
+            entryDict[rdict["db_accession"]] = rdict
 
         return entryDict
 
-    def _findProteinName(self, nodeList, dict):
+    def _findProteinName(self, nodeList, rdict):
         """In content:
-              <recommendedName>
-                <fullName>Platelet-derived growth factor subunit B</fullName>
-                <shortName>PDGF subunit B</shortName>
-              </recommendedName>
-              <alternativeName>
-                <fullName>Platelet-derived growth factor B chain</fullName>
-              </alternativeName>
-              <alternativeName>
-                <fullName>Platelet-derived growth factor beta polypeptide</fullName>
-              </alternativeName>
-              .....
-            Get protein name from <recommendedName><fullName>...</fullName></recommendedName>
-            and put rest names to synonyms using comma separator
+          <recommendedName>
+            <fullName>Platelet-derived growth factor subunit B</fullName>
+            <shortName>PDGF subunit B</shortName>
+          </recommendedName>
+          <alternativeName>
+            <fullName>Platelet-derived growth factor B chain</fullName>
+          </alternativeName>
+          <alternativeName>
+            <fullName>Platelet-derived growth factor beta polypeptide</fullName>
+          </alternativeName>
+          .....
+        Get protein name from <recommendedName><fullName>...</fullName></recommendedName>
+        and put rest names to synonyms using comma separator
         """
 
         for node in nodeList:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
 
-            if node.tagName == 'recommendedName':
+            if node.tagName == "recommendedName":
                 namelist = self._findName(node.childNodes)
                 for k, v in namelist.items():
-                    if k == 'fullName':
-                        dict['name'] = v
-                    elif k == 'shortName':
-                        if 'synonyms' in dict:
-                            dict['synonyms'] = dict['synonyms'] + ', ' + v
+                    if k == "fullName":
+                        rdict["name"] = v
+                    elif k == "shortName":
+                        if "synonyms" in rdict:
+                            rdict["synonyms"] = rdict["synonyms"] + ", " + v
                         else:
-                            dict['synonyms'] = v
-            elif node.tagName == 'alternativeName':
+                            rdict["synonyms"] = v
+            elif node.tagName == "alternativeName":
                 namelist = self._findName(node.childNodes)
                 for v in namelist.values():
-                    if 'synonyms' in dict:
-                        dict['synonyms'] = dict['synonyms'] + ', ' + v
+                    if "synonyms" in rdict:
+                        rdict["synonyms"] = rdict["synonyms"] + ", " + v
                     else:
-                        dict['synonyms'] = v
-            elif node.tagName == 'submittedName':
+                        rdict["synonyms"] = v
+            elif node.tagName == "submittedName":
                 namelist = self._findName(node.childNodes)
                 for k, v in namelist.items():
-                    if k == 'fullName' and 'name' not in dict:
-                        dict['name'] = v
-                    elif 'synonyms' in dict:
-                        dict['synonyms'] = dict['synonyms'] + ', ' + v
+                    if k == "fullName" and "name" not in rdict:
+                        rdict["name"] = v
+                    elif "synonyms" in rdict:
+                        rdict["synonyms"] = rdict["synonyms"] + ", " + v
                     else:
-                        dict['synonyms'] = v
+                        rdict["synonyms"] = v
 
     def _findName(self, nodeList):
         """Get names from <fullName> & <shortName> tags:
 
-                <fullName>Platelet-derived growth factor subunit B</fullName>
-                <shortName>PDGF subunit B</shortName>
+        <fullName>Platelet-derived growth factor subunit B</fullName>
+        <shortName>PDGF subunit B</shortName>
         """
         d = {}
         for node in nodeList:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
 
-            if node.tagName == 'fullName':
-                d['fullName'] = node.firstChild.data
-            elif node.tagName == 'shortName':
-                d['shortName'] = node.firstChild.data
+            if node.tagName == "fullName":
+                d["fullName"] = node.firstChild.data
+            elif node.tagName == "shortName":
+                d["shortName"] = node.firstChild.data
         return d
 
-    def _findGeneName(self, nodeList, dict):
+    def _findGeneName(self, nodeList, rdict):
         """Get genes from
-              <gene>
-                <name type="primary">PDGFB</name>
-                <name type="synonym">PDGF2</name>
-                <name type="synonym">SIS</name>
-              </gene>
-           and concatenate them using comma separator
+           <gene>
+             <name type="primary">PDGFB</name>
+             <name type="synonym">PDGF2</name>
+             <name type="synonym">SIS</name>
+           </gene>
+        and concatenate them using comma separator
         """
         for node in nodeList:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
 
-            if node.tagName == 'name':
-                if 'gene' in dict:
-                    dict['gene'] = dict['gene'] + ', ' + node.firstChild.data
+            if node.tagName == "name":
+                if "gene" in rdict:
+                    rdict["gene"] = rdict["gene"] + ", " + node.firstChild.data
                 else:
-                    dict['gene'] = node.firstChild.data
+                    rdict["gene"] = node.firstChild.data
 
-    def _findSourceOrganism(self, nodeList, dict):
+    def _findSourceOrganism(self, nodeList, rdict):
         """Get organism's scientific name, common name and NCBI Taxonomy ID from
-               <name type="scientific">Homo sapiens</name>
-               <name type="common">Human</name>
-               <dbReference type="NCBI Taxonomy" key="1" id="9606"/>
+        <name type="scientific">Homo sapiens</name>
+        <name type="common">Human</name>
+        <dbReference type="NCBI Taxonomy" key="1" id="9606"/>
         """
         for node in nodeList:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
 
-            if node.tagName == 'name':
-                type = node.attributes['type']
-                if type:
-                    if type.value == 'scientific':
-                        dict['source_scientific'] = node.firstChild.data
-                    elif type.value == 'common':
-                        dict['source_common'] = node.firstChild.data
+            if node.tagName == "name":
+                ntype = node.attributes["type"]
+                if ntype:
+                    if ntype.value == "scientific":
+                        rdict["source_scientific"] = node.firstChild.data
+                    elif ntype.value == "common":
+                        rdict["source_common"] = node.firstChild.data
 
-            elif node.tagName == 'dbReference':
-                type = node.attributes['type']
-                if type and type.value == 'NCBI Taxonomy':
-                    id = node.attributes['id']
-                    if id:
-                        dict['taxonomy_id'] = id.value
+            elif node.tagName == "dbReference":
+                ntype = node.attributes["type"]
+                if ntype and ntype.value == "NCBI Taxonomy":
+                    tid = node.attributes["id"]
+                    if tid:
+                        rdict["taxonomy_id"] = tid.value
 
-    def _findComments(self, node, dict):
+    def _findComments(self, node, cDict):
         """From
-              <comment type="function">
-                <text>Platelet-derived .... </text>
-              </comment>
-              <comment type="subunit" evidence="EC1">
-                <text status="by similarity">Antiparallel disulfide-linked .... </text>
-              </comment>
-              <comment type="miscellaneous">
-                <text>A-A and B-B, as well as A-B, dimers can bind to the PDGF receptor.</text>
-              </comment>
-              <comment type="similarity">
-                <text>Belongs to the PDGF/VEGF growth factor family.</text>
-              </comment>
-              .....
-              <comment type="online information" name="Regranex">
-                <link uri="http://www.regranex.com/"/>
-                <text>Clinical information on Regranex</text>
-              </comment>
-           Get "type": "text" content and concatenate them using newline separator
-           Comments from <comment type="online information"> will be ignored.
+           <comment type="function">
+             <text>Platelet-derived .... </text>
+           </comment>
+           <comment type="subunit" evidence="EC1">
+             <text status="by similarity">Antiparallel disulfide-linked .... </text>
+           </comment>
+           <comment type="miscellaneous">
+             <text>A-A and B-B, as well as A-B, dimers can bind to the PDGF receptor.</text>
+           </comment>
+           <comment type="similarity">
+             <text>Belongs to the PDGF/VEGF growth factor family.</text>
+           </comment>
+           .....
+           <comment type="online information" name="Regranex">
+             <link uri="http://www.regranex.com/"/>
+             <text>Clinical information on Regranex</text>
+           </comment>
+        Get "type": "text" content and concatenate them using newline separator
+        Comments from <comment type="online information"> will be ignored.
         """
 
-        type = node.attributes['type']
-        if type and type.value != 'online information':
+        ntype = node.attributes["type"]
+        if ntype and ntype.value != "online information":
             text = self._findText(node.childNodes)
             if text is not None:
-                if 'comments' in dict:
-                    dict['comments'] = dict['comments'] + '\n' + type.value + ': ' + text
+                if "comments" in cDict:
+                    cDict["comments"] = cDict["comments"] + "\n" + ntype.value + ": " + text
                 else:
-                    dict['comments'] = type.value + ': ' + text
+                    cDict["comments"] = ntype.value + ": " + text
 
     def _findText(self, nodeList):
         """Get text value from
-           <text status="by similarity">Antiparallel disulfide-linked .... </text>
+        <text status="by similarity">Antiparallel disulfide-linked .... </text>
         """
         for node in nodeList:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
-            if node.tagName == 'text':
+            if node.tagName == "text":
                 return node.firstChild.data
         return None
 
-    def _FindIsoFormSeq(self, doc, vId, dict):
+    def _FindIsoFormSeq(self, doc, vId, vDict):
         """Get isoform sequence for vId if it exists  -  """
-        if (self.__debug):
-            self.__lfh.write("+ReadUnpXML._FindIsoFormSeq - starting vId %s dict %r\n" % (vId, dict.items()))
+        if self.__debug:
+            self.__lfh.write("+ReadUnpXML._FindIsoFormSeq - starting vId %s dict %r\n" % (vId, vDict.items()))
         try:
             isoformdic = self._FindIsoFormIds(doc)
 
@@ -390,53 +387,53 @@ class ReadUnpXml:
                 return False, False
 
             # JDW 12-DEC-2015  Remove this test for a reference - Finding isoform data in comments lacking this
-            if isoformdic[vId]['type'] == 'displayed' or 'ref' not in isoformdic[vId]:
+            if isoformdic[vId]["type"] == "displayed" or "ref" not in isoformdic[vId]:
                 # return True, False
                 return True, False
 
             refdic = self._FindIsoFormRefs(doc)
-            if (self.__debug):
+            if self.__debug:
                 self.__lfh.write("+ReadUnpXML._FindIsoFormSeq - vId %s refdic  %r\n" % (vId, refdic.items()))
 
             if not refdic:
                 # return with sequence updated = False
                 return True, False
 
-            reflist = isoformdic[vId]['ref'].split(' ')
+            reflist = isoformdic[vId]["ref"].split(" ")
             # Reverse the ref list order so that sequence manipulation starts from C-terminal
             reflist.reverse()
             for ref in reflist:
                 if ref in refdic:
-                    dict['sequence'] = self._ProcessIsoFormSeq(dict['sequence'], refdic[ref])
+                    vDict["sequence"] = self._ProcessIsoFormSeq(vDict["sequence"], refdic[ref])
             # return with seqquence updated = True
             return True, True
-        except:
-            self.__lfh.write("_findIsoFormSeq() failing -- %s\n" % vId)
+        except Exception as e:
+            self.__lfh.write("_findIsoFormSeq() failing -- %s %s\n" % (vId, str(e)))
             traceback.print_exc(file=self.__lfh)
         return False, False
 
     def _FindIsoFormIds(self, doc):
         """Get isoform information from:
-               <isoform>
-                 <id>P42284-2</id>
-                 <name>V</name>
-                 <name>Ohsako-G</name>
-                 <sequence type="displayed"/>
-               </isoform>
-               <isoform>
-                 <id>P42284-3</id>
-                 <name>H</name>
-                 <name>Ohsako-M</name>
-                 <sequence type="described" ref="VSP_015404 VSP_015406"/>
-               </isoform>
+            <isoform>
+              <id>P42284-2</id>
+              <name>V</name>
+              <name>Ohsako-G</name>
+              <sequence type="displayed"/>
+            </isoform>
+            <isoform>
+              <id>P42284-3</id>
+              <name>H</name>
+              <name>Ohsako-M</name>
+              <sequence type="described" ref="VSP_015404 VSP_015406"/>
+            </isoform>
 
-           and put them into dictionary:
+        and put them into dictionary:
 
-               { 'P42284-2' : { 'type' : 'displayed'},
-                 'P42284-3' : { 'type' : 'described', 'ref' : 'VSP_015404 VSP_015406' } }
+            { 'P42284-2' : { 'type' : 'displayed'},
+              'P42284-3' : { 'type' : 'described', 'ref' : 'VSP_015404 VSP_015406' } }
         """
         dic = {}
-        entryList = doc.getElementsByTagName('isoform')
+        entryList = doc.getElementsByTagName("isoform")
         if not entryList:
             return dic
 
@@ -444,60 +441,60 @@ class ReadUnpXml:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
 
-            #id = None
-            id = []
-            type = None
+            # id = None
+            lid = []
+            stype = None
             ref = None
             for node1 in node.childNodes:
                 if node1.nodeType != node1.ELEMENT_NODE:
                     continue
-                if node1.tagName == 'id':
-                    id.append(node1.firstChild.data)
+                if node1.tagName == "id":
+                    lid.append(node1.firstChild.data)
 
-                elif node1.tagName == 'sequence':
-                    type = node1.attributes['type'].value
+                elif node1.tagName == "sequence":
+                    stype = node1.attributes["type"].value
                     # JDW Aug-26 The following is behaving badly  --
                     try:
-                        if 'ref' in node1.attributes:
-                            ref = node1.attributes['ref'].value
-                    except:
+                        if "ref" in node1.attributes:
+                            ref = node1.attributes["ref"].value
+                    except:  # noqa: E722 pylint: disable=bare-except
                         pass
 
-            if len(id) < 1 or not type:
+            if len(lid) < 1 or not stype:
                 continue
             d = {}
-            d['type'] = type
+            d["type"] = stype
             if ref:
-                d['ref'] = ref
-            dic[id[0]] = d
+                d["ref"] = ref
+            dic[lid[0]] = d
 
         return dic
 
     def _FindIsoFormRefs(self, doc):
         """Get variant information from
 
-               <feature type="splice variant" id="VSP_015404" description="(in isoform H)">
-                 <original>DVSTNQTVVLPHYSIYHYYSNIYYLLSHTTIYEADRTVSVSCPGKLNCLPQRNDLQETKSVTVL</original>
-                 <variation>DEAGQNEGGESRIRVRNWLMLADKSIIGKSSDEPSVLHIVLLLSTHRHIISFLLIIQSFIDKIY</variation>
-                 <location>
-                   <begin position="455"/>
-                   <end position="518"/>
-                 </location>
-               </feature>
-               <feature type="splice variant" id="VSP_015406" description="(in isoform H)">
-                 <location>
-                   <begin position="519"/>
-                   <end position="549"/>
-                 </location>
-               </feature>
+            <feature type="splice variant" id="VSP_015404" description="(in isoform H)">
+              <original>DVSTNQTVVLPHYSIYHYYSNIYYLLSHTTIYEADRTVSVSCPGKLNCLPQRNDLQETKSVTVL</original>
+              <variation>DEAGQNEGGESRIRVRNWLMLADKSIIGKSSDEPSVLHIVLLLSTHRHIISFLLIIQSFIDKIY</variation>
+              <location>
+                <begin position="455"/>
+                <end position="518"/>
+              </location>
+            </feature>
+            <feature type="splice variant" id="VSP_015406" description="(in isoform H)">
+              <location>
+                <begin position="519"/>
+                <end position="549"/>
+              </location>
+            </feature>
 
-           and put them into dictionary:
+        and put them into dictionary:
 
-               { 'VSP_015404' : { 'begin' : '455', 'end' : '518', 'variation' : 'DEAGQNEGG....' },
-                 'VSP_015406' : { 'begin' : '519', 'end' : '549' } }
+            { 'VSP_015404' : { 'begin' : '455', 'end' : '518', 'variation' : 'DEAGQNEGG....' },
+              'VSP_015406' : { 'begin' : '519', 'end' : '549' } }
         """
         dic = {}
-        entryList = doc.getElementsByTagName('feature')
+        entryList = doc.getElementsByTagName("feature")
         if not entryList:
             return dic
 
@@ -505,59 +502,58 @@ class ReadUnpXml:
             if node.nodeType != node.ELEMENT_NODE:
                 continue
 
-            if node.attributes['type'].value != 'splice variant':
+            if node.attributes["type"].value != "splice variant":
                 continue
 
-            if 'id' not in node.attributes:
+            if "id" not in node.attributes:
                 continue
 
-            id = node.attributes['id'].value
+            aid = node.attributes["id"].value
             begin = None
             end = None
             variation = None
             for node1 in node.childNodes:
                 if node1.nodeType != node1.ELEMENT_NODE:
                     continue
-                if node1.tagName == 'variation':
-                    variation = node1.firstChild.data.replace('\n','')
-                elif node1.tagName == 'location':
+                if node1.tagName == "variation":
+                    variation = node1.firstChild.data.replace("\n", "")
+                elif node1.tagName == "location":
                     for node2 in node1.childNodes:
                         if node2.nodeType != node2.ELEMENT_NODE:
                             continue
-                        if node2.tagName == 'begin':
-                            begin = node2.attributes['position'].value
-                        elif node2.tagName == 'end':
-                            end = node2.attributes['position'].value
+                        if node2.tagName == "begin":
+                            begin = node2.attributes["position"].value
+                        elif node2.tagName == "end":
+                            end = node2.attributes["position"].value
 
             if not begin or not end:
                 continue
             d = {}
-            d['begin'] = begin
-            d['end'] = end
+            d["begin"] = begin
+            d["end"] = end
             if variation:
-                d['variation'] = variation
-            dic[id] = d
+                d["variation"] = variation
+            dic[aid] = d
 
         return dic
 
     def _ProcessIsoFormSeq(self, seq, ref):
         """Manipulate sequence using information from dictionary ref:
 
-               { 'begin' : '455', 'end' : '518', 'variation' : 'DEAGQNEGG....' }
+        { 'begin' : '455', 'end' : '518', 'variation' : 'DEAGQNEGG....' }
         """
-        begin = int(ref['begin']) - 1
-        end = int(ref['end'])
+        begin = int(ref["begin"]) - 1
+        end = int(ref["end"])
         seq1 = seq[0:begin]
-        if 'variation' in ref:
-            seq1 += ref['variation']
+        if "variation" in ref:
+            seq1 += ref["variation"]
         seq1 += seq[end:]
         return seq1
 
 
 class ReadUnpXmlFile(ReadUnpXml):
 
-    """
-    """
+    """"""
 
     def __init__(self, fileName):
         self._fileName = fileName
@@ -567,8 +563,7 @@ class ReadUnpXmlFile(ReadUnpXml):
 
 class ReadUnpXmlString(ReadUnpXml):
 
-    """
-    """
+    """"""
 
     def __init__(self, data, verbose=False, log=sys.stderr):
         self._data = data
@@ -576,16 +571,17 @@ class ReadUnpXmlString(ReadUnpXml):
         ReadUnpXml.__init__(self, self._doc, verbose=verbose, log=log)
 
 
-def main(argv):
-    opts, args = getopt.getopt(argv, "x:", ["xml="])
+def main(argv):  # pragma: no cover
+    opts, _args = getopt.getopt(argv, "x:", ["xml="])
     for opt, arg in opts:
         if opt in ("-x", "--xml"):
             obj = ReadUnpXmlFile(arg)
-            dict = obj.GetResult()
-            for (k, v) in dict.items():
+            rdict = obj.getResult()
+            for (k, v) in rdict.items():
                 print("%s=%s" % (k, v))
 
-if __name__ == "__main__":
+
+if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)

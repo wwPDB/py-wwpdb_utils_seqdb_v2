@@ -1,0 +1,572 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2019-12-11" version="119">
+<accession>P29838</accession>
+<name>POLG_LANVY</name>
+<protein>
+<recommendedName>
+<fullName>Genome polyprotein</fullName>
+</recommendedName>
+<component>
+<recommendedName>
+<fullName>Capsid protein C</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>Core protein</fullName>
+</alternativeName>
+</component>
+<component>
+<recommendedName>
+<fullName>Protein prM</fullName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Peptide pr</fullName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Small envelope protein M</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>Matrix protein</fullName>
+</alternativeName>
+</component>
+<component>
+<recommendedName>
+<fullName>Envelope protein E</fullName>
+</recommendedName>
+</component>
+</protein>
+<organism>
+<name type="scientific">Langat virus (strain Yelantsev)</name>
+<dbReference type="NCBI Taxonomy" id="31639"/>
+<lineage>
+<taxon>Viruses</taxon>
+<taxon>Riboviria</taxon>
+<taxon>Flaviviridae</taxon>
+<taxon>Flavivirus</taxon>
+</lineage>
+</organism>
+<organismHost>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+</organismHost>
+<organismHost>
+<name type="scientific">Ixodida</name>
+<name type="common">ticks</name>
+<dbReference type="NCBI Taxonomy" id="6935"/>
+</organismHost>
+<reference key="1">
+<citation type="journal article" date="1991" name="Virology" volume="185" first="891" last="895">
+<title>Sequence of the genes encoding the structural proteins of the low-virulence tick-borne flaviviruses Langat TP21 and Yelantsev.</title>
+<authorList>
+<person name="Mandl C.W."/>
+<person name="Iacono-Connors L.C."/>
+<person name="Wallner G."/>
+<person name="Holzmann H."/>
+<person name="Kunz C."/>
+<person name="Heinz F.X."/>
+</authorList>
+<dbReference type="PubMed" id="1720591"/>
+<dbReference type="DOI" id="10.1016/0042-6822(91)90567-u"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA]</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2006" name="Protein Sci." volume="15" first="1342" last="1355">
+<title>NMR solution structure and backbone dynamics of domain III of the E protein of tick-borne Langat flavivirus suggests a potential site for molecular recognition.</title>
+<authorList>
+<person name="Mukherjee M."/>
+<person name="Dutta K."/>
+<person name="White M.A."/>
+<person name="Cowburn D."/>
+<person name="Fox R.O."/>
+</authorList>
+<dbReference type="PubMed" id="16731969"/>
+<dbReference type="DOI" id="10.1110/ps.051844006"/>
+</citation>
+<scope>STRUCTURE BY NMR OF 580-675</scope>
+</reference>
+<comment type="function">
+<text evidence="1">Capsid protein C self-assembles to form an icosahedral capsid about 30 nm in diameter. The capsid encapsulates the genomic RNA (By similarity).</text>
+</comment>
+<comment type="function">
+<text evidence="1">prM acts as a chaperone for envelope protein E during intracellular virion assembly by masking and inactivating envelope protein E fusion peptide. prM is matured in the last step of virion assembly, presumably to avoid catastrophic activation of the viral fusion peptide induced by the acidic pH of the trans-Golgi network. After cleavage by host furin, the pr peptide is released in the extracellular medium and small envelope protein M and envelope protein E homodimers are dissociated (By similarity).</text>
+</comment>
+<comment type="function">
+<text evidence="1">Envelope protein E binding to host cell surface receptor is followed by virus internalization through clathrin-mediated endocytosis. Envelope protein E is subsequently involved in membrane fusion between virion and host late endosomes. Synthesized as a homodimer with prM which acts as a chaperone for envelope protein E. After cleavage of prM, envelope protein E dissociate from small envelope protein M and homodimerizes (By similarity).</text>
+</comment>
+<comment type="subcellular location">
+<molecule>Capsid protein C</molecule>
+<subcellularLocation>
+<location evidence="3">Virion</location>
+</subcellularLocation>
+</comment>
+<comment type="subcellular location">
+<molecule>Peptide pr</molecule>
+<subcellularLocation>
+<location evidence="1">Secreted</location>
+</subcellularLocation>
+</comment>
+<comment type="subcellular location">
+<molecule>Small envelope protein M</molecule>
+<subcellularLocation>
+<location evidence="1">Virion membrane</location>
+<topology evidence="1">Multi-pass membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="1">Host endoplasmic reticulum membrane</location>
+<topology evidence="1">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="subcellular location">
+<molecule>Envelope protein E</molecule>
+<subcellularLocation>
+<location evidence="1">Virion membrane</location>
+<topology evidence="1">Multi-pass membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="1">Host endoplasmic reticulum membrane</location>
+<topology evidence="1">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="PTM">
+<text evidence="1">Specific enzymatic cleavages in vivo yield mature proteins Peptide 2K acts as a signal sequence and is removed from the N-terminus of NS4B by the host signal peptidase in the ER lumen. Signal cleavage at the 2K-4B site requires a prior NS3 protease-mediated cleavage at the 4A-2K site (By similarity).</text>
+</comment>
+<dbReference type="EMBL" id="M73835">
+<property type="protein sequence ID" value="AAA02740.1"/>
+<property type="molecule type" value="Unassigned_RNA"/>
+</dbReference>
+<dbReference type="PIR" id="A41704">
+<property type="entry name" value="A41704"/>
+</dbReference>
+<dbReference type="PDB" id="1Z66">
+<property type="method" value="NMR"/>
+<property type="chains" value="A=580-675"/>
+</dbReference>
+<dbReference type="PDBsum" id="1Z66"/>
+<dbReference type="SMR" id="P29838"/>
+<dbReference type="PRIDE" id="P29838"/>
+<dbReference type="EvolutionaryTrace" id="P29838"/>
+<dbReference type="GO" id="GO:0005576">
+<property type="term" value="C:extracellular region"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044167">
+<property type="term" value="C:host cell endoplasmic reticulum membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019028">
+<property type="term" value="C:viral capsid"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019031">
+<property type="term" value="C:viral envelope"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0055036">
+<property type="term" value="C:virion membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046983">
+<property type="term" value="F:protein dimerization activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005198">
+<property type="term" value="F:structural molecule activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0075512">
+<property type="term" value="P:clathrin-dependent endocytosis of virus by host cell"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039654">
+<property type="term" value="P:fusion of virus membrane with host endosome membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019062">
+<property type="term" value="P:virion attachment to host cell"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="CDD" id="cd12149">
+<property type="entry name" value="Flavi_E_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.8.970">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.20.1280.260">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.260.50">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.350">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.98.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.387.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.67.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000069">
+<property type="entry name" value="Env_glycoprot_M_flavivir"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038302">
+<property type="entry name" value="Env_glycoprot_M_sf_flavivir"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013755">
+<property type="entry name" value="Flav_gly_cen_dom_subdom1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001122">
+<property type="entry name" value="Flavi_capsidC"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027287">
+<property type="entry name" value="Flavi_E_Ig-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR026470">
+<property type="entry name" value="Flavi_E_Stem/Anchor_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038345">
+<property type="entry name" value="Flavi_E_Stem/Anchor_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002535">
+<property type="entry name" value="Flavi_propep"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038688">
+<property type="entry name" value="Flavi_propep_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000336">
+<property type="entry name" value="Flavivir/Alphavir_Ig-like_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011998">
+<property type="entry name" value="Glycoprot_cen/dimer"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036253">
+<property type="entry name" value="Glycoprot_cen/dimer_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038055">
+<property type="entry name" value="Glycoprot_E_dimer_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013756">
+<property type="entry name" value="GlyE_cen_dom_subdom2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014756">
+<property type="entry name" value="Ig_E-set"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01003">
+<property type="entry name" value="Flavi_capsid"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02832">
+<property type="entry name" value="Flavi_glycop_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00869">
+<property type="entry name" value="Flavi_glycoprot"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01004">
+<property type="entry name" value="Flavi_M"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01570">
+<property type="entry name" value="Flavi_propep"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56983">
+<property type="entry name" value="SSF56983"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF81296">
+<property type="entry name" value="SSF81296"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR04240">
+<property type="entry name" value="flavi_E_stem"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0167">Capsid protein</keyword>
+<keyword id="KW-1165">Clathrin-mediated endocytosis of virus by host</keyword>
+<keyword id="KW-0165">Cleavage on pair of basic residues</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-1170">Fusion of virus membrane with host endosomal membrane</keyword>
+<keyword id="KW-1168">Fusion of virus membrane with host membrane</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-1038">Host endoplasmic reticulum</keyword>
+<keyword id="KW-1043">Host membrane</keyword>
+<keyword id="KW-0945">Host-virus interaction</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0964">Secreted</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<keyword id="KW-1161">Viral attachment to host cell</keyword>
+<keyword id="KW-0261">Viral envelope protein</keyword>
+<keyword id="KW-1162">Viral penetration into host cytoplasm</keyword>
+<keyword id="KW-0946">Virion</keyword>
+<keyword id="KW-1164">Virus endocytosis by host</keyword>
+<keyword id="KW-1160">Virus entry into host cell</keyword>
+<feature type="chain" description="Genome polyprotein" id="PRO_0000405133">
+<location>
+<begin position="1"/>
+<end position="776" status="greater than"/>
+</location>
+</feature>
+<feature type="chain" description="Capsid protein C" id="PRO_0000037699" evidence="1">
+<location>
+<begin position="1"/>
+<end position="96"/>
+</location>
+</feature>
+<feature type="propeptide" description="ER anchor for the protein C, removed in mature form by serine protease NS3" id="PRO_0000405134" evidence="1">
+<location>
+<begin position="97"/>
+<end position="117"/>
+</location>
+</feature>
+<feature type="chain" description="Protein prM" id="PRO_0000405135" evidence="1">
+<location>
+<begin position="118"/>
+<end position="280"/>
+</location>
+</feature>
+<feature type="chain" description="Peptide pr" id="PRO_0000037700" evidence="1">
+<location>
+<begin position="118"/>
+<end position="205"/>
+</location>
+</feature>
+<feature type="chain" description="Small envelope protein M" id="PRO_0000037701" evidence="1">
+<location>
+<begin position="206"/>
+<end position="280"/>
+</location>
+</feature>
+<feature type="chain" description="Envelope protein E" id="PRO_0000037702" evidence="1">
+<location>
+<begin position="281"/>
+<end position="776"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="1"/>
+<end position="98"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="99"/>
+<end position="117"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="118"/>
+<end position="242"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="243"/>
+<end position="260"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<position position="261"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="262"/>
+<end position="280"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="281"/>
+<end position="727"/>
+</location>
+</feature>
+<feature type="intramembrane region" description="Helical" evidence="2">
+<location>
+<begin position="728"/>
+<end position="748"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="749"/>
+<end position="755"/>
+</location>
+</feature>
+<feature type="intramembrane region" description="Helical" evidence="2">
+<location>
+<begin position="756"/>
+<end position="776"/>
+</location>
+</feature>
+<feature type="region of interest" description="Hydrophobic; homodimerization of capsid protein C" evidence="1">
+<location>
+<begin position="33"/>
+<end position="68"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by viral protease NS3" evidence="2">
+<location>
+<begin position="96"/>
+<end position="97"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by host signal peptidase" evidence="1">
+<location>
+<begin position="117"/>
+<end position="118"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by host furin" evidence="2">
+<location>
+<begin position="205"/>
+<end position="206"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by host signal peptidase" evidence="2">
+<location>
+<begin position="280"/>
+<end position="281"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine; by host" evidence="2">
+<location>
+<position position="144"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine; by host" evidence="2">
+<location>
+<position position="434"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="283"/>
+<end position="310"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="340"/>
+<end position="396"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="354"/>
+<end position="385"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="372"/>
+<end position="401"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="466"/>
+<end position="570"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="587"/>
+<end position="618"/>
+</location>
+</feature>
+<feature type="non-terminal residue">
+<location>
+<position position="776"/>
+</location>
+</feature>
+<feature type="turn">
+<location>
+<begin position="589"/>
+<end position="591"/>
+</location>
+</feature>
+<feature type="strand">
+<location>
+<begin position="596"/>
+<end position="600"/>
+</location>
+</feature>
+<feature type="strand">
+<location>
+<begin position="605"/>
+<end position="609"/>
+</location>
+</feature>
+<feature type="strand">
+<location>
+<begin position="617"/>
+<end position="619"/>
+</location>
+</feature>
+<feature type="strand">
+<location>
+<begin position="623"/>
+<end position="626"/>
+</location>
+</feature>
+<feature type="strand">
+<location>
+<begin position="652"/>
+<end position="654"/>
+</location>
+</feature>
+<feature type="strand">
+<location>
+<begin position="661"/>
+<end position="664"/>
+</location>
+</feature>
+<feature type="strand">
+<location>
+<begin position="669"/>
+<end position="672"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="776" mass="84537" checksum="5F7557E55A33BE3B" modified="1996-02-01" version="2" fragment="single">MAGKAVLKGKGGGPPRRASKVAPKKTRQLRVQMPNGLVLMRMLGVLWHALTGTARSPVLKAFWKVVPLKQATLALRKIKRTVSTLMVGLHRRGSRRTTIDWMTPLLITVMLGMCLTATVRRERDGSMVIRAEGRDAATQVRVENGTCVILATDMGSWCDDSLAYECVTIDQGEEPVDVDCFCRGVEKVTLEYGRCGRREGSRSRRSVLIPSHAQRDLTGRGHQWLEGEAVKAHLTRVEGWVWKNKLFTLSLVMVAWLMVDGLLPRILIVVVALALVPAYASRCTHLENRDFVTGVQGTTRLTLVLELGGCVTVTADGKPSLDVWLDSIYQESPAQTREYCLHAKLTGTKVAARCPTMGPATLPEEHQSGTVCKRDQSDRGWGNHCGLFGKGSIVTCVKFTCEDKKKATGHVYDVNKITYTIKVEPHTGEFVAANETHSGRKSASFTVSSEKTILTLGDYGDVSLLCRVASGVDLAQTVVLALDKTHEHLPTAWQVHRDWFNDLALPWKHDGAEAWNEAGRLVEFGTPHAVKMDVFNLGDQTGVLLKSLAGVPVASIEGTKYHLKSGHVTCEVGLEKLKMKGLTYTVCDKTKFTWKRAPTDSGHDTVVMEVGFSGTRPCRIPVRAVAHGVPEVNVAMLITPNPTMENNGGGFIEMQLPPGDNIIYVGDLNHQWFQKGSSIGRVLQKTRKGIERLTVLGEHAWDFGSVGGVMTSIGRAMHTVLGGAFNTLLGGVGFLPKILLGVAMAWLGLNMRNPTLSMGFLLSGGLVLAMTLGVGA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

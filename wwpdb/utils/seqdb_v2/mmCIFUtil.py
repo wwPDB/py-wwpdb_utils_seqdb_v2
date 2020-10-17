@@ -6,16 +6,17 @@ Version: 001  Initial version
 
 """
 
-__author__  = "Zukang Feng"
-__email__   = "zfeng@rcsb.rutgers.edu"
+__author__ = "Zukang Feng"
+__email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
 import sys
 from mmcif_utils.persist.PdbxPyIoAdapter import PdbxPyIoAdapter as PdbxIoAdapter
 
-class mmCIFUtil:
-    """Using pdbx mmCIF utility to parse mmCIF file
-    """
+
+class mmCIFUtil(object):
+    """Using pdbx mmCIF utility to parse mmCIF file"""
+
     def __init__(self, verbose=False, log=sys.stderr, filePath=None):
         self.__verbose = verbose
         self.__lfh = log
@@ -26,8 +27,8 @@ class mmCIFUtil:
         #
 
     def __read(self):
-        myReader=PdbxIoAdapter(self.__verbose, self.__lfh)
-        ok=myReader.read(pdbxFilePath = self.__filePath)
+        myReader = PdbxIoAdapter(self.__verbose, self.__lfh)
+        _ok = myReader.read(pdbxFilePath=self.__filePath)  # noqa: F841
         containerNameList = myReader.getContainerNameList()
         if not containerNameList:
             return
@@ -42,9 +43,9 @@ class mmCIFUtil:
 
     def GetValue(self, catName):
         """Get category values based on category name 'catName'. The results are stored
-           in a list of dictionaries with item name as key
+        in a list of dictionaries with item name as key
         """
-        dList = [] 
+        dList = []
         if not self.__container:
             return dList
         #
@@ -60,8 +61,8 @@ class mmCIFUtil:
         for row in rowList:
             tD = {}
             for idxIt, itName in enumerate(itNameList):
-                if row[idxIt] != '?' and row[idxIt] != '.':
-                    tlist = itName.split('.')
+                if row[idxIt] != "?" and row[idxIt] != ".":
+                    tlist = itName.split(".")
                     tD[tlist[1]] = row[idxIt]
             #
             if tD:

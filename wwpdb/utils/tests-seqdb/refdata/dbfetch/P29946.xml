@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="127">
+<accession>P29946</accession>
+<name>CBIA_SALTY</name>
+<protein>
+<recommendedName>
+<fullName evidence="1 5">Cobyrinate a,c-diamide synthase</fullName>
+<ecNumber evidence="1">6.3.5.11</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="1 3">Cobyrinic acid a,c-diamide synthetase</fullName>
+</alternativeName>
+<component>
+<recommendedName>
+<fullName evidence="5">Cobyrinate a,c-diamide synthase, N-terminally processed</fullName>
+</recommendedName>
+</component>
+</protein>
+<gene>
+<name type="primary" evidence="1 4">cbiA</name>
+<name type="ordered locus">STM2035</name>
+</gene>
+<organism>
+<name type="scientific">Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)</name>
+<dbReference type="NCBI Taxonomy" id="99287"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Salmonella</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1993" name="J. Bacteriol." volume="175" first="3303" last="3316">
+<title>Characterization of the cobalamin (vitamin B12) biosynthetic genes of Salmonella typhimurium.</title>
+<authorList>
+<person name="Roth J.R."/>
+<person name="Lawrence J.G."/>
+<person name="Rubenfield M."/>
+<person name="Kieffer-Higgins S."/>
+<person name="Church G.M."/>
+</authorList>
+<dbReference type="PubMed" id="8501034"/>
+<dbReference type="DOI" id="10.1128/jb.175.11.3303-3316.1993"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>LT2</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2001" name="Nature" volume="413" first="852" last="856">
+<title>Complete genome sequence of Salmonella enterica serovar Typhimurium LT2.</title>
+<authorList>
+<person name="McClelland M."/>
+<person name="Sanderson K.E."/>
+<person name="Spieth J."/>
+<person name="Clifton S.W."/>
+<person name="Latreille P."/>
+<person name="Courtney L."/>
+<person name="Porwollik S."/>
+<person name="Ali J."/>
+<person name="Dante M."/>
+<person name="Du F."/>
+<person name="Hou S."/>
+<person name="Layman D."/>
+<person name="Leonard S."/>
+<person name="Nguyen C."/>
+<person name="Scott K."/>
+<person name="Holmes A."/>
+<person name="Grewal N."/>
+<person name="Mulvaney E."/>
+<person name="Ryan E."/>
+<person name="Sun H."/>
+<person name="Florea L."/>
+<person name="Miller W."/>
+<person name="Stoneking T."/>
+<person name="Nhan M."/>
+<person name="Waterston R."/>
+<person name="Wilson R.K."/>
+</authorList>
+<dbReference type="PubMed" id="11677609"/>
+<dbReference type="DOI" id="10.1038/35101614"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>LT2 / SGSC1412 / ATCC 700720</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1992" name="Mol. Microbiol." volume="6" first="743" last="749">
+<title>Cobalamin (vitamin B12) repression of the Cob operon in Salmonella typhimurium requires sequences within the leader and the first translated open reading frame.</title>
+<authorList>
+<person name="Richter-Dahlfors A.A."/>
+<person name="Andersson D.I."/>
+</authorList>
+<dbReference type="PubMed" id="1374146"/>
+<dbReference type="DOI" id="10.1111/j.1365-2958.1992.tb01524.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-106</scope>
+<source>
+<strain>LT2</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2004" name="Biochemistry" volume="43" first="10619" last="10627">
+<title>Mechanism of cobyrinic acid a,c-diamide synthetase from Salmonella typhimurium LT2.</title>
+<authorList>
+<person name="Fresquet V."/>
+<person name="Williams L."/>
+<person name="Raushel F.M."/>
+</authorList>
+<dbReference type="PubMed" id="15311923"/>
+<dbReference type="DOI" id="10.1021/bi048972x"/>
+</citation>
+<scope>PROTEIN SEQUENCE OF 2-7</scope>
+<scope>FUNCTION</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>SUBSTRATE SPECIFICITY</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<scope>SUBUNIT</scope>
+<scope>DOMAIN</scope>
+<scope>REACTION MECHANISM</scope>
+<scope>MUTAGENESIS OF ASP-45; TYR-46; LEU-47; ASP-48; GLU-90 AND ASP-97</scope>
+<source>
+<strain>LT2 / SGSC1412 / ATCC 700720</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1 2">Catalyzes the ATP-dependent amidation of the two carboxylate groups at positions a and c of cobyrinate, using either L-glutamine or ammonia as the nitrogen source. Is able to use other nucleotide triphosphates as substrate, such as GTP or UTP, although less efficiently than ATP.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1 2">
+<text>2 ATP + cob(II)yrinate + 2 H2O + 2 L-glutamine = 2 ADP + cob(II)yrinate a,c diamide + 2 H(+) + 2 L-glutamate + 2 phosphate</text>
+<dbReference type="Rhea" id="RHEA:26289"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:29985"/>
+<dbReference type="ChEBI" id="CHEBI:30616"/>
+<dbReference type="ChEBI" id="CHEBI:43474"/>
+<dbReference type="ChEBI" id="CHEBI:58359"/>
+<dbReference type="ChEBI" id="CHEBI:58537"/>
+<dbReference type="ChEBI" id="CHEBI:58894"/>
+<dbReference type="ChEBI" id="CHEBI:456216"/>
+<dbReference type="EC" id="6.3.5.11"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>Mg(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:18420"/>
+</cofactor>
+</comment>
+<comment type="biophysicochemical properties">
+<kinetics>
+<KM evidence="2">0.74 uM for cobyrinate</KM>
+<KM evidence="2">2.7 uM for ATP</KM>
+<KM evidence="2">53 uM for glutamine</KM>
+<KM evidence="2">26200 uM for ammonia</KM>
+<text evidence="2">kcat is 0.16 sec(-1).</text>
+</kinetics>
+<phDependence>
+<text evidence="2">The catalytic activity is essentially constant between pH 6.8 and 8.0.</text>
+</phDependence>
+</comment>
+<comment type="pathway" evidence="1 3">
+<text>Cofactor biosynthesis; adenosylcobalamin biosynthesis; cob(II)yrinate a,c-diamide from sirohydrochlorin (anaerobic route): step 10/10.</text>
+</comment>
+<comment type="subunit">
+<text evidence="2">Monomer.</text>
+</comment>
+<comment type="domain">
+<text evidence="1 3">Comprises of two domains. The C-terminal domain contains the binding site for glutamine and catalyzes the hydrolysis of this substrate to glutamate and ammonia. The N-terminal domain is anticipated to bind ATP and cobyrinate and catalyzes the ultimate synthesis of the diamide product. The ammonia produced via the glutaminase domain is probably translocated to the adjacent domain via a molecular tunnel, where it reacts with an activated intermediate.</text>
+</comment>
+<comment type="miscellaneous">
+<text evidence="1 2">The a and c carboxylates of cobyrinate are activated for nucleophilic attack via formation of a phosphorylated intermediate by ATP. CbiA catalyzes first the amidation of the c-carboxylate, and then that of the a-carboxylate.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the CobB/CbiA family.</text>
+</comment>
+<dbReference type="EC" id="6.3.5.11" evidence="1"/>
+<dbReference type="EMBL" id="L12006">
+<property type="protein sequence ID" value="AAA27252.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE006468">
+<property type="protein sequence ID" value="AAL20939.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="X63012">
+<property type="protein sequence ID" value="CAA44740.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S20553">
+<property type="entry name" value="S20553"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_460980.1">
+<property type="nucleotide sequence ID" value="NC_003197.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000741259.1">
+<property type="nucleotide sequence ID" value="NC_003197.2"/>
+</dbReference>
+<dbReference type="PaxDb" id="P29946"/>
+<dbReference type="PRIDE" id="P29946"/>
+<dbReference type="EnsemblBacteria" id="AAL20939">
+<property type="protein sequence ID" value="AAL20939"/>
+<property type="gene ID" value="STM2035"/>
+</dbReference>
+<dbReference type="GeneID" id="1253556"/>
+<dbReference type="KEGG" id="stm:STM2035"/>
+<dbReference type="PATRIC" id="fig|99287.12.peg.2157"/>
+<dbReference type="HOGENOM" id="CLU_022752_2_0_6"/>
+<dbReference type="KO" id="K02224"/>
+<dbReference type="OMA" id="MYLTNSI"/>
+<dbReference type="PhylomeDB" id="P29946"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-13217"/>
+<dbReference type="BioCyc" id="SENT99287:STM2035-MONOMER"/>
+<dbReference type="BRENDA" id="6.3.5.11">
+<property type="organism ID" value="5542"/>
+</dbReference>
+<dbReference type="SABIO-RK" id="P29946"/>
+<dbReference type="UniPathway" id="UPA00148">
+<property type="reaction ID" value="UER00231"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000001014">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042242">
+<property type="term" value="F:cobyrinic acid a,c-diamide synthase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009236">
+<property type="term" value="P:cobalamin biosynthetic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006541">
+<property type="term" value="P:glutamine metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.880">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_00027">
+<property type="entry name" value="CobB_CbiA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR004484">
+<property type="entry name" value="CbiA_synth"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029062">
+<property type="entry name" value="Class_I_gatase-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017929">
+<property type="entry name" value="CobB/CobQ_GATase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002586">
+<property type="entry name" value="CobQ/CobB/MinD/ParA_Nub-bd_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011698">
+<property type="entry name" value="GATase_3"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027417">
+<property type="entry name" value="P-loop_NTPase"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR43873">
+<property type="entry name" value="PTHR43873"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01656">
+<property type="entry name" value="CbiA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07685">
+<property type="entry name" value="GATase_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52317">
+<property type="entry name" value="SSF52317"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52540">
+<property type="entry name" value="SSF52540"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00379">
+<property type="entry name" value="cobB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51274">
+<property type="entry name" value="GATASE_COBBQ"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0169">Cobalamin biosynthesis</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0315">Glutamine amidotransferase</keyword>
+<keyword id="KW-0436">Ligase</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Cobyrinate a,c-diamide synthase" id="PRO_0000141269">
+<location>
+<begin position="1"/>
+<end position="459"/>
+</location>
+</feature>
+<feature type="initiator methionine" description="Removed; alternate" evidence="2">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Cobyrinate a,c-diamide synthase, N-terminally processed" id="PRO_0000430805">
+<location>
+<begin position="2"/>
+<end position="459"/>
+</location>
+</feature>
+<feature type="domain" description="GATase cobBQ-type" evidence="1">
+<location>
+<begin position="252"/>
+<end position="446"/>
+</location>
+</feature>
+<feature type="active site" description="Nucleophile" evidence="1">
+<location>
+<position position="334"/>
+</location>
+</feature>
+<feature type="site" description="Increases nucleophilicity of active site Cys" evidence="1">
+<location>
+<position position="438"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of amidation activity when glutamine is used as substrate, and 750-fold reduction in amidation activity whith ammonia as substrate." evidence="2">
+<original>D</original>
+<variation>N</variation>
+<location>
+<position position="45"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="26-fold reduction in amidation activity with glutamine as substrate. The affinity for cobyrinate is nearly not affected whereas that for the c-monoamide intermediate decreases by 27-fold." evidence="2">
+<original>Y</original>
+<variation>A</variation>
+<location>
+<position position="46"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="10-fold reduction in amidation activity with glutamine as substrate. The affinity for cobyrinate is nearly not affected whereas that for the c-monoamide intermediate decreases by 6-fold." evidence="2">
+<original>L</original>
+<variation>A</variation>
+<location>
+<position position="47"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="500-fold reduction in amidation activity with either glutamine or ammonia as substrate." evidence="2">
+<original>D</original>
+<variation>N</variation>
+<location>
+<position position="48"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of amidation activity with either glutamine or ammonia as substrate." evidence="2">
+<original>E</original>
+<variation>Q</variation>
+<location>
+<position position="90"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="3-fold reduction in amidation activity with glutamine as substrate." evidence="2">
+<original>D</original>
+<variation>N</variation>
+<location>
+<position position="97"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA27252." ref="1" evidence="5">
+<original>R</original>
+<variation>P</variation>
+<location>
+<position position="36"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA27252." ref="1" evidence="5">
+<original>M</original>
+<variation>I</variation>
+<location>
+<position position="111"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA27252." ref="1" evidence="5">
+<original>V</original>
+<variation>I</variation>
+<location>
+<position position="128"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA27252." ref="1" evidence="5">
+<original>A</original>
+<variation>T</variation>
+<location>
+<position position="133"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_00027"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15311923"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="15311923"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="8501034"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<sequence length="459" mass="50037" checksum="E1FEF1B5A37F5C14" modified="2002-01-23" version="3" precursor="true">MAARHHAFILAGTGSGCGKTTVTLGLLRLLQKRALRVQPFKVGPDYLDTGWHTAICGVASRNLDSFMLPPPVLNALFCEQMRQADIAVIEGVMGLYDGYGVDPNYCSTAAMAKQLGCPVILLVDGKAVSTSLAATVMGFQHFDPTLNLAGVIVNRVTSDAHYQLLKNAIEHYCSLPVLGYVPPCDGVALPERHLGLITARESLVNQQSWHDFAATLEQTVDVDALLSLSVLSALPAGMWPERPDNTAGAGLTLALADDEAFNFYYPDNIDLLERAGVNIVRFSPLHDRALPDCQMIWLGGGYPELYAADLAANTVMLKHLRAAHQRGVAIYAECGGLMYLGSTLEDSGGEIHQMANIIPGHSKMGKRLTRFGYCEAQAMQPTLLAAPGEIVRGHEFHYSDFIPETPAVMACRKVRDGRVLQEWTGGWQTGNTFASYLHVHFAQRPEMLQHWLAAARRVL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

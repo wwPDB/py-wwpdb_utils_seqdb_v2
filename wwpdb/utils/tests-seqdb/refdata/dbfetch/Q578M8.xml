@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-03-20" modified="2020-08-12" version="74">
+<accession>Q578M8</accession>
+<name>Y2784_BRUAB</name>
+<protein>
+<recommendedName>
+<fullName>Putative binding protein BruAb2_0484</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus">BruAb2_0484</name>
+</gene>
+<organism>
+<name type="scientific">Brucella abortus biovar 1 (strain 9-941)</name>
+<dbReference type="NCBI Taxonomy" id="262698"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rhizobiales</taxon>
+<taxon>Brucellaceae</taxon>
+<taxon>Brucella</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2005" name="J. Bacteriol." volume="187" first="2715" last="2726">
+<title>Completion of the genome sequence of Brucella abortus and comparison to the highly similar genomes of Brucella melitensis and Brucella suis.</title>
+<authorList>
+<person name="Halling S.M."/>
+<person name="Peterson-Burch B.D."/>
+<person name="Bricker B.J."/>
+<person name="Zuerner R.L."/>
+<person name="Qing Z."/>
+<person name="Li L.-L."/>
+<person name="Kapur V."/>
+<person name="Alt D.P."/>
+<person name="Olsen S.C."/>
+</authorList>
+<dbReference type="PubMed" id="15805518"/>
+<dbReference type="DOI" id="10.1128/jb.187.8.2715-2726.2005"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>9-941</strain>
+</source>
+</reference>
+<comment type="function">
+<text>Probably part of an ABC transporter complex.</text>
+</comment>
+<comment type="subunit">
+<text evidence="2">The complex is composed of two ATP-binding proteins (BruAb2_0487), two transmembrane proteins (BruAb2_0483) and a solute-binding protein (BruAb2_0484).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="2">Periplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the bacterial solute-binding protein 1 family.</text>
+</comment>
+<dbReference type="EMBL" id="AE017224">
+<property type="protein sequence ID" value="AAX75906.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_002965896.1">
+<property type="nucleotide sequence ID" value="NC_006933.1"/>
+</dbReference>
+<dbReference type="SMR" id="Q578M8"/>
+<dbReference type="PRIDE" id="Q578M8"/>
+<dbReference type="EnsemblBacteria" id="AAX75906">
+<property type="protein sequence ID" value="AAX75906"/>
+<property type="gene ID" value="BruAb2_0484"/>
+</dbReference>
+<dbReference type="GeneID" id="45053765"/>
+<dbReference type="KEGG" id="bmb:BruAb2_0484"/>
+<dbReference type="HOGENOM" id="CLU_031285_10_1_5"/>
+<dbReference type="KO" id="K02027"/>
+<dbReference type="OMA" id="KYIKQWE"/>
+<dbReference type="BioCyc" id="BABO262698:G1G0O-2710-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000540">
+<property type="component" value="Chromosome II"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042597">
+<property type="term" value="C:periplasmic space"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0055085">
+<property type="term" value="P:transmembrane transport"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006061">
+<property type="entry name" value="SBP_1_CS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01547">
+<property type="entry name" value="SBP_bac_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01037">
+<property type="entry name" value="SBP_BACTERIAL_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0574">Periplasm</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="25"/>
+</location>
+</feature>
+<feature type="chain" description="Putative binding protein BruAb2_0484" id="PRO_0000281197">
+<location>
+<begin position="26"/>
+<end position="411"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255"/>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="411" mass="45008" checksum="D2F0E29A25758B5B" modified="2005-05-10" version="1" precursor="true">MLIRKWKAGLLAGLSILALASSADAGEVRMTVAEYSAKTGPYFEEVKKAFEAENPGITLNFEVVPWDVLLQKLTTDISAGTNADLSIIGTRWLIDFVQQGIAEPLDGYMNDEFKGRFIETFLSPSVLDGKTYGLPIAASARAMYYNKDLFEKAGIKNPPANWDELKADAAKIKALGGENYGFGLQGKEIETDVYYYYAMWSYGTEILNKDGTSGLSTPGALEAAKLYKSMIDDGLTQPGVTSYAREDVQNLFKQGKVGMMITAPFLSNQIKEEAPNLKYGVAAIPAGPTGARGTYGVTDSVIMFQNSKNKEEAWKVLDFLFQKDWRAKFTQNEGFLPVNKEEAKMDYYVNNADLAAFTALLPDARFAPVIPGWEEIADITSNAMQSIYLGKGEPDAVLKDAAAKADAILKK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

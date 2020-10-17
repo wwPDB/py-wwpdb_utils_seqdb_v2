@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="95">
+<accession>P29898</accession>
+<name>DHM2_PARDE</name>
+<protein>
+<recommendedName>
+<fullName>Methanol dehydrogenase [cytochrome c] subunit 2</fullName>
+<ecNumber>1.1.2.7</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>MDH small subunit beta</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>MDH-associated peptide</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>MEDH</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">moxI</name>
+</gene>
+<organism>
+<name type="scientific">Paracoccus denitrificans</name>
+<dbReference type="NCBI Taxonomy" id="266"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rhodobacterales</taxon>
+<taxon>Rhodobacteraceae</taxon>
+<taxon>Paracoccus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1991" name="J. Bacteriol." volume="173" first="6948" last="6961">
+<title>Isolation and characterization of the moxJ, moxG, moxI, and moxR genes of Paracoccus denitrificans: inactivation of moxJ, moxG, and moxR and the resultant effect on methylotrophic growth.</title>
+<authorList>
+<person name="van Spanning R.J.M."/>
+<person name="Wansell C.W."/>
+<person name="de Boer T."/>
+<person name="Hazelaar M.J."/>
+<person name="Anazawa H."/>
+<person name="Harms N."/>
+<person name="Oltmann L.F."/>
+<person name="Stouthamer A.H."/>
+</authorList>
+<dbReference type="PubMed" id="1657871"/>
+<dbReference type="DOI" id="10.1128/jb.173.21.6948-6961.1991"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2003" name="J. Biol. Inorg. Chem." volume="8" first="843" last="854">
+<title>X-ray structure of methanol dehydrogenase from Paracoccus denitrificans and molecular modeling of its interactions with cytochrome c-551i.</title>
+<authorList>
+<person name="Xia Z.-X."/>
+<person name="Dai W.W."/>
+<person name="He Y.-N."/>
+<person name="White S.A."/>
+<person name="Mathews F.S."/>
+<person name="Davidson V.L."/>
+</authorList>
+<dbReference type="PubMed" id="14505072"/>
+<dbReference type="DOI" id="10.1007/s00775-003-0485-0"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) OF 21-103 IN COMPLEX WITH ALPHA SUBUNIT</scope>
+<scope>SUBUNIT</scope>
+<scope>DISULFIDE BOND</scope>
+</reference>
+<comment type="function">
+<text evidence="2">Catalyzes the oxidation of primary alcohols including methanol.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>2 [Fe(III)cytochrome cL] + a primary alcohol = 2 [Fe(II)cytochrome cL] + an aldehyde + 2 H(+)</text>
+<dbReference type="Rhea" id="RHEA:51004"/>
+<dbReference type="Rhea" id="RHEA-COMP:12863"/>
+<dbReference type="Rhea" id="RHEA-COMP:12864"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:15734"/>
+<dbReference type="ChEBI" id="CHEBI:17478"/>
+<dbReference type="ChEBI" id="CHEBI:29033"/>
+<dbReference type="ChEBI" id="CHEBI:29034"/>
+<dbReference type="EC" id="1.1.2.7"/>
+</reaction>
+</comment>
+<comment type="subunit">
+<text evidence="4">Heterotetramer composed of 2 alpha and 2 beta subunits.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Periplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the methanol dehydrogenase subunit 2 family.</text>
+</comment>
+<dbReference type="EC" id="1.1.2.7"/>
+<dbReference type="EMBL" id="M57684">
+<property type="protein sequence ID" value="AAA25584.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="C41377">
+<property type="entry name" value="C41377"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010399081.1">
+<property type="nucleotide sequence ID" value="NZ_FOYK01000012.1"/>
+</dbReference>
+<dbReference type="PDB" id="1LRW">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.50"/>
+<property type="chains" value="B/D=21-103"/>
+</dbReference>
+<dbReference type="PDBsum" id="1LRW"/>
+<dbReference type="SMR" id="P29898"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-3924"/>
+<dbReference type="EvolutionaryTrace" id="P29898"/>
+<dbReference type="GO" id="GO:0042597">
+<property type="term" value="C:periplasmic space"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052932">
+<property type="term" value="F:2-chloroethanol cytochrome-c oxidoreductase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004022">
+<property type="term" value="F:alcohol dehydrogenase (NAD+) activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052931">
+<property type="term" value="F:ethanol cytochrome-c oxidoreductase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052930">
+<property type="term" value="F:methanol ferricytochrome-c oxidoreductase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015946">
+<property type="term" value="P:methanol oxidation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.160.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003420">
+<property type="entry name" value="Meth_DH_bsu"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036557">
+<property type="entry name" value="Meth_DH_bsu_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02315">
+<property type="entry name" value="MDH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF029163">
+<property type="entry name" value="Meth_DH_beta"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48666">
+<property type="entry name" value="SSF48666"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0485">Methanol utilization</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-0574">Periplasm</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<feature type="signal peptide" evidence="3">
+<location>
+<begin position="1"/>
+<end position="20"/>
+</location>
+</feature>
+<feature type="chain" description="Methanol dehydrogenase [cytochrome c] subunit 2" id="PRO_0000025571">
+<location>
+<begin position="21"/>
+<end position="103"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="4">
+<location>
+<begin position="26"/>
+<end position="32"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="54"/>
+<end position="57"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="59"/>
+<end position="81"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="88"/>
+<end position="90"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1LRW"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250"/>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="14505072"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<sequence length="103" mass="11458" checksum="7AF8E6BD3B8731AA" modified="1993-04-01" version="1" precursor="true">MKRILTLTVAALALGTPALAYDGTNCKAPGNCWEPKPDYPAKVEGSKYDPQHDPAELSKQGESLAVMDARNEWRVWNMKKTGKFEYDVKKIDGYDETKAPPAE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

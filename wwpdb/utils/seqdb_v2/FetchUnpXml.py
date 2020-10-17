@@ -11,7 +11,7 @@
 #  13-Mar-2013 jdw Fix initialization issue
 #
 #  29-Jul-2014 jdw WARNING -- Handling of variant seqeuences is incomplete --
-#  02-Sep-2020 zf  added a work-around for isoforms sequence. 
+#  02-Sep-2020 zf  added a work-around for isoforms sequence.
 ##
 
 __author__ = "Zukang Feng"
@@ -21,11 +21,9 @@ __version__ = "V0.001"
 import sys
 import getopt
 import requests
-# To disable warning about not checking ssl certificates. Still needed?
 import urllib3
-urllib3.disable_warnings()
 import traceback
-from xml.dom import minidom
+
 try:
     # Python 3
     from itertools import zip_longest
@@ -39,6 +37,9 @@ import logging
 
 logger = logging.getLogger()
 
+# To disable warning about not checking ssl certificates. Still needed?
+urllib3.disable_warnings()
+
 
 class FetchUnpXml:
     """
@@ -47,13 +48,14 @@ class FetchUnpXml:
     XML entry data is parsed into a dictionary structure.
 
     """
+
     def __init__(self, maxLength=100, verbose=False, log=sys.stderr):
 
         self.__verbose = verbose
         self.__debug = False
         self.__lfh = log
-        self._baseUrl = 'https://www.ebi.ac.uk/Tools/dbfetch/dbfetch'
-        self._baseUrlUnp = 'https://www.ebi.ac.uk/proteins/api/proteins'
+        self._baseUrl = "https://www.ebi.ac.uk/Tools/dbfetch/dbfetch"
+        self._baseUrlUnp = "https://www.ebi.ac.uk/proteins/api/proteins"
         #
 
         self.__maxLength = maxLength
@@ -65,18 +67,20 @@ class FetchUnpXml:
         self.__searchIdList = []
         self.__variantD = {}
         #
+        self.__isoformIdList = []
+        #
         cI = ConfigInfo()
-        self.__forcefallback = cI.get('FETCH_UNP_FORCE_FALLBACK', None)
+        self.__forcefallback = cI.get("FETCH_UNP_FORCE_FALLBACK", None)
         #
 
     def fetchList(self, idList):
-        """     Execute a fetch query for the input id list.
-                The input list is filtered for variants (e.g. ids with appended '-#').
+        """Execute a fetch query for the input id list.
+        The input list is filtered for variants (e.g. ids with appended '-#').
 
-                Divide the input list into manageable chunks, fetch each chunk,
-                and concatenate the result.
+        Divide the input list into manageable chunks, fetch each chunk,
+        and concatenate the result.
 
-                Return True for success or False otherwise.
+        Return True for success or False otherwise.
 
         """
         try:
@@ -113,11 +117,11 @@ class FetchUnpXml:
                 return False
             #
             if num:
-                self.__subLists = self.__makeSubLists(self.__maxLength, self.__searchIdList)
+                subLists = self.__makeSubLists(self.__maxLength, self.__searchIdList)
 
-                for subList in self.__subLists:
-                    idString = ','.join(subList)
-                    if (self.__debug):
+                for subList in subLists:
+                    idString = ",".join(subList)
+                    if self.__debug:
                         self.__lfh.write("+FetchUnpXml.fetchList() subList %s string %s\n" % (subList, idString))
                     #
                     # If primary site has issues, automatic fallback
@@ -127,11 +131,11 @@ class FetchUnpXml:
                         try:
                             xmlText = self.__RequestUnpXml(idString)
                         except requests.exceptions.HTTPError:
-                            xmlText = self.__RequestUnpXml(idString, fallback = True)
+                            xmlText = self.__RequestUnpXml(idString, fallback=True)
                         #
                     #
                     # filter possible simple text error messages from the failed queries.
-                    if ((xmlText is not None) and not xmlText.startswith("ERROR")):
+                    if (xmlText is not None) and not xmlText.startswith("ERROR"):
                         self.__dataList.append(xmlText)
                     #
                 #
@@ -148,25 +152,27 @@ class FetchUnpXml:
                 ok = False
             #
             return ok
-        except:
-            if (self.__verbose):
+        except Exception as e:
+            if self.__verbose:
+                self.__lfh.write("+FetchUnpXml.fetchList() exception %s\n" % str(e))
                 traceback.print_exc(file=self.__lfh)
         return False
 
     def writeUnpXml(self, filename):
-        file = open(filename, 'w')
+        file = open(filename, "w")
         for data in self.__dataList:
             file.write(data)
         file.close()
 
     def getResult(self):
-        """ Get the parsed UniProt entry data in a dictionary structure.
+        """Get the parsed UniProt entry data in a dictionary structure.
 
-            Return dictionary has a key of input accession code which references
-            a dictionary containing the entry data.
+        Return dictionary has a key of input accession code which references
+        a dictionary containing the entry data.
 
         """
         return self.__result
+
     #
 
     def __processIdList(self):
@@ -180,14 +186,14 @@ class FetchUnpXml:
         self.__variantD = {}
         tList = []
         #
-        for id in self.__idList:
+        for vid in self.__idList:
             # check for variant id
-            idx = id.find('-')
+            idx = vid.find("-")
             if idx == -1:
-                sId = id
+                sId = vid
             else:
-                sId = id[0:idx]
-                self.__variantD[id] = sId
+                sId = vid[0:idx]
+                self.__variantD[vid] = sId
             #
             tList.append(sId)
         #
@@ -205,48 +211,45 @@ class FetchUnpXml:
         "__sublist(3, 'abcdefg', 'x') --> ('a','b','c'), ('d','e','f'), ('g','x','x')"
         return zip_longest(*[iter(iterable)] * n, fillvalue=padvalue)
 
-    def __RequestUnpXml(self, idString, fallback = False):
+    def __RequestUnpXml(self, idString, fallback=False):
         """Execute fetch Request for the input comma separated accession list.
 
-           Return xml text for the corresentry  UniProt entries
-           """
+        Return xml text for the corresentry  UniProt entries
+        """
         #
         if not fallback:
             params = {}
-            params['db'] = 'uniprotkb'
-            params['id'] = idString
+            params["db"] = "uniprotkb"
+            params["id"] = idString
 
-            params['format'] = 'uniprotxml'
-            params['style'] = 'raw'
-            #params['Retrieve'] = 'Retrieve'
-            logger.debug("Request %s with data %s" % (self._baseUrl, params))
+            params["format"] = "uniprotxml"
+            params["style"] = "raw"
+            # params['Retrieve'] = 'Retrieve'
+            logger.debug("Request %s with data %s", self._baseUrl, params)
             reqH = requests.post(self._baseUrl, data=params, verify=False)
             reqH.raise_for_status()
         else:
             params = {}
-            params['size'] = '-1'
-            params['accession'] = idString
+            params["size"] = "-1"
+            params["accession"] = idString
 
             # Need to do this as UNP service will not take POST - so force GET
-            logger.debug("Request with data %s" % params)
-            reqH = requests.get(self._baseUrlUnp, params=params,
-                                headers={"Accept":"application/xml"},
-                                verify=False)
+            logger.debug("Request with data %s", params)
+            reqH = requests.get(self._baseUrlUnp, params=params, headers={"Accept": "application/xml"}, verify=False)
             reqH.raise_for_status()
-            
-        #data = reqH.read()
+
+        # data = reqH.read()
         data = reqH.text
         return data
 
     def __RequestIsoformsUnpXml(self, accId):
-        """ Using URL https://www.ebi.ac.uk/proteins/api/proteins/{accession}/isoforms
-        """
+        """Using URL https://www.ebi.ac.uk/proteins/api/proteins/{accession}/isoforms"""
         isoformUrl = self._baseUrlUnp + "/" + accId + "/isoforms"
         params = {}
-        reqH = requests.get(isoformUrl, params=params, headers={"Accept":"application/xml"}, verify=False)
+        reqH = requests.get(isoformUrl, params=params, headers={"Accept": "application/xml"}, verify=False)
         reqH.raise_for_status()
         data = reqH.text
-        if data.find('errorMessages') >= 0:
+        if data.find("errorMessages") >= 0:
             return ""
         #
         return data
@@ -268,24 +271,27 @@ class FetchUnpXml:
                     readxml.addVariant(aId, vId)
                 self.__result.update(readxml.getResult())
             return True
-        except:
-            if (self.__verbose):
+        except Exception as e:
+            if self.__verbose:
+                self.__lfh.write("+FetchUnpXml.__ParseUnpXmlData() exception %s\n" % str(e))
                 traceback.print_exc(file=self.__lfh)
             return False
 
 
-def main(argv):
-    opts, args = getopt.getopt(argv, "i:", ["id="])
+def main(argv):  # pragma: no cover
+    opts, _args = getopt.getopt(argv, "i:", ["id="])
     for opt, arg in opts:
         if opt in ("-i", "--id"):
-            id = arg
+            uid = arg
             fobj = FetchUnpXml(verbose=True)
-            fobj.fetchList([id])
-            fobj.writeUnpXml(id + '.xml')
-            dict = fobj.getResult()
-            for (k, v) in dict.items():
+            fobj.fetchList([uid])
+            fobj.writeUnpXml(uid + ".xml")
+            rdict = fobj.getResult()
+            for (k, v) in rdict.items():
                 sys.stdout.write("%-30s = %s\n" % (k, v))
-if __name__ == "__main__":
+
+
+if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)

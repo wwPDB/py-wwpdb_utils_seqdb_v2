@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-03-20" modified="2020-08-12" version="82">
+<accession>Q8FVS7</accession>
+<accession>G0KDB8</accession>
+<name>Y3748_BRUSU</name>
+<protein>
+<recommendedName>
+<fullName>Putative binding protein BRA0748/BS1330_II0741</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="ordered locus">BRA0748</name>
+<name type="ordered locus">BS1330_II0741</name>
+</gene>
+<organism>
+<name type="scientific">Brucella suis biovar 1 (strain 1330)</name>
+<dbReference type="NCBI Taxonomy" id="204722"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rhizobiales</taxon>
+<taxon>Brucellaceae</taxon>
+<taxon>Brucella</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2002" name="Proc. Natl. Acad. Sci. U.S.A." volume="99" first="13148" last="13153">
+<title>The Brucella suis genome reveals fundamental similarities between animal and plant pathogens and symbionts.</title>
+<authorList>
+<person name="Paulsen I.T."/>
+<person name="Seshadri R."/>
+<person name="Nelson K.E."/>
+<person name="Eisen J.A."/>
+<person name="Heidelberg J.F."/>
+<person name="Read T.D."/>
+<person name="Dodson R.J."/>
+<person name="Umayam L.A."/>
+<person name="Brinkac L.M."/>
+<person name="Beanan M.J."/>
+<person name="Daugherty S.C."/>
+<person name="DeBoy R.T."/>
+<person name="Durkin A.S."/>
+<person name="Kolonay J.F."/>
+<person name="Madupu R."/>
+<person name="Nelson W.C."/>
+<person name="Ayodeji B."/>
+<person name="Kraul M."/>
+<person name="Shetty J."/>
+<person name="Malek J.A."/>
+<person name="Van Aken S.E."/>
+<person name="Riedmuller S."/>
+<person name="Tettelin H."/>
+<person name="Gill S.R."/>
+<person name="White O."/>
+<person name="Salzberg S.L."/>
+<person name="Hoover D.L."/>
+<person name="Lindler L.E."/>
+<person name="Halling S.M."/>
+<person name="Boyle S.M."/>
+<person name="Fraser C.M."/>
+</authorList>
+<dbReference type="PubMed" id="12271122"/>
+<dbReference type="DOI" id="10.1073/pnas.192319099"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>1330</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2011" name="J. Bacteriol." volume="193" first="6410" last="6410">
+<title>Revised genome sequence of Brucella suis 1330.</title>
+<authorList>
+<person name="Tae H."/>
+<person name="Shallom S."/>
+<person name="Settlage R."/>
+<person name="Preston D."/>
+<person name="Adams L.G."/>
+<person name="Garner H.R."/>
+</authorList>
+<dbReference type="PubMed" id="22038969"/>
+<dbReference type="DOI" id="10.1128/jb.06181-11"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>1330</strain>
+</source>
+</reference>
+<comment type="function">
+<text>Probably part of an ABC transporter complex.</text>
+</comment>
+<comment type="subunit">
+<text evidence="2">The complex is composed of two ATP-binding proteins (BRA0745), two transmembrane proteins (BRA0749) and a solute-binding protein (BRA0748).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="2">Periplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the bacterial solute-binding protein 1 family.</text>
+</comment>
+<dbReference type="EMBL" id="AE014292">
+<property type="protein sequence ID" value="AAN33930.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CP002998">
+<property type="protein sequence ID" value="AEM20206.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_002965896.1">
+<property type="nucleotide sequence ID" value="NZ_KN046805.1"/>
+</dbReference>
+<dbReference type="SMR" id="Q8FVS7"/>
+<dbReference type="EnsemblBacteria" id="AAN33930">
+<property type="protein sequence ID" value="AAN33930"/>
+<property type="gene ID" value="BRA0748"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="AEM20206">
+<property type="protein sequence ID" value="AEM20206"/>
+<property type="gene ID" value="BS1330_II0741"/>
+</dbReference>
+<dbReference type="GeneID" id="45053765"/>
+<dbReference type="KEGG" id="bms:BRA0748"/>
+<dbReference type="KEGG" id="bsi:BS1330_II0741"/>
+<dbReference type="PATRIC" id="fig|204722.21.peg.1334"/>
+<dbReference type="HOGENOM" id="CLU_031285_10_1_5"/>
+<dbReference type="KO" id="K02027"/>
+<dbReference type="OMA" id="KYIKQWE"/>
+<dbReference type="Proteomes" id="UP000007104">
+<property type="component" value="Chromosome II"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042597">
+<property type="term" value="C:periplasmic space"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0055085">
+<property type="term" value="P:transmembrane transport"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006061">
+<property type="entry name" value="SBP_1_CS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01547">
+<property type="entry name" value="SBP_bac_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01037">
+<property type="entry name" value="SBP_BACTERIAL_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0574">Periplasm</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="25"/>
+</location>
+</feature>
+<feature type="chain" description="Putative binding protein BRA0748/BS1330_II0741" id="PRO_0000281198">
+<location>
+<begin position="26"/>
+<end position="411"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255"/>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="411" mass="45008" checksum="D2F0E29A25758B5B" modified="2003-03-01" version="1" precursor="true">MLIRKWKAGLLAGLSILALASSADAGEVRMTVAEYSAKTGPYFEEVKKAFEAENPGITLNFEVVPWDVLLQKLTTDISAGTNADLSIIGTRWLIDFVQQGIAEPLDGYMNDEFKGRFIETFLSPSVLDGKTYGLPIAASARAMYYNKDLFEKAGIKNPPANWDELKADAAKIKALGGENYGFGLQGKEIETDVYYYYAMWSYGTEILNKDGTSGLSTPGALEAAKLYKSMIDDGLTQPGVTSYAREDVQNLFKQGKVGMMITAPFLSNQIKEEAPNLKYGVAAIPAGPTGARGTYGVTDSVIMFQNSKNKEEAWKVLDFLFQKDWRAKFTQNEGFLPVNKEEAKMDYYVNNADLAAFTALLPDARFAPVIPGWEEIADITSNAMQSIYLGKGEPDAVLKDAAAKADAILKK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

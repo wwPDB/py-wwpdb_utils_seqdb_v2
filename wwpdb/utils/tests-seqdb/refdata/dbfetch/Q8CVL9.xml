@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-06-26" modified="2020-08-12" version="76">
+<accession>Q8CVL9</accession>
+<name>UGPB_ECOL6</name>
+<protein>
+<recommendedName>
+<fullName>sn-glycerol-3-phosphate-binding periplasmic protein UgpB</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">ugpB</name>
+<name type="ordered locus">c4242</name>
+</gene>
+<organism>
+<name type="scientific">Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC)</name>
+<dbReference type="NCBI Taxonomy" id="199310"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Escherichia</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2002" name="Proc. Natl. Acad. Sci. U.S.A." volume="99" first="17020" last="17024">
+<title>Extensive mosaic structure revealed by the complete genome sequence of uropathogenic Escherichia coli.</title>
+<authorList>
+<person name="Welch R.A."/>
+<person name="Burland V."/>
+<person name="Plunkett G. III"/>
+<person name="Redford P."/>
+<person name="Roesch P."/>
+<person name="Rasko D."/>
+<person name="Buckles E.L."/>
+<person name="Liou S.-R."/>
+<person name="Boutin A."/>
+<person name="Hackett J."/>
+<person name="Stroud D."/>
+<person name="Mayhew G.F."/>
+<person name="Rose D.J."/>
+<person name="Zhou S."/>
+<person name="Schwartz D.C."/>
+<person name="Perna N.T."/>
+<person name="Mobley H.L.T."/>
+<person name="Donnenberg M.S."/>
+<person name="Blattner F.R."/>
+</authorList>
+<dbReference type="PubMed" id="12471157"/>
+<dbReference type="DOI" id="10.1073/pnas.252529799"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>CFT073 / ATCC 700928 / UPEC</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">sn-glycerol-3-phosphate and glycerophosphoryl diester-binding protein interacts with the binding protein-dependent transport system UgpACE.</text>
+</comment>
+<comment type="subunit">
+<text evidence="3">The complex is composed of two ATP-binding proteins (UgpC), two transmembrane proteins (UgpA and UgpE) and a solute-binding protein (UgpB).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Periplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the bacterial solute-binding protein 1 family.</text>
+</comment>
+<dbReference type="EMBL" id="AE014075">
+<property type="protein sequence ID" value="AAN82678.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000803580.1">
+<property type="nucleotide sequence ID" value="NC_004431.1"/>
+</dbReference>
+<dbReference type="SMR" id="Q8CVL9"/>
+<dbReference type="STRING" id="199310.c4242"/>
+<dbReference type="EnsemblBacteria" id="AAN82678">
+<property type="protein sequence ID" value="AAN82678"/>
+<property type="gene ID" value="c4242"/>
+</dbReference>
+<dbReference type="GeneID" id="49582587"/>
+<dbReference type="KEGG" id="ecc:c4242"/>
+<dbReference type="eggNOG" id="COG1653">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_031285_3_0_6"/>
+<dbReference type="KO" id="K05813"/>
+<dbReference type="OMA" id="ESFSAWH"/>
+<dbReference type="BioCyc" id="ECOL199310:C4242-MONOMER"/>
+<dbReference type="Proteomes" id="UP000001410">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042597">
+<property type="term" value="C:periplasmic space"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0055085">
+<property type="term" value="P:transmembrane transport"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006061">
+<property type="entry name" value="SBP_1_CS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13416">
+<property type="entry name" value="SBP_bac_8"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01037">
+<property type="entry name" value="SBP_BACTERIAL_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0574">Periplasm</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="23"/>
+</location>
+</feature>
+<feature type="chain" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB" id="PRO_0000292810">
+<location>
+<begin position="24"/>
+<end position="438"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="438" mass="48494" checksum="52E1719DE954E6C4" modified="2003-03-01" version="1" precursor="true">MKPLRYTASALALGLALMANAQAVTTIPFWHSMEGELGKEVDSLAQRFNAENPDYKIVPTYKGNYEQNLSAGIAAFRTGNAPAILQVYEVGTATMMASKAIKPVYDVFKEAGIQFDESQFVPTVSGYYSDSKTGHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQDLADYAAKLKASGMKCGYASGWQGWIQLENFSAWNGLPFASKNNGFDGTDAVLEFNKPEQVKHIAMLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIREYAKFNYGVGMMPYDADAKDAPQNAIIGGASLWVMQGKDKETYTGVAKFLDFLAKPENAAEWHQKTGYLPITKAAYDLTREQGFYEKNPGADIATRQMLNKPPLPFTKGLRLGNMPQIRVIVDEELESVWTGKKTPQQALDTAVERGNQLLRRFEKSTKS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

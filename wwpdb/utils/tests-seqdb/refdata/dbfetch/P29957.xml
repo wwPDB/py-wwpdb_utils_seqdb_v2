@@ -1,0 +1,831 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="118">
+<accession>P29957</accession>
+<name>AMY_PSEHA</name>
+<protein>
+<recommendedName>
+<fullName>Alpha-amylase</fullName>
+<ecNumber evidence="9">3.2.1.1</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>1,4-alpha-D-glucan glucanohydrolase</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">amy</name>
+</gene>
+<organism>
+<name type="scientific">Pseudoalteromonas haloplanktis</name>
+<name type="synonym">Alteromonas haloplanktis</name>
+<dbReference type="NCBI Taxonomy" id="228"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Alteromonadales</taxon>
+<taxon>Pseudoalteromonadaceae</taxon>
+<taxon>Pseudoalteromonas</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1992" name="J. Biol. Chem." volume="267" first="5217" last="5221">
+<title>Purification, characterization, and nucleotide sequence of the thermolabile alpha-amylase from the antarctic psychrotroph Alteromonas haloplanctis A23.</title>
+<authorList>
+<person name="Feller G."/>
+<person name="Lonhienne T."/>
+<person name="Deroanne C."/>
+<person name="Libioulle C."/>
+<person name="van Beeumen J."/>
+<person name="Gerday C."/>
+</authorList>
+<dbReference type="PubMed" id="1544904"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>PROTEIN SEQUENCE OF 25-64 AND 471-477</scope>
+<scope>CATALYTIC ACTIVITY</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+<source>
+<strain>A23</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1998" name="J. Biol. Chem." volume="273" first="12109" last="12115">
+<title>Characterization of the C-terminal propeptide involved in bacterial wall spanning of alpha-amylase from the psychrophile Alteromonas haloplanctis.</title>
+<authorList>
+<person name="Feller G."/>
+<person name="D'Amico S."/>
+<person name="Benotmane A.M."/>
+<person name="Joly F."/>
+<person name="van Beeumen J."/>
+<person name="Gerday C."/>
+</authorList>
+<dbReference type="PubMed" id="9575155"/>
+<dbReference type="DOI" id="10.1074/jbc.273.20.12109"/>
+</citation>
+<scope>SEQUENCE REVISION</scope>
+<source>
+<strain>A23</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1998" name="Protein Sci." volume="7" first="564" last="572">
+<title>Crystal structures of the psychrophilic alpha-amylase from Alteromonas haloplanctis in its native form and complexed with an inhibitor.</title>
+<authorList>
+<person name="Aghajari N."/>
+<person name="Feller G."/>
+<person name="Gerday C."/>
+<person name="Haser R."/>
+</authorList>
+<dbReference type="PubMed" id="9541387"/>
+<dbReference type="DOI" id="10.1002/pro.5560070304"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.85 ANGSTROMS) OF 25-477 IN COMPLEX WITH CALCIUM AND CHLORIDE</scope>
+<scope>DISULFIDE BONDS</scope>
+<source>
+<strain>A23</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2002" name="Biochemistry" volume="41" first="4273" last="4280">
+<title>Crystallographic evidence of a transglycosylation reaction: ternary complexes of a psychrophilic alpha-amylase.</title>
+<authorList>
+<person name="Aghajari N."/>
+<person name="Roth M."/>
+<person name="Haser R."/>
+</authorList>
+<dbReference type="PubMed" id="11914073"/>
+<dbReference type="DOI" id="10.1021/bi0160516"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.74 ANGSTROMS) OF 25-472 IN COMPLEX WITH OLIGOSACCHARIDE; CHLORIDE AND CALCIUM</scope>
+<scope>ACTIVE SITE</scope>
+<scope>COFACTOR</scope>
+<scope>DISULFIDE BONDS</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2002" name="Protein Sci." volume="11" first="1435" last="1441">
+<title>Structural basis of alpha-amylase activation by chloride.</title>
+<authorList>
+<person name="Aghajari N."/>
+<person name="Feller G."/>
+<person name="Gerday C."/>
+<person name="Haser R."/>
+</authorList>
+<dbReference type="PubMed" id="12021442"/>
+<dbReference type="DOI" id="10.1110/ps.0202602"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.1 ANGSTROMS) OF 25-472 IN COMPLEXES WITH CALCIUM</scope>
+<scope>COFACTOR</scope>
+<scope>ACTIVITY REGULATION</scope>
+<scope>MUTAGENESIS OF LYS-324</scope>
+<scope>DISULFIDE BONDS</scope>
+</reference>
+<comment type="catalytic activity">
+<reaction evidence="9">
+<text>Endohydrolysis of (1->4)-alpha-D-glucosidic linkages in polysaccharides containing three or more (1->4)-alpha-linked D-glucose units.</text>
+<dbReference type="EC" id="3.2.1.1"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="8">
+<name>Ca(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29108"/>
+</cofactor>
+<text evidence="7 8 10">Binds 1 Ca(2+) ion per subunit.</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="8">
+<name>chloride</name>
+<dbReference type="ChEBI" id="CHEBI:17996"/>
+</cofactor>
+<text evidence="7 8 10">Binds 1 Cl(-) ion per subunit.</text>
+</comment>
+<comment type="activity regulation">
+<text evidence="8">Requires chloride ions for optimal activity.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<temperatureDependence>
+<text evidence="9">Thermolabile.</text>
+</temperatureDependence>
+</comment>
+<comment type="subunit">
+<text evidence="7">Monomer.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="9">Secreted</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="11">Belongs to the glycosyl hydrolase 13 family.</text>
+</comment>
+<dbReference type="EC" id="3.2.1.1" evidence="9"/>
+<dbReference type="EMBL" id="X58627">
+<property type="protein sequence ID" value="CAA41481.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S23257">
+<property type="entry name" value="S23257"/>
+</dbReference>
+<dbReference type="PDB" id="1AQH">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.00"/>
+<property type="chains" value="A=25-477"/>
+</dbReference>
+<dbReference type="PDB" id="1AQM">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.85"/>
+<property type="chains" value="A=25-477"/>
+</dbReference>
+<dbReference type="PDB" id="1B0I">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.40"/>
+<property type="chains" value="A=25-477"/>
+</dbReference>
+<dbReference type="PDB" id="1G94">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.74"/>
+<property type="chains" value="A=25-472"/>
+</dbReference>
+<dbReference type="PDB" id="1G9H">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.80"/>
+<property type="chains" value="A=25-472"/>
+</dbReference>
+<dbReference type="PDB" id="1JD7">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.25"/>
+<property type="chains" value="A=25-477"/>
+</dbReference>
+<dbReference type="PDB" id="1JD9">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.50"/>
+<property type="chains" value="A=25-477"/>
+</dbReference>
+<dbReference type="PDB" id="1KXH">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.30"/>
+<property type="chains" value="A=25-472"/>
+</dbReference>
+<dbReference type="PDB" id="1L0P">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.10"/>
+<property type="chains" value="A=25-472"/>
+</dbReference>
+<dbReference type="PDBsum" id="1AQH"/>
+<dbReference type="PDBsum" id="1AQM"/>
+<dbReference type="PDBsum" id="1B0I"/>
+<dbReference type="PDBsum" id="1G94"/>
+<dbReference type="PDBsum" id="1G9H"/>
+<dbReference type="PDBsum" id="1JD7"/>
+<dbReference type="PDBsum" id="1JD9"/>
+<dbReference type="PDBsum" id="1KXH"/>
+<dbReference type="PDBsum" id="1L0P"/>
+<dbReference type="SMR" id="P29957"/>
+<dbReference type="DrugBank" id="DB04164">
+<property type="generic name" value="1,4-Deoxy-4-((5-Hydroxymethyl-2,3,4-Trihydroxycyclohex-5-Enyl)Amino)Fructose"/>
+</dbReference>
+<dbReference type="DrugBank" id="DB02379">
+<property type="generic name" value="Beta-D-Glucose"/>
+</dbReference>
+<dbReference type="CAZy" id="GH13">
+<property type="family name" value="Glycoside Hydrolase Family 13"/>
+</dbReference>
+<dbReference type="PRIDE" id="P29957"/>
+<dbReference type="SABIO-RK" id="P29957"/>
+<dbReference type="EvolutionaryTrace" id="P29957"/>
+<dbReference type="GO" id="GO:0005576">
+<property type="term" value="C:extracellular region"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004556">
+<property type="term" value="F:alpha-amylase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0103025">
+<property type="term" value="F:alpha-amylase activity (releasing maltohexaose)"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005975">
+<property type="term" value="P:carbohydrate metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.1180">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006048">
+<property type="entry name" value="A-amylase/branching_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR031319">
+<property type="entry name" value="A-amylase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006046">
+<property type="entry name" value="Alpha_amylase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006047">
+<property type="entry name" value="Glyco_hydro_13_cat_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013780">
+<property type="entry name" value="Glyco_hydro_b"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017853">
+<property type="entry name" value="Glycoside_hydrolase_SF"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00128">
+<property type="entry name" value="Alpha-amylase"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02806">
+<property type="entry name" value="Alpha-amylase_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00110">
+<property type="entry name" value="ALPHAAMYLASE"/>
+</dbReference>
+<dbReference type="SMART" id="SM00642">
+<property type="entry name" value="Aamy"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00632">
+<property type="entry name" value="Aamy_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51445">
+<property type="entry name" value="SSF51445"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0106">Calcium</keyword>
+<keyword id="KW-0119">Carbohydrate metabolism</keyword>
+<keyword id="KW-0868">Chloride</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0326">Glycosidase</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0964">Secreted</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<feature type="signal peptide" evidence="9">
+<location>
+<begin position="1"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="chain" description="Alpha-amylase" id="PRO_0000001328">
+<location>
+<begin position="25"/>
+<end position="477"/>
+</location>
+</feature>
+<feature type="propeptide" description="Removed in mature form" id="PRO_0000001329">
+<location>
+<begin position="478"/>
+<end position="669"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate binding" evidence="12">
+<location>
+<begin position="71"/>
+<end position="75"/>
+</location>
+</feature>
+<feature type="region of interest" description="Substrate binding" evidence="12">
+<location>
+<begin position="201"/>
+<end position="202"/>
+</location>
+</feature>
+<feature type="active site" description="Nucleophile" evidence="7">
+<location>
+<position position="198"/>
+</location>
+</feature>
+<feature type="active site" description="Proton donor" evidence="7">
+<location>
+<position position="224"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium" evidence="1 7 8 10">
+<location>
+<position position="112"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium; via carbonyl oxygen" evidence="1 7 8 10">
+<location>
+<position position="159"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium" evidence="1 7 8 10">
+<location>
+<position position="168"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium; via carbonyl oxygen" evidence="1 7 8 10">
+<location>
+<position position="202"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="12">
+<location>
+<position position="113"/>
+</location>
+</feature>
+<feature type="binding site" description="Chloride" evidence="1 7 10">
+<location>
+<position position="196"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="6">
+<location>
+<position position="196"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="12">
+<location>
+<position position="231"/>
+</location>
+</feature>
+<feature type="binding site" description="Chloride" evidence="1 10">
+<location>
+<position position="286"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="12">
+<location>
+<position position="288"/>
+</location>
+</feature>
+<feature type="binding site" description="Substrate" evidence="12">
+<location>
+<position position="293"/>
+</location>
+</feature>
+<feature type="binding site" description="Chloride" evidence="1 7 10">
+<location>
+<position position="324"/>
+</location>
+</feature>
+<feature type="site" description="Transition state stabilizer" evidence="6">
+<location>
+<position position="288"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1 7 8 10">
+<location>
+<begin position="44"/>
+<end position="98"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1 7 8 10">
+<location>
+<begin position="144"/>
+<end position="161"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1 7 8 10">
+<location>
+<begin position="352"/>
+<end position="359"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1 7 8 10">
+<location>
+<begin position="426"/>
+<end position="440"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolishes chloride binding and reduces catalytic rate." evidence="8">
+<original>K</original>
+<variation>Q</variation>
+<location>
+<position position="324"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="29"/>
+<end position="32"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="37"/>
+<end position="46"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="48"/>
+<end position="51"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="55"/>
+<end position="58"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="67"/>
+<end position="69"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="70"/>
+<end position="74"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="75"/>
+<end position="77"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="79"/>
+<end position="81"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="88"/>
+<end position="100"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="104"/>
+<end position="110"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="112"/>
+<end position="114"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="119"/>
+<end position="121"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="126"/>
+<end position="128"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="137"/>
+<end position="139"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="150"/>
+<end position="153"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="155"/>
+<end position="160"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="161"/>
+<end position="163"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="167"/>
+<end position="169"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="174"/>
+<end position="190"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="194"/>
+<end position="198"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="200"/>
+<end position="202"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="205"/>
+<end position="213"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="215"/>
+<end position="217"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="220"/>
+<end position="223"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="235"/>
+<end position="241"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="242"/>
+<end position="245"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="247"/>
+<end position="259"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="262"/>
+<end position="267"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="270"/>
+<end position="272"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="277"/>
+<end position="279"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="280"/>
+<end position="282"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="289"/>
+<end position="291"/>
+</location>
+</feature>
+<feature type="turn" evidence="5">
+<location>
+<begin position="292"/>
+<end position="294"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="302"/>
+<end position="305"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="306"/>
+<end position="317"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="320"/>
+<end position="327"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="344"/>
+<end position="346"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="352"/>
+<end position="357"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="360"/>
+<end position="362"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="364"/>
+<end position="375"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="376"/>
+<end position="378"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="383"/>
+<end position="387"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="389"/>
+<end position="396"/>
+</location>
+</feature>
+<feature type="helix" evidence="3">
+<location>
+<begin position="398"/>
+<end position="400"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="401"/>
+<end position="406"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="408"/>
+<end position="410"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="415"/>
+<end position="417"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="422"/>
+<end position="426"/>
+</location>
+</feature>
+<feature type="turn" evidence="3">
+<location>
+<begin position="428"/>
+<end position="430"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="440"/>
+<end position="442"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="444"/>
+<end position="447"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="451"/>
+<end position="454"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="461"/>
+<end position="466"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1AQH"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1B0I"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1G94"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1JD7"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1KXH"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000250"/>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11914073"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12021442"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="1544904"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9541387"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000305"/>
+<evidence key="12" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="11914073"/>
+</source>
+</evidence>
+<sequence length="669" mass="73268" checksum="E3DD316D92B91EB7" modified="2000-05-30" version="3" precursor="true">MKLNKIITTAGLSLGLLLPSIATATPTTFVHLFEWNWQDVAQECEQYLGPKGYAAVQVSPPNEHITGSQWWTRYQPVSYELQSRGGNRAQFIDMVNRCSAAGVDIYVDTLINHMAAGSGTGTAGNSFGNKSFPIYSPQDFHESCTINNSDYGNDRYRVQNCELVGLADLDTASNYVQNTIAAYINDLQAIGVKGFRFDASKHVAASDIQSLMAKVNGSPVVFQEVIDQGGEAVGASEYLSTGLVTEFKYSTELGNTFRNGSLAWLSNFGEGWGFMPSSSAVVFVDNHDNQRGHGGAGNVITFEDGRLYDLANVFMLAYPYGYPKVMSSYDFHGDTDAGGPNVPVHNNGNLECFASNWKCEHRWSYIAGGVDFRNNTADNWAVTNWWDNTNNQISFGRGSSGHMAINKEDSTLTATVQTDMASGQYCNVLKGELSADAKSCSGEVITVNSDGTINLNIGAWDAMAIHKNAKLNTSSASSTESDWQRTVIFINAQTQSGQDMFIRGGIDHAYANANLGRNCQTSNFECAMPIRHNNLKNVTTSPWKANDNYLDWYGIENGQSSEAEGSATDWTTNVWPAGWGAEKTVNTDGFGVTPLNIWGEHYWMLDVDMDCSKAVNGWFELKAFIKNGQGWETAIAQDNAPYTSTNHMAQCGKINKFEFNNSGVVIRSF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

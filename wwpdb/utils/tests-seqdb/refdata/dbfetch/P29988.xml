@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="105">
+<accession>P29988</accession>
+<name>CPCL_NOSS1</name>
+<protein>
+<recommendedName>
+<fullName evidence="5">Photosystem I-associated linker protein CpcL</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>L-RC 27.2</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="4">Phycobilisome rod-core linker polypeptide CpcG3</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary" evidence="5">cpcL</name>
+<name type="synonym" evidence="4">cpcG3</name>
+<name type="ordered locus">alr0536</name>
+</gene>
+<organism>
+<name type="scientific">Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576)</name>
+<dbReference type="NCBI Taxonomy" id="103690"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Cyanobacteria</taxon>
+<taxon>Nostocales</taxon>
+<taxon>Nostocaceae</taxon>
+<taxon>Nostoc</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1991" name="Gene" volume="107" first="91" last="99">
+<title>A small multigene family encodes the rod-core linker polypeptides of Anabaena sp. PCC7120 phycobilisomes.</title>
+<authorList>
+<person name="Bryant D.A."/>
+<person name="Stirewalt V.L."/>
+<person name="Glauser M."/>
+<person name="Frank G."/>
+<person name="Sidler W."/>
+<person name="Zuber H."/>
+</authorList>
+<dbReference type="PubMed" id="1743523"/>
+<dbReference type="DOI" id="10.1016/0378-1119(91)90301-q"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>PCC 7120 / SAG 25.82 / UTEX 2576</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2001" name="DNA Res." volume="8" first="205" last="213">
+<title>Complete genomic sequence of the filamentous nitrogen-fixing cyanobacterium Anabaena sp. strain PCC 7120.</title>
+<authorList>
+<person name="Kaneko T."/>
+<person name="Nakamura Y."/>
+<person name="Wolk C.P."/>
+<person name="Kuritz T."/>
+<person name="Sasamoto S."/>
+<person name="Watanabe A."/>
+<person name="Iriguchi M."/>
+<person name="Ishikawa A."/>
+<person name="Kawashima K."/>
+<person name="Kimura T."/>
+<person name="Kishida Y."/>
+<person name="Kohara M."/>
+<person name="Matsumoto M."/>
+<person name="Matsuno A."/>
+<person name="Muraki A."/>
+<person name="Nakazaki N."/>
+<person name="Shimpo S."/>
+<person name="Sugimoto M."/>
+<person name="Takazawa M."/>
+<person name="Yamada M."/>
+<person name="Yasuda M."/>
+<person name="Tabata S."/>
+</authorList>
+<dbReference type="PubMed" id="11759840"/>
+<dbReference type="DOI" id="10.1093/dnares/8.5.205"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>PCC 7120 / SAG 25.82 / UTEX 2576</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2014" name="Proc. Natl. Acad. Sci. U.S.A." volume="111" first="2512" last="2517">
+<title>Attachment of phycobilisomes in an antenna-photosystem I supercomplex of cyanobacteria.</title>
+<authorList>
+<person name="Watanabe M."/>
+<person name="Semchonok D.A."/>
+<person name="Webber-Birungi M.T."/>
+<person name="Ehira S."/>
+<person name="Kondo K."/>
+<person name="Narikawa R."/>
+<person name="Ohmori M."/>
+<person name="Boekema E.J."/>
+<person name="Ikeuchi M."/>
+</authorList>
+<dbReference type="PubMed" id="24550276"/>
+<dbReference type="DOI" id="10.1073/pnas.1320599111"/>
+</citation>
+<scope>PROTEIN SEQUENCE OF 2-16</scope>
+<scope>FUNCTION</scope>
+<scope>SUBUNIT</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>DEVELOPMENTAL STAGE</scope>
+<source>
+<strain>PCC 7120 / SAG 25.82 / UTEX 2576</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="3">Rod linker protein, associated with phycocyanin (PC). Linker polypeptides determine the state of aggregation and the location of the disk-shaped phycobiliprotein units within the phycobilisome (PBS) and modulate their spectroscopic properties in order to mediate a directed and optimal energy transfer. Forms a supercomplex with tetrameric photosystem I (PSI) and PC that allows efficient energy transfer from PC to PSI. This protein seems to be in the middle of the PC hexameric rod and may anchor the PC rods at the periphery of PSI tetramers. May be involved in the cyclic electron transport around PSI that provides ATP needed for N(2) fixation in heterocysts (PubMed:24550276).</text>
+</comment>
+<comment type="subunit">
+<text evidence="3">Part of a specialized phycobilisome (PBS), a structure that is usually composed of two distinct substructures: a core complex and a number of rods radiating from the core. This protein is part of a core-less PBS rod (called CpcL-PBS). In vegetative cells associated substoichiometrically with photosystem I and phycobiliproteins phycocyanin as well as phycoerythrocyanin in the thylakoid membrane, not found in conventional, hemidiscoidal phycobilisomes.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Cellular thylakoid membrane</location>
+<topology evidence="1">Single-pass membrane protein</topology>
+</subcellularLocation>
+<text evidence="3">Part of a core-less phycobilisome rod (CpcL-PBS). A portion of the protein is not associated with thylakoids in N(2)-fixing heterocysts.</text>
+</comment>
+<comment type="developmental stage">
+<text evidence="3">Expressed in both vegetative cells and in N(2)-fixing heterocysts; considerably more abundant in heterocysts (at protein level).</text>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the phycobilisome linker protein family.</text>
+</comment>
+<dbReference type="EMBL" id="M80435">
+<property type="protein sequence ID" value="AAA22038.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BA000019">
+<property type="protein sequence ID" value="BAB72494.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="AG1873">
+<property type="entry name" value="AG1873"/>
+</dbReference>
+<dbReference type="PIR" id="JS0594">
+<property type="entry name" value="JS0594"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010994712.1">
+<property type="nucleotide sequence ID" value="NZ_RSCN01000059.1"/>
+</dbReference>
+<dbReference type="SMR" id="P29988"/>
+<dbReference type="STRING" id="103690.17129881"/>
+<dbReference type="PRIDE" id="P29988"/>
+<dbReference type="EnsemblBacteria" id="BAB72494">
+<property type="protein sequence ID" value="BAB72494"/>
+<property type="gene ID" value="BAB72494"/>
+</dbReference>
+<dbReference type="KEGG" id="ana:alr0536"/>
+<dbReference type="eggNOG" id="COG0237">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="KO" id="K02290"/>
+<dbReference type="OMA" id="TDRPFSF"/>
+<dbReference type="OrthoDB" id="1021247at2"/>
+<dbReference type="Proteomes" id="UP000002483">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030089">
+<property type="term" value="C:phycobilisome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015979">
+<property type="term" value="P:photosynthesis"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.3130.20">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001297">
+<property type="entry name" value="PBS_linker_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038255">
+<property type="entry name" value="PBS_linker_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016470">
+<property type="entry name" value="Phycobilisome"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00427">
+<property type="entry name" value="PBS_linker_poly"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF005898">
+<property type="entry name" value="Phycobilisome_CpeC/CpcI"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51445">
+<property type="entry name" value="PBS_LINKER"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0042">Antenna complex</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0602">Photosynthesis</keyword>
+<keyword id="KW-0605">Phycobilisome</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0793">Thylakoid</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="initiator methionine" description="Removed" evidence="3">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Photosystem I-associated linker protein CpcL" id="PRO_0000199246">
+<location>
+<begin position="2"/>
+<end position="237"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="208"/>
+<end position="228"/>
+</location>
+</feature>
+<feature type="domain" description="PBS-linker" evidence="2">
+<location>
+<begin position="11"/>
+<end position="191"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255"/>
+<evidence key="2" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00775"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="24550276"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="1743523"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="24550276"/>
+</source>
+</evidence>
+<sequence length="237" mass="27206" checksum="049FE01DD5BF8355" modified="2007-01-23" version="3">MALPLLEYKPTTQNQRVQSFGTADVNEDTPYIYRLENANSPSEIEELIWAAYRQVFNEQEILKFNRQIGLETQLKNRSITVKDFIRGLAKSERFYQLVVTPNNNYRLVEMSLKRLLGRSPYNEEEKIAWSIQIASKGWGGFVDALIDSTEYEQAFGDNTVPYQRKRLTTDRPFSFTPRYGADYRDRAGIVRPGRMSNWNNSANQNYDGVAILGVLLAISAGMTFLFVLNWLGISSSF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

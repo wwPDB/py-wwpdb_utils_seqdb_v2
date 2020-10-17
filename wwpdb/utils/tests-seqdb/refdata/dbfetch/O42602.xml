@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1998-07-15" modified="2020-08-12" version="102">
+<accession>O42602</accession>
+<name>CRFR1_XENLA</name>
+<protein>
+<recommendedName>
+<fullName>Corticotropin-releasing factor receptor 1</fullName>
+<shortName>CRF-R-1</shortName>
+<shortName>CRF-R1</shortName>
+<shortName>CRFR-1</shortName>
+</recommendedName>
+<alternativeName>
+<fullName>Corticotropin-releasing hormone receptor 1</fullName>
+<shortName>CRH-R-1</shortName>
+<shortName>CRH-R1</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">crhr1</name>
+<name type="synonym">crf1</name>
+</gene>
+<organism>
+<name type="scientific">Xenopus laevis</name>
+<name type="common">African clawed frog</name>
+<dbReference type="NCBI Taxonomy" id="8355"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Amphibia</taxon>
+<taxon>Batrachia</taxon>
+<taxon>Anura</taxon>
+<taxon>Pipoidea</taxon>
+<taxon>Pipidae</taxon>
+<taxon>Xenopodinae</taxon>
+<taxon>Xenopus</taxon>
+<taxon>Xenopus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1997" name="J. Neurochem." volume="69" first="1640" last="1649">
+<title>Identification of two corticotropin-releasing factor receptors from Xenopus laevis with high ligand selectivity: unusual pharmacology of the type 1 receptor.</title>
+<authorList>
+<person name="Dautzenberg F.M."/>
+<person name="Dietrich K."/>
+<person name="Palchaudhuri M.R."/>
+<person name="Spiess J."/>
+</authorList>
+<dbReference type="PubMed" id="9326293"/>
+<dbReference type="DOI" id="10.1046/j.1471-4159.1997.69041640.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<source>
+<tissue>Brain</tissue>
+</source>
+</reference>
+<comment type="function">
+<text evidence="3">G-protein coupled receptor for CRH (corticotropin-releasing factor) and UCN (urocortin). Has high affinity for CRH and UCN. Ligand binding causes a conformation change that triggers signaling via guanine nucleotide-binding proteins (G proteins) and down-stream effectors, such as adenylate cyclase. Promotes the activation of adenylate cyclase, leading to increased intracellular cAMP levels.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Interacts (via N-terminal extracellular domain) with CRF and UCN.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Cell membrane</location>
+<topology evidence="3">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="domain">
+<text evidence="1">The transmembrane domain is composed of seven transmembrane helices that are arranged in V-shape. Transmembrane helix 7 assumes a sharply kinked structure (By similarity).</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the G-protein coupled receptor 2 family.</text>
+</comment>
+<dbReference type="EMBL" id="Y14036">
+<property type="protein sequence ID" value="CAA74363.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001079049.1">
+<property type="nucleotide sequence ID" value="NM_001085580.1"/>
+</dbReference>
+<dbReference type="SMR" id="O42602"/>
+<dbReference type="PRIDE" id="O42602"/>
+<dbReference type="GeneID" id="373580"/>
+<dbReference type="KEGG" id="xla:373580"/>
+<dbReference type="CTD" id="373580"/>
+<dbReference type="Xenbase" id="XB-GENE-968270">
+<property type="gene designation" value="crhr1.2.S"/>
+</dbReference>
+<dbReference type="KO" id="K04578"/>
+<dbReference type="OrthoDB" id="1163977at2759"/>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031226">
+<property type="term" value="C:intrinsic component of plasma membrane"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015056">
+<property type="term" value="F:corticotrophin-releasing factor receptor activity"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007189">
+<property type="term" value="P:adenylate cyclase-activating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007166">
+<property type="term" value="P:cell surface receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071376">
+<property type="term" value="P:cellular response to corticotropin-releasing hormone stimulus"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051458">
+<property type="term" value="P:corticotropin secretion"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:2000852">
+<property type="term" value="P:regulation of corticosterone secretion"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.1240.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017981">
+<property type="entry name" value="GPCR_2-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003052">
+<property type="entry name" value="GPCR_2_CRF1_rcpt"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003051">
+<property type="entry name" value="GPCR_2_CRF_rcpt"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036445">
+<property type="entry name" value="GPCR_2_extracell_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001879">
+<property type="entry name" value="GPCR_2_extracellular_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000832">
+<property type="entry name" value="GPCR_2_secretin-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017983">
+<property type="entry name" value="GPCR_2_secretin-like_CS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00002">
+<property type="entry name" value="7tm_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02793">
+<property type="entry name" value="HRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01279">
+<property type="entry name" value="CRFRECEPTOR"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01280">
+<property type="entry name" value="CRFRECEPTOR1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00249">
+<property type="entry name" value="GPCRSECRETIN"/>
+</dbReference>
+<dbReference type="SMART" id="SM00008">
+<property type="entry name" value="HormR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF111418">
+<property type="entry name" value="SSF111418"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00649">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00650">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50227">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50261">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_4"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0297">G-protein coupled receptor</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0807">Transducer</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="chain" description="Corticotropin-releasing factor receptor 1" id="PRO_0000012819">
+<location>
+<begin position="25"/>
+<end position="415"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="1">
+<location>
+<begin position="25"/>
+<end position="111"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=1" evidence="1">
+<location>
+<begin position="112"/>
+<end position="142"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="1">
+<location>
+<begin position="143"/>
+<end position="149"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=2" evidence="1">
+<location>
+<begin position="150"/>
+<end position="174"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="1">
+<location>
+<begin position="175"/>
+<end position="189"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=3" evidence="1">
+<location>
+<begin position="190"/>
+<end position="218"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="1">
+<location>
+<begin position="219"/>
+<end position="225"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=4" evidence="1">
+<location>
+<begin position="226"/>
+<end position="253"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="1">
+<location>
+<begin position="254"/>
+<end position="269"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=5" evidence="1">
+<location>
+<begin position="270"/>
+<end position="295"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="1">
+<location>
+<begin position="296"/>
+<end position="306"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=6" evidence="1">
+<location>
+<begin position="307"/>
+<end position="331"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="1">
+<location>
+<begin position="332"/>
+<end position="338"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=7" evidence="1">
+<location>
+<begin position="339"/>
+<end position="368"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="1">
+<location>
+<begin position="369"/>
+<end position="415"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="38"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="45"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="78"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="90"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="30"/>
+<end position="54"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="44"/>
+<end position="87"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="68"/>
+<end position="102"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="188"/>
+<end position="258"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9326293"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="415" mass="47786" checksum="74ED24C17907B74D" modified="1998-01-01" version="1" precursor="true">MLLAKTPCLLLVQVIAAGISFALTSLQDQCETLQHNSNFTGLACNASIDMIGTCWPSTAAGQMVARPCPEYFHGVQYNTTGNVYRECHLNGSWAGRGDYAQCQEILKQEKKTKVHYHIAIVINFLGHSISLCALLVAFILFLRLRSIRCLRNIIHWNLITAFILRNVTWFVMQLTLSHEAHDSNVVWCRLVTIAHNYFYVTNFFWMFGEGCYLHTAIVLTYSTDKLRKWMFICIGWCIPFPIIVAWAIGKLYYDNEKCWFGKKAGVYTDFIYQGPVILVLLINFIFLFNIVRILMTKLRASTTSETIQYRKAVKATLVLLPLLGITYMLFFVTPGEDEISRIVFIYFNSFLQSFQGFFVSVFYCFLNSEVRSAVRKRWHRWQDKHSIRARVARAMSIPTSPTRISFHSIKQSSAI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

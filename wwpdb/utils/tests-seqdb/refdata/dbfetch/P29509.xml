@@ -1,0 +1,1001 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="192">
+<accession>P29509</accession>
+<accession>D6VSY3</accession>
+<name>TRXB1_YEAST</name>
+<protein>
+<recommendedName>
+<fullName>Thioredoxin reductase 1</fullName>
+<ecNumber>1.8.1.9</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">TRR1</name>
+<name type="ordered locus">YDR353W</name>
+<name type="ORF">D9476.5</name>
+</gene>
+<organism>
+<name type="scientific">Saccharomyces cerevisiae (strain ATCC 204508 / S288c)</name>
+<name type="common">Baker's yeast</name>
+<dbReference type="NCBI Taxonomy" id="559292"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+<taxon>Saccharomyces</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1994" name="J. Biol. Chem." volume="269" first="27670" last="27678">
+<title>Thioredoxin-dependent peroxide reductase from yeast.</title>
+<authorList>
+<person name="Chae H.Z."/>
+<person name="Chung S.J."/>
+<person name="Rhee S.G."/>
+</authorList>
+<dbReference type="PubMed" id="7961686"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>PARTIAL PROTEIN SEQUENCE OF 2-16; 90-97; 126-137; 176-179; 233-238 AND 296-303</scope>
+<scope>CLEAVAGE OF INITIATOR METHIONINE</scope>
+<source>
+<strain>ATCC 200358 / YNN 295</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Nature" volume="387" first="75" last="78">
+<title>The nucleotide sequence of Saccharomyces cerevisiae chromosome IV.</title>
+<authorList>
+<person name="Jacq C."/>
+<person name="Alt-Moerbe J."/>
+<person name="Andre B."/>
+<person name="Arnold W."/>
+<person name="Bahr A."/>
+<person name="Ballesta J.P.G."/>
+<person name="Bargues M."/>
+<person name="Baron L."/>
+<person name="Becker A."/>
+<person name="Biteau N."/>
+<person name="Bloecker H."/>
+<person name="Blugeon C."/>
+<person name="Boskovic J."/>
+<person name="Brandt P."/>
+<person name="Brueckner M."/>
+<person name="Buitrago M.J."/>
+<person name="Coster F."/>
+<person name="Delaveau T."/>
+<person name="del Rey F."/>
+<person name="Dujon B."/>
+<person name="Eide L.G."/>
+<person name="Garcia-Cantalejo J.M."/>
+<person name="Goffeau A."/>
+<person name="Gomez-Peris A."/>
+<person name="Granotier C."/>
+<person name="Hanemann V."/>
+<person name="Hankeln T."/>
+<person name="Hoheisel J.D."/>
+<person name="Jaeger W."/>
+<person name="Jimenez A."/>
+<person name="Jonniaux J.-L."/>
+<person name="Kraemer C."/>
+<person name="Kuester H."/>
+<person name="Laamanen P."/>
+<person name="Legros Y."/>
+<person name="Louis E.J."/>
+<person name="Moeller-Rieker S."/>
+<person name="Monnet A."/>
+<person name="Moro M."/>
+<person name="Mueller-Auer S."/>
+<person name="Nussbaumer B."/>
+<person name="Paricio N."/>
+<person name="Paulin L."/>
+<person name="Perea J."/>
+<person name="Perez-Alonso M."/>
+<person name="Perez-Ortin J.E."/>
+<person name="Pohl T.M."/>
+<person name="Prydz H."/>
+<person name="Purnelle B."/>
+<person name="Rasmussen S.W."/>
+<person name="Remacha M.A."/>
+<person name="Revuelta J.L."/>
+<person name="Rieger M."/>
+<person name="Salom D."/>
+<person name="Saluz H.P."/>
+<person name="Saiz J.E."/>
+<person name="Saren A.-M."/>
+<person name="Schaefer M."/>
+<person name="Scharfe M."/>
+<person name="Schmidt E.R."/>
+<person name="Schneider C."/>
+<person name="Scholler P."/>
+<person name="Schwarz S."/>
+<person name="Soler-Mira A."/>
+<person name="Urrestarazu L.A."/>
+<person name="Verhasselt P."/>
+<person name="Vissers S."/>
+<person name="Voet M."/>
+<person name="Volckaert G."/>
+<person name="Wagner G."/>
+<person name="Wambutt R."/>
+<person name="Wedler E."/>
+<person name="Wedler H."/>
+<person name="Woelfl S."/>
+<person name="Harris D.E."/>
+<person name="Bowman S."/>
+<person name="Brown D."/>
+<person name="Churcher C.M."/>
+<person name="Connor R."/>
+<person name="Dedman K."/>
+<person name="Gentles S."/>
+<person name="Hamlin N."/>
+<person name="Hunt S."/>
+<person name="Jones L."/>
+<person name="McDonald S."/>
+<person name="Murphy L.D."/>
+<person name="Niblett D."/>
+<person name="Odell C."/>
+<person name="Oliver K."/>
+<person name="Rajandream M.A."/>
+<person name="Richards C."/>
+<person name="Shore L."/>
+<person name="Walsh S.V."/>
+<person name="Barrell B.G."/>
+<person name="Dietrich F.S."/>
+<person name="Mulligan J.T."/>
+<person name="Allen E."/>
+<person name="Araujo R."/>
+<person name="Aviles E."/>
+<person name="Berno A."/>
+<person name="Carpenter J."/>
+<person name="Chen E."/>
+<person name="Cherry J.M."/>
+<person name="Chung E."/>
+<person name="Duncan M."/>
+<person name="Hunicke-Smith S."/>
+<person name="Hyman R.W."/>
+<person name="Komp C."/>
+<person name="Lashkari D."/>
+<person name="Lew H."/>
+<person name="Lin D."/>
+<person name="Mosedale D."/>
+<person name="Nakahara K."/>
+<person name="Namath A."/>
+<person name="Oefner P."/>
+<person name="Oh C."/>
+<person name="Petel F.X."/>
+<person name="Roberts D."/>
+<person name="Schramm S."/>
+<person name="Schroeder M."/>
+<person name="Shogren T."/>
+<person name="Shroff N."/>
+<person name="Winant A."/>
+<person name="Yelton M.A."/>
+<person name="Botstein D."/>
+<person name="Davis R.W."/>
+<person name="Johnston M."/>
+<person name="Andrews S."/>
+<person name="Brinkman R."/>
+<person name="Cooper J."/>
+<person name="Ding H."/>
+<person name="Du Z."/>
+<person name="Favello A."/>
+<person name="Fulton L."/>
+<person name="Gattung S."/>
+<person name="Greco T."/>
+<person name="Hallsworth K."/>
+<person name="Hawkins J."/>
+<person name="Hillier L.W."/>
+<person name="Jier M."/>
+<person name="Johnson D."/>
+<person name="Johnston L."/>
+<person name="Kirsten J."/>
+<person name="Kucaba T."/>
+<person name="Langston Y."/>
+<person name="Latreille P."/>
+<person name="Le T."/>
+<person name="Mardis E."/>
+<person name="Menezes S."/>
+<person name="Miller N."/>
+<person name="Nhan M."/>
+<person name="Pauley A."/>
+<person name="Peluso D."/>
+<person name="Rifkin L."/>
+<person name="Riles L."/>
+<person name="Taich A."/>
+<person name="Trevaskis E."/>
+<person name="Vignati D."/>
+<person name="Wilcox L."/>
+<person name="Wohldman P."/>
+<person name="Vaudin M."/>
+<person name="Wilson R."/>
+<person name="Waterston R."/>
+<person name="Albermann K."/>
+<person name="Hani J."/>
+<person name="Heumann K."/>
+<person name="Kleine K."/>
+<person name="Mewes H.-W."/>
+<person name="Zollner A."/>
+<person name="Zaccaria P."/>
+</authorList>
+<dbReference type="PubMed" id="9169867"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 204508 / S288c</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2014" name="G3 (Bethesda)" volume="4" first="389" last="398">
+<title>The reference genome sequence of Saccharomyces cerevisiae: Then and now.</title>
+<authorList>
+<person name="Engel S.R."/>
+<person name="Dietrich F.S."/>
+<person name="Fisk D.G."/>
+<person name="Binkley G."/>
+<person name="Balakrishnan R."/>
+<person name="Costanzo M.C."/>
+<person name="Dwight S.S."/>
+<person name="Hitz B.C."/>
+<person name="Karra K."/>
+<person name="Nash R.S."/>
+<person name="Weng S."/>
+<person name="Wong E.D."/>
+<person name="Lloyd P."/>
+<person name="Skrzypek M.S."/>
+<person name="Miyasato S.R."/>
+<person name="Simison M."/>
+<person name="Cherry J.M."/>
+</authorList>
+<dbReference type="PubMed" id="24374639"/>
+<dbReference type="DOI" id="10.1534/g3.113.008995"/>
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain>ATCC 204508 / S288c</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2007" name="Genome Res." volume="17" first="536" last="543">
+<title>Approaching a complete repository of sequence-verified protein-encoding clones for Saccharomyces cerevisiae.</title>
+<authorList>
+<person name="Hu Y."/>
+<person name="Rolfs A."/>
+<person name="Bhullar B."/>
+<person name="Murthy T.V.S."/>
+<person name="Zhu C."/>
+<person name="Berger M.F."/>
+<person name="Camargo A.A."/>
+<person name="Kelley F."/>
+<person name="McCarron S."/>
+<person name="Jepson D."/>
+<person name="Richardson A."/>
+<person name="Raphael J."/>
+<person name="Moreira D."/>
+<person name="Taycher E."/>
+<person name="Zuo D."/>
+<person name="Mohr S."/>
+<person name="Kane M.F."/>
+<person name="Williamson J."/>
+<person name="Simpson A.J.G."/>
+<person name="Bulyk M.L."/>
+<person name="Harlow E."/>
+<person name="Marsischky G."/>
+<person name="Kolodner R.D."/>
+<person name="LaBaer J."/>
+</authorList>
+<dbReference type="PubMed" id="17322287"/>
+<dbReference type="DOI" id="10.1101/gr.6037607"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 204508 / S288c</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1986" name="Nucleic Acids Res." volume="14" first="6357" last="6373">
+<title>The TRP4 gene of Saccharomyces cerevisiae: isolation and structural analysis.</title>
+<authorList>
+<person name="Furter R."/>
+<person name="Paravicini G."/>
+<person name="Aebi M."/>
+<person name="Braus G."/>
+<person name="Prantl F."/>
+<person name="Niederberger P."/>
+<person name="Huetter R."/>
+</authorList>
+<dbReference type="PubMed" id="2428012"/>
+<dbReference type="DOI" id="10.1093/nar/14.16.6357"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 261-319</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2003" name="Nature" volume="425" first="737" last="741">
+<title>Global analysis of protein expression in yeast.</title>
+<authorList>
+<person name="Ghaemmaghami S."/>
+<person name="Huh W.-K."/>
+<person name="Bower K."/>
+<person name="Howson R.W."/>
+<person name="Belle A."/>
+<person name="Dephoure N."/>
+<person name="O'Shea E.K."/>
+<person name="Weissman J.S."/>
+</authorList>
+<dbReference type="PubMed" id="14562106"/>
+<dbReference type="DOI" id="10.1038/nature02046"/>
+</citation>
+<scope>LEVEL OF PROTEIN EXPRESSION [LARGE SCALE ANALYSIS]</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2008" name="Mol. Cell. Proteomics" volume="7" first="1389" last="1396">
+<title>A multidimensional chromatography technology for in-depth phosphoproteome analysis.</title>
+<authorList>
+<person name="Albuquerque C.P."/>
+<person name="Smolka M.B."/>
+<person name="Payne S.H."/>
+<person name="Bafna V."/>
+<person name="Eng J."/>
+<person name="Zhou H."/>
+</authorList>
+<dbReference type="PubMed" id="18407956"/>
+<dbReference type="DOI" id="10.1074/mcp.m700468-mcp200"/>
+</citation>
+<scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-303</scope>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2012" name="Mol. Cell. Proteomics" volume="11" first="1840" last="1852">
+<title>Intermembrane space proteome of yeast mitochondria.</title>
+<authorList>
+<person name="Voegtle F.N."/>
+<person name="Burkhart J.M."/>
+<person name="Rao S."/>
+<person name="Gerbeth C."/>
+<person name="Hinrichs J."/>
+<person name="Martinou J.C."/>
+<person name="Chacinska A."/>
+<person name="Sickmann A."/>
+<person name="Zahedi R.P."/>
+<person name="Meisinger C."/>
+</authorList>
+<dbReference type="PubMed" id="22984289"/>
+<dbReference type="DOI" id="10.1074/mcp.m112.021105"/>
+</citation>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+<scope>SUBCELLULAR LOCATION [LARGE SCALE ANALYSIS]</scope>
+</reference>
+<reference key="9">
+<citation type="journal article" date="2009" name="Biochim. Biophys. Acta" volume="1794" first="124" last="128">
+<title>Crystal structure of Saccharomyces cerevisiae cytoplasmic thioredoxin reductase Trr1 reveals the structural basis for species-specific recognition of thioredoxin.</title>
+<authorList>
+<person name="Zhang Z."/>
+<person name="Bao R."/>
+<person name="Zhang Y."/>
+<person name="Yu J."/>
+<person name="Zhou C.Z."/>
+<person name="Chen Y."/>
+</authorList>
+<dbReference type="PubMed" id="18930846"/>
+<dbReference type="DOI" id="10.1016/j.bbapap.2008.09.011"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.80 ANGSTROMS) OF 2-319 IN COMPLEX WITH FAD</scope>
+<scope>COFACTOR</scope>
+<scope>SUBUNIT</scope>
+</reference>
+<reference key="10">
+<citation type="journal article" date="2010" name="Biochemistry" volume="49" first="3317" last="3326">
+<title>Insights into the specificity of thioredoxin reductase-thioredoxin interactions. A structural and functional investigation of the yeast thioredoxin system.</title>
+<authorList>
+<person name="Oliveira M.A."/>
+<person name="Discola K.F."/>
+<person name="Alves S.V."/>
+<person name="Medrano F.J."/>
+<person name="Guimaraes B.G."/>
+<person name="Netto L.E."/>
+</authorList>
+<dbReference type="PubMed" id="20235561"/>
+<dbReference type="DOI" id="10.1021/bi901962p"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.40 ANGSTROMS) OF 2-319 IN COMPLEX WITH FAD</scope>
+<scope>FUNCTION</scope>
+<scope>COFACTOR</scope>
+<scope>SUBUNIT</scope>
+<scope>DISULFIDE BOND</scope>
+</reference>
+<comment type="function">
+<text evidence="6">Acts on thioredoxins 1 and 2.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>[thioredoxin]-dithiol + NADP(+) = [thioredoxin]-disulfide + H(+) + NADPH</text>
+<dbReference type="Rhea" id="RHEA:20345"/>
+<dbReference type="Rhea" id="RHEA-COMP:10698"/>
+<dbReference type="Rhea" id="RHEA-COMP:10700"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:29950"/>
+<dbReference type="ChEBI" id="CHEBI:50058"/>
+<dbReference type="ChEBI" id="CHEBI:57783"/>
+<dbReference type="ChEBI" id="CHEBI:58349"/>
+<dbReference type="EC" id="1.8.1.9"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="5 6">
+<name>FAD</name>
+<dbReference type="ChEBI" id="CHEBI:57692"/>
+</cofactor>
+<text evidence="5 6">Binds 1 FAD per subunit.</text>
+</comment>
+<comment type="subunit">
+<text evidence="5 6">Homodimer.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-19497">
+<id>P29509</id>
+</interactant>
+<interactant intactId="EBI-29054">
+<id>P53879</id>
+<label>RHO5</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>4</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-19497">
+<id>P29509</id>
+</interactant>
+<interactant intactId="EBI-19502">
+<id>P38816</id>
+<label>TRR2</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>4</experiments>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Cytoplasm</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="7">Mitochondrion intermembrane space</location>
+</subcellularLocation>
+</comment>
+<comment type="miscellaneous">
+<text>The active site is a redox-active disulfide bond.</text>
+</comment>
+<comment type="miscellaneous">
+<text evidence="4">Present with 292000 molecules/cell in log phase SD medium.</text>
+</comment>
+<comment type="similarity">
+<text evidence="9">Belongs to the class-II pyridine nucleotide-disulfide oxidoreductase family.</text>
+</comment>
+<dbReference type="EC" id="1.8.1.9"/>
+<dbReference type="EMBL" id="U10274">
+<property type="protein sequence ID" value="AAA64747.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U28372">
+<property type="protein sequence ID" value="AAB64789.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="X04273">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY557749">
+<property type="protein sequence ID" value="AAS56075.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BK006938">
+<property type="protein sequence ID" value="DAA12193.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S61150">
+<property type="entry name" value="S61150"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_010640.1">
+<property type="nucleotide sequence ID" value="NM_001180661.1"/>
+</dbReference>
+<dbReference type="PDB" id="3D8X">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.80"/>
+<property type="chains" value="A/B=2-319"/>
+</dbReference>
+<dbReference type="PDB" id="3ITJ">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.40"/>
+<property type="chains" value="A/B/C/D=2-319"/>
+</dbReference>
+<dbReference type="PDBsum" id="3D8X"/>
+<dbReference type="PDBsum" id="3ITJ"/>
+<dbReference type="SMR" id="P29509"/>
+<dbReference type="BioGRID" id="32410">
+<property type="interactions" value="55"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-4319N"/>
+<dbReference type="IntAct" id="P29509">
+<property type="interactions" value="10"/>
+</dbReference>
+<dbReference type="MINT" id="P29509"/>
+<dbReference type="STRING" id="4932.YDR353W"/>
+<dbReference type="iPTMnet" id="P29509"/>
+<dbReference type="MaxQB" id="P29509"/>
+<dbReference type="PaxDb" id="P29509"/>
+<dbReference type="PRIDE" id="P29509"/>
+<dbReference type="EnsemblFungi" id="YDR353W_mRNA">
+<property type="protein sequence ID" value="YDR353W"/>
+<property type="gene ID" value="YDR353W"/>
+</dbReference>
+<dbReference type="GeneID" id="851955"/>
+<dbReference type="KEGG" id="sce:YDR353W"/>
+<dbReference type="EuPathDB" id="FungiDB:YDR353W"/>
+<dbReference type="SGD" id="S000002761">
+<property type="gene designation" value="TRR1"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG0404">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00940000176591"/>
+<dbReference type="HOGENOM" id="CLU_031864_5_1_1"/>
+<dbReference type="InParanoid" id="P29509"/>
+<dbReference type="KO" id="K00384"/>
+<dbReference type="OMA" id="VDNFPGY"/>
+<dbReference type="BioCyc" id="YEAST:YDR353W-MONOMER"/>
+<dbReference type="BRENDA" id="1.8.1.9">
+<property type="organism ID" value="984"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="P29509"/>
+<dbReference type="PRO" id="PR:P29509"/>
+<dbReference type="Proteomes" id="UP000002311">
+<property type="component" value="Chromosome IV"/>
+</dbReference>
+<dbReference type="RNAct" id="P29509">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005758">
+<property type="term" value="C:mitochondrial intermembrane space"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005739">
+<property type="term" value="C:mitochondrion"/>
+<property type="evidence" value="ECO:0007005"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008198">
+<property type="term" value="F:ferrous iron binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004791">
+<property type="term" value="F:thioredoxin-disulfide reductase activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045454">
+<property type="term" value="P:cell redox homeostasis"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0034599">
+<property type="term" value="P:cellular response to oxidative stress"/>
+<property type="evidence" value="ECO:0000316"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019430">
+<property type="term" value="P:removal of superoxide radicals"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.50.50.60">
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036188">
+<property type="entry name" value="FAD/NAD-bd_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR023753">
+<property type="entry name" value="FAD/NAD-binding_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008255">
+<property type="entry name" value="Pyr_nucl-diS_OxRdtase_2_AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR005982">
+<property type="entry name" value="Thioredox_Rdtase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07992">
+<property type="entry name" value="Pyr_redox_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51905">
+<property type="entry name" value="SSF51905"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR01292">
+<property type="entry name" value="TRX_reduct"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00573">
+<property type="entry name" value="PYRIDINE_REDOX_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0274">FAD</keyword>
+<keyword id="KW-0285">Flavoprotein</keyword>
+<keyword id="KW-0496">Mitochondrion</keyword>
+<keyword id="KW-0521">NADP</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-0676">Redox-active center</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="initiator methionine" description="Removed" evidence="8">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<feature type="chain" description="Thioredoxin reductase 1" id="PRO_0000166770">
+<location>
+<begin position="2"/>
+<end position="319"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="FAD" evidence="5 6">
+<location>
+<begin position="11"/>
+<end position="14"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="FAD" evidence="5 6">
+<location>
+<begin position="40"/>
+<end position="41"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="FAD" evidence="5 6">
+<location>
+<begin position="295"/>
+<end position="297"/>
+</location>
+</feature>
+<feature type="binding site" description="FAD; via amide nitrogen" evidence="5 6">
+<location>
+<position position="45"/>
+</location>
+</feature>
+<feature type="binding site" description="FAD" evidence="5 6">
+<location>
+<position position="54"/>
+</location>
+</feature>
+<feature type="binding site" description="FAD; via amide nitrogen and carbonyl oxygen" evidence="5 6">
+<location>
+<position position="87"/>
+</location>
+</feature>
+<feature type="binding site" description="FAD" evidence="5 6">
+<location>
+<position position="145"/>
+</location>
+</feature>
+<feature type="binding site" description="FAD" evidence="5 6">
+<location>
+<position position="288"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine" evidence="3">
+<location>
+<position position="303"/>
+</location>
+</feature>
+<feature type="disulfide bond" description="Redox-active" evidence="6">
+<location>
+<begin position="142"/>
+<end position="145"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA64747." ref="1" evidence="9">
+<original>A</original>
+<variation>V</variation>
+<location>
+<position position="18"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA64747." ref="1" evidence="9">
+<original>T</original>
+<variation>A</variation>
+<location>
+<position position="101"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA64747." ref="1" evidence="9">
+<original>T</original>
+<variation>A</variation>
+<location>
+<position position="111"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA64747." ref="1" evidence="9">
+<original>VFMLVRKDHLRASTIMQ</original>
+<variation>CLCLSEKTICVLLPLCK</variation>
+<location>
+<begin position="180"/>
+<end position="196"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="3"/>
+<end position="9"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="13"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="30"/>
+<end position="32"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="35"/>
+<end position="37"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="45"/>
+<end position="48"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="49"/>
+<end position="52"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="64"/>
+<end position="77"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="81"/>
+<end position="83"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="87"/>
+<end position="91"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="93"/>
+<end position="101"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="105"/>
+<end position="107"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="110"/>
+<end position="117"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="121"/>
+<end position="123"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="131"/>
+<end position="134"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="136"/>
+<end position="138"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="139"/>
+<end position="141"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="143"/>
+<end position="146"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="150"/>
+<end position="152"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="155"/>
+<end position="160"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="164"/>
+<end position="173"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="174"/>
+<end position="176"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="177"/>
+<end position="183"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="185"/>
+<end position="188"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="193"/>
+<end position="201"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="205"/>
+<end position="208"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="210"/>
+<end position="230"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="231"/>
+<end position="234"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="235"/>
+<end position="240"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="242"/>
+<end position="246"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="250"/>
+<end position="252"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="255"/>
+<end position="257"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="258"/>
+<end position="260"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="275"/>
+<end position="277"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="283"/>
+<end position="285"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="287"/>
+<end position="290"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="297"/>
+<end position="315"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="3D8X"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="3ITJ"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000244">
+<source>
+<dbReference type="PubMed" id="18407956"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="14562106"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18930846"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="20235561"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="22984289"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="7961686"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000305"/>
+<sequence length="319" mass="34238" checksum="9F9E58A4BAD859E1" modified="2007-01-23" version="3">MVHNKVTIIGSGPAAHTAAIYLARAEIKPILYEGMMANGIAAGGQLTTTTEIENFPGFPDGLTGSELMDRMREQSTKFGTEIITETVSKVDLSSKPFKLWTEFNEDAEPVTTDAIILATGASAKRMHLPGEETYWQKGISACAVCDGAVPIFRNKPLAVIGGGDSACEEAQFLTKYGSKVFMLVRKDHLRASTIMQKRAEKNEKIEILYNTVALEAKGDGKLLNALRIKNTKKNEETDLPVSGLFYAIGHTPATKIVAGQVDTDEAGYIKTVPGSSLTSVPGFFAAGDVQDSKYRQAITSAGSGCMAALDAEKYLTSLE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,995 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="188">
+<accession>P29533</accession>
+<name>VCAM1_MOUSE</name>
+<protein>
+<recommendedName>
+<fullName>Vascular cell adhesion protein 1</fullName>
+<shortName>V-CAM 1</shortName>
+<shortName>VCAM-1</shortName>
+</recommendedName>
+<cdAntigenName>CD106</cdAntigenName>
+</protein>
+<gene>
+<name type="primary">Vcam1</name>
+<name type="synonym">Vcam-1</name>
+</gene>
+<organism>
+<name type="scientific">Mus musculus</name>
+<name type="common">Mouse</name>
+<dbReference type="NCBI Taxonomy" id="10090"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Myomorpha</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Mus</taxon>
+<taxon>Mus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1992" name="Biochem. Biophys. Res. Commun." volume="183" first="163" last="169">
+<title>Cloning of murine and rat vascular cell adhesion molecule-1.</title>
+<authorList>
+<person name="Hession C."/>
+<person name="Moy P."/>
+<person name="Tizard R."/>
+<person name="Chisholm P."/>
+<person name="Williams C."/>
+<person name="Wysk M."/>
+<person name="Burkly L."/>
+<person name="Miyake K."/>
+<person name="Kincade P."/>
+<person name="Lobb R."/>
+</authorList>
+<dbReference type="PubMed" id="1371918"/>
+<dbReference type="DOI" id="10.1016/0006-291x(92)91623-x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+<source>
+<strain>FVB/NJ</strain>
+<tissue>Lung</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1993" name="Gene" volume="126" first="261" last="264">
+<title>Cloning and sequencing of mouse VCAM-1 cDNA.</title>
+<authorList>
+<person name="Araki M."/>
+<person name="Araki K."/>
+<person name="Vassalli P."/>
+</authorList>
+<dbReference type="PubMed" id="7683304"/>
+<dbReference type="DOI" id="10.1016/0378-1119(93)90377-f"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE (ISOFORM 1)</scope>
+<source>
+<tissue>Lymph node</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1993" name="Genomics" volume="18" first="387" last="391">
+<title>Structure of the murine VCAM1 gene.</title>
+<authorList>
+<person name="Cybulsky M.I."/>
+<person name="Allan-Motamed M."/>
+<person name="Collins T."/>
+</authorList>
+<dbReference type="PubMed" id="7507076"/>
+<dbReference type="DOI" id="10.1006/geno.1993.1480"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORM 1)</scope>
+<source>
+<strain>129</strain>
+<tissue>Embryo</tissue>
+</source>
+</reference>
+<reference key="4">
+<citation type="submission" date="1994-08" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Kumar A.G."/>
+<person name="Dai Y.X."/>
+<person name="Kozak C.A."/>
+<person name="Mims M.P."/>
+<person name="Gotto A.M. Jr."/>
+<person name="Ballantyne C.M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE OF 1-693 (ISOFORM 1)</scope>
+<source>
+<strain>129/Sv</strain>
+<strain>NIH Swiss</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1993" name="J. Biol. Chem." volume="268" first="8835" last="8841">
+<title>Cloning of an inflammation-specific phosphatidyl inositol-linked form of murine vascular cell adhesion molecule-1.</title>
+<authorList>
+<person name="Moy P."/>
+<person name="Lobb R."/>
+<person name="Tizard R."/>
+<person name="Olson D."/>
+<person name="Hession C."/>
+</authorList>
+<dbReference type="PubMed" id="7682556"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2)</scope>
+<source>
+<strain>FVB/NJ</strain>
+<tissue>Lung</tissue>
+</source>
+</reference>
+<reference key="6">
+<citation type="journal article" date="1994" name="J. Immunol." volume="153" first="4088" last="4098">
+<title>Murine VCAM-1. Molecular cloning, mapping, and analysis of a truncated form.</title>
+<authorList>
+<person name="Kumar A.G."/>
+<person name="Dai X.Y."/>
+<person name="Kozak C.A."/>
+<person name="Mims M.P."/>
+<person name="Gotto A.M. Jr."/>
+<person name="Ballantyne C.M."/>
+</authorList>
+<dbReference type="PubMed" id="7523515"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2)</scope>
+<source>
+<strain>C57BL/6J</strain>
+<tissue>Liver</tissue>
+</source>
+</reference>
+<reference key="7">
+<citation type="journal article" date="1993" name="Proc. Natl. Acad. Sci. U.S.A." volume="90" first="5919" last="5923">
+<title>Cytokine induction of an alternatively spliced murine vascular cell adhesion molecule (VCAM) mRNA encoding a glycosylphosphatidylinositol-anchored VCAM protein.</title>
+<authorList>
+<person name="Terry R.W."/>
+<person name="Kwee L."/>
+<person name="Levine J.F."/>
+<person name="Labow M.A."/>
+</authorList>
+<dbReference type="PubMed" id="7687058"/>
+<dbReference type="DOI" id="10.1073/pnas.90.13.5919"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] OF 311-345 (ISOFORM 2)</scope>
+<scope>GPI-ANCHOR AT ASN-319 (ISOFORM 2)</scope>
+<source>
+<strain>FVB/N</strain>
+<tissue>Kidney</tissue>
+</source>
+</reference>
+<reference key="8">
+<citation type="submission" date="1995-12" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Korenaga R."/>
+<person name="Ando J."/>
+<person name="Tsuboi H."/>
+<person name="Kamiya A."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE OF 1-21</scope>
+<source>
+<tissue>Endothelial cell</tissue>
+</source>
+</reference>
+<reference key="9">
+<citation type="journal article" date="1994" name="J. Virol." volume="68" first="3453" last="3458">
+<title>VCAM-1 is a receptor for encephalomyocarditis virus on murine vascular endothelial cells.</title>
+<authorList>
+<person name="Huber S.A."/>
+</authorList>
+<dbReference type="PubMed" id="7514674"/>
+</citation>
+<scope>INTERACTION WITH ECMV-D CAPSID PROTEINS (MICROBIAL INFECTION)</scope>
+</reference>
+<reference key="10">
+<citation type="journal article" date="1991" name="J. Cell Biol." volume="114" first="557" last="565">
+<title>A VCAM-like adhesion molecule on murine bone marrow stromal cells mediates binding of lymphocyte precursors in culture.</title>
+<authorList>
+<person name="Miyake K."/>
+<person name="Medina K."/>
+<person name="Ishihara K."/>
+<person name="Kimoto M."/>
+<person name="Auerbach R."/>
+<person name="Kincade P.W."/>
+</authorList>
+<dbReference type="PubMed" id="1713592"/>
+<dbReference type="DOI" id="10.1083/jcb.114.3.557"/>
+</citation>
+<scope>PROTEIN SEQUENCE OF 27-32</scope>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<reference key="11">
+<citation type="journal article" date="2009" name="Mol. Cell. Proteomics" volume="8" first="2555" last="2569">
+<title>The mouse C2C12 myoblast cell surface N-linked glycoproteome: identification, glycosite occupancy, and membrane orientation.</title>
+<authorList>
+<person name="Gundry R.L."/>
+<person name="Raginski K."/>
+<person name="Tarasova Y."/>
+<person name="Tchernyshyov I."/>
+<person name="Bausch-Fluck D."/>
+<person name="Elliott S.T."/>
+<person name="Boheler K.R."/>
+<person name="Van Eyk J.E."/>
+<person name="Wollscheid B."/>
+</authorList>
+<dbReference type="PubMed" id="19656770"/>
+<dbReference type="DOI" id="10.1074/mcp.m900195-mcp200"/>
+</citation>
+<scope>GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-225; ASN-273 AND ASN-561</scope>
+<source>
+<tissue>Myoblast</tissue>
+</source>
+</reference>
+<reference key="12">
+<citation type="journal article" date="2010" name="Cell" volume="143" first="1174" last="1189">
+<title>A tissue-specific atlas of mouse protein phosphorylation and expression.</title>
+<authorList>
+<person name="Huttlin E.L."/>
+<person name="Jedrychowski M.P."/>
+<person name="Elias J.E."/>
+<person name="Goswami T."/>
+<person name="Rad R."/>
+<person name="Beausoleil S.A."/>
+<person name="Villen J."/>
+<person name="Haas W."/>
+<person name="Sowa M.E."/>
+<person name="Gygi S.P."/>
+</authorList>
+<dbReference type="PubMed" id="21183079"/>
+<dbReference type="DOI" id="10.1016/j.cell.2010.12.001"/>
+</citation>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+<source>
+<tissue>Brain</tissue>
+<tissue>Kidney</tissue>
+<tissue>Liver</tissue>
+<tissue>Lung</tissue>
+<tissue>Spleen</tissue>
+<tissue>Testis</tissue>
+</source>
+</reference>
+<comment type="function">
+<text>Important in cell-cell recognition. Appears to function in leukocyte-endothelial cell adhesion. Interacts with integrin alpha-4/beta-1 (ITGA4/ITGB1) on leukocytes, and mediates both adhesion and signal transduction. The VCAM1/ITGA4/ITGB1 interaction may play a pathophysiologic role both in immune responses and in leukocyte emigration to sites of inflammation.</text>
+</comment>
+<comment type="subunit">
+<text evidence="5">(Microbial infection) Interacts with ECMV-D capsid proteins and acts as a receptor for this virus.</text>
+</comment>
+<comment type="subcellular location">
+<molecule>Isoform 1</molecule>
+<subcellularLocation>
+<location>Cell membrane</location>
+<topology>Single-pass type I membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="subcellular location">
+<molecule>Isoform 2</molecule>
+<subcellularLocation>
+<location>Cell membrane</location>
+<topology>Lipid-anchor</topology>
+<topology>GPI-anchor</topology>
+</subcellularLocation>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>P29533-1</id>
+<name>1</name>
+<name>Long</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>P29533-2</id>
+<name>2</name>
+<name>Short</name>
+<sequence type="described" ref="VSP_002581 VSP_002582"/>
+</isoform>
+</comment>
+<comment type="tissue specificity">
+<text evidence="3">Expressed on inflamed vascular endothelium, as well as on macrophage-like and dendritic cell types in both normal and inflamed tissue. Expressed in the bone marrow.</text>
+</comment>
+<comment type="online information" name="Functional Glycomics Gateway - Glycan Binding">
+<link uri="http://www.functionalglycomics.org/glycomics/GBPServlet?&amp;operationType=view&amp;cbpId=cbp_mou_Itlect_192"/>
+<text>VCAM-1</text>
+</comment>
+<dbReference type="EMBL" id="M84487">
+<property type="protein sequence ID" value="AAA40545.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="X67783">
+<property type="protein sequence ID" value="CAA47989.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L22355">
+<property type="protein sequence ID" value="AAA16921.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L22301">
+<property type="protein sequence ID" value="AAA16921.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L22349">
+<property type="protein sequence ID" value="AAA16921.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L22350">
+<property type="protein sequence ID" value="AAA16921.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L22351">
+<property type="protein sequence ID" value="AAA16921.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L22352">
+<property type="protein sequence ID" value="AAA16921.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L22353">
+<property type="protein sequence ID" value="AAA16921.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L22354">
+<property type="protein sequence ID" value="AAA16921.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L22350">
+<property type="protein sequence ID" value="AAA16920.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L22301">
+<property type="protein sequence ID" value="AAA16920.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L22349">
+<property type="protein sequence ID" value="AAA16920.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U12878">
+<property type="protein sequence ID" value="AAB60659.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U12879">
+<property type="protein sequence ID" value="AAB60660.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U12880">
+<property type="protein sequence ID" value="AAB60661.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U12874">
+<property type="protein sequence ID" value="AAB60662.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U12871">
+<property type="protein sequence ID" value="AAB60663.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U12883">
+<property type="protein sequence ID" value="AAB60664.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U12881">
+<property type="protein sequence ID" value="AAA80010.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U12882">
+<property type="protein sequence ID" value="AAA80011.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U12875">
+<property type="protein sequence ID" value="AAA80012.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U12872">
+<property type="protein sequence ID" value="AAA80013.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U12876">
+<property type="protein sequence ID" value="AAA80014.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U12873">
+<property type="protein sequence ID" value="AAA80015.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U12877">
+<property type="protein sequence ID" value="AAA80016.1"/>
+<property type="status" value="ALT_SEQ"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L08431">
+<property type="protein sequence ID" value="AAA40546.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U12884">
+<property type="protein sequence ID" value="AAA64832.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L12541">
+<property type="protein sequence ID" value="AAC37607.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U42327">
+<property type="protein sequence ID" value="AAB88576.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS17785.1">
+<molecule id="P29533-1"/>
+</dbReference>
+<dbReference type="PIR" id="B48919">
+<property type="entry name" value="A46052"/>
+</dbReference>
+<dbReference type="PIR" id="JN0581">
+<property type="entry name" value="JN0581"/>
+</dbReference>
+<dbReference type="BioGRID" id="204505">
+<property type="interactions" value="3"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-29097N"/>
+<dbReference type="IntAct" id="P29533">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="MINT" id="P29533"/>
+<dbReference type="STRING" id="10090.ENSMUSP00000029574"/>
+<dbReference type="GlyConnect" id="2815">
+<property type="glycosylation" value="6 N-Linked glycans (2 sites)"/>
+</dbReference>
+<dbReference type="GlyGen" id="P29533">
+<property type="glycosylation" value="5 sites"/>
+</dbReference>
+<dbReference type="iPTMnet" id="P29533"/>
+<dbReference type="PhosphoSitePlus" id="P29533"/>
+<dbReference type="CPTAC" id="non-CPTAC-3397"/>
+<dbReference type="MaxQB" id="P29533"/>
+<dbReference type="PaxDb" id="P29533"/>
+<dbReference type="PeptideAtlas" id="P29533"/>
+<dbReference type="PRIDE" id="P29533"/>
+<dbReference type="Antibodypedia" id="3955">
+<property type="antibodies" value="2022 antibodies"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSMUST00000196449">
+<molecule id="P29533-2"/>
+<property type="protein sequence ID" value="ENSMUSP00000142876"/>
+<property type="gene ID" value="ENSMUSG00000027962"/>
+</dbReference>
+<dbReference type="MGI" id="MGI:98926">
+<property type="gene designation" value="Vcam1"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG502QSKQ">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00940000156511"/>
+<dbReference type="InParanoid" id="P29533"/>
+<dbReference type="PhylomeDB" id="P29533"/>
+<dbReference type="Reactome" id="R-MMU-198933">
+<property type="pathway name" value="Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell"/>
+</dbReference>
+<dbReference type="Reactome" id="R-MMU-216083">
+<property type="pathway name" value="Integrin cell surface interactions"/>
+</dbReference>
+<dbReference type="ChiTaRS" id="Vcam1">
+<property type="organism name" value="mouse"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P29533"/>
+<dbReference type="Proteomes" id="UP000000589">
+<property type="component" value="Chromosome 3"/>
+</dbReference>
+<dbReference type="RNAct" id="P29533">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSMUSG00000027962">
+<property type="expression patterns" value="Expressed in spleen and 297 other tissues"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071065">
+<property type="term" value="C:alpha9-beta1 integrin-vascular cell adhesion molecule-1 complex"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031225">
+<property type="term" value="C:anchored component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045177">
+<property type="term" value="C:apical part of cell"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071944">
+<property type="term" value="C:cell periphery"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009986">
+<property type="term" value="C:cell surface"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005769">
+<property type="term" value="C:early endosome"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005783">
+<property type="term" value="C:endoplasmic reticulum"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009897">
+<property type="term" value="C:external side of plasma membrane"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005615">
+<property type="term" value="C:extracellular space"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030175">
+<property type="term" value="C:filopodium"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005794">
+<property type="term" value="C:Golgi apparatus"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005887">
+<property type="term" value="C:integral component of plasma membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005902">
+<property type="term" value="C:microvillus"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002102">
+<property type="term" value="C:podosome"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042383">
+<property type="term" value="C:sarcolemma"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050839">
+<property type="term" value="F:cell adhesion molecule binding"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005178">
+<property type="term" value="F:integrin binding"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008131">
+<property type="term" value="F:primary amine oxidase activity"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009308">
+<property type="term" value="P:amine metabolic process"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035584">
+<property type="term" value="P:calcium-mediated signaling using intracellular calcium source"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060945">
+<property type="term" value="P:cardiac neuron differentiation"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007155">
+<property type="term" value="P:cell adhesion"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060326">
+<property type="term" value="P:cell chemotaxis"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0140039">
+<property type="term" value="P:cell-cell adhesion in response to extracellular stimulus"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007160">
+<property type="term" value="P:cell-matrix adhesion"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:1904646">
+<property type="term" value="P:cellular response to amyloid-beta"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071333">
+<property type="term" value="P:cellular response to glucose stimulus"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060710">
+<property type="term" value="P:chorio-allantoic fusion"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060669">
+<property type="term" value="P:embryonic placenta morphogenesis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007507">
+<property type="term" value="P:heart development"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007157">
+<property type="term" value="P:heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0034113">
+<property type="term" value="P:heterotypic cell-cell adhesion"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060384">
+<property type="term" value="P:innervation"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007159">
+<property type="term" value="P:leukocyte cell-cell adhesion"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050901">
+<property type="term" value="P:leukocyte tethering or rolling"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042102">
+<property type="term" value="P:positive regulation of T cell proliferation"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016032">
+<property type="term" value="P:viral process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0061032">
+<property type="term" value="P:visceral serous pericardium development"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="DFLAT"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.10">
+<property type="match status" value="7"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003987">
+<property type="entry name" value="ICAM_VCAM_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR007110">
+<property type="entry name" value="Ig-like_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036179">
+<property type="entry name" value="Ig-like_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013783">
+<property type="entry name" value="Ig-like_fold"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008424">
+<property type="entry name" value="Ig_C2-set"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013098">
+<property type="entry name" value="Ig_I-set"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003599">
+<property type="entry name" value="Ig_sub"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003598">
+<property type="entry name" value="Ig_sub2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013151">
+<property type="entry name" value="Immunoglobulin"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003989">
+<property type="entry name" value="VCAM-1"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR13771:SF14">
+<property type="entry name" value="PTHR13771:SF14"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF05790">
+<property type="entry name" value="C2-set"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07679">
+<property type="entry name" value="I-set"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00047">
+<property type="entry name" value="ig"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01472">
+<property type="entry name" value="ICAMVCAM1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01474">
+<property type="entry name" value="VCAM1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00409">
+<property type="entry name" value="IG"/>
+<property type="match status" value="5"/>
+</dbReference>
+<dbReference type="SMART" id="SM00408">
+<property type="entry name" value="IGc2"/>
+<property type="match status" value="5"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48726">
+<property type="entry name" value="SSF48726"/>
+<property type="match status" value="7"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50835">
+<property type="entry name" value="IG_LIKE"/>
+<property type="match status" value="5"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-0130">Cell adhesion</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0336">GPI-anchor</keyword>
+<keyword id="KW-0945">Host-virus interaction</keyword>
+<keyword id="KW-0393">Immunoglobulin domain</keyword>
+<keyword id="KW-0449">Lipoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="signal peptide" evidence="9">
+<location>
+<begin position="1"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="chain" description="Vascular cell adhesion protein 1" id="PRO_0000014998">
+<location>
+<begin position="25"/>
+<end position="739"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="1">
+<location>
+<begin position="25"/>
+<end position="698"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="699"/>
+<end position="720"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="1">
+<location>
+<begin position="721"/>
+<end position="739"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like C2-type 1">
+<location>
+<begin position="25"/>
+<end position="111"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like C2-type 2">
+<location>
+<begin position="119"/>
+<end position="212"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like C2-type 3">
+<location>
+<begin position="223"/>
+<end position="309"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like C2-type 4">
+<location>
+<begin position="312"/>
+<end position="393"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like C2-type 5">
+<location>
+<begin position="408"/>
+<end position="506"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like C2-type 6">
+<location>
+<begin position="511"/>
+<end position="595"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like C2-type 7">
+<location>
+<begin position="600"/>
+<end position="682"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="225"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="273"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="1">
+<location>
+<position position="424"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="1">
+<location>
+<position position="531"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="561"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="47"/>
+<end position="95"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="52"/>
+<end position="99"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="137"/>
+<end position="195"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="246"/>
+<end position="291"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="335"/>
+<end position="383"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="534"/>
+<end position="579"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2." id="VSP_002581" evidence="6 7 8">
+<original>EKPFIVDISPGSQVAAQVGDSVVLTCAAIGCDSPSF</original>
+<variation>DGRMKSQITNGHQLTVHLMFAKSFYFICYLCLYLAL</variation>
+<location>
+<begin position="310"/>
+<end position="345"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2." id="VSP_002582" evidence="6 7 8">
+<location>
+<begin position="346"/>
+<end position="739"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 3; AAA16921." ref="3" evidence="9">
+<original>D</original>
+<variation>N</variation>
+<location>
+<position position="693"/>
+</location>
+</feature>
+<feature type="lipid moiety-binding region" description="GPI-anchor amidated asparagine" evidence="8">
+<location sequence="P29533-2">
+<position position="319"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255"/>
+<evidence key="2" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00114"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="1713592"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19656770"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="7514674"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="7523515"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="7682556"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="7687058"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000305"/>
+<sequence length="739" mass="81317" checksum="3D2134C341E5E449" modified="1993-04-01" version="1" precursor="true">MPVKMVAVLGASTVLWILFAVSQAFKIEISPEYKTIAQIGDSMALTCSTTGCESPLFSWRTQIDSPLNAKVRTEGSKSVLTMEPVSFENEHSYLCTATCGSGKLERSIHVDIYSFPKDPEIQFSGPLEVGKPVTVKCLAPDIYPVYRLEIDLFKGDQLMNRQEFSSEEMTKSLETKSLEVTFTPVIEDIGKALVCRAKLHIDQIDSTLKERETVKELQVYISPRNTTISVHPSTRLQEGGAVTMTCSSEGLPAPEIFWGRKLDNEVLQLLSGNATLTLIAMRMEDSGVYVCEGVNLIGRDKAEVELVVQEKPFIVDISPGSQVAAQVGDSVVLTCAAIGCDSPSFSWRTQTDSPLNGVVRNEGAKSTLVLSSVGFEDEHSYLCAVTCLQRTLEKRTQVEVYSFPEDPVIKMSGPLVHGRPVTVNCTVPNVYPFDHLEIELLKGETTLMKKYFLEEMGIKSLETKILETTFIPTIEDTGKSLVCLARLHSGEMESEPKQRQSVQPLYVNVAPKETTIWVSPSPILEEGSPVNLTCSSDGIPAPKILWSRQLNNGELQPLSENTTLTFMSTKRDDSGIYVCEGINEAGISRKSVELIIQVSPKDIQLTVFPSKSVKEGDTVIISCTCGNVPETWIILKKKAKTGDMVLKSVDGSYTIRQAQLQDAGIYECESKTEVGSQLRSLTLDVKGKEHNKDYFSPELLALYCASSLVIPAIGMIVYFARKANMKGSYSLVEAQKSKV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

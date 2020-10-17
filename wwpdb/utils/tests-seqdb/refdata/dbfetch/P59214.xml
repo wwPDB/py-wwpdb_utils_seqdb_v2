@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2003-01-17" modified="2020-08-12" version="104">
+<accession>P59214</accession>
+<accession>P29850</accession>
+<name>MALX_STRR6</name>
+<protein>
+<recommendedName>
+<fullName>Maltose/maltodextrin-binding protein</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">malX</name>
+<name type="ordered locus">spr1918</name>
+</gene>
+<organism>
+<name type="scientific">Streptococcus pneumoniae (strain ATCC BAA-255 / R6)</name>
+<dbReference type="NCBI Taxonomy" id="171101"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Lactobacillales</taxon>
+<taxon>Streptococcaceae</taxon>
+<taxon>Streptococcus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1993" name="J. Mol. Biol." volume="230" first="800" last="811">
+<title>Structure of the maltodextrin-uptake locus of Streptococcus pneumoniae. Correlation to the Escherichia coli maltose regulon.</title>
+<authorList>
+<person name="Puyet A."/>
+<person name="Espinosa M."/>
+</authorList>
+<dbReference type="PubMed" id="8478935"/>
+<dbReference type="DOI" id="10.1006/jmbi.1993.1202"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1982" name="Cell" volume="31" first="327" last="336">
+<title>Identification of base mismatches recognized by the heteroduplex-DNA-repair system of Streptococcus pneumoniae.</title>
+<authorList>
+<person name="Lacks S.A."/>
+<person name="Dunn J.J."/>
+<person name="Greenberg B."/>
+</authorList>
+<dbReference type="PubMed" id="6297760"/>
+<dbReference type="DOI" id="10.1016/0092-8674(82)90126-x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2001" name="J. Bacteriol." volume="183" first="5709" last="5717">
+<title>Genome of the bacterium Streptococcus pneumoniae strain R6.</title>
+<authorList>
+<person name="Hoskins J."/>
+<person name="Alborn W.E. Jr."/>
+<person name="Arnold J."/>
+<person name="Blaszczak L.C."/>
+<person name="Burgett S."/>
+<person name="DeHoff B.S."/>
+<person name="Estrem S.T."/>
+<person name="Fritz L."/>
+<person name="Fu D.-J."/>
+<person name="Fuller W."/>
+<person name="Geringer C."/>
+<person name="Gilmour R."/>
+<person name="Glass J.S."/>
+<person name="Khoja H."/>
+<person name="Kraft A.R."/>
+<person name="Lagace R.E."/>
+<person name="LeBlanc D.J."/>
+<person name="Lee L.N."/>
+<person name="Lefkowitz E.J."/>
+<person name="Lu J."/>
+<person name="Matsushima P."/>
+<person name="McAhren S.M."/>
+<person name="McHenney M."/>
+<person name="McLeaster K."/>
+<person name="Mundy C.W."/>
+<person name="Nicas T.I."/>
+<person name="Norris F.H."/>
+<person name="O'Gara M."/>
+<person name="Peery R.B."/>
+<person name="Robertson G.T."/>
+<person name="Rockey P."/>
+<person name="Sun P.-M."/>
+<person name="Winkler M.E."/>
+<person name="Yang Y."/>
+<person name="Young-Bellido M."/>
+<person name="Zhao G."/>
+<person name="Zook C.A."/>
+<person name="Baltz R.H."/>
+<person name="Jaskunas S.R."/>
+<person name="Rosteck P.R. Jr."/>
+<person name="Skatrud P.L."/>
+<person name="Glass J.I."/>
+</authorList>
+<dbReference type="PubMed" id="11544234"/>
+<dbReference type="DOI" id="10.1128/jb.183.19.5709-5717.2001"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC BAA-255 / R6</strain>
+</source>
+</reference>
+<comment type="function">
+<text>Binding protein for maltose and maltodextrin; involved in its cellular uptake.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cell membrane</location>
+<topology evidence="1">Lipid-anchor</topology>
+</subcellularLocation>
+</comment>
+<comment type="induction">
+<text>By maltose.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the bacterial solute-binding protein 1 family.</text>
+</comment>
+<comment type="sequence caution" evidence="1">
+<conflict type="frameshift">
+<sequence resource="EMBL-CDS" id="AAA26922" version="1"/>
+</conflict>
+</comment>
+<dbReference type="EMBL" id="L08611">
+<property type="protein sequence ID" value="AAA26925.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="J01796">
+<property type="protein sequence ID" value="AAA26922.1"/>
+<property type="status" value="ALT_FRAME"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE007317">
+<property type="protein sequence ID" value="AAL00720.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="C98111">
+<property type="entry name" value="C98111"/>
+</dbReference>
+<dbReference type="PIR" id="S32569">
+<property type="entry name" value="S32569"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_359509.1">
+<property type="nucleotide sequence ID" value="NC_003098.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000095484.1">
+<property type="nucleotide sequence ID" value="NC_003098.1"/>
+</dbReference>
+<dbReference type="SMR" id="P59214"/>
+<dbReference type="STRING" id="171101.spr1918"/>
+<dbReference type="PRIDE" id="P59214"/>
+<dbReference type="EnsemblBacteria" id="AAL00720">
+<property type="protein sequence ID" value="AAL00720"/>
+<property type="gene ID" value="spr1918"/>
+</dbReference>
+<dbReference type="KEGG" id="spr:spr1918"/>
+<dbReference type="PATRIC" id="fig|171101.6.peg.2067"/>
+<dbReference type="eggNOG" id="COG2182">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_031285_17_2_9"/>
+<dbReference type="KO" id="K15770"/>
+<dbReference type="OMA" id="WAHDWIG"/>
+<dbReference type="BioCyc" id="SPNE171101:SPR1918-MONOMER"/>
+<dbReference type="Proteomes" id="UP000000586">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0055052">
+<property type="term" value="C:ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015144">
+<property type="term" value="F:carbohydrate transmembrane transporter activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:1901982">
+<property type="term" value="F:maltose binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042956">
+<property type="term" value="P:maltodextrin transport"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015768">
+<property type="term" value="P:maltose transport"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006060">
+<property type="entry name" value="Maltose/Cyclodextrin-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006061">
+<property type="entry name" value="SBP_1_CS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13416">
+<property type="entry name" value="SBP_bac_8"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00181">
+<property type="entry name" value="MALTOSEBP"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51257">
+<property type="entry name" value="PROKAR_LIPOPROTEIN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01037">
+<property type="entry name" value="SBP_BACTERIAL_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0449">Lipoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0564">Palmitate</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0762">Sugar transport</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" evidence="1">
+<location>
+<begin position="1"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="chain" description="Maltose/maltodextrin-binding protein" id="PRO_0000031699">
+<location>
+<begin position="25"/>
+<end position="423"/>
+</location>
+</feature>
+<feature type="lipid moiety-binding region" description="N-palmitoyl cysteine" evidence="1">
+<location>
+<position position="25"/>
+</location>
+</feature>
+<feature type="lipid moiety-binding region" description="S-diacylglycerol cysteine" evidence="1">
+<location>
+<position position="25"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000305"/>
+<sequence length="423" mass="45367" checksum="4555B07DA4E5BC5C" modified="2003-01-17" version="1" precursor="true">MSSKFMKSTAVLGTVTLASLLLVACGSKTADKPADSGSSEVKELTVYVDEGYKSYIEEVAKAYEKEAGVKVTLKTGDALGGLDKLSLDNQSGNVPDVMMAPYDRVGSLGSDGQLSEVKLSDGAKTDDTTKSLVTAANGKVYGAPAVIESLVMYYNKDLVKDAPKTFADLENLAKDSKYAFAGEDGKTTAFLADWTNFYYTYGLLAGNGAYVFGQNGKDAKDIGLANDGSIAGINYAKSWYEKWPKGMQDTEGAGNLIQTQFQEGKTAAIIDGPWKAQAFKDAKVNYGVATIPTLPNGKEYAAFGGGKAWVIPQAVKNLEASQKFVDFLVATEQQKVLYDKTNEIPANTEARSYAEGKNDELTTAVIKQFKNTQPLPNISQMSAVWDPAKNMLFDAVSGQKDAKTAANDAVTLIKETIKQKFGE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

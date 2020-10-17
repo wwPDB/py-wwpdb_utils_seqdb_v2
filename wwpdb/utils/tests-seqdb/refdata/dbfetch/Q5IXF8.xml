@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-10-02" modified="2020-08-12" version="104">
+<accession>Q5IXF8</accession>
+<accession>Q5SU65</accession>
+<name>GLP2R_MOUSE</name>
+<protein>
+<recommendedName>
+<fullName>Glucagon-like peptide 2 receptor</fullName>
+<shortName>GLP-2 receptor</shortName>
+<shortName>GLP-2-R</shortName>
+<shortName>GLP-2R</shortName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">Glp2r</name>
+</gene>
+<organism>
+<name type="scientific">Mus musculus</name>
+<name type="common">Mouse</name>
+<dbReference type="NCBI Taxonomy" id="10090"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Myomorpha</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Mus</taxon>
+<taxon>Mus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="2004-04" db="EMBL/GenBank/DDBJ databases">
+<title>Murine glucagon-like peptide-2 receptor cDNA.</title>
+<authorList>
+<person name="Estall J.L."/>
+<person name="Drucker D.J."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<source>
+<strain>C57BL/6J</strain>
+<tissue>Jejunum</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2009" name="PLoS Biol." volume="7" first="E1000112" last="E1000112">
+<title>Lineage-specific biology revealed by a finished genome assembly of the mouse.</title>
+<authorList>
+<person name="Church D.M."/>
+<person name="Goodstadt L."/>
+<person name="Hillier L.W."/>
+<person name="Zody M.C."/>
+<person name="Goldstein S."/>
+<person name="She X."/>
+<person name="Bult C.J."/>
+<person name="Agarwala R."/>
+<person name="Cherry J.L."/>
+<person name="DiCuccio M."/>
+<person name="Hlavina W."/>
+<person name="Kapustin Y."/>
+<person name="Meric P."/>
+<person name="Maglott D."/>
+<person name="Birtle Z."/>
+<person name="Marques A.C."/>
+<person name="Graves T."/>
+<person name="Zhou S."/>
+<person name="Teague B."/>
+<person name="Potamousis K."/>
+<person name="Churas C."/>
+<person name="Place M."/>
+<person name="Herschleb J."/>
+<person name="Runnheim R."/>
+<person name="Forrest D."/>
+<person name="Amos-Landgraf J."/>
+<person name="Schwartz D.C."/>
+<person name="Cheng Z."/>
+<person name="Lindblad-Toh K."/>
+<person name="Eichler E.E."/>
+<person name="Ponting C.P."/>
+</authorList>
+<dbReference type="PubMed" id="19468303"/>
+<dbReference type="DOI" id="10.1371/journal.pbio.1000112"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>C57BL/6J</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">This is a receptor for glucagon-like peptide 2. The activity of this receptor is mediated by G proteins which activate adenylyl cyclase (By similarity).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Cell membrane</location>
+<topology>Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the G-protein coupled receptor 2 family.</text>
+</comment>
+<dbReference type="EMBL" id="AY605231">
+<property type="protein sequence ID" value="AAT46060.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AL646097">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS24860.1"/>
+<dbReference type="RefSeq" id="NP_783612.2">
+<property type="nucleotide sequence ID" value="NM_175681.3"/>
+</dbReference>
+<dbReference type="SMR" id="Q5IXF8"/>
+<dbReference type="STRING" id="10090.ENSMUSP00000061560"/>
+<dbReference type="GlyGen" id="Q5IXF8">
+<property type="glycosylation" value="1 site"/>
+</dbReference>
+<dbReference type="PhosphoSitePlus" id="Q5IXF8"/>
+<dbReference type="PaxDb" id="Q5IXF8"/>
+<dbReference type="PRIDE" id="Q5IXF8"/>
+<dbReference type="Antibodypedia" id="12679">
+<property type="antibodies" value="363 antibodies"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSMUST00000051765">
+<property type="protein sequence ID" value="ENSMUSP00000061560"/>
+<property type="gene ID" value="ENSMUSG00000049928"/>
+</dbReference>
+<dbReference type="GeneID" id="93896"/>
+<dbReference type="KEGG" id="mmu:93896"/>
+<dbReference type="UCSC" id="uc007jna.1">
+<property type="organism name" value="mouse"/>
+</dbReference>
+<dbReference type="CTD" id="9340"/>
+<dbReference type="MGI" id="MGI:2136733">
+<property type="gene designation" value="Glp2r"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG4564">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00940000158127"/>
+<dbReference type="HOGENOM" id="CLU_002753_4_0_1"/>
+<dbReference type="InParanoid" id="Q5IXF8"/>
+<dbReference type="KO" id="K04582"/>
+<dbReference type="OMA" id="FHRKCSL"/>
+<dbReference type="OrthoDB" id="651627at2759"/>
+<dbReference type="PhylomeDB" id="Q5IXF8"/>
+<dbReference type="TreeFam" id="TF315710"/>
+<dbReference type="Reactome" id="R-MMU-418555">
+<property type="pathway name" value="G alpha (s) signalling events"/>
+</dbReference>
+<dbReference type="Reactome" id="R-MMU-420092">
+<property type="pathway name" value="Glucagon-type ligand receptors"/>
+</dbReference>
+<dbReference type="BioGRID-ORCS" id="93896">
+<property type="hits" value="1 hit in 19 CRISPR screens"/>
+</dbReference>
+<dbReference type="ChiTaRS" id="Glp2r">
+<property type="organism name" value="mouse"/>
+</dbReference>
+<dbReference type="PRO" id="PR:Q5IXF8"/>
+<dbReference type="Proteomes" id="UP000000589">
+<property type="component" value="Chromosome 11"/>
+</dbReference>
+<dbReference type="RNAct" id="Q5IXF8">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSMUSG00000049928">
+<property type="expression patterns" value="Expressed in retinal neural layer and 40 other tissues"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="Q5IXF8">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008528">
+<property type="term" value="F:G protein-coupled peptide receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004967">
+<property type="term" value="F:glucagon receptor activity"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0017046">
+<property type="term" value="F:peptide hormone binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007188">
+<property type="term" value="P:adenylate cyclase-modulating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007166">
+<property type="term" value="P:cell surface receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.1240.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR039125">
+<property type="entry name" value="GLP2R"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017981">
+<property type="entry name" value="GPCR_2-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036445">
+<property type="entry name" value="GPCR_2_extracell_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001879">
+<property type="entry name" value="GPCR_2_extracellular_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000832">
+<property type="entry name" value="GPCR_2_secretin-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017983">
+<property type="entry name" value="GPCR_2_secretin-like_CS"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR45620:SF23">
+<property type="entry name" value="PTHR45620:SF23"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00002">
+<property type="entry name" value="7tm_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02793">
+<property type="entry name" value="HRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00249">
+<property type="entry name" value="GPCRSECRETIN"/>
+</dbReference>
+<dbReference type="SMART" id="SM00008">
+<property type="entry name" value="HormR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF111418">
+<property type="entry name" value="SSF111418"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00649">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50227">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50261">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_4"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0297">G-protein coupled receptor</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0807">Transducer</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Glucagon-like peptide 2 receptor" id="PRO_0000307111">
+<location>
+<begin position="1"/>
+<end position="512"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="1">
+<location>
+<begin position="1"/>
+<end position="135"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=1" evidence="1">
+<location>
+<begin position="136"/>
+<end position="160"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="1">
+<location>
+<begin position="161"/>
+<end position="172"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=2" evidence="1">
+<location>
+<begin position="173"/>
+<end position="197"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="1">
+<location>
+<begin position="198"/>
+<end position="223"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=3" evidence="1">
+<location>
+<begin position="224"/>
+<end position="247"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="1">
+<location>
+<begin position="248"/>
+<end position="261"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=4" evidence="1">
+<location>
+<begin position="262"/>
+<end position="283"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="1">
+<location>
+<begin position="284"/>
+<end position="301"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=5" evidence="1">
+<location>
+<begin position="302"/>
+<end position="324"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="1">
+<location>
+<begin position="325"/>
+<end position="348"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=6" evidence="1">
+<location>
+<begin position="349"/>
+<end position="367"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="1">
+<location>
+<begin position="368"/>
+<end position="379"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=7" evidence="1">
+<location>
+<begin position="380"/>
+<end position="400"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="1">
+<location>
+<begin position="401"/>
+<end position="512"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="73"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="43"/>
+<end position="65"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="56"/>
+<end position="97"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="78"/>
+<end position="119"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAT46060." ref="1" evidence="3">
+<original>P</original>
+<variation>H</variation>
+<location>
+<position position="263"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAT46060." ref="1" evidence="3">
+<original>GV</original>
+<variation>AF</variation>
+<location>
+<begin position="459"/>
+<end position="460"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAT46060." ref="1" evidence="3">
+<original>R</original>
+<variation>L</variation>
+<location>
+<position position="485"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="512" mass="59105" checksum="B7CBEE79F0267867" modified="2007-10-02" version="2">MRRLWGPGTPFLALLLLVSIKQVTTGSLLEETVQKWAQYKETCLKDLLEKPSGVFCNGTFDKYVCWPHSFPGNVSVPCPSYLPWWNKESPGRAYRHCLAQGTWQKQENSTDTWQDESECSENHSFKQNVDHYHHTLLSTLQLMYTVGYSLSLISLFLALTLFLFLRKLHCTRNYIHMNLFASFILRALVVLVKDMVFYNSYSRRPDSESGWMSYLSEISASCRSVQVLLHYFVGTNHLWLLVEGLYLHALLEPTVLPERRLWPKYLVVGWAFPMLFVIPWIFVRASLENTGCWAVNENKKIWWIIRGPILLCVTVNFFIFLKILKLLISKFRAHQMCFRDYKYRLAKSTLLLILLMGVHEFLFTFFTDDQVQGFSRLIRLFIQLTLSSFHGFLVALQYGFASREVKAELRKTWGRFLLARHWGCRACVLGKNFRFLGKCSKKLSEGDGAETLQKLQSSGVSSHLTAGNLRDHGAQPHRGRGAWPRASSLSESSEGDFTLANTMEEILEESEI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

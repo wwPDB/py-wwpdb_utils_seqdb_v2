@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-06-26" modified="2020-08-12" version="99">
+<accession>Q83PU5</accession>
+<accession>Q7BYU3</accession>
+<name>UGPB_SHIFL</name>
+<protein>
+<recommendedName>
+<fullName>sn-glycerol-3-phosphate-binding periplasmic protein UgpB</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">ugpB</name>
+<name type="ordered locus">SF3471</name>
+<name type="ordered locus">S4292</name>
+</gene>
+<organism>
+<name type="scientific">Shigella flexneri</name>
+<dbReference type="NCBI Taxonomy" id="623"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacterales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+<taxon>Shigella</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2002" name="Nucleic Acids Res." volume="30" first="4432" last="4441">
+<title>Genome sequence of Shigella flexneri 2a: insights into pathogenicity through comparison with genomes of Escherichia coli K12 and O157.</title>
+<authorList>
+<person name="Jin Q."/>
+<person name="Yuan Z."/>
+<person name="Xu J."/>
+<person name="Wang Y."/>
+<person name="Shen Y."/>
+<person name="Lu W."/>
+<person name="Wang J."/>
+<person name="Liu H."/>
+<person name="Yang J."/>
+<person name="Yang F."/>
+<person name="Zhang X."/>
+<person name="Zhang J."/>
+<person name="Yang G."/>
+<person name="Wu H."/>
+<person name="Qu D."/>
+<person name="Dong J."/>
+<person name="Sun L."/>
+<person name="Xue Y."/>
+<person name="Zhao A."/>
+<person name="Gao Y."/>
+<person name="Zhu J."/>
+<person name="Kan B."/>
+<person name="Ding K."/>
+<person name="Chen S."/>
+<person name="Cheng H."/>
+<person name="Yao Z."/>
+<person name="He B."/>
+<person name="Chen R."/>
+<person name="Ma D."/>
+<person name="Qiang B."/>
+<person name="Wen Y."/>
+<person name="Hou Y."/>
+<person name="Yu J."/>
+</authorList>
+<dbReference type="PubMed" id="12384590"/>
+<dbReference type="DOI" id="10.1093/nar/gkf566"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>301 / Serotype 2a</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2003" name="Infect. Immun." volume="71" first="2775" last="2786">
+<title>Complete genome sequence and comparative genomics of Shigella flexneri serotype 2a strain 2457T.</title>
+<authorList>
+<person name="Wei J."/>
+<person name="Goldberg M.B."/>
+<person name="Burland V."/>
+<person name="Venkatesan M.M."/>
+<person name="Deng W."/>
+<person name="Fournier G."/>
+<person name="Mayhew G.F."/>
+<person name="Plunkett G. III"/>
+<person name="Rose D.J."/>
+<person name="Darling A."/>
+<person name="Mau B."/>
+<person name="Perna N.T."/>
+<person name="Payne S.M."/>
+<person name="Runyen-Janecky L.J."/>
+<person name="Zhou S."/>
+<person name="Schwartz D.C."/>
+<person name="Blattner F.R."/>
+</authorList>
+<dbReference type="PubMed" id="12704152"/>
+<dbReference type="DOI" id="10.1128/iai.71.5.2775-2786.2003"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 700930 / 2457T / Serotype 2a</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">sn-glycerol-3-phosphate and glycerophosphoryl diester-binding protein interacts with the binding protein-dependent transport system UgpACE.</text>
+</comment>
+<comment type="subunit">
+<text evidence="3">The complex is composed of two ATP-binding proteins (UgpC), two transmembrane proteins (UgpA and UgpE) and a solute-binding protein (UgpB).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Periplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the bacterial solute-binding protein 1 family.</text>
+</comment>
+<dbReference type="EMBL" id="AE005674">
+<property type="protein sequence ID" value="AAN44930.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE014073">
+<property type="protein sequence ID" value="AAP19252.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_709223.1">
+<property type="nucleotide sequence ID" value="NC_004337.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_000803215.1">
+<property type="nucleotide sequence ID" value="NZ_WPGW01000010.1"/>
+</dbReference>
+<dbReference type="SMR" id="Q83PU5"/>
+<dbReference type="EnsemblBacteria" id="AAN44930">
+<property type="protein sequence ID" value="AAN44930"/>
+<property type="gene ID" value="SF3471"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="AAP19252">
+<property type="protein sequence ID" value="AAP19252"/>
+<property type="gene ID" value="S4292"/>
+</dbReference>
+<dbReference type="GeneID" id="1026451"/>
+<dbReference type="GeneID" id="48107936"/>
+<dbReference type="KEGG" id="sfl:SF3471"/>
+<dbReference type="KEGG" id="sfx:S4292"/>
+<dbReference type="PATRIC" id="fig|198214.7.peg.4091"/>
+<dbReference type="HOGENOM" id="CLU_031285_3_0_6"/>
+<dbReference type="KO" id="K05813"/>
+<dbReference type="OMA" id="ESFSAWH"/>
+<dbReference type="OrthoDB" id="447734at2"/>
+<dbReference type="Proteomes" id="UP000001006">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000002673">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042597">
+<property type="term" value="C:periplasmic space"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0055085">
+<property type="term" value="P:transmembrane transport"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006061">
+<property type="entry name" value="SBP_1_CS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13416">
+<property type="entry name" value="SBP_bac_8"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS01037">
+<property type="entry name" value="SBP_BACTERIAL_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0574">Periplasm</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="23"/>
+</location>
+</feature>
+<feature type="chain" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB" id="PRO_0000292819">
+<location>
+<begin position="24"/>
+<end position="438"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="438" mass="48465" checksum="5FF6F3F151CE795B" modified="2003-06-01" version="1" precursor="true">MKPLHYTASALALGLALMGNAQAVTTIPFWHSMEGELGKEVDSLAQRFNAENPDYKIVPTYKGNYEQNLSAGIAVFRTGNAPAILQVYEVGTATMMASKAIKPVYDVFKEAGIQFDESQFVPTVSGYYSDSKTGHLLSQPFNSSTSVLYYNKDAFKKAGLDPEQPPKTWQDLADYSAKLKASGIKCGYASGWQGWIQLENFSAWNGLPFASKNNGFDGTDAVLEFNKPEQVKHIAMLEEMNKKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIREYAKFNYGVGMMPYDADAKDAPQNAIIGGASLWVMQGKDKETYTGVAKFLDFLAKPENAAEWHQKTGYLPITKAAYDLTREQGFYEKNPGADTATRQMLNKPPLPFTKGLRLGNMPQIRVIVDEELESVWTGKKTPQQALDTAVERGNQLLRRFEKSTKS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

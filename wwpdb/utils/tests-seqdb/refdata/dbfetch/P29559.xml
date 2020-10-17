@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="80">
+<accession>P29559</accession>
+<name>LANZ_LACLL</name>
+<protein>
+<recommendedName>
+<fullName>Lantibiotic nisin-Z</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">nisZ</name>
+</gene>
+<organism>
+<name type="scientific">Lactococcus lactis subsp. lactis</name>
+<name type="synonym">Streptococcus lactis</name>
+<dbReference type="NCBI Taxonomy" id="1360"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Lactobacillales</taxon>
+<taxon>Streptococcaceae</taxon>
+<taxon>Lactococcus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1991" name="Eur. J. Biochem." volume="201" first="581" last="584">
+<title>Identification and characterization of the lantibiotic nisin Z, a natural nisin variant.</title>
+<authorList>
+<person name="Mulders J.W.M."/>
+<person name="Boerrigter I.J."/>
+<person name="Rollema H.S."/>
+<person name="Siezen R.J."/>
+<person name="de Vos W.M."/>
+</authorList>
+<dbReference type="PubMed" id="1935953"/>
+<dbReference type="DOI" id="10.1111/j.1432-1033.1991.tb16317.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>NIZO 22186</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1992" name="J. Gen. Appl. Microbiol." volume="38" first="271" last="278">
+<title>Genetic evidence that Lactococcus lactis JCM7638 produces a mutated form of nisin.</title>
+<authorList>
+<person name="Araya T."/>
+<person name="Ishibashi N."/>
+<person name="Shimamura S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>CIP 103449 / JCM 7638</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1995" name="DNA Seq." volume="5" first="203" last="218">
+<title>The codon usage of the nisZ operon in Lactococcus lactis N8 suggests a non-lactococcal origin of the conjugative nisin-sucrose transposon.</title>
+<authorList>
+<person name="Immonen T."/>
+<person name="Ye S."/>
+<person name="Ra R."/>
+<person name="Qiao M."/>
+<person name="Paulin L."/>
+<person name="Saris P.E.J."/>
+</authorList>
+<dbReference type="PubMed" id="7626780"/>
+<dbReference type="DOI" id="10.3109/10425179509030968"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>N8</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2004" name="Nat. Struct. Mol. Biol." volume="11" first="963" last="967">
+<title>The nisin-lipid II complex reveals a pyrophosphate cage that provides a blueprint for novel antibiotics.</title>
+<authorList>
+<person name="Hsu S.T."/>
+<person name="Breukink E."/>
+<person name="Tischenko E."/>
+<person name="Lutters M.A."/>
+<person name="de Kruijff B."/>
+<person name="Kaptein R."/>
+<person name="Bonvin A.M."/>
+<person name="van Nuland N.A."/>
+</authorList>
+<dbReference type="PubMed" id="15361862"/>
+<dbReference type="DOI" id="10.1038/nsmb830"/>
+</citation>
+<scope>STRUCTURE BY NMR OF 24-57</scope>
+<scope>DEHYDRATION AT THR-25; SER-28 AND SER-56</scope>
+<scope>LANTHIONINE CROSS-LINKS</scope>
+</reference>
+<comment type="function">
+<text>Lanthionine-containing peptide antibiotic (lantibiotic) active on Gram-positive bacteria. The bactericidal activity of lantibiotics is based on depolarization of energized bacterial cytoplasmic membranes, initiated by the formation of aqueous transmembrane pores.</text>
+</comment>
+<comment type="PTM">
+<text>Maturation of lantibiotics involves the enzymatic conversion of Thr, and Ser into dehydrated AA and the formation of thioether bonds with cysteine. This is followed by membrane translocation and cleavage of the modified precursor.</text>
+</comment>
+<comment type="PTM">
+<text>The structure of the 2,3-didehydrobutyrine is not discussed in PubMed:15361862. It is probably the Z-isomer by similarity.</text>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the type A lantibiotic family.</text>
+</comment>
+<dbReference type="EMBL" id="X61144">
+<property type="protein sequence ID" value="CAA43440.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="D10768">
+<property type="protein sequence ID" value="BAA01598.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="Z18947">
+<property type="protein sequence ID" value="CAA79467.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_015425978.1">
+<property type="nucleotide sequence ID" value="NZ_QYRO01000015.1"/>
+</dbReference>
+<dbReference type="PDB" id="1WCO">
+<property type="method" value="NMR"/>
+<property type="chains" value="N=24-57"/>
+</dbReference>
+<dbReference type="PDB" id="6M7Y">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.79"/>
+<property type="chains" value="C/D=2-35"/>
+</dbReference>
+<dbReference type="PDBsum" id="1WCO"/>
+<dbReference type="PDBsum" id="6M7Y"/>
+<dbReference type="SMR" id="P29559"/>
+<dbReference type="DrugBank" id="DB07780">
+<property type="generic name" value="Farnesyl diphosphate"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="P29559"/>
+<dbReference type="GO" id="GO:0005576">
+<property type="term" value="C:extracellular region"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005102">
+<property type="term" value="F:signaling receptor binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019835">
+<property type="term" value="P:cytolysis"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042742">
+<property type="term" value="P:defense response to bacterium"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006079">
+<property type="entry name" value="Lantibiotic_typ-A_Bacillales"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02052">
+<property type="entry name" value="Gallidermin"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00324">
+<property type="entry name" value="NISIN"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR03731">
+<property type="entry name" value="lantibio_gallid"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0044">Antibiotic</keyword>
+<keyword id="KW-0929">Antimicrobial</keyword>
+<keyword id="KW-0078">Bacteriocin</keyword>
+<keyword id="KW-0425">Lantibiotic</keyword>
+<keyword id="KW-0883">Thioether bond</keyword>
+<feature type="propeptide" id="PRO_0000017124">
+<location>
+<begin position="1"/>
+<end position="23"/>
+</location>
+</feature>
+<feature type="peptide" description="Lantibiotic nisin-Z" id="PRO_0000017125">
+<location>
+<begin position="24"/>
+<end position="57"/>
+</location>
+</feature>
+<feature type="modified residue" description="2,3-didehydrobutyrine" evidence="3">
+<location>
+<position position="25"/>
+</location>
+</feature>
+<feature type="modified residue" description="2,3-didehydroalanine (Ser)" evidence="3">
+<location>
+<position position="28"/>
+</location>
+</feature>
+<feature type="modified residue" description="2,3-didehydroalanine (Ser)" evidence="3">
+<location>
+<position position="56"/>
+</location>
+</feature>
+<feature type="cross-link" description="Lanthionine (Ser-Cys)" evidence="3">
+<location>
+<begin position="26"/>
+<end position="30"/>
+</location>
+</feature>
+<feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="3">
+<location>
+<begin position="31"/>
+<end position="34"/>
+</location>
+</feature>
+<feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="3">
+<location>
+<begin position="36"/>
+<end position="42"/>
+</location>
+</feature>
+<feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="3">
+<location>
+<begin position="46"/>
+<end position="49"/>
+</location>
+</feature>
+<feature type="cross-link" description="Beta-methyllanthionine (Thr-Cys)" evidence="3">
+<location>
+<begin position="48"/>
+<end position="51"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In strain: JCM 7638.">
+<original>N</original>
+<variation>H</variation>
+<location>
+<position position="50"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="11"/>
+<end position="13"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="32"/>
+<end position="35"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="38"/>
+<end position="40"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1WCO"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="6M7Y"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15361862"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="57" mass="5940" checksum="DF5E4428AC70BFEF" modified="1993-04-01" version="1" precursor="true">MSTKDFNLDLVSVSKKDSGASPRITSISLCTPGCKTGALMGCNMKTATCNCSIHVSK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

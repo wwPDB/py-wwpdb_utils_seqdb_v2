@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE GBSet PUBLIC "-//NCBI//NCBI GBSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/NCBI_GBSeq.dtd">
+<GBSet>
+  <GBSeq>
+
+    <GBSeq_locus>NM_005546</GBSeq_locus>
+    <GBSeq_length>4366</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PRI</GBSeq_division>
+    <GBSeq_update-date>24-SEP-2019</GBSeq_update-date>
+    <GBSeq_create-date>09-JUN-1999</GBSeq_create-date>
+    <GBSeq_definition>Homo sapiens IL2 inducible T cell kinase (ITK), mRNA</GBSeq_definition>
+    <GBSeq_primary-accession>NM_005546</GBSeq_primary-accession>
+    <GBSeq_accession-version>NM_005546.3</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>ref|NM_005546.3|</GBSeqid>
+      <GBSeqid>gi|21614549</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>RefSeq</GBKeyword>
+      <GBKeyword>RefSeq Select</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Homo sapiens (human)</GBSeq_source>
+    <GBSeq_organism>Homo sapiens</GBSeq_organism>
+    <GBSeq_taxonomy>Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..4366</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Huang W</GBAuthor>
+          <GBAuthor>Solouki S</GBAuthor>
+          <GBAuthor>Koylass N</GBAuthor>
+          <GBAuthor>Zheng SG</GBAuthor>
+          <GBAuthor>August A</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>ITK signalling via the Ras/IRF4 pathway regulates the development and function of Tr1 cells</GBReference_title>
+        <GBReference_journal>Nat Commun 8, 15871 (2017)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1038/ncomms15871</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>28635957</GBReference_pubmed>
+        <GBReference_remark>GeneRIF: ITK signalling through the Ras/IRF4 pathway is required for functional development of type 1 regulatory T cells.; Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..4366</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Wang T</GBAuthor>
+          <GBAuthor>Lu Y</GBAuthor>
+          <GBAuthor>Polk A</GBAuthor>
+          <GBAuthor>Chowdhury P</GBAuthor>
+          <GBAuthor>Murga-Zamalloa C</GBAuthor>
+          <GBAuthor>Fujiwara H</GBAuthor>
+          <GBAuthor>Suemori K</GBAuthor>
+          <GBAuthor>Beyersdorf N</GBAuthor>
+          <GBAuthor>Hristov AC</GBAuthor>
+          <GBAuthor>Lim MS</GBAuthor>
+          <GBAuthor>Bailey NG</GBAuthor>
+          <GBAuthor>Wilcox RA</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>T-cell Receptor Signaling Activates an ITK/NF-kappaB/GATA-3 axis in T-cell Lymphomas Facilitating Resistance to Chemotherapy</GBReference_title>
+        <GBReference_journal>Clin. Cancer Res. 23 (10), 2506-2515 (2017)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1158/1078-0432.CCR-16-1996</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>27780854</GBReference_pubmed>
+        <GBReference_remark>GeneRIF: These observations have significant therapeutic implications, as pharmacologic inhibition of ITK prevented the activation of this signaling axis and overcame chemotherapy resistance.; Erratum:[Clin Cancer Res. 2017 Oct 1;23 (19):5995. PMID: 28972087]</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>3</GBReference_reference>
+        <GBReference_position>1..4366</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kapnick SM</GBAuthor>
+          <GBAuthor>Stinchcombe JC</GBAuthor>
+          <GBAuthor>Griffiths GM</GBAuthor>
+          <GBAuthor>Schwartzberg PL</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Inducible T Cell Kinase Regulates the Acquisition of Cytolytic Capacity and Degranulation in CD8(+) CTLs</GBReference_title>
+        <GBReference_journal>J. Immunol. 198 (7), 2699-2711 (2017)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.4049/jimmunol.1601202</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>28213500</GBReference_pubmed>
+        <GBReference_remark>GeneRIF: Our results provide new insight into the effect of ITK and suboptimal T-cell receptor signaling on CD8(+) T cell function, and how these may contribute to phenotypes associated with ITK deficiency</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>4</GBReference_reference>
+        <GBReference_position>1..4366</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Xu WD</GBAuthor>
+          <GBAuthor>Su LC</GBAuthor>
+          <GBAuthor>Xie QB</GBAuthor>
+          <GBAuthor>Zhao Y</GBAuthor>
+          <GBAuthor>Liu Y</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Interleukin-2-inducible T-cell kinase expression and relation to disease severity in systemic lupus erythematosus</GBReference_title>
+        <GBReference_journal>Clin. Chim. Acta 463, 11-17 (2016)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/j.cca.2016.10.010</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>27729219</GBReference_pubmed>
+        <GBReference_remark>GeneRIF: The data indicate that increased ITK expression could act as a disease activity marker and as a risk factor for involvement in SLE, but it still needs further study to confirm.</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>5</GBReference_reference>
+        <GBReference_position>1..4366</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Carson CC</GBAuthor>
+          <GBAuthor>Moschos SJ</GBAuthor>
+          <GBAuthor>Edmiston SN</GBAuthor>
+          <GBAuthor>Darr DB</GBAuthor>
+          <GBAuthor>Nikolaishvili-Feinberg N</GBAuthor>
+          <GBAuthor>Groben PA</GBAuthor>
+          <GBAuthor>Zhou X</GBAuthor>
+          <GBAuthor>Kuan PF</GBAuthor>
+          <GBAuthor>Pandey S</GBAuthor>
+          <GBAuthor>Chan KT</GBAuthor>
+          <GBAuthor>Jordan JL</GBAuthor>
+          <GBAuthor>Hao H</GBAuthor>
+          <GBAuthor>Frank JS</GBAuthor>
+          <GBAuthor>Hopkinson DA</GBAuthor>
+          <GBAuthor>Gibbs DC</GBAuthor>
+          <GBAuthor>Alldredge VD</GBAuthor>
+          <GBAuthor>Parrish E</GBAuthor>
+          <GBAuthor>Hanna SC</GBAuthor>
+          <GBAuthor>Berkowitz P</GBAuthor>
+          <GBAuthor>Rubenstein DS</GBAuthor>
+          <GBAuthor>Miller CR</GBAuthor>
+          <GBAuthor>Bear JE</GBAuthor>
+          <GBAuthor>Ollila DW</GBAuthor>
+          <GBAuthor>Sharpless NE</GBAuthor>
+          <GBAuthor>Conway K</GBAuthor>
+          <GBAuthor>Thomas NE</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>IL2 Inducible T-cell Kinase, a Novel Therapeutic Target in Melanoma</GBReference_title>
+        <GBReference_journal>Clin. Cancer Res. 21 (9), 2167-2176 (2015)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1158/1078-0432.CCR-14-1826</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>25934889</GBReference_pubmed>
+        <GBReference_remark>GeneRIF: We conclude that ITK, formerly considered an immune cell-specific protein, is aberrantly expressed in melanoma and promotes tumor development and progression</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>6</GBReference_reference>
+        <GBReference_position>1..4366</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Rawlings DJ</GBAuthor>
+          <GBAuthor>Scharenberg AM</GBAuthor>
+          <GBAuthor>Park H</GBAuthor>
+          <GBAuthor>Wahl MI</GBAuthor>
+          <GBAuthor>Lin S</GBAuthor>
+          <GBAuthor>Kato RM</GBAuthor>
+          <GBAuthor>Fluckiger AC</GBAuthor>
+          <GBAuthor>Witte ON</GBAuthor>
+          <GBAuthor>Kinet JP</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Activation of BTK by a phosphorylation mechanism initiated by SRC family kinases</GBReference_title>
+        <GBReference_journal>Science 271 (5250), 822-825 (1996)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1126/science.271.5250.822</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>8629002</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>7</GBReference_reference>
+        <GBReference_position>1..4366</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Langhans-Rajasekaran SA</GBAuthor>
+          <GBAuthor>Wan Y</GBAuthor>
+          <GBAuthor>Huang XY</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Activation of Tsk and Btk tyrosine kinases by G protein beta gamma subunits</GBReference_title>
+        <GBReference_journal>Proc. Natl. Acad. Sci. U.S.A. 92 (19), 8601-8605 (1995)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1073/pnas.92.19.8601</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>7567982</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>8</GBReference_reference>
+        <GBReference_position>1..4366</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Janis EM</GBAuthor>
+          <GBAuthor>Siliciano JD</GBAuthor>
+          <GBAuthor>Isaac DD</GBAuthor>
+          <GBAuthor>Griffin CA</GBAuthor>
+          <GBAuthor>Hawkins AL</GBAuthor>
+          <GBAuthor>Kozak CA</GBAuthor>
+          <GBAuthor>Desiderio S</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Mapping of the gene for the tyrosine kinase Itk to a region of conserved synteny between mouse chromosome 11 and human chromosome 5q</GBReference_title>
+        <GBReference_journal>Genomics 23 (1), 269-271 (1994)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1006/geno.1994.1492</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>7829087</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>9</GBReference_reference>
+        <GBReference_position>1..4366</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gibson S</GBAuthor>
+          <GBAuthor>Leung B</GBAuthor>
+          <GBAuthor>Squire JA</GBAuthor>
+          <GBAuthor>Hill M</GBAuthor>
+          <GBAuthor>Arima N</GBAuthor>
+          <GBAuthor>Goss P</GBAuthor>
+          <GBAuthor>Hogg D</GBAuthor>
+          <GBAuthor>Mills GB</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Identification, cloning, and characterization of a novel human T-cell-specific tyrosine kinase located at the hematopoietin complex on chromosome 5q</GBReference_title>
+        <GBReference_journal>Blood 82 (5), 1561-1572 (1993)</GBReference_journal>
+        <GBReference_pubmed>8364206</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>10</GBReference_reference>
+        <GBReference_position>1..4366</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Tanaka N</GBAuthor>
+          <GBAuthor>Asao H</GBAuthor>
+          <GBAuthor>Ohtani K</GBAuthor>
+          <GBAuthor>Nakamura M</GBAuthor>
+          <GBAuthor>Sugamura K</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>A novel human tyrosine kinase gene inducible in T cells by interleukin 2</GBReference_title>
+        <GBReference_journal>FEBS Lett. 324 (1), 1-5 (1993)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1016/0014-5793(93)81520-a</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>8504851</GBReference_pubmed>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>REVIEWED REFSEQ: This record has been curated by NCBI staff. The reference sequence was derived from D13720.1.~This sequence is a reference standard in the RefSeqGene project.; [WARNING] On Sep 27, 2019 this sequence was replaced by NM_005546.4.; On Jun 26, 2002 this sequence version replaced NM_005546.2.; ~Summary: This gene encodes an intracellular tyrosine kinase expressed in T-cells. The protein contains both SH2 and SH3 domains which are often found in intracellular kinases. It is thought to play a role in T-cell proliferation and differentiation. [provided by RefSeq, Jul 2008].; ~Publication Note: This RefSeq record includes a subset of the publications that are available for this gene. Please see the Gene record to access additional publications.; ; ##Evidence-Data-START## ; Transcript exon combination :: D13720.1, BC109077.2 [ECO:0000332] ; RNAseq introns :: single sample supports all introns SAMEA1965299, SAMEA1966682 [ECO:0000348] ; ##Evidence-Data-END##; ; ##RefSeq-Attributes-START## ; RefSeq Select criteria :: based on conservation, expression, longest protein ; ##RefSeq-Attributes-END##; COMPLETENESS: complete on the 3&apos; end.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..4366</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4366</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:9606</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>chromosome</GBQualifier_name>
+            <GBQualifier_value>5</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>map</GBQualifier_name>
+            <GBQualifier_value>5q33.3</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..4366</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>4366</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>IL2 inducible T cell kinase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:3702</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>HGNC:HGNC:6171</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>MIM:186973</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>1..220</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>220</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>83..1945</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>83</GBInterval_from>
+            <GBInterval_to>1945</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>EC_number</GBQualifier_name>
+            <GBQualifier_value>2.7.10.2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>tyrosine-protein kinase LYK; homolog of mouse T-cell itk/tsk; kinase EMT; T-cell-specific kinase; IL-2-inducible T-cell kinase; interleukin-2-inducible T-cell kinase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>tyrosine-protein kinase ITK/TSK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>NP_005537.3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>CCDS:CCDS4336.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>GeneID:3702</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>HGNC:HGNC:6171</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>MIM:186973</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MNNFILLEEQLIKKSQQKRRTSPSNFKVRFFVLTKASLAYFEDRHGKKRTLKGSIELSRIKCVEIVKSDISIPCHYKYPFQVVHDNYLLYVFAPDRESRQRWVLALKEETRNNNSLVPKYHPNFWMDGKWRCCSQLEKLATGCAQYDPTKNASKKPLPPTPEDNRRPLWEPEETVVIALYDYQTNDPQELALRRNEEYCLLDSSEIHWWRVQDRNGHEGYVPSSYLVEKSPNNLETYEWYNKSISRDKAEKLLLDTGKEGAFMVRDSRTAGTYTVSVFTKAVVSENNPCIKHYHIKETNDNPKRYYVAEKYVFDSIPLLINYHQHNGGGLVTRLRYPVCFGRQKAPVTAGLRYGKWVIDPSELTFVQEIGSGQFGLVHLGYWLNKDKVAIKTIREGAMSEEDFIEEAEVMMKLSHPKLVQLYGVCLEQAPICLVFEFMEHGCLSDYLRTQRGLFAAETLLGMCLDVCEGMAYLEEACVIHRDLAARNCLVGENQVIKVSDFGMTRFVLDDQYTSSTGTKFPVKWASPEVFSFSRYSSKSDVWSFGVLMWEVFSEGKIPYENRSNSEVVEDISTGFRLYKPRLASTHVYQIMNHCWKERPEDRPAFSRLLRQLAEIAESGL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>620..622</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>620</GBInterval_from>
+            <GBInterval_to>622</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>experiment</GBQualifier_name>
+            <GBQualifier_value>experimental evidence, no additional details recorded</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Phosphotyrosine, by autocatalysis. {ECO:0000269|PubMed:12573241}; propagated from UniProtKB/Swiss-Prot (Q08881.1); phosphorylation site</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1616..1618</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1616</GBInterval_from>
+            <GBInterval_to>1618</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>experiment</GBQualifier_name>
+            <GBQualifier_value>experimental evidence, no additional details recorded</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Phosphotyrosine, by LCK. {ECO:0000244|PubMed:19690332}; propagated from UniProtKB/Swiss-Prot (Q08881.1); phosphorylation site</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>1775..1777</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1775</GBInterval_from>
+            <GBInterval_to>1777</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>experiment</GBQualifier_name>
+            <GBQualifier_value>experimental evidence, no additional details recorded</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Phosphoserine. {ECO:0000244|PubMed:19690332}; propagated from UniProtKB/Swiss-Prot (Q08881.1); phosphorylation site</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>221..325</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>221</GBInterval_from>
+            <GBInterval_to>325</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>326..407</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>326</GBInterval_from>
+            <GBInterval_to>407</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>408..536</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>408</GBInterval_from>
+            <GBInterval_to>536</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>537..577</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>537</GBInterval_from>
+            <GBInterval_to>577</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>578..729</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>578</GBInterval_from>
+            <GBInterval_to>729</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>730..795</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>730</GBInterval_from>
+            <GBInterval_to>795</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>796..850</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>796</GBInterval_from>
+            <GBInterval_to>850</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>851..933</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>851</GBInterval_from>
+            <GBInterval_to>933</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>934..1067</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>934</GBInterval_from>
+            <GBInterval_to>1067</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>1068..1142</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1068</GBInterval_from>
+            <GBInterval_to>1142</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>1143..1314</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1143</GBInterval_from>
+            <GBInterval_to>1314</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>1315..1531</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1315</GBInterval_from>
+            <GBInterval_to>1531</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>1532..1596</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1532</GBInterval_from>
+            <GBInterval_to>1596</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>1597..1715</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1597</GBInterval_from>
+            <GBInterval_to>1715</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>1716..1873</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1716</GBInterval_from>
+            <GBInterval_to>1873</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>exon</GBFeature_key>
+        <GBFeature_location>1874..4366</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1874</GBInterval_from>
+            <GBInterval_to>4366</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>inference</GBQualifier_name>
+            <GBQualifier_value>alignment:Splign:2.1.0</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>regulatory</GBFeature_key>
+        <GBFeature_location>4349..4354</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>4349</GBInterval_from>
+            <GBInterval_to>4354</GBInterval_to>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>regulatory_class</GBQualifier_name>
+            <GBQualifier_value>polyA_signal_sequence</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>polyA_site</GBFeature_key>
+        <GBFeature_location>4366</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_point>4366</GBInterval_point>
+            <GBInterval_accession>NM_005546.3</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>ITK</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>gene_synonym</GBQualifier_name>
+            <GBQualifier_value>EMT; LPFS1; LYK; PSCTK2</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>experiment</GBQualifier_name>
+            <GBQualifier_value>experimental evidence, no additional details recorded</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tgcattctttgccccaaaactctttcctttggttgtgctaagaggtgatgcccaaggtgcaccacctttcaagaactggatcatgaacaactttatcctcctggaagaacagctcatcaagaaatcccaacaaaagagaagaacttctccctcgaactttaaagtccgcttctttgtgttaaccaaagccagcctggcatactttgaagatcgtcatgggaagaagcgcacgctgaaggggtccattgagctctcccgaatcaaatgtgttgagattgtgaaaagtgacatcagcatcccatgccactataaatacccgtttcaggtggtgcatgacaactacctcctatatgtgtttgctccagatcgtgagagccggcagcgctgggtgctggcccttaaagaagaaacgaggaataataacagtttggtgcctaaatatcatcctaatttctggatggatgggaagtggaggtgctgttctcagctggagaagcttgcaacaggctgtgcccaatatgatccaaccaagaatgcttcaaagaagcctcttcctcctactcctgaagacaacaggcgaccactttgggaacctgaagaaactgtggtcattgccttatatgactaccaaaccaatgatcctcaggaactcgcactgcggcgcaacgaagagtactgcctgctggacagttctgagattcactggtggagagtccaggacaggaatgggcatgaaggatatgtaccaagcagttatctggtggaaaaatctccaaataatctggaaacctatgagtggtacaataagagtatcagccgagacaaagctgaaaaacttcttttggacacaggcaaagaaggagccttcatggtaagggattccaggactgcaggaacatacaccgtgtctgttttcaccaaggctgttgtaagtgagaacaatccctgtataaagcattatcacatcaaggaaacaaatgacaatcctaagcgatactatgtggctgaaaagtatgtgttcgattccatccctcttctcatcaactatcaccaacataatggaggaggcctggtgactcgactccggtatccagtttgttttgggaggcagaaagccccagttacagcagggctgagatacgggaaatgggtgatcgacccctcagagctcacttttgtgcaagagattggcagtgggcaatttgggttggtgcatctgggctactggctcaacaaggacaaggtggctatcaaaaccattcgggaaggggctatgtcagaagaggacttcatagaggaggctgaagtaatgatgaaactctctcatcccaaactggtgcagctgtatggggtgtgcctggagcaggcccccatctgcctggtgtttgagttcatggagcacggctgcctgtcagattatctacgcacccagcggggactttttgctgcagagaccctgctgggcatgtgtctggatgtgtgtgagggcatggcctacctggaagaggcatgtgtcatccacagagacttggctgccagaaattgtttggtgggagaaaaccaagtcatcaaggtgtctgactttgggatgacaaggttcgttctggatgatcagtacaccagttccacaggcaccaaattcccggtgaagtgggcatccccagaggttttctctttcagtcgctatagcagcaagtccgatgtgtggtcatttggtgtgctgatgtgggaagttttcagtgaaggcaaaatcccgtatgaaaaccgaagcaactcagaggtggtggaagacatcagtaccggatttcggttgtacaagccccggctggcctccacacacgtctaccagattatgaatcactgctggaaagagagaccagaagatcggccagccttctccagactgctgcgtcaactggctgaaattgcagaatcaggactttagtagagactgagtaccaggccacgggctgcagatcctgaatggaggaaggatatgtcctcattccatagagcattagaagctgccaccagcccaggaccctccagaggcagcctggcctgtggcatcagtccctgagtcaccatggaagcagcatcctgaccacagctggcagtcaagccacagctggagggtcagccaccaagctgggagctgagccagaacaggagtgatgtctctgcccttcctctagcctcttgtcacatgtggtgcacaaacctcaacctgacagctttcagacagcattcttgcacttcttagcaacagagagagacatgagtaagacccagattgctatttttattgttatttttaacatgaatctaaagtttatggttccagggactttttatttgacccaacaacacagtatcccaggatatggaggcaaggggaacaaagagcatgagtctttttccaagaaaactggtgagttaagtaagattagagtgagtgtgctctgttgctgtgatgctgtcagccacagcttcctgccgtagagaatgatagagcagctgctcacacaggaggccggatattctgagaagcagctttatgaggttttacagagtatgctgctacctctctccttgaagggagcatggcgagacccattggatggattggggtgaacagttcaggtcccatgcttggagcattgggtatctgatgtctgcaccagaacaagagaacctctgacggtggagaaccatgtggtgcaagaagagatcttaggtctcttcttttataccaagctcatcttttataccaagctgtgcaggtgactatgcctcctcttctgcacagaatgcttccaccagcatcctgagaagaaatgattacttctgaaaaacatccttttttccagcctctgggaatcagccccccctctctgcactatccgatcctcatcaacagagggcagcattgtgttggtcaatgttcccttggcgagcaattgaaacttgtttaggccctagggttgagcaattttaaggttgagactccaagtctcctaaaattctaggagagaaataaagagtctgtttttgctcaaaccatcaggatggaaacagtcaggcactgactggggtgcttccaagaggcatgagagtgcctactctggcttgagcacttctatatgcaaggtgaatatgtactgagctaggagacttccctgcaaaatctctgttcaccctgggttcacatccccatgaggtaatattattattcccattttacaaataatgtaactgaggctttaaaaagccaagacatctgcccaaagtgatggaactagaaagtctagagctggtattctagcccaaatctgtctgaccgcaatacacagattctttattcctattcgacactggcttctactgaaaatgaaacggattgcagagggaataaatacaaagatggaaagccagtaaagaagtcagtatagaaccactagcgaatagtgttgctctggcacagaccactgtggttgatggcatggccctccaacttggaataggattttccttttcctattctgtatccttaccttggtcatgttaatgactttggagttattcagttaatgaccctttaattctcacaaccaaccagtcatgttgcttgaagccatttatagacgagcttcaaagcaactttaaaagattcttctgtagaagtatgagttcttcctttaattatcattccaactttcagctgtagtcttcttgaacacttcatgaggagggacattccctgatataagagaggatggtgttgcaattggctctttctaaatcatgtgacgttttgactggcttgagattcagatgcataatttttaattataattattgtgaagtggagagcctcaagataaaactctgtcattcagaagatgattttactcagcttatccaaaattatctctgtttactttttagaattttgtacattatcttttgggatccttaattagagatgatttctggaacattcagtctagaaagaaaacattggaattgactgatctctgtggtttggtttagaaaattcccctgtgcatggtattacctttttcaagctcagattcatctaatcctcaactgtacatgtgtacattcttcacctcctggtgccctatcccgcaaaatgggcttcctgcctggtttttctcttctcacattttttaaatggtcccctgtgtttgtagagaactcccttatacagagttttggttctagttttatttcgtagattttgcattttgtaccttttgagactatgtatttatatttggatcagatgcatatttattaatgtacagtcactgctagtgttcaaaataaaaatgttacaaat</GBSeq_sequence>
+  </GBSeq>
+
+</GBSet>

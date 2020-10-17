@@ -1,0 +1,693 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-04-22" version="118">
+<accession>P29549</accession>
+<name>TEBA_STENO</name>
+<protein>
+<recommendedName>
+<fullName>Telomere-binding protein subunit alpha</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>TEBP alpha</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Telomere-binding protein 56 kDa subunit</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">MAC-56A</name>
+</gene>
+<gene>
+<name type="primary">MAC-56K</name>
+</gene>
+<gene>
+<name type="primary">MAC-56S</name>
+</gene>
+<organism>
+<name type="scientific">Sterkiella nova</name>
+<name type="common">Ciliate</name>
+<name type="synonym">Oxytricha nova</name>
+<dbReference type="NCBI Taxonomy" id="200597"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Sar</taxon>
+<taxon>Alveolata</taxon>
+<taxon>Ciliophora</taxon>
+<taxon>Intramacronucleata</taxon>
+<taxon>Spirotrichea</taxon>
+<taxon>Stichotrichia</taxon>
+<taxon>Sporadotrichida</taxon>
+<taxon>Oxytrichidae</taxon>
+<taxon>Stylonychinae</taxon>
+<taxon>Sterkiella</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1991" name="Cell" volume="67" first="807" last="814">
+<title>Cloning and expression of genes for the Oxytricha telomere-binding protein: specific subunit interactions in the telomeric complex.</title>
+<authorList>
+<person name="Gray J.T."/>
+<person name="Celander D.W."/>
+<person name="Price C.M."/>
+<person name="Cech T.R."/>
+</authorList>
+<dbReference type="PubMed" id="1840510"/>
+<dbReference type="DOI" id="10.1016/0092-8674(91)90075-a"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>PARTIAL PROTEIN SEQUENCE</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1992" name="Genes Dev." volume="6" first="788" last="800">
+<title>Analysis of a scrambled gene: the gene encoding alpha-telomere-binding protein in Oxytricha nova.</title>
+<authorList>
+<person name="Mitcham J.L."/>
+<person name="Lynn A.J."/>
+<person name="Prescott D.M."/>
+</authorList>
+<dbReference type="PubMed" id="1577273"/>
+<dbReference type="DOI" id="10.1101/gad.6.5.788"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1998" name="Cell" volume="95" first="963" last="974">
+<title>Crystal structure of the Oxytricha nova telomere end binding protein complexed with single strand DNA.</title>
+<authorList>
+<person name="Horvath M.P."/>
+<person name="Schweiker V.L."/>
+<person name="Bevilacqua J.M."/>
+<person name="Ruggles J.A."/>
+<person name="Schultz S.C."/>
+</authorList>
+<dbReference type="PubMed" id="9875850"/>
+<dbReference type="DOI" id="10.1016/s0092-8674(00)81720-1"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.8 ANGSTROMS)</scope>
+</reference>
+<comment type="function">
+<text>May function as protective capping of the single-stranded telomeric overhang. May also participate in telomere length regulation during DNA replication. Binds specifically to the T4G4-containing extension on the 3'strand and protects this region of the telomere from nuclease digestion and chemical modification.</text>
+</comment>
+<comment type="subunit">
+<text>Heterodimer of an alpha and a beta subunit.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Nucleus</location>
+</subcellularLocation>
+<subcellularLocation>
+<location>Chromosome</location>
+<location>Telomere</location>
+</subcellularLocation>
+</comment>
+<comment type="miscellaneous">
+<text>The sequence of the A (or alanine) version is shown. The S (or serine) version differs in only two positions, and the K version in only one. There may be other versions in addition to the S, A, and K versions.</text>
+</comment>
+<comment type="similarity">
+<text evidence="9">Belongs to the telombin family.</text>
+</comment>
+<dbReference type="EMBL" id="M68931">
+<property type="protein sequence ID" value="AAA29398.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="M68930">
+<property type="protein sequence ID" value="AAA29399.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="X59724">
+<property type="protein sequence ID" value="CAA42409.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="A41221">
+<property type="entry name" value="A41221"/>
+</dbReference>
+<dbReference type="PDB" id="1JB7">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.86"/>
+<property type="chains" value="A=1-495"/>
+</dbReference>
+<dbReference type="PDB" id="1K8G">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.60"/>
+<property type="chains" value="A/B/C=1-320"/>
+</dbReference>
+<dbReference type="PDB" id="1KIX">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.70"/>
+<property type="chains" value="A=1-495"/>
+</dbReference>
+<dbReference type="PDB" id="1OTC">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.80"/>
+<property type="chains" value="A=1-495"/>
+</dbReference>
+<dbReference type="PDB" id="1PA6">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.45"/>
+<property type="chains" value="A=36-495"/>
+</dbReference>
+<dbReference type="PDB" id="1PH1">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.51"/>
+<property type="chains" value="A=35-495"/>
+</dbReference>
+<dbReference type="PDB" id="1PH2">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="3.10"/>
+<property type="chains" value="A=36-494"/>
+</dbReference>
+<dbReference type="PDB" id="1PH3">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.30"/>
+<property type="chains" value="A=36-495"/>
+</dbReference>
+<dbReference type="PDB" id="1PH4">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.30"/>
+<property type="chains" value="A=36-495"/>
+</dbReference>
+<dbReference type="PDB" id="1PH5">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.30"/>
+<property type="chains" value="A=36-494"/>
+</dbReference>
+<dbReference type="PDB" id="1PH6">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.10"/>
+<property type="chains" value="A=35-495"/>
+</dbReference>
+<dbReference type="PDB" id="1PH7">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.90"/>
+<property type="chains" value="A=36-495"/>
+</dbReference>
+<dbReference type="PDB" id="1PH8">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.36"/>
+<property type="chains" value="A=36-495"/>
+</dbReference>
+<dbReference type="PDB" id="1PH9">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.50"/>
+<property type="chains" value="A=36-495"/>
+</dbReference>
+<dbReference type="PDB" id="1PHJ">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.50"/>
+<property type="chains" value="A=35-495"/>
+</dbReference>
+<dbReference type="PDB" id="2I0Q">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.91"/>
+<property type="chains" value="A=1-495"/>
+</dbReference>
+<dbReference type="PDBsum" id="1JB7"/>
+<dbReference type="PDBsum" id="1K8G"/>
+<dbReference type="PDBsum" id="1KIX"/>
+<dbReference type="PDBsum" id="1OTC"/>
+<dbReference type="PDBsum" id="1PA6"/>
+<dbReference type="PDBsum" id="1PH1"/>
+<dbReference type="PDBsum" id="1PH2"/>
+<dbReference type="PDBsum" id="1PH3"/>
+<dbReference type="PDBsum" id="1PH4"/>
+<dbReference type="PDBsum" id="1PH5"/>
+<dbReference type="PDBsum" id="1PH6"/>
+<dbReference type="PDBsum" id="1PH7"/>
+<dbReference type="PDBsum" id="1PH8"/>
+<dbReference type="PDBsum" id="1PH9"/>
+<dbReference type="PDBsum" id="1PHJ"/>
+<dbReference type="PDBsum" id="2I0Q"/>
+<dbReference type="SMR" id="P29549"/>
+<dbReference type="DIP" id="DIP-6194N"/>
+<dbReference type="MINT" id="P29549"/>
+<dbReference type="PRIDE" id="P29549"/>
+<dbReference type="EvolutionaryTrace" id="P29549"/>
+<dbReference type="GO" id="GO:0000784">
+<property type="term" value="C:nuclear chromosome, telomeric region"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0032991">
+<property type="term" value="C:protein-containing complex"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="CAFA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000782">
+<property type="term" value="C:telomere cap complex"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="CAFA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043047">
+<property type="term" value="F:single-stranded telomeric DNA binding"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="CAFA"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016233">
+<property type="term" value="P:telomere capping"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="CAFA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012340">
+<property type="entry name" value="NA-bd_OB-fold"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR028389">
+<property type="entry name" value="POT1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011564">
+<property type="entry name" value="Telomer_end-bd_POT1/Cdc13"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003415">
+<property type="entry name" value="Telomere-bd_alpha"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR14513">
+<property type="entry name" value="PTHR14513"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02765">
+<property type="entry name" value="POT1"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF015848">
+<property type="entry name" value="TEBP_alpha"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00976">
+<property type="entry name" value="Telo_bind"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50249">
+<property type="entry name" value="SSF50249"/>
+<property type="match status" value="3"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0158">Chromosome</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0238">DNA-binding</keyword>
+<keyword id="KW-0539">Nucleus</keyword>
+<keyword id="KW-0779">Telomere</keyword>
+<feature type="chain" description="Telomere-binding protein subunit alpha" id="PRO_0000121735">
+<location>
+<begin position="1"/>
+<end position="495"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In K version.">
+<original>A</original>
+<variation>S</variation>
+<location>
+<position position="21"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In S version.">
+<original>A</original>
+<variation>S</variation>
+<location>
+<position position="311"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In S version.">
+<original>D</original>
+<variation>E</variation>
+<location>
+<position position="456"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="41"/>
+<end position="43"/>
+</location>
+</feature>
+<feature type="strand" evidence="7">
+<location>
+<begin position="46"/>
+<end position="48"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="52"/>
+<end position="61"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="68"/>
+<end position="70"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="72"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="83"/>
+<end position="85"/>
+</location>
+</feature>
+<feature type="strand" evidence="8">
+<location>
+<begin position="89"/>
+<end position="92"/>
+</location>
+</feature>
+<feature type="strand" evidence="6">
+<location>
+<begin position="93"/>
+<end position="95"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="98"/>
+<end position="106"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="107"/>
+<end position="109"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="115"/>
+<end position="117"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="119"/>
+<end position="130"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="133"/>
+<end position="139"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="140"/>
+<end position="143"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="145"/>
+<end position="149"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="151"/>
+<end position="154"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="156"/>
+<end position="161"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="172"/>
+<end position="177"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="185"/>
+<end position="202"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="208"/>
+<end position="210"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="214"/>
+<end position="219"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="220"/>
+<end position="222"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="224"/>
+<end position="235"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="237"/>
+<end position="246"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="252"/>
+<end position="258"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="259"/>
+<end position="261"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="270"/>
+<end position="278"/>
+</location>
+</feature>
+<feature type="strand" evidence="8">
+<location>
+<begin position="283"/>
+<end position="285"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="287"/>
+<end position="299"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="304"/>
+<end position="312"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="318"/>
+<end position="323"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="326"/>
+<end position="328"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="336"/>
+<end position="338"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="340"/>
+<end position="342"/>
+</location>
+</feature>
+<feature type="strand" evidence="3">
+<location>
+<begin position="343"/>
+<end position="345"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="350"/>
+<end position="355"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="356"/>
+<end position="359"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="361"/>
+<end position="364"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="367"/>
+<end position="382"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="383"/>
+<end position="386"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="387"/>
+<end position="391"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="392"/>
+<end position="395"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="396"/>
+<end position="398"/>
+</location>
+</feature>
+<feature type="helix" evidence="5">
+<location>
+<begin position="400"/>
+<end position="402"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="404"/>
+<end position="406"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="408"/>
+<end position="418"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="420"/>
+<end position="422"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="425"/>
+<end position="434"/>
+</location>
+</feature>
+<feature type="helix" evidence="4">
+<location>
+<begin position="435"/>
+<end position="437"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="439"/>
+<end position="444"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="451"/>
+<end position="453"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="455"/>
+<end position="469"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="470"/>
+<end position="472"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="473"/>
+<end position="482"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="485"/>
+<end position="493"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1JB7"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1KIX"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1OTC"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1PH2"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1PH3"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1PH6"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1PH8"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2I0Q"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000305"/>
+<sequence length="495" mass="56082" checksum="9FD3CD40E623359B" modified="1993-04-01" version="1">MSTAAKQNRSTSRVSKKKTAAPKEGAAKKSDKGHKYEYVELAKASLTSAQPQHFYAVVIDATFPYKTNQERYICSLKIVDPTLYLKQQKGAGDASDYATLVLYAKRFEDLPIIHRAGDIIRVHRATLRLYNGQRQFNANVFYSSSWALFSTDKRSVTQEINNQDAVSDTTPFSFSSKHATIEKNEISILQNLRKWANQYFSSYSVISSDMYTALNKAQAQKGDFDVVAKILQVHELDEYTNELKLKDASGQVFYTLSLKLKFPHVRTGEVVRIRSATYDETSTQKKVLILSHYSNIITFIQSSKLAKELRAKIQDDHSVEVASLKKNVSLNAVVLTEVDKKHAALPSTSLQDLFHHADSDKELQAQDTFRTQFYVTKIEPSDVKEWVKGYDRKTKKSSSLKGASGKGDNIFQVQFLVKDASTQLNNNTYRVLLYTQDGLGANFFNVKADNLHKNADARKKLEDSAELLTKFNSYVDAVVERRNGFYLIKDTKLIY</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

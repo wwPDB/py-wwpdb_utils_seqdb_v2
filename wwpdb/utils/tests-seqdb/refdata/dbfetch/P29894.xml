@@ -1,0 +1,590 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2019-12-11" version="108">
+<accession>P29894</accession>
+<accession>Q79D76</accession>
+<name>DHMH_PARDE</name>
+<protein>
+<recommendedName>
+<fullName>Methylamine dehydrogenase heavy chain</fullName>
+<shortName>MADH</shortName>
+<ecNumber>1.4.9.1</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Methylamine dehydrogenase (amicyanin)</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">mauB</name>
+</gene>
+<organism>
+<name type="scientific">Paracoccus denitrificans</name>
+<dbReference type="NCBI Taxonomy" id="266"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rhodobacterales</taxon>
+<taxon>Rhodobacteraceae</taxon>
+<taxon>Paracoccus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1992" name="Biochem. Biophys. Res. Commun." volume="184" first="1181" last="1189">
+<title>The genetic organization of the mau gene cluster of the facultative autotroph Paracoccus denitrificans.</title>
+<authorList>
+<person name="Chistoserdov A.Y."/>
+<person name="Boyd J."/>
+<person name="Mathews F.S."/>
+<person name="Lidstrom M.E."/>
+</authorList>
+<dbReference type="PubMed" id="1590782"/>
+<dbReference type="DOI" id="10.1016/s0006-291x(05)80007-5"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1994" name="Eur. J. Biochem." volume="226" first="201" last="210">
+<title>Expression of the mau genes involved in methylamine metabolism in Paracoccus denitrificans is under control of a LysR-type transcriptional activator.</title>
+<authorList>
+<person name="van Spanning R.J.M."/>
+<person name="van der Palen C.J."/>
+<person name="Slotboom D.J."/>
+<person name="Reijnders W.N."/>
+<person name="Stouthamer A.H."/>
+<person name="Duine J.A."/>
+</authorList>
+<dbReference type="PubMed" id="7957249"/>
+<dbReference type="DOI" id="10.1111/j.1432-1033.1994.tb20042.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-69</scope>
+<source>
+<strain>ATCC 17741 / DSM 413 / NBRC 16712 / NCCB 22021 / NCIMB 11627</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1992" name="Proteins" volume="14" first="288" last="299">
+<title>Three-dimensional structure of the quinoprotein methylamine dehydrogenase from Paracoccus denitrificans determined by molecular replacement at 2.8-A resolution.</title>
+<authorList>
+<person name="Chen L."/>
+<person name="Mathews F.S."/>
+<person name="Davidson V.L."/>
+<person name="Huizinga E.G."/>
+<person name="Vellieux F.M.D."/>
+<person name="Hol W.G.J."/>
+</authorList>
+<dbReference type="PubMed" id="1409575"/>
+<dbReference type="DOI" id="10.1002/prot.340140214"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.8 ANGSTROMS)</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1992" name="Biochemistry" volume="31" first="4959" last="4964">
+<title>Crystal structure of an electron-transfer complex between methylamine dehydrogenase and amicyanin.</title>
+<authorList>
+<person name="Chen L."/>
+<person name="Durley R."/>
+<person name="Poliks B.J."/>
+<person name="Hamada K."/>
+<person name="Chen Z."/>
+<person name="Mathews F.S."/>
+<person name="Davidson V.L."/>
+<person name="Satow Y."/>
+<person name="Huizinga E.G."/>
+<person name="Vellieux F.M.D."/>
+<person name="Hol W.G.J."/>
+</authorList>
+<dbReference type="PubMed" id="1599920"/>
+<dbReference type="DOI" id="10.1021/bi00136a006"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) IN COMPLEX WITH AMICYANIN</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1994" name="Science" volume="264" first="86" last="90">
+<title>Structure of an electron transfer complex: methylamine dehydrogenase, amicyanin, and cytochrome c551i.</title>
+<authorList>
+<person name="Chen L."/>
+<person name="Durley R."/>
+<person name="Mathews F.S."/>
+<person name="Davidson V.L."/>
+</authorList>
+<dbReference type="PubMed" id="8140419"/>
+<dbReference type="DOI" id="10.1126/science.8140419"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS)</scope>
+</reference>
+<comment type="function">
+<text>Methylamine dehydrogenase carries out the oxidation of methylamine. Electrons are passed from methylamine dehydrogenase to amicyanin.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>H2O + methylamine + 2 oxidized [amicyanin] = formaldehyde + 2 H(+) + NH4(+) + 2 reduced [amicyanin]</text>
+<dbReference type="Rhea" id="RHEA:30207"/>
+<dbReference type="Rhea" id="RHEA-COMP:11100"/>
+<dbReference type="Rhea" id="RHEA-COMP:11101"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:16842"/>
+<dbReference type="ChEBI" id="CHEBI:28938"/>
+<dbReference type="ChEBI" id="CHEBI:29036"/>
+<dbReference type="ChEBI" id="CHEBI:49552"/>
+<dbReference type="ChEBI" id="CHEBI:59338"/>
+<dbReference type="EC" id="1.4.9.1"/>
+</reaction>
+</comment>
+<comment type="subunit">
+<text evidence="4">Tetramer of two light and two heavy chains.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Periplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the aromatic amine dehydrogenase heavy chain family.</text>
+</comment>
+<dbReference type="EC" id="1.4.9.1"/>
+<dbReference type="EMBL" id="M90099">
+<property type="protein sequence ID" value="AAA25580.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U12464">
+<property type="protein sequence ID" value="AAA56724.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="JH0660">
+<property type="entry name" value="JH0660"/>
+</dbReference>
+<dbReference type="PDB" id="1MG2">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.25"/>
+<property type="chains" value="A/E/I/M=28-417"/>
+</dbReference>
+<dbReference type="PDB" id="1MG3">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.40"/>
+<property type="chains" value="A/E/I/M=28-417"/>
+</dbReference>
+<dbReference type="PDB" id="2BBK">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.75"/>
+<property type="chains" value="H/J=63-417"/>
+</dbReference>
+<dbReference type="PDB" id="2GC4">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.90"/>
+<property type="chains" value="A/E/I/M=32-417"/>
+</dbReference>
+<dbReference type="PDB" id="2GC7">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.90"/>
+<property type="chains" value="A/E/I/M=32-417"/>
+</dbReference>
+<dbReference type="PDB" id="2J55">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.15"/>
+<property type="chains" value="H/J=32-417"/>
+</dbReference>
+<dbReference type="PDB" id="2J56">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.10"/>
+<property type="chains" value="H/J=32-417"/>
+</dbReference>
+<dbReference type="PDB" id="2J57">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.25"/>
+<property type="chains" value="G/H/I/J=32-417"/>
+</dbReference>
+<dbReference type="PDB" id="2MTA">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.40"/>
+<property type="chains" value="H=45-417"/>
+</dbReference>
+<dbReference type="PDBsum" id="1MG2"/>
+<dbReference type="PDBsum" id="1MG3"/>
+<dbReference type="PDBsum" id="2BBK"/>
+<dbReference type="PDBsum" id="2GC4"/>
+<dbReference type="PDBsum" id="2GC7"/>
+<dbReference type="PDBsum" id="2J55"/>
+<dbReference type="PDBsum" id="2J56"/>
+<dbReference type="PDBsum" id="2J57"/>
+<dbReference type="PDBsum" id="2MTA"/>
+<dbReference type="SMR" id="P29894"/>
+<dbReference type="DIP" id="DIP-6253N"/>
+<dbReference type="IntAct" id="P29894">
+<property type="interactions" value="1"/>
+</dbReference>
+<dbReference type="DrugBank" id="DB08646">
+<property type="generic name" value="TRW3-(2-AMINO-3-HYDROXY-PROPYL)-6-(N'-CYCLOHEXYL-HYDRAZINO)OCTAHYDRO-INDOL-7-OL"/>
+</dbReference>
+<dbReference type="PRIDE" id="P29894"/>
+<dbReference type="BioCyc" id="MetaCyc:MONOMER-3909"/>
+<dbReference type="SABIO-RK" id="P29894"/>
+<dbReference type="EvolutionaryTrace" id="P29894"/>
+<dbReference type="GO" id="GO:0042597">
+<property type="term" value="C:periplasmic space"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030058">
+<property type="term" value="F:amine dehydrogenase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0052876">
+<property type="term" value="F:methylamine dehydrogenase (amicyanin) activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030416">
+<property type="term" value="P:methylamine metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.130.10.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013476">
+<property type="entry name" value="MeN_DH_Hvc"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009451">
+<property type="entry name" value="Metamine_DH_Hvc"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011044">
+<property type="entry name" value="Quino_amine_DH_bsu"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015943">
+<property type="entry name" value="WD40/YVTN_repeat-like_dom_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF06433">
+<property type="entry name" value="Me-amine-dh_H"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50969">
+<property type="entry name" value="SSF50969"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR02658">
+<property type="entry name" value="TTQ_MADH_Hv"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0249">Electron transport</keyword>
+<keyword id="KW-0560">Oxidoreductase</keyword>
+<keyword id="KW-0574">Periplasm</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" description="Or 26" evidence="3">
+<location>
+<begin position="1"/>
+<end position="28"/>
+</location>
+</feature>
+<feature type="chain" description="Methylamine dehydrogenase heavy chain" id="PRO_0000025580">
+<location>
+<begin position="29"/>
+<end position="417"/>
+</location>
+</feature>
+<feature type="disulfide bond">
+<location>
+<begin position="212"/>
+<end position="227"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="40"/>
+<end position="58"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="77"/>
+<end position="82"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="84"/>
+<end position="86"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="88"/>
+<end position="96"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="97"/>
+<end position="100"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="101"/>
+<end position="108"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="113"/>
+<end position="116"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="123"/>
+<end position="132"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="135"/>
+<end position="145"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="147"/>
+<end position="149"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="152"/>
+<end position="158"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="170"/>
+<end position="172"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="173"/>
+<end position="175"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="179"/>
+<end position="186"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="188"/>
+<end position="190"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="192"/>
+<end position="197"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="198"/>
+<end position="201"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="202"/>
+<end position="208"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="211"/>
+<end position="219"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="222"/>
+<end position="227"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="232"/>
+<end position="236"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="239"/>
+<end position="241"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="244"/>
+<end position="247"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="263"/>
+<end position="265"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="266"/>
+<end position="269"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="270"/>
+<end position="275"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="278"/>
+<end position="284"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="296"/>
+<end position="299"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="301"/>
+<end position="305"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="308"/>
+<end position="310"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="312"/>
+<end position="314"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="316"/>
+<end position="319"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="320"/>
+<end position="323"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="324"/>
+<end position="331"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="341"/>
+<end position="348"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="349"/>
+<end position="351"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="354"/>
+<end position="364"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="366"/>
+<end position="369"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="372"/>
+<end position="374"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="376"/>
+<end position="381"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="382"/>
+<end position="385"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="386"/>
+<end position="391"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="392"/>
+<end position="394"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="397"/>
+<end position="401"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="410"/>
+<end position="412"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2BBK"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2GC4"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="1599920"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<sequence length="417" mass="45440" checksum="8187A8B694208BE2" modified="1993-04-01" version="1" precursor="true">MALPPNFMPLFRASLIGLGLGCSALALAASAQDAPEAETQAQETQGQAAARAAAADLAAGQDDEPRILEAPAPDARRVYVNDPAHFAAVTQQFVIDGEAGRVIGMIDGGFLPNPVVADDGSFIAHASTVFSRIARGERTDYVEVFDPVTLLPTADIELPDAPRFLVGTYPWMTSLTPDGKTLLFYQFSPAPAVGVVDLEGKAFKRMLDVPDCYHIFPTAPDTFFMHCRDGSLAKVAFGTEGTPEITHTEVFHPEDEFLINHPAYSQKAGRLVWPTYTGKIHQIDLSSGDAKFLPAVEALTEAERADGWRPGGWQQVAYHRALDRIYLLVDQRDEWRHKTASRLLVVLDAKTGERLAKFEMGHEIDSINVSQDEKPLLYALSTGDKTLYIHDAESGEELRSVNQLGHGPQVITTADMG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

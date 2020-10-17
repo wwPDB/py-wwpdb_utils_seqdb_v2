@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="113">
+<accession>P29741</accession>
+<name>DING_PHOPR</name>
+<protein>
+<recommendedName>
+<fullName evidence="1">ATP-dependent DNA helicase DinG</fullName>
+<ecNumber evidence="1">3.6.4.12</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="1">dinG</name>
+<name type="ordered locus">PBPRA1011</name>
+</gene>
+<organism>
+<name type="scientific">Photobacterium profundum (strain SS9)</name>
+<dbReference type="NCBI Taxonomy" id="298386"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Vibrionales</taxon>
+<taxon>Vibrionaceae</taxon>
+<taxon>Photobacterium</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2005" name="Science" volume="307" first="1459" last="1461">
+<title>Life at depth: Photobacterium profundum genome sequence and expression analysis.</title>
+<authorList>
+<person name="Vezzi A."/>
+<person name="Campanaro S."/>
+<person name="D'Angelo M."/>
+<person name="Simonato F."/>
+<person name="Vitulo N."/>
+<person name="Lauro F.M."/>
+<person name="Cestaro A."/>
+<person name="Malacrida G."/>
+<person name="Simionati B."/>
+<person name="Cannata N."/>
+<person name="Romualdi C."/>
+<person name="Bartlett D.H."/>
+<person name="Valle G."/>
+</authorList>
+<dbReference type="PubMed" id="15746425"/>
+<dbReference type="DOI" id="10.1126/science.1103341"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC BAA-1253 / SS9</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1993" name="Gene" volume="131" first="125" last="128">
+<title>Sequence of the ompH gene from the deep-sea bacterium Photobacterium SS9.</title>
+<authorList>
+<person name="Bartlett D.H."/>
+<person name="Chi E."/>
+<person name="Wright M.E."/>
+</authorList>
+<dbReference type="PubMed" id="8396546"/>
+<dbReference type="DOI" id="10.1016/0378-1119(93)90680-2"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-151</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1993" name="Nucleic Acids Res." volume="21" first="1497" last="1497">
+<title>Escherichia coli dinG gene encodes a putative DNA helicase related to a group of eukaryotic helicases including Rad3 protein.</title>
+<authorList>
+<person name="Koonin E.V."/>
+</authorList>
+<dbReference type="PubMed" id="8385320"/>
+<dbReference type="DOI" id="10.1093/nar/21.6.1497"/>
+</citation>
+<scope>SIMILARITY TO DING</scope>
+</reference>
+<comment type="function">
+<text evidence="1">DNA-dependent ATPase and 5'-3' DNA helicase.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="1">
+<text>ATP + H2O = ADP + H(+) + phosphate</text>
+<dbReference type="Rhea" id="RHEA:13065"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:30616"/>
+<dbReference type="ChEBI" id="CHEBI:43474"/>
+<dbReference type="ChEBI" id="CHEBI:456216"/>
+<dbReference type="EC" id="3.6.4.12"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="1">
+<name>[4Fe-4S] cluster</name>
+<dbReference type="ChEBI" id="CHEBI:49883"/>
+</cofactor>
+<text evidence="1">Binds 1 [4Fe-4S] cluster.</text>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the helicase family. DinG subfamily. Type 1 sub-subfamily.</text>
+</comment>
+<dbReference type="EC" id="3.6.4.12" evidence="1"/>
+<dbReference type="EMBL" id="CR378666">
+<property type="protein sequence ID" value="CAG19422.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="X67094">
+<property type="protein sequence ID" value="CAA47468.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S23215">
+<property type="entry name" value="S23215"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_011217756.1">
+<property type="nucleotide sequence ID" value="NC_006370.1"/>
+</dbReference>
+<dbReference type="SMR" id="P29741"/>
+<dbReference type="STRING" id="298386.PBPRA1011"/>
+<dbReference type="EnsemblBacteria" id="CAG19422">
+<property type="protein sequence ID" value="CAG19422"/>
+<property type="gene ID" value="PBPRA1011"/>
+</dbReference>
+<dbReference type="KEGG" id="ppr:PBPRA1011"/>
+<dbReference type="eggNOG" id="COG1199">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_012117_4_1_6"/>
+<dbReference type="KO" id="K03722"/>
+<dbReference type="OMA" id="LIICSHD"/>
+<dbReference type="OrthoDB" id="679382at2"/>
+<dbReference type="Proteomes" id="UP000000593">
+<property type="component" value="Chromosome 1"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051539">
+<property type="term" value="F:4 iron, 4 sulfur cluster binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003677">
+<property type="term" value="F:DNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003678">
+<property type="term" value="F:DNA helicase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006139">
+<property type="term" value="P:nucleobase-containing compound metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_02205">
+<property type="entry name" value="DinG_proteobact"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006555">
+<property type="entry name" value="ATP-dep_Helicase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR010614">
+<property type="entry name" value="DEAD_2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR039000">
+<property type="entry name" value="DinG_proteobact"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014013">
+<property type="entry name" value="Helic_SF1/SF2_ATP-bd_DinG/Rad3"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001650">
+<property type="entry name" value="Helicase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027417">
+<property type="entry name" value="P-loop_NTPase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF06733">
+<property type="entry name" value="DEAD_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13307">
+<property type="entry name" value="Helicase_C_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00491">
+<property type="entry name" value="HELICc2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52540">
+<property type="entry name" value="SSF52540"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51193">
+<property type="entry name" value="HELICASE_ATP_BIND_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51194">
+<property type="entry name" value="HELICASE_CTER"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0004">4Fe-4S</keyword>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0238">DNA-binding</keyword>
+<keyword id="KW-0347">Helicase</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0408">Iron</keyword>
+<keyword id="KW-0411">Iron-sulfur</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="ATP-dependent DNA helicase DinG" id="PRO_0000102005">
+<location>
+<begin position="1"/>
+<end position="692"/>
+</location>
+</feature>
+<feature type="domain" description="Helicase ATP-binding" evidence="1">
+<location>
+<begin position="16"/>
+<end position="293"/>
+</location>
+</feature>
+<feature type="domain" description="Helicase C-terminal" evidence="1">
+<location>
+<begin position="514"/>
+<end position="692"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="ATP" evidence="1 2">
+<location>
+<begin position="56"/>
+<end position="63"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DEAH box" evidence="1">
+<location>
+<begin position="247"/>
+<end position="250"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (4Fe-4S)" evidence="1">
+<location>
+<position position="123"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (4Fe-4S)" evidence="1">
+<location>
+<position position="192"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron-sulfur (4Fe-4S)" evidence="1">
+<location>
+<position position="202"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; CAA47468." ref="2" evidence="2">
+<original>R</original>
+<variation>A</variation>
+<location>
+<position position="118"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255">
+<source>
+<dbReference type="HAMAP-Rule" id="MF_02205"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000305"/>
+<sequence length="692" mass="78056" checksum="CF5ED56922B75989" modified="2004-07-05" version="2">MLHSQIKSDIKQCYENLGNQLDNFIPRRAQNYLVAEIAKTLAGEYHQKHRMLVGEAGTGIGKSLAYLLGGIPFALFNNKKLLISTATVALQEQLINKDLPLFNRIYPKEFSFILAKGRQRYCCNHKLEACCATNNDQQVTLWEEKPKKSDLDLLRRMLKATRDGKWDGDRDSWPTTIPDRVWPQIMADKHSCHAGLPQHRSCPFAKAREHLDKADVIIANHALLMADIELGGGVILPEPEQTIYVIDEAHHLPKVARDFSSAASSLKGAATWLEKLNQTIGKLAELAEYKKAARFQDAILENIQHLIPTLRQVANNVDVGMFSKDGIYRFEHGELPAWLEQEAKGCKDASKKALQSLGKIHDLISERLKDNEIQQRLGEQALAESGVYLQRLENLEKVWALMAQPKKDKGAPLARWIEKNPDNEGDYIIQVSPLEVGYRLDQLLWSRAAGAILVSATLRALNQFTYFCRQVGIYEMDSTRFLALASPFDYQNNARLVIPALSLEPQADKFTDLLIKTLPEYLEGETASLVLFSSYWQMNKVADELRPLAKKNKWELLVQGEESRHITLKKHKDNCKSGKPSILFGTGSFSEGLDLPGDLLKNLIITKIPFGVPTSPVEEAHAEYIESCGGNPFMQISVPEASKKLIQSVGRLIRKEDDMGRVVLLDRRIINRRYGKALLDSLPPFKRVIEYS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

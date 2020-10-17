@@ -1,0 +1,764 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="191">
+<accession>P29496</accession>
+<accession>D6VYS1</accession>
+<name>MCM5_YEAST</name>
+<protein>
+<recommendedName>
+<fullName>Minichromosome maintenance protein 5</fullName>
+<ecNumber>3.6.4.12</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Cell division control protein 46</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">MCM5</name>
+<name type="synonym">CDC46</name>
+<name type="ordered locus">YLR274W</name>
+<name type="ORF">L9328.1</name>
+</gene>
+<organism>
+<name type="scientific">Saccharomyces cerevisiae (strain ATCC 204508 / S288c)</name>
+<name type="common">Baker's yeast</name>
+<dbReference type="NCBI Taxonomy" id="559292"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+<taxon>Saccharomyces</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1991" name="Genes Dev." volume="5" first="958" last="969">
+<title>A group of interacting yeast DNA replication genes.</title>
+<authorList>
+<person name="Hennessy K.M."/>
+<person name="Lee A."/>
+<person name="Chen E."/>
+<person name="Botstein D."/>
+</authorList>
+<dbReference type="PubMed" id="2044962"/>
+<dbReference type="DOI" id="10.1101/gad.5.6.958"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1997" name="Nature" volume="387" first="87" last="90">
+<title>The nucleotide sequence of Saccharomyces cerevisiae chromosome XII.</title>
+<authorList>
+<person name="Johnston M."/>
+<person name="Hillier L.W."/>
+<person name="Riles L."/>
+<person name="Albermann K."/>
+<person name="Andre B."/>
+<person name="Ansorge W."/>
+<person name="Benes V."/>
+<person name="Brueckner M."/>
+<person name="Delius H."/>
+<person name="Dubois E."/>
+<person name="Duesterhoeft A."/>
+<person name="Entian K.-D."/>
+<person name="Floeth M."/>
+<person name="Goffeau A."/>
+<person name="Hebling U."/>
+<person name="Heumann K."/>
+<person name="Heuss-Neitzel D."/>
+<person name="Hilbert H."/>
+<person name="Hilger F."/>
+<person name="Kleine K."/>
+<person name="Koetter P."/>
+<person name="Louis E.J."/>
+<person name="Messenguy F."/>
+<person name="Mewes H.-W."/>
+<person name="Miosga T."/>
+<person name="Moestl D."/>
+<person name="Mueller-Auer S."/>
+<person name="Nentwich U."/>
+<person name="Obermaier B."/>
+<person name="Piravandi E."/>
+<person name="Pohl T.M."/>
+<person name="Portetelle D."/>
+<person name="Purnelle B."/>
+<person name="Rechmann S."/>
+<person name="Rieger M."/>
+<person name="Rinke M."/>
+<person name="Rose M."/>
+<person name="Scharfe M."/>
+<person name="Scherens B."/>
+<person name="Scholler P."/>
+<person name="Schwager C."/>
+<person name="Schwarz S."/>
+<person name="Underwood A.P."/>
+<person name="Urrestarazu L.A."/>
+<person name="Vandenbol M."/>
+<person name="Verhasselt P."/>
+<person name="Vierendeels F."/>
+<person name="Voet M."/>
+<person name="Volckaert G."/>
+<person name="Voss H."/>
+<person name="Wambutt R."/>
+<person name="Wedler E."/>
+<person name="Wedler H."/>
+<person name="Zimmermann F.K."/>
+<person name="Zollner A."/>
+<person name="Hani J."/>
+<person name="Hoheisel J.D."/>
+</authorList>
+<dbReference type="PubMed" id="9169871"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 204508 / S288c</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2008" name="Mol. Cell" volume="31" first="287" last="293">
+<title>The Mcm2-7 complex has in vitro helicase activity.</title>
+<authorList>
+<person name="Bochman M.L."/>
+<person name="Schwacha A."/>
+</authorList>
+<dbReference type="PubMed" id="18657510"/>
+<dbReference type="DOI" id="10.1016/j.molcel.2008.05.020"/>
+</citation>
+<scope>RECONSTITUTION OF THE MCM2-7 COMPLEX</scope>
+<scope>HELICASE ACTIVITY OF THE MCM2-7 COMPLEX</scope>
+<scope>MUTAGENESIS OF LYS-422</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2009" name="Cell" volume="139" first="719" last="730">
+<title>Concerted loading of Mcm2-7 double hexamers around DNA during DNA replication origin licensing.</title>
+<authorList>
+<person name="Remus D."/>
+<person name="Beuron F."/>
+<person name="Tolun G."/>
+<person name="Griffith J.D."/>
+<person name="Morris E.P."/>
+<person name="Diffley J.F."/>
+</authorList>
+<dbReference type="PubMed" id="19896182"/>
+<dbReference type="DOI" id="10.1016/j.cell.2009.10.015"/>
+</citation>
+<scope>IDENTIFICATION IN THE MCM2-7 COMPLEX</scope>
+<scope>FUNCTION OF THE MCM2-7 COMPLEX</scope>
+<scope>ELECTRON MICROSCOPY OF THE MCM2-7 COMPLEX</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2009" name="Proc. Natl. Acad. Sci. U.S.A." volume="106" first="20240" last="20245">
+<title>A double-hexameric MCM2-7 complex is loaded onto origin DNA during licensing of eukaryotic DNA replication.</title>
+<authorList>
+<person name="Evrin C."/>
+<person name="Clarke P."/>
+<person name="Zech J."/>
+<person name="Lurz R."/>
+<person name="Sun J."/>
+<person name="Uhle S."/>
+<person name="Li H."/>
+<person name="Stillman B."/>
+<person name="Speck C."/>
+</authorList>
+<dbReference type="PubMed" id="19910535"/>
+<dbReference type="DOI" id="10.1073/pnas.0911500106"/>
+</citation>
+<scope>IDENTIFICATION IN THE MCM2-7 COMPLEX</scope>
+<scope>FUNCTION OF THE MCM2-7 COMPLEX</scope>
+<scope>ELECTRON MICROSCOPY OF THE MCM2-7 COMPLEX</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2014" name="G3 (Bethesda)" volume="4" first="389" last="398">
+<title>The reference genome sequence of Saccharomyces cerevisiae: Then and now.</title>
+<authorList>
+<person name="Engel S.R."/>
+<person name="Dietrich F.S."/>
+<person name="Fisk D.G."/>
+<person name="Binkley G."/>
+<person name="Balakrishnan R."/>
+<person name="Costanzo M.C."/>
+<person name="Dwight S.S."/>
+<person name="Hitz B.C."/>
+<person name="Karra K."/>
+<person name="Nash R.S."/>
+<person name="Weng S."/>
+<person name="Wong E.D."/>
+<person name="Lloyd P."/>
+<person name="Skrzypek M.S."/>
+<person name="Miyasato S.R."/>
+<person name="Simison M."/>
+<person name="Cherry J.M."/>
+</authorList>
+<dbReference type="PubMed" id="24374639"/>
+<dbReference type="DOI" id="10.1534/g3.113.008995"/>
+</citation>
+<scope>GENOME REANNOTATION</scope>
+<source>
+<strain>ATCC 204508 / S288c</strain>
+</source>
+</reference>
+<reference key="7">
+<citation type="journal article" date="1992" name="Proc. Natl. Acad. Sci. U.S.A." volume="89" first="10459" last="10463">
+<title>CDC46/MCM5, a yeast protein whose subcellular localization is cell cycle-regulated, is involved in DNA replication at autonomously replicating sequences.</title>
+<authorList>
+<person name="Chen Y."/>
+<person name="Hennessy K.M."/>
+<person name="Botstein D."/>
+<person name="Tye B.-K."/>
+</authorList>
+<dbReference type="PubMed" id="1438234"/>
+<dbReference type="DOI" id="10.1073/pnas.89.21.10459"/>
+</citation>
+<scope>IDENTIFICATION OF CDC46 WITH MCM5</scope>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2003" name="Nature" volume="425" first="737" last="741">
+<title>Global analysis of protein expression in yeast.</title>
+<authorList>
+<person name="Ghaemmaghami S."/>
+<person name="Huh W.-K."/>
+<person name="Bower K."/>
+<person name="Howson R.W."/>
+<person name="Belle A."/>
+<person name="Dephoure N."/>
+<person name="O'Shea E.K."/>
+<person name="Weissman J.S."/>
+</authorList>
+<dbReference type="PubMed" id="14562106"/>
+<dbReference type="DOI" id="10.1038/nature02046"/>
+</citation>
+<scope>LEVEL OF PROTEIN EXPRESSION [LARGE SCALE ANALYSIS]</scope>
+</reference>
+<reference key="9">
+<citation type="journal article" date="2004" name="Exp. Cell Res." volume="294" first="592" last="602">
+<title>Saccharomyces cerevisiae CSM1 gene encoding a protein influencing chromosome segregation in meiosis I interacts with elements of the DNA replication complex.</title>
+<authorList>
+<person name="Wysocka M."/>
+<person name="Rytka J."/>
+<person name="Kurlandzka A."/>
+</authorList>
+<dbReference type="PubMed" id="15023545"/>
+<dbReference type="DOI" id="10.1016/j.yexcr.2003.12.008"/>
+</citation>
+<scope>INTERACTION WITH CSM1</scope>
+</reference>
+<comment type="function">
+<text evidence="5 6">Acts as component of the MCM2-7 complex (MCM complex) which is the putative replicative helicase essential for 'once per cell cycle' DNA replication initiation and elongation in eukaryotic cells. The active ATPase sites in the MCM2-7 ring are formed through the interaction surfaces of two neighboring subunits such that a critical structure of a conserved arginine finger motif is provided in trans relative to the ATP-binding site of the Walker A box of the adjacent subunit. The six ATPase active sites, however, are likely to contribute differentially to the complex helicase activity; specifically the MCM2-MCM5 association is proposed to be reversible and to mediate a open ring conformation which may facilitate DNA loading. Once loaded onto DNA, double hexamers can slide on dsDNA in the absence of ATPase activity.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>ATP + H2O = ADP + H(+) + phosphate</text>
+<dbReference type="Rhea" id="RHEA:13065"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:30616"/>
+<dbReference type="ChEBI" id="CHEBI:43474"/>
+<dbReference type="ChEBI" id="CHEBI:456216"/>
+<dbReference type="EC" id="3.6.4.12"/>
+</reaction>
+</comment>
+<comment type="subunit">
+<text evidence="3 5 6">Component of the MCM2-7 complex. The complex forms a toroidal hexameric ring with the proposed subunit order MCM2-MCM6-MCM4-MCM7-MCM3-MCM5; loaded onto DNA, forms a head-head double hexamer. Interacts with CSM1.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-10549">
+<id>P29496</id>
+</interactant>
+<interactant intactId="EBI-22001">
+<id>P25651</id>
+<label>CSM1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>2</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-10549">
+<id>P29496</id>
+</interactant>
+<interactant intactId="EBI-10541">
+<id>P24279</id>
+<label>MCM3</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>5</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-10549">
+<id>P29496</id>
+</interactant>
+<interactant intactId="EBI-17490">
+<id>Q12306</id>
+<label>SMT3</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Nucleus</location>
+</subcellularLocation>
+<text>Mobilized from the cytoplasm to the nucleus as mitosis is completed. Remains in the nucleus until the initiation of the next round of replication.</text>
+</comment>
+<comment type="miscellaneous">
+<text evidence="2">Present with 10300 molecules/cell in log phase SD medium.</text>
+</comment>
+<comment type="miscellaneous">
+<text>Early fractionation of eukaryotic MCM proteins yielded a variety of dimeric, trimeric and tetrameric complexes with unclear biological significance. The MCM2-7 hexamer is the proposed physiological active complex.</text>
+</comment>
+<comment type="similarity">
+<text evidence="7">Belongs to the MCM family.</text>
+</comment>
+<dbReference type="EC" id="3.6.4.12"/>
+<dbReference type="EMBL" id="U09242">
+<property type="protein sequence ID" value="AAA18027.1"/>
+<property type="molecule type" value="Unassigned_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U17245">
+<property type="protein sequence ID" value="AAB67364.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BK006945">
+<property type="protein sequence ID" value="DAA09587.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="A39631">
+<property type="entry name" value="A39631"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_013376.1">
+<property type="nucleotide sequence ID" value="NM_001182161.1"/>
+</dbReference>
+<dbReference type="PDB" id="3JA8">
+<property type="method" value="EM"/>
+<property type="resolution" value="3.80"/>
+<property type="chains" value="5=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="3JC5">
+<property type="method" value="EM"/>
+<property type="resolution" value="4.70"/>
+<property type="chains" value="5=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="3JC6">
+<property type="method" value="EM"/>
+<property type="resolution" value="3.70"/>
+<property type="chains" value="5=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="3JC7">
+<property type="method" value="EM"/>
+<property type="resolution" value="4.80"/>
+<property type="chains" value="5=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="5BK4">
+<property type="method" value="EM"/>
+<property type="resolution" value="3.90"/>
+<property type="chains" value="5/D=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="5U8S">
+<property type="method" value="EM"/>
+<property type="resolution" value="6.10"/>
+<property type="chains" value="5=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="5U8T">
+<property type="method" value="EM"/>
+<property type="resolution" value="4.90"/>
+<property type="chains" value="5=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="5V8F">
+<property type="method" value="EM"/>
+<property type="resolution" value="3.90"/>
+<property type="chains" value="5=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="5XF8">
+<property type="method" value="EM"/>
+<property type="resolution" value="7.10"/>
+<property type="chains" value="5=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="6EYC">
+<property type="method" value="EM"/>
+<property type="resolution" value="3.80"/>
+<property type="chains" value="5=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="6F0L">
+<property type="method" value="EM"/>
+<property type="resolution" value="4.77"/>
+<property type="chains" value="5/D=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="6HV9">
+<property type="method" value="EM"/>
+<property type="resolution" value="4.98"/>
+<property type="chains" value="5=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="6PTJ">
+<property type="method" value="EM"/>
+<property type="resolution" value="3.80"/>
+<property type="chains" value="5=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="6PTN">
+<property type="method" value="EM"/>
+<property type="resolution" value="5.80"/>
+<property type="chains" value="5/l=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="6PTO">
+<property type="method" value="EM"/>
+<property type="resolution" value="7.00"/>
+<property type="chains" value="5/I/k=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="6RQC">
+<property type="method" value="EM"/>
+<property type="resolution" value="4.40"/>
+<property type="chains" value="5=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="6SKL">
+<property type="method" value="EM"/>
+<property type="resolution" value="3.70"/>
+<property type="chains" value="5=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="6SKO">
+<property type="method" value="EM"/>
+<property type="resolution" value="3.40"/>
+<property type="chains" value="5=1-775"/>
+</dbReference>
+<dbReference type="PDB" id="6U0M">
+<property type="method" value="EM"/>
+<property type="resolution" value="3.90"/>
+<property type="chains" value="5=24-693"/>
+</dbReference>
+<dbReference type="PDBsum" id="3JA8"/>
+<dbReference type="PDBsum" id="3JC5"/>
+<dbReference type="PDBsum" id="3JC6"/>
+<dbReference type="PDBsum" id="3JC7"/>
+<dbReference type="PDBsum" id="5BK4"/>
+<dbReference type="PDBsum" id="5U8S"/>
+<dbReference type="PDBsum" id="5U8T"/>
+<dbReference type="PDBsum" id="5V8F"/>
+<dbReference type="PDBsum" id="5XF8"/>
+<dbReference type="PDBsum" id="6EYC"/>
+<dbReference type="PDBsum" id="6F0L"/>
+<dbReference type="PDBsum" id="6HV9"/>
+<dbReference type="PDBsum" id="6PTJ"/>
+<dbReference type="PDBsum" id="6PTN"/>
+<dbReference type="PDBsum" id="6PTO"/>
+<dbReference type="PDBsum" id="6RQC"/>
+<dbReference type="PDBsum" id="6SKL"/>
+<dbReference type="PDBsum" id="6SKO"/>
+<dbReference type="PDBsum" id="6U0M"/>
+<dbReference type="SMR" id="P29496"/>
+<dbReference type="BioGRID" id="31542">
+<property type="interactions" value="272"/>
+</dbReference>
+<dbReference type="ComplexPortal" id="CPX-2944">
+<property type="entry name" value="MCM complex"/>
+</dbReference>
+<dbReference type="DIP" id="DIP-2406N"/>
+<dbReference type="IntAct" id="P29496">
+<property type="interactions" value="81"/>
+</dbReference>
+<dbReference type="MINT" id="P29496"/>
+<dbReference type="STRING" id="4932.YLR274W"/>
+<dbReference type="iPTMnet" id="P29496"/>
+<dbReference type="MaxQB" id="P29496"/>
+<dbReference type="PaxDb" id="P29496"/>
+<dbReference type="PRIDE" id="P29496"/>
+<dbReference type="EnsemblFungi" id="YLR274W_mRNA">
+<property type="protein sequence ID" value="YLR274W"/>
+<property type="gene ID" value="YLR274W"/>
+</dbReference>
+<dbReference type="GeneID" id="850980"/>
+<dbReference type="KEGG" id="sce:YLR274W"/>
+<dbReference type="EuPathDB" id="FungiDB:YLR274W"/>
+<dbReference type="SGD" id="S000004264">
+<property type="gene designation" value="MCM5"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG0481">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT01000000214460"/>
+<dbReference type="HOGENOM" id="CLU_000995_7_2_1"/>
+<dbReference type="InParanoid" id="P29496"/>
+<dbReference type="KO" id="K02209"/>
+<dbReference type="OMA" id="PRKCTTE"/>
+<dbReference type="BioCyc" id="YEAST:G3O-32373-MONOMER"/>
+<dbReference type="Reactome" id="R-SCE-68949">
+<property type="pathway name" value="Orc1 removal from chromatin"/>
+</dbReference>
+<dbReference type="Reactome" id="R-SCE-68962">
+<property type="pathway name" value="Activation of the pre-replicative complex"/>
+</dbReference>
+<dbReference type="Reactome" id="R-SCE-69052">
+<property type="pathway name" value="Switching of origins to a post-replicative state"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P29496"/>
+<dbReference type="Proteomes" id="UP000002311">
+<property type="component" value="Chromosome XII"/>
+</dbReference>
+<dbReference type="RNAct" id="P29496">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="GO" id="GO:0071162">
+<property type="term" value="C:CMG complex"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031261">
+<property type="term" value="C:DNA replication preinitiation complex"/>
+<property type="evidence" value="ECO:0000353"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042555">
+<property type="term" value="C:MCM complex"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000784">
+<property type="term" value="C:nuclear chromosome, telomeric region"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005656">
+<property type="term" value="C:nuclear pre-replicative complex"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005654">
+<property type="term" value="C:nucleoplasm"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005634">
+<property type="term" value="C:nucleus"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031298">
+<property type="term" value="C:replication fork protection complex"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003682">
+<property type="term" value="F:chromatin binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003678">
+<property type="term" value="F:DNA helicase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003688">
+<property type="term" value="F:DNA replication origin binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003697">
+<property type="term" value="F:single-stranded DNA binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006348">
+<property type="term" value="P:chromatin silencing at telomere"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006270">
+<property type="term" value="P:DNA replication initiation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000727">
+<property type="term" value="P:double-strand break repair via break-induced replication"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031507">
+<property type="term" value="P:heterochromatin assembly"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031939">
+<property type="term" value="P:negative regulation of chromatin silencing at telomere"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0033260">
+<property type="term" value="P:nuclear DNA replication"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006267">
+<property type="term" value="P:pre-replicative complex assembly involved in nuclear cell cycle DNA replication"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030174">
+<property type="term" value="P:regulation of DNA-dependent DNA replication initiation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="SGD"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR031327">
+<property type="entry name" value="MCM"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008048">
+<property type="entry name" value="MCM5"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018525">
+<property type="entry name" value="MCM_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001208">
+<property type="entry name" value="MCM_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR041562">
+<property type="entry name" value="MCM_lid"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027925">
+<property type="entry name" value="MCM_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR033762">
+<property type="entry name" value="MCM_OB"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012340">
+<property type="entry name" value="NA-bd_OB-fold"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027417">
+<property type="entry name" value="P-loop_NTPase"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR11630">
+<property type="entry name" value="PTHR11630"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00493">
+<property type="entry name" value="MCM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF17855">
+<property type="entry name" value="MCM_lid"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF14551">
+<property type="entry name" value="MCM_N"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF17207">
+<property type="entry name" value="MCM_OB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01657">
+<property type="entry name" value="MCMFAMILY"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01661">
+<property type="entry name" value="MCMPROTEIN5"/>
+</dbReference>
+<dbReference type="SMART" id="SM00350">
+<property type="entry name" value="MCM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50249">
+<property type="entry name" value="SSF50249"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52540">
+<property type="entry name" value="SSF52540"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00847">
+<property type="entry name" value="MCM_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50051">
+<property type="entry name" value="MCM_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0131">Cell cycle</keyword>
+<keyword id="KW-0235">DNA replication</keyword>
+<keyword id="KW-0238">DNA-binding</keyword>
+<keyword id="KW-0347">Helicase</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-0539">Nucleus</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<feature type="chain" description="Minichromosome maintenance protein 5" id="PRO_0000194111">
+<location>
+<begin position="1"/>
+<end position="775"/>
+</location>
+</feature>
+<feature type="domain" description="MCM">
+<location>
+<begin position="366"/>
+<end position="573"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="ATP" evidence="1">
+<location>
+<begin position="416"/>
+<end position="423"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="Arginine finger">
+<location>
+<begin position="548"/>
+<end position="551"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Poly-Glu">
+<location>
+<begin position="351"/>
+<end position="356"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Loss of MCM2-7 complex helicase activity." evidence="4">
+<original>K</original>
+<variation>A</variation>
+<location>
+<position position="422"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000255"/>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="14562106"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15023545"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18657510"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19896182"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19910535"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000305"/>
+<sequence length="775" mass="86411" checksum="01D9DE208A091CF2" modified="1993-04-01" version="1">MSFDRPEIYSAPVLQGESPNDDDNTEIIKSFKNFILEFRLDSQFIYRDQLRNNILVKNYSLTVNMEHLIGYNEDIYKKLSDEPSDIIPLFETAITQVAKRISILSRAQSANNNDKDPENTSMDTDSLLLNSLPTFQLILNSNANQIPLRDLDSEHVSKIVRLSGIIISTSVLSSRATYLSIMCRNCRHTTSITINNFNSITGNTVSLPRSCLSTIESESSMANESNIGDESTKKNCGPDPYIIIHESSKFIDQQFLKLQEIPELVPVGEMPRNLTMTCDRYLTNKVIPGTRVTIVGIYSIYNSKNGAGSGRSGGGNGGSGVAIRTPYIKILGIQSDVETSSIWNSVTMFTEEEEEEFLQLSRNPKLYEILTNSIAPSIFGNEDIKKAIVCLLMGGSKKILPDGMRLRGDINVLLLGDPGTAKSQLLKFVEKVSPIAVYTSGKGSSAAGLTASVQRDPMTREFYLEGGAMVLADGGVVCIDEFDKMRDEDRVAIHEAMEQQTISIAKAGITTVLNSRTSVLAAANPIYGRYDDLKSPGDNIDFQTTILSRFDMIFIVKDDHNEERDISIANHVINIHTGNANAMQNQQEENGSEISIEKMKRYITYCRLKCAPRLSPQAAEKLSSNFVTIRKQLLINELESTERSSIPITIRQLEAIIRITESLAKLELSPIAQERHVDEAIRLFQASTMDAASQDPIGGLNQASGTSLSEIRRFEQELKRRLPIGWSTSYQTLRREFVDTHRFSQLALDKALYALEKHETIQLRHQGQNIYRSGV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

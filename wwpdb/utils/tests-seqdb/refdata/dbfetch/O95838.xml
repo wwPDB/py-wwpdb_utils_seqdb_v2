@@ -1,0 +1,492 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2001-01-11" modified="2020-08-12" version="150">
+<accession>O95838</accession>
+<accession>Q4VAT3</accession>
+<name>GLP2R_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>Glucagon-like peptide 2 receptor</fullName>
+<shortName>GLP-2 receptor</shortName>
+<shortName>GLP-2-R</shortName>
+<shortName>GLP-2R</shortName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">GLP2R</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1999" name="Proc. Natl. Acad. Sci. U.S.A." volume="96" first="1569" last="1573">
+<title>Prototypic G protein-coupled receptor for the intestinotrophic factor glucagon-like peptide 2.</title>
+<authorList>
+<person name="Munroe D.G."/>
+<person name="Gupta A.K."/>
+<person name="Kooshesh F."/>
+<person name="Vyas T.B."/>
+<person name="Rizkalla G."/>
+<person name="Wang H."/>
+<person name="Demchyshyn L."/>
+<person name="Yang Z.-H."/>
+<person name="Kamboj R.K."/>
+<person name="Chen H."/>
+<person name="McCallum K."/>
+<person name="Sumner-Smith M."/>
+<person name="Drucker D.J."/>
+<person name="Crivici A."/>
+</authorList>
+<dbReference type="PubMed" id="9990065"/>
+<dbReference type="DOI" id="10.1073/pnas.96.4.1569"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<source>
+<tissue>Stomach</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<scope>VARIANT ASN-470</scope>
+</reference>
+<comment type="function">
+<text>This is a receptor for glucagon-like peptide 2. The activity of this receptor is mediated by G proteins which activate adenylyl cyclase.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Cell membrane</location>
+<topology>Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the G-protein coupled receptor 2 family.</text>
+</comment>
+<dbReference type="EMBL" id="AF105367">
+<property type="protein sequence ID" value="AAD16895.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC096262">
+<property type="protein sequence ID" value="AAH96262.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS11150.1"/>
+<dbReference type="RefSeq" id="NP_004237.1">
+<property type="nucleotide sequence ID" value="NM_004246.2"/>
+</dbReference>
+<dbReference type="SMR" id="O95838"/>
+<dbReference type="BioGRID" id="114746">
+<property type="interactions" value="1"/>
+</dbReference>
+<dbReference type="IntAct" id="O95838">
+<property type="interactions" value="1"/>
+</dbReference>
+<dbReference type="MINT" id="O95838"/>
+<dbReference type="STRING" id="9606.ENSP00000262441"/>
+<dbReference type="BindingDB" id="O95838"/>
+<dbReference type="ChEMBL" id="CHEMBL5844"/>
+<dbReference type="DrugBank" id="DB00040">
+<property type="generic name" value="Glucagon"/>
+</dbReference>
+<dbReference type="DrugBank" id="DB08900">
+<property type="generic name" value="Teduglutide"/>
+</dbReference>
+<dbReference type="DrugCentral" id="O95838"/>
+<dbReference type="GuidetoPHARMACOLOGY" id="250"/>
+<dbReference type="GlyGen" id="O95838">
+<property type="glycosylation" value="4 sites"/>
+</dbReference>
+<dbReference type="iPTMnet" id="O95838"/>
+<dbReference type="PhosphoSitePlus" id="O95838"/>
+<dbReference type="BioMuta" id="GLP2R"/>
+<dbReference type="MassIVE" id="O95838"/>
+<dbReference type="PaxDb" id="O95838"/>
+<dbReference type="PeptideAtlas" id="O95838"/>
+<dbReference type="PRIDE" id="O95838"/>
+<dbReference type="ProteomicsDB" id="51084"/>
+<dbReference type="Antibodypedia" id="12679">
+<property type="antibodies" value="363 antibodies"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000262441">
+<property type="protein sequence ID" value="ENSP00000262441"/>
+<property type="gene ID" value="ENSG00000065325"/>
+</dbReference>
+<dbReference type="GeneID" id="9340"/>
+<dbReference type="KEGG" id="hsa:9340"/>
+<dbReference type="UCSC" id="uc002gmd.2">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="9340"/>
+<dbReference type="DisGeNET" id="9340"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000065325.12"/>
+<dbReference type="GeneCards" id="GLP2R"/>
+<dbReference type="HGNC" id="HGNC:4325">
+<property type="gene designation" value="GLP2R"/>
+</dbReference>
+<dbReference type="HPA" id="ENSG00000065325">
+<property type="expression patterns" value="Tissue enhanced (gallbladder)"/>
+</dbReference>
+<dbReference type="MIM" id="603659">
+<property type="type" value="gene"/>
+</dbReference>
+<dbReference type="neXtProt" id="NX_O95838"/>
+<dbReference type="OpenTargets" id="ENSG00000065325"/>
+<dbReference type="PharmGKB" id="PA28726"/>
+<dbReference type="eggNOG" id="KOG4564">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00940000158127"/>
+<dbReference type="HOGENOM" id="CLU_002753_4_0_1"/>
+<dbReference type="InParanoid" id="O95838"/>
+<dbReference type="KO" id="K04582"/>
+<dbReference type="OMA" id="FHRKCSL"/>
+<dbReference type="OrthoDB" id="651627at2759"/>
+<dbReference type="PhylomeDB" id="O95838"/>
+<dbReference type="TreeFam" id="TF315710"/>
+<dbReference type="PathwayCommons" id="O95838"/>
+<dbReference type="Reactome" id="R-HSA-418555">
+<property type="pathway name" value="G alpha (s) signalling events"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-420092">
+<property type="pathway name" value="Glucagon-type ligand receptors"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-9660821">
+<property type="pathway name" value="ADORA2B mediated anti-inflammatory cytokines production"/>
+</dbReference>
+<dbReference type="BioGRID-ORCS" id="9340">
+<property type="hits" value="11 hits in 870 CRISPR screens"/>
+</dbReference>
+<dbReference type="GeneWiki" id="Glucagon-like_peptide_2_receptor"/>
+<dbReference type="GenomeRNAi" id="9340"/>
+<dbReference type="Pharos" id="O95838">
+<property type="development level" value="Tclin"/>
+</dbReference>
+<dbReference type="PRO" id="PR:O95838"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 17"/>
+</dbReference>
+<dbReference type="RNAct" id="O95838">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000065325">
+<property type="expression patterns" value="Expressed in muscle layer of sigmoid colon and 93 other tissues"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="O95838">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="O95838">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008528">
+<property type="term" value="F:G protein-coupled peptide receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004930">
+<property type="term" value="F:G protein-coupled receptor activity"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004967">
+<property type="term" value="F:glucagon receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0017046">
+<property type="term" value="F:peptide hormone binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007188">
+<property type="term" value="P:adenylate cyclase-modulating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007166">
+<property type="term" value="P:cell surface receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007186">
+<property type="term" value="P:G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008284">
+<property type="term" value="P:positive regulation of cell population proliferation"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.1240.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR039125">
+<property type="entry name" value="GLP2R"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017981">
+<property type="entry name" value="GPCR_2-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036445">
+<property type="entry name" value="GPCR_2_extracell_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001879">
+<property type="entry name" value="GPCR_2_extracellular_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000832">
+<property type="entry name" value="GPCR_2_secretin-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017983">
+<property type="entry name" value="GPCR_2_secretin-like_CS"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR45620:SF23">
+<property type="entry name" value="PTHR45620:SF23"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00002">
+<property type="entry name" value="7tm_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02793">
+<property type="entry name" value="HRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00249">
+<property type="entry name" value="GPCRSECRETIN"/>
+</dbReference>
+<dbReference type="SMART" id="SM00008">
+<property type="entry name" value="HormR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF111418">
+<property type="entry name" value="SSF111418"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00649">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50227">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50261">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_4"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0297">G-protein coupled receptor</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0621">Polymorphism</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0807">Transducer</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Glucagon-like peptide 2 receptor" id="PRO_0000012838">
+<location>
+<begin position="1"/>
+<end position="553"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="1">
+<location>
+<begin position="1"/>
+<end position="173"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=1" evidence="1">
+<location>
+<begin position="174"/>
+<end position="198"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="1">
+<location>
+<begin position="199"/>
+<end position="210"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=2" evidence="1">
+<location>
+<begin position="211"/>
+<end position="235"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="1">
+<location>
+<begin position="236"/>
+<end position="261"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=3" evidence="1">
+<location>
+<begin position="262"/>
+<end position="285"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="1">
+<location>
+<begin position="286"/>
+<end position="299"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=4" evidence="1">
+<location>
+<begin position="300"/>
+<end position="321"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="1">
+<location>
+<begin position="322"/>
+<end position="339"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=5" evidence="1">
+<location>
+<begin position="340"/>
+<end position="362"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="1">
+<location>
+<begin position="363"/>
+<end position="386"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=6" evidence="1">
+<location>
+<begin position="387"/>
+<end position="405"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="1">
+<location>
+<begin position="406"/>
+<end position="417"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=7" evidence="1">
+<location>
+<begin position="418"/>
+<end position="438"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="1">
+<location>
+<begin position="439"/>
+<end position="550"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="97"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="113"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="148"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="162"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="83"/>
+<end position="105"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="96"/>
+<end position="137"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="118"/>
+<end position="159"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs8072568." id="VAR_033967">
+<original>H</original>
+<variation>L</variation>
+<location>
+<position position="22"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs17681684." id="VAR_033968" evidence="3">
+<original>D</original>
+<variation>N</variation>
+<location>
+<position position="470"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In dbSNP:rs16958918." id="VAR_033969">
+<original>R</original>
+<variation>H</variation>
+<location>
+<position position="523"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15489334"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="553" mass="63001" checksum="DA37379DF774A8F4" modified="1999-05-01" version="1">MKLGSSRAGPGRGSAGLLPGVHELPMGIPAPWGTSPLSFHRKCSLWAPGRPFLTLVLLVSIKQVTGSLLEETTRKWAQYKQACLRDLLKEPSGIFCNGTFDQYVCWPHSSPGNVSVPCPSYLPWWSEESSGRAYRHCLAQGTWQTIENATDIWQDDSECSENHSFKQNVDRYALLSTLQLMYTVGYSFSLISLFLALTLLLFLRKLHCTRNYIHMNLFASFILRTLAVLVKDVVFYNSYSKRPDNENGWMSYLSEMSTSCRSVQVLLHYFVGANYLWLLVEGLYLHTLLEPTVLPERRLWPRYLLLGWAFPVLFVVPWGFARAHLENTGCWTTNGNKKIWWIIRGPMMLCVTVNFFIFLKILKLLISKLKAHQMCFRDYKYRLAKSTLVLIPLLGVHEILFSFITDDQVEGFAKLIRLFIQLTLSSFHGFLVALQYGFANGEVKAELRKYWVRFLLARHSGCRACVLGKDFRFLGKCPKKLSEGDGAEKLRKLQPSLNSGRLLHLAMRGLGELGAQPQQDHARWPRGSSLSECSEGDVTMANTMEEILEESEI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

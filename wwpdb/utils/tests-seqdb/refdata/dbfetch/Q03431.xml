@@ -1,0 +1,1693 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-10-01" modified="2020-08-12" version="210">
+<accession>Q03431</accession>
+<accession>Q2M1U3</accession>
+<name>PTH1R_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>Parathyroid hormone/parathyroid hormone-related peptide receptor</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>PTH/PTHrP type I receptor</fullName>
+<shortName>PTH/PTHr receptor</shortName>
+</alternativeName>
+<alternativeName>
+<fullName>Parathyroid hormone 1 receptor</fullName>
+<shortName>PTH1 receptor</shortName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">PTH1R</name>
+<name type="synonym">PTHR</name>
+<name type="synonym">PTHR1</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1993" name="Endocrinology" volume="132" first="2157" last="2165">
+<title>Identical complementary deoxyribonucleic acids encode a human renal and bone parathyroid hormone (PTH)/PTH-related peptide receptor.</title>
+<authorList>
+<person name="Schipani E."/>
+<person name="Karga H."/>
+<person name="Karaplis A.C."/>
+<person name="Potts J.T. Jr."/>
+<person name="Kronenberg H.M."/>
+<person name="Abou-Samra A.-B."/>
+<person name="Segre G.V."/>
+<person name="Jueppner H."/>
+</authorList>
+<dbReference type="PubMed" id="8386612"/>
+<dbReference type="DOI" id="10.1210/endo.132.5.8386612"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<source>
+<tissue>Kidney</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1993" name="Eur. J. Pharmacol." volume="246" first="149" last="155">
+<title>Cloning and functional expression of a human parathyroid hormone receptor.</title>
+<authorList>
+<person name="Schneider H."/>
+<person name="Feyen J.-H."/>
+<person name="Rao Movva N."/>
+</authorList>
+<dbReference type="PubMed" id="8397094"/>
+<dbReference type="DOI" id="10.1016/0922-4106(93)90092-n"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>FUNCTION</scope>
+<scope>INTERACTION WITH PTH</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<source>
+<tissue>Kidney</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1995" name="J. Clin. Endocrinol. Metab." volume="80" first="1611" last="1621">
+<title>Pseudohypoparathyroidism type Ib is not caused by mutations in the coding exons of the human parathyroid hormone (PTH)/PTH-related peptide receptor gene.</title>
+<authorList>
+<person name="Schipani E."/>
+<person name="Weinstein L.S."/>
+<person name="Bergwitz C."/>
+<person name="Iida-Klein A."/>
+<person name="Kong X.F."/>
+<person name="Stuhrmann M."/>
+<person name="Kruse K."/>
+<person name="Whyte M.P."/>
+<person name="Murray T."/>
+<person name="Schmidtke J."/>
+<person name="Dop C."/>
+<person name="Brickman A.S."/>
+<person name="Crawford J.D."/>
+<person name="Potts J.T. Jr."/>
+<person name="Kronenberg H.M."/>
+<person name="Abou-Samra A.-B."/>
+<person name="Segre G.V."/>
+<person name="Jueppner H."/>
+</authorList>
+<dbReference type="PubMed" id="7745008"/>
+<dbReference type="DOI" id="10.1210/jcem.80.5.7745008"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="4">
+<citation type="submission" date="1994-11" db="EMBL/GenBank/DDBJ databases">
+<title>Characterization of cDNA and genomic DNA encoding the human PTH/PTHrP receptor.</title>
+<authorList>
+<person name="Levine M.A."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<source>
+<tissue>Kidney</tissue>
+</source>
+</reference>
+<reference key="5">
+<citation type="submission" date="2003-10" db="EMBL/GenBank/DDBJ databases">
+<title>Isolation of cDNA coding for parathyroid hormone receptor 1 (PTHR1).</title>
+<authorList>
+<person name="King M.M."/>
+<person name="Aronstam R.S."/>
+<person name="Sharma S.V."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<source>
+<tissue>Lung</tissue>
+</source>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<tissue>Cerebellum</tissue>
+</source>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2000" name="Biochemistry" volume="39" first="8878" last="8887">
+<title>The N-terminal fragment of human parathyroid hormone receptor 1 constitutes a hormone binding domain and reveals a distinct disulfide pattern.</title>
+<authorList>
+<person name="Grauschopf U."/>
+<person name="Lilie H."/>
+<person name="Honold K."/>
+<person name="Wozny M."/>
+<person name="Reusch D."/>
+<person name="Esswein A."/>
+<person name="Schafer W."/>
+<person name="Rucknagel K.P."/>
+<person name="Rudolph R."/>
+</authorList>
+<dbReference type="PubMed" id="10913300"/>
+<dbReference type="DOI" id="10.1021/bi0001426"/>
+</citation>
+<scope>DISULFIDE BONDS IN EXTRACELLULAR DOMAIN</scope>
+<scope>INTERACTION WITH PTH</scope>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2014" name="J. Proteomics" volume="96" first="253" last="262">
+<title>An enzyme assisted RP-RPLC approach for in-depth analysis of human liver phosphoproteome.</title>
+<authorList>
+<person name="Bian Y."/>
+<person name="Song C."/>
+<person name="Cheng K."/>
+<person name="Dong M."/>
+<person name="Wang F."/>
+<person name="Huang J."/>
+<person name="Sun D."/>
+<person name="Wang L."/>
+<person name="Ye M."/>
+<person name="Zou H."/>
+</authorList>
+<dbReference type="PubMed" id="24275569"/>
+<dbReference type="DOI" id="10.1016/j.jprot.2013.11.014"/>
+</citation>
+<scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-551</scope>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+<source>
+<tissue>Liver</tissue>
+</source>
+</reference>
+<reference key="9">
+<citation type="journal article" date="1998" name="Biochemistry" volume="37" first="12737" last="12743">
+<title>Binding domain of human parathyroid hormone receptor: from conformation to function.</title>
+<authorList>
+<person name="Pellegrini M."/>
+<person name="Bisello A."/>
+<person name="Rosenblatt M."/>
+<person name="Chorev M."/>
+<person name="Mierke D.F."/>
+</authorList>
+<dbReference type="PubMed" id="9737850"/>
+<dbReference type="DOI" id="10.1021/bi981265h"/>
+</citation>
+<scope>STRUCTURE BY NMR OF 168-198</scope>
+</reference>
+<reference key="10">
+<citation type="journal article" date="2008" name="Proc. Natl. Acad. Sci. U.S.A." volume="105" first="5034" last="5039">
+<title>Molecular recognition of parathyroid hormone by its G protein-coupled receptor.</title>
+<authorList>
+<person name="Pioszak A.A."/>
+<person name="Xu H.E."/>
+</authorList>
+<dbReference type="PubMed" id="18375760"/>
+<dbReference type="DOI" id="10.1073/pnas.0801027105"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.95 ANGSTROMS) OF 29-187 IN COMPLEX WITH PTH</scope>
+<scope>DISULFIDE BONDS</scope>
+</reference>
+<reference key="11">
+<citation type="journal article" date="2008" name="Structure" volume="16" first="1086" last="1094">
+<title>Structure of the parathyroid hormone receptor C terminus bound to the G-protein dimer Gbeta1gamma2.</title>
+<authorList>
+<person name="Johnston C.A."/>
+<person name="Kimple A.J."/>
+<person name="Giguere P.M."/>
+<person name="Siderovski D.P."/>
+</authorList>
+<dbReference type="PubMed" id="18611381"/>
+<dbReference type="DOI" id="10.1016/j.str.2008.04.010"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (3.0 ANGSTROMS) OF 474-481</scope>
+</reference>
+<reference key="12">
+<citation type="journal article" date="2011" name="Structure">
+<authorList>
+<person name="Johnston C.A."/>
+<person name="Kimple A.J."/>
+<person name="Giguere P.M."/>
+<person name="Siderovski D.P."/>
+</authorList>
+<dbReference type="DOI" id="10.1016/j.str.2011.07.010"/>
+</citation>
+<scope>ERRATUM OF PUBMED:18611381</scope>
+<scope>RETRACTION NOTICE OF PUBMED:18611381</scope>
+</reference>
+<reference key="13">
+<citation type="journal article" date="2009" name="J. Biol. Chem." volume="284" first="28382" last="28391">
+<title>Structural basis for parathyroid hormone-related protein binding to the parathyroid hormone receptor and design of conformation-selective peptides.</title>
+<authorList>
+<person name="Pioszak A.A."/>
+<person name="Parker N.R."/>
+<person name="Gardella T.J."/>
+<person name="Xu H.E."/>
+</authorList>
+<dbReference type="PubMed" id="19674967"/>
+<dbReference type="DOI" id="10.1074/jbc.m109.022905"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.94 ANGSTROMS) OF 29-187 IN COMPLEX WITH PTHLH</scope>
+<scope>SUBUNIT</scope>
+<scope>DISULFIDE BONDS</scope>
+</reference>
+<reference key="14">
+<citation type="journal article" date="2010" name="J. Biol. Chem." volume="285" first="12435" last="12444">
+<title>Dimeric arrangement of the parathyroid hormone receptor and a structural mechanism for ligand-induced dissociation.</title>
+<authorList>
+<person name="Pioszak A.A."/>
+<person name="Harikumar K.G."/>
+<person name="Parker N.R."/>
+<person name="Miller L.J."/>
+<person name="Xu H.E."/>
+</authorList>
+<dbReference type="PubMed" id="20172855"/>
+<dbReference type="DOI" id="10.1074/jbc.m109.093138"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (3.24 ANGSTROMS) OF 29-187</scope>
+<scope>FUNCTION</scope>
+<scope>SUBUNIT</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>MUTAGENESIS OF ILE-135 AND ASP-137</scope>
+<scope>DISULFIDE BONDS</scope>
+</reference>
+<reference key="15">
+<citation type="journal article" date="1995" name="Science" volume="268" first="98" last="100">
+<title>A constitutively active mutant PTH-PTHrP receptor in Jansen-type metaphyseal chondrodysplasia.</title>
+<authorList>
+<person name="Schipani E."/>
+<person name="Kruse K."/>
+<person name="Jueppner H."/>
+</authorList>
+<dbReference type="PubMed" id="7701349"/>
+<dbReference type="DOI" id="10.1126/science.7701349"/>
+</citation>
+<scope>VARIANT MCDJ ARG-223</scope>
+</reference>
+<reference key="16">
+<citation type="journal article" date="1996" name="N. Engl. J. Med." volume="335" first="708" last="714">
+<title>Constitutively activated receptors for parathyroid hormone and parathyroid hormone-related peptide in Jansen's metaphyseal chondrodysplasia.</title>
+<authorList>
+<person name="Schipani E."/>
+<person name="Langman C.B."/>
+<person name="Parfitt A.M."/>
+<person name="Jensen G.S."/>
+<person name="Kikuchi S."/>
+<person name="Kooh S.W."/>
+<person name="Cole W.G."/>
+<person name="Jueppner H."/>
+</authorList>
+<dbReference type="PubMed" id="8703170"/>
+<dbReference type="DOI" id="10.1056/nejm199609053351004"/>
+</citation>
+<scope>VARIANTS MCDJ ARG-223 AND PRO-410</scope>
+</reference>
+<reference key="17">
+<citation type="journal article" date="1997" name="Mol. Endocrinol." volume="11" first="851" last="858">
+<title>Constitutive activation of the cyclic adenosine 3',5'-monophosphate signaling pathway by parathyroid hormone (PTH)/PTH-related peptide receptors mutated at the two loci for Jansen's metaphyseal chondrodysplasia.</title>
+<authorList>
+<person name="Schipani E."/>
+<person name="Jensen G.S."/>
+<person name="Pincus J."/>
+<person name="Nissenson R.A."/>
+<person name="Gardella T.J."/>
+<person name="Jueppner H."/>
+</authorList>
+<dbReference type="PubMed" id="9178745"/>
+<dbReference type="DOI" id="10.1210/mend.11.7.9934"/>
+</citation>
+<scope>CHARACTERIZATION OF VARIANTS MCDJ ARG-223 AND PRO-410</scope>
+</reference>
+<reference key="18">
+<citation type="journal article" date="1998" name="J. Clin. Endocrinol. Metab." volume="83" first="3365" last="3368">
+<title>A homozygous inactivating mutation in the parathyroid hormone/parathyroid hormone-related peptide receptor causing Blomstrand chondrodysplasia.</title>
+<authorList>
+<person name="Zhang P."/>
+<person name="Jobert A.-S."/>
+<person name="Couvineau A."/>
+<person name="Silve C."/>
+</authorList>
+<dbReference type="PubMed" id="9745456"/>
+<dbReference type="DOI" id="10.1210/jcem.83.9.5243"/>
+</citation>
+<scope>VARIANT BOCD LEU-132</scope>
+</reference>
+<reference key="19">
+<citation type="journal article" date="1999" name="J. Clin. Endocrinol. Metab." volume="84" first="3052" last="3057">
+<title>A novel parathyroid hormone (PTH)/PTH-related peptide receptor mutation in Jansen's metaphyseal chondrodysplasia.</title>
+<authorList>
+<person name="Schipani E."/>
+<person name="Langman C.B."/>
+<person name="Hunzelman J."/>
+<person name="Le Merrer M."/>
+<person name="Loke K.Y."/>
+<person name="Dillon M.J."/>
+<person name="Silve C."/>
+<person name="Jueppner H."/>
+</authorList>
+<dbReference type="PubMed" id="10487664"/>
+<dbReference type="DOI" id="10.1210/jcem.84.9.6000"/>
+</citation>
+<scope>VARIANT MCDJ ARG-458</scope>
+</reference>
+<reference key="20">
+<citation type="journal article" date="2002" name="Nat. Genet." volume="30" first="306" last="310">
+<title>A mutant PTH/PTHrP type I receptor in enchondromatosis.</title>
+<authorList>
+<person name="Hopyan S."/>
+<person name="Gokgoz N."/>
+<person name="Poon R."/>
+<person name="Gensure R.C."/>
+<person name="Yu C."/>
+<person name="Cole W.G."/>
+<person name="Bell R.S."/>
+<person name="Jueppner H."/>
+<person name="Andrulis I.L."/>
+<person name="Wunder J.S."/>
+<person name="Alman B.A."/>
+</authorList>
+<dbReference type="PubMed" id="11850620"/>
+<dbReference type="DOI" id="10.1038/ng844"/>
+</citation>
+<scope>VARIANT ENCHOM CYS-150</scope>
+</reference>
+<reference key="21">
+<citation type="journal article" date="2004" name="Hum. Mutat." volume="24" first="466" last="473">
+<title>Enchondromatosis (Ollier disease, Maffucci syndrome) is not caused by the PTHR1 mutation p.R150C.</title>
+<authorList>
+<person name="Rozeman L.B."/>
+<person name="Sangiorgi L."/>
+<person name="Briaire-de Bruijn I.H."/>
+<person name="Mainil-Varlet P."/>
+<person name="Bertoni F."/>
+<person name="Cleton-Jansen A.-M."/>
+<person name="Hogendoorn P.C.W."/>
+<person name="Bovee J.V.M.G."/>
+</authorList>
+<dbReference type="PubMed" id="15523647"/>
+<dbReference type="DOI" id="10.1002/humu.20095"/>
+</citation>
+<scope>DISCUSSION OF THE ASSOCIATION OF CYS-150 WITH ENCHOM</scope>
+</reference>
+<reference key="22">
+<citation type="journal article" date="2004" name="J. Clin. Endocrinol. Metab." volume="89" first="3595" last="3600">
+<title>A form of Jansen's metaphyseal chondrodysplasia with limited metabolic and skeletal abnormalities is caused by a novel activating parathyroid hormone (PTH)/PTH-related peptide receptor mutation.</title>
+<authorList>
+<person name="Bastepe M."/>
+<person name="Raas-Rothschild A."/>
+<person name="Silver J."/>
+<person name="Weissman I."/>
+<person name="Wientroub S."/>
+<person name="Jueppner H."/>
+<person name="Gillis D."/>
+</authorList>
+<dbReference type="PubMed" id="15240651"/>
+<dbReference type="DOI" id="10.1210/jc.2004-0036"/>
+</citation>
+<scope>VARIANT MCDJ ARG-410</scope>
+<scope>CHARACTERIZATION OF VARIANT MCDJ ARG-410</scope>
+</reference>
+<reference key="23">
+<citation type="journal article" date="2005" name="Hum. Mol. Genet." volume="14" first="1" last="5">
+<title>Recessive mutations in PTHR1 cause contrasting skeletal dysplasias in Eiken and Blomstrand syndromes.</title>
+<authorList>
+<person name="Duchatelet S."/>
+<person name="Ostergaard E."/>
+<person name="Cortes D."/>
+<person name="Lemainque A."/>
+<person name="Julier C."/>
+</authorList>
+<dbReference type="PubMed" id="15525660"/>
+<dbReference type="DOI" id="10.1093/hmg/ddi001"/>
+</citation>
+<scope>INVOLVEMENT IN EISD</scope>
+</reference>
+<reference key="24">
+<citation type="journal article" date="2008" name="Am. J. Hum. Genet." volume="83" first="781" last="786">
+<title>PTHR1 loss-of-function mutations in familial, nonsyndromic primary failure of tooth eruption.</title>
+<authorList>
+<person name="Decker E."/>
+<person name="Stellzig-Eisenhauer A."/>
+<person name="Fiebig B.S."/>
+<person name="Rau C."/>
+<person name="Kress W."/>
+<person name="Saar K."/>
+<person name="Rueschendorf F."/>
+<person name="Hubner N."/>
+<person name="Grimm T."/>
+<person name="Weber B.H.F."/>
+</authorList>
+<dbReference type="PubMed" id="19061984"/>
+<dbReference type="DOI" id="10.1016/j.ajhg.2008.11.006"/>
+</citation>
+<scope>INVOLVEMENT IN PRIMARY FAILURE OF TOOTH ERUPTION</scope>
+</reference>
+<reference key="25">
+<citation type="journal article" date="2017" name="Odontology" volume="105" first="150" last="154">
+<title>Characterization of a PTH1R missense mutation responsible for Jansen type metaphyseal chondrodysplasia.</title>
+<authorList>
+<person name="Shimomura-Kuroki J."/>
+<person name="Farooq M."/>
+<person name="Sekimoto T."/>
+<person name="Amizuka N."/>
+<person name="Shimomura Y."/>
+</authorList>
+<dbReference type="PubMed" id="27160269"/>
+<dbReference type="DOI" id="10.1007/s10266-016-0247-4"/>
+</citation>
+<scope>VARIANT MCDJ ARG-223</scope>
+<scope>CHARACTERIZATION OF VARIANT MCDJ ARG-223</scope>
+<scope>GLYCOSYLATION</scope>
+<scope>FUNCTION</scope>
+<scope>SUBUNIT</scope>
+</reference>
+<comment type="function">
+<text evidence="17 18 20">Receptor for parathyroid hormone and for parathyroid hormone-related peptide. The activity of this receptor is mediated by G proteins which activate adenylyl cyclase and also a phosphatidylinositol-calcium second messenger system.</text>
+</comment>
+<comment type="subunit">
+<text evidence="10 14 16 17 18 20">Interacts (via N-terminal extracellular domain) with PTHLH and PTH (PubMed:8397094, PubMed:10913300, PubMed:18375760, PubMed:19674967). Homodimer in the absence of bound ligand. Peptide hormone binding leads to dissociation of the homodimer (PubMed:19674967, PubMed:20172855).</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2860297">
+<id>Q03431</id>
+</interactant>
+<interactant intactId="EBI-491549">
+<id>P35222</id>
+<label>CTNNB1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>4</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2860297">
+<id>Q03431</id>
+</interactant>
+<interactant intactId="EBI-751540">
+<id>O95872</id>
+<label>GPANK1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2860297">
+<id>Q03431</id>
+</interactant>
+<interactant intactId="EBI-11978177">
+<id>Q96NT3-2</id>
+<label>GUCD1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2860297">
+<id>Q03431</id>
+</interactant>
+<interactant intactId="EBI-740785">
+<id>P49639</id>
+<label>HOXA1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2860297">
+<id>Q03431</id>
+</interactant>
+<interactant intactId="EBI-2340269">
+<id>Q13064</id>
+<label>MKRN3</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2860297">
+<id>Q03431</id>
+</interactant>
+<interactant intactId="EBI-716817">
+<id>P01270</id>
+<label>PTH</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>6</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2860297">
+<id>Q03431</id>
+</interactant>
+<interactant intactId="EBI-2372758">
+<id>P12272</id>
+<label>PTHLH</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>4</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2860297">
+<id>Q03431</id>
+</interactant>
+<interactant intactId="EBI-355653">
+<id>Q92922</id>
+<label>SMARCC1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2860297">
+<id>Q03431</id>
+</interactant>
+<interactant intactId="EBI-749295">
+<id>O75716</id>
+<label>STK16</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2860297">
+<id>Q03431</id>
+</interactant>
+<interactant intactId="EBI-750487">
+<id>Q8WW24</id>
+<label>TEKT4</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="17 20">Cell membrane</location>
+<topology evidence="17">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="tissue specificity">
+<text evidence="20">Expressed in most tissues. Most abundant in kidney, bone and liver.</text>
+</comment>
+<comment type="PTM">
+<text evidence="18">N-glycosylated.</text>
+</comment>
+<comment type="disease" evidence="9 12 18 19 21 22">
+<disease id="DI-01847">
+<name>Metaphyseal chondrodysplasia, Jansen type</name>
+<acronym>MCDJ</acronym>
+<description>A rare autosomal dominant disorder characterized by a short-limbed dwarfism associated with hypercalcemia and normal or low serum concentrations of the two parathyroid hormones.</description>
+<dbReference type="MIM" id="156400"/>
+</disease>
+<text>The disease is caused by mutations affecting the gene represented in this entry.</text>
+</comment>
+<comment type="disease" evidence="23">
+<disease id="DI-01343">
+<name>Chondrodysplasia Blomstrand type</name>
+<acronym>BOCD</acronym>
+<description>Severe skeletal dysplasia.</description>
+<dbReference type="MIM" id="215045"/>
+</disease>
+<text>The disease is caused by mutations affecting the gene represented in this entry.</text>
+</comment>
+<comment type="disease" evidence="11">
+<disease id="DI-01524">
+<name>Enchondromatosis multiple</name>
+<acronym>ENCHOM</acronym>
+<description>A condition characterized by multiple formation of enchondromas, benign neoplasms derived from mesodermal cells that form cartilage. Enchondromas remain within the substance of a cartilage or bone. Clinical problems caused by enchondromas include skeletal deformity and the potential for malignant change to osteosarcoma.</description>
+<dbReference type="MIM" id="166000"/>
+</disease>
+<text>The disease may be caused by mutations affecting the gene represented in this entry.</text>
+</comment>
+<comment type="disease" evidence="13">
+<disease id="DI-01518">
+<name>Eiken skeletal dysplasia</name>
+<acronym>EISD</acronym>
+<description>A rare skeletal dysplasia characterized by severely retarded ossification, principally of the epiphyses, pelvis, hands and feet, as well as by abnormal modeling of the bones in hands and feet, abnormal persistence of cartilage in the pelvis and mild growth retardation.</description>
+<dbReference type="MIM" id="600002"/>
+</disease>
+<text>The disease is caused by mutations affecting the gene represented in this entry.</text>
+</comment>
+<comment type="disease" evidence="15">
+<disease id="DI-02202">
+<name>Primary failure of tooth eruption</name>
+<acronym>PFE</acronym>
+<description>Rare condition that has high penetrance and variable expressivity and in which tooth retention occurs without evidence of any obvious mechanical interference. Instead, malfunction of the eruptive mechanism itself appears to cause nonankylosed permanent teeth to fail to erupt, although the eruption pathway has been cleared by bone resorption.</description>
+<dbReference type="MIM" id="125350"/>
+</disease>
+<text>The disease is caused by mutations affecting the gene represented in this entry.</text>
+</comment>
+<comment type="similarity">
+<text evidence="24">Belongs to the G-protein coupled receptor 2 family.</text>
+</comment>
+<dbReference type="EMBL" id="L04308">
+<property type="protein sequence ID" value="AAA36525.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="X68596">
+<property type="protein sequence ID" value="CAA48589.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U22409">
+<property type="protein sequence ID" value="AAB60657.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U22401">
+<property type="protein sequence ID" value="AAB60657.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U22402">
+<property type="protein sequence ID" value="AAB60657.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U22403">
+<property type="protein sequence ID" value="AAB60657.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U22404">
+<property type="protein sequence ID" value="AAB60657.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U22405">
+<property type="protein sequence ID" value="AAB60657.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U22406">
+<property type="protein sequence ID" value="AAB60657.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U22407">
+<property type="protein sequence ID" value="AAB60657.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U22408">
+<property type="protein sequence ID" value="AAB60657.1"/>
+<property type="status" value="JOINED"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U17418">
+<property type="protein sequence ID" value="AAA56774.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY449732">
+<property type="protein sequence ID" value="AAR18076.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC112221">
+<property type="protein sequence ID" value="AAI12222.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC112247">
+<property type="protein sequence ID" value="AAI12248.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS2747.1"/>
+<dbReference type="PIR" id="I38139">
+<property type="entry name" value="A49191"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_000307.1">
+<property type="nucleotide sequence ID" value="NM_000316.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001171673.1">
+<property type="nucleotide sequence ID" value="NM_001184744.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_016862422.1">
+<property type="nucleotide sequence ID" value="XM_017006933.1"/>
+</dbReference>
+<dbReference type="PDB" id="1BL1">
+<property type="method" value="NMR"/>
+<property type="chains" value="A=168-197"/>
+</dbReference>
+<dbReference type="PDB" id="1ET2">
+<property type="method" value="Model"/>
+<property type="chains" value="S=168-469"/>
+</dbReference>
+<dbReference type="PDB" id="1ET3">
+<property type="method" value="Model"/>
+<property type="chains" value="S=168-469"/>
+</dbReference>
+<dbReference type="PDB" id="3C4M">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.95"/>
+<property type="chains" value="A/B=29-187"/>
+</dbReference>
+<dbReference type="PDB" id="3H3G">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.94"/>
+<property type="chains" value="A=29-187"/>
+</dbReference>
+<dbReference type="PDB" id="3L2J">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="3.24"/>
+<property type="chains" value="A/B=29-187"/>
+</dbReference>
+<dbReference type="PDB" id="4Z8J">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="0.95"/>
+<property type="chains" value="B=586-593"/>
+</dbReference>
+<dbReference type="PDB" id="5EMB">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="0.85"/>
+<property type="chains" value="B=586-593"/>
+</dbReference>
+<dbReference type="PDB" id="6NBF">
+<property type="method" value="EM"/>
+<property type="resolution" value="3.00"/>
+<property type="chains" value="R=27-502"/>
+</dbReference>
+<dbReference type="PDB" id="6NBH">
+<property type="method" value="EM"/>
+<property type="resolution" value="3.50"/>
+<property type="chains" value="R=27-502"/>
+</dbReference>
+<dbReference type="PDB" id="6NBI">
+<property type="method" value="EM"/>
+<property type="resolution" value="4.00"/>
+<property type="chains" value="R=27-502"/>
+</dbReference>
+<dbReference type="PDBsum" id="1BL1"/>
+<dbReference type="PDBsum" id="1ET2"/>
+<dbReference type="PDBsum" id="1ET3"/>
+<dbReference type="PDBsum" id="3C4M"/>
+<dbReference type="PDBsum" id="3H3G"/>
+<dbReference type="PDBsum" id="3L2J"/>
+<dbReference type="PDBsum" id="4Z8J"/>
+<dbReference type="PDBsum" id="5EMB"/>
+<dbReference type="PDBsum" id="6NBF"/>
+<dbReference type="PDBsum" id="6NBH"/>
+<dbReference type="PDBsum" id="6NBI"/>
+<dbReference type="SMR" id="Q03431"/>
+<dbReference type="BioGRID" id="111717">
+<property type="interactions" value="52"/>
+</dbReference>
+<dbReference type="CORUM" id="Q03431"/>
+<dbReference type="IntAct" id="Q03431">
+<property type="interactions" value="37"/>
+</dbReference>
+<dbReference type="MINT" id="Q03431"/>
+<dbReference type="STRING" id="9606.ENSP00000321999"/>
+<dbReference type="BindingDB" id="Q03431"/>
+<dbReference type="ChEMBL" id="CHEMBL1793"/>
+<dbReference type="DrugBank" id="DB05084">
+<property type="generic name" value="Abaloparatide"/>
+</dbReference>
+<dbReference type="DrugBank" id="DB05829">
+<property type="generic name" value="Parathyroid hormone"/>
+</dbReference>
+<dbReference type="DrugBank" id="DB06285">
+<property type="generic name" value="Teriparatide"/>
+</dbReference>
+<dbReference type="DrugCentral" id="Q03431"/>
+<dbReference type="GuidetoPHARMACOLOGY" id="331"/>
+<dbReference type="TCDB" id="9.A.14.4.11">
+<property type="family name" value="the g-protein-coupled receptor (gpcr) family"/>
+</dbReference>
+<dbReference type="GlyGen" id="Q03431">
+<property type="glycosylation" value="4 sites"/>
+</dbReference>
+<dbReference type="iPTMnet" id="Q03431"/>
+<dbReference type="PhosphoSitePlus" id="Q03431"/>
+<dbReference type="BioMuta" id="PTH1R"/>
+<dbReference type="DMDM" id="417555"/>
+<dbReference type="REPRODUCTION-2DPAGE" id="Q03431"/>
+<dbReference type="MassIVE" id="Q03431"/>
+<dbReference type="PaxDb" id="Q03431"/>
+<dbReference type="PeptideAtlas" id="Q03431"/>
+<dbReference type="PRIDE" id="Q03431"/>
+<dbReference type="ProteomicsDB" id="58212"/>
+<dbReference type="TopDownProteomics" id="Q03431"/>
+<dbReference type="ABCD" id="Q03431">
+<property type="antibodies" value="23 sequenced antibodies"/>
+</dbReference>
+<dbReference type="Antibodypedia" id="1960">
+<property type="antibodies" value="401 antibodies"/>
+</dbReference>
+<dbReference type="DNASU" id="5745"/>
+<dbReference type="Ensembl" id="ENST00000313049">
+<property type="protein sequence ID" value="ENSP00000321999"/>
+<property type="gene ID" value="ENSG00000160801"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000418619">
+<property type="protein sequence ID" value="ENSP00000411424"/>
+<property type="gene ID" value="ENSG00000160801"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000430002">
+<property type="protein sequence ID" value="ENSP00000413774"/>
+<property type="gene ID" value="ENSG00000160801"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000449590">
+<property type="protein sequence ID" value="ENSP00000402723"/>
+<property type="gene ID" value="ENSG00000160801"/>
+</dbReference>
+<dbReference type="GeneID" id="5745"/>
+<dbReference type="KEGG" id="hsa:5745"/>
+<dbReference type="UCSC" id="uc003cqm.4">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="5745"/>
+<dbReference type="DisGeNET" id="5745"/>
+<dbReference type="EuPathDB" id="HostDB:ENSG00000160801.13"/>
+<dbReference type="GeneCards" id="PTH1R"/>
+<dbReference type="HGNC" id="HGNC:9608">
+<property type="gene designation" value="PTH1R"/>
+</dbReference>
+<dbReference type="HPA" id="ENSG00000160801">
+<property type="expression patterns" value="Tissue enriched (kidney)"/>
+</dbReference>
+<dbReference type="MalaCards" id="PTH1R"/>
+<dbReference type="MIM" id="125350">
+<property type="type" value="phenotype"/>
+</dbReference>
+<dbReference type="MIM" id="156400">
+<property type="type" value="phenotype"/>
+</dbReference>
+<dbReference type="MIM" id="166000">
+<property type="type" value="phenotype"/>
+</dbReference>
+<dbReference type="MIM" id="168468">
+<property type="type" value="gene"/>
+</dbReference>
+<dbReference type="MIM" id="215045">
+<property type="type" value="phenotype"/>
+</dbReference>
+<dbReference type="MIM" id="600002">
+<property type="type" value="phenotype"/>
+</dbReference>
+<dbReference type="neXtProt" id="NX_Q03431"/>
+<dbReference type="OpenTargets" id="ENSG00000160801"/>
+<dbReference type="Orphanet" id="50945">
+<property type="disease" value="Blomstrand lethal chondrodysplasia"/>
+</dbReference>
+<dbReference type="Orphanet" id="79106">
+<property type="disease" value="Eiken syndrome"/>
+</dbReference>
+<dbReference type="Orphanet" id="33067">
+<property type="disease" value="Metaphyseal chondrodysplasia, Jansen type"/>
+</dbReference>
+<dbReference type="Orphanet" id="296">
+<property type="disease" value="Ollier disease"/>
+</dbReference>
+<dbReference type="Orphanet" id="412206">
+<property type="disease" value="Primary failure of tooth eruption"/>
+</dbReference>
+<dbReference type="PharmGKB" id="PA33953"/>
+<dbReference type="eggNOG" id="KOG4564">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00940000158574"/>
+<dbReference type="InParanoid" id="Q03431"/>
+<dbReference type="KO" id="K04585"/>
+<dbReference type="OMA" id="SGTLWQI"/>
+<dbReference type="OrthoDB" id="651627at2759"/>
+<dbReference type="PhylomeDB" id="Q03431"/>
+<dbReference type="TreeFam" id="TF315710"/>
+<dbReference type="PathwayCommons" id="Q03431"/>
+<dbReference type="Reactome" id="R-HSA-373080">
+<property type="pathway name" value="Class B/2 (Secretin family receptors)"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-418555">
+<property type="pathway name" value="G alpha (s) signalling events"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-9660821">
+<property type="pathway name" value="ADORA2B mediated anti-inflammatory cytokines production"/>
+</dbReference>
+<dbReference type="SignaLink" id="Q03431"/>
+<dbReference type="SIGNOR" id="Q03431"/>
+<dbReference type="BioGRID-ORCS" id="5745">
+<property type="hits" value="8 hits in 879 CRISPR screens"/>
+</dbReference>
+<dbReference type="ChiTaRS" id="PTH1R">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="Q03431"/>
+<dbReference type="GeneWiki" id="Parathyroid_hormone_1_receptor"/>
+<dbReference type="GenomeRNAi" id="5745"/>
+<dbReference type="Pharos" id="Q03431">
+<property type="development level" value="Tclin"/>
+</dbReference>
+<dbReference type="PRO" id="PR:Q03431"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 3"/>
+</dbReference>
+<dbReference type="RNAct" id="Q03431">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000160801">
+<property type="expression patterns" value="Expressed in adult mammalian kidney and 185 other tissues"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="Q03431">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q03431">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016324">
+<property type="term" value="C:apical plasma membrane"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="BHF-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016323">
+<property type="term" value="C:basolateral plasma membrane"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="BHF-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031526">
+<property type="term" value="C:brush border membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005887">
+<property type="term" value="C:integral component of plasma membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005634">
+<property type="term" value="C:nucleus"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043235">
+<property type="term" value="C:receptor complex"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="BHF-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008528">
+<property type="term" value="F:G protein-coupled peptide receptor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004991">
+<property type="term" value="F:parathyroid hormone receptor activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0017046">
+<property type="term" value="F:peptide hormone binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042803">
+<property type="term" value="F:protein homodimerization activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043621">
+<property type="term" value="F:protein self-association"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007189">
+<property type="term" value="P:adenylate cyclase-activating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007188">
+<property type="term" value="P:adenylate cyclase-modulating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007568">
+<property type="term" value="P:aging"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030282">
+<property type="term" value="P:bone mineralization"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045453">
+<property type="term" value="P:bone resorption"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0048469">
+<property type="term" value="P:cell maturation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007166">
+<property type="term" value="P:cell surface receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006874">
+<property type="term" value="P:cellular calcium ion homeostasis"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002062">
+<property type="term" value="P:chondrocyte differentiation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007186">
+<property type="term" value="P:G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007187">
+<property type="term" value="P:G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001701">
+<property type="term" value="P:in utero embryonic development"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008285">
+<property type="term" value="P:negative regulation of cell population proliferation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002076">
+<property type="term" value="P:osteoblast development"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007200">
+<property type="term" value="P:phospholipase C-activating G protein-coupled receptor signaling pathway"/>
+<property type="evidence" value="ECO:0000305"/>
+<property type="project" value="BHF-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008284">
+<property type="term" value="P:positive regulation of cell population proliferation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007204">
+<property type="term" value="P:positive regulation of cytosolic calcium ion concentration"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060732">
+<property type="term" value="P:positive regulation of inositol phosphate biosynthetic process"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="BHF-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001501">
+<property type="term" value="P:skeletal system development"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="ProtInc"/>
+</dbReference>
+<dbReference type="Gene3D" id="4.10.1240.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017981">
+<property type="entry name" value="GPCR_2-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036445">
+<property type="entry name" value="GPCR_2_extracell_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001879">
+<property type="entry name" value="GPCR_2_extracellular_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002170">
+<property type="entry name" value="GPCR_2_parathyroid_rcpt"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000832">
+<property type="entry name" value="GPCR_2_secretin-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017983">
+<property type="entry name" value="GPCR_2_secretin-like_CS"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR45620:SF27">
+<property type="entry name" value="PTHR45620:SF27"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00002">
+<property type="entry name" value="7tm_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02793">
+<property type="entry name" value="HRM"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00249">
+<property type="entry name" value="GPCRSECRETIN"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00393">
+<property type="entry name" value="PTRHORMONER"/>
+</dbReference>
+<dbReference type="SMART" id="SM00008">
+<property type="entry name" value="HormR"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF111418">
+<property type="entry name" value="SSF111418"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00649">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00650">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50227">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50261">
+<property type="entry name" value="G_PROTEIN_RECEP_F2_4"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0225">Disease mutation</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0242">Dwarfism</keyword>
+<keyword id="KW-0297">G-protein coupled receptor</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0807">Transducer</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="signal peptide" evidence="8">
+<location>
+<begin position="1"/>
+<end position="26"/>
+</location>
+</feature>
+<feature type="chain" description="Parathyroid hormone/parathyroid hormone-related peptide receptor" id="PRO_0000012845">
+<location>
+<begin position="27"/>
+<end position="593"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="8">
+<location>
+<begin position="27"/>
+<end position="188"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=1" evidence="8">
+<location>
+<begin position="189"/>
+<end position="212"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="8">
+<location>
+<begin position="213"/>
+<end position="219"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=2" evidence="8">
+<location>
+<begin position="220"/>
+<end position="239"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="8">
+<location>
+<begin position="240"/>
+<end position="282"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=3" evidence="8">
+<location>
+<begin position="283"/>
+<end position="306"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="8">
+<location>
+<begin position="307"/>
+<end position="320"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=4" evidence="8">
+<location>
+<begin position="321"/>
+<end position="342"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="8">
+<location>
+<begin position="343"/>
+<end position="361"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=5" evidence="8">
+<location>
+<begin position="362"/>
+<end position="382"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="8">
+<location>
+<begin position="383"/>
+<end position="409"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=6" evidence="8">
+<location>
+<begin position="410"/>
+<end position="428"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="8">
+<location>
+<begin position="429"/>
+<end position="440"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=7" evidence="8">
+<location>
+<begin position="441"/>
+<end position="463"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="8">
+<location>
+<begin position="464"/>
+<end position="593"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="Important for interaction with G proteins">
+<location>
+<begin position="474"/>
+<end position="477"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphothreonine" evidence="7">
+<location>
+<position position="551"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="8">
+<location>
+<position position="151"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="8">
+<location>
+<position position="161"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="8">
+<location>
+<position position="166"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="8">
+<location>
+<position position="176"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1 2 3 10 14 16">
+<location>
+<begin position="48"/>
+<end position="117"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1 2 3 10 14 16">
+<location>
+<begin position="108"/>
+<end position="148"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1 2 3 10 14 16">
+<location>
+<begin position="131"/>
+<end position="170"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In BOCD; dbSNP:rs121434599." id="VAR_016062" evidence="23">
+<original>P</original>
+<variation>L</variation>
+<location>
+<position position="132"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In ENCHOM; Ollier type; unknown pathological significance; dbSNP:rs121434601." id="VAR_016063" evidence="11">
+<original>R</original>
+<variation>C</variation>
+<location>
+<position position="150"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In MCDJ; constitutively activated; constitutively increases adenylate cyclase-activating G-protein coupled receptor signaling pathway; decreases the degree of N-glycosylation; does not affect homodimerization; dbSNP:rs121434597." id="VAR_003582" evidence="18 19 21 22">
+<original>H</original>
+<variation>R</variation>
+<location>
+<position position="223"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In MCDJ; constitutively activated; dbSNP:rs121434598." id="VAR_003583" evidence="21 22">
+<original>T</original>
+<variation>P</variation>
+<location>
+<position position="410"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In MCDJ; leads to agonist-independent cAMP formation which is less pronounced than that observed with the Pro-410 mutant; dbSNP:rs121434602." id="VAR_038811" evidence="12">
+<original>T</original>
+<variation>R</variation>
+<location>
+<position position="410"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In MCDJ; dbSNP:rs121434600." id="VAR_016064" evidence="9">
+<original>I</original>
+<variation>R</variation>
+<location>
+<position position="458"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolishes hormone binding and homodimerization." evidence="17">
+<original>I</original>
+<variation>K</variation>
+<location>
+<position position="135"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Abolishes hormone binding. No effect on homodimerization." evidence="17">
+<original>D</original>
+<variation>A</variation>
+<location>
+<position position="137"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2." ref="2" evidence="24">
+<original>K</original>
+<variation>N</variation>
+<location>
+<position position="471"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2." ref="2" evidence="24">
+<original>S</original>
+<variation>C</variation>
+<location>
+<position position="473"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="34"/>
+<end position="55"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="126"/>
+<end position="130"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="143"/>
+<end position="148"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="152"/>
+<end position="154"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="160"/>
+<end position="163"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="168"/>
+<end position="173"/>
+</location>
+</feature>
+<feature type="helix" evidence="5">
+<location>
+<begin position="181"/>
+<end position="200"/>
+</location>
+</feature>
+<feature type="turn" evidence="5">
+<location>
+<begin position="201"/>
+<end position="203"/>
+</location>
+</feature>
+<feature type="helix" evidence="5">
+<location>
+<begin position="204"/>
+<end position="211"/>
+</location>
+</feature>
+<feature type="helix" evidence="5">
+<location>
+<begin position="219"/>
+<end position="245"/>
+</location>
+</feature>
+<feature type="helix" evidence="6">
+<location>
+<begin position="274"/>
+<end position="277"/>
+</location>
+</feature>
+<feature type="helix" evidence="5">
+<location>
+<begin position="279"/>
+<end position="311"/>
+</location>
+</feature>
+<feature type="helix" evidence="5">
+<location>
+<begin position="317"/>
+<end position="345"/>
+</location>
+</feature>
+<feature type="helix" evidence="5">
+<location>
+<begin position="358"/>
+<end position="360"/>
+</location>
+</feature>
+<feature type="helix" evidence="5">
+<location>
+<begin position="361"/>
+<end position="368"/>
+</location>
+</feature>
+<feature type="turn" evidence="5">
+<location>
+<begin position="369"/>
+<end position="371"/>
+</location>
+</feature>
+<feature type="helix" evidence="5">
+<location>
+<begin position="372"/>
+<end position="390"/>
+</location>
+</feature>
+<feature type="helix" evidence="5">
+<location>
+<begin position="400"/>
+<end position="411"/>
+</location>
+</feature>
+<feature type="turn" evidence="5">
+<location>
+<begin position="412"/>
+<end position="418"/>
+</location>
+</feature>
+<feature type="helix" evidence="5">
+<location>
+<begin position="420"/>
+<end position="423"/>
+</location>
+</feature>
+<feature type="strand" evidence="5">
+<location>
+<begin position="424"/>
+<end position="426"/>
+</location>
+</feature>
+<feature type="strand" evidence="5">
+<location>
+<begin position="432"/>
+<end position="434"/>
+</location>
+</feature>
+<feature type="helix" evidence="5">
+<location>
+<begin position="435"/>
+<end position="459"/>
+</location>
+</feature>
+<feature type="helix" evidence="5">
+<location>
+<begin position="464"/>
+<end position="480"/>
+</location>
+</feature>
+<feature type="strand" evidence="4">
+<location>
+<begin position="588"/>
+<end position="592"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="3C4M"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="3H3G"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="3L2J"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="5EMB"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="6NBF"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="6NBH"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000244">
+<source>
+<dbReference type="PubMed" id="24275569"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000255"/>
+<evidence key="9" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10487664"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10913300"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11850620"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15240651"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15525660"/>
+</source>
+</evidence>
+<evidence key="14" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18375760"/>
+</source>
+</evidence>
+<evidence key="15" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19061984"/>
+</source>
+</evidence>
+<evidence key="16" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19674967"/>
+</source>
+</evidence>
+<evidence key="17" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="20172855"/>
+</source>
+</evidence>
+<evidence key="18" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="27160269"/>
+</source>
+</evidence>
+<evidence key="19" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="7701349"/>
+</source>
+</evidence>
+<evidence key="20" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8397094"/>
+</source>
+</evidence>
+<evidence key="21" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8703170"/>
+</source>
+</evidence>
+<evidence key="22" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9178745"/>
+</source>
+</evidence>
+<evidence key="23" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9745456"/>
+</source>
+</evidence>
+<evidence key="24" type="ECO:0000305"/>
+<sequence length="593" mass="66361" checksum="DA1400640A6C7F2B" modified="1993-10-01" version="1" precursor="true">MGTARIAPGLALLLCCPVLSSAYALVDADDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPASIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRLGMIYTVGYSVSLASLTVAVLILAYFRRLHCTRNYIHMHLFLSFMLRAVSIFVKDAVLYSGATLDEAERLTEEELRAIAQAPPPPATAAAGYAGCRVAVTFFLYFLATNYYWILVEGLYLHSLIFMAFFSEKKYLWGFTVFGWGLPAVFVAVWVSVRATLANTGCWDLSSGNKKWIIQVPILASIVLNFILFINIVRVLATKLRETNAGRCDTRQQYRKLLKSTLVLMPLFGVHYIVFMATPYTEVSGTLWQVQMHYEMLFNSFQGFFVAIIYCFCNGEVQAEIKKSWSRWTLALDFKRKARSGSSSYSYGPMVSHTSVTNVGPRVGLGLPLSPRLLPTATTNGHPQLPGHAKPGTPALETLETTPPAMAAPKDDGFLNGSCSGLDEEASGPERPPALLQEEWETVM</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

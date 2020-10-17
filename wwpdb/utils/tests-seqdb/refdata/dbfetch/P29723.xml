@@ -1,0 +1,730 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="124">
+<accession>P29723</accession>
+<accession>O83584</accession>
+<name>TA47_TREPA</name>
+<protein>
+<recommendedName>
+<fullName evidence="12">Putative DD-carboxypeptidase TP_0574</fullName>
+<ecNumber evidence="9">3.4.-.-</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName evidence="11">47 kDa lipoprotein</fullName>
+<shortName evidence="10">Tp47</shortName>
+<shortName evidence="12">Tpp47</shortName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="11">47 kDa membrane antigen</fullName>
+</alternativeName>
+<alternativeName>
+<fullName evidence="13">47-kilodalton major integral membrane immunogen</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="ordered locus">TP_0574</name>
+</gene>
+<organism>
+<name type="scientific">Treponema pallidum (strain Nichols)</name>
+<dbReference type="NCBI Taxonomy" id="243276"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Spirochaetes</taxon>
+<taxon>Spirochaetales</taxon>
+<taxon>Spirochaetaceae</taxon>
+<taxon>Treponema</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1992" name="Infect. Immun." volume="60" first="1568" last="1576">
+<title>Analysis of the N-terminal region of the 47-kilodalton integral membrane lipoprotein of Treponema pallidum.</title>
+<authorList>
+<person name="Weigel L.M."/>
+<person name="Brandt M.E."/>
+<person name="Norgard M.V."/>
+</authorList>
+<dbReference type="PubMed" id="1372297"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>PROTEIN SEQUENCE OF 84-96; 126-143; 207-221; 266-298; 340-350; 366-390 AND 392-414</scope>
+<source>
+<strain>Nichols</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1998" name="Science" volume="281" first="375" last="388">
+<title>Complete genome sequence of Treponema pallidum, the syphilis spirochete.</title>
+<authorList>
+<person name="Fraser C.M."/>
+<person name="Norris S.J."/>
+<person name="Weinstock G.M."/>
+<person name="White O."/>
+<person name="Sutton G.G."/>
+<person name="Dodson R.J."/>
+<person name="Gwinn M.L."/>
+<person name="Hickey E.K."/>
+<person name="Clayton R.A."/>
+<person name="Ketchum K.A."/>
+<person name="Sodergren E."/>
+<person name="Hardham J.M."/>
+<person name="McLeod M.P."/>
+<person name="Salzberg S.L."/>
+<person name="Peterson J.D."/>
+<person name="Khalak H.G."/>
+<person name="Richardson D.L."/>
+<person name="Howell J.K."/>
+<person name="Chidambaram M."/>
+<person name="Utterback T.R."/>
+<person name="McDonald L.A."/>
+<person name="Artiach P."/>
+<person name="Bowman C."/>
+<person name="Cotton M.D."/>
+<person name="Fujii C."/>
+<person name="Garland S.A."/>
+<person name="Hatch B."/>
+<person name="Horst K."/>
+<person name="Roberts K.M."/>
+<person name="Sandusky M."/>
+<person name="Weidman J.F."/>
+<person name="Smith H.O."/>
+<person name="Venter J.C."/>
+</authorList>
+<dbReference type="PubMed" id="9665876"/>
+<dbReference type="DOI" id="10.1126/science.281.5375.375"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>Nichols</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1989" name="Infect. Immun." volume="57" first="196" last="203">
+<title>Sequence analysis of the 47-kilodalton major integral membrane immunogen of Treponema pallidum.</title>
+<authorList>
+<person name="Hsu P.L."/>
+<person name="Chamberlain N.R."/>
+<person name="Orth K."/>
+<person name="Moomaw C.R."/>
+<person name="Zhang L.Q."/>
+<person name="Slaughter C.A."/>
+<person name="Radolf J.D."/>
+<person name="Sell S."/>
+<person name="Norgard M.V."/>
+</authorList>
+<dbReference type="PubMed" id="2642466"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 68-434</scope>
+<scope>PROTEIN SEQUENCE OF 84-96; 126-143; 207-221; 266-298; 340-350 AND 392-414</scope>
+<source>
+<strain>Nichols</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1989" name="Infect. Immun." volume="57" first="1248" last="1254">
+<title>Penicillin-binding proteins and peptidoglycan of Treponema pallidum subsp. pallidum.</title>
+<authorList>
+<person name="Radolf J.D."/>
+<person name="Moomaw C."/>
+<person name="Slaughter C.A."/>
+<person name="Norgard M.V."/>
+</authorList>
+<dbReference type="PubMed" id="2647634"/>
+</citation>
+<scope>PENICILLIN-BINDING</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<source>
+<strain>Nichols</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1989" name="Infect. Immun." volume="57" first="2878" last="2885">
+<title>Acylation of the 47-kilodalton major membrane immunogen of Treponema pallidum determines its hydrophobicity.</title>
+<authorList>
+<person name="Chamberlain N.R."/>
+<person name="DeOgny L."/>
+<person name="Slaughter C."/>
+<person name="Radolf J.D."/>
+<person name="Norgard M.V."/>
+</authorList>
+<dbReference type="PubMed" id="2668192"/>
+</citation>
+<scope>PALMITOYLATION AT CYS-20</scope>
+<scope>PROBABLE READTHROUGH</scope>
+<source>
+<strain>Nichols</strain>
+</source>
+</reference>
+<reference key="6">
+<citation type="journal article" date="1994" name="Proc. Natl. Acad. Sci. U.S.A." volume="91" first="11611" last="11615">
+<title>The 47-kDa major lipoprotein immunogen of Treponema pallidum is a penicillin-binding protein with carboxypeptidase activity.</title>
+<authorList>
+<person name="Weigel L.M."/>
+<person name="Radolf J.D."/>
+<person name="Norgard M.V."/>
+</authorList>
+<dbReference type="PubMed" id="7972112"/>
+<dbReference type="DOI" id="10.1073/pnas.91.24.11611"/>
+</citation>
+<scope>POSSIBLE FUNCTION AS A ZINC-DEPENDENT CARBOXYPEPTIDASE</scope>
+<scope>PENICILLIN-BINDING</scope>
+<source>
+<strain>Nichols</strain>
+</source>
+</reference>
+<reference key="7">
+<citation type="journal article" date="1999" name="Science" volume="285" first="732" last="736">
+<title>Host defense mechanisms triggered by microbial lipoproteins through Toll-like receptors.</title>
+<authorList>
+<person name="Brightbill H.D."/>
+<person name="Libraty D.H."/>
+<person name="Krutzik S.R."/>
+<person name="Yang R.B."/>
+<person name="Belisle J.T."/>
+<person name="Bleharski J.R."/>
+<person name="Maitland M."/>
+<person name="Norgard M.V."/>
+<person name="Plevy S.E."/>
+<person name="Smale S.T."/>
+<person name="Brennan P.J."/>
+<person name="Bloom B.R."/>
+<person name="Godowski P.J."/>
+<person name="Modlin R.L."/>
+</authorList>
+<dbReference type="PubMed" id="10426995"/>
+<dbReference type="DOI" id="10.1126/science.285.5428.732"/>
+</citation>
+<scope>FUNCTION IN INFECTION</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>DIACYLGLYCEROL AT CYS-20</scope>
+<scope>PALMITOYLATION AT CYS-20</scope>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2001" name="J. Immunol." volume="166" first="2444" last="2450">
+<title>Microbial lipopeptides stimulate dendritic cell maturation via Toll-like receptor 2.</title>
+<authorList>
+<person name="Hertz C.J."/>
+<person name="Kiertscher S.M."/>
+<person name="Godowski P.J."/>
+<person name="Bouis D.A."/>
+<person name="Norgard M.V."/>
+<person name="Roth M.D."/>
+<person name="Modlin R.L."/>
+</authorList>
+<dbReference type="PubMed" id="11160304"/>
+<dbReference type="DOI" id="10.4049/jimmunol.166.4.2444"/>
+</citation>
+<scope>FUNCTION IN HOST DENDRITIC CELL MATURATION</scope>
+</reference>
+<reference key="9" evidence="1">
+<citation type="journal article" date="2002" name="J. Biol. Chem." volume="277" first="41857" last="41864">
+<title>Crystal structure of the 47-kDa lipoprotein of Treponema pallidum reveals a novel penicillin-binding protein.</title>
+<authorList>
+<person name="Deka R.K."/>
+<person name="Machius M."/>
+<person name="Norgard M.V."/>
+<person name="Tomchick D.R."/>
+</authorList>
+<dbReference type="PubMed" id="12196546"/>
+<dbReference type="DOI" id="10.1074/jbc.m207402200"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.95 ANGSTROMS) OF 26-434</scope>
+<scope>FUNCTION</scope>
+<scope>SUBUNIT</scope>
+<scope>MUTAGENESIS OF 24-HIS--HIS-28; SER-119; LYS-306 AND CYS-315</scope>
+<scope>PENICILLIN-BINDING</scope>
+</reference>
+<comment type="function">
+<text evidence="4 7 9 17">A possible D,D-carboxypeptidase, that releases amino acids sequentially from a proteins C-terminus (PubMed:7972112, PubMed:12196546). Has zinc-dependent carboxypeptidase activity on synthetic depsipeptide substrates (PubMed:7972112). May serve to decrease cross-linking of peptidoglycan, promoting the highly sinusous motility of this spirochaete (Probable). Overexpression of the whole protein in E.coli leads to aberrant cell morphology and extrusion of the cytoplasm, while overexpression of a construct with the first 62 resides of the protein fused to PhoA does have this effect, suggesting the whole protein, not the lipoprotein moiety, is toxic (PubMed:7972112). Binds penicillin (PubMed:2647634, PubMed:7972112). Penicillin binding is covalent, does not require lipidation, and is zinc-dependent (PubMed:7972112, PubMed:12196546). While this protein has beta-lactamase activity in vitro, that is probably not its role in vivo, as T.pallidum is very sensitive to penicillin antibiotics (PubMed:12196546).</text>
+</comment>
+<comment type="function">
+<text evidence="2 3 5 6">A pathogen-specific membrane antigen (PubMed:2642466, PubMed:1372297). Most abundant of the membrane lipoproteins, only found in pathogenic treponemes, suggesting that it is an important structural moiety in the cell envelope of virulent treponemal subspecies. A lipopeptide corresponding to the first 6 mature residues induces host (human and mouse) cytokine release by monocyte cell lines via TLR2 and CD14; nonlipidated protein does not stimulate host cells (PubMed:10426995). Stimulates host (human) dendritic cell maturation to become MHC class II-positive antigen presenting cells via TLR2, which depends on lipidation; nonlipidated protein does not stimulate maturation (PubMed:11160304).</text>
+</comment>
+<comment type="cofactor">
+<cofactor evidence="9">
+<name>Zn(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29105"/>
+</cofactor>
+<text evidence="4 9">Carboxypeptidase activity is stimulated by zinc (PubMed:7972112). Penicillin-binding is stimulated by zinc (PubMed:12196546).</text>
+</comment>
+<comment type="subunit">
+<text evidence="4">Probably a monomer; a non-lipidated construct (residues 22-434) is monomeric in solution but crystallizes as a homodimer.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="17">Cell inner membrane</location>
+<topology evidence="15">Lipid-anchor</topology>
+</subcellularLocation>
+</comment>
+<comment type="PTM">
+<text evidence="5 6 7 8">The N-terminus is blocked (PubMed:2642466). Present as a doublet of low abundance 48 kDa and high abundance 47 kDa proteins (PubMed:2647634, PubMed:2668192, PubMed:1372297). The longer form is probably due to readthrough of the stop codon; the extra amino acids at the C-terminus would be X-Lys-Arg-Gly-Val-Leu-Ser-Arg-Val-Ser, a peptide antibody against this sequence detects only the 48 kDa form (PubMed:2668192).</text>
+</comment>
+<comment type="miscellaneous">
+<text evidence="2 5 9">A recombinant non-lipidated form (residues 20-434) is recognized by human antisera, indicating the lipidation site is not essential for antigenicity, although the acylated lipopeptide clearly is antigenic (PubMed:1372297, PubMed:10426995). The non-lipidated form binds also penicillin (PubMed:7972112).</text>
+</comment>
+<dbReference type="EC" id="3.4.-.-" evidence="9"/>
+<dbReference type="EMBL" id="M88769">
+<property type="protein sequence ID" value="AAA75016.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="M88769">
+<property type="protein sequence ID" value="AAA75017.1"/>
+<property type="status" value="ALT_TERM"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AE000520">
+<property type="protein sequence ID" value="AAC65545.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="D71309">
+<property type="entry name" value="D71309"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010882021.1">
+<property type="nucleotide sequence ID" value="NC_021490.2"/>
+</dbReference>
+<dbReference type="PDB" id="1O75">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.95"/>
+<property type="chains" value="A/B=20-434"/>
+</dbReference>
+<dbReference type="PDBsum" id="1O75"/>
+<dbReference type="SMR" id="P29723"/>
+<dbReference type="STRING" id="243276.TPANIC_0574"/>
+<dbReference type="DrugBank" id="DB02879">
+<property type="generic name" value="2,3-Di-O-Sulfo-Alpha-D-Glucopyranose"/>
+</dbReference>
+<dbReference type="EnsemblBacteria" id="AAC65545">
+<property type="protein sequence ID" value="AAC65545"/>
+<property type="gene ID" value="TP_0574"/>
+</dbReference>
+<dbReference type="KEGG" id="tpa:TP_0574"/>
+<dbReference type="HOGENOM" id="CLU_562301_0_0_12"/>
+<dbReference type="OMA" id="SADSWWE"/>
+<dbReference type="OrthoDB" id="751593at2"/>
+<dbReference type="SABIO-RK" id="P29723"/>
+<dbReference type="EvolutionaryTrace" id="P29723"/>
+<dbReference type="Proteomes" id="UP000000811">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008233">
+<property type="term" value="F:peptidase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.1270">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.1300">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029220">
+<property type="entry name" value="BP-Tp47_dom_D"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029221">
+<property type="entry name" value="PBP-Tp47_A"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029218">
+<property type="entry name" value="PBP-Tp47_dom_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038698">
+<property type="entry name" value="PBP_Tp47_domC_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038031">
+<property type="entry name" value="Tp47_mid_C_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036154">
+<property type="entry name" value="Tp47_N_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF14889">
+<property type="entry name" value="PBP-Tp47_a"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF14888">
+<property type="entry name" value="PBP-Tp47_c"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF81986">
+<property type="entry name" value="SSF81986"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF82220">
+<property type="entry name" value="SSF82220"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51257">
+<property type="entry name" value="PROKAR_LIPOPROTEIN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0997">Cell inner membrane</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0449">Lipoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0564">Palmitate</keyword>
+<keyword id="KW-0645">Protease</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<feature type="signal peptide">
+<location>
+<begin position="1"/>
+<end position="19"/>
+</location>
+</feature>
+<feature type="chain" description="Putative DD-carboxypeptidase TP_0574" id="PRO_0000018202">
+<location>
+<begin position="20"/>
+<end position="434"/>
+</location>
+</feature>
+<feature type="lipid moiety-binding region" description="N-palmitoyl cysteine" evidence="15 16">
+<location>
+<position position="20"/>
+</location>
+</feature>
+<feature type="lipid moiety-binding region" description="S-diacylglycerol cysteine" evidence="15">
+<location>
+<position position="20"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Protein still binds ampicillin, in nonlipidated fragment (residues 21-43), crystallized." evidence="10">
+<original>HHETH</original>
+<variation>SHETS</variation>
+<location>
+<begin position="24"/>
+<end position="28"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Protein still binds ampicillin and penicillin, in nonlipidated fragment (residues 21-43)." evidence="10">
+<original>S</original>
+<variation>C</variation>
+<variation>G</variation>
+<location>
+<position position="119"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Protein still binds ampicillin, in nonlipidated fragment (residues 21-43)." evidence="10">
+<original>K</original>
+<variation>Q</variation>
+<location>
+<position position="306"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Protein still binds ampicillin, in nonlipidated fragment (residues 21-43)." evidence="10">
+<original>C</original>
+<variation>A</variation>
+<location>
+<position position="315"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAA75016/AAA75017." ref="1" evidence="14">
+<original>G</original>
+<variation>V</variation>
+<location>
+<position position="239"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="27"/>
+<end position="35"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="36"/>
+<end position="44"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="49"/>
+<end position="51"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="67"/>
+<end position="70"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="72"/>
+<end position="75"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="79"/>
+<end position="84"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="85"/>
+<end position="87"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="88"/>
+<end position="104"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="110"/>
+<end position="126"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="128"/>
+<end position="133"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="139"/>
+<end position="143"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="155"/>
+<end position="159"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="162"/>
+<end position="182"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="183"/>
+<end position="185"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="186"/>
+<end position="193"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="208"/>
+<end position="213"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="231"/>
+<end position="239"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="247"/>
+<end position="256"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="264"/>
+<end position="271"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="274"/>
+<end position="281"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="293"/>
+<end position="295"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="300"/>
+<end position="302"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="307"/>
+<end position="310"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="312"/>
+<end position="317"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="322"/>
+<end position="324"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="329"/>
+<end position="338"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="344"/>
+<end position="350"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="359"/>
+<end position="372"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="374"/>
+<end position="379"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="380"/>
+<end position="386"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="392"/>
+<end position="398"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="400"/>
+<end position="409"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="414"/>
+<end position="420"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="422"/>
+<end position="424"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="427"/>
+<end position="432"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1O75"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10426995"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11160304"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12196546"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="1372297"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="2642466"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="2647634"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="2668192"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="7972112"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="12196546"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="1372297"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="7972112"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="9665876"/>
+</source>
+</evidence>
+<evidence key="14" type="ECO:0000305"/>
+<evidence key="15" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="10426995"/>
+</source>
+</evidence>
+<evidence key="16" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="2668192"/>
+</source>
+</evidence>
+<evidence key="17" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="7972112"/>
+</source>
+</evidence>
+<sequence length="434" mass="47665" checksum="B5C2A75D4A8849E0" modified="1998-12-15" version="2" precursor="true">MKVKYALLSAGALQLLVVGCGSSHHETHYGYATLSYADYWAGELGQSRDVLLAGNAEADRAGDLDAGMFDAVSRATHGHGAFRQQFQYAVEVLGEKVLSKQETEDSRGRKKWEYETDPSVTKMVRASASFQDLGEDGEIKFEAVEGAVALADRASSFMVDSEEYKITNVKVHGMKFVPVAVPHELKGIAKEKFHFVEDSRVTENTNGLKTMLTEDSFSARKVSSMESPHDLVVDTVGTGYHSRFGSDAEASVMLKRADGSELSHREFIDYVMNFNTVRYDYYGDDASYTNLMASYGTKHSADSWWKTGRVPRISCGINYGFDRFKGSGPGYYRLTLIANGYRDVVADVRFLPKYEGNIDIGLKGKVLTIGGADAETLMDAAVDVFADGQPKLVSDQAVSLGQNVLSADFTPGTEYTVEVRFKEFGSVRAKVVAQ</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

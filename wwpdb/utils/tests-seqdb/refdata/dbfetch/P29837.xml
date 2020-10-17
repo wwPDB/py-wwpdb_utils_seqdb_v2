@@ -1,0 +1,1960 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="166">
+<accession>P29837</accession>
+<name>POLG_LANVT</name>
+<protein>
+<recommendedName>
+<fullName>Genome polyprotein</fullName>
+</recommendedName>
+<component>
+<recommendedName>
+<fullName>Peptide 2k</fullName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Capsid protein C</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>Core protein</fullName>
+</alternativeName>
+</component>
+<component>
+<recommendedName>
+<fullName>Protein prM</fullName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Peptide pr</fullName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Small envelope protein M</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>Matrix protein</fullName>
+</alternativeName>
+</component>
+<component>
+<recommendedName>
+<fullName>Envelope protein E</fullName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Non-structural protein 1</fullName>
+<shortName>NS1</shortName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Non-structural protein 2A</fullName>
+<shortName>NS2A</shortName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Serine protease subunit NS2B</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>Flavivirin protease NS2B regulatory subunit</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Non-structural protein 2B</fullName>
+</alternativeName>
+</component>
+<component>
+<recommendedName>
+<fullName>Serine protease NS3</fullName>
+<ecNumber>3.4.21.91</ecNumber>
+<ecNumber>3.6.1.15</ecNumber>
+<ecNumber>3.6.4.13</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Flavivirin protease NS3 catalytic subunit</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Non-structural protein 3</fullName>
+</alternativeName>
+</component>
+<component>
+<recommendedName>
+<fullName>Non-structural protein 4A</fullName>
+<shortName>NS4A</shortName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Non-structural protein 4B</fullName>
+<shortName>NS4B</shortName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>RNA-directed RNA polymerase NS5</fullName>
+<ecNumber evidence="18">2.1.1.56</ecNumber>
+<ecNumber evidence="18">2.1.1.57</ecNumber>
+<ecNumber evidence="13">2.7.7.48</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>NS5</fullName>
+</alternativeName>
+</component>
+</protein>
+<organism>
+<name type="scientific">Langat virus (strain TP21)</name>
+<dbReference type="NCBI Taxonomy" id="31638"/>
+<lineage>
+<taxon>Viruses</taxon>
+<taxon>Riboviria</taxon>
+<taxon>Flaviviridae</taxon>
+<taxon>Flavivirus</taxon>
+</lineage>
+</organism>
+<organismHost>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+</organismHost>
+<organismHost>
+<name type="scientific">Ixodida</name>
+<name type="common">ticks</name>
+<dbReference type="NCBI Taxonomy" id="6935"/>
+</organismHost>
+<reference key="1">
+<citation type="journal article" date="1991" name="Virology" volume="185" first="891" last="895">
+<title>Sequence of the genes encoding the structural proteins of the low-virulence tick-borne flaviviruses Langat TP21 and Yelantsev.</title>
+<authorList>
+<person name="Mandl C.W."/>
+<person name="Iacono-Connors L.C."/>
+<person name="Wallner G."/>
+<person name="Holzmann H."/>
+<person name="Kunz C."/>
+<person name="Heinz F.X."/>
+</authorList>
+<dbReference type="PubMed" id="1720591"/>
+<dbReference type="DOI" id="10.1016/0042-6822(91)90567-u"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA] OF 1-776</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1992" name="Virology" volume="188" first="875" last="880">
+<title>Cloning and sequence analysis of the genes encoding the nonstructural proteins of Langat virus and comparative analysis with other flaviviruses.</title>
+<authorList>
+<person name="Iacono-Connors L.C."/>
+<person name="Schmaljohn C.S."/>
+</authorList>
+<dbReference type="PubMed" id="1316684"/>
+<dbReference type="DOI" id="10.1016/0042-6822(92)90545-z"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA] OF 777-3414</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2005" name="J. Virol." volume="79" first="12828" last="12839">
+<title>Inhibition of interferon-stimulated JAK-STAT signaling by a tick-borne flavivirus and identification of NS5 as an interferon antagonist.</title>
+<authorList>
+<person name="Best S.M."/>
+<person name="Morris K.L."/>
+<person name="Shannon J.G."/>
+<person name="Robertson S.J."/>
+<person name="Mitzel D.N."/>
+<person name="Park G.S."/>
+<person name="Boer E."/>
+<person name="Wolfinbarger J.B."/>
+<person name="Bloom M.E."/>
+</authorList>
+<dbReference type="PubMed" id="16188985"/>
+<dbReference type="DOI" id="10.1128/jvi.79.20.12828-12839.2005"/>
+</citation>
+<scope>FUNCTION (RNA-DIRECTED RNA POLYMERASE NS5)</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2006" name="Protein Sci." volume="15" first="1342" last="1355">
+<title>NMR solution structure and backbone dynamics of domain III of the E protein of tick-borne Langat flavivirus suggests a potential site for molecular recognition.</title>
+<authorList>
+<person name="Mukherjee M."/>
+<person name="Dutta K."/>
+<person name="White M.A."/>
+<person name="Cowburn D."/>
+<person name="Fox R.O."/>
+</authorList>
+<dbReference type="PubMed" id="16731969"/>
+<dbReference type="DOI" id="10.1110/ps.051844006"/>
+</citation>
+<scope>STRUCTURE BY NMR OF 580-675</scope>
+<scope>DISULFIDE BOND</scope>
+</reference>
+<comment type="function">
+<molecule>Capsid protein C</molecule>
+<text evidence="7">Plays a role in virus budding by binding to membrane and gathering the viral RNA into a nucleocapsid that forms the core of a mature virus particle. During virus entry, may induce genome penetration in host cytoplasm after hemifusion induced by surface proteins. Can migrate to the cell nucleus where it modulates host functions.</text>
+</comment>
+<comment type="function">
+<molecule>Capsid protein C</molecule>
+<text evidence="3">Inhibits RNA silencing by interfering with host Dicer.</text>
+</comment>
+<comment type="function">
+<molecule>Peptide pr</molecule>
+<text evidence="7">Prevents premature fusion activity of envelope proteins in trans-Golgi by binding to envelope protein E at pH6.0. After virion release in extracellular space gets dissociated from E dimers.</text>
+</comment>
+<comment type="function">
+<molecule>Protein prM</molecule>
+<text evidence="7">Acts as a chaperone for envelope protein E during intracellular virion assembly by masking and inactivating envelope protein E fusion peptide. prM is the only viral peptide matured by host furin in the trans-Golgi network. Presumably to avoid catastrophic activation of the viral fusion activity in acidic GolGi compartment prior to virion release. prM-E cleavage is ineficient, and many virions are only partially matured. These uncleaved prM would play a role in immune evasion.</text>
+</comment>
+<comment type="function">
+<molecule>Small envelope protein M</molecule>
+<text evidence="7">May play a role in virus budding. Exerts cytotoxic effects by activating a mitochondrial apoptotic pathway through M extodomain. May display a viroporin activity.</text>
+</comment>
+<comment type="function">
+<molecule>Envelope protein E</molecule>
+<text evidence="7">Binds to host cell surface receptor and mediates fusion between viral and cellular membranes. Envelope protein is synthesized in the endoplasmic reticulum in the form of heterodimer with protein prM. They play a role in virion budding in the ER, and the newly formed immature particle is covered with 60 spikes composed of heterodimer between precursor prM and envelope protein E. The virion is transported to the Golgi apparatus where the low pH causes dissociation of PrM-E heterodimers and formation of E homodimers. prM-E cleavage is ineficient, and many virions are only partially matured. These uncleaved prM would play a role in immune evasion.</text>
+</comment>
+<comment type="function">
+<molecule>Non-structural protein 1</molecule>
+<text evidence="10">Involved in immune evasion, pathogenesis and viral replication. Once cleaved off the polyprotein, is targeted to three destinations: the viral replication cycle, the plasma membrane and the extracellular compartment. Essential for viral replication. Required for formation of the replication complex and recruitment of other non-structural proteins to the ER-derived membrane structures. Excreted as a hexameric lipoparticle that plays a role against host immune response. Antagonizing the complement function. Binds to the host macrophages and dendritic cells. Inhibits signal transduction originating from Toll-like receptor 3 (TLR3).</text>
+</comment>
+<comment type="function">
+<molecule>Non-structural protein 2A</molecule>
+<text evidence="7">Component of the viral RNA replication complex that functions in virion assembly and antagonizes the host immune response.</text>
+</comment>
+<comment type="function">
+<molecule>Serine protease subunit NS2B</molecule>
+<text evidence="7 16">Required cofactor for the serine protease function of NS3 (By similarity). May have membrane-destabilizing activity and form viroporins (By similarity).</text>
+</comment>
+<comment type="function">
+<molecule>Serine protease NS3</molecule>
+<text evidence="17">Displays three enzymatic activities: serine protease, NTPase and RNA helicase. NS3 serine protease, in association with NS2B, performs its autocleavage and cleaves the polyprotein at dibasic sites in the cytoplasm: C-prM, NS2A-NS2B, NS2B-NS3, NS3-NS4A, NS4A-2K and NS4B-NS5. NS3 RNA helicase binds RNA and unwinds dsRNA in the 3' to 5' direction.</text>
+</comment>
+<comment type="function">
+<molecule>Non-structural protein 4A</molecule>
+<text evidence="10">Regulates the ATPase activity of the NS3 helicase activity. NS4A allows NS3 helicase to conserve energy during unwinding.</text>
+</comment>
+<comment type="function">
+<molecule>Peptide 2k</molecule>
+<text evidence="7">Functions as a signal peptide for NS4B and is required for the interferon antagonism activity of the latter.</text>
+</comment>
+<comment type="function">
+<molecule>Non-structural protein 4B</molecule>
+<text evidence="10">Induces the formation of ER-derived membrane vesicles where the viral replication takes place. Inhibits interferon (IFN)-induced host STAT1 phosphorylation and nuclear translocation, thereby preventing the establishment of cellular antiviral state by blocking the IFN-alpha/beta pathway. Inhibits STAT2 translocation in the nucleus after IFN-alpha treatment.</text>
+</comment>
+<comment type="function">
+<molecule>RNA-directed RNA polymerase NS5</molecule>
+<text evidence="7 19">Replicates the viral (+) and (-) genome, and performs the capping of genomes in the cytoplasm (By similarity). NS5 methylates viral RNA cap at guanine N-7 and ribose 2'-O positions (By similarity). Besides its role in genome replication, also prevents the establishment of cellular antiviral state by blocking the interferon-alpha/beta (IFN-alpha/beta) signaling pathway (PubMed:16188985). Inhibits host TYK2 and STAT2 phosphorylation, thereby preventing activation of JAK-STAT signaling pathway (PubMed:16188985).</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>Selective hydrolysis of -Xaa-Xaa-|-Yaa- bonds in which each of the Xaa can be either Arg or Lys and Yaa can be either Ser or Ala.</text>
+<dbReference type="EC" id="3.4.21.91"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="13">
+<text>a ribonucleoside 5'-triphosphate + RNA(n) = diphosphate + RNA(n+1)</text>
+<dbReference type="Rhea" id="RHEA:21248"/>
+<dbReference type="Rhea" id="RHEA-COMP:11128"/>
+<dbReference type="Rhea" id="RHEA-COMP:11129"/>
+<dbReference type="ChEBI" id="CHEBI:33019"/>
+<dbReference type="ChEBI" id="CHEBI:61557"/>
+<dbReference type="ChEBI" id="CHEBI:83400"/>
+<dbReference type="EC" id="2.7.7.48"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>a ribonucleoside 5'-triphosphate + H2O = a ribonucleoside 5'-diphosphate + H(+) + phosphate</text>
+<dbReference type="Rhea" id="RHEA:23680"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:43474"/>
+<dbReference type="ChEBI" id="CHEBI:57930"/>
+<dbReference type="ChEBI" id="CHEBI:61557"/>
+<dbReference type="EC" id="3.6.1.15"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>ATP + H2O = ADP + H(+) + phosphate</text>
+<dbReference type="Rhea" id="RHEA:13065"/>
+<dbReference type="ChEBI" id="CHEBI:15377"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:30616"/>
+<dbReference type="ChEBI" id="CHEBI:43474"/>
+<dbReference type="ChEBI" id="CHEBI:456216"/>
+<dbReference type="EC" id="3.6.4.13"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="18">
+<text>a 5'-end (5'-triphosphoguanosine)-guanosine in mRNA + S-adenosyl-L-methionine = a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-guanosine in mRNA + S-adenosyl-L-homocysteine</text>
+<dbReference type="Rhea" id="RHEA:60856"/>
+<dbReference type="Rhea" id="RHEA-COMP:15681"/>
+<dbReference type="Rhea" id="RHEA-COMP:15683"/>
+<dbReference type="ChEBI" id="CHEBI:57856"/>
+<dbReference type="ChEBI" id="CHEBI:59789"/>
+<dbReference type="ChEBI" id="CHEBI:143971"/>
+<dbReference type="ChEBI" id="CHEBI:143975"/>
+<dbReference type="EC" id="2.1.1.56"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="18">
+<text>a 5'-end (5'-triphosphoguanosine)-adenosine in mRNA + S-adenosyl-L-methionine = a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-adenosine in mRNA + S-adenosyl-L-homocysteine</text>
+<dbReference type="Rhea" id="RHEA:60852"/>
+<dbReference type="Rhea" id="RHEA-COMP:15680"/>
+<dbReference type="Rhea" id="RHEA-COMP:15682"/>
+<dbReference type="ChEBI" id="CHEBI:57856"/>
+<dbReference type="ChEBI" id="CHEBI:59789"/>
+<dbReference type="ChEBI" id="CHEBI:143973"/>
+<dbReference type="ChEBI" id="CHEBI:143974"/>
+<dbReference type="EC" id="2.1.1.56"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="18">
+<text>a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-guanosine in mRNA + S-adenosyl-L-methionine = a 5'-end (N7-methyl 5'-triphosphoguanosine)-(2'-O-methyl-guanosine) in mRNA + H(+) + S-adenosyl-L-homocysteine</text>
+<dbReference type="Rhea" id="RHEA:60864"/>
+<dbReference type="Rhea" id="RHEA-COMP:15683"/>
+<dbReference type="Rhea" id="RHEA-COMP:15685"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:57856"/>
+<dbReference type="ChEBI" id="CHEBI:59789"/>
+<dbReference type="ChEBI" id="CHEBI:143975"/>
+<dbReference type="ChEBI" id="CHEBI:143977"/>
+<dbReference type="EC" id="2.1.1.57"/>
+</reaction>
+</comment>
+<comment type="catalytic activity">
+<reaction evidence="18">
+<text>a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-adenosine in mRNA + S-adenosyl-L-methionine = a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyl-adenosine) in mRNA + H(+) + S-adenosyl-L-homocysteine</text>
+<dbReference type="Rhea" id="RHEA:60860"/>
+<dbReference type="Rhea" id="RHEA-COMP:15682"/>
+<dbReference type="Rhea" id="RHEA-COMP:15684"/>
+<dbReference type="ChEBI" id="CHEBI:15378"/>
+<dbReference type="ChEBI" id="CHEBI:57856"/>
+<dbReference type="ChEBI" id="CHEBI:59789"/>
+<dbReference type="ChEBI" id="CHEBI:143974"/>
+<dbReference type="ChEBI" id="CHEBI:143976"/>
+<dbReference type="EC" id="2.1.1.57"/>
+</reaction>
+</comment>
+<comment type="subunit">
+<molecule>Capsid protein C</molecule>
+<text evidence="7">Homodimer (By similarity). Interacts (via N-terminus) with host EXOC1 (via C-terminus); this interaction results in EXOC1 degradation through the proteasome degradation pathway (By similarity).</text>
+</comment>
+<comment type="subunit">
+<molecule>Protein prM</molecule>
+<text evidence="7">Forms heterodimers with envelope protein E in the endoplasmic reticulum and Golgi.</text>
+</comment>
+<comment type="subunit">
+<molecule>Envelope protein E</molecule>
+<text evidence="7">Homodimer; in the endoplasmic reticulum and Golgi (By similarity). Interacts with protein prM (By similarity). Interacts with non-structural protein 1 (By similarity).</text>
+</comment>
+<comment type="subunit">
+<molecule>Non-structural protein 1</molecule>
+<text evidence="7">Homodimer; Homohexamer when secreted. Interacts with envelope protein E.</text>
+</comment>
+<comment type="subunit">
+<molecule>Non-structural protein 2A</molecule>
+<text evidence="3">Interacts (via N-terminus) with serine protease NS3.</text>
+</comment>
+<comment type="subunit">
+<molecule>Serine protease subunit NS2B</molecule>
+<text evidence="7">Forms a heterodimer with serine protease NS3 (By similarity). May form homooligomers (By similarity).</text>
+</comment>
+<comment type="subunit">
+<molecule>Serine protease NS3</molecule>
+<text evidence="7">Forms a heterodimer with NS2B (By similarity). Interacts with non-structural protein 2A (via N-terminus) (By similarity). Interacts with NS4B (By similarity). Interacts with unphosphorylated RNA-directed RNA polymerase NS5; this interaction stimulates RNA-directed RNA polymerase NS5 guanylyltransferase activity (By similarity).</text>
+</comment>
+<comment type="subunit">
+<molecule>Non-structural protein 4B</molecule>
+<text evidence="7">Interacts with serine protease NS3 (By similarity). Interacts with NS1 (By similarity).</text>
+</comment>
+<comment type="subunit">
+<molecule>RNA-directed RNA polymerase NS5</molecule>
+<text evidence="8">Homodimer. Interacts with host STAT2; this interaction inhibits the phosphorylation of the latter, and, when all viral proteins are present (polyprotein), targets STAT2 for degradation. Interacts with serine protease NS3. Interacts with host SCRIB; this interaction targets NS5 to the cell membrane periphery and nucleus, thereby allowing efficient host nuclear STAT1 inhibition.</text>
+</comment>
+<comment type="subcellular location">
+<molecule>Capsid protein C</molecule>
+<subcellularLocation>
+<location evidence="7">Virion</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="7">Host nucleus</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="7">Host cytoplasm</location>
+<location evidence="7">Host perinuclear region</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="7">Host cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="subcellular location">
+<molecule>Peptide pr</molecule>
+<subcellularLocation>
+<location evidence="7">Secreted</location>
+</subcellularLocation>
+</comment>
+<comment type="subcellular location">
+<molecule>Small envelope protein M</molecule>
+<subcellularLocation>
+<location evidence="3">Virion membrane</location>
+<topology evidence="3">Multi-pass membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="3">Host endoplasmic reticulum membrane</location>
+<topology evidence="11">Multi-pass membrane protein</topology>
+</subcellularLocation>
+<text evidence="3">ER membrane retention is mediated by the transmembrane domains.</text>
+</comment>
+<comment type="subcellular location">
+<molecule>Envelope protein E</molecule>
+<subcellularLocation>
+<location evidence="21">Virion membrane</location>
+<topology evidence="3">Multi-pass membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="3">Host endoplasmic reticulum membrane</location>
+<topology evidence="11">Multi-pass membrane protein</topology>
+</subcellularLocation>
+<text evidence="3">ER membrane retention is mediated by the transmembrane domains.</text>
+</comment>
+<comment type="subcellular location">
+<molecule>Non-structural protein 1</molecule>
+<subcellularLocation>
+<location evidence="7">Secreted</location>
+</subcellularLocation>
+<subcellularLocation>
+<location>Host endoplasmic reticulum membrane</location>
+<topology>Peripheral membrane protein</topology>
+<orientation evidence="7">Lumenal side</orientation>
+</subcellularLocation>
+<text evidence="10">Located in RE-derived vesicles hosting the replication complex.</text>
+</comment>
+<comment type="subcellular location">
+<molecule>Non-structural protein 2A</molecule>
+<subcellularLocation>
+<location evidence="5">Host endoplasmic reticulum membrane</location>
+<topology evidence="7">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="subcellular location">
+<molecule>Serine protease subunit NS2B</molecule>
+<subcellularLocation>
+<location>Host endoplasmic reticulum membrane</location>
+<topology evidence="7">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="subcellular location">
+<molecule>Serine protease NS3</molecule>
+<subcellularLocation>
+<location evidence="17">Host endoplasmic reticulum membrane</location>
+<topology evidence="17">Peripheral membrane protein</topology>
+<orientation evidence="17">Cytoplasmic side</orientation>
+</subcellularLocation>
+<text evidence="17">Remains non-covalently associated to serine protease subunit NS2B.</text>
+</comment>
+<comment type="subcellular location">
+<molecule>Non-structural protein 4A</molecule>
+<subcellularLocation>
+<location evidence="5">Host endoplasmic reticulum membrane</location>
+<topology evidence="7">Multi-pass membrane protein</topology>
+</subcellularLocation>
+<text evidence="7">Located in RE-associated vesicles hosting the replication complex.</text>
+</comment>
+<comment type="subcellular location">
+<molecule>Non-structural protein 4B</molecule>
+<subcellularLocation>
+<location evidence="7">Host endoplasmic reticulum membrane</location>
+<topology evidence="7">Multi-pass membrane protein</topology>
+</subcellularLocation>
+<text evidence="10">Located in RE-derived vesicles hosting the replication complex.</text>
+</comment>
+<comment type="subcellular location">
+<molecule>RNA-directed RNA polymerase NS5</molecule>
+<subcellularLocation>
+<location>Host endoplasmic reticulum membrane</location>
+<topology>Peripheral membrane protein</topology>
+<orientation>Cytoplasmic side</orientation>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="4">Host nucleus</location>
+</subcellularLocation>
+<text evidence="7">Located in RE-associated vesicles hosting the replication complex. NS5 protein is mainly localized in the nucleus rather than in ER vesicles.</text>
+</comment>
+<comment type="domain">
+<text evidence="7">The transmembrane domains of the small envelope protein M and envelope protein E contain an endoplasmic reticulum retention signal.</text>
+</comment>
+<comment type="PTM">
+<molecule>Genome polyprotein</molecule>
+<text evidence="7">Specific enzymatic cleavages in vivo yield mature proteins. Cleavages in the lumen of endoplasmic reticulum are performed by host signal peptidase, whereas cleavages in the cytoplasmic side are performed by serine protease NS3. Signal cleavage at the 2K-4B site requires a prior NS3 protease-mediated cleavage at the 4A-2K site.</text>
+</comment>
+<comment type="PTM">
+<molecule>Protein prM</molecule>
+<text evidence="7">Cleaved in post-Golgi vesicles by a host furin, releasing the mature small envelope protein M, and peptide pr. This cleavage is incomplete as up to 30% of viral particles still carry uncleaved prM.</text>
+</comment>
+<comment type="PTM">
+<molecule>Envelope protein E</molecule>
+<text evidence="7">N-glycosylated.</text>
+</comment>
+<comment type="PTM">
+<molecule>Non-structural protein 1</molecule>
+<text evidence="7">N-glycosylated. The excreted form is glycosylated and this is required for efficient secretion of the protein from infected cells.</text>
+</comment>
+<comment type="PTM">
+<molecule>RNA-directed RNA polymerase NS5</molecule>
+<text evidence="7">Phosphorylated on serines residues. This phosphorylation may trigger NS5 nuclear localization.</text>
+</comment>
+<comment type="similarity">
+<text evidence="18">In the N-terminal section; belongs to the class I-like SAM-binding methyltransferase superfamily. mRNA cap 0-1 NS5-type methyltransferase family.</text>
+</comment>
+<dbReference type="EC" id="3.4.21.91"/>
+<dbReference type="EC" id="3.6.1.15"/>
+<dbReference type="EC" id="3.6.4.13"/>
+<dbReference type="EC" id="2.1.1.56" evidence="18"/>
+<dbReference type="EC" id="2.1.1.57" evidence="18"/>
+<dbReference type="EC" id="2.7.7.48" evidence="13"/>
+<dbReference type="EMBL" id="M73835">
+<property type="protein sequence ID" value="AAA02740.1"/>
+<property type="status" value="ALT_TERM"/>
+<property type="molecule type" value="Unassigned_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="S35365">
+<property type="protein sequence ID" value="AAB22165.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="PIR" id="A42545">
+<property type="entry name" value="A42545"/>
+</dbReference>
+<dbReference type="PDB" id="1Z66">
+<property type="method" value="NMR"/>
+<property type="chains" value="A=580-675"/>
+</dbReference>
+<dbReference type="PDB" id="2GG1">
+<property type="method" value="NMR"/>
+<property type="chains" value="A=580-675"/>
+</dbReference>
+<dbReference type="PDBsum" id="1Z66"/>
+<dbReference type="PDBsum" id="2GG1"/>
+<dbReference type="SMR" id="P29837"/>
+<dbReference type="PRIDE" id="P29837"/>
+<dbReference type="BRENDA" id="3.4.21.91">
+<property type="organism ID" value="9644"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="P29837"/>
+<dbReference type="Proteomes" id="UP000007766">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005576">
+<property type="term" value="C:extracellular region"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044167">
+<property type="term" value="C:host cell endoplasmic reticulum membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042025">
+<property type="term" value="C:host cell nucleus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044220">
+<property type="term" value="C:host cell perinuclear region of cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019028">
+<property type="term" value="C:viral capsid"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019031">
+<property type="term" value="C:viral envelope"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0055036">
+<property type="term" value="C:virion membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003725">
+<property type="term" value="F:double-stranded RNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004482">
+<property type="term" value="F:mRNA (guanine-N7-)-methyltransferase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004483">
+<property type="term" value="F:mRNA (nucleoside-2'-O-)-methyltransferase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046983">
+<property type="term" value="F:protein dimerization activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003724">
+<property type="term" value="F:RNA helicase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-EC"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003968">
+<property type="term" value="F:RNA-directed 5'-3' RNA polymerase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004252">
+<property type="term" value="F:serine-type endopeptidase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005198">
+<property type="term" value="F:structural molecule activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0075512">
+<property type="term" value="P:clathrin-dependent endocytosis of virus by host cell"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039654">
+<property type="term" value="P:fusion of virus membrane with host endosome membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039520">
+<property type="term" value="P:induction by virus of host autophagy"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039651">
+<property type="term" value="P:induction by virus of host cysteine-type endopeptidase activity involved in apoptotic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039576">
+<property type="term" value="P:suppression by virus of host JAK1 activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039563">
+<property type="term" value="P:suppression by virus of host STAT1 activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039564">
+<property type="term" value="P:suppression by virus of host STAT2 activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039574">
+<property type="term" value="P:suppression by virus of host TYK2 activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039502">
+<property type="term" value="P:suppression by virus of host type I interferon-mediated signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039694">
+<property type="term" value="P:viral RNA genome replication"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019062">
+<property type="term" value="P:virion attachment to host cell"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="CDD" id="cd12149">
+<property type="entry name" value="Flavi_E_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.8.970">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.20.1280.260">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.40.10.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.260.50">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.350">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.98.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.387.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.67.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011492">
+<property type="entry name" value="DEAD_Flavivir"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR043502">
+<property type="entry name" value="DNA/RNA_pol_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000069">
+<property type="entry name" value="Env_glycoprot_M_flavivir"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038302">
+<property type="entry name" value="Env_glycoprot_M_sf_flavivir"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013755">
+<property type="entry name" value="Flav_gly_cen_dom_subdom1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001122">
+<property type="entry name" value="Flavi_capsidC"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027287">
+<property type="entry name" value="Flavi_E_Ig-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR026470">
+<property type="entry name" value="Flavi_E_Stem/Anchor_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038345">
+<property type="entry name" value="Flavi_E_Stem/Anchor_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001157">
+<property type="entry name" value="Flavi_NS1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000752">
+<property type="entry name" value="Flavi_NS2A"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000487">
+<property type="entry name" value="Flavi_NS2B"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000404">
+<property type="entry name" value="Flavi_NS4A"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001528">
+<property type="entry name" value="Flavi_NS4B"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002535">
+<property type="entry name" value="Flavi_propep"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038688">
+<property type="entry name" value="Flavi_propep_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000336">
+<property type="entry name" value="Flavivir/Alphavir_Ig-like_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001850">
+<property type="entry name" value="Flavivirus_NS3_S7"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014412">
+<property type="entry name" value="Gen_Poly_FLV"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011998">
+<property type="entry name" value="Glycoprot_cen/dimer"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036253">
+<property type="entry name" value="Glycoprot_cen/dimer_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038055">
+<property type="entry name" value="Glycoprot_E_dimer_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013756">
+<property type="entry name" value="GlyE_cen_dom_subdom2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014001">
+<property type="entry name" value="Helicase_ATP-bd"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001650">
+<property type="entry name" value="Helicase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014756">
+<property type="entry name" value="Ig_E-set"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR026490">
+<property type="entry name" value="mRNA_cap_0/1_MeTrfase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027417">
+<property type="entry name" value="P-loop_NTPase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009003">
+<property type="entry name" value="Peptidase_S1_PA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR043504">
+<property type="entry name" value="Peptidase_S1_PA_chymotrypsin"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000208">
+<property type="entry name" value="RNA-dir_pol_flavivirus"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR007094">
+<property type="entry name" value="RNA-dir_pol_PSvirus"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002877">
+<property type="entry name" value="rRNA_MeTrfase_FtsJ_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR029063">
+<property type="entry name" value="SAM-dependent_MTases"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01003">
+<property type="entry name" value="Flavi_capsid"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07652">
+<property type="entry name" value="Flavi_DEAD"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02832">
+<property type="entry name" value="Flavi_glycop_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00869">
+<property type="entry name" value="Flavi_glycoprot"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01004">
+<property type="entry name" value="Flavi_M"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00948">
+<property type="entry name" value="Flavi_NS1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01005">
+<property type="entry name" value="Flavi_NS2A"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01350">
+<property type="entry name" value="Flavi_NS4A"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01349">
+<property type="entry name" value="Flavi_NS4B"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00972">
+<property type="entry name" value="Flavi_NS5"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01570">
+<property type="entry name" value="Flavi_propep"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01728">
+<property type="entry name" value="FtsJ"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00949">
+<property type="entry name" value="Peptidase_S7"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF003817">
+<property type="entry name" value="Gen_Poly_FLV"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00487">
+<property type="entry name" value="DEXDc"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00490">
+<property type="entry name" value="HELICc"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF50494">
+<property type="entry name" value="SSF50494"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52540">
+<property type="entry name" value="SSF52540"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53335">
+<property type="entry name" value="SSF53335"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56672">
+<property type="entry name" value="SSF56672"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56983">
+<property type="entry name" value="SSF56983"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF81296">
+<property type="entry name" value="SSF81296"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR04240">
+<property type="entry name" value="flavi_E_stem"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51527">
+<property type="entry name" value="FLAVIVIRUS_NS2B"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51528">
+<property type="entry name" value="FLAVIVIRUS_NS3PRO"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51192">
+<property type="entry name" value="HELICASE_ATP_BIND_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51194">
+<property type="entry name" value="HELICASE_CTER"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50507">
+<property type="entry name" value="RDRP_SSRNA_POS"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51591">
+<property type="entry name" value="RNA_CAP01_NS5_MT"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-1072">Activation of host autophagy by virus</keyword>
+<keyword id="KW-1073">Activation of host caspases by virus</keyword>
+<keyword id="KW-0067">ATP-binding</keyword>
+<keyword id="KW-0167">Capsid protein</keyword>
+<keyword id="KW-1165">Clathrin-mediated endocytosis of virus by host</keyword>
+<keyword id="KW-0165">Cleavage on pair of basic residues</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-1170">Fusion of virus membrane with host endosomal membrane</keyword>
+<keyword id="KW-1168">Fusion of virus membrane with host membrane</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0347">Helicase</keyword>
+<keyword id="KW-1035">Host cytoplasm</keyword>
+<keyword id="KW-1038">Host endoplasmic reticulum</keyword>
+<keyword id="KW-1043">Host membrane</keyword>
+<keyword id="KW-1048">Host nucleus</keyword>
+<keyword id="KW-0945">Host-virus interaction</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-1090">Inhibition of host innate immune response by virus</keyword>
+<keyword id="KW-1114">Inhibition of host interferon signaling pathway by virus</keyword>
+<keyword id="KW-1096">Inhibition of host JAK1 by virus</keyword>
+<keyword id="KW-1105">Inhibition of host STAT1 by virus</keyword>
+<keyword id="KW-1106">Inhibition of host STAT2 by virus</keyword>
+<keyword id="KW-1112">Inhibition of host TYK2 by virus</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0489">Methyltransferase</keyword>
+<keyword id="KW-1119">Modulation of host cell apoptosis by virus</keyword>
+<keyword id="KW-0506">mRNA capping</keyword>
+<keyword id="KW-0507">mRNA processing</keyword>
+<keyword id="KW-0511">Multifunctional enzyme</keyword>
+<keyword id="KW-0547">Nucleotide-binding</keyword>
+<keyword id="KW-0548">Nucleotidyltransferase</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-0645">Protease</keyword>
+<keyword id="KW-0694">RNA-binding</keyword>
+<keyword id="KW-0696">RNA-directed RNA polymerase</keyword>
+<keyword id="KW-0949">S-adenosyl-L-methionine</keyword>
+<keyword id="KW-0964">Secreted</keyword>
+<keyword id="KW-0720">Serine protease</keyword>
+<keyword id="KW-0941">Suppressor of RNA silencing</keyword>
+<keyword id="KW-0804">Transcription</keyword>
+<keyword id="KW-0805">Transcription regulation</keyword>
+<keyword id="KW-0808">Transferase</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<keyword id="KW-1161">Viral attachment to host cell</keyword>
+<keyword id="KW-0261">Viral envelope protein</keyword>
+<keyword id="KW-0899">Viral immunoevasion</keyword>
+<keyword id="KW-1162">Viral penetration into host cytoplasm</keyword>
+<keyword id="KW-0693">Viral RNA replication</keyword>
+<keyword id="KW-0946">Virion</keyword>
+<keyword id="KW-1164">Virus endocytosis by host</keyword>
+<keyword id="KW-1160">Virus entry into host cell</keyword>
+<keyword id="KW-0862">Zinc</keyword>
+<feature type="chain" description="Genome polyprotein" id="PRO_0000405129">
+<location>
+<begin position="1"/>
+<end position="3414"/>
+</location>
+</feature>
+<feature type="chain" description="Capsid protein C" id="PRO_0000037688" evidence="3">
+<location>
+<begin position="1"/>
+<end position="96"/>
+</location>
+</feature>
+<feature type="propeptide" description="ER anchor for the capsid protein C, removed in mature form by serine protease NS3" id="PRO_0000405130" evidence="3">
+<location>
+<begin position="97"/>
+<end position="117"/>
+</location>
+</feature>
+<feature type="chain" description="Protein prM" id="PRO_0000405131" evidence="4">
+<location>
+<begin position="118"/>
+<end position="280"/>
+</location>
+</feature>
+<feature type="chain" description="Peptide pr" id="PRO_0000037689" evidence="4">
+<location>
+<begin position="118"/>
+<end position="205"/>
+</location>
+</feature>
+<feature type="chain" description="Small envelope protein M" id="PRO_0000037690" evidence="4">
+<location>
+<begin position="206"/>
+<end position="280"/>
+</location>
+</feature>
+<feature type="chain" description="Envelope protein E" id="PRO_0000037691" evidence="4">
+<location>
+<begin position="281"/>
+<end position="776"/>
+</location>
+</feature>
+<feature type="chain" description="Non-structural protein 1" id="PRO_0000037692" evidence="3">
+<location>
+<begin position="777"/>
+<end position="1128"/>
+</location>
+</feature>
+<feature type="chain" description="Non-structural protein 2A" id="PRO_0000037693" evidence="4">
+<location>
+<begin position="1129"/>
+<end position="1358"/>
+</location>
+</feature>
+<feature type="chain" description="Serine protease subunit NS2B" id="PRO_0000037694" evidence="3">
+<location>
+<begin position="1359"/>
+<end position="1489"/>
+</location>
+</feature>
+<feature type="chain" description="Serine protease NS3" id="PRO_0000037695" evidence="3">
+<location>
+<begin position="1490"/>
+<end position="2110"/>
+</location>
+</feature>
+<feature type="chain" description="Non-structural protein 4A" id="PRO_0000037696" evidence="3">
+<location>
+<begin position="2111"/>
+<end position="2236"/>
+</location>
+</feature>
+<feature type="peptide" description="Peptide 2k" id="PRO_0000405132" evidence="3">
+<location>
+<begin position="2237"/>
+<end position="2259"/>
+</location>
+</feature>
+<feature type="chain" description="Non-structural protein 4B" id="PRO_0000037697" evidence="3">
+<location>
+<begin position="2260"/>
+<end position="2511"/>
+</location>
+</feature>
+<feature type="chain" description="RNA-directed RNA polymerase NS5" id="PRO_0000037698" evidence="3">
+<location>
+<begin position="2512"/>
+<end position="3414"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="11">
+<location>
+<begin position="1"/>
+<end position="98"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="99"/>
+<end position="117"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="11">
+<location>
+<begin position="118"/>
+<end position="242"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="243"/>
+<end position="260"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="11">
+<location>
+<position position="261"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="262"/>
+<end position="280"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="11">
+<location>
+<begin position="281"/>
+<end position="727"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="728"/>
+<end position="748"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="11">
+<location>
+<begin position="749"/>
+<end position="755"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="756"/>
+<end position="776"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="11">
+<location>
+<begin position="777"/>
+<end position="1187"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="1188"/>
+<end position="1208"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="11">
+<location>
+<begin position="1209"/>
+<end position="1232"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="1233"/>
+<end position="1253"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="11">
+<location>
+<begin position="1254"/>
+<end position="1267"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="1268"/>
+<end position="1288"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="11">
+<location>
+<begin position="1289"/>
+<end position="1300"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="1301"/>
+<end position="1319"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="11">
+<location>
+<begin position="1320"/>
+<end position="1325"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="1326"/>
+<end position="1346"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="11">
+<location>
+<begin position="1347"/>
+<end position="1359"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="1360"/>
+<end position="1378"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="11">
+<location>
+<begin position="1379"/>
+<end position="1382"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="1383"/>
+<end position="1403"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="11">
+<location>
+<begin position="1404"/>
+<end position="1454"/>
+</location>
+</feature>
+<feature type="intramembrane region" description="Helical" evidence="11">
+<location>
+<begin position="1455"/>
+<end position="1475"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="11">
+<location>
+<begin position="1476"/>
+<end position="2160"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="2161"/>
+<end position="2181"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="11">
+<location>
+<begin position="2182"/>
+<end position="2189"/>
+</location>
+</feature>
+<feature type="intramembrane region" description="Helical" evidence="11">
+<location>
+<begin position="2190"/>
+<end position="2209"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="11">
+<location>
+<position position="2210"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="2211"/>
+<end position="2231"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="11">
+<location>
+<begin position="2232"/>
+<end position="2238"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Note=Signal for NS4B" evidence="11">
+<location>
+<begin position="2239"/>
+<end position="2259"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="11">
+<location>
+<begin position="2260"/>
+<end position="2296"/>
+</location>
+</feature>
+<feature type="intramembrane region" description="Helical" evidence="11">
+<location>
+<begin position="2297"/>
+<end position="2315"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="11">
+<location>
+<begin position="2316"/>
+<end position="2343"/>
+</location>
+</feature>
+<feature type="intramembrane region" description="Helical" evidence="11">
+<location>
+<begin position="2344"/>
+<end position="2364"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="11">
+<location>
+<begin position="2365"/>
+<end position="2368"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="2369"/>
+<end position="2389"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="11">
+<location>
+<begin position="2390"/>
+<end position="2432"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="2433"/>
+<end position="2453"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="11">
+<location>
+<begin position="2454"/>
+<end position="2477"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="11">
+<location>
+<begin position="2478"/>
+<end position="2498"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="11">
+<location>
+<begin position="2499"/>
+<end position="3414"/>
+</location>
+</feature>
+<feature type="domain" description="Peptidase S7" evidence="17">
+<location>
+<begin position="1490"/>
+<end position="1669"/>
+</location>
+</feature>
+<feature type="domain" description="Helicase ATP-binding" evidence="14">
+<location>
+<begin position="1675"/>
+<end position="1831"/>
+</location>
+</feature>
+<feature type="domain" description="Helicase C-terminal" evidence="15">
+<location>
+<begin position="1841"/>
+<end position="2000"/>
+</location>
+</feature>
+<feature type="domain" description="mRNA cap 0-1 NS5-type MT" evidence="18">
+<location>
+<begin position="2512"/>
+<end position="2776"/>
+</location>
+</feature>
+<feature type="domain" description="RdRp catalytic" evidence="13">
+<location>
+<begin position="3040"/>
+<end position="3189"/>
+</location>
+</feature>
+<feature type="nucleotide phosphate-binding region" description="ATP" evidence="14">
+<location>
+<begin position="1688"/>
+<end position="1695"/>
+</location>
+</feature>
+<feature type="region of interest" description="Fusion peptide" evidence="6">
+<location>
+<begin position="378"/>
+<end position="391"/>
+</location>
+</feature>
+<feature type="region of interest" description="Interacts with and activates NS3 protease" evidence="16">
+<location>
+<begin position="1410"/>
+<end position="1449"/>
+</location>
+</feature>
+<feature type="region of interest" description="Interaction with host SCRIB" evidence="8">
+<location>
+<begin position="2730"/>
+<end position="2734"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="DEAH box" evidence="14">
+<location>
+<begin position="1779"/>
+<end position="1782"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Poly-Asp">
+<location>
+<begin position="1970"/>
+<end position="1973"/>
+</location>
+</feature>
+<feature type="active site" description="Charge relay system; for serine protease NS3 activity" evidence="17">
+<location>
+<position position="1543"/>
+</location>
+</feature>
+<feature type="active site" description="Charge relay system; for serine protease NS3 activity" evidence="17">
+<location>
+<position position="1567"/>
+</location>
+</feature>
+<feature type="active site" description="Charge relay system; for serine protease NS3 activity" evidence="17">
+<location>
+<position position="1627"/>
+</location>
+</feature>
+<feature type="active site" description="For 2'-O-MTase activity" evidence="9">
+<location>
+<position position="2572"/>
+</location>
+</feature>
+<feature type="active site" description="For 2'-O-MTase activity" evidence="9">
+<location>
+<position position="2657"/>
+</location>
+</feature>
+<feature type="active site" description="For 2'-O-MTase activity" evidence="9">
+<location>
+<position position="2694"/>
+</location>
+</feature>
+<feature type="active site" description="For 2'-O-MTase activity" evidence="9">
+<location>
+<position position="2730"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 1" evidence="5">
+<location>
+<position position="2950"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 1; via tele nitrogen" evidence="5">
+<location>
+<position position="2954"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 1" evidence="5">
+<location>
+<position position="2959"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 1" evidence="5">
+<location>
+<position position="2962"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 2; via tele nitrogen" evidence="5">
+<location>
+<position position="3224"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 2" evidence="5">
+<location>
+<position position="3240"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Zinc 2" evidence="5">
+<location>
+<position position="3359"/>
+</location>
+</feature>
+<feature type="binding site" description="S-adenosyl-L-methionine" evidence="18">
+<location>
+<position position="2567"/>
+</location>
+</feature>
+<feature type="binding site" description="S-adenosyl-L-methionine; via carbonyl oxygen" evidence="18">
+<location>
+<position position="2597"/>
+</location>
+</feature>
+<feature type="binding site" description="S-adenosyl-L-methionine; via carbonyl oxygen" evidence="18">
+<location>
+<position position="2598"/>
+</location>
+</feature>
+<feature type="binding site" description="S-adenosyl-L-methionine" evidence="18">
+<location>
+<position position="2615"/>
+</location>
+</feature>
+<feature type="binding site" description="S-adenosyl-L-methionine; via carbonyl oxygen" evidence="18">
+<location>
+<position position="2616"/>
+</location>
+</feature>
+<feature type="binding site" description="S-adenosyl-L-methionine" evidence="18">
+<location>
+<position position="2642"/>
+</location>
+</feature>
+<feature type="binding site" description="S-adenosyl-L-methionine; via carbonyl oxygen" evidence="18">
+<location>
+<position position="2643"/>
+</location>
+</feature>
+<feature type="binding site" description="S-adenosyl-L-methionine" evidence="18">
+<location>
+<position position="2658"/>
+</location>
+</feature>
+<feature type="binding site" description="S-adenosyl-L-methionine" evidence="18">
+<location>
+<position position="2732"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by viral protease NS3" evidence="3">
+<location>
+<begin position="96"/>
+<end position="97"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by host signal peptidase" evidence="3">
+<location>
+<begin position="117"/>
+<end position="118"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by host furin" evidence="4">
+<location>
+<begin position="205"/>
+<end position="206"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by host signal peptidase" evidence="4">
+<location>
+<begin position="280"/>
+<end position="281"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by host signal peptidase" evidence="3">
+<location>
+<begin position="776"/>
+<end position="777"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by host" evidence="4">
+<location>
+<begin position="1128"/>
+<end position="1129"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by viral protease NS3" evidence="4">
+<location>
+<begin position="1358"/>
+<end position="1359"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by autolysis" evidence="3">
+<location>
+<begin position="1489"/>
+<end position="1490"/>
+</location>
+</feature>
+<feature type="site" description="Involved in NS3 ATPase and RTPase activities" evidence="5">
+<location>
+<position position="1949"/>
+</location>
+</feature>
+<feature type="site" description="Involved in NS3 ATPase and RTPase activities" evidence="5">
+<location>
+<position position="1952"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by autolysis" evidence="3">
+<location>
+<begin position="2110"/>
+<end position="2111"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by viral protease NS3" evidence="3">
+<location>
+<begin position="2236"/>
+<end position="2237"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by host signal peptidase" evidence="3">
+<location>
+<begin position="2259"/>
+<end position="2260"/>
+</location>
+</feature>
+<feature type="site" description="Cleavage; by viral protease NS3" evidence="3">
+<location>
+<begin position="2511"/>
+<end position="2512"/>
+</location>
+</feature>
+<feature type="site" description="mRNA cap binding" evidence="18">
+<location>
+<position position="2524"/>
+</location>
+</feature>
+<feature type="site" description="mRNA cap binding; via carbonyl oxygen" evidence="18">
+<location>
+<position position="2527"/>
+</location>
+</feature>
+<feature type="site" description="mRNA cap binding" evidence="18">
+<location>
+<position position="2528"/>
+</location>
+</feature>
+<feature type="site" description="mRNA cap binding; via carbonyl oxygen" evidence="18">
+<location>
+<position position="2530"/>
+</location>
+</feature>
+<feature type="site" description="mRNA cap binding" evidence="18">
+<location>
+<position position="2535"/>
+</location>
+</feature>
+<feature type="site" description="mRNA cap binding" evidence="18">
+<location>
+<position position="2539"/>
+</location>
+</feature>
+<feature type="site" description="Essential for 2'-O-methyltransferase activity" evidence="18">
+<location>
+<position position="2572"/>
+</location>
+</feature>
+<feature type="site" description="Essential for 2'-O-methyltransferase and N-7 methyltransferase activity" evidence="18">
+<location>
+<position position="2657"/>
+</location>
+</feature>
+<feature type="site" description="mRNA cap binding" evidence="18">
+<location>
+<position position="2661"/>
+</location>
+</feature>
+<feature type="site" description="Essential for 2'-O-methyltransferase activity" evidence="18">
+<location>
+<position position="2694"/>
+</location>
+</feature>
+<feature type="site" description="mRNA cap binding" evidence="18">
+<location>
+<position position="2725"/>
+</location>
+</feature>
+<feature type="site" description="mRNA cap binding" evidence="18">
+<location>
+<position position="2727"/>
+</location>
+</feature>
+<feature type="site" description="Essential for 2'-O-methyltransferase activity" evidence="18">
+<location>
+<position position="2730"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine" evidence="3">
+<location>
+<position position="2567"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine; by host" evidence="12">
+<location>
+<position position="144"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine; by host" evidence="6 12">
+<location>
+<position position="434"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine; by host" evidence="12">
+<location>
+<position position="861"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine; by host" evidence="12">
+<location>
+<position position="983"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine; by host" evidence="12">
+<location>
+<position position="999"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="6">
+<location>
+<begin position="283"/>
+<end position="310"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="7">
+<location>
+<begin position="340"/>
+<end position="401"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="6">
+<location>
+<begin position="340"/>
+<end position="396"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="6">
+<location>
+<begin position="354"/>
+<end position="385"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="6">
+<location>
+<begin position="372"/>
+<end position="401"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="7">
+<location>
+<begin position="372"/>
+<end position="396"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="6">
+<location>
+<begin position="466"/>
+<end position="570"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="20">
+<location>
+<begin position="587"/>
+<end position="618"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="7">
+<location>
+<begin position="780"/>
+<end position="791"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="7">
+<location>
+<begin position="831"/>
+<end position="920"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="7">
+<location>
+<begin position="955"/>
+<end position="1000"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="7">
+<location>
+<begin position="1057"/>
+<end position="1106"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="7">
+<location>
+<begin position="1068"/>
+<end position="1090"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="7">
+<location>
+<begin position="1089"/>
+<end position="1093"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="589"/>
+<end position="591"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="593"/>
+<end position="600"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="602"/>
+<end position="611"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="616"/>
+<end position="619"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="622"/>
+<end position="626"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="629"/>
+<end position="633"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="643"/>
+<end position="645"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="648"/>
+<end position="654"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="657"/>
+<end position="665"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="668"/>
+<end position="674"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1Z66"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2GG1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P03314"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P06935"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P14335"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P14336"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P17763"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q01299"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q6YMS4"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q9Q6P4"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000255"/>
+<evidence key="12" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00498"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00539"/>
+</source>
+</evidence>
+<evidence key="14" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00541"/>
+</source>
+</evidence>
+<evidence key="15" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00542"/>
+</source>
+</evidence>
+<evidence key="16" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00859"/>
+</source>
+</evidence>
+<evidence key="17" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00860"/>
+</source>
+</evidence>
+<evidence key="18" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00924"/>
+</source>
+</evidence>
+<evidence key="19" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16188985"/>
+</source>
+</evidence>
+<evidence key="20" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16731969"/>
+</source>
+</evidence>
+<evidence key="21" type="ECO:0000305"/>
+<sequence length="3414" mass="378023" checksum="59CB7E95DD70D82E" modified="1994-02-01" version="2">MAGKAVLKGKGGGPPRRASKVAPKKTRQLRVQMPNGLVLMRMLGVLWHALTGTARSPVLKAFWKVVPLKQATLALRKIKRTVSTLMVGLHRRGSRRTTIDWMTPLLITVMLGMCLTATVRRERDGSMVIRAEGRDAATQVRVENGTCVILATDMGSWCDDSLAYECVTIDQGEEPVDVDCFCRGVEKVTLEYGRCGRREGSRSRRSVLIPSHAQRDLTGRGHQWLEGEAVKAHLTRVEGWVWKNKLFTLSLVMVAWLMVDGLLPRILIVVVALALVPAYASRCTHLENRDFVTGVQGTTRLTLVLELGGCVTVTADGKPSLDVWLDSIYQESPAQTREYCLHAKLTGTKVAARCPTMGPATLPEEHQSGTVCKRDQSDRGWGNHCGLFGKGSIVTCVKFTCEDKKKATGHVYDVNKITYTIKVEPHTGEFVAANETHSGRKSASFTVSSEKTILTLGDYGDVSLLCRVASGVDLAQTVVLALDKTHEHLPTAWQVHRDWFNDLALPWKHDGAEAWNEAGRLVEFGTPHAVKMDVFNLGDQTGVLLKSLAGVPVASIEGTKYHLKSGHVTCEVGLEKLKMKGLTYTVCDKTKFTWKRAPTDSGHDTVVMEVGFSGTRPCRIPVRAVAHGVPEVNVAMLITPNPTMENNGGGFIEMQLPPGDNIIYVGDLNHQWFQKGSSIGRVLQKTRKGIERLTVLGEHAWDFGSVGGVMTSIGRAMHTVLGGAFNTLLGGVGFLPKILLGVAMAWLGLNMRNPTLSMGFLLSGGLVLAMTLGVGADVGCAVDTERMELRCGEGLVVWREVSEWYDNYVFHPETPAVLASAVQRAYEEEICGIVPQNRLEMAMWRSSLVELNLALAEGEANLTVVVDKADPSDYRGGVPGLLNKGKDIKVSWRSWGRSMLWSVPEAPRRFMIGVEGGRECPFARRKTGVMTVAEFGIGLRTKVFMDLRQELTTECDTGVMGAAVKNGMAVHTDQSLWMKSIKNDTTVTIVELIVTDLRNCTWPASHTIDNAGVVNSKLFLPASLAGPRSTYNVIPGYAEQVRGPWAHTPVRIKREECPGTRVTIDKACDKRGASVRSTTESGKVIPEWCCRTCELPPVTYRTGTDCWYAMEIRPVHTQGGLVRSMVVADNGALLSEGGVPGVVALFVVLELVIRRRPATGGTVIWGGIAILALLVTGLVSVESLFRYLVAVGLVFQLELGPEAVAMVLLQAVFEMRTCLLSGFVLRRSITTREIVTVYFLLLVLEMGIPVKGLEHLWRWTDALAMGAIIFRACTAEGKTGIGLLLAAFMTQSDMNIIHDGLTAFLCVATTMAIWRYIRGQGERKGLTWIVPLAGILGGEGSGVRLLAFWELAASRGRRSFNEPMTVIGVMLTLASGMMRHTSQEAVCAMALAAFLLLMLTLGTRKMQLLAEWSGNIEWNPELTSEGGEVSLRVRQDALGNLHLTELEKEERMMAFWLVVGLIASAFHWSGILIVMGLWTISEMLGSPRRTDLVFSGCSEGRSDSRPLDVKNGVYRIYTPGLLWGQRQIGVGYGAKGVLHTMWHVTRGAALLVDGVAVGPYWADVREDVVCYGGAWSLESRWRGETVQVHAFPPGRAHETHQCQPGELILENGRKMGAIPIDLAKGTSGSPIMNSQGEVVGLYGNGLKTNDTYVSSIAQGEVEKSRPNLPQSVVGTGWTAKGQITVLDMHPGSGKTHRVLPELIRQCVERRLRTLVLAPTRVVLREMERALSGKNVRFHSPAVTEQHANGAIVDVMCHATYVNRRLLPQGRQNWEVAIMDEAHWTDPHSIAARGHLYSLAKENRCAFVLMTATPPGKSEPFPESNGAIASEERQIPDGEWRDGFDWITEYEGRTAWFVPSIARGGAIARALRQRGKSVICLNSKTFDKEYSRVKDEKPDFVVTTDISEMGANLDVTRVIDGRTNIKPEEVDGRIELTGTRRVTTASAAQRRGRVGRQGGRTDEYIYSGQCDDDDSGLVQWKEAQILLDNITTARGPVATFYGPEQERMTETAGHYRLPEEKRKHFRHLLAQCDFTPWLAWHVAANVASVTDRSWTWEGPEENAVDENNGELVTFRSPNGAERTLRPVWRDARMFREGRDIREFVSYASGRRSVGDVLMGMSGVPALLRQRCTSAMDVFYTLMHEEPGSRAMRIGERDAPEAFLTAVEMLVLGLATLGVVWCFVVRTSVSRMVLGTLVLATSLIFLWAGGVGYGNMAGVALVFYTLLTVLQPETGKQRSSDDNKLAYFLLTLCGLAGMVAANEMGLLEKTKADLAALFARDQGETVRWGEWTNLDIQPARSWGTYVLVVSLFTPYMLHQLQTRIQQLVNSAVASGAQAMRDLGGGTPFFGVAGHVLALGVASLVGATPTSLILGVGLAAFHLAIVVSGLEAELTQRAHKVFFSAMVRNPMVDGDVINPFGDGEAKPALYERKLSLILALVLCLASVVMNRTFVAVTEAGAVGVAAAMQLLRPEMDVLWTMPVACGMSGVVRGSLWGLLPLGHRLWLRTTGTRRGGSEGDTLGDMWKARLNSCTKEEFFAYRRAGVMETDREKARELLKRGETNMGLAVSRGTSKLAWMEERGYVTLKGEVVDLGCGRGGWSYYAASRPAVMSVRAYTIGGKGHESPRMVTSLGWNLIKFRAGMDVFSMEPHRADAILCDIGESNPDAVVEGERSRRVILLMEQWKNRNPTATCVFKVLAPYRPEVIEALHRFQLQWGGGLVRTPFSRNSTHEMYFSTAITGNIVNSVNIQSRKLLARFGDQRGPTRVPEIDLGVGTRSVVLAEDKVKEKDVMERIQALKDQYCDTWHEDHEHPYRTWQYWGSYKTAATGSSASLLNGVVKLLSWPWNAREDVVRMAMTDTTAFGQQRVFKDKVDTKAQEPQPGTKIIMRAVNDWLLERLVKKSRPRMCSREEFIAKVRSNAALAAWSDEQNKWKSAREAVEDPEFWSLVEAERERHLQGRCAHCVYNMMGKREKKLGEFGVAKGSRAIWYMWLGSRFLEFEALGFLNEDHWASRASSGAGVEGISLNYLGWHLKKLASLSGGLFYADDTAGWDTRITNADLDDEEQILRYMDGDHKKLAATVLRKAYHAKVVRVARPSREGGCVMDIITRRDQRGSGQVVTYALNTITNIKVQLVRMMEGEGVIEVADSHNPRLLRVEKCVEEHGEERLSRMLVSGDDCVVRPVDDRFSKALYFLNDMAKTRKDTGEWEPSTGFASWEEVPFCSHHFHELVMKDGRALVVPCRDQDELVGRARVSPGCGWSVRETACLSKAYGQMWLLSYFHRRDLRTLGFAICSAVPVDWVPTGRTTWSIHASGAWMTTEDMLEVWNRVWIYDNPFMEDKTRVDEWRDTPYLPKSQDILCSSLVGRGERAEWAKNIWGAVEKVRRMIGPEHYRDYLSSMDRHDLHWELKLESSIF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

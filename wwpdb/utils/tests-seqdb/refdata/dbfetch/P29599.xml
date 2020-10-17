@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2019-12-11" version="101">
+<accession>P29599</accession>
+<name>SUBB_BACLE</name>
+<protein>
+<recommendedName>
+<fullName>Subtilisin BL</fullName>
+<ecNumber>3.4.21.62</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>Alkaline protease</fullName>
+</alternativeName>
+</protein>
+<organism>
+<name type="scientific">Bacillus lentus</name>
+<dbReference type="NCBI Taxonomy" id="1467"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Bacillales</taxon>
+<taxon>Bacillaceae</taxon>
+<taxon>Bacillus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1992" name="J. Mol. Biol." volume="228" first="580" last="595">
+<title>The crystal structure of the Bacillus lentus alkaline protease, subtilisin BL, at 1.4-A resolution.</title>
+<authorList>
+<person name="Goddette D.W."/>
+<person name="Paech C."/>
+<person name="Yang S.S."/>
+<person name="Mielenz J.R."/>
+<person name="Bystroff C."/>
+<person name="Wilke M.E."/>
+<person name="Fletterick R.J."/>
+</authorList>
+<dbReference type="PubMed" id="1453465"/>
+<dbReference type="DOI" id="10.1016/0022-2836(92)90843-9"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.4 ANGSTROMS)</scope>
+</reference>
+<comment type="function">
+<text>Subtilisin is an extracellular alkaline serine protease, it catalyzes the hydrolysis of proteins and peptide amides.</text>
+</comment>
+<comment type="catalytic activity">
+<reaction>
+<text>Hydrolysis of proteins with broad specificity for peptide bonds, and a preference for a large uncharged residue in P1. Hydrolyzes peptide amides.</text>
+<dbReference type="EC" id="3.4.21.62"/>
+</reaction>
+</comment>
+<comment type="cofactor">
+<cofactor>
+<name>Ca(2+)</name>
+<dbReference type="ChEBI" id="CHEBI:29108"/>
+</cofactor>
+<text>Binds 2 calcium ions per subunit.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Secreted</location>
+</subcellularLocation>
+</comment>
+<comment type="miscellaneous">
+<text>Secretion of subtilisin is associated with onset of sporulation, and many mutations which block sporulation at early stages affect expression levels of subtilisin. However, subtilisin is not necessary for normal sporulation.</text>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the peptidase S8 family.</text>
+</comment>
+<dbReference type="EC" id="3.4.21.62"/>
+<dbReference type="PDB" id="1ST3">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.40"/>
+<property type="chains" value="A=2-269"/>
+</dbReference>
+<dbReference type="PDBsum" id="1ST3"/>
+<dbReference type="SMR" id="P29599"/>
+<dbReference type="BindingDB" id="P29599"/>
+<dbReference type="ChEMBL" id="CHEMBL4258"/>
+<dbReference type="MEROPS" id="S08.003"/>
+<dbReference type="PRIDE" id="P29599"/>
+<dbReference type="SABIO-RK" id="P29599"/>
+<dbReference type="EvolutionaryTrace" id="P29599"/>
+<dbReference type="GO" id="GO:0005576">
+<property type="term" value="C:extracellular region"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004252">
+<property type="term" value="F:serine-type endopeptidase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030435">
+<property type="term" value="P:sporulation resulting in formation of a cellular spore"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="CDD" id="cd07477">
+<property type="entry name" value="Peptidases_S8_Subtilisin_subset"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.200">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000209">
+<property type="entry name" value="Peptidase_S8/S53_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036852">
+<property type="entry name" value="Peptidase_S8/S53_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR023827">
+<property type="entry name" value="Peptidase_S8_Asp-AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR022398">
+<property type="entry name" value="Peptidase_S8_His-AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR023828">
+<property type="entry name" value="Peptidase_S8_Ser-AS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015500">
+<property type="entry name" value="Peptidase_S8_subtilisin-rel"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR034202">
+<property type="entry name" value="Subtilisin_Carlsberg-like"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00082">
+<property type="entry name" value="Peptidase_S8"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00723">
+<property type="entry name" value="SUBTILISIN"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52743">
+<property type="entry name" value="SSF52743"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51892">
+<property type="entry name" value="SUBTILASE"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00136">
+<property type="entry name" value="SUBTILASE_ASP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00137">
+<property type="entry name" value="SUBTILASE_HIS"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00138">
+<property type="entry name" value="SUBTILASE_SER"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0106">Calcium</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0645">Protease</keyword>
+<keyword id="KW-0964">Secreted</keyword>
+<keyword id="KW-0720">Serine protease</keyword>
+<keyword id="KW-0749">Sporulation</keyword>
+<feature type="chain" description="Subtilisin BL" id="PRO_0000076416">
+<location>
+<begin position="1"/>
+<end position="269"/>
+</location>
+</feature>
+<feature type="domain" description="Peptidase S8" evidence="2">
+<location>
+<begin position="5"/>
+<end position="268"/>
+</location>
+</feature>
+<feature type="active site" description="Charge relay system" evidence="2">
+<location>
+<position position="32"/>
+</location>
+</feature>
+<feature type="active site" description="Charge relay system" evidence="2">
+<location>
+<position position="62"/>
+</location>
+</feature>
+<feature type="active site" description="Charge relay system" evidence="2">
+<location>
+<position position="215"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium 1">
+<location>
+<position position="2"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium 1">
+<location>
+<position position="40"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium 1; via carbonyl oxygen">
+<location>
+<position position="73"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium 1">
+<location>
+<position position="75"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium 1; via carbonyl oxygen">
+<location>
+<position position="77"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium 1; via carbonyl oxygen">
+<location>
+<position position="79"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium 2; via carbonyl oxygen">
+<location>
+<position position="163"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium 2; via carbonyl oxygen">
+<location>
+<position position="165"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Calcium 2; via carbonyl oxygen">
+<location>
+<position position="168"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="6"/>
+<end position="10"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="13"/>
+<end position="18"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="27"/>
+<end position="33"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="43"/>
+<end position="48"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="59"/>
+<end position="61"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="62"/>
+<end position="71"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="75"/>
+<end position="78"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="86"/>
+<end position="92"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="102"/>
+<end position="114"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="118"/>
+<end position="122"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="126"/>
+<end position="128"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="131"/>
+<end position="142"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="146"/>
+<end position="150"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="162"/>
+<end position="164"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="168"/>
+<end position="174"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="178"/>
+<end position="180"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="192"/>
+<end position="195"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="197"/>
+<end position="203"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="204"/>
+<end position="206"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="207"/>
+<end position="211"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="214"/>
+<end position="231"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="237"/>
+<end position="246"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="254"/>
+<end position="257"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="264"/>
+<end position="267"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1ST3"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU01240"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="269" mass="26824" checksum="E8AFF1A6A9E2676B" modified="1993-04-01" version="1">AQSVPWGISRVQAPAAHNRGLTGSGVKVAVLDTGISTHPDLNIRGGASFVPGEPSTQDGNGHGTHVAGTIAALNNSIGVLGVAPSAELYAVKVLGADGRGAISSIAQGLEWAGNNGMHVANLSLGSPSPSATLEQAVNSATSRGVLVVAASGNSGASSISYPARYANAMAVGATDQNNNRASFSQYGAGLDIVAPGVNVQSTYPGSTYASLNGTSMATPHVAGAAALVKQKNPSWSNVQIRNHLKNTATSLGSTNLYGSGLVNAEAATR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

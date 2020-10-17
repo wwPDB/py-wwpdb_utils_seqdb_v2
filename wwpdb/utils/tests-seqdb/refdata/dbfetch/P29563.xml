@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2019-12-11" version="101">
+<accession>P29563</accession>
+<name>BACR2_HALS2</name>
+<protein>
+<recommendedName>
+<fullName>Archaerhodopsin-2</fullName>
+<shortName>AR 2</shortName>
+</recommendedName>
+</protein>
+<organism>
+<name type="scientific">Halobacterium sp. (strain aus-2)</name>
+<dbReference type="NCBI Taxonomy" id="29285"/>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Stenosarchaea group</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+<taxon>Halobacterium</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1991" name="Arch. Biochem. Biophys." volume="286" first="107" last="110">
+<title>Archaerhodopsin-2, from Halobacterium sp. aus-2 further reveals essential amino acid residues for light-driven proton pumps.</title>
+<authorList>
+<person name="Uegaki K."/>
+<person name="Sugiyama Y."/>
+<person name="Mukohata Y."/>
+</authorList>
+<dbReference type="PubMed" id="1654776"/>
+<dbReference type="DOI" id="10.1016/0003-9861(91)90014-a"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>PARTIAL PROTEIN SEQUENCE</scope>
+</reference>
+<comment type="function">
+<text>Light-driven proton pump. It may interact with bacterioruberin in the claret membrane.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Cell membrane</location>
+<topology>Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="4">Belongs to the archaeal/bacterial/fungal opsin family.</text>
+</comment>
+<dbReference type="EMBL" id="S56354">
+<property type="protein sequence ID" value="AAB19870.2"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="S14731">
+<property type="entry name" value="S14731"/>
+</dbReference>
+<dbReference type="PDB" id="1VGO">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.50"/>
+<property type="chains" value="A/B=7-259"/>
+</dbReference>
+<dbReference type="PDB" id="2EI4">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.10"/>
+<property type="chains" value="A=7-259"/>
+</dbReference>
+<dbReference type="PDB" id="2Z55">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.50"/>
+<property type="chains" value="A/B/D/E=7-259"/>
+</dbReference>
+<dbReference type="PDB" id="3WQJ">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.80"/>
+<property type="chains" value="A=1-259"/>
+</dbReference>
+<dbReference type="PDBsum" id="1VGO"/>
+<dbReference type="PDBsum" id="2EI4"/>
+<dbReference type="PDBsum" id="2Z55"/>
+<dbReference type="PDBsum" id="3WQJ"/>
+<dbReference type="SMR" id="P29563"/>
+<dbReference type="TCDB" id="3.E.1.1.2">
+<property type="family name" value="the ion-translocating microbial rhodopsin (mr) family"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="P29563"/>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005216">
+<property type="term" value="F:ion channel activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009881">
+<property type="term" value="F:photoreceptor activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007602">
+<property type="term" value="P:phototransduction"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0018298">
+<property type="term" value="P:protein-chromophore linkage"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001425">
+<property type="entry name" value="Arc/bac/fun_rhodopsins"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018229">
+<property type="entry name" value="Rhodopsin_retinal_BS"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR28286">
+<property type="entry name" value="PTHR28286"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01036">
+<property type="entry name" value="Bac_rhodopsin"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00251">
+<property type="entry name" value="BACTRLOPSIN"/>
+</dbReference>
+<dbReference type="SMART" id="SM01021">
+<property type="entry name" value="Bac_rhodopsin"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00950">
+<property type="entry name" value="BACTERIAL_OPSIN_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00327">
+<property type="entry name" value="BACTERIAL_OPSIN_RET"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0157">Chromophore</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-0375">Hydrogen ion transport</keyword>
+<keyword id="KW-0406">Ion transport</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0600">Photoreceptor protein</keyword>
+<keyword id="KW-0873">Pyrrolidone carboxylic acid</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-0681">Retinal protein</keyword>
+<keyword id="KW-0716">Sensory transduction</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="propeptide" id="PRO_0000020252">
+<location>
+<begin position="1"/>
+<end position="6"/>
+</location>
+</feature>
+<feature type="chain" description="Archaerhodopsin-2" id="PRO_0000020253">
+<location>
+<begin position="7"/>
+<end position="259"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="7"/>
+<end position="18"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=Helix A" evidence="3">
+<location>
+<begin position="19"/>
+<end position="40"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="41"/>
+<end position="49"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=Helix B" evidence="3">
+<location>
+<begin position="50"/>
+<end position="71"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="72"/>
+<end position="90"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=Helix C" evidence="3">
+<location>
+<begin position="91"/>
+<end position="112"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="113"/>
+<end position="115"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=Helix D" evidence="3">
+<location>
+<begin position="116"/>
+<end position="138"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="139"/>
+<end position="142"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=Helix E" evidence="3">
+<location>
+<begin position="143"/>
+<end position="171"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="172"/>
+<end position="174"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=Helix F" evidence="3">
+<location>
+<begin position="175"/>
+<end position="203"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="204"/>
+<end position="211"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Name=Helix G" evidence="3">
+<location>
+<begin position="212"/>
+<end position="244"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="245"/>
+<end position="259"/>
+</location>
+</feature>
+<feature type="modified residue" description="Pyrrolidone carboxylic acid" evidence="3">
+<location>
+<position position="7"/>
+</location>
+</feature>
+<feature type="modified residue" description="N6-(retinylidene)lysine" evidence="3">
+<location>
+<position position="227"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="14"/>
+<end position="16"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="20"/>
+<end position="41"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="47"/>
+<end position="72"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="77"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="86"/>
+<end position="89"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="92"/>
+<end position="112"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="116"/>
+<end position="138"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="142"/>
+<end position="164"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="166"/>
+<end position="171"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="176"/>
+<end position="202"/>
+</location>
+</feature>
+<feature type="turn" evidence="2">
+<location>
+<begin position="204"/>
+<end position="207"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="212"/>
+<end position="235"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="238"/>
+<end position="240"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2EI4"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="3WQJ"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000250"/>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="259" mass="27938" checksum="918F368373DFED84" modified="1993-04-01" version="1" precursor="true">MDPIALQAGFDLLNDGRPETLWLGIGTLLMLIGTFYFIARGWGVTDKEAREYYAITILVPGIASAAYLAMFFGIGVTEVELASGTVLDIYYARYADWLFTTPLLLLDLALLAKVDRVTIGTLIGVDALMIVTGLIGALSKTPLARYTWWLFSTIAFLFVLYYLLTSLRSAAAKRSEEVRSTFNTLTALVAVLWTAYPILWIVGTEGAGVVGLGIETLAFMVLDVTAKVGFGFVLLRSRAILGETEAPEPSAGADASAAD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

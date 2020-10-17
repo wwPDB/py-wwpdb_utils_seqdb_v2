@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-06-12" modified="2020-08-12" version="84">
+<accession>Q926H8</accession>
+<name>UGPB_RHIME</name>
+<protein>
+<recommendedName>
+<fullName>sn-glycerol-3-phosphate-binding periplasmic protein UgpB</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">ugpB</name>
+<name type="ordered locus">RB0402</name>
+<name type="ORF">SMb20416</name>
+</gene>
+<organism>
+<name type="scientific">Rhizobium meliloti (strain 1021)</name>
+<name type="common">Ensifer meliloti</name>
+<name type="synonym">Sinorhizobium meliloti</name>
+<dbReference type="NCBI Taxonomy" id="266834"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rhizobiales</taxon>
+<taxon>Rhizobiaceae</taxon>
+<taxon>Sinorhizobium/Ensifer group</taxon>
+<taxon>Sinorhizobium</taxon>
+</lineage>
+</organism>
+<geneLocation type="plasmid">
+<name>pSymB</name>
+<name>megaplasmid 2</name>
+</geneLocation>
+<reference key="1">
+<citation type="journal article" date="2001" name="Proc. Natl. Acad. Sci. U.S.A." volume="98" first="9889" last="9894">
+<title>The complete sequence of the 1,683-kb pSymB megaplasmid from the N2-fixing endosymbiont Sinorhizobium meliloti.</title>
+<authorList>
+<person name="Finan T.M."/>
+<person name="Weidner S."/>
+<person name="Wong K."/>
+<person name="Buhrmester J."/>
+<person name="Chain P."/>
+<person name="Vorhoelter F.J."/>
+<person name="Hernandez-Lucas I."/>
+<person name="Becker A."/>
+<person name="Cowie A."/>
+<person name="Gouzy J."/>
+<person name="Golding B."/>
+<person name="Puehler A."/>
+</authorList>
+<dbReference type="PubMed" id="11481431"/>
+<dbReference type="DOI" id="10.1073/pnas.161294698"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>1021</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2001" name="Science" volume="293" first="668" last="672">
+<title>The composite genome of the legume symbiont Sinorhizobium meliloti.</title>
+<authorList>
+<person name="Galibert F."/>
+<person name="Finan T.M."/>
+<person name="Long S.R."/>
+<person name="Puehler A."/>
+<person name="Abola P."/>
+<person name="Ampe F."/>
+<person name="Barloy-Hubler F."/>
+<person name="Barnett M.J."/>
+<person name="Becker A."/>
+<person name="Boistard P."/>
+<person name="Bothe G."/>
+<person name="Boutry M."/>
+<person name="Bowser L."/>
+<person name="Buhrmester J."/>
+<person name="Cadieu E."/>
+<person name="Capela D."/>
+<person name="Chain P."/>
+<person name="Cowie A."/>
+<person name="Davis R.W."/>
+<person name="Dreano S."/>
+<person name="Federspiel N.A."/>
+<person name="Fisher R.F."/>
+<person name="Gloux S."/>
+<person name="Godrie T."/>
+<person name="Goffeau A."/>
+<person name="Golding B."/>
+<person name="Gouzy J."/>
+<person name="Gurjal M."/>
+<person name="Hernandez-Lucas I."/>
+<person name="Hong A."/>
+<person name="Huizar L."/>
+<person name="Hyman R.W."/>
+<person name="Jones T."/>
+<person name="Kahn D."/>
+<person name="Kahn M.L."/>
+<person name="Kalman S."/>
+<person name="Keating D.H."/>
+<person name="Kiss E."/>
+<person name="Komp C."/>
+<person name="Lelaure V."/>
+<person name="Masuy D."/>
+<person name="Palm C."/>
+<person name="Peck M.C."/>
+<person name="Pohl T.M."/>
+<person name="Portetelle D."/>
+<person name="Purnelle B."/>
+<person name="Ramsperger U."/>
+<person name="Surzycki R."/>
+<person name="Thebault P."/>
+<person name="Vandenbol M."/>
+<person name="Vorhoelter F.J."/>
+<person name="Weidner S."/>
+<person name="Wells D.H."/>
+<person name="Wong K."/>
+<person name="Yeh K.-C."/>
+<person name="Batut J."/>
+</authorList>
+<dbReference type="PubMed" id="11474104"/>
+<dbReference type="DOI" id="10.1126/science.1060966"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>1021</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Part of the ABC transporter complex UgpABCE involved in sn-glycerol-3-phosphate import.</text>
+</comment>
+<comment type="subunit">
+<text evidence="3">The complex is composed of two ATP-binding proteins (UgpC), two transmembrane proteins (UgpA and UgpE) and a solute-binding protein (UgpB).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="3">Periplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="3">Belongs to the bacterial solute-binding protein 1 family.</text>
+</comment>
+<dbReference type="EMBL" id="AL591985">
+<property type="protein sequence ID" value="CAC48802.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="B95892">
+<property type="entry name" value="B95892"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_436942.1">
+<property type="nucleotide sequence ID" value="NC_003078.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010975290.1">
+<property type="nucleotide sequence ID" value="NC_003078.1"/>
+</dbReference>
+<dbReference type="SMR" id="Q926H8"/>
+<dbReference type="STRING" id="266834.SM_b20416"/>
+<dbReference type="PRIDE" id="Q926H8"/>
+<dbReference type="EnsemblBacteria" id="CAC48802">
+<property type="protein sequence ID" value="CAC48802"/>
+<property type="gene ID" value="SM_b20416"/>
+</dbReference>
+<dbReference type="KEGG" id="sme:SM_b20416"/>
+<dbReference type="PATRIC" id="fig|266834.11.peg.5331"/>
+<dbReference type="eggNOG" id="COG1653">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_031285_3_0_5"/>
+<dbReference type="KO" id="K05813"/>
+<dbReference type="OMA" id="ESFSAWH"/>
+<dbReference type="Proteomes" id="UP000001976">
+<property type="component" value="Plasmid pSymB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042597">
+<property type="term" value="C:periplasmic space"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008643">
+<property type="term" value="P:carbohydrate transport"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13416">
+<property type="entry name" value="SBP_bac_8"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0574">Periplasm</keyword>
+<keyword id="KW-0614">Plasmid</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0762">Sugar transport</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="20"/>
+</location>
+</feature>
+<feature type="chain" description="sn-glycerol-3-phosphate-binding periplasmic protein UgpB" id="PRO_0000290129">
+<location>
+<begin position="21"/>
+<end position="430"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000305"/>
+<sequence length="430" mass="46642" checksum="C5BF6C8E7A1BBDD5" modified="2001-12-01" version="1" precursor="true">MRLISISTTIAFGFAFQAQAATELQWWHAMTGANNEMIEELTKEFNESQSTYKVVPVFKGTYPETLNAGIAAFRSKQPPAIIQVFDAGSGTMMAAEGAIVPAAEILQKGGFTFDKSQYLPGIVAYYSKPDGTMLSFPYNSSSPILYYNKDAFQKAGLNVDNPPKTWPEVFEAAKKIKTSGAAPCGMTSTWLTWIQTENFAAWNNVPYGTNENGLGGTDVKLQINAPLYVEHFQAIADLAKDGAFRYGGRTSEAKQLFTSGECAILTESSGGLGDIAKSGVNYGIGQLPYYEGHGPQNTIPGGASLWVFAGKSDEEYKGVAEFFNFLSQTEIQAKLHQVSGYMPVTMAAYEETKKSGFYEKNPGRETPLLQMMGKAPTENSKGVRLVNLPQVRDILNEEFEAMLSGQQDAKTALDKAVERGNAAIAAAISN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

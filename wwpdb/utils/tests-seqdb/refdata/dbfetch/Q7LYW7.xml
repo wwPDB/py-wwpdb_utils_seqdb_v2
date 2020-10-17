@@ -1,0 +1,538 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2013-03-06" modified="2020-02-26" version="62">
+<accession>Q7LYW7</accession>
+<accession>H3ZP67</accession>
+<name>MALE_THELN</name>
+<protein>
+<recommendedName>
+<fullName>Trehalose/maltose-binding protein MalE</fullName>
+<shortName>TMBP</shortName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary">malE</name>
+<name type="ORF">OCC_03562</name>
+</gene>
+<organism>
+<name type="scientific">Thermococcus litoralis (strain ATCC 51850 / DSM 5473 / JCM 8560 / NS-C)</name>
+<dbReference type="NCBI Taxonomy" id="523849"/>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+<taxon>Thermococcus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1998" name="J. Bacteriol." volume="180" first="680" last="689">
+<title>Archaeal binding protein-dependent ABC transporter: molecular and biochemical analysis of the trehalose/maltose transport system of the hyperthermophilic archaeon Thermococcus litoralis.</title>
+<authorList>
+<person name="Horlacher R."/>
+<person name="Xavier K.B."/>
+<person name="Santos H."/>
+<person name="DiRuggiero J."/>
+<person name="Kossmann M."/>
+<person name="Boos W."/>
+</authorList>
+<dbReference type="PubMed" id="9457875"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<scope>FUNCTION</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<source>
+<strain>ATCC 51850 / DSM 5473 / JCM 8560 / NS-C</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2000" name="Mol. Microbiol." volume="38" first="684" last="693">
+<title>Evidence of recent lateral gene transfer among hyperthermophilic archaea.</title>
+<authorList>
+<person name="Diruggiero J."/>
+<person name="Dunn D."/>
+<person name="Maeder D.L."/>
+<person name="Holley-Shanks R."/>
+<person name="Chatard J."/>
+<person name="Horlacher R."/>
+<person name="Robb F.T."/>
+<person name="Boos W."/>
+<person name="Weiss R.B."/>
+</authorList>
+<dbReference type="PubMed" id="11115105"/>
+<dbReference type="DOI" id="10.1046/j.1365-2958.2000.02161.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 51850 / DSM 5473 / JCM 8560 / NS-C</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2012" name="J. Bacteriol." volume="194" first="2375" last="2376">
+<title>Genome sequence of the model hyperthermophilic archaeon Thermococcus litoralis NS-C.</title>
+<authorList>
+<person name="Gardner A.F."/>
+<person name="Kumar S."/>
+<person name="Perler F.B."/>
+</authorList>
+<dbReference type="PubMed" id="22493191"/>
+<dbReference type="DOI" id="10.1128/jb.00123-12"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain>ATCC 51850 / DSM 5473 / JCM 8560 / NS-C</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1996" name="J. Bacteriol." volume="178" first="4773" last="4777">
+<title>High-affinity maltose/trehalose transport system in the hyperthermophilic archaeon Thermococcus litoralis.</title>
+<authorList>
+<person name="Xavier K.B."/>
+<person name="Martins L.O."/>
+<person name="Peist R."/>
+<person name="Kossmann M."/>
+<person name="Boos W."/>
+<person name="Santos H."/>
+</authorList>
+<dbReference type="PubMed" id="8759837"/>
+<dbReference type="DOI" id="10.1128/jb.178.16.4773-4777.1996"/>
+</citation>
+<scope>FUNCTION</scope>
+<source>
+<strain>ATCC 51850 / DSM 5473 / JCM 8560 / NS-C</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2001" name="Eur. J. Biochem." volume="268" first="4011" last="4018">
+<title>Purification and characterization of the heterologously expressed trehalose/maltose ABC transporter complex of the hyperthermophilic archaeon Thermococcus litoralis.</title>
+<authorList>
+<person name="Greller G."/>
+<person name="Riek R."/>
+<person name="Boos W."/>
+</authorList>
+<dbReference type="PubMed" id="11453995"/>
+<dbReference type="DOI" id="10.1046/j.1432-1327.2001.02313.x"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>SUBUNIT</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>GLYCOSYLATION</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2006" name="Proteins" volume="63" first="754" last="767">
+<title>D-trehalose/D-maltose-binding protein from the hyperthermophilic archaeon Thermococcus litoralis: the binding of trehalose and maltose results in different protein conformational states.</title>
+<authorList>
+<person name="Herman P."/>
+<person name="Staiano M."/>
+<person name="Marabotti A."/>
+<person name="Varriale A."/>
+<person name="Scire A."/>
+<person name="Tanfani F."/>
+<person name="Vecer J."/>
+<person name="Rossi M."/>
+<person name="D'Auria S."/>
+</authorList>
+<dbReference type="PubMed" id="16532450"/>
+<dbReference type="DOI" id="10.1002/prot.20952"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<comment type="function">
+<text evidence="3 4 5 6">Part of the ABC transporter complex MalEFGK involved in trehalose/maltose import. Binds maltose and trehalose.</text>
+</comment>
+<comment type="subunit">
+<text evidence="3">The complex is composed of two ATP-binding proteins (MalK), two transmembrane proteins (MalG and MalF) and a solute-binding protein (MalE).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="8 10">Cell membrane</location>
+<topology evidence="8 10">Lipid-anchor</topology>
+</subcellularLocation>
+</comment>
+<comment type="PTM">
+<text evidence="3">Glycosylated.</text>
+</comment>
+<comment type="miscellaneous">
+<text evidence="9">The protein assumes different conformations with different physical properties depending whether maltose or trehalose is bound to the protein.</text>
+</comment>
+<comment type="similarity">
+<text evidence="7">Belongs to the bacterial solute-binding protein 1 family.</text>
+</comment>
+<dbReference type="EMBL" id="AF012836">
+<property type="protein sequence ID" value="AAC38136.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AF307053">
+<property type="protein sequence ID" value="AAG45388.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CP006670">
+<property type="protein sequence ID" value="EHR78234.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_004068724.1">
+<property type="nucleotide sequence ID" value="NC_022084.1"/>
+</dbReference>
+<dbReference type="PDB" id="1EU8">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.90"/>
+<property type="chains" value="A=45-450"/>
+</dbReference>
+<dbReference type="PDBsum" id="1EU8"/>
+<dbReference type="SMR" id="Q7LYW7"/>
+<dbReference type="EnsemblBacteria" id="EHR78234">
+<property type="protein sequence ID" value="EHR78234"/>
+<property type="gene ID" value="OCC_03562"/>
+</dbReference>
+<dbReference type="GeneID" id="16548949"/>
+<dbReference type="KEGG" id="tlt:OCC_03562"/>
+<dbReference type="HOGENOM" id="CLU_031285_9_1_2"/>
+<dbReference type="KO" id="K02027"/>
+<dbReference type="OMA" id="PFWANTQ"/>
+<dbReference type="OrthoDB" id="14861at2157"/>
+<dbReference type="Proteomes" id="UP000015502">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008643">
+<property type="term" value="P:carbohydrate transport"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006059">
+<property type="entry name" value="SBP"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01547">
+<property type="entry name" value="SBP_bac_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51257">
+<property type="entry name" value="PROKAR_LIPOPROTEIN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0449">Lipoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0762">Sugar transport</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="chain" description="Trehalose/maltose-binding protein MalE" id="PRO_0000421288">
+<location>
+<begin position="25"/>
+<end position="450"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1; AAC38136 and 2; AAG45388." ref="1 2" evidence="7">
+<original>S</original>
+<variation>G</variation>
+<location>
+<position position="219"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="44"/>
+<end position="51"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="55"/>
+<end position="71"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="76"/>
+<end position="81"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="86"/>
+<end position="97"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="98"/>
+<end position="100"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="102"/>
+<end position="110"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="111"/>
+<end position="113"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="114"/>
+<end position="119"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="127"/>
+<end position="133"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="137"/>
+<end position="139"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="142"/>
+<end position="148"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="158"/>
+<end position="164"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="166"/>
+<end position="170"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="171"/>
+<end position="176"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="186"/>
+<end position="200"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="201"/>
+<end position="203"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="208"/>
+<end position="211"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="215"/>
+<end position="217"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="218"/>
+<end position="229"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="230"/>
+<end position="232"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="235"/>
+<end position="239"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="242"/>
+<end position="245"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="250"/>
+<end position="264"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="271"/>
+<end position="273"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="274"/>
+<end position="276"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="279"/>
+<end position="287"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="291"/>
+<end position="296"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="299"/>
+<end position="304"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="310"/>
+<end position="313"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="315"/>
+<end position="318"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="331"/>
+<end position="340"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="346"/>
+<end position="356"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="359"/>
+<end position="368"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="373"/>
+<end position="375"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="378"/>
+<end position="380"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="382"/>
+<end position="387"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="390"/>
+<end position="393"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="395"/>
+<end position="399"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="410"/>
+<end position="425"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="431"/>
+<end position="446"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1EU8"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00303"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11453995"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16532450"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8759837"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9457875"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000305"/>
+<evidence key="8" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="11453995"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="16532450"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="9457875"/>
+</source>
+</evidence>
+<sequence length="450" mass="50421" checksum="48386C9DC402075B" modified="2014-05-14" version="2" precursor="true">MNVKKVLLGLFLVGVLGIAVVASGCIGGQQTSTVTSTPTETSLQGKIVFAVGGAPNEIEYWKGVIAEFEKKYPGVTVELKRQATDTEQRRLDLVNALRGKSSDPDVFLMDVAWLGQFIASGWLEPLDDYVQKDNYDLSVFFQSVINLADKQGGKLYALPVYIDAGLLYYRKDLLEKYGYSKPPETWQELVEMAQKIQSGERETNPNFWGFVWQGKQYESLVCDFVEYVYSNGGSLGEFKDGKWVPTLNKPENVEALQFMVDLIHKYKISPPNTYTEMTEEPVRLMFQQGNAAFERNWPYAWGLHNADDSPVKGKVGVAPLPHFPGHKSAATLGGWHIGISKYSDNKALAWEFVKFVESYSVQKGFAMNLGWNPGRVDVYDDPAVVSKSPHLKELRAVFENAVPRPIVPYYPQLSEIIQKYVNSALAGKISPQEALDKAQKEAEELVKQYS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

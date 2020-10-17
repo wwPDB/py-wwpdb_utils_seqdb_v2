@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2020-08-12" version="100">
+<accession>P29899</accession>
+<name>CYCL_PARDE</name>
+<protein>
+<recommendedName>
+<fullName>Cytochrome c-L</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>Cytochrome c551I</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Cytochrome c552</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="primary">moxG</name>
+</gene>
+<organism>
+<name type="scientific">Paracoccus denitrificans</name>
+<dbReference type="NCBI Taxonomy" id="266"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rhodobacterales</taxon>
+<taxon>Rhodobacteraceae</taxon>
+<taxon>Paracoccus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1991" name="J. Bacteriol." volume="173" first="6948" last="6961">
+<title>Isolation and characterization of the moxJ, moxG, moxI, and moxR genes of Paracoccus denitrificans: inactivation of moxJ, moxG, and moxR and the resultant effect on methylotrophic growth.</title>
+<authorList>
+<person name="van Spanning R.J.M."/>
+<person name="Wansell C.W."/>
+<person name="de Boer T."/>
+<person name="Hazelaar M.J."/>
+<person name="Anazawa H."/>
+<person name="Harms N."/>
+<person name="Oltmann L.F."/>
+<person name="Stouthamer A.H."/>
+</authorList>
+<dbReference type="PubMed" id="1657871"/>
+<dbReference type="DOI" id="10.1128/jb.173.21.6948-6961.1991"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+<source>
+<strain>Pd 1222</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1994" name="Science" volume="264" first="86" last="90">
+<title>Structure of an electron transfer complex: methylamine dehydrogenase, amicyanin, and cytochrome c551i.</title>
+<authorList>
+<person name="Chen L."/>
+<person name="Durley R."/>
+<person name="Mathews F.S."/>
+<person name="Davidson V.L."/>
+</authorList>
+<dbReference type="PubMed" id="8140419"/>
+<dbReference type="DOI" id="10.1126/science.8140419"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS)</scope>
+</reference>
+<comment type="function">
+<text>Electron acceptor for MDH. Acts in methanol oxidation.</text>
+</comment>
+<comment type="biophysicochemical properties">
+<redoxPotential>
+<text>E(0) is about +190 mV.</text>
+</redoxPotential>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="4">Periplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="induction">
+<text>During growth on methanol.</text>
+</comment>
+<comment type="PTM">
+<text>Binds 1 heme group per subunit.</text>
+</comment>
+<dbReference type="EMBL" id="M57684">
+<property type="protein sequence ID" value="AAA25583.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="B41377">
+<property type="entry name" value="B41377"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010399085.1">
+<property type="nucleotide sequence ID" value="NZ_FOYK01000012.1"/>
+</dbReference>
+<dbReference type="PDB" id="1MG2">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.25"/>
+<property type="chains" value="D/H/L/P=23-177"/>
+</dbReference>
+<dbReference type="PDB" id="1MG3">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.40"/>
+<property type="chains" value="D/H/L/P=23-177"/>
+</dbReference>
+<dbReference type="PDB" id="2GC4">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.90"/>
+<property type="chains" value="D/H/L/P=23-169"/>
+</dbReference>
+<dbReference type="PDB" id="2GC7">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.90"/>
+<property type="chains" value="D/H/L/P=23-169"/>
+</dbReference>
+<dbReference type="PDB" id="2MTA">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.40"/>
+<property type="chains" value="C=23-169"/>
+</dbReference>
+<dbReference type="PDBsum" id="1MG2"/>
+<dbReference type="PDBsum" id="1MG3"/>
+<dbReference type="PDBsum" id="2GC4"/>
+<dbReference type="PDBsum" id="2GC7"/>
+<dbReference type="PDBsum" id="2MTA"/>
+<dbReference type="SMR" id="P29899"/>
+<dbReference type="DrugBank" id="DB08646">
+<property type="generic name" value="TRW3-(2-AMINO-3-HYDROXY-PROPYL)-6-(N'-CYCLOHEXYL-HYDRAZINO)OCTAHYDRO-INDOL-7-OL"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="P29899"/>
+<dbReference type="GO" id="GO:0042597">
+<property type="term" value="C:periplasmic space"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009055">
+<property type="term" value="F:electron transfer activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0020037">
+<property type="term" value="F:heme binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005506">
+<property type="term" value="F:iron ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0015945">
+<property type="term" value="P:methanol metabolic process"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.760.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009056">
+<property type="entry name" value="Cyt_c-like_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036909">
+<property type="entry name" value="Cyt_c-like_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009153">
+<property type="entry name" value="Cyt_cL"/>
+</dbReference>
+<dbReference type="Pfam" id="PF13442">
+<property type="entry name" value="Cytochrome_CBB3"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PIRSF" id="PIRSF000008">
+<property type="entry name" value="Cytochrome_c551i"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF46626">
+<property type="entry name" value="SSF46626"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR03872">
+<property type="entry name" value="cytochrome_MoxG"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51007">
+<property type="entry name" value="CYTC"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0249">Electron transport</keyword>
+<keyword id="KW-0349">Heme</keyword>
+<keyword id="KW-0408">Iron</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0485">Methanol utilization</keyword>
+<keyword id="KW-0574">Periplasm</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0813">Transport</keyword>
+<feature type="signal peptide" evidence="3">
+<location>
+<begin position="1"/>
+<end position="22"/>
+</location>
+</feature>
+<feature type="chain" description="Cytochrome c-L" id="PRO_0000006553">
+<location>
+<begin position="23"/>
+<end position="177"/>
+</location>
+</feature>
+<feature type="metal ion-binding site" description="Iron (heme axial ligand)">
+<location>
+<position position="83"/>
+</location>
+</feature>
+<feature type="binding site" description="Heme (covalent)">
+<location>
+<position position="79"/>
+</location>
+</feature>
+<feature type="binding site" description="Heme (covalent)">
+<location>
+<position position="82"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="29"/>
+<end position="31"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="37"/>
+<end position="39"/>
+</location>
+</feature>
+<feature type="helix" evidence="2">
+<location>
+<begin position="42"/>
+<end position="44"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="45"/>
+<end position="47"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="48"/>
+<end position="56"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="60"/>
+<end position="63"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="65"/>
+<end position="67"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="68"/>
+<end position="78"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="80"/>
+<end position="83"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="90"/>
+<end position="92"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="96"/>
+<end position="98"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="103"/>
+<end position="106"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="108"/>
+<end position="117"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="127"/>
+<end position="129"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="132"/>
+<end position="144"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="150"/>
+<end position="152"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="158"/>
+<end position="162"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2GC4"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="2MTA"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000305"/>
+<sequence length="177" mass="19396" checksum="6949FBDC8B2C056E" modified="1993-04-01" version="1" precursor="true">MTKPRILAAFAMTLIIPVAAMAAPQFFNIIDGSPLNFDDAMEEGRDTEAVKHFLETGENVYNEDPEILPEAEELYAGMCSGCHGHYAEGKIGPGLNDAYWTYPGNETDVGLFSTLYGGATGQMGPMWGSLTLDEMLRTMAWVRHLYTGDPKDASWLTDEQKAGFTPFQPKSSGEDQS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>
