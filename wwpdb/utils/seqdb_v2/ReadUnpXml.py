@@ -93,6 +93,11 @@ class ReadUnpXml(object):
         self.__accessionD = {}
         self.__doc = doc
         self.__multipleResultDict = {}
+        #
+        self.__dictList = []
+        self.__commentsDict = {}
+        self.__rangesDict = {}
+        self.__variantList = []
 
     def addVariant(self, accessionId, varId):
         """Register a variant id with the input accession code."""
@@ -249,9 +254,9 @@ class ReadUnpXml(object):
                 if foundError:
                     continue
                 #
-                copyItems = ( "db_code", "db_accession", "gene", "source_scientific", "source_common", "taxonomy_id", "sequence" )
+                copyItems = ("db_code", "db_accession", "gene", "source_scientific", "source_common", "taxonomy_id", "sequence")
                 if not foundComment:
-                    copyItems = ( "db_code", "db_accession", "gene", "source_scientific", "source_common", "taxonomy_id", "comments", "sequence" )
+                    copyItems = ("db_code", "db_accession", "gene", "source_scientific", "source_common", "taxonomy_id", "comments", "sequence")
                 #
                 for dic in self.__dictList:
                     if self.__variantList:
@@ -261,7 +266,7 @@ class ReadUnpXml(object):
                         if (item in rdict) and rdict[item]:
                             dic[item] = rdict[item]
                         #
-                    # 
+                    #
                 #
                 if ("keyword" in rdict) and rdict["keyword"]:
                     self.__dictList[-1]["keyword"] = rdict["keyword"]
@@ -291,7 +296,7 @@ class ReadUnpXml(object):
             if node.nodeType != node.ELEMENT_NODE:
                 continue
             #
-            if node.tagName in ( "recommendedName", "alternativeName", "submittedName" ):
+            if node.tagName in ("recommendedName", "alternativeName", "submittedName"):
                 namelist = self._findName(node.childNodes)
                 for k, v in namelist.items():
                     if k == "fullName":
@@ -319,7 +324,7 @@ class ReadUnpXml(object):
             if node.nodeType != node.ELEMENT_NODE:
                 continue
             #
-            if node.tagName in ( "recommendedName", "alternativeName", "submittedName" ):
+            if node.tagName in ("recommendedName", "alternativeName", "submittedName"):
                 namelist = self._findName(node.childNodes)
                 for k, v in namelist.items():
                     if k == "fullName":
@@ -362,7 +367,7 @@ class ReadUnpXml(object):
         <shortName>PDGF subunit B</shortName>
         """
         d = {}
-        tagName = ( "fullName", "shortName", "ecNumber" )
+        tagName = ("fullName", "shortName", "ecNumber")
         for node in nodeList:
             if (node.nodeType != node.ELEMENT_NODE) or (node.tagName not in tagName):
                 continue
@@ -419,7 +424,7 @@ class ReadUnpXml(object):
                             rdict["source_common"] = rdict["source_common"] + ", " + node.firstChild.data
                         #
                     #
-                # 
+                #
             elif node.tagName == "dbReference":
                 ntype = node.attributes["type"]
                 if ntype and ntype.value == "NCBI Taxonomy":
@@ -456,7 +461,7 @@ class ReadUnpXml(object):
 
         ntype = node.attributes["type"]
         if ntype and ntype.value != "online information":
-            text,molecule = self._findText(node.childNodes)
+            text, molecule = self._findText(node.childNodes)
             if text:
                 if "comments" in cDict:
                     cDict["comments"] = cDict["comments"] + "\n" + ntype.value + ": " + text
@@ -467,7 +472,7 @@ class ReadUnpXml(object):
                     if molecule in self.__commentsDict:
                         self.__commentsDict[molecule].append(ntype.value + ": " + text)
                     else:
-                        self.__commentsDict[molecule] = [ ntype.value + ": " + text ]
+                        self.__commentsDict[molecule] = [ntype.value + ": " + text]
                     #
                 #
             #
@@ -489,11 +494,10 @@ class ReadUnpXml(object):
                 molecule = node.firstChild.data
             #
         #
-        return text,molecule
+        return text, molecule
 
     def _findFeatures(self, node):
-        """
-        """
+        """"""
         if "type" not in node.attributes:
             return
         #
@@ -518,10 +522,10 @@ class ReadUnpXml(object):
                     if node2.nodeType != node2.ELEMENT_NODE:
                         continue
                     #
-                    if node2.tagName in ( "begin", "end" ):
+                    if node2.tagName in ("begin", "end"):
                         try:
-                            rDict[node2.tagName] = int(node2.attributes["position"].value)       
-                        except:
+                            rDict[node2.tagName] = int(node2.attributes["position"].value)
+                        except:  # noqa: E722 pylint: disable=bare-except
                             traceback.print_exc(file=self.__lfh)
                         #
                     #
@@ -549,8 +553,8 @@ class ReadUnpXml(object):
                         #
                         if node2.tagName == "position":
                             try:
-                                position = str(node2.attributes["position"].value)       
-                            except:
+                                position = str(node2.attributes["position"].value)
+                            except:  # noqa: E722 pylint: disable=bare-except
                                 traceback.print_exc(file=self.__lfh)
                             #
                         #

@@ -65,6 +65,7 @@ class FastaUtil(object):
             except Exception as e:
                 if self.__verbose:
                     self.__lfh.write("+FastaUtil.loadFastaUniProt() Read failing for file %s at %s err %s\n" % (fastaFilePath, cmtLine, str(e)))
+                ifh.close()
                 return seqIdList, seqDict
                 #
             if seqId not in seqDict:
@@ -85,6 +86,7 @@ class FastaUtil(object):
         if self.__verbose:
             self.__lfh.write("+FastaUtil.loadFastaUniProt() Read %d sequences in %s\n" % (len(seqIdList), fastaFilePath))
 
+        ifh.close()
         return seqIdList, seqDict
 
     def __read_record_fasta(self, ifh):
