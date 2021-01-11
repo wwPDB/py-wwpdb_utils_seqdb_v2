@@ -12,6 +12,7 @@
 #
 #  29-Jul-2014 jdw WARNING -- Handling of variant seqeuences is incomplete --
 #  02-Sep-2020 zf  added a work-around for isoforms sequence.
+#  29-Dec-2020 zf  added getMultipleResultDict()
 ##
 
 __author__ = "Zukang Feng"
@@ -57,11 +58,11 @@ class FetchUnpXml:
         self._baseUrl = "https://www.ebi.ac.uk/Tools/dbfetch/dbfetch"
         self._baseUrlUnp = "https://www.ebi.ac.uk/proteins/api/proteins"
         #
-
         self.__maxLength = maxLength
         #
         self.__dataList = []
         self.__result = {}
+        self.__multipleResult = {}
         #
         self.__idList = []
         self.__searchIdList = []
@@ -88,6 +89,7 @@ class FetchUnpXml:
                 return False
             #
             self.__result = {}
+            self.__multipleResult = {}
             self.__dataList = []
             self.__idList = []
             self.__isoformIdList = []
@@ -112,7 +114,7 @@ class FetchUnpXml:
                 self.__lfh.write("+FetchUnpXml.fetchList() input id list %s\n" % idList)
                 self.__lfh.write("+FetchUnpXml.fetchList() search   list %s\n" % self.__searchIdList)
                 self.__lfh.write("+FetchUnpXml.fetchList() variants      %s\n" % self.__variantD.items())
-
+            #
             if (num == 0) and (not self.__isoformIdList):
                 return False
             #
@@ -156,13 +158,16 @@ class FetchUnpXml:
             if self.__verbose:
                 self.__lfh.write("+FetchUnpXml.fetchList() exception %s\n" % str(e))
                 traceback.print_exc(file=self.__lfh)
+            #
+        #
         return False
 
     def writeUnpXml(self, filename):
-        file = open(filename, "w")
+        wfile = open(filename, "w")
         for data in self.__dataList:
-            file.write(data)
-        file.close()
+            wfile.write(data)
+        #
+        wfile.close()
 
     def getResult(self):
         """Get the parsed UniProt entry data in a dictionary structure.
@@ -173,7 +178,8 @@ class FetchUnpXml:
         """
         return self.__result
 
-    #
+    def getMultipleResultDict(self):
+        return self.__multipleResult
 
     def __processIdList(self):
         """
@@ -216,7 +222,6 @@ class FetchUnpXml:
 
         Return xml text for the corresentry  UniProt entries
         """
-        #
         if not fallback:
             params = {}
             params["db"] = "uniprotkb"
@@ -237,7 +242,7 @@ class FetchUnpXml:
             logger.debug("Request with data %s", params)
             reqH = requests.get(self._baseUrlUnp, params=params, headers={"Accept": "application/xml"}, verify=False)
             reqH.raise_for_status()
-
+        #
         # data = reqH.read()
         data = reqH.text
         return data
@@ -265,18 +270,23 @@ class FetchUnpXml:
         """
         try:
             self.__result = {}
+            self.__multipleResult = {}
             for data in self.__dataList:
                 readxml = ReadUnpXmlString(data, verbose=self.__verbose, log=self.__lfh)
                 for vId, aId in self.__variantD.items():
                     readxml.addVariant(aId, vId)
+                #
                 self.__result.update(readxml.getResult())
+                self.__multipleResult.update(readxml.getMultipleResultDict())
+            #
             return True
         except Exception as e:
             if self.__verbose:
                 self.__lfh.write("+FetchUnpXml.__ParseUnpXmlData() exception %s\n" % str(e))
                 traceback.print_exc(file=self.__lfh)
+            #
             return False
-
+        #
 
 def main(argv):  # pragma: no cover
     opts, _args = getopt.getopt(argv, "i:", ["id="])
@@ -289,7 +299,9 @@ def main(argv):  # pragma: no cover
             rdict = fobj.getResult()
             for (k, v) in rdict.items():
                 sys.stdout.write("%-30s = %s\n" % (k, v))
-
+            #
+        #
+    #
 
 if __name__ == "__main__":  # pragma: no cover
     try:
@@ -298,3 +310,4 @@ if __name__ == "__main__":  # pragma: no cover
     except Exception as exc:
         sys.stderr.write(exc)
         sys.exit(1)
+    #
