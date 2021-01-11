@@ -498,7 +498,7 @@ class ReadUnpXml(object):
 
     def _findFeatures(self, node):
         """"""
-        if "type" not in node.attributes:
+        if node.hasAttribute("type") is False:
             return
         #
         ntype = node.attributes["type"]
@@ -506,7 +506,7 @@ class ReadUnpXml(object):
             return
         #
         if (ntype.value == "chain") or (ntype.value == "peptide"):
-            if "description" not in node.attributes:
+            if node.hasAttribute("description") is False:
                 return
             #
             ndescription = node.attributes["description"]

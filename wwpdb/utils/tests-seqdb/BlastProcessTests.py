@@ -140,6 +140,7 @@ class BlastProcessTests(unittest.TestCase):
         self.__testFileFragmentsCif = "3l2j.cif"
         self.__testTaxPath = os.path.join(mockTopPath, "TAXONOMY")
         self.__taxonomyDataFile = "nodes.dmp.gz"
+        self.__mock = None
         if "MOCKREQUESTS" in os.environ:
             self.__mock = requests_mock.Mocker()
             url = "https://www.ebi.ac.uk/Tools/services/rest/ncbiblast"
