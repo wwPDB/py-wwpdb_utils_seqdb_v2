@@ -14,7 +14,7 @@ import sys
 import os
 import copy
 import traceback
-from wwpdb.utils.config.ConfigInfo import ConfigInfo
+from wwpdb.utils.config.ConfigInfoApp import ConfigInfoAppCommon
 from wwpdb.utils.seqdb_v2.FetchUnpXml import FetchUnpXml
 from wwpdb.utils.seqdb_v2.FastaUtil import FastaUtil
 
@@ -42,8 +42,8 @@ class FetchUniProtEntry:
         self.__vD = {}
         self.__faLoaded = False
         #
-        cI = ConfigInfo(self.__siteId)
-        self.__fastaPath = cI.get("SITE_REFDATA_SEQUENCE_DB_PATH")
+        cICommon = ConfigInfoAppCommon(self.__siteId)
+        self.__fastaPath = cICommon.get_site_refdata_sequence_db_path()
         self.__variantFastaFilePath = os.path.join(self.__fastaPath, "uniprot_sprot_varsplic.fasta")
         #
 
