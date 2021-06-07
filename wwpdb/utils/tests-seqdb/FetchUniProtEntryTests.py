@@ -35,7 +35,8 @@ try:
 except ImportError:
     from urlparse import parse_qs
 
-from wwpdb.utils.config.ConfigInfo import getSiteId, ConfigInfo
+from wwpdb.utils.config.ConfigInfo import getSiteId
+from wwpdb.utils.config.ConfigInfoApp import ConfigInfoAppCommon
 from wwpdb.utils.seqdb_v2.FetchUniProtEntry import FetchUniProtEntry
 
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -45,19 +46,14 @@ if not os.path.exists(TESTOUTPUT):
     os.makedirs(TESTOUTPUT)
 
 
-class MyConfigInfo(ConfigInfo):
+class MyConfigInfo(ConfigInfoAppCommon):
     """A class to bypass setting of refdata"""
 
     def __init__(self, siteId=None, verbose=True, log=sys.stderr):
         super(MyConfigInfo, self).__init__(siteId=siteId, verbose=verbose, log=log)
 
-    def get(self, keyWord, default=None):
-        if keyWord == "SITE_REFDATA_SEQUENCE_DB_PATH":
-            val = os.path.join(HERE, "refdata")
-        else:
-            sys.stderr.write("XXXXX Unknown site config fetching\n")
-            val = super(MyConfigInfo, self).get(keyWord=keyWord, default=default)
-        return val
+    def get_site_refdata_sequence_db_path(self):
+        return os.path.join(HERE, "refdata")
 
 
 # Mock request handlers
@@ -138,12 +134,14 @@ class FetchUniProtEntryTests(unittest.TestCase):
             self.__mock.post("https://www.ebi.ac.uk/Tools/dbfetch/dbfetch", text=dbfetchTextCallBack)
             self.__mock.add_matcher(isoformMatcher)
             self.__mock.start()
+        else:
+            self.__mock = None
 
     def tearDown(self):
         if self.__mock is not None:
             self.__mock.stop()
 
-    @patch("wwpdb.utils.seqdb_v2.FetchUniProtEntry.ConfigInfo", side_effect=MyConfigInfo)
+    @patch("wwpdb.utils.seqdb_v2.FetchUniProtEntry.ConfigInfoAppCommon", side_effect=MyConfigInfo)
     def testFetchVariantIds(self, mock1):  # pylint: disable=unused-argument
         """"""
         self.__lfh.write("\nStarting FetchUniProtEntryTests testFetchVariantIds\n")

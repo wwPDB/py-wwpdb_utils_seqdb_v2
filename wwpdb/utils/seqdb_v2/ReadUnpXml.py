@@ -570,7 +570,7 @@ class ReadUnpXml(object):
         #
 
     def _FindIsoFormSeq(self, doc, vId, vDict):
-        """Get isoform sequence for vId if it exists  -  """
+        """Get isoform sequence for vId if it exists  -"""
         if self.__debug:
             self.__lfh.write("+ReadUnpXML._FindIsoFormSeq - starting vId %s dict %r\n" % (vId, vDict.items()))
         try:
