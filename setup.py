@@ -40,7 +40,7 @@ setup(
         "Programming Language :: Python :: 3.7",
     ],
     #
-    install_requires=["mmcif", "mmcif.utils", "wwpdb.utils.config", "requests"],
+    install_requires=["mmcif", "mmcif.utils", "wwpdb.utils.config ~= 0.24", "requests"],
     packages=find_packages(exclude=["wwpdb.utils.tests-seqdb", "mock-data", "tests.*"]),
     package_data={
         # If any package contains *.md or *.rst ...  files, include them:
