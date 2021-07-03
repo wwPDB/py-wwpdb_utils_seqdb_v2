@@ -64,7 +64,6 @@ def dbfetchFullCallBack(request, context):
 
 class FetchNcbiXmlTests(unittest.TestCase):
     def setUp(self):
-        self.__verbose = True
         self.__lfh = sys.stderr
         self.__nucList = ["21614549"]
         self.__mock = None

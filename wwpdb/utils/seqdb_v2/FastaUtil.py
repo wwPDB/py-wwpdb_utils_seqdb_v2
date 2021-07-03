@@ -103,35 +103,35 @@ class FastaUtil(object):
         if comment:
             yield (comment, "".join(sequence))
 
-    def __writeFasta(self, ofh, seqDict, seqIdList, maxLineLength=70):
-        """"""
-        lCount = 0
-        for seqId in seqIdList:
-            sA = []
-            sequence = seqDict[seqId]
-            sA.append(">%s\n" % seqId)
-            lCount += 1
-            for i in range(0, len(sequence), maxLineLength):
-                sA.append(sequence[i : i + maxLineLength] + "\n")
-                result = "".join(sA)
-                lCount += 1
-            ofh.write(result)
-        self.__lfh.write("+FastaUtil.__writeFasta() Formatted %d sequences in %d text lines\n" % (len(seqIdList), lCount))
+    # def __writeFasta(self, ofh, seqDict, seqIdList, maxLineLength=70):
+    #     """"""
+    #     lCount = 0
+    #     for seqId in seqIdList:
+    #         sA = []
+    #         sequence = seqDict[seqId]
+    #         sA.append(">%s\n" % seqId)
+    #         lCount += 1
+    #         for i in range(0, len(sequence), maxLineLength):
+    #             sA.append(sequence[i : i + maxLineLength] + "\n")
+    #             result = "".join(sA)
+    #             lCount += 1
+    #         ofh.write(result)
+    #     self.__lfh.write("+FastaUtil.__writeFasta() Formatted %d sequences in %d text lines\n" % (len(seqIdList), lCount))
 
-    def __formatFasta(self, seqDict, seqIdList, maxLineLength=70):
-        """"""
-        sA = []
-        lCount = 0
-        for seqId in seqIdList:
-            sequence = seqDict[seqId]
-            sA.append(">%s\n" % seqId)
-            lCount += 1
-            for i in range(0, len(sequence), maxLineLength):
-                sA.append(sequence[i : i + maxLineLength] + "\n")
-                result = "".join(sA)
-                lCount += 1
-        self.__lfh.write("+FastaUtil.__formatFasta() Formatted %d sequences in %d text lines\n" % (len(seqIdList), lCount))
-        return result
+    # def __formatFasta(self, seqDict, seqIdList, maxLineLength=70):
+    #     """"""
+    #     sA = []
+    #     lCount = 0
+    #     for seqId in seqIdList:
+    #         sequence = seqDict[seqId]
+    #         sA.append(">%s\n" % seqId)
+    #         lCount += 1
+    #         for i in range(0, len(sequence), maxLineLength):
+    #             sA.append(sequence[i : i + maxLineLength] + "\n")
+    #             result = "".join(sA)
+    #             lCount += 1
+    #     self.__lfh.write("+FastaUtil.__formatFasta() Formatted %d sequences in %d text lines\n" % (len(seqIdList), lCount))
+    #     return result
 
 
 if __name__ == "__main__":  # pragma: no cover

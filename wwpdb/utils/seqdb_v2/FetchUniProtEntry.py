@@ -12,7 +12,6 @@
 
 import sys
 import os
-import copy
 import traceback
 from wwpdb.utils.config.ConfigInfoApp import ConfigInfoAppCommon
 from wwpdb.utils.seqdb_v2.FetchUnpXml import FetchUnpXml
@@ -33,12 +32,10 @@ class FetchUniProtEntry:
         self.__verbose = verbose
         self.__siteId = siteId
         self.__lfh = log
-        self.__debug = False
         self.__maxLength = maxLength
         #
         self.__fXml = FetchUnpXml(maxLength=self.__maxLength, verbose=self.__verbose, log=self.__lfh)
         self.__fFa = FastaUtil(verbose=self.__verbose, log=self.__lfh)
-        self.__vList = []
         self.__vD = {}
         self.__faLoaded = False
         #
@@ -47,11 +44,9 @@ class FetchUniProtEntry:
         self.__variantFastaFilePath = os.path.join(self.__fastaPath, "uniprot_sprot_varsplic.fasta")
         #
 
-        self.__uidList = []
-
     def __loadVariants(self):
         try:
-            self.__vList, self.__vD = self.__fFa.loadFastaUniProt(fastaFilePath=self.__variantFastaFilePath)
+            _vList, self.__vD = self.__fFa.loadFastaUniProt(fastaFilePath=self.__variantFastaFilePath)
             self.__faLoaded = True
         except:  # noqa: E722 pylint: disable=bare-except
             if self.__verbose:
@@ -59,7 +54,6 @@ class FetchUniProtEntry:
                 traceback.print_exc(file=self.__lfh)
 
     def fetchList(self, idList):
-        self.__uidList = copy.deepcopy(idList)
         return self.__fXml.fetchList(idList)
 
     def writeUnpXml(self, filename):

@@ -85,9 +85,8 @@ class ReadUnpXml(object):
     will be used.
     """
 
-    def __init__(self, doc, verbose=True, log=sys.stderr):
+    def __init__(self, doc, verbose=True, log=sys.stderr):  # pylint: disable=unused-argument
         self.__lfh = log
-        self.__verbose = verbose
         self.__debug = False
         self.__variantD = {}
         self.__accessionD = {}

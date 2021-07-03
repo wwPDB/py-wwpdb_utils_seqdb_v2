@@ -42,7 +42,6 @@ class RunBlastPerSeq(object):
         self.__sequence = ""
         self.__type = ""
         self.__taxonomyData = taxonomyData
-        self.__fragments = []
         self.__result = []
         #
         self.__saveBlastResults = False
@@ -673,6 +672,6 @@ if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception as exc:
-        sys.stderr.write(exc)
+    except Exception as _exc:
+        sys.stderr.write(_exc)
         sys.exit(1)

@@ -213,9 +213,9 @@ class FetchUnpXml:
         args = [iter(iterable)] * n
         return ([e for e in t if e is not None] for t in zip_longest(*args))
 
-    def __makeSubListsWithPadding(self, n, iterable, padvalue=None):
-        "__sublist(3, 'abcdefg', 'x') --> ('a','b','c'), ('d','e','f'), ('g','x','x')"
-        return zip_longest(*[iter(iterable)] * n, fillvalue=padvalue)
+    # def __makeSubListsWithPadding(self, n, iterable, padvalue=None):
+    #     "__sublist(3, 'abcdefg', 'x') --> ('a','b','c'), ('d','e','f'), ('g','x','x')"
+    #     return zip_longest(*[iter(iterable)] * n, fillvalue=padvalue)
 
     def __RequestUnpXml(self, idString, fallback=False):
         """Execute fetch Request for the input comma separated accession list.

@@ -207,6 +207,6 @@ if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception as exc:
-        print(exc)
+    except Exception as _exc:
+        print(_exc)
         sys.exit(1)
