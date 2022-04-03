@@ -141,7 +141,6 @@ class BlastProcessTests(unittest.TestCase):
         self.__testTaxPath = os.path.join(mockTopPath, "TAXONOMY")
         self.__taxonomyDataFile = "nodes.dmp.gz"
 
-
     def setup_mock(self, m):
         """Sets up the mock m"""
 
@@ -155,7 +154,6 @@ class BlastProcessTests(unittest.TestCase):
         m.get(url + "/result/requestblast-3/xml", text=ResultCallBack3)
         m.post("https://www.ebi.ac.uk/Tools/dbfetch/dbfetch", text=dbfetchTextCallBack)
 
-            
     def testGetPolymerEntityDetails(self):
         """"""
         self.__lfh.write("\nStarting BlastProcessTests testGetPolymerEntityDetails\n")
@@ -196,9 +194,8 @@ class BlastProcessTests(unittest.TestCase):
             traceback.print_exc(file=self.__lfh)
             self.fail()
 
-
     def __polymersearch1(self):
-        """ The real workings of PolymerSearch1"""
+        """The real workings of PolymerSearch1"""
         try:
             for fn in [self.__testFileCif, self.__testFileFragmentsCif]:
                 cifFilePath = os.path.join(self.__testModelPath, fn)
@@ -228,7 +225,7 @@ class BlastProcessTests(unittest.TestCase):
                 self.__polymersearch1()
         else:
             self.__polymersearch1()
-        
+
     def __polymerSearchAndStore(self):
         """"""
         try:
@@ -248,7 +245,6 @@ class BlastProcessTests(unittest.TestCase):
             traceback.print_exc(file=self.__lfh)
             self.fail()
 
-
     @patch("wwpdb.utils.seqdb_v2.BlastProcess.UnpBlastService", side_effect=MyUnpBlastService)
     def testPolymerSearchAndStore(self, mock1):  # pylint: disable=unused-argument
         """"""
@@ -259,7 +255,7 @@ class BlastProcessTests(unittest.TestCase):
                 self.setup_mock(m)
                 self.__polymerSearchAndStore()
         else:
-                self.__polymerSearchAndStore()
+            self.__polymerSearchAndStore()
 
 
 def suiteSearchTests():  # pragma: no cover
