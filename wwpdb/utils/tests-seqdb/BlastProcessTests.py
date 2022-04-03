@@ -49,8 +49,8 @@ class MyUnpBlastService(UnpBlastService):
     def __init__(self, sequence):
         super(MyUnpBlastService, self).__init__(sequence)
         if "MOCKREQUESTS" in os.environ:
-            self._checkInterval = 0.01
-            self._initWait = 0.01
+            self._checkInterval = 0.001
+            self._initWait = 0.001
 
 
 def PostCallBack(request, context):
@@ -140,24 +140,22 @@ class BlastProcessTests(unittest.TestCase):
         self.__testFileFragmentsCif = "3l2j.cif"
         self.__testTaxPath = os.path.join(mockTopPath, "TAXONOMY")
         self.__taxonomyDataFile = "nodes.dmp.gz"
-        self.__mock = None
-        if "MOCKREQUESTS" in os.environ:
-            self.__mock = requests_mock.Mocker()
-            url = "https://www.ebi.ac.uk/Tools/services/rest/ncbiblast"
-            self.__mock.post(url + "/run/", text=PostCallBack)
-            self.__mock.get(url + "/status/requestblast-1", [{"text": "PENDING"}, {"text": "RUNNING"}, {"text": "FINISHED"}])
-            self.__mock.get(url + "/result/requestblast-1/xml", text=ResultCallBack1)
-            self.__mock.get(url + "/status/requestblast-2", [{"text": "FINISHED"}])
-            self.__mock.get(url + "/result/requestblast-2/xml", text=ResultCallBack2)
-            self.__mock.get(url + "/status/requestblast-3", [{"text": "FINISHED"}])
-            self.__mock.get(url + "/result/requestblast-3/xml", text=ResultCallBack3)
-            self.__mock.post("https://www.ebi.ac.uk/Tools/dbfetch/dbfetch", text=dbfetchTextCallBack)
-            self.__mock.start()
 
-    def tearDown(self):
-        if self.__mock is not None:
-            self.__mock.stop()
 
+    def setup_mock(self, m):
+        """Sets up the mock m"""
+
+        url = "https://www.ebi.ac.uk/Tools/services/rest/ncbiblast"
+        m.post(url + "/run/", text=PostCallBack)
+        m.get(url + "/status/requestblast-1", [{"text": "PENDING"}, {"text": "RUNNING"}, {"text": "FINISHED"}])
+        m.get(url + "/result/requestblast-1/xml", text=ResultCallBack1)
+        m.get(url + "/status/requestblast-2", [{"text": "FINISHED"}])
+        m.get(url + "/result/requestblast-2/xml", text=ResultCallBack2)
+        m.get(url + "/status/requestblast-3", [{"text": "FINISHED"}])
+        m.get(url + "/result/requestblast-3/xml", text=ResultCallBack3)
+        m.post("https://www.ebi.ac.uk/Tools/dbfetch/dbfetch", text=dbfetchTextCallBack)
+
+            
     def testGetPolymerEntityDetails(self):
         """"""
         self.__lfh.write("\nStarting BlastProcessTests testGetPolymerEntityDetails\n")
@@ -198,10 +196,9 @@ class BlastProcessTests(unittest.TestCase):
             traceback.print_exc(file=self.__lfh)
             self.fail()
 
-    @patch("wwpdb.utils.seqdb_v2.BlastProcess.UnpBlastService", side_effect=MyUnpBlastService)
-    def testPolymerSearch1(self, mock1):  # pylint: disable=unused-argument
-        """"""
-        self.__lfh.write("\nStarting BlastProcessTests testPolymerSearch1\n")
+
+    def __polymersearch1(self):
+        """ The real workings of PolymerSearch1"""
         try:
             for fn in [self.__testFileCif, self.__testFileFragmentsCif]:
                 cifFilePath = os.path.join(self.__testModelPath, fn)
@@ -220,9 +217,20 @@ class BlastProcessTests(unittest.TestCase):
             self.fail()
 
     @patch("wwpdb.utils.seqdb_v2.BlastProcess.UnpBlastService", side_effect=MyUnpBlastService)
-    def testPolymerSearchAndStore(self, mock1):  # pylint: disable=unused-argument
+    def testPolymerSearch1(self, mock1):  # pylint: disable=unused-argument
         """"""
-        self.__lfh.write("\nStarting BlastProcessTests testPolymerSearchAndStore\n")
+        sys.stderr.write("ABOUT TO SLEEP\n")
+        self.__lfh.write("\nStarting BlastProcessTests testPolymerSearch1\n")
+
+        if "MOCKREQUESTS" in os.environ:
+            with requests_mock.Mocker(real_http=False) as m:
+                self.setup_mock(m)
+                self.__polymersearch1()
+        else:
+            self.__polymersearch1()
+        
+    def __polymerSearchAndStore(self):
+        """"""
         try:
             for fn in [self.__testFileCif, self.__testFileFragmentsCif]:
                 entryId, _fExt = os.path.splitext(fn)
@@ -241,9 +249,23 @@ class BlastProcessTests(unittest.TestCase):
             self.fail()
 
 
+    @patch("wwpdb.utils.seqdb_v2.BlastProcess.UnpBlastService", side_effect=MyUnpBlastService)
+    def testPolymerSearchAndStore(self, mock1):  # pylint: disable=unused-argument
+        """"""
+        self.__lfh.write("\nStarting BlastProcessTests testPolymerSearchAndStore\n")
+
+        if "MOCKREQUESTS" in os.environ:
+            with requests_mock.Mocker(real_http=False) as m:
+                self.setup_mock(m)
+                self.__polymerSearchAndStore()
+        else:
+                self.__polymerSearchAndStore()
+
+
 def suiteSearchTests():  # pragma: no cover
     suiteSelect = unittest.TestSuite()
     suiteSelect.addTest(BlastProcessTests("testGetPolymerEntityDetails"))
+    suiteSelect.addTest(BlastProcessTests("testGetPolymerEntityDetailsFragments"))
     suiteSelect.addTest(BlastProcessTests("testPolymerSearch1"))
     suiteSelect.addTest(BlastProcessTests("testPolymerSearchAndStore"))
     #
