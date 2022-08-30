@@ -231,7 +231,7 @@ class FetchUnpXml:
             params["style"] = "raw"
             # params['Retrieve'] = 'Retrieve'
             logger.debug("Request %s with data %s", self._baseUrl, params)
-            reqH = requests.post(self._baseUrl, data=params, verify=False)
+            reqH = requests.post(self._baseUrl, data=params, verify=False, timeout=30)
             reqH.raise_for_status()
         else:
             params = {}
@@ -240,7 +240,7 @@ class FetchUnpXml:
 
             # Need to do this as UNP service will not take POST - so force GET
             logger.debug("Request with data %s", params)
-            reqH = requests.get(self._baseUrlUnp, params=params, headers={"Accept": "application/xml"}, verify=False)
+            reqH = requests.get(self._baseUrlUnp, params=params, headers={"Accept": "application/xml"}, verify=False, timeout=30)
             reqH.raise_for_status()
         #
         # data = reqH.read()
@@ -251,7 +251,7 @@ class FetchUnpXml:
         """Using URL https://www.ebi.ac.uk/proteins/api/proteins/{accession}/isoforms"""
         isoformUrl = self._baseUrlUnp + "/" + accId + "/isoforms"
         params = {}
-        reqH = requests.get(isoformUrl, params=params, headers={"Accept": "application/xml"}, verify=False)
+        reqH = requests.get(isoformUrl, params=params, headers={"Accept": "application/xml"}, verify=False, timeout=30)
         reqH.raise_for_status()
         data = reqH.text
         if data.find("errorMessages") >= 0:

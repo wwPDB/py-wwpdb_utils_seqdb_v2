@@ -73,7 +73,7 @@ class UnpBlastService(object):
         try:
             requestUrl = self._baseUrl + "/run/"
             # Get the data for the options
-            reqH = requests.post(requestUrl, data=params, verify=False)
+            reqH = requests.post(requestUrl, data=params, verify=False, timeout=30)
             reqH.raise_for_status()
             jobId = reqH.text
             logger.debug("Blast search started. Jobid %s", jobId)
@@ -105,7 +105,7 @@ class UnpBlastService(object):
     def _restRequest(self, url):
         """Wrapper for a REST (HTTP GET) request"""
         try:
-            reqH = requests.get(url, verify=False)
+            reqH = requests.get(url, verify=False, timeout=30)
             reqH.raise_for_status()
             result = reqH.text
             return result

@@ -63,7 +63,7 @@ class NcbiBlastService:
         """Submit job"""
         # Get the data for the options
         try:
-            reqH = requests.post(self._baseUrl, data=params, verify=False)
+            reqH = requests.post(self._baseUrl, data=params, verify=False, timeout=30)
             reqH.raise_for_status()
             return_data = reqH.text
             return return_data
