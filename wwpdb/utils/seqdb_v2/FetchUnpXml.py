@@ -13,6 +13,7 @@
 #  29-Jul-2014 jdw WARNING -- Handling of variant seqeuences is incomplete --
 #  02-Sep-2020 zf  added a work-around for isoforms sequence.
 #  29-Dec-2020 zf  added getMultipleResultDict()
+#  25-Sep-2022 zf  removed the work-around for isoforms sequence. It seems that the regular dbfetch tool can handle isoforms sequence now.
 ##
 
 __author__ = "Zukang Feng"
@@ -68,7 +69,7 @@ class FetchUnpXml:
         self.__searchIdList = []
         self.__variantD = {}
         #
-        self.__isoformIdList = []
+#       self.__isoformIdList = []
         #
         cI = ConfigInfo()
         self.__forcefallback = cI.get("FETCH_UNP_FORCE_FALLBACK", None)
@@ -92,18 +93,21 @@ class FetchUnpXml:
             self.__multipleResult = {}
             self.__dataList = []
             self.__idList = []
-            self.__isoformIdList = []
+#           self.__isoformIdList = []
 
             for accId in idList:
-                splitList = accId.split("-")
-                if len(splitList) == 2:
-                    if splitList[0] not in self.__isoformIdList:
-                        self.__isoformIdList.append(splitList[0])
-                    #
-                else:
-                    if accId not in self.__idList:
-                        self.__idList.append(accId)
-                    #
+#               splitList = accId.split("-")
+#               if len(splitList) == 2:
+#                   if accId not in self.__isoformIdList:
+#                       self.__isoformIdList.append(accId)
+#                   #
+#               else:
+#                   if accId not in self.__idList:
+#                       self.__idList.append(accId)
+#                   #
+#               #
+                if accId not in self.__idList:
+                    self.__idList.append(accId)
                 #
             #
 
@@ -115,7 +119,7 @@ class FetchUnpXml:
                 self.__lfh.write("+FetchUnpXml.fetchList() search   list %s\n" % self.__searchIdList)
                 self.__lfh.write("+FetchUnpXml.fetchList() variants      %s\n" % self.__variantD.items())
             #
-            if (num == 0) and (not self.__isoformIdList):
+            if (num == 0): # and (not self.__isoformIdList):
                 return False
             #
             if num:
@@ -142,12 +146,12 @@ class FetchUnpXml:
                     #
                 #
             #
-            for accId in self.__isoformIdList:
-                xmlText = self.__RequestIsoformsUnpXml(accId)
-                if xmlText:
-                    self.__dataList.append(xmlText)
-                #
-            #
+#           for accId in self.__isoformIdList:
+#               xmlText = self.__RequestIsoformsUnpXml(accId)
+#               if xmlText:
+#                   self.__dataList.append(xmlText)
+#               #
+#           #
             if len(self.__dataList) > 0:
                 ok = self.__ParseUnpXmlData()
             else:
