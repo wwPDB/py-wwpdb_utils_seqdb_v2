@@ -69,7 +69,7 @@ class FetchUnpXml:
         self.__searchIdList = []
         self.__variantD = {}
         #
-#       self.__isoformIdList = []
+        #       self.__isoformIdList = []
         #
         cI = ConfigInfo()
         self.__forcefallback = cI.get("FETCH_UNP_FORCE_FALLBACK", None)
@@ -93,19 +93,19 @@ class FetchUnpXml:
             self.__multipleResult = {}
             self.__dataList = []
             self.__idList = []
-#           self.__isoformIdList = []
+            #           self.__isoformIdList = []
 
             for accId in idList:
-#               splitList = accId.split("-")
-#               if len(splitList) == 2:
-#                   if accId not in self.__isoformIdList:
-#                       self.__isoformIdList.append(accId)
-#                   #
-#               else:
-#                   if accId not in self.__idList:
-#                       self.__idList.append(accId)
-#                   #
-#               #
+                # splitList = accId.split("-")
+                # if len(splitList) == 2:
+                #     if accId not in self.__isoformIdList:
+                #         self.__isoformIdList.append(accId)
+                #     #
+                # else:
+                #     if accId not in self.__idList:
+                #         self.__idList.append(accId)
+                #     #
+                # #
                 if accId not in self.__idList:
                     self.__idList.append(accId)
                 #
@@ -119,7 +119,7 @@ class FetchUnpXml:
                 self.__lfh.write("+FetchUnpXml.fetchList() search   list %s\n" % self.__searchIdList)
                 self.__lfh.write("+FetchUnpXml.fetchList() variants      %s\n" % self.__variantD.items())
             #
-            if (num == 0): # and (not self.__isoformIdList):
+            if num == 0:  # and (not self.__isoformIdList):
                 return False
             #
             if num:
@@ -146,12 +146,12 @@ class FetchUnpXml:
                     #
                 #
             #
-#           for accId in self.__isoformIdList:
-#               xmlText = self.__RequestIsoformsUnpXml(accId)
-#               if xmlText:
-#                   self.__dataList.append(xmlText)
-#               #
-#           #
+            #           for accId in self.__isoformIdList:
+            #               xmlText = self.__RequestIsoformsUnpXml(accId)
+            #               if xmlText:
+            #                   self.__dataList.append(xmlText)
+            #               #
+            #           #
             if len(self.__dataList) > 0:
                 ok = self.__ParseUnpXmlData()
             else:
@@ -251,17 +251,17 @@ class FetchUnpXml:
         data = reqH.text
         return data
 
-    def __RequestIsoformsUnpXml(self, accId):
-        """Using URL https://www.ebi.ac.uk/proteins/api/proteins/{accession}/isoforms"""
-        isoformUrl = self._baseUrlUnp + "/" + accId + "/isoforms"
-        params = {}
-        reqH = requests.get(isoformUrl, params=params, headers={"Accept": "application/xml"}, verify=False, timeout=30)
-        reqH.raise_for_status()
-        data = reqH.text
-        if data.find("errorMessages") >= 0:
-            return ""
-        #
-        return data
+    # def __RequestIsoformsUnpXml(self, accId):
+    #     """Using URL https://www.ebi.ac.uk/proteins/api/proteins/{accession}/isoforms"""
+    #     isoformUrl = self._baseUrlUnp + "/" + accId + "/isoforms"
+    #     params = {}
+    #     reqH = requests.get(isoformUrl, params=params, headers={"Accept": "application/xml"}, verify=False, timeout=30)
+    #     reqH.raise_for_status()
+    #     data = reqH.text
+    #     if data.find("errorMessages") >= 0:
+    #         return ""
+    #     #
+    #     return data
 
     def __ParseUnpXmlData(self):
         """
