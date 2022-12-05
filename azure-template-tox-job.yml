@@ -121,9 +121,6 @@ jobs:
     - script: "python -c \"import sys; print(sys.version); print(sys.executable)\""
       displayName: show python information
     #
-    - script: python -m pip install --upgrade pip tox wheel
-      displayName: 'Install tools'
-      #
     - task: Cache@2
       inputs:
         key: 'python | "$(Agent.OS)" | requirements.txt'
@@ -132,7 +129,9 @@ jobs:
           python
         path: $(PIP_CACHE_DIR)
       displayName: Cache pip packages
-
+    - script: python -m pip install --upgrade pip tox wheel
+      displayName: 'Install tools'
+      #
     - script: pip install -r requirements.txt
       displayName: 'Install dependencies'
     #
@@ -141,6 +140,12 @@ jobs:
           export CONFIG_SUPPORT_TOKEN_ENV=$(VAR_CONFIG_SUPPORT_TOKEN_ENV)
           export MOCKREQUESTS=1
           ${{ format('python -m tox -e {0}', parameters.tox) }}
+        displayName: 'Running tox task'
+    - ${{ if and(not(startsWith(parameters.tox, 'py')), startsWith(parameters.python, '3.11')) }}:
+      - script: |
+          export CONFIG_SUPPORT_TOKEN_ENV=$(VAR_CONFIG_SUPPORT_TOKEN_ENV)
+          export MOCKREQUESTS=1 
+          ${{ format('python -m tox -e {0}-py311', parameters.tox) }}
         displayName: 'Running tox task'
     - ${{ if and(not(startsWith(parameters.tox, 'py')), startsWith(parameters.python, '3.10')) }}:
       - script: |
