@@ -14,6 +14,7 @@
 #  02-Sep-2020 zf  added a work-around for isoforms sequence.
 #  29-Dec-2020 zf  added getMultipleResultDict()
 #  25-Sep-2022 zf  removed the work-around for isoforms sequence. It seems that the regular dbfetch tool can handle isoforms sequence now.
+#  20-Nov-2023 zf  fixed the issue related to handle isoforms sequences
 ##
 
 __author__ = "Zukang Feng"
@@ -66,8 +67,8 @@ class FetchUnpXml:
         self.__multipleResult = {}
         #
         self.__idList = []
-        self.__searchIdList = []
-        self.__variantD = {}
+#       self.__searchIdList = []
+#       self.__variantD = {}
         #
         #       self.__isoformIdList = []
         #
@@ -111,19 +112,21 @@ class FetchUnpXml:
                 #
             #
 
-            num = self.__processIdList()
+#           num = self.__processIdList()
             if self.__verbose:
                 self.__lfh.write("+FetchUnpXml.fetchList() input id list len %d\n" % len(idList))
             if self.__debug:
                 self.__lfh.write("+FetchUnpXml.fetchList() input id list %s\n" % idList)
-                self.__lfh.write("+FetchUnpXml.fetchList() search   list %s\n" % self.__searchIdList)
-                self.__lfh.write("+FetchUnpXml.fetchList() variants      %s\n" % self.__variantD.items())
+#               self.__lfh.write("+FetchUnpXml.fetchList() search   list %s\n" % self.__searchIdList)
+#               self.__lfh.write("+FetchUnpXml.fetchList() variants      %s\n" % self.__variantD.items())
             #
-            if num == 0:  # and (not self.__isoformIdList):
-                return False
-            #
-            if num:
-                subLists = self.__makeSubLists(self.__maxLength, self.__searchIdList)
+#           if num == 0:  # and (not self.__isoformIdList):
+#               return False
+#           #
+#           if num:
+#               subLists = self.__makeSubLists(self.__maxLength, self.__searchIdList)
+            if True:
+                subLists = self.__makeSubLists(self.__maxLength, self.__idList)
 
                 for subList in subLists:
                     idString = ",".join(subList)
@@ -142,7 +145,33 @@ class FetchUnpXml:
                     #
                     # filter possible simple text error messages from the failed queries.
                     if (xmlText is not None) and not xmlText.startswith("ERROR"):
-                        self.__dataList.append(xmlText)
+                        if xmlText.find("</uniprot>\n") >= 0:
+                            xmlTextList = xmlText.split("</uniprot>\n")
+                            for xmlTxt in xmlTextList:
+                                xmltxtstrip = xmlTxt.strip()
+                                if xmltxtstrip.startswith("<?xml version="):
+                                    if xmltxtstrip.endswith("</uniprot>"):
+                                        self.__dataList.append(xmltxtstrip)
+                                    else:
+                                        self.__dataList.append(xmltxtstrip + "</uniprot>")
+                                    #
+                                #
+                            #
+                        elif xmlText.find("</uniprot>") >= 0:
+                            xmlTextList = xmlText.split("</uniprot>")
+                            for xmlTxt in xmlTextList:
+                                xmltxtstrip = xmlTxt.strip()
+                                if xmltxtstrip.startswith("<?xml version="):
+                                    if xmltxtstrip.endswith("</uniprot>"):
+                                        self.__dataList.append(xmltxtstrip)
+                                    else:
+                                        self.__dataList.append(xmltxtstrip + "</uniprot>")
+                                    #
+                                #
+                            #
+                        else:
+                            self.__dataList.append(xmlText)
+                        #
                     #
                 #
             #
@@ -185,33 +214,33 @@ class FetchUnpXml:
     def getMultipleResultDict(self):
         return self.__multipleResult
 
-    def __processIdList(self):
-        """
-        Filter the input id list for variants and create the list of unique
-        searchable id codes.   Create a dictionary of variant identifiers and
-        their corresponding searchable id codes.
+#   def __processIdList(self):
+#       """
+#       Filter the input id list for variants and create the list of unique
+#       searchable id codes.   Create a dictionary of variant identifiers and
+#       their corresponding searchable id codes.
 
-        """
-        self.__searchIdList = []
-        self.__variantD = {}
-        tList = []
-        #
-        for vid in self.__idList:
-            # check for variant id
-            idx = vid.find("-")
-            if idx == -1:
-                sId = vid
-            else:
-                sId = vid[0:idx]
-                self.__variantD[vid] = sId
-            #
-            tList.append(sId)
-        #
-        # unique list of searchable accessions
-        #
-        self.__searchIdList = list(set(tList))
-        #
-        return len(self.__searchIdList)
+#       """
+#       self.__searchIdList = []
+#       self.__variantD = {}
+#       tList = []
+#       #
+#       for vid in self.__idList:
+#           # check for variant id
+#           idx = vid.find("-")
+#           if idx == -1:
+#               sId = vid
+#           else:
+#               sId = vid[0:idx]
+#               self.__variantD[vid] = sId
+#           #
+#           tList.append(sId)
+#       #
+#       # unique list of searchable accessions
+#       #
+#       self.__searchIdList = list(set(tList))
+#       #
+#       return len(self.__searchIdList)
 
     def __makeSubLists(self, n, iterable):
         args = [iter(iterable)] * n
@@ -227,6 +256,7 @@ class FetchUnpXml:
         Return xml text for the corresentry  UniProt entries
         """
         if not fallback:
+           
             params = {}
             params["db"] = "uniprotkb"
             params["id"] = idString
@@ -277,9 +307,9 @@ class FetchUnpXml:
             self.__multipleResult = {}
             for data in self.__dataList:
                 readxml = ReadUnpXmlString(data, verbose=self.__verbose, log=self.__lfh)
-                for vId, aId in self.__variantD.items():
-                    readxml.addVariant(aId, vId)
-                #
+#               for vId, aId in self.__variantD.items():
+#                   readxml.addVariant(aId, vId)
+#               #
                 self.__result.update(readxml.getResult())
                 self.__multipleResult.update(readxml.getMultipleResultDict())
             #

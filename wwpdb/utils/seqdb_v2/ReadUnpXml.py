@@ -18,6 +18,7 @@
 #  12-Dec-2015  jdw update constructor for ReadUnpXmlString
 #  13-Feb-2019  ep  strip newlines from sequences returned. dbfetch service started adding them.
 #  29-Dec-2020  zf  add reading protein names under <protein><component>...</component></protein> tags
+#  20-Nov-2023  zf  fixed the issue related to handle isoforms sequences
 #
 ##
 
@@ -231,7 +232,14 @@ class ReadUnpXml(object):
                     #
                 #
             #
-            entryDict[rdict["db_accession"]] = rdict
+            tL = dbAccession.split("-")
+            if len(tL) == 2:
+                rdict["db_accession"] = tL[0]
+                if tL[1] != "1":
+                    rdict["db_isoform"] = dbAccession
+                #
+            #
+            entryDict[dbAccession] = rdict
             if len(self.__dictList) > 1:
                 foundComment = False
                 foundError = False
