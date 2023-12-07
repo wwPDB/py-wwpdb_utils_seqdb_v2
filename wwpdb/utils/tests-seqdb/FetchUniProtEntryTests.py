@@ -108,7 +108,32 @@ def isoformMatcher(request):
 
         fpath = os.path.join(HERE, "refdata", "ebi_proteins_isoforms", acc + ".xml")
         if not os.path.exists(fpath):
-            print("XXX: File %s not found" % fpath)
+            resp.status_code = 404
+            return resp
+
+        resp.status_code = 200
+        with open(fpath, "rb") as fin:
+            resp._content = fin.read()  # pylint: disable=protected-access
+        return resp
+    # Error - not found
+    return None
+
+
+def isoformMatcher_dbfetch(request):
+    """Isoform search matcher of the form
+    https://www.ebi.ac.uk/proteins/api/proteins/P29994/isoforms
+    https://www.ebi.ac.uk/Tools/dbfetch/dbfetch
+    """
+    if "https://www.ebi.ac.uk/Tools/dbfetch/dbfetch" in request.url:
+        print("CKP1", request.body)
+        resp = requests.Response()
+
+        # Parse the request to get the id
+        dat = parse_qs(request.body)
+        acc = dat["id"][0]
+
+        fpath = os.path.join(HERE, "refdata", "dbfetch", acc + ".xml")
+        if not os.path.exists(fpath):
             resp.status_code = 404
             return resp
 
@@ -132,7 +157,7 @@ class FetchUniProtEntryTests(unittest.TestCase):
         if "MOCKREQUESTS" in os.environ:
             self.__mock = requests_mock.Mocker()
             self.__mock.post("https://www.ebi.ac.uk/Tools/dbfetch/dbfetch", text=dbfetchTextCallBack)
-            self.__mock.add_matcher(isoformMatcher)
+            self.__mock.add_matcher(isoformMatcher_dbfetch)
             self.__mock.start()
         else:
             self.__mock = None

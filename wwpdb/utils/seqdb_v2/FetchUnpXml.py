@@ -125,7 +125,7 @@ class FetchUnpXml:
 #           #
 #           if num:
 #               subLists = self.__makeSubLists(self.__maxLength, self.__searchIdList)
-            if True:
+            if True:  # pylint: disable=using-constant-test
                 subLists = self.__makeSubLists(self.__maxLength, self.__idList)
 
                 for subList in subLists:
@@ -256,7 +256,7 @@ class FetchUnpXml:
         Return xml text for the corresentry  UniProt entries
         """
         if not fallback:
-           
+
             params = {}
             params["db"] = "uniprotkb"
             params["id"] = idString

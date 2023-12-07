@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1993-04-01" modified="2023-11-08" version="207" xmlns="http://uniprot.org/uniprot">
+  <accession>P29994-3</accession>
+  <name>ITPR1_RAT</name>
+  <protein>
+    <recommendedName>
+      <fullName>Isoform 3 of Inositol 1,4,5-trisphosphate receptor type 1</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>IP3 receptor isoform 1</fullName>
+      <shortName>IP-3-R</shortName>
+      <shortName>IP3R 1</shortName>
+      <shortName>InsP3R1</shortName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Type 1 inositol 1,4,5-trisphosphate receptor</fullName>
+      <shortName>Type 1 InsP3 receptor</shortName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">Itpr1</name>
+    <name type="synonym">Insp3r</name>
+  </gene>
+  <organism>
+    <name type="scientific">Rattus norvegicus</name>
+    <name type="common">Rat</name>
+    <dbReference type="NCBI Taxonomy" id="10116"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Glires</taxon>
+      <taxon>Rodentia</taxon>
+      <taxon>Myomorpha</taxon>
+      <taxon>Muroidea</taxon>
+      <taxon>Muridae</taxon>
+      <taxon>Murinae</taxon>
+      <taxon>Rattus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1990" name="J. Biol. Chem." volume="265" first="12679" last="12685">
+      <title>Structure and expression of the rat inositol 1,4,5-trisphosphate receptor.</title>
+      <authorList>
+        <person name="Mignery G.A."/>
+        <person name="Newton C.L."/>
+        <person name="Archer B.T. III"/>
+        <person name="Suedhof T.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="2165071"/>
+      <dbReference type="DOI" id="10.1016/s0021-9258(19)38397-8"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 3 AND 4)</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+    <scope>VARIANT PHE-1372 DEL</scope>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1991" name="Proc. Natl. Acad. Sci. U.S.A." volume="88" first="2951" last="2955">
+      <title>Inositol 1,4,5-trisphosphate receptors: distinct neuronal and nonneuronal forms derived by alternative splicing differ in phosphorylation.</title>
+      <authorList>
+        <person name="Danoff S.K."/>
+        <person name="Ferris C.D."/>
+        <person name="Donath C."/>
+        <person name="Fischer G.A."/>
+        <person name="Munemitsu S."/>
+        <person name="Ullrich A."/>
+        <person name="Snyder S.H."/>
+        <person name="Ross C.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="1849282"/>
+      <dbReference type="DOI" id="10.1073/pnas.88.7.2951"/>
+    </citation>
+    <scope>PARTIAL NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 7)</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+    <source>
+      <tissue>Brain</tissue>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="1997" name="Brain Res. Mol. Brain Res." volume="44" first="347" last="354">
+      <title>Inositol 1,4,5-trisphosphate receptor expression in mammalian olfactory tissue.</title>
+      <authorList>
+        <person name="Smutzer G."/>
+        <person name="Zimmerman J.E."/>
+        <person name="Hahn C.-G."/>
+        <person name="Ruscheinsky D.D."/>
+        <person name="Rodriguez A."/>
+        <person name="Han L.-Y."/>
+        <person name="Arnold S.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="9073177"/>
+      <dbReference type="DOI" id="10.1016/s0169-328x(96)00282-3"/>
+    </citation>
+    <scope>PARTIAL NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 3; 4; 7 AND 8)</scope>
+    <source>
+      <strain>Sprague-Dawley</strain>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="1999" name="J. Biol. Chem." volume="274" first="29483" last="29492">
+      <title>Subunit oligomerization, and topology of the inositol 1,4, 5-trisphosphate receptor.</title>
+      <authorList>
+        <person name="Galvan D.L."/>
+        <person name="Borrego-Diaz E."/>
+        <person name="Perez P.J."/>
+        <person name="Mignery G.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="10506212"/>
+      <dbReference type="DOI" id="10.1074/jbc.274.41.29483"/>
+    </citation>
+    <scope>CHARACTERIZATION</scope>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2001" name="FEBS Lett." volume="487" first="377" last="383">
+      <title>Alternative splice variants of hTrp4 differentially interact with the C-terminal portion of the inositol 1,4,5-trisphosphate receptors.</title>
+      <authorList>
+        <person name="Mery L."/>
+        <person name="Magnino F."/>
+        <person name="Schmidt K."/>
+        <person name="Krause K.-H."/>
+        <person name="Dufour J.-F."/>
+      </authorList>
+      <dbReference type="PubMed" id="11163362"/>
+      <dbReference type="DOI" id="10.1016/s0014-5793(00)02362-0"/>
+    </citation>
+    <scope>INTERACTION WITH TRPC4</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2002" name="Proc. Natl. Acad. Sci. U.S.A." volume="99" first="7711" last="7716">
+      <title>Identification of a family of calcium sensors as protein ligands of inositol trisphosphate receptor Ca(2+) release channels.</title>
+      <authorList>
+        <person name="Yang J."/>
+        <person name="McBride S."/>
+        <person name="Mak D.-O.D."/>
+        <person name="Vardi N."/>
+        <person name="Palczewski K."/>
+        <person name="Haeseleer F."/>
+        <person name="Foskett J.K."/>
+      </authorList>
+      <dbReference type="PubMed" id="12032348"/>
+      <dbReference type="DOI" id="10.1073/pnas.102006299"/>
+    </citation>
+    <scope>INTERACTION WITH CABP1</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2008" name="J. Biol. Chem." volume="283" first="35319" last="35328">
+      <title>Mass spectrometric analysis of type 1 inositol 1,4,5-trisphosphate receptor ubiquitination.</title>
+      <authorList>
+        <person name="Sliter D.A."/>
+        <person name="Kubota K."/>
+        <person name="Kirkpatrick D.S."/>
+        <person name="Alzayady K.J."/>
+        <person name="Gygi S.P."/>
+        <person name="Wojcikiewicz R.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="18955483"/>
+      <dbReference type="DOI" id="10.1074/jbc.m807288200"/>
+    </citation>
+    <scope>UBIQUITINATION AT LYS-916; LYS-962; LYS-1572; LYS-1772; LYS-1885; LYS-1886; LYS-1887; LYS-1902; LYS-1925; LYS-2119 AND LYS-2258</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2012" name="Nat. Commun." volume="3" first="876" last="876">
+      <title>Quantitative maps of protein phosphorylation sites across 14 different rat organs and tissues.</title>
+      <authorList>
+        <person name="Lundby A."/>
+        <person name="Secher A."/>
+        <person name="Lage K."/>
+        <person name="Nordsborg N.B."/>
+        <person name="Dmytriyev A."/>
+        <person name="Lundby C."/>
+        <person name="Olsen J.V."/>
+      </authorList>
+      <dbReference type="PubMed" id="22673903"/>
+      <dbReference type="DOI" id="10.1038/ncomms1871"/>
+    </citation>
+    <scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-1589 AND SER-1756</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <comment type="alternative products">
+    <event type="alternative splicing"/>
+    <isoform>
+      <id>P29994-1</id>
+      <name>1</name>
+      <name>SISIIABC</name>
+      <sequence type="displayed"/>
+    </isoform>
+    <isoform>
+      <id>P29994-2</id>
+      <name>2</name>
+      <name>SI-SIIABC</name>
+      <sequence type="described" ref="VSP_002695"/>
+    </isoform>
+    <isoform>
+      <id>P29994-3</id>
+      <name>3</name>
+      <name>SISIIAC</name>
+      <sequence type="described" ref="VSP_002697"/>
+    </isoform>
+    <isoform>
+      <id>P29994-4</id>
+      <name>4</name>
+      <name>SI-SIIAC</name>
+      <sequence type="described" ref="VSP_002695 VSP_002697"/>
+    </isoform>
+    <isoform>
+      <id>P29994-5</id>
+      <name>5</name>
+      <name>SISIIA</name>
+      <sequence type="described" ref="VSP_002697 VSP_002698"/>
+    </isoform>
+    <isoform>
+      <id>P29994-6</id>
+      <name>6</name>
+      <name>SI-SIIA</name>
+      <sequence type="described" ref="VSP_002695 VSP_002697 VSP_002698"/>
+    </isoform>
+    <isoform>
+      <id>P29994-7</id>
+      <name>7</name>
+      <name>SISII</name>
+      <sequence type="described" ref="VSP_002696 VSP_002697 VSP_002698"/>
+    </isoform>
+    <isoform>
+      <id>P29994-8</id>
+      <name>8</name>
+      <name>SI-SII</name>
+      <sequence type="described" ref="VSP_002695 VSP_002696 VSP_002697 VSP_002698"/>
+    </isoform>
+    <text>There is a combination of two alternatively spliced domains at site SI and site SII (A, B and C). Experimental confirmation may be lacking for some isoforms.</text>
+  </comment>
+  <comment type="tissue specificity">
+    <text evidence="1">Expressed in the brain.</text>
+  </comment>
+  <dbReference type="Proteomes" id="UP000002494">
+    <property type="component" value="Unplaced"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="2165071"/>
+    </source>
+  </evidence>
+  <sequence length="2749" mass="313136" checksum="E80D784F7201E2C9" modified="2001-11-02" version="2">MSDKMSSFLHIGDICSLYAEGSTNGFISTLGLVDDRCVVQPEAGDLNNPPKKFRDCLFKLCPMNRYSAQKQFWKAAKPGANSTTDAVLLNKLHHAADLEKKQNETENRKLLGTVIQYGNVIQLLHLKSNKYLTVNKRLPALLEKNAMRVTLDEAGNEGSWFYIQPFYKLRSIGDSVVIGDKVVLNPVNAGQPLHASSHQLVDNPGCNEVNSVNCNTSWKIVLFMKWSDNKDDILKGGDVVRLFHAEQEKFLTCDEHRKKQHVFLRTTGRQSATSATSSKALWEVEVVQHDPCRGGAGYWNSLFRFKHLATGHYLAAEVDPDFEEECLEFQPSVDPDQDASRSRLRNAQEKMVYSLVSVPEGNDISSIFELDPTTLRGGDSLVPRNSYVRLRHLCTNTWVHSTNIPIDKEEEKPVMLKIGTSPLKEDKEAFAIVPVSPAEVRDLDFANDASKVLGSIAGKLEKGTITQNERRSVTKLLEDLVYFVTGGTNSGQDVLEVVFSKPNRERQKLMREQNILKQIFKLLQAPFTDCGDGPMLRLEELGDQRHAPFRHICRLCYRVLRHSQQDYRKNQEYIAKQFGFMQKQIGYDVLAEDTITALLHNNRKLLEKHITAAEIDTFVSLVRKNREPRFLDYLSDLCVSMNKSIPVTQELICKAVLNPTNADILIETKLVLSRFEFEGVSTGENALEAGEDEEEVWLFWRDSNKEIRSKSVRELAQDAKEGQKEDRDVLSYYRYQLNLFARMCLDRQYLAINEISGQLDVDLILRCMSDENLPYDLRASFCRLMLHMHVDRDPQEQVTPVKYARLWSEIPSEIAIDDYDSSGASKDEIKERFAQTMEFVEEYLRDVVCQRFPFSDKEKNKLTFEVVNLARNLIYFGFYNFSDLLRLTKILLAILDCVHVTTIFPISKMTKGEENKGSNVMRSIHGVGELMTQVVLRGGGFLPMTPMAAAPEGNVKQAEPEKEDIMVMDTKLKIIEILQFILNVRLDYRISCLLCIFKREFDESNSQSSETSSGNSSQEGPSNVPGALDFEHIEEQAEGIFGGSEENTPLDLDDHGGRTFLRVLLHLTMHDYPPLVSGALQLLFRHFSQRQEVLQAFKQVQLLVTSQDVDNYKQIKQDLDQLRSIVEKSELWVYKGQGPDEPMDGASGENEHKKTEEGTSKPLKHESTSSYNYRVVKEILIRLSKLCVQESASVRKSRKQQQRLLRNMGAHAVVLELLQIPYEKAEDTKMQEIMRLAHEFLQNFCAGNQQNQALLHKHINLFLNPGILEAVTMQHIFMNNFQLCSEINERVVQHFVHCIETHGRNVQYIKFLQTIVKAEGKFIKKCQDMVMAELVNSGEDVLVFYNDRASFQTLIQMMRSERDRMDENSPLFMYHIHLVELLAVCTEGKNVYTEIKCNSLLPLDDIVRVVTHEDCIPEVKIAYINFLNHCYVDTEVEMKEIYTSNHMWKLFENFLVDICRACNNTSDRKHADSVLEKYVTEIVMSIVTTFFSSPFSDQSTTLQTRQPVFVQLLQGVFRVYHCNWLMPSQKASVESCIRVLSDVAKSRAIAIPVDLDSQVNNLFLKSHNIVQKTAMNWRLSARNAARRDSVLAASRDYRNIIERLQDIVSALEDRLRPLVQAELSVLVDVLHRPELLFPENTDARRKCESGGFICKLIKHTKQLLEENEEKLCIKVLQTLREMMTKDRGYGEKQISIDELENAELPQPPEAENSTEELEPSPPLRQLEDHKRGEALRQILVNRYYGNIRPSGRRESLTSFGNGPLSPGGPSKPGGGGGGPGSGSTSRGEMSLAEVQCHLDKEGASNLVIDLIMNASSDRVFHESILLAIALLEGGNTTIQHSFFCRLTEDKKSEKFFKVFYDRMKVAQQEIKATVTVNTSDLGNKKKDDEVDRDAPSRKKAKEPTTQITEEVRDQLLEASAATRKAFTTFRREADPDDHYQSGEGTQATTDKAKDDLEMSAVITIMQPILRFLQLLCENHNRDLQNFLRCQNNKTNYNLVCETLQFLDCICGSTTGGLGLLGLYINEKNVALINQTLESLTEYCQGPCHENQNCIATHESNGIDIITALILNDINPLGKKRMDLVLELKNNASKLLLAIMESRHDSENAERILYNMRPKELVEVIKKAYMQGEVEFEDGENGEDGAASPRNVGHNIYILAHQLARHNKELQTMLKPGGQVDGDEALEFYAKHTAQIEIVRLDRTMEQIVFPVPSICEFLTKESKLRIYYTTERDEQGSKINDFFLRSEDLFNEMNWQKKLRAQPVLYWCARNMSFWSSISFNLAVLMNLLVAFFYPFKGVRGGTLEPHWSGLLWTAMLISLAIVIALPKPHGIRALIASTILRLIFSVGLQPTLFLLGAFNVCNKIIFLMSFVGNCGTFTRGYRAMVLDVEFLYHLLYLLICAMGLFVHEFFYSLLLFDLVYREETLLNVIKSVTRNGRPIILTAALALILVYLFSIVGYLFFKDDFILEVDRLPNETAGPETGESLANDFLYSDVCRVETGENCTSPAPKEELLPVEETEQDKEHTCETLLMCIVTVLSHGLRSGGGVGDVLRKPSKEEPLFAARVIYDLLFFFMVIIIVLNLIFGVIIDTFADLRSEKQKKEEILKTTCFICGLERDKFDNKTVTFEEHIKEEHNMWHYLCFIVLVKVKDSTEYTGPESYVAEMIRERNLDWFPRMRAMSLVSSDSEGEQNELRNLQEKLESTMKLVTNLSGQLSELKDQMTEQRKQKQRIGLLGHPPHMNVNPQQPA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -21,9 +21,8 @@ import platform
 import traceback
 import requests
 import requests_mock
-
 try:
-    from urllib.parse import parse_qs
+    from urllib.parse import urlparse, parse_qs
 except ImportError:
     from urlparse import parse_qs
 from xml.dom import minidom
@@ -45,14 +44,10 @@ def isoformMatcher(request):
     if "https://www.ebi.ac.uk/proteins/api" in request.url:
         resp = requests.Response()
 
+        o = urlparse(request.url)
+        dat = parse_qs(o.query)
         # Parse the request to get the id
-        preq = request.path_url.split("/")
-        if len(preq) < 6:
-            return None
-        iso = preq[5]
-        acc = preq[4]
-        if iso != "isoforms":
-            return None
+        acc = dat["accession"][0]
 
         fpath = os.path.join(HERE, "refdata", "ebi_proteins_isoforms", acc + ".xml")
         if not os.path.exists(fpath):
@@ -63,6 +58,26 @@ def isoformMatcher(request):
         with open(fpath, "rb") as fin:
             resp._content = fin.read()  # pylint: disable=protected-access
         return resp
+    if "https://www.ebi.ac.uk/Tools/dbfetch/dbfetch" in request.url:
+        resp = requests.Response()
+
+        dat = parse_qs(request.body)
+        accs = dat["id"]
+
+        resp._content = b""  # pylint: disable=protected-access
+
+        for acc in accs[0].split(","):
+            fpath = os.path.join(HERE, "refdata", "dbfetch", acc + ".xml")
+            if not os.path.exists(fpath):
+                print("XXXX path not found", fpath)
+                resp.status_code = 404
+                return resp
+
+            resp.status_code = 200
+            with open(fpath, "rb") as fin:
+                resp._content += fin.read()  # pylint: disable=protected-access
+        return resp
+
     # Error - not found
     return None
 
@@ -81,7 +96,7 @@ def dbfetchTextCallBack(request, context):
         fpath = os.path.join(HERE, "refdata", "dbfetch", acc + ".xml")
         if not os.path.exists(fpath):
             context.status_code = 404
-            # print("XXX COULD NOT FIND", fpath)
+            print("XXX COULD NOT FIND", fpath)
             return ""
 
         doc = minidom.parse(fpath)
@@ -276,7 +291,7 @@ class FetchUnpXmlTests(unittest.TestCase):
                     for k, v in eDict.items():
                         self.__lfh.write("%-25s = %s\n" % (k, v))
             else:
-                self.__lfh.write("+WARNING - Fetch failed for id %s\n" % id)
+                self.__lfh.write("+WARNING - Fetch failed for id %s\n" % self.__unpIdListV)
                 fail = True
 
         except:  # noqa: E722 pylint: disable=bare-except

@@ -1,1 +1,541 @@
-<?xml version='1.0' encoding='UTF-8'?><uniprot xmlns="http://uniprot.org/uniprot" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><entry xmlns="http://uniprot.org/uniprot" dataset="Swiss-Prot" created="2004-08-16" modified="2020-08-12" version="161"><accession>Q9D6K9-2</accession><name>CERS5-2_MOUSE</name><protein><recommendedName><fullName evidence="8">Isoform 2 of Ceramide synthase 5</fullName><shortName evidence="8">CerS5</shortName><ecNumber evidence="1 2 3 4 5">2.3.1.-</ecNumber></recommendedName><alternativeName><fullName evidence="7">LAG1 longevity assurance homolog 5</fullName></alternativeName><alternativeName><fullName evidence="8">Sphingosine N-acyltransferase CERS5</fullName><ecNumber evidence="1">2.3.1.24</ecNumber></alternativeName><alternativeName><fullName evidence="6">Translocating chain-associating membrane protein homolog 4</fullName><shortName evidence="6">TRAM homolog 4</shortName></alternativeName></protein><gene><name evidence="9" type="primary">Cers5</name><name evidence="7" type="synonym">Lass5</name><name evidence="6" type="synonym">Trh4</name></gene><organism><name type="scientific">Mus musculus</name><name type="common">Mouse</name><dbReference type="NCBI Taxonomy" id="10090"/><lineage><taxon>Eukaryota</taxon><taxon>Metazoa</taxon><taxon>Chordata</taxon><taxon>Craniata</taxon><taxon>Vertebrata</taxon><taxon>Euteleostomi</taxon><taxon>Mammalia</taxon><taxon>Eutheria</taxon><taxon>Euarchontoglires</taxon><taxon>Glires</taxon><taxon>Rodentia</taxon><taxon>Myomorpha</taxon><taxon>Muroidea</taxon><taxon>Muridae</taxon><taxon>Murinae</taxon><taxon>Mus</taxon><taxon>Mus</taxon></lineage></organism><reference key="1"><citation type="submission" date="2001-04" db="EMBL/GenBank/DDBJ databases"><authorList><person name="Hartmann E."/></authorList></citation><scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope></reference><reference key="2"><citation type="journal article" date="2005" name="Science" volume="309" first="1559" last="1563"><title>The transcriptional landscape of the mammalian genome.</title><authorList><person name="Carninci P."/><person name="Kasukawa T."/><person name="Katayama S."/><person name="Gough J."/><person name="Frith M.C."/><person name="Maeda N."/><person name="Oyama R."/><person name="Ravasi T."/><person name="Lenhard B."/><person name="Wells C."/><person name="Kodzius R."/><person name="Shimokawa K."/><person name="Bajic V.B."/><person name="Brenner S.E."/><person name="Batalov S."/><person name="Forrest A.R."/><person name="Zavolan M."/><person name="Davis M.J."/><person name="Wilming L.G."/><person name="Aidinis V."/><person name="Allen J.E."/><person name="Ambesi-Impiombato A."/><person name="Apweiler R."/><person name="Aturaliya R.N."/><person name="Bailey T.L."/><person name="Bansal M."/><person name="Baxter L."/><person name="Beisel K.W."/><person name="Bersano T."/><person name="Bono H."/><person name="Chalk A.M."/><person name="Chiu K.P."/><person name="Choudhary V."/><person name="Christoffels A."/><person name="Clutterbuck D.R."/><person name="Crowe M.L."/><person name="Dalla E."/><person name="Dalrymple B.P."/><person name="de Bono B."/><person name="Della Gatta G."/><person name="di Bernardo D."/><person name="Down T."/><person name="Engstrom P."/><person name="Fagiolini M."/><person name="Faulkner G."/><person name="Fletcher C.F."/><person name="Fukushima T."/><person name="Furuno M."/><person name="Futaki S."/><person name="Gariboldi M."/><person name="Georgii-Hemming P."/><person name="Gingeras T.R."/><person name="Gojobori T."/><person name="Green R.E."/><person name="Gustincich S."/><person name="Harbers M."/><person name="Hayashi Y."/><person name="Hensch T.K."/><person name="Hirokawa N."/><person name="Hill D."/><person name="Huminiecki L."/><person name="Iacono M."/><person name="Ikeo K."/><person name="Iwama A."/><person name="Ishikawa T."/><person name="Jakt M."/><person name="Kanapin A."/><person name="Katoh M."/><person name="Kawasawa Y."/><person name="Kelso J."/><person name="Kitamura H."/><person name="Kitano H."/><person name="Kollias G."/><person name="Krishnan S.P."/><person name="Kruger A."/><person name="Kummerfeld S.K."/><person name="Kurochkin I.V."/><person name="Lareau L.F."/><person name="Lazarevic D."/><person name="Lipovich L."/><person name="Liu J."/><person name="Liuni S."/><person name="McWilliam S."/><person name="Madan Babu M."/><person name="Madera M."/><person name="Marchionni L."/><person name="Matsuda H."/><person name="Matsuzawa S."/><person name="Miki H."/><person name="Mignone F."/><person name="Miyake S."/><person name="Morris K."/><person name="Mottagui-Tabar S."/><person name="Mulder N."/><person name="Nakano N."/><person name="Nakauchi H."/><person name="Ng P."/><person name="Nilsson R."/><person name="Nishiguchi S."/><person name="Nishikawa S."/><person name="Nori F."/><person name="Ohara O."/><person name="Okazaki Y."/><person name="Orlando V."/><person name="Pang K.C."/><person name="Pavan W.J."/><person name="Pavesi G."/><person name="Pesole G."/><person name="Petrovsky N."/><person name="Piazza S."/><person name="Reed J."/><person name="Reid J.F."/><person name="Ring B.Z."/><person name="Ringwald M."/><person name="Rost B."/><person name="Ruan Y."/><person name="Salzberg S.L."/><person name="Sandelin A."/><person name="Schneider C."/><person name="Schoenbach C."/><person name="Sekiguchi K."/><person name="Semple C.A."/><person name="Seno S."/><person name="Sessa L."/><person name="Sheng Y."/><person name="Shibata Y."/><person name="Shimada H."/><person name="Shimada K."/><person name="Silva D."/><person name="Sinclair B."/><person name="Sperling S."/><person name="Stupka E."/><person name="Sugiura K."/><person name="Sultana R."/><person name="Takenaka Y."/><person name="Taki K."/><person name="Tammoja K."/><person name="Tan S.L."/><person name="Tang S."/><person name="Taylor M.S."/><person name="Tegner J."/><person name="Teichmann S.A."/><person name="Ueda H.R."/><person name="van Nimwegen E."/><person name="Verardo R."/><person name="Wei C.L."/><person name="Yagi K."/><person name="Yamanishi H."/><person name="Zabarovsky E."/><person name="Zhu S."/><person name="Zimmer A."/><person name="Hide W."/><person name="Bult C."/><person name="Grimmond S.M."/><person name="Teasdale R.D."/><person name="Liu E.T."/><person name="Brusic V."/><person name="Quackenbush J."/><person name="Wahlestedt C."/><person name="Mattick J.S."/><person name="Hume D.A."/><person name="Kai C."/><person name="Sasaki D."/><person name="Tomaru Y."/><person name="Fukuda S."/><person name="Kanamori-Katayama M."/><person name="Suzuki M."/><person name="Aoki J."/><person name="Arakawa T."/><person name="Iida J."/><person name="Imamura K."/><person name="Itoh M."/><person name="Kato T."/><person name="Kawaji H."/><person name="Kawagashira N."/><person name="Kawashima T."/><person name="Kojima M."/><person name="Kondo S."/><person name="Konno H."/><person name="Nakano K."/><person name="Ninomiya N."/><person name="Nishio T."/><person name="Okada M."/><person name="Plessy C."/><person name="Shibata K."/><person name="Shiraki T."/><person name="Suzuki S."/><person name="Tagami M."/><person name="Waki K."/><person name="Watahiki A."/><person name="Okamura-Oho Y."/><person name="Suzuki H."/><person name="Kawai J."/><person name="Hayashizaki Y."/></authorList><dbReference type="PubMed" id="16141072"/><dbReference type="DOI" id="10.1126/science.1112014"/></citation><scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)</scope><source><strain>C57BL/6J</strain><tissue>Tongue</tissue></source></reference><reference key="3"><citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127"><title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title><authorList><consortium name="The MGC Project Team"/></authorList><dbReference type="PubMed" id="15489334"/><dbReference type="DOI" id="10.1101/gr.2596504"/></citation><scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2)</scope><source><strain>C57BL/6J</strain><tissue>Brain</tissue><tissue>Mammary tumor</tissue></source></reference><reference key="4"><citation type="journal article" date="2003" name="J. Biol. Chem." volume="278" first="43452" last="43459"><title>Two mammalian longevity assurance gene (LAG1) family members, trh1 and trh4, regulate dihydroceramide synthesis using different fatty acyl-CoA donors.</title><authorList><person name="Riebeling C."/><person name="Allegood J.C."/><person name="Wang E."/><person name="Merrill A.H. Jr."/><person name="Futerman A.H."/></authorList><dbReference type="PubMed" id="12912983"/><dbReference type="DOI" id="10.1074/jbc.m307104200"/></citation><scope>FUNCTION</scope><scope>CATALYTIC ACTIVITY</scope><scope>PATHWAY</scope><scope>TISSUE SPECIFICITY</scope><scope>SUBCELLULAR LOCATION</scope></reference><reference key="5"><citation type="journal article" date="2005" name="Biochem. J." volume="390" first="263" last="271"><title>Mammalian Lass6 and its related family members regulate synthesis of specific ceramides.</title><authorList><person name="Mizutani Y."/><person name="Kihara A."/><person name="Igarashi Y."/></authorList><dbReference type="PubMed" id="15823095"/><dbReference type="DOI" id="10.1042/bj20050291"/></citation><scope>FUNCTION</scope><scope>CATALYTIC ACTIVITY</scope><scope>PATHWAY</scope><scope>GLYCOSYLATION AT ASN-26</scope><scope>TISSUE SPECIFICITY</scope></reference><reference key="6"><citation type="journal article" date="2005" name="J. Biol. Chem." volume="280" first="33735" last="33738"><title>LASS5 is a bona fide dihydroceramide synthase that selectively utilizes palmitoyl-CoA as acyl donor.</title><authorList><person name="Lahiri S."/><person name="Futerman A.H."/></authorList><dbReference type="PubMed" id="16100120"/><dbReference type="DOI" id="10.1074/jbc.m506485200"/></citation><scope>FUNCTION</scope><scope>CATALYTIC ACTIVITY</scope><scope>PATHWAY</scope><scope>ACTIVITY REGULATION</scope></reference><reference key="7"><citation type="journal article" date="2010" name="Cell" volume="143" first="1174" last="1189"><title>A tissue-specific atlas of mouse protein phosphorylation and expression.</title><authorList><person name="Huttlin E.L."/><person name="Jedrychowski M.P."/><person name="Elias J.E."/><person name="Goswami T."/><person name="Rad R."/><person name="Beausoleil S.A."/><person name="Villen J."/><person name="Haas W."/><person name="Sowa M.E."/><person name="Gygi S.P."/></authorList><dbReference type="PubMed" id="21183079"/><dbReference type="DOI" id="10.1016/j.cell.2010.12.001"/></citation><scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope><source><tissue>Testis</tissue></source></reference><reference key="8"><citation type="journal article" date="2007" name="FEBS Lett." volume="581" first="5289" last="5294"><title>Kinetic characterization of mammalian ceramide synthases: determination of K(m) values towards sphinganine.</title><authorList><person name="Lahiri S."/><person name="Lee H."/><person name="Mesicek J."/><person name="Fuks Z."/><person name="Haimovitz-Friedman A."/><person name="Kolesnick R.N."/><person name="Futerman A.H."/></authorList><dbReference type="PubMed" id="17977534"/><dbReference type="DOI" id="10.1016/j.febslet.2007.10.018"/></citation><scope>FUNCTION</scope><scope>CATALYTIC ACTIVITY</scope><scope>BIOPHYSICOCHEMICAL PROPERTIES</scope><scope>PATHWAY</scope></reference><reference key="9"><citation type="journal article" date="2007" name="J. Biol. Chem." volume="282" first="27366" last="27373"><title>A new functional motif in Hox domain-containing ceramide synthases: identification of a novel region flanking the Hox and TLC domains essential for activity.</title><authorList><person name="Mesika A."/><person name="Ben-Dor S."/><person name="Laviad E.L."/><person name="Futerman A.H."/></authorList><dbReference type="PubMed" id="17609214"/><dbReference type="DOI" id="10.1074/jbc.m703487200"/></citation><scope>FUNCTION</scope><scope>CATALYTIC ACTIVITY</scope><scope>PATHWAY</scope><scope>BIOPHYSICOCHEMICAL PROPERTIES</scope><scope>MUTAGENESIS OF 129-ARG--LYS-140; LYS-134; 136-PRO--LYS-140 AND LYS-140</scope></reference><reference key="10"><citation type="journal article" date="2016" name="J. Biol. Chem." volume="291" first="6989" last="7003"><title>Ceramide Synthase 5 is essential to maintain C16:0-ceramide pools and contributes to the development of diet-induced obesity.</title><authorList><person name="Gosejacob D."/><person name="Jaeger P.S."/><person name="Vom Dorp K."/><person name="Frejno M."/><person name="Carstensen A.C."/><person name="Koehnke M."/><person name="Degen J."/><person name="Doermann P."/><person name="Hoch M."/></authorList><dbReference type="PubMed" id="26853464"/><dbReference type="DOI" id="10.1074/jbc.m115.691212"/></citation><scope>FUNCTION</scope><scope>DISRUPTION PHENOTYPE</scope></reference><reference key="11"><citation type="journal article" date="2019" name="Cell" volume="177" first="1536" last="1552"><title>CerS6-derived sphingolipids interact with Mff and promote mitochondrial fragmentation in obesity.</title><authorList><person name="Hammerschmidt P."/><person name="Ostkotte D."/><person name="Nolte H."/><person name="Gerl M.J."/><person name="Jais A."/><person name="Brunner H.L."/><person name="Sprenger H.G."/><person name="Awazawa M."/><person name="Nicholls H.T."/><person name="Turpin-Nolan S.M."/><person name="Langer T."/><person name="Krueger M."/><person name="Bruegger B."/><person name="Bruening J.C."/></authorList><dbReference type="PubMed" id="31150623"/><dbReference type="DOI" id="10.1016/j.cell.2019.05.008"/></citation><scope>CAUTION</scope></reference><reference key="12"><citation type="submission" date="2005-11" db="PDB data bank"><title>Solution structure of RSGI RUH-034, a homeodomain from mouse cDNA.</title><authorList><consortium name="RIKEN structural genomics initiative (RSGI)"/></authorList></citation><scope>STRUCTURE BY NMR OF 77-135</scope></reference><comment type="alternative products"><event type="alternative splicing"/><isoform><id>Q9D6K9-1</id><name>1</name><sequence type="displayed"/></isoform><isoform><id>Q9D6K9-2</id><name>2</name><sequence type="described" ref="VSP_011192 VSP_011193"/></isoform></comment><dbReference type="EC" id="2.3.1.-" evidence="1 2 3 4 5"/><dbReference type="EC" id="2.3.1.24" evidence="1"/><dbReference type="Ensembl" id="ENSMUST00000109035"><property type="protein sequence ID" value="ENSMUSP00000104663"/><property type="gene ID" value="ENSMUSG00000023021"/></dbReference><dbReference type="UCSC" id="uc007xqg.1"><property type="organism name" value="mouse"/></dbReference><proteinExistence type="evidence at protein level"/><evidence type="ECO:0000269" key="1"><source><dbReference type="PubMed" id="12912983"/></source></evidence><evidence type="ECO:0000269" key="2"><source><dbReference type="PubMed" id="15823095"/></source></evidence><evidence type="ECO:0000269" key="3"><source><dbReference type="PubMed" id="16100120"/></source></evidence><evidence type="ECO:0000269" key="4"><source><dbReference type="PubMed" id="17609214"/></source></evidence><evidence type="ECO:0000269" key="5"><source><dbReference type="PubMed" id="17977534"/></source></evidence><evidence type="ECO:0000303" key="6"><source><dbReference type="PubMed" id="12912983"/></source></evidence><evidence type="ECO:0000303" key="7"><source><dbReference type="PubMed" id="16100120"/></source></evidence><evidence type="ECO:0000305" key="8"/><evidence type="ECO:0000312" key="9"><source><dbReference type="MGI" id="MGI:1919199"/></source></evidence><sequence length="387" mass="45428" checksum="61692188487B3BC2" modified="2001-06-01" version="1">MATAAAETLGLLWGWLWSESFWLPQNVSWADLEGPGDGYGYPRAQHVLSVFPLAVCIFSVRMLFERFIAKPCALRVGIKDSPVNKVEPNDTLEKVFVSVTKYPDEKRLKGLSKQLDWSVRKIQCWFRHRRNQDKPPTLTKFCESMWRFTYYLCIFCYGIRFLWSMPWFWDTRQCWYNYPYQPLSRELYYYYITQLAFYWSLMFSQFIDVKRKDFLMMFIHHMIGIMLTTFSYVNNMVRVGALIFCLHDFADPLLEAAKMANYARRERLCTTLFVIFGAAFIVSRLAIFPLWILNTTLFESWEIIGPYPSWWLFNALLLILQVLHAIWSYLIVQTASKALSRGKVLSQEGLDPGSVPSALSHLLPLFSAWWQLDSSILCMCLRMTAVM</sequence></entry><entry xmlns="http://uniprot.org/uniprot" dataset="Swiss-Prot" created="2004-08-16" modified="2020-08-12" version="161"><accession>Q9D6K9-1</accession><name>CERS5-1_MOUSE</name><protein><recommendedName><fullName evidence="8">Isoform 1 of Ceramide synthase 5</fullName><shortName evidence="8">CerS5</shortName><ecNumber evidence="1 2 3 4 5">2.3.1.-</ecNumber></recommendedName><alternativeName><fullName evidence="7">LAG1 longevity assurance homolog 5</fullName></alternativeName><alternativeName><fullName evidence="8">Sphingosine N-acyltransferase CERS5</fullName><ecNumber evidence="1">2.3.1.24</ecNumber></alternativeName><alternativeName><fullName evidence="6">Translocating chain-associating membrane protein homolog 4</fullName><shortName evidence="6">TRAM homolog 4</shortName></alternativeName></protein><gene><name evidence="9" type="primary">Cers5</name><name evidence="7" type="synonym">Lass5</name><name evidence="6" type="synonym">Trh4</name></gene><organism><name type="scientific">Mus musculus</name><name type="common">Mouse</name><dbReference type="NCBI Taxonomy" id="10090"/><lineage><taxon>Eukaryota</taxon><taxon>Metazoa</taxon><taxon>Chordata</taxon><taxon>Craniata</taxon><taxon>Vertebrata</taxon><taxon>Euteleostomi</taxon><taxon>Mammalia</taxon><taxon>Eutheria</taxon><taxon>Euarchontoglires</taxon><taxon>Glires</taxon><taxon>Rodentia</taxon><taxon>Myomorpha</taxon><taxon>Muroidea</taxon><taxon>Muridae</taxon><taxon>Murinae</taxon><taxon>Mus</taxon><taxon>Mus</taxon></lineage></organism><reference key="1"><citation type="submission" date="2001-04" db="EMBL/GenBank/DDBJ databases"><authorList><person name="Hartmann E."/></authorList></citation><scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope></reference><reference key="2"><citation type="journal article" date="2005" name="Science" volume="309" first="1559" last="1563"><title>The transcriptional landscape of the mammalian genome.</title><authorList><person name="Carninci P."/><person name="Kasukawa T."/><person name="Katayama S."/><person name="Gough J."/><person name="Frith M.C."/><person name="Maeda N."/><person name="Oyama R."/><person name="Ravasi T."/><person name="Lenhard B."/><person name="Wells C."/><person name="Kodzius R."/><person name="Shimokawa K."/><person name="Bajic V.B."/><person name="Brenner S.E."/><person name="Batalov S."/><person name="Forrest A.R."/><person name="Zavolan M."/><person name="Davis M.J."/><person name="Wilming L.G."/><person name="Aidinis V."/><person name="Allen J.E."/><person name="Ambesi-Impiombato A."/><person name="Apweiler R."/><person name="Aturaliya R.N."/><person name="Bailey T.L."/><person name="Bansal M."/><person name="Baxter L."/><person name="Beisel K.W."/><person name="Bersano T."/><person name="Bono H."/><person name="Chalk A.M."/><person name="Chiu K.P."/><person name="Choudhary V."/><person name="Christoffels A."/><person name="Clutterbuck D.R."/><person name="Crowe M.L."/><person name="Dalla E."/><person name="Dalrymple B.P."/><person name="de Bono B."/><person name="Della Gatta G."/><person name="di Bernardo D."/><person name="Down T."/><person name="Engstrom P."/><person name="Fagiolini M."/><person name="Faulkner G."/><person name="Fletcher C.F."/><person name="Fukushima T."/><person name="Furuno M."/><person name="Futaki S."/><person name="Gariboldi M."/><person name="Georgii-Hemming P."/><person name="Gingeras T.R."/><person name="Gojobori T."/><person name="Green R.E."/><person name="Gustincich S."/><person name="Harbers M."/><person name="Hayashi Y."/><person name="Hensch T.K."/><person name="Hirokawa N."/><person name="Hill D."/><person name="Huminiecki L."/><person name="Iacono M."/><person name="Ikeo K."/><person name="Iwama A."/><person name="Ishikawa T."/><person name="Jakt M."/><person name="Kanapin A."/><person name="Katoh M."/><person name="Kawasawa Y."/><person name="Kelso J."/><person name="Kitamura H."/><person name="Kitano H."/><person name="Kollias G."/><person name="Krishnan S.P."/><person name="Kruger A."/><person name="Kummerfeld S.K."/><person name="Kurochkin I.V."/><person name="Lareau L.F."/><person name="Lazarevic D."/><person name="Lipovich L."/><person name="Liu J."/><person name="Liuni S."/><person name="McWilliam S."/><person name="Madan Babu M."/><person name="Madera M."/><person name="Marchionni L."/><person name="Matsuda H."/><person name="Matsuzawa S."/><person name="Miki H."/><person name="Mignone F."/><person name="Miyake S."/><person name="Morris K."/><person name="Mottagui-Tabar S."/><person name="Mulder N."/><person name="Nakano N."/><person name="Nakauchi H."/><person name="Ng P."/><person name="Nilsson R."/><person name="Nishiguchi S."/><person name="Nishikawa S."/><person name="Nori F."/><person name="Ohara O."/><person name="Okazaki Y."/><person name="Orlando V."/><person name="Pang K.C."/><person name="Pavan W.J."/><person name="Pavesi G."/><person name="Pesole G."/><person name="Petrovsky N."/><person name="Piazza S."/><person name="Reed J."/><person name="Reid J.F."/><person name="Ring B.Z."/><person name="Ringwald M."/><person name="Rost B."/><person name="Ruan Y."/><person name="Salzberg S.L."/><person name="Sandelin A."/><person name="Schneider C."/><person name="Schoenbach C."/><person name="Sekiguchi K."/><person name="Semple C.A."/><person name="Seno S."/><person name="Sessa L."/><person name="Sheng Y."/><person name="Shibata Y."/><person name="Shimada H."/><person name="Shimada K."/><person name="Silva D."/><person name="Sinclair B."/><person name="Sperling S."/><person name="Stupka E."/><person name="Sugiura K."/><person name="Sultana R."/><person name="Takenaka Y."/><person name="Taki K."/><person name="Tammoja K."/><person name="Tan S.L."/><person name="Tang S."/><person name="Taylor M.S."/><person name="Tegner J."/><person name="Teichmann S.A."/><person name="Ueda H.R."/><person name="van Nimwegen E."/><person name="Verardo R."/><person name="Wei C.L."/><person name="Yagi K."/><person name="Yamanishi H."/><person name="Zabarovsky E."/><person name="Zhu S."/><person name="Zimmer A."/><person name="Hide W."/><person name="Bult C."/><person name="Grimmond S.M."/><person name="Teasdale R.D."/><person name="Liu E.T."/><person name="Brusic V."/><person name="Quackenbush J."/><person name="Wahlestedt C."/><person name="Mattick J.S."/><person name="Hume D.A."/><person name="Kai C."/><person name="Sasaki D."/><person name="Tomaru Y."/><person name="Fukuda S."/><person name="Kanamori-Katayama M."/><person name="Suzuki M."/><person name="Aoki J."/><person name="Arakawa T."/><person name="Iida J."/><person name="Imamura K."/><person name="Itoh M."/><person name="Kato T."/><person name="Kawaji H."/><person name="Kawagashira N."/><person name="Kawashima T."/><person name="Kojima M."/><person name="Kondo S."/><person name="Konno H."/><person name="Nakano K."/><person name="Ninomiya N."/><person name="Nishio T."/><person name="Okada M."/><person name="Plessy C."/><person name="Shibata K."/><person name="Shiraki T."/><person name="Suzuki S."/><person name="Tagami M."/><person name="Waki K."/><person name="Watahiki A."/><person name="Okamura-Oho Y."/><person name="Suzuki H."/><person name="Kawai J."/><person name="Hayashizaki Y."/></authorList><dbReference type="PubMed" id="16141072"/><dbReference type="DOI" id="10.1126/science.1112014"/></citation><scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)</scope><source><strain>C57BL/6J</strain><tissue>Tongue</tissue></source></reference><reference key="3"><citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127"><title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title><authorList><consortium name="The MGC Project Team"/></authorList><dbReference type="PubMed" id="15489334"/><dbReference type="DOI" id="10.1101/gr.2596504"/></citation><scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2)</scope><source><strain>C57BL/6J</strain><tissue>Brain</tissue><tissue>Mammary tumor</tissue></source></reference><reference key="4"><citation type="journal article" date="2003" name="J. Biol. Chem." volume="278" first="43452" last="43459"><title>Two mammalian longevity assurance gene (LAG1) family members, trh1 and trh4, regulate dihydroceramide synthesis using different fatty acyl-CoA donors.</title><authorList><person name="Riebeling C."/><person name="Allegood J.C."/><person name="Wang E."/><person name="Merrill A.H. Jr."/><person name="Futerman A.H."/></authorList><dbReference type="PubMed" id="12912983"/><dbReference type="DOI" id="10.1074/jbc.m307104200"/></citation><scope>FUNCTION</scope><scope>CATALYTIC ACTIVITY</scope><scope>PATHWAY</scope><scope>TISSUE SPECIFICITY</scope><scope>SUBCELLULAR LOCATION</scope></reference><reference key="5"><citation type="journal article" date="2005" name="Biochem. J." volume="390" first="263" last="271"><title>Mammalian Lass6 and its related family members regulate synthesis of specific ceramides.</title><authorList><person name="Mizutani Y."/><person name="Kihara A."/><person name="Igarashi Y."/></authorList><dbReference type="PubMed" id="15823095"/><dbReference type="DOI" id="10.1042/bj20050291"/></citation><scope>FUNCTION</scope><scope>CATALYTIC ACTIVITY</scope><scope>PATHWAY</scope><scope>GLYCOSYLATION AT ASN-26</scope><scope>TISSUE SPECIFICITY</scope></reference><reference key="6"><citation type="journal article" date="2005" name="J. Biol. Chem." volume="280" first="33735" last="33738"><title>LASS5 is a bona fide dihydroceramide synthase that selectively utilizes palmitoyl-CoA as acyl donor.</title><authorList><person name="Lahiri S."/><person name="Futerman A.H."/></authorList><dbReference type="PubMed" id="16100120"/><dbReference type="DOI" id="10.1074/jbc.m506485200"/></citation><scope>FUNCTION</scope><scope>CATALYTIC ACTIVITY</scope><scope>PATHWAY</scope><scope>ACTIVITY REGULATION</scope></reference><reference key="7"><citation type="journal article" date="2010" name="Cell" volume="143" first="1174" last="1189"><title>A tissue-specific atlas of mouse protein phosphorylation and expression.</title><authorList><person name="Huttlin E.L."/><person name="Jedrychowski M.P."/><person name="Elias J.E."/><person name="Goswami T."/><person name="Rad R."/><person name="Beausoleil S.A."/><person name="Villen J."/><person name="Haas W."/><person name="Sowa M.E."/><person name="Gygi S.P."/></authorList><dbReference type="PubMed" id="21183079"/><dbReference type="DOI" id="10.1016/j.cell.2010.12.001"/></citation><scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope><source><tissue>Testis</tissue></source></reference><reference key="8"><citation type="journal article" date="2007" name="FEBS Lett." volume="581" first="5289" last="5294"><title>Kinetic characterization of mammalian ceramide synthases: determination of K(m) values towards sphinganine.</title><authorList><person name="Lahiri S."/><person name="Lee H."/><person name="Mesicek J."/><person name="Fuks Z."/><person name="Haimovitz-Friedman A."/><person name="Kolesnick R.N."/><person name="Futerman A.H."/></authorList><dbReference type="PubMed" id="17977534"/><dbReference type="DOI" id="10.1016/j.febslet.2007.10.018"/></citation><scope>FUNCTION</scope><scope>CATALYTIC ACTIVITY</scope><scope>BIOPHYSICOCHEMICAL PROPERTIES</scope><scope>PATHWAY</scope></reference><reference key="9"><citation type="journal article" date="2007" name="J. Biol. Chem." volume="282" first="27366" last="27373"><title>A new functional motif in Hox domain-containing ceramide synthases: identification of a novel region flanking the Hox and TLC domains essential for activity.</title><authorList><person name="Mesika A."/><person name="Ben-Dor S."/><person name="Laviad E.L."/><person name="Futerman A.H."/></authorList><dbReference type="PubMed" id="17609214"/><dbReference type="DOI" id="10.1074/jbc.m703487200"/></citation><scope>FUNCTION</scope><scope>CATALYTIC ACTIVITY</scope><scope>PATHWAY</scope><scope>BIOPHYSICOCHEMICAL PROPERTIES</scope><scope>MUTAGENESIS OF 129-ARG--LYS-140; LYS-134; 136-PRO--LYS-140 AND LYS-140</scope></reference><reference key="10"><citation type="journal article" date="2016" name="J. Biol. Chem." volume="291" first="6989" last="7003"><title>Ceramide Synthase 5 is essential to maintain C16:0-ceramide pools and contributes to the development of diet-induced obesity.</title><authorList><person name="Gosejacob D."/><person name="Jaeger P.S."/><person name="Vom Dorp K."/><person name="Frejno M."/><person name="Carstensen A.C."/><person name="Koehnke M."/><person name="Degen J."/><person name="Doermann P."/><person name="Hoch M."/></authorList><dbReference type="PubMed" id="26853464"/><dbReference type="DOI" id="10.1074/jbc.m115.691212"/></citation><scope>FUNCTION</scope><scope>DISRUPTION PHENOTYPE</scope></reference><reference key="11"><citation type="journal article" date="2019" name="Cell" volume="177" first="1536" last="1552"><title>CerS6-derived sphingolipids interact with Mff and promote mitochondrial fragmentation in obesity.</title><authorList><person name="Hammerschmidt P."/><person name="Ostkotte D."/><person name="Nolte H."/><person name="Gerl M.J."/><person name="Jais A."/><person name="Brunner H.L."/><person name="Sprenger H.G."/><person name="Awazawa M."/><person name="Nicholls H.T."/><person name="Turpin-Nolan S.M."/><person name="Langer T."/><person name="Krueger M."/><person name="Bruegger B."/><person name="Bruening J.C."/></authorList><dbReference type="PubMed" id="31150623"/><dbReference type="DOI" id="10.1016/j.cell.2019.05.008"/></citation><scope>CAUTION</scope></reference><reference key="12"><citation type="submission" date="2005-11" db="PDB data bank"><title>Solution structure of RSGI RUH-034, a homeodomain from mouse cDNA.</title><authorList><consortium name="RIKEN structural genomics initiative (RSGI)"/></authorList></citation><scope>STRUCTURE BY NMR OF 77-135</scope></reference><comment type="alternative products"><event type="alternative splicing"/><isoform><id>Q9D6K9-1</id><name>1</name><sequence type="displayed"/></isoform><isoform><id>Q9D6K9-2</id><name>2</name><sequence type="described" ref="VSP_011192 VSP_011193"/></isoform></comment><dbReference type="EC" id="2.3.1.-" evidence="1 2 3 4 5"/><dbReference type="EC" id="2.3.1.24" evidence="1"/><dbReference type="CCDS" id="CCDS27830.1"/><dbReference type="RefSeq" id="NP_082291.1"><property type="nucleotide sequence ID" value="NM_028015.2"/></dbReference><dbReference type="Ensembl" id="ENSMUST00000023762"><property type="protein sequence ID" value="ENSMUSP00000023762"/><property type="gene ID" value="ENSMUSG00000023021"/></dbReference><dbReference type="UCSC" id="uc007xqf.1"><property type="organism name" value="mouse"/></dbReference><proteinExistence type="evidence at protein level"/><evidence type="ECO:0000269" key="1"><source><dbReference type="PubMed" id="12912983"/></source></evidence><evidence type="ECO:0000269" key="2"><source><dbReference type="PubMed" id="15823095"/></source></evidence><evidence type="ECO:0000269" key="3"><source><dbReference type="PubMed" id="16100120"/></source></evidence><evidence type="ECO:0000269" key="4"><source><dbReference type="PubMed" id="17609214"/></source></evidence><evidence type="ECO:0000269" key="5"><source><dbReference type="PubMed" id="17977534"/></source></evidence><evidence type="ECO:0000303" key="6"><source><dbReference type="PubMed" id="12912983"/></source></evidence><evidence type="ECO:0000303" key="7"><source><dbReference type="PubMed" id="16100120"/></source></evidence><evidence type="ECO:0000305" key="8"/><evidence type="ECO:0000312" key="9"><source><dbReference type="MGI" id="MGI:1919199"/></source></evidence><sequence length="414" mass="48167" checksum="E3536F344A459D49" modified="2001-06-01" version="1">MATAAAETLGLLWGWLWSESFWLPQNVSWADLEGPGDGYGYPRAQHVLSVFPLAVCIFSVRMLFERFIAKPCALRVGIKDSPVNKVEPNDTLEKVFVSVTKYPDEKRLKGLSKQLDWSVRKIQCWFRHRRNQDKPPTLTKFCESMWRFTYYLCIFCYGIRFLWSMPWFWDTRQCWYNYPYQPLSRELYYYYITQLAFYWSLMFSQFIDVKRKDFLMMFIHHMIGIMLTTFSYVNNMVRVGALIFCLHDFADPLLEAAKMANYARRERLCTTLFVIFGAAFIVSRLAIFPLWILNTTLFESWEIIGPYPSWWLFNALLLILQVLHAIWSYLIVQTASKALSRGKVSKDDRSDVESSSEEEDETTHKNNLSGSSSSNGANCMNGYMGGSHLAEEQGTCKATGNLHFRASPHLHSCD</sequence></entry></uniprot>
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2004-08-16" modified="2023-11-08" version="176" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9D6K9-1</accession>
+  <name>CERS5_MOUSE</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="7">Isoform 1 of Ceramide synthase 5</fullName>
+      <shortName evidence="7">CerS5</shortName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="6">LAG1 longevity assurance homolog 5</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="7">Sphingoid base N-palmitoyltransferase CERS5</fullName>
+      <ecNumber evidence="1 2 3 4">2.3.1.291</ecNumber>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="7">Sphingosine N-acyltransferase CERS5</fullName>
+      <ecNumber evidence="1">2.3.1.24</ecNumber>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="5">Translocating chain-associating membrane protein homolog 4</fullName>
+      <shortName evidence="5">TRAM homolog 4</shortName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="8" type="primary">Cers5</name>
+    <name evidence="6" type="synonym">Lass5</name>
+    <name evidence="5" type="synonym">Trh4</name>
+  </gene>
+  <organism>
+    <name type="scientific">Mus musculus</name>
+    <name type="common">Mouse</name>
+    <dbReference type="NCBI Taxonomy" id="10090"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Glires</taxon>
+      <taxon>Rodentia</taxon>
+      <taxon>Myomorpha</taxon>
+      <taxon>Muroidea</taxon>
+      <taxon>Muridae</taxon>
+      <taxon>Murinae</taxon>
+      <taxon>Mus</taxon>
+      <taxon>Mus</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="submission" date="2001-04" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Hartmann E."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2005" name="Science" volume="309" first="1559" last="1563">
+      <title>The transcriptional landscape of the mammalian genome.</title>
+      <authorList>
+        <person name="Carninci P."/>
+        <person name="Kasukawa T."/>
+        <person name="Katayama S."/>
+        <person name="Gough J."/>
+        <person name="Frith M.C."/>
+        <person name="Maeda N."/>
+        <person name="Oyama R."/>
+        <person name="Ravasi T."/>
+        <person name="Lenhard B."/>
+        <person name="Wells C."/>
+        <person name="Kodzius R."/>
+        <person name="Shimokawa K."/>
+        <person name="Bajic V.B."/>
+        <person name="Brenner S.E."/>
+        <person name="Batalov S."/>
+        <person name="Forrest A.R."/>
+        <person name="Zavolan M."/>
+        <person name="Davis M.J."/>
+        <person name="Wilming L.G."/>
+        <person name="Aidinis V."/>
+        <person name="Allen J.E."/>
+        <person name="Ambesi-Impiombato A."/>
+        <person name="Apweiler R."/>
+        <person name="Aturaliya R.N."/>
+        <person name="Bailey T.L."/>
+        <person name="Bansal M."/>
+        <person name="Baxter L."/>
+        <person name="Beisel K.W."/>
+        <person name="Bersano T."/>
+        <person name="Bono H."/>
+        <person name="Chalk A.M."/>
+        <person name="Chiu K.P."/>
+        <person name="Choudhary V."/>
+        <person name="Christoffels A."/>
+        <person name="Clutterbuck D.R."/>
+        <person name="Crowe M.L."/>
+        <person name="Dalla E."/>
+        <person name="Dalrymple B.P."/>
+        <person name="de Bono B."/>
+        <person name="Della Gatta G."/>
+        <person name="di Bernardo D."/>
+        <person name="Down T."/>
+        <person name="Engstrom P."/>
+        <person name="Fagiolini M."/>
+        <person name="Faulkner G."/>
+        <person name="Fletcher C.F."/>
+        <person name="Fukushima T."/>
+        <person name="Furuno M."/>
+        <person name="Futaki S."/>
+        <person name="Gariboldi M."/>
+        <person name="Georgii-Hemming P."/>
+        <person name="Gingeras T.R."/>
+        <person name="Gojobori T."/>
+        <person name="Green R.E."/>
+        <person name="Gustincich S."/>
+        <person name="Harbers M."/>
+        <person name="Hayashi Y."/>
+        <person name="Hensch T.K."/>
+        <person name="Hirokawa N."/>
+        <person name="Hill D."/>
+        <person name="Huminiecki L."/>
+        <person name="Iacono M."/>
+        <person name="Ikeo K."/>
+        <person name="Iwama A."/>
+        <person name="Ishikawa T."/>
+        <person name="Jakt M."/>
+        <person name="Kanapin A."/>
+        <person name="Katoh M."/>
+        <person name="Kawasawa Y."/>
+        <person name="Kelso J."/>
+        <person name="Kitamura H."/>
+        <person name="Kitano H."/>
+        <person name="Kollias G."/>
+        <person name="Krishnan S.P."/>
+        <person name="Kruger A."/>
+        <person name="Kummerfeld S.K."/>
+        <person name="Kurochkin I.V."/>
+        <person name="Lareau L.F."/>
+        <person name="Lazarevic D."/>
+        <person name="Lipovich L."/>
+        <person name="Liu J."/>
+        <person name="Liuni S."/>
+        <person name="McWilliam S."/>
+        <person name="Madan Babu M."/>
+        <person name="Madera M."/>
+        <person name="Marchionni L."/>
+        <person name="Matsuda H."/>
+        <person name="Matsuzawa S."/>
+        <person name="Miki H."/>
+        <person name="Mignone F."/>
+        <person name="Miyake S."/>
+        <person name="Morris K."/>
+        <person name="Mottagui-Tabar S."/>
+        <person name="Mulder N."/>
+        <person name="Nakano N."/>
+        <person name="Nakauchi H."/>
+        <person name="Ng P."/>
+        <person name="Nilsson R."/>
+        <person name="Nishiguchi S."/>
+        <person name="Nishikawa S."/>
+        <person name="Nori F."/>
+        <person name="Ohara O."/>
+        <person name="Okazaki Y."/>
+        <person name="Orlando V."/>
+        <person name="Pang K.C."/>
+        <person name="Pavan W.J."/>
+        <person name="Pavesi G."/>
+        <person name="Pesole G."/>
+        <person name="Petrovsky N."/>
+        <person name="Piazza S."/>
+        <person name="Reed J."/>
+        <person name="Reid J.F."/>
+        <person name="Ring B.Z."/>
+        <person name="Ringwald M."/>
+        <person name="Rost B."/>
+        <person name="Ruan Y."/>
+        <person name="Salzberg S.L."/>
+        <person name="Sandelin A."/>
+        <person name="Schneider C."/>
+        <person name="Schoenbach C."/>
+        <person name="Sekiguchi K."/>
+        <person name="Semple C.A."/>
+        <person name="Seno S."/>
+        <person name="Sessa L."/>
+        <person name="Sheng Y."/>
+        <person name="Shibata Y."/>
+        <person name="Shimada H."/>
+        <person name="Shimada K."/>
+        <person name="Silva D."/>
+        <person name="Sinclair B."/>
+        <person name="Sperling S."/>
+        <person name="Stupka E."/>
+        <person name="Sugiura K."/>
+        <person name="Sultana R."/>
+        <person name="Takenaka Y."/>
+        <person name="Taki K."/>
+        <person name="Tammoja K."/>
+        <person name="Tan S.L."/>
+        <person name="Tang S."/>
+        <person name="Taylor M.S."/>
+        <person name="Tegner J."/>
+        <person name="Teichmann S.A."/>
+        <person name="Ueda H.R."/>
+        <person name="van Nimwegen E."/>
+        <person name="Verardo R."/>
+        <person name="Wei C.L."/>
+        <person name="Yagi K."/>
+        <person name="Yamanishi H."/>
+        <person name="Zabarovsky E."/>
+        <person name="Zhu S."/>
+        <person name="Zimmer A."/>
+        <person name="Hide W."/>
+        <person name="Bult C."/>
+        <person name="Grimmond S.M."/>
+        <person name="Teasdale R.D."/>
+        <person name="Liu E.T."/>
+        <person name="Brusic V."/>
+        <person name="Quackenbush J."/>
+        <person name="Wahlestedt C."/>
+        <person name="Mattick J.S."/>
+        <person name="Hume D.A."/>
+        <person name="Kai C."/>
+        <person name="Sasaki D."/>
+        <person name="Tomaru Y."/>
+        <person name="Fukuda S."/>
+        <person name="Kanamori-Katayama M."/>
+        <person name="Suzuki M."/>
+        <person name="Aoki J."/>
+        <person name="Arakawa T."/>
+        <person name="Iida J."/>
+        <person name="Imamura K."/>
+        <person name="Itoh M."/>
+        <person name="Kato T."/>
+        <person name="Kawaji H."/>
+        <person name="Kawagashira N."/>
+        <person name="Kawashima T."/>
+        <person name="Kojima M."/>
+        <person name="Kondo S."/>
+        <person name="Konno H."/>
+        <person name="Nakano K."/>
+        <person name="Ninomiya N."/>
+        <person name="Nishio T."/>
+        <person name="Okada M."/>
+        <person name="Plessy C."/>
+        <person name="Shibata K."/>
+        <person name="Shiraki T."/>
+        <person name="Suzuki S."/>
+        <person name="Tagami M."/>
+        <person name="Waki K."/>
+        <person name="Watahiki A."/>
+        <person name="Okamura-Oho Y."/>
+        <person name="Suzuki H."/>
+        <person name="Kawai J."/>
+        <person name="Hayashizaki Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="16141072"/>
+      <dbReference type="DOI" id="10.1126/science.1112014"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)</scope>
+    <source>
+      <strain>C57BL/6J</strain>
+      <tissue>Tongue</tissue>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2)</scope>
+    <source>
+      <strain>C57BL/6J</strain>
+      <tissue>Brain</tissue>
+      <tissue>Mammary tumor</tissue>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2003" name="J. Biol. Chem." volume="278" first="43452" last="43459">
+      <title>Two mammalian longevity assurance gene (LAG1) family members, trh1 and trh4, regulate dihydroceramide synthesis using different fatty acyl-CoA donors.</title>
+      <authorList>
+        <person name="Riebeling C."/>
+        <person name="Allegood J.C."/>
+        <person name="Wang E."/>
+        <person name="Merrill A.H. Jr."/>
+        <person name="Futerman A.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="12912983"/>
+      <dbReference type="DOI" id="10.1074/jbc.m307104200"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>PATHWAY</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2005" name="Biochem. J." volume="390" first="263" last="271">
+      <title>Mammalian Lass6 and its related family members regulate synthesis of specific ceramides.</title>
+      <authorList>
+        <person name="Mizutani Y."/>
+        <person name="Kihara A."/>
+        <person name="Igarashi Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="15823095"/>
+      <dbReference type="DOI" id="10.1042/bj20050291"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>PATHWAY</scope>
+    <scope>GLYCOSYLATION AT ASN-26</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2005" name="J. Biol. Chem." volume="280" first="33735" last="33738">
+      <title>LASS5 is a bona fide dihydroceramide synthase that selectively utilizes palmitoyl-CoA as acyl donor.</title>
+      <authorList>
+        <person name="Lahiri S."/>
+        <person name="Futerman A.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="16100120"/>
+      <dbReference type="DOI" id="10.1074/jbc.m506485200"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>PATHWAY</scope>
+    <scope>ACTIVITY REGULATION</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2005" name="J. Lipid Res." volume="46" first="1229" last="1238">
+      <title>LASS5 is the predominant ceramide synthase isoform involved in de novo sphingolipid synthesis in lung epithelia.</title>
+      <authorList>
+        <person name="Xu Z."/>
+        <person name="Zhou J."/>
+        <person name="McCoy D.M."/>
+        <person name="Mallampalli R.K."/>
+      </authorList>
+      <dbReference type="PubMed" id="15772421"/>
+      <dbReference type="DOI" id="10.1194/jlr.m500001-jlr200"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+    <scope>DEVELOPMENTAL STAGE</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2010" name="Cell" volume="143" first="1174" last="1189">
+      <title>A tissue-specific atlas of mouse protein phosphorylation and expression.</title>
+      <authorList>
+        <person name="Huttlin E.L."/>
+        <person name="Jedrychowski M.P."/>
+        <person name="Elias J.E."/>
+        <person name="Goswami T."/>
+        <person name="Rad R."/>
+        <person name="Beausoleil S.A."/>
+        <person name="Villen J."/>
+        <person name="Haas W."/>
+        <person name="Sowa M.E."/>
+        <person name="Gygi S.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="21183079"/>
+      <dbReference type="DOI" id="10.1016/j.cell.2010.12.001"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Testis</tissue>
+    </source>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2007" name="FEBS Lett." volume="581" first="5289" last="5294">
+      <title>Kinetic characterization of mammalian ceramide synthases: determination of K(m) values towards sphinganine.</title>
+      <authorList>
+        <person name="Lahiri S."/>
+        <person name="Lee H."/>
+        <person name="Mesicek J."/>
+        <person name="Fuks Z."/>
+        <person name="Haimovitz-Friedman A."/>
+        <person name="Kolesnick R.N."/>
+        <person name="Futerman A.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="17977534"/>
+      <dbReference type="DOI" id="10.1016/j.febslet.2007.10.018"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    <scope>PATHWAY</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2007" name="J. Biol. Chem." volume="282" first="27366" last="27373">
+      <title>A new functional motif in Hox domain-containing ceramide synthases: identification of a novel region flanking the Hox and TLC domains essential for activity.</title>
+      <authorList>
+        <person name="Mesika A."/>
+        <person name="Ben-Dor S."/>
+        <person name="Laviad E.L."/>
+        <person name="Futerman A.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="17609214"/>
+      <dbReference type="DOI" id="10.1074/jbc.m703487200"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>PATHWAY</scope>
+    <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    <scope>MUTAGENESIS OF 129-ARG--LYS-140; LYS-134; 136-PRO--LYS-140 AND LYS-140</scope>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2016" name="J. Biol. Chem." volume="291" first="6989" last="7003">
+      <title>Ceramide Synthase 5 is essential to maintain C16:0-ceramide pools and contributes to the development of diet-induced obesity.</title>
+      <authorList>
+        <person name="Gosejacob D."/>
+        <person name="Jaeger P.S."/>
+        <person name="Vom Dorp K."/>
+        <person name="Frejno M."/>
+        <person name="Carstensen A.C."/>
+        <person name="Koehnke M."/>
+        <person name="Degen J."/>
+        <person name="Doermann P."/>
+        <person name="Hoch M."/>
+      </authorList>
+      <dbReference type="PubMed" id="26853464"/>
+      <dbReference type="DOI" id="10.1074/jbc.m115.691212"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>DISRUPTION PHENOTYPE</scope>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="2019" name="Cell" volume="177" first="1536" last="1552">
+      <title>CerS6-derived sphingolipids interact with Mff and promote mitochondrial fragmentation in obesity.</title>
+      <authorList>
+        <person name="Hammerschmidt P."/>
+        <person name="Ostkotte D."/>
+        <person name="Nolte H."/>
+        <person name="Gerl M.J."/>
+        <person name="Jais A."/>
+        <person name="Brunner H.L."/>
+        <person name="Sprenger H.G."/>
+        <person name="Awazawa M."/>
+        <person name="Nicholls H.T."/>
+        <person name="Turpin-Nolan S.M."/>
+        <person name="Langer T."/>
+        <person name="Krueger M."/>
+        <person name="Bruegger B."/>
+        <person name="Bruening J.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="31150623"/>
+      <dbReference type="DOI" id="10.1016/j.cell.2019.05.008"/>
+    </citation>
+    <scope>CAUTION</scope>
+  </reference>
+  <reference key="13">
+    <citation type="submission" date="2005-11" db="PDB data bank">
+      <title>Solution structure of RSGI RUH-034, a homeodomain from mouse cDNA.</title>
+      <authorList>
+        <consortium name="RIKEN structural genomics initiative (RSGI)"/>
+      </authorList>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 77-135</scope>
+  </reference>
+  <comment type="alternative products">
+    <event type="alternative splicing"/>
+    <isoform>
+      <id>Q9D6K9-1</id>
+      <name>1</name>
+      <sequence type="displayed"/>
+    </isoform>
+    <isoform>
+      <id>Q9D6K9-2</id>
+      <name>2</name>
+      <sequence type="described" ref="VSP_011192 VSP_011193"/>
+    </isoform>
+  </comment>
+  <dbReference type="EC" id="2.3.1.291" evidence="1 2 3 4"/>
+  <dbReference type="EC" id="2.3.1.24" evidence="1"/>
+  <dbReference type="CCDS" id="CCDS27830.1"/>
+  <dbReference type="RefSeq" id="NP_082291.1">
+    <property type="nucleotide sequence ID" value="NM_028015.2"/>
+  </dbReference>
+  <dbReference type="ProteomicsDB" id="281590"/>
+  <dbReference type="Ensembl" id="ENSMUST00000023762">
+    <property type="protein sequence ID" value="ENSMUSP00000023762"/>
+    <property type="gene ID" value="ENSMUSG00000023021"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc007xqf.1">
+    <property type="organism name" value="mouse"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000000589">
+    <property type="component" value="Chromosome 15"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <evidence type="ECO:0000269" key="1">
+    <source>
+      <dbReference type="PubMed" id="12912983"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="15772421"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="15823095"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="17977534"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="5">
+    <source>
+      <dbReference type="PubMed" id="12912983"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="6">
+    <source>
+      <dbReference type="PubMed" id="16100120"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="7"/>
+  <evidence type="ECO:0000312" key="8">
+    <source>
+      <dbReference type="MGI" id="MGI:1919199"/>
+    </source>
+  </evidence>
+  <sequence length="414" mass="48167" checksum="E3536F344A459D49" modified="2001-06-01" version="1">MATAAAETLGLLWGWLWSESFWLPQNVSWADLEGPGDGYGYPRAQHVLSVFPLAVCIFSVRMLFERFIAKPCALRVGIKDSPVNKVEPNDTLEKVFVSVTKYPDEKRLKGLSKQLDWSVRKIQCWFRHRRNQDKPPTLTKFCESMWRFTYYLCIFCYGIRFLWSMPWFWDTRQCWYNYPYQPLSRELYYYYITQLAFYWSLMFSQFIDVKRKDFLMMFIHHMIGIMLTTFSYVNNMVRVGALIFCLHDFADPLLEAAKMANYARRERLCTTLFVIFGAAFIVSRLAIFPLWILNTTLFESWEIIGPYPSWWLFNALLLILQVLHAIWSYLIVQTASKALSRGKVSKDDRSDVESSSEEEDETTHKNNLSGSSSSNGANCMNGYMGGSHLAEEQGTCKATGNLHFRASPHLHSCD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright></uniprot>
