@@ -10,12 +10,13 @@
 ##
 
 
-import sys
 import os
+import sys
 import traceback
+
 from wwpdb.utils.config.ConfigInfoApp import ConfigInfoAppCommon
-from wwpdb.utils.seqdb_v2.FetchUnpXml import FetchUnpXml
 from wwpdb.utils.seqdb_v2.FastaUtil import FastaUtil
+from wwpdb.utils.seqdb_v2.FetchUnpXml import FetchUnpXml
 
 
 class FetchUniProtEntry:
@@ -33,16 +34,13 @@ class FetchUniProtEntry:
         self.__siteId = siteId
         self.__lfh = log
         self.__maxLength = maxLength
-        #
         self.__fXml = FetchUnpXml(maxLength=self.__maxLength, verbose=self.__verbose, log=self.__lfh)
         self.__fFa = FastaUtil(verbose=self.__verbose, log=self.__lfh)
         self.__vD = {}
         self.__faLoaded = False
-        #
         cICommon = ConfigInfoAppCommon(self.__siteId)
         self.__fastaPath = cICommon.get_site_refdata_sequence_db_path()
         self.__variantFastaFilePath = os.path.join(self.__fastaPath, "uniprot_sprot_varsplic.fasta")
-        #
 
     def __loadVariants(self):
         try:
@@ -50,7 +48,9 @@ class FetchUniProtEntry:
             self.__faLoaded = True
         except:  # noqa: E722 pylint: disable=bare-except
             if self.__verbose:
-                self.__lfh.write("+FetchUniprotEntry.__loadVariants() failed for file %s\n" % self.__variantFastaFilePath)
+                self.__lfh.write(
+                    "+FetchUniprotEntry.__loadVariants() failed for file %s\n" % self.__variantFastaFilePath
+                )
                 traceback.print_exc(file=self.__lfh)
 
     def fetchList(self, idList):
@@ -79,13 +79,17 @@ class FetchUniProtEntry:
                         uD["db_isoform_description"] = self.__vD[uid]["description"]
                         uD["isoform_sequence_updated_from_fasta"] = "Y"
                         if self.__verbose:
-                            self.__lfh.write("+FetchUniProtEntry.getResult() Updating isoform sequences from FASTA data for %s\n" % uid)
-                            self.__lfh.write("+FetchUniProtEntry.getResult() Updating isoform description from FASTA  %s\n" % uD["db_isoform_description"])
+                            self.__lfh.write(
+                                "+FetchUniProtEntry.getResult() Updating isoform sequences from FASTA data for %s\n"
+                                % uid
+                            )
+                            self.__lfh.write(
+                                "+FetchUniProtEntry.getResult() Updating isoform description from FASTA  %s\n"
+                                % uD["db_isoform_description"]
+                            )
             return rD
         except:  # noqa: E722 pylint: disable=bare-except
             traceback.print_exc(file=self.__lfh)
-
-    #
 
 
 def main():  # pragma: no cover

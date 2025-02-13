@@ -6,7 +6,7 @@ import sys
 from gzip import GzipFile
 
 
-class FastaUtil(object):
+class FastaUtil:
     """Simple FASTA reader and writer with methods adjusted  UniProt Fasta files -"""
 
     def __init__(self, verbose=False, log=sys.stderr):
@@ -26,7 +26,7 @@ class FastaUtil(object):
         if fastaFilePath[-3:] == ".gz":
             ifh = GzipFile(fastaFilePath)
         else:
-            ifh = open(fastaFilePath, "r")
+            ifh = open(fastaFilePath)
 
         for cmtLine, sequence in self.__read_record_fasta(ifh):
             try:
@@ -37,12 +37,10 @@ class FastaUtil(object):
                 dbIsoform = ""
                 seqId = ""
                 description = ""
-                #
                 ff = cmtLine[1:].split("|")
                 dbName = ff[0].upper()
                 seqId = ff[1]
                 tS = ff[2]
-                #
                 tt = seqId.split("-")
                 dbAccession = seqId
                 dbIsoform = ""
@@ -50,7 +48,6 @@ class FastaUtil(object):
                     dbAccession = tt[0]
                     dbIsoform = tt[1]
 
-                #
                 idx = tS.find("OS=")
                 if idx > 0:
                     description = tS[: idx - 1]
@@ -59,15 +56,16 @@ class FastaUtil(object):
                         if ff[0] == "OS":
                             org = ff[1][:-2]
                             geneName = ff[2]
-                    elif len(ff) > 1:
-                        if ff[0] == "OS":
-                            org = ff[1]
-            except Exception as e:
+                    elif len(ff) > 1 and ff[0] == "OS":
+                        org = ff[1]
+            except Exception as e:  # noqa: BLE001
                 if self.__verbose:
-                    self.__lfh.write("+FastaUtil.loadFastaUniProt() Read failing for file %s at %s err %s\n" % (fastaFilePath, cmtLine, str(e)))
+                    self.__lfh.write(
+                        "+FastaUtil.loadFastaUniProt() Read failing for file %s at %s err %s\n"
+                        % (fastaFilePath, cmtLine, str(e))
+                    )
                 ifh.close()
                 return seqIdList, seqDict
-                #
             if seqId not in seqDict:
                 seqIdList.append(seqId)
                 seqDict[seqId] = {
@@ -79,21 +77,25 @@ class FastaUtil(object):
                     "db_name": dbName,
                     "db_isoform": dbIsoform,
                 }
-            else:
-                if self.__debug:
-                    self.__lfh.write("+FastaUtil.loadFastaUniProt() Duplicate sequence identifier %s\n%s\n" % (seqId, sequence))
+            elif self.__debug:
+                self.__lfh.write(
+                    "+FastaUtil.loadFastaUniProt() Duplicate sequence identifier %s\n%s\n" % (seqId, sequence)
+                )
 
         if self.__verbose:
-            self.__lfh.write("+FastaUtil.loadFastaUniProt() Read %d sequences in %s\n" % (len(seqIdList), fastaFilePath))
+            self.__lfh.write(
+                "+FastaUtil.loadFastaUniProt() Read %d sequences in %s\n" % (len(seqIdList), fastaFilePath)
+            )
 
         ifh.close()
         return seqIdList, seqDict
 
-    def __read_record_fasta(self, ifh):
+    @staticmethod
+    def __read_record_fasta(ifh):
         """Returen the next FASTA record in the input file handle."""
         comment, sequence = None, []
         for line in ifh:
-            line = line.rstrip()
+            line = line.rstrip()  # noqa: PLW2901
             if line.startswith(">"):
                 if comment:
                     yield (comment, "".join(sequence))

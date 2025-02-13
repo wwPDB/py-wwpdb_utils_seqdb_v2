@@ -11,12 +11,12 @@ Test cases for reading UniProt Fasta files -
 
 """
 
-import sys
-import unittest
 import os
 import os.path
 import string
+import sys
 import traceback
+import unittest
 
 from wwpdb.utils.seqdb_v2.FastaUtil import FastaUtil
 
@@ -25,11 +25,19 @@ class FastaUtilTests(unittest.TestCase):
     def setUp(self):
         self.__verbose = True
         self.__lfh = sys.stderr
-        #
         here = os.path.abspath(os.path.dirname(__file__))
         fastaPath = os.path.join(here, "refdata")
         self.__variantFastaFilePath = os.path.join(fastaPath, "uniprot_sprot_varsplic.fasta")
-        self.__unpIdListV = ["P42284-1", "P42284-3", "P29994-2", "P29994-3", "P29994-4", "P29994-5", "P29994-6", "P29994-7"]
+        self.__unpIdListV = [
+            "P42284-1",
+            "P42284-3",
+            "P29994-2",
+            "P29994-3",
+            "P29994-4",
+            "P29994-5",
+            "P29994-6",
+            "P29994-7",
+        ]
         self.__unpIdNotV = ["P42284"]
 
     def tearDown(self):
@@ -82,11 +90,9 @@ class FastaUtilTests(unittest.TestCase):
 def suiteReadTests():  # pragma: no cover
     suiteSelect = unittest.TestSuite()
     suiteSelect.addTest(FastaUtilTests("testReadFasta"))
-    #
     return suiteSelect
 
 
 if __name__ == "__main__":  # pragma: no cover
     mySuite = suiteReadTests()
     unittest.TextTestRunner(verbosity=2).run(mySuite)
-    #

@@ -14,26 +14,26 @@ Blast search results --
 
 """
 
-import sys
-import unittest
 import os
 import os.path
-import string
-import traceback
 import platform
+import string
+import sys
+import traceback
+import unittest
 from xml.dom import minidom
 
 try:
     from unittest.mock import patch
 except ImportError:
-    from mock import patch
+    from unittest.mock import patch
 import requests
 import requests_mock
 
 try:
     from urllib.parse import parse_qs
 except ImportError:
-    from urlparse import parse_qs
+    from urlparse import parse_qs  # type: ignore[import-not-found,no-redef]
 
 from wwpdb.utils.config.ConfigInfo import getSiteId
 from wwpdb.utils.config.ConfigInfoApp import ConfigInfoAppCommon
@@ -71,7 +71,7 @@ def dbfetchTextCallBack(request, context):
         fpath = os.path.join(HERE, "refdata", "dbfetch", acc + ".xml")
         if not os.path.exists(fpath):
             context.status_code = 404
-            print("XXX COULD NOT FIND", fpath)
+            print("XXX COULD NOT FIND", fpath)  # noqa: T201
             return ""
 
         doc = minidom.parse(fpath)
@@ -113,7 +113,7 @@ def isoformMatcher(request):
 
         resp.status_code = 200
         with open(fpath, "rb") as fin:
-            resp._content = fin.read()  # pylint: disable=protected-access
+            resp._content = fin.read()  # noqa: SLF001 pylint: disable=protected-access
         return resp
     # Error - not found
     return None
@@ -125,7 +125,7 @@ def isoformMatcher_dbfetch(request):
     https://www.ebi.ac.uk/Tools/dbfetch/dbfetch
     """
     if "https://www.ebi.ac.uk/Tools/dbfetch/dbfetch" in request.url:
-        print("CKP1", request.body)
+        print("CKP1", request.body)  # noqa: T201
         resp = requests.Response()
 
         # Parse the request to get the id
@@ -139,7 +139,7 @@ def isoformMatcher_dbfetch(request):
 
         resp.status_code = 200
         with open(fpath, "rb") as fin:
-            resp._content = fin.read()  # pylint: disable=protected-access
+            resp._content = fin.read()  # noqa: SLF001 pylint: disable=protected-access
         return resp
     # Error - not found
     return None
@@ -167,7 +167,7 @@ class FetchUniProtEntryTests(unittest.TestCase):
             self.__mock.stop()
 
     @patch("wwpdb.utils.seqdb_v2.FetchUniProtEntry.ConfigInfoAppCommon", side_effect=MyConfigInfo)
-    def testFetchVariantIds(self, mock1):  # pylint: disable=unused-argument
+    def testFetchVariantIds(self, mock1):  # noqa: ARG002 pylint: disable=unused-argument
         """"""
         self.__lfh.write("\nStarting FetchUniProtEntryTests testFetchVariantIds\n")
         fobj = FetchUniProtEntry(siteId=self.__siteId, verbose=self.__verbose, log=self.__lfh)
@@ -178,13 +178,19 @@ class FetchUniProtEntryTests(unittest.TestCase):
                 if ok:
                     fobj.writeUnpXml(os.path.join(TESTOUTPUT, unpid + ".xml"))
                     rdict = fobj.getResult()
-                    for (eId, eDict) in rdict.items():
+                    for eId, eDict in rdict.items():
                         for k, v in eDict.items():
                             self.__lfh.write(" eId = %s   key %r : value: %r\n" % (eId, k, v))
-                    for (eId, eDict) in rdict.items():
+                    for eId, eDict in rdict.items():
                         if "db_isoform" in eDict and eId == unpid:
-                            self.__lfh.write("------ sequence database code  %s has key db_isoform:  %r\n" % (eId, eDict["db_isoform"]))
-                            self.__lfh.write("------ sequence database code  %s sequence length %d\n" % (eId, len(self.__cleanString(eDict["sequence"]))))
+                            self.__lfh.write(
+                                "------ sequence database code  %s has key db_isoform:  %r\n"
+                                % (eId, eDict["db_isoform"])
+                            )
+                            self.__lfh.write(
+                                "------ sequence database code  %s sequence length %d\n"
+                                % (eId, len(self.__cleanString(eDict["sequence"])))
+                            )
                             self.__lfh.write("%s\n" % self.__cleanString(eDict["sequence"]))
                         elif eId == unpid:
                             self.__lfh.write("------ No matching isoform for %s\n" % unpid)
@@ -207,7 +213,6 @@ class FetchUniProtEntryTests(unittest.TestCase):
 def suiteFetchVariantTests():  # pragma: no cover
     suiteSelect = unittest.TestSuite()
     suiteSelect.addTest(FetchUniProtEntryTests("testFetchVariantIds"))
-    #
     return suiteSelect
 
 

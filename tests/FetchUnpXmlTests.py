@@ -12,19 +12,21 @@ Test cases for individual and batch fetch of UniProt sequence entries.
 
 """
 
-import sys
-import unittest
 import os
 import os.path
-import string
 import platform
+import string
+import sys
 import traceback
+import unittest
+
 import requests
 import requests_mock
+
 try:
-    from urllib.parse import urlparse, parse_qs
+    from urllib.parse import parse_qs, urlparse
 except ImportError:
-    from urlparse import parse_qs
+    from urlparse import parse_qs  # type: ignore[import-not-found,no-redef]
 from xml.dom import minidom
 
 from wwpdb.utils.seqdb_v2.FetchUnpXml import FetchUnpXml
@@ -56,7 +58,7 @@ def isoformMatcher(request):
 
         resp.status_code = 200
         with open(fpath, "rb") as fin:
-            resp._content = fin.read()  # pylint: disable=protected-access
+            resp._content = fin.read()  # noqa: SLF001 pylint: disable=protected-access
         return resp
     if "https://www.ebi.ac.uk/Tools/dbfetch/dbfetch" in request.url:
         resp = requests.Response()
@@ -64,18 +66,18 @@ def isoformMatcher(request):
         dat = parse_qs(request.body)
         accs = dat["id"]
 
-        resp._content = b""  # pylint: disable=protected-access
+        resp._content = b""  # noqa: SLF001 pylint: disable=protected-access
 
         for acc in accs[0].split(","):
             fpath = os.path.join(HERE, "refdata", "dbfetch", acc + ".xml")
             if not os.path.exists(fpath):
-                print("XXXX path not found", fpath)
+                print("XXXX path not found", fpath)  # noqa: T201
                 resp.status_code = 404
                 return resp
 
             resp.status_code = 200
             with open(fpath, "rb") as fin:
-                resp._content += fin.read()  # pylint: disable=protected-access
+                resp._content += fin.read()  # noqa: SLF001 pylint: disable=protected-access
         return resp
 
     # Error - not found
@@ -96,7 +98,7 @@ def dbfetchTextCallBack(request, context):
         fpath = os.path.join(HERE, "refdata", "dbfetch", acc + ".xml")
         if not os.path.exists(fpath):
             context.status_code = 404
-            print("XXX COULD NOT FIND", fpath)
+            print("XXX COULD NOT FIND", fpath)  # noqa: T201
             return ""
 
         doc = minidom.parse(fpath)
@@ -194,7 +196,19 @@ class FetchUnpXmlTests(unittest.TestCase):
             "P29994",
         ]
 
-        self.__unpIdListV = ["P42284", "P42284-1", "P42284-2", "P42284-3", "P29994-1", "P29994-2", "P29994-3", "P29994-4", "P29994-5", "P29994-6", "P29994-7"]
+        self.__unpIdListV = [
+            "P42284",
+            "P42284-1",
+            "P42284-2",
+            "P42284-3",
+            "P29994-1",
+            "P29994-2",
+            "P29994-3",
+            "P29994-4",
+            "P29994-5",
+            "P29994-6",
+            "P29994-7",
+        ]
         self.__mock = None
         if "MOCKREQUESTS" in os.environ:
             self.__mock = requests_mock.Mocker()
@@ -216,7 +230,7 @@ class FetchUnpXmlTests(unittest.TestCase):
                 if ok:
                     fobj.writeUnpXml(os.path.join(TESTOUTPUT, unpid + ".xml"))
                     rdict = fobj.getResult()
-                    for (k, v) in rdict.items():
+                    for k, v in rdict.items():
                         self.__lfh.write("%s=%s" % (k, v))
                 else:
                     self.__lfh.write("+WARNING - Fetch failed for id %s\n" % unpid)
@@ -233,7 +247,7 @@ class FetchUnpXmlTests(unittest.TestCase):
             if ok:
                 fobj.writeUnpXml(os.path.join(TESTOUTPUT, "batch-fetch.xml"))
                 rdict = fobj.getResult()
-                for (k, v) in rdict.items():
+                for k, v in rdict.items():
                     self.__lfh.write("%s=%s" % (k, v))
             else:
                 self.__lfh.write("+WARNING - Fetch failed for id %s\n" % id)
@@ -259,11 +273,17 @@ class FetchUnpXmlTests(unittest.TestCase):
                 if ok:
                     fobj.writeUnpXml(os.path.join(TESTOUTPUT, unpid + ".xml"))
                     rdict = fobj.getResult()
-                    for (eId, eDict) in rdict.items():
+                    for eId, eDict in rdict.items():
                         if eId == unpid and ("db_isoform" in eDict or len(eDict.get("sequence", "")) > 0):
                             if "db_isoform" in eDict:
-                                self.__lfh.write("------ sequence database code  %s has key db_isoform:  %r\n" % (eId, eDict["db_isoform"]))
-                            self.__lfh.write("------ sequence database code  %s sequence length %d\n" % (eId, len(self.__cleanString(eDict["sequence"]))))
+                                self.__lfh.write(
+                                    "------ sequence database code  %s has key db_isoform:  %r\n"
+                                    % (eId, eDict["db_isoform"])
+                                )
+                            self.__lfh.write(
+                                "------ sequence database code  %s sequence length %d\n"
+                                % (eId, len(self.__cleanString(eDict["sequence"])))
+                            )
                             # self.__lfh.write("------ sequence database code  %s keys %r\n" % (eId,eDict.keys()))
                             self.__lfh.write("%s\n" % self.__cleanString(eDict["sequence"]))
                         elif eId == unpid:
@@ -286,7 +306,7 @@ class FetchUnpXmlTests(unittest.TestCase):
             if ok:
                 fobj.writeUnpXml(os.path.join(TESTOUTPUT, "variant-batch-fetch.xml"))
                 rdict = fobj.getResult()
-                for (eId, eDict) in rdict.items():
+                for eId, eDict in rdict.items():
                     self.__lfh.write("\n\n------ Entry id %s\n" % eId)
                     for k, v in eDict.items():
                         self.__lfh.write("%-25s = %s\n" % (k, v))
@@ -306,7 +326,6 @@ def suiteFetchTests():
     suiteSelect = unittest.TestSuite()
     # suiteSelect.addTest(FetchUnpXmlTests("testFetchIds"))
     suiteSelect.addTest(FetchUnpXmlTests("testBatchFetch"))
-    #
     return suiteSelect
 
 
@@ -321,5 +340,3 @@ def suiteFetchVariantTests():  # pragma: no cover
 if __name__ == "__main__":  # pragma: no cover
     mySuite = suiteFetchVariantTests()
     unittest.TextTestRunner(verbosity=2).run(mySuite)
-    #
-    #

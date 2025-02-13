@@ -10,15 +10,16 @@ Test cases for fetching using NCBI XML
 
 """
 
-import sys
-import unittest
 import os
 import os.path
 import platform
-import requests_mock
+import sys
 import time
+import unittest
 
-from wwpdb.utils.seqdb_v2.FetchNcbiXml import FetchNcbiXml, FetchFullNcbiXml
+import requests_mock
+
+from wwpdb.utils.seqdb_v2.FetchNcbiXml import FetchFullNcbiXml, FetchNcbiXml
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 TOPDIR = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
@@ -40,7 +41,7 @@ def dbfetchSummaryCallBack(request, context):
         return ""
 
     context.status_code = 200
-    with open(fpath, "r") as fin:
+    with open(fpath) as fin:
         resp = fin.read()  # pylint: disable=protected-access
     return resp
 
@@ -57,7 +58,7 @@ def dbfetchFullCallBack(request, context):
         return ""
 
     context.status_code = 200
-    with open(fpath, "r") as fin:
+    with open(fpath) as fin:
         resp = fin.read()  # pylint: disable=protected-access
     return resp
 
@@ -111,12 +112,9 @@ def suiteFetchTests():  # pragma: no cover
     suiteSelect = unittest.TestSuite()
     suiteSelect.addTest(FetchNcbiXmlTests("testFetchSummaries"))
     suiteSelect.addTest(FetchNcbiXmlTests("testFetchFullNcbiXml"))
-    #
     return suiteSelect
 
 
 if __name__ == "__main__":  # pragma: no cover
-    #
     mySuite = suiteFetchTests()
     unittest.TextTestRunner(verbosity=2).run(mySuite)
-    #

@@ -11,10 +11,11 @@ __email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
 import sys
+
 from mmcif_utils.persist.PdbxPyIoAdapter import PdbxPyIoAdapter as PdbxIoAdapter
 
 
-class mmCIFUtil(object):
+class mmCIFUtil:
     """Using pdbx mmCIF utility to parse mmCIF file"""
 
     def __init__(self, verbose=False, log=sys.stderr, filePath=None):
@@ -24,7 +25,6 @@ class mmCIFUtil(object):
         self.__container = None
         self.__blockID = None
         self.__read()
-        #
 
     def __read(self):
         myReader = PdbxIoAdapter(self.__verbose, self.__lfh)
@@ -32,14 +32,11 @@ class mmCIFUtil(object):
         containerNameList = myReader.getContainerNameList()
         if not containerNameList:
             return
-        #
         self.__blockID = containerNameList[0]
         self.__container = myReader.getContainer(containerNameList[0])
-        #
 
     def GetBlockID(self):
         return self.__blockID
-        #
 
     def GetValue(self, catName):
         """Get category values based on category name 'catName'. The results are stored
@@ -48,7 +45,6 @@ class mmCIFUtil(object):
         dList = []
         if not self.__container:
             return dList
-        #
         catObj = self.__container.getObj(catName)
         if not catObj:
             return dList
@@ -56,7 +52,6 @@ class mmCIFUtil(object):
         # Get column name index
         #
         itNameList = catObj.getItemNameList()
-        #
         rowList = catObj.getRowList()
         for row in rowList:
             tD = {}
@@ -64,9 +59,6 @@ class mmCIFUtil(object):
                 if row[idxIt] != "?" and row[idxIt] != ".":
                     tlist = itName.split(".")
                     tD[tlist[1]] = row[idxIt]
-            #
             if tD:
                 dList.append(tD)
-        #
         return dList
-        #

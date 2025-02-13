@@ -14,13 +14,13 @@ __author__ = "Zukang Feng"
 __email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
+import getopt
+import logging
 import sys
 import time
-import getopt
 
 import requests
 import urllib3
-import logging
 
 # To disable warning about not checking ssl certificates. Still needed?
 urllib3.disable_warnings()
@@ -28,7 +28,7 @@ urllib3.disable_warnings()
 logger = logging.getLogger()
 
 
-class UnpBlastService(object):
+class UnpBlastService:
     """Utility class for running blastp service using uniprotkb database from Uniprot site"""
 
     def __init__(self, sequence, verbose=False, log=sys.stderr):
@@ -56,7 +56,10 @@ class UnpBlastService(object):
         # Submit the job
         jobid = self._serviceSubmit(params)
         if self.__verbose:
-            self.__lfh.write("+UnpBlastService.RunService() Blast service job %s started at %s\n" % (jobid, time.strftime("%Y %m %d %H:%M:%S", time.localtime())))
+            self.__lfh.write(
+                "+UnpBlastService.RunService() Blast service job %s started at %s\n"
+                % (jobid, time.strftime("%Y %m %d %H:%M:%S", time.localtime()))
+            )
         time.sleep(self._initWait)
         self._result = self._getResultfromServer(jobid)
 
@@ -73,7 +76,7 @@ class UnpBlastService(object):
         try:
             requestUrl = self._baseUrl + "/run/"
             # Get the data for the options
-            reqH = requests.post(requestUrl, data=params, verify=False, timeout=30)
+            reqH = requests.post(requestUrl, data=params, verify=False, timeout=30)  # noqa: S501
             reqH.raise_for_status()
             jobId = reqH.text
             logger.debug("Blast search started. Jobid %s", jobId)
@@ -91,10 +94,10 @@ class UnpBlastService(object):
     def _clientPoll(self, jobId):
         """Client-side poll"""
         status = "PENDING"
-        while status == "RUNNING" or status == "PENDING":
+        while status in {"RUNNING", "PENDING"}:
             status = self._serviceGetStatus(jobId)
             # print >> sys.stderr, status
-            if status == "RUNNING" or status == "PENDING":
+            if status in {"RUNNING", status == "PENDING"}:
                 time.sleep(self._checkInterval)
 
     def _serviceGetStatus(self, jobId):
@@ -102,10 +105,11 @@ class UnpBlastService(object):
         requestUrl = self._baseUrl + "/status/" + jobId
         return self._restRequest(requestUrl)
 
-    def _restRequest(self, url):
+    @staticmethod
+    def _restRequest(url):
         """Wrapper for a REST (HTTP GET) request"""
         try:
-            reqH = requests.get(url, verify=False, timeout=30)
+            reqH = requests.get(url, verify=False, timeout=30)  # noqa: S501
             reqH.raise_for_status()
             result = reqH.text
             return result
@@ -120,7 +124,7 @@ def main(argv):  # pragma: no cover
     filename = None
     for opt, arg in opts:
         if opt == "--sequence":
-            fh = open(arg, "r")
+            fh = open(arg)
             sequence = fh.read()
             fh.close()
         elif opt == "--outfile":
@@ -135,6 +139,6 @@ if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception as _exc:
-        print(_exc)
+    except Exception as _exc:  # noqa: BLE001
+        print(_exc)  # noqa: T201
         sys.exit(1)
