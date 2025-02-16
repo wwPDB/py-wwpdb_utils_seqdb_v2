@@ -13,9 +13,9 @@ __author__ = "Zukang Feng"
 __email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
-from xml.dom import minidom
-import sys
 import getopt
+import sys
+from xml.dom import minidom  # noqa: S408
 
 
 class ReadNcbiSummary:
@@ -35,7 +35,8 @@ class ReadNcbiSummary:
     def GetResult(self):
         return self._dict
 
-    def _parse(self, doc):
+    @staticmethod
+    def _parse(doc):
         """Parse the eSummaryResult xml file:
 
             <eSummaryResult>
@@ -75,7 +76,7 @@ class ReadNcbiSummary:
                 elif name.value == "CommonName":
                     if node.firstChild:
                         rdict["source_common"] = node.firstChild.data
-                elif name.value == "Title":
+                elif name.value == "Title":  # noqa: SIM102
                     if node.firstChild:
                         rdict["name"] = node.firstChild.data
 
@@ -88,9 +89,9 @@ class ReadNcbiSummaryFile(ReadNcbiSummary):
     def __init__(self, fileName):
         self._fileName = fileName
         self._doc = ""
-        try:
-            self._doc = minidom.parse(self._fileName)
-        except Exception as exc:  # noqa: F841 pylint: disable=unused-variable
+        try:  # noqa: SIM105
+            self._doc = minidom.parse(self._fileName)  # noqa: S318
+        except Exception as exc:  # noqa: F841,BLE001 pylint: disable=unused-variable
             pass
         ReadNcbiSummary.__init__(self, self._doc)
 
@@ -101,9 +102,9 @@ class ReadNcbiSummaryString(ReadNcbiSummary):
     def __init__(self, data):
         self._data = data
         self._doc = ""
-        try:
-            self._doc = minidom.parseString(self._data)
-        except Exception as exc:  # noqa: F841 pylint: disable=unused-variable
+        try:  # noqa: SIM105
+            self._doc = minidom.parseString(self._data)  # noqa: S318
+        except Exception as exc:  # noqa: F841,S318,BLE001 pylint: disable=unused-variable
             pass
         ReadNcbiSummary.__init__(self, self._doc)
 
@@ -114,14 +115,14 @@ def main(argv):  # pragma: no cover
         if opt in ("-x", "--xml"):
             obj = ReadNcbiSummaryFile(arg)
             rdict = obj.GetResult()
-            for (k, v) in rdict.items():
-                print("%s=%s" % (k, v))
+            for k, v in rdict.items():
+                print("%s=%s" % (k, v))  # noqa: T201
 
 
 if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception as _exc:
-        print(_exc)
+    except Exception as _exc:  # noqa: BLE001
+        print(_exc)  # noqa: T201
         sys.exit(1)

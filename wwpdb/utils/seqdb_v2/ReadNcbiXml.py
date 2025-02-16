@@ -13,9 +13,9 @@ __author__ = "Zukang Feng"
 __email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
-from xml.dom import minidom
-import sys
 import getopt
+import sys
+from xml.dom import minidom  # noqa: S408
 
 
 class ReadNcbiXml:
@@ -83,7 +83,8 @@ class ReadNcbiXml:
 
         return rdict
 
-    def _ProcessRNASequence(self, sequence):
+    @staticmethod
+    def _ProcessRNASequence(sequence):
         seq = sequence.upper()
         seq = seq.replace("T", "U")
         return seq
@@ -126,7 +127,8 @@ class ReadNcbiXml:
 
         return rdict
 
-    def _ProcessGBQualifierTag(self, nodeList):
+    @staticmethod
+    def _ProcessGBQualifierTag(nodeList):
         """Get source_scientific from
                <GBQualifier>
                  <GBQualifier_name>organism</GBQualifier_name>
@@ -173,9 +175,9 @@ class ReadNcbiXmlFile(ReadNcbiXml):
     def __init__(self, fileName):
         self._fileName = fileName
         self._doc = ""
-        try:
-            self._doc = minidom.parse(self._fileName)
-        except Exception as exc:  # noqa: F841 pylint: disable=unused-variable
+        try:  # noqa: SIM105
+            self._doc = minidom.parse(self._fileName)  # noqa: S318
+        except Exception as exc:  # noqa: F841,BLE001 pylint: disable=unused-variable
             pass
         ReadNcbiXml.__init__(self, self._doc)
 
@@ -186,9 +188,9 @@ class ReadNcbiXmlString(ReadNcbiXml):
     def __init__(self, data):
         self._data = data
         self._doc = ""
-        try:
-            self._doc = minidom.parseString(self._data)
-        except Exception as exc:  # noqa: F841 pylint: disable=unused-variable
+        try:  # noqa: SIM105
+            self._doc = minidom.parseString(self._data)  # noqa: S318
+        except Exception as exc:  # noqa: F841,BLE001 pylint: disable=unused-variable
             pass
         ReadNcbiXml.__init__(self, self._doc)
 
@@ -199,14 +201,14 @@ def main(argv):  # pragma: no cover
         if opt in ("-x", "--xml"):
             obj = ReadNcbiXmlFile(arg)
             rdict = obj.GetResult()
-            for (k, v) in rdict.items():
-                print("%s=%s" % (k, v))
+            for k, v in rdict.items():
+                print("%s=%s" % (k, v))  # noqa: T201
 
 
 if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception as _exc:
-        print(_exc)
+    except Exception as _exc:  # noqa: BLE001
+        print(_exc)  # noqa: T201
         sys.exit(1)

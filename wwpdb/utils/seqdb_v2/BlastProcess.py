@@ -13,26 +13,27 @@ __author__ = "Zukang Feng"
 __email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
+import getopt
+import gzip
+import operator
 import os
+import re
 import sys
 import time
-import getopt
-import re
-import gzip
 import traceback
-from wwpdb.utils.seqdb_v2.UnpBlastService import UnpBlastService
-from wwpdb.utils.seqdb_v2.ReadUnpBlastXml import ReadUnpBlastXmlString
-from wwpdb.utils.seqdb_v2.NcbiBlastService import NcbiBlastService
-from wwpdb.utils.seqdb_v2.ReadNcbiBlastXml import ReadNcbiBlastXmlString
-from wwpdb.utils.seqdb_v2.mmCIFUtil import mmCIFUtil
-from mmcif.api.PdbxContainers import DataContainer
+
 from mmcif.api.DataCategory import DataCategory
+from mmcif.api.PdbxContainers import DataContainer
 from mmcif.io.PdbxWriter import PdbxWriter
 
-#
+from wwpdb.utils.seqdb_v2.mmCIFUtil import mmCIFUtil
+from wwpdb.utils.seqdb_v2.NcbiBlastService import NcbiBlastService
+from wwpdb.utils.seqdb_v2.ReadNcbiBlastXml import ReadNcbiBlastXmlString
+from wwpdb.utils.seqdb_v2.ReadUnpBlastXml import ReadUnpBlastXmlString
+from wwpdb.utils.seqdb_v2.UnpBlastService import UnpBlastService
 
 
-class RunBlastPerSeq(object):
+class RunBlastPerSeq:
     """Run blast search and save result into cif file"""
 
     def __init__(self, entityId=None, entityInfo=None, taxonomyData=None, verbose=False, log=sys.stderr):
@@ -43,12 +44,9 @@ class RunBlastPerSeq(object):
         self.__type = ""
         self.__taxonomyData = taxonomyData
         self.__result = []
-        #
         self.__saveBlastResults = False
         self.__blastFileNamePrefix = None
-        #
         self.__blastPath = "."
-        #
         if entityInfo:
             self.__sequence = entityInfo["seq"]
             self.__type = entityInfo["type"]
@@ -71,21 +69,23 @@ class RunBlastPerSeq(object):
         if (not self.__sequence) or (not self.__fragmentList):
             return
 
-        for (fragId, fragment) in enumerate(self.__fragmentList):
+        for fragId, fragment in enumerate(self.__fragmentList):
             indFrag = fragId + 1
             start = int(fragment["beg"]) - 1
             end = int(fragment["end"])
             sequence = self.__sequence[start:end]
 
             if self.__saveBlastResults:
-                bPath = os.path.join(self.__blastPath, self.__blastFileNamePrefix + "_seqdb-blast_E" + self.__entity + "_F " + str(indFrag) + ".xml")
+                bPath = os.path.join(
+                    self.__blastPath,
+                    self.__blastFileNamePrefix + "_seqdb-blast_E" + self.__entity + "_F " + str(indFrag) + ".xml",
+                )
             else:
                 bPath = None
 
             result = self._Run(sequence, self.__type, blastFilePath=bPath)
             if not result:
                 continue
-            #
             for match in result:
                 match["beg_seq_num"] = fragment["beg"]
                 match["end_seq_num"] = fragment["end"]
@@ -97,7 +97,6 @@ class RunBlastPerSeq(object):
             taxids = {}
             if "taxid" in fragment:
                 taxids = self._GetTaxonomyTree(fragment["taxid"])
-            #
             auth_accession_code = None
             if "accession" in fragment:
                 auth_accession_code = fragment["accession"]
@@ -110,7 +109,6 @@ class RunBlastPerSeq(object):
         if self.__verbose:
             self.__lfh.write("+INFO (RunBlastPerSeq._Run) Launch search for sequence      = %s\n" % sequence)
             self.__lfh.write("+INFO (RunBlastPerSeq._Run) Launch search for sequence type = %s\n" % rtype)
-        #
         timeBegin = time.time()
         blast_match_result = []
 
@@ -122,11 +120,11 @@ class RunBlastPerSeq(object):
             xmlResult = service.GetResult()
             if blastFilePath is not None:
                 service.WriteResultFile(blastFilePath)
-            #
             timeBlast = time.time()
             if self.__verbose:
-                self.__lfh.write("+INFO (RunBlastPerSeq._Run) Blast search completed  in %d seconds\n" % (timeBlast - timeBegin))
-            #
+                self.__lfh.write(
+                    "+INFO (RunBlastPerSeq._Run) Blast search completed  in %d seconds\n" % (timeBlast - timeBegin)
+                )
             if xmlResult:
                 blastresult = ReadUnpBlastXmlString(xmlResult, verbose=self.__verbose, log=self.__lfh)
                 blast_match_result = blastresult.GetResult()
@@ -141,7 +139,9 @@ class RunBlastPerSeq(object):
                 service.WriteResultFile(blastFilePath)
             timeBlast = time.time()
             if self.__verbose:
-                self.__lfh.write("+INFO (RunBlastPerSeq._Run) Blast search completed  in %d seconds\n" % (timeBlast - timeBegin))
+                self.__lfh.write(
+                    "+INFO (RunBlastPerSeq._Run) Blast search completed  in %d seconds\n" % (timeBlast - timeBegin)
+                )
             if xmlResult:
                 blastresult = ReadNcbiBlastXmlString(xmlResult)
                 blast_match_result = blastresult.GetResult()
@@ -152,7 +152,9 @@ class RunBlastPerSeq(object):
         timeProc = time.time()
         if self.__verbose:
             if self.__verbose:
-                self.__lfh.write("+INFO (RunBlastPerSeq._Run) Search processing completed in %d seconds\n" % (timeProc - timeBegin))
+                self.__lfh.write(
+                    "+INFO (RunBlastPerSeq._Run) Search processing completed in %d seconds\n" % (timeProc - timeBegin)
+                )
 
             self.__lfh.write("+INFO (RunBlastPerSeq._Run) Result length       = %d\n" % len(blast_match_result))
 
@@ -161,16 +163,13 @@ class RunBlastPerSeq(object):
     def _GetTaxonomyTree(self, taxid):
         rdict = {}
         rdict["id"] = taxid
-        if self.__taxonomyData:
+        if self.__taxonomyData:  # noqa: SIM102
             if taxid in self.__taxonomyData:
                 parent_id = self.__taxonomyData[taxid]
                 rdict["p_id"] = parent_id
                 if parent_id in self.__taxonomyData:
                     gparent_id = self.__taxonomyData[parent_id]
                     rdict["gp_id"] = gparent_id
-                #
-            #
-        #
         return rdict
 
     def _SortResult(self, result, taxids, auth_accession_code):
@@ -183,40 +182,35 @@ class RunBlastPerSeq(object):
             return
 
         sorting_list = []
-        for i in range(0, len(result)):
+        for i in range(len(result)):
             identity = (int(result[i]["identity"]) - int(result[i]["gaps"])) * 100 / int(result[i]["query_length"])
             if result[i]["db_name"] == "SP":
                 identity += 2
-            if auth_accession_code and (result[i]["db_code"] == auth_accession_code or result[i]["db_accession"] == auth_accession_code):
+            if auth_accession_code and (
+                result[i]["db_code"] == auth_accession_code or result[i]["db_accession"] == auth_accession_code
+            ):
                 identity += 1
-            #
             target_taxids = {}
             if "taxonomy_id" in result[i]:
                 target_taxids = self._GetTaxonomyTree(result[i]["taxonomy_id"])
-            #
             taxid_match = 0
             if taxids and target_taxids:
                 if taxids["id"] == target_taxids["id"]:
                     taxid_match = 3
-                elif "p_id" in taxids and taxids["p_id"] == target_taxids["id"]:
+                elif ("p_id" in taxids and taxids["p_id"] == target_taxids["id"]) or (
+                    "p_id" in target_taxids and target_taxids["p_id"] == taxids["id"]
+                ):
                     taxid_match = 2
-                elif "p_id" in target_taxids and target_taxids["p_id"] == taxids["id"]:
-                    taxid_match = 2
-                elif "gp_id" in taxids and taxids["gp_id"] == target_taxids["id"]:
+                elif ("gp_id" in taxids and taxids["gp_id"] == target_taxids["id"]) or (
+                    "gp_id" in target_taxids and target_taxids["gp_id"] == taxids["id"]
+                ):
                     taxid_match = 1
-                elif "gp_id" in target_taxids and target_taxids["gp_id"] == taxids["id"]:
-                    taxid_match = 1
-            #
             identity = identity * 4 + taxid_match
             ilist = [identity, i]
             sorting_list.append(ilist)
-            #
-        #
-        sorting_list.sort(key=lambda val: val[0], reverse=True)
-        #
-        for i in range(0, len(sorting_list)):
+        sorting_list.sort(key=operator.itemgetter(0), reverse=True)
+        for i in range(len(sorting_list)):
             result[sorting_list[i][1]]["sort_order"] = str(i + 1)
-        #
 
     def WriteCifFile(self, EntryID, fileName):
         """Export the reference sequence matching data to a CIF data file."""
@@ -229,7 +223,6 @@ class RunBlastPerSeq(object):
         t.appendAttribute("entity_id")
         t.appendAttribute("sequence")
         t.appendAttribute("fragment_count")
-        #
         t.setValue(EntryID, "struct_id", 0)
         t.setValue(self.__entity, "entity_id", 0)
         t.setValue(self._FormatSequence(self.__sequence), "sequence", 0)
@@ -290,9 +283,7 @@ class RunBlastPerSeq(object):
                     seq = re.sub("[\t \n]", "", match["sequence"])
                     t1.setValue(self._FormatSequence(str(seq)), "sequence", row)
 
-                row = row + 1
-            #
-        #
+                row += 1
 
         curContainer.append(t)
         curContainer.append(t1)
@@ -304,7 +295,8 @@ class RunBlastPerSeq(object):
         pdbxW.write(myDataList)
         ofh.close()
 
-    def _FormatSequence(self, sequence):
+    @staticmethod
+    def _FormatSequence(sequence):
         num_per_line = 60
         lines = int(len(sequence) / num_per_line)
         x = len(sequence) % num_per_line
@@ -324,7 +316,7 @@ class RunBlastPerSeq(object):
         return seq
 
 
-class BlastProcess(object):
+class BlastProcess:
     """Search reference sequence database for sequence correspondences for each polymer entity.
 
     Obtain sequence search target from the the one-letter-code sequences stored in category
@@ -338,21 +330,17 @@ class BlastProcess(object):
     def __init__(self, cifFilePath=None, taxonomyFilePath=None, verbose=False, log=sys.stderr):
         self.__verbose = verbose
         self.__lfh = log
-        #
         self.__saveBlastResults = False
         self.__blastFileNamePrefix = None
-        #
         self.__filePath = cifFilePath
         self.__taxonomyFilePath = taxonomyFilePath
         self.__taxonomyData = {}
-        #
         self.__blastPath = "."
         #
         # Read input file and create dictionary of polymer sequence details
         self.__cifObj = mmCIFUtil(filePath=self.__filePath)
         self.__BlockID = self.__cifObj.GetBlockID()
         self.__entitySeq = self._GetEntitySeq()
-        #
         self.__taxFlag = True
         if self.__taxFlag:
             self.__taxonomyData = self._readTaxonomyData()
@@ -360,7 +348,6 @@ class BlastProcess(object):
                 self.__lfh.write("+INFO BlastProcess() taxonomy file path   %s\n" % self.__taxonomyFilePath)
                 self.__lfh.write("+INFO BlastProcess() taxonomy data length %d\n" % len(self.__taxonomyData))
 
-        #
         if self.__verbose:
             self.__lfh.write("+INFO BlastProcess() cifFilePath      %s\n" % self.__filePath)
             self.__lfh.write("+INFO BlastProcess() taxonomyFilePath %s\n" % self.__taxonomyFilePath)
@@ -469,7 +456,6 @@ class BlastProcess(object):
                 rdict["end"] = str(length)
 
             pList.append(rdict)
-        #
 
         if pList:
             if not self._checkFragments(length, pList):
@@ -481,13 +467,11 @@ class BlastProcess(object):
                 if "taxid" in fragment:
                     self.__taxFlag = True
                     break
-                #
-            #
-        #
 
         return pList
 
-    def _checkFragments(self, length, pList):
+    @staticmethod
+    def _checkFragments(length, pList):
         if not pList:
             return True
 
@@ -536,7 +520,7 @@ class BlastProcess(object):
             if self.__taxonomyFilePath[-3:] == ".gz":
                 f = gzip.open(self.__taxonomyFilePath, "r")
             else:
-                f = open(self.__taxonomyFilePath, "r")
+                f = open(self.__taxonomyFilePath)
             data = f.read()
             f.close()
             #
@@ -545,44 +529,46 @@ class BlastProcess(object):
             for line in tlist:
                 if not line:
                     continue
-                #
                 list1 = line.split("\t|\t")
                 d[list1[0]] = list1[1]
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001
             traceback.print_exc(file=self.__lfh)
-            self.__lfh.write("+ERROR BlastProcess() failed to read taxonomy data file %s %s\n" % (str(e), self.__taxonomyFilePath))
+            self.__lfh.write(
+                "+ERROR BlastProcess() failed to read taxonomy data file %s %s\n" % (str(e), self.__taxonomyFilePath)
+            )
         return d
 
-    def _CleanSequence(self, seq):
+    @staticmethod
+    def _CleanSequence(seq):
         seq = seq.upper()
         seq = re.sub("[\t \n]", "", seq)
         seq = re.sub("\\(MSE\\)", "M", seq)
         seq = re.sub("\\([A-Z]{2,3}\\)", "X", seq)
         return seq
 
-    def _FindCorrectType(self, ptype):
+    @staticmethod
+    def _FindCorrectType(ptype):
         ptype = ptype.lower()
         ptype = ptype.strip()
         if not ptype:
             return ptype
         if ptype.find("polydeoxyribonucleotide") >= 0 or ptype.find("dna") >= 0:
             return "polydeoxyribonucleotide"
-        elif ptype == "polyribonucleotide" or ptype == "rna":
+        if ptype == "polyribonucleotide" or ptype == "rna":
             return "polyribonucleotide"
-        elif ptype.find("polypeptide") >= 0 or ptype == "protein":
+        if ptype.find("polypeptide") >= 0 or ptype == "protein":
             return "polypeptide"
-        elif ptype == "?" or ptype == ".":
+        if ptype == "?" or ptype == ".":
             return ""
-        else:
-            return ptype
+        return ptype
 
-    def _FindTypeFromSeq(self, seq):
+    @staticmethod
+    def _FindTypeFromSeq(seq):
         if re.search("[DEFHIKLMNPQRSVWY]", seq):
             return "polypeptide"
-        elif re.search("[ACGU]", seq):
+        if re.search("[ACGU]", seq):
             return "polyribonucleotide"
-        else:
-            return ""
+        return ""
 
     def Run(self, entityId=None):
         """Execute the reference sequence search and return processed correspondence results -
@@ -602,15 +588,23 @@ class BlastProcess(object):
 
         if entityId:
             if entityId in self.__entitySeq:
-                perseq = RunBlastPerSeq(entityId=entityId, entityInfo=self.__entitySeq[entityId], taxonomyData=self.__taxonomyData, verbose=self.__verbose, log=self.__lfh)
+                perseq = RunBlastPerSeq(
+                    entityId=entityId,
+                    entityInfo=self.__entitySeq[entityId],
+                    taxonomyData=self.__taxonomyData,
+                    verbose=self.__verbose,
+                    log=self.__lfh,
+                )
                 if self.__saveBlastResults:
                     perseq.saveBlastResults(blastPath=self.__blastPath, blastFileNamePrefix=self.__blastFileNamePrefix)
                 perseq.Run()
                 hitlist = perseq.GetResult()
             return hitlist
 
-        for (k, v) in self.__entitySeq.items():
-            perseq = RunBlastPerSeq(entityId=k, entityInfo=v, taxonomyData=self.__taxonomyData, verbose=self.__verbose, log=self.__lfh)
+        for k, v in self.__entitySeq.items():
+            perseq = RunBlastPerSeq(
+                entityId=k, entityInfo=v, taxonomyData=self.__taxonomyData, verbose=self.__verbose, log=self.__lfh
+            )
             if self.__saveBlastResults:
                 perseq.saveBlastResults(blastPath=self.__blastPath, blastFileNamePrefix=self.__blastFileNamePrefix)
 
@@ -632,7 +626,13 @@ class BlastProcess(object):
         if eId not in self.__entitySeq:
             return False
 
-        perseq = RunBlastPerSeq(entityId=eId, entityInfo=self.__entitySeq[eId], taxonomyData=self.__taxonomyData, verbose=self.__verbose, log=self.__lfh)
+        perseq = RunBlastPerSeq(
+            entityId=eId,
+            entityInfo=self.__entitySeq[eId],
+            taxonomyData=self.__taxonomyData,
+            verbose=self.__verbose,
+            log=self.__lfh,
+        )
         if self.__saveBlastResults:
             perseq.saveBlastResults(blastPath=self.__blastPath, blastFileNamePrefix=self.__blastFileNamePrefix)
 
@@ -642,7 +642,6 @@ class BlastProcess(object):
 
 
 def main(argv):  # pragma: no cover
-
     opts, _args = getopt.getopt(argv, "i:e:t:", ["ciffile=", "entity=", "taxonomy="])
 
     ciffile = None
@@ -663,7 +662,7 @@ def main(argv):  # pragma: no cover
             for ii, rst in enumerate(resultlist):
                 sys.stdout.write("%d: %r\n" % (ii, rst))
 
-        except Exception as exc:
+        except Exception as exc:  # noqa: BLE001
             sys.stderr.write(exc)
             traceback.print_exc(file=sys.stderr)
 
@@ -672,6 +671,6 @@ if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception as _exc:
-        sys.stderr.write(_exc)
+    except Exception as exc:  # noqa: BLE001
+        sys.stderr.write("Exception: %s\n" % str(exc))
         sys.exit(1)

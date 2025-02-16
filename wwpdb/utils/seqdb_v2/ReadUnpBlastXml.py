@@ -16,14 +16,15 @@ __author__ = "Zukang Feng"
 __email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
-import sys
-import math
 import getopt
-from xml.dom import minidom
+import math
+import sys
+from xml.dom import minidom  # noqa: S408
+
 from wwpdb.utils.seqdb_v2.FetchUnpXml import FetchUnpXml
 
 
-class ReadUnpBlastXml(object):
+class ReadUnpBlastXml:
     """Read Uniprot blast result xml file and return the list of hits which contains:
 
     dict['db_name']
@@ -80,7 +81,6 @@ class ReadUnpBlastXml(object):
         mapping["ac"] = "db_accession"
         mapping["description"] = "db_description"
         mapping["length"] = "db_length"
-        #
         resultlist = []
         entry = None
         entryList = doc.getElementsByTagName("hits")
@@ -90,9 +90,8 @@ class ReadUnpBlastXml(object):
             return resultlist
 
         total = entry.attributes["total"]
-        if total:
-            if total.value == "0":
-                return resultlist
+        if total and total.value == "0":
+            return resultlist
 
         fetchList = []
         for node in entry.childNodes:
@@ -105,11 +104,10 @@ class ReadUnpBlastXml(object):
             alignlist = self._ProcessAlignmentsTag(node.childNodes, length)
             if alignlist:
                 for align in alignlist:
-                    for (k, v) in mapping.items():
+                    for k, v in mapping.items():
                         align[v] = node.attributes[k].value
                     if length:
                         align["query_length"] = length
-                    #
                     isoForm = ""
                     if "db_code" in align and (align["db_code"].find("-") != -1):
                         tL = align["db_code"].split("-")
@@ -144,10 +142,8 @@ class ReadUnpBlastXml(object):
                     acId = align["db_accession"]
                     if acId in eD:
                         edict = eD[acId]
-                        for (k, v) in edict.items():
-                            if k in ["db_code"]:
-                                align[k] = v
-                            elif k not in align:
+                        for k, v in edict.items():
+                            if k == "db_code" or k not in align:
                                 align[k] = v
 
         return resultlist
@@ -159,11 +155,12 @@ class ReadUnpBlastXml(object):
             if node.tagName != "alignments":
                 continue
             total = node.attributes["total"]
-            if total:
-                if total.value == "0":
-                    continue
+            if total and total.value == "0":
+                continue
 
             return self._ProcessAlignmentTag(node.childNodes, length)
+
+        return None  # This is added for completeness due to warnings. Must never have fallen off end before
 
     def _ProcessAlignmentTag(self, nodelist, length):
         resultlist = []
@@ -178,7 +175,8 @@ class ReadUnpBlastXml(object):
                 resultlist.append(rdict)
         return resultlist
 
-    def _GetMatchAlignment(self, nodelist, query_length):
+    @staticmethod
+    def _GetMatchAlignment(nodelist, query_length):
         rdict = {}
         for node in nodelist:
             if node.nodeType != node.ELEMENT_NODE:
@@ -235,7 +233,7 @@ class ReadUnpBlastXmlFile(ReadUnpBlastXml):
 
     def __init__(self, fileName, verbose=True, log=sys.stderr):
         self._fileName = fileName
-        self._doc = minidom.parse(self._fileName)
+        self._doc = minidom.parse(self._fileName)  # noqa: S318
         ReadUnpBlastXml.__init__(self, self._doc, verbose=verbose, log=log)
 
 
@@ -244,7 +242,7 @@ class ReadUnpBlastXmlString(ReadUnpBlastXml):
 
     def __init__(self, data, verbose=True, log=sys.stderr):
         self._data = data
-        self._doc = minidom.parseString(self._data)
+        self._doc = minidom.parseString(self._data)  # noqa: S318
         ReadUnpBlastXml.__init__(self, self._doc, verbose=verbose, log=log)
 
 
@@ -255,7 +253,7 @@ def main(argv):  # pragma: no cover
             obj = ReadUnpBlastXmlFile(arg)
             result = obj.GetResult()
             for align in result:
-                for (k, v) in align.items():
+                for k, v in align.items():
                     sys.stdout.write("%s=%s\n" % (k, v))
 
 
@@ -263,6 +261,6 @@ if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception as exc:
-        sys.stderr.write(exc)
+    except Exception as exc:  # noqa: BLE001
+        sys.stderr.write("Exception: %s\n" % str(exc))
         sys.exit(1)

@@ -12,31 +12,30 @@ Test cases from running reference sequence database blast searches and processin
 
 """
 
-import sys
-import unittest
 import os
 import os.path
-import traceback
 import platform
+import sys
+import traceback
+import unittest
 
 try:
     from unittest.mock import patch
 except ImportError:
-    from mock import patch
+    from unittest.mock import patch
 import requests_mock
-
 
 try:
     from urllib.parse import parse_qs
 except ImportError:
-    from urlparse import parse_qs
+    from urlparse import parse_qs  # type: ignore[import-not-found,no-redef]
 from xml.dom import minidom
 
 from wwpdb.utils.seqdb_v2.BlastProcess import BlastProcess
 from wwpdb.utils.seqdb_v2.UnpBlastService import UnpBlastService
 
 HERE = os.path.abspath(os.path.dirname(__file__))
-TOPDIR = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
+TOPDIR = os.path.dirname(HERE)
 TESTOUTPUT = os.path.join(HERE, "test-output", platform.python_version())
 if not os.path.exists(TESTOUTPUT):
     os.makedirs(TESTOUTPUT)
@@ -89,7 +88,7 @@ def dbfetchTextCallBack(request, context):
         fpath = os.path.join(HERE, "refdata", "dbfetch", acc + ".xml")
         if not os.path.exists(fpath):
             context.status_code = 404
-            print("XXX COULD NOT FIND", fpath)
+            print("XXX COULD NOT FIND", fpath)  # noqa: T201
             return ""
 
         doc = minidom.parse(fpath)
@@ -125,10 +124,9 @@ def commonResult(req, context):
     if not os.path.exists(fpath):
         context.status_code = 404
         return ""
-    else:
-        with open(fpath, "r") as fin:
-            ret = fin.read()
-        return ret
+    with open(fpath) as fin:
+        ret = fin.read()
+    return ret
 
 
 class BlastProcessTests(unittest.TestCase):
@@ -162,10 +160,12 @@ class BlastProcessTests(unittest.TestCase):
                 cifFilePath = os.path.join(self.__testModelPath, fn)
                 taxonomyFilePath = os.path.join(self.__testTaxPath, self.__taxonomyDataFile)
 
-                bp = BlastProcess(cifFilePath=cifFilePath, taxonomyFilePath=taxonomyFilePath, verbose=self.__verbose, log=self.__lfh)
+                bp = BlastProcess(
+                    cifFilePath=cifFilePath, taxonomyFilePath=taxonomyFilePath, verbose=self.__verbose, log=self.__lfh
+                )
 
                 ped = bp.getPolymerEntityDetails()
-                for (entityId, polyDetails) in ped.items():
+                for entityId, polyDetails in ped.items():
                     self.__lfh.write("\n----Entry %s  Entity Id = %s -------  \n" % (fn, entityId))
                     self.__lfh.write("one-letter-code = %s\n" % polyDetails["seq"])
                     self.__lfh.write("length          = %d\n" % len(polyDetails["seq"]))
@@ -182,9 +182,11 @@ class BlastProcessTests(unittest.TestCase):
             for fn in [self.__testFileCif, self.__testFileFragmentsCif]:
                 cifFilePath = os.path.join(self.__testModelPath, fn)
                 taxonomyFilePath = os.path.join(self.__testTaxPath, self.__taxonomyDataFile)
-                bp = BlastProcess(cifFilePath=cifFilePath, taxonomyFilePath=taxonomyFilePath, verbose=self.__verbose, log=self.__lfh)
+                bp = BlastProcess(
+                    cifFilePath=cifFilePath, taxonomyFilePath=taxonomyFilePath, verbose=self.__verbose, log=self.__lfh
+                )
                 ped = bp.getPolymerEntityDetails()
-                for (entityId, polyDetails) in ped.items():
+                for entityId, polyDetails in ped.items():
                     self.__lfh.write("\n----Entry %s  Entity Id = %s -------  \n" % (fn, entityId))
                     self.__lfh.write("one-letter-code = %s\n" % polyDetails["seq"])
                     self.__lfh.write("length          = %d\n" % len(polyDetails["seq"]))
@@ -200,9 +202,11 @@ class BlastProcessTests(unittest.TestCase):
             for fn in [self.__testFileCif, self.__testFileFragmentsCif]:
                 cifFilePath = os.path.join(self.__testModelPath, fn)
                 taxonomyFilePath = os.path.join(self.__testTaxPath, self.__taxonomyDataFile)
-                bp = BlastProcess(cifFilePath=cifFilePath, taxonomyFilePath=taxonomyFilePath, verbose=self.__verbose, log=self.__lfh)
+                bp = BlastProcess(
+                    cifFilePath=cifFilePath, taxonomyFilePath=taxonomyFilePath, verbose=self.__verbose, log=self.__lfh
+                )
                 ped = bp.getPolymerEntityDetails()
-                for (entityId, _polyDetails) in ped.items():
+                for entityId, _polyDetails in ped.items():  # noqa: PERF102
                     resultlist = bp.Run(entityId=entityId)
                     self.__lfh.write("\n----Entry %s  Entity Id = %s -------  \n" % (fn, entityId))
                     for ii, rL in enumerate(resultlist):
@@ -214,7 +218,7 @@ class BlastProcessTests(unittest.TestCase):
             self.fail()
 
     @patch("wwpdb.utils.seqdb_v2.BlastProcess.UnpBlastService", side_effect=MyUnpBlastService)
-    def testPolymerSearch1(self, mock1):  # pylint: disable=unused-argument
+    def testPolymerSearch1(self, mock1):  # noqa: ARG002 pylint: disable=unused-argument
         """"""
         sys.stderr.write("ABOUT TO SLEEP\n")
         self.__lfh.write("\nStarting BlastProcessTests testPolymerSearch1\n")
@@ -233,20 +237,24 @@ class BlastProcessTests(unittest.TestCase):
                 entryId, _fExt = os.path.splitext(fn)
                 cifFilePath = os.path.join(self.__testModelPath, fn)
                 taxonomyFilePath = os.path.join(self.__testTaxPath, self.__taxonomyDataFile)
-                bp = BlastProcess(cifFilePath=cifFilePath, taxonomyFilePath=taxonomyFilePath, verbose=self.__verbose, log=self.__lfh)
+                bp = BlastProcess(
+                    cifFilePath=cifFilePath, taxonomyFilePath=taxonomyFilePath, verbose=self.__verbose, log=self.__lfh
+                )
                 bp.saveBlastResults(blastPath=TESTOUTPUT, blastFileNamePrefix=entryId)
                 ped = bp.getPolymerEntityDetails()
-                for (entityId, _polyDetails) in ped.items():
+                for entityId, _polyDetails in ped.items():  # noqa: PERF102
                     ofn = os.path.join(TESTOUTPUT, entryId + "_seqdb-match_P" + str(entityId) + ".cif")
                     ok = bp.RunAndSave(entityId=entityId, fName=ofn)
-                    self.__lfh.write("\n----Entry %s  Entity Id = %s ofn = %s status = %r -------  \n" % (fn, entityId, ofn, ok))
+                    self.__lfh.write(
+                        "\n----Entry %s  Entity Id = %s ofn = %s status = %r -------  \n" % (fn, entityId, ofn, ok)
+                    )
 
         except:  # noqa: E722 pylint: disable=bare-except
             traceback.print_exc(file=self.__lfh)
             self.fail()
 
     @patch("wwpdb.utils.seqdb_v2.BlastProcess.UnpBlastService", side_effect=MyUnpBlastService)
-    def testPolymerSearchAndStore(self, mock1):  # pylint: disable=unused-argument
+    def testPolymerSearchAndStore(self, mock1):  # noqa: ARG002 pylint: disable=unused-argument
         """"""
         self.__lfh.write("\nStarting BlastProcessTests testPolymerSearchAndStore\n")
 
@@ -264,7 +272,6 @@ def suiteSearchTests():  # pragma: no cover
     suiteSelect.addTest(BlastProcessTests("testGetPolymerEntityDetailsFragments"))
     suiteSelect.addTest(BlastProcessTests("testPolymerSearch1"))
     suiteSelect.addTest(BlastProcessTests("testPolymerSearchAndStore"))
-    #
     return suiteSelect
 
 
@@ -274,4 +281,3 @@ if __name__ == "__main__":  # pragma: no cover
     #
     mySuite = suiteSearchTests()
     unittest.TextTestRunner(verbosity=2).run(mySuite)
-    #

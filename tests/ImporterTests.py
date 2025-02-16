@@ -19,6 +19,7 @@ import wwpdb.utils.seqdb_v2.FastaUtil  # noqa: F401 pylint: disable=unused-impor
 import wwpdb.utils.seqdb_v2.FetchNcbiXml  # noqa: F401 pylint: disable=unused-import
 import wwpdb.utils.seqdb_v2.FetchUniProtEntry  # noqa: F401 pylint: disable=unused-import
 import wwpdb.utils.seqdb_v2.FetchUnpXml  # noqa: F401 pylint: disable=unused-import
+import wwpdb.utils.seqdb_v2.mmCIFUtil  # noqa: F401 pylint: disable=unused-import
 import wwpdb.utils.seqdb_v2.NcbiBlastService  # noqa: F401 pylint: disable=unused-import
 import wwpdb.utils.seqdb_v2.ReadNcbiBlastXml  # noqa: F401 pylint: disable=unused-import
 import wwpdb.utils.seqdb_v2.ReadNcbiSummary  # noqa: F401 pylint: disable=unused-import
@@ -26,7 +27,6 @@ import wwpdb.utils.seqdb_v2.ReadNcbiXml  # noqa: F401 pylint: disable=unused-imp
 import wwpdb.utils.seqdb_v2.ReadUnpBlastXml  # noqa: F401 pylint: disable=unused-import
 import wwpdb.utils.seqdb_v2.ReadUnpXml  # noqa: F401 pylint: disable=unused-import
 import wwpdb.utils.seqdb_v2.UnpBlastService  # noqa: F401 pylint: disable=unused-import
-import wwpdb.utils.seqdb_v2.mmCIFUtil  # noqa: F401 pylint: disable=unused-import
 
 
 class ImportTests(unittest.TestCase):
@@ -35,4 +35,4 @@ class ImportTests(unittest.TestCase):
 
     def testInstantiate(self):
         """Tests simple instantiation"""
-        pass  # pylint: disable=unnecessary-pass
+        # pylint: disable=unnecessary-pass

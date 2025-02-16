@@ -15,13 +15,14 @@ __author__ = "Zukang Feng"
 __email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
-import sys
-import requests
 import getopt
+import sys
+
+import requests
 import urllib3
 
-from wwpdb.utils.seqdb_v2.ReadNcbiXml import ReadNcbiXmlString
 from wwpdb.utils.seqdb_v2.ReadNcbiSummary import ReadNcbiSummaryString
+from wwpdb.utils.seqdb_v2.ReadNcbiXml import ReadNcbiXmlString
 
 # To disable warning about not checking ssl certificates. Still needed?
 urllib3.disable_warnings()
@@ -47,15 +48,13 @@ class FetchNcbiXml:
         params["retmode"] = "xml"
         if self._apikey:
             params["api_key"] = self._apikey
-        #
         try:
-            reqH = requests.get(self._baseUrl, params=params, verify=False, timeout=30)
+            reqH = requests.get(self._baseUrl, params=params, verify=False, timeout=30)  # noqa: S501
             reqH.raise_for_status()
             data = reqH.text
             return data
         except:  # noqa: E722 pylint: disable=bare-except
             return ""
-        #
 
     def WriteNcbiXml(self, filename):
         try:
@@ -90,15 +89,13 @@ class FetchFullNcbiXml:
         params["retmode"] = "xml"
         if self._apikey:
             params["api_key"] = self._apikey
-        #
         try:
-            reqH = requests.get(self._baseUrl, params=params, verify=False, timeout=30)
+            reqH = requests.get(self._baseUrl, params=params, verify=False, timeout=30)  # noqa: S501
             reqH.raise_for_status()
             data = reqH.text
             return data
         except:  # noqa: E722 pylint: disable=bare-except
             return ""
-        #
 
     def WriteNcbiXml(self, filename):
         file = open(filename, "w")
@@ -130,14 +127,14 @@ def main(argv):  # pragma: no cover
         # fetchobj = FetchFullNcbiXml(tid, db, apikey)
         fetchobj.WriteNcbiXml(tid + ".xml")
         pdict = fetchobj.ParseNcbiXmlData()
-        for (k, v) in pdict.items():
-            print("%s=%s" % (k, v))
+        for k, v in pdict.items():
+            print("%s=%s" % (k, v))  # noqa: T201
 
 
 if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception as exc:
-        print(exc)
+    except Exception as exc:  # noqa: BLE001
+        print(exc)  # noqa: T201
         sys.exit(1)

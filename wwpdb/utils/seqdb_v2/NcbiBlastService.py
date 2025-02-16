@@ -10,12 +10,13 @@ __author__ = "Zukang Feng"
 __email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
+import getopt
+import logging
 import re
 import sys
 import time
-import getopt
+
 import requests
-import logging
 
 # To disable warning about not checking ssl certificates. Still needed?
 import urllib3
@@ -63,7 +64,7 @@ class NcbiBlastService:
         """Submit job"""
         # Get the data for the options
         try:
-            reqH = requests.post(self._baseUrl, data=params, verify=False, timeout=30)
+            reqH = requests.post(self._baseUrl, data=params, verify=False, timeout=30)  # noqa: S501
             reqH.raise_for_status()
             return_data = reqH.text
             return return_data
@@ -71,7 +72,8 @@ class NcbiBlastService:
             logger.exception("Submission error=%s params=%s", str(exc), params)
             return ""
 
-    def _GetJobId(self, data):
+    @staticmethod
+    def _GetJobId(data):
         """parse return html file and search for
            <!--QBlastInfoBegin
                RID = X8SRH0TH012
@@ -123,7 +125,8 @@ class NcbiBlastService:
         return_data = self._serviceSubmit(params)
         return self._GetJobStatus(return_data)
 
-    def _GetJobStatus(self, data):
+    @staticmethod
+    def _GetJobStatus(data):
         """parse return html file and search for
             QBlastInfoBegin
                     Status=READY
@@ -151,7 +154,7 @@ def main(argv):  # pragma: no cover
     filename = None
     for opt, arg in opts:
         if opt in ("-s", "--sequence"):
-            fh = open(arg, "r")
+            fh = open(arg)
             sequence = fh.read()
             fh.close()
         elif opt in ("-o", "--outfile"):
@@ -168,6 +171,6 @@ if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception as _exc:
-        print(_exc)
+    except Exception as _exc:  # noqa: BLE001
+        print(_exc)  # noqa: T201
         sys.exit(1)

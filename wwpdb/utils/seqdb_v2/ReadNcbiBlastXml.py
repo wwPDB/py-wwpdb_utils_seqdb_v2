@@ -10,9 +10,10 @@ __author__ = "Zukang Feng"
 __email__ = "zfeng@rcsb.rutgers.edu"
 __version__ = "V0.001"
 
-from xml.dom import minidom
-import sys
 import getopt
+import sys
+from xml.dom import minidom  # noqa: S408
+
 from wwpdb.utils.seqdb_v2.FetchNcbiXml import FetchNcbiXml
 
 
@@ -98,7 +99,7 @@ class ReadNcbiBlastXml:
                 hlist = self._ProcessHit_hspsTag(node.childNodes, length)
                 if hlist:
                     for li in hlist:
-                        alignlist.append(li)
+                        alignlist.append(li)  # noqa: S408,PERF402
 
         if not gi or not alignlist:
             return resultlist
@@ -119,7 +120,7 @@ class ReadNcbiBlastXml:
 
             # add genbank sequence information
             if pdict:
-                for (k, v) in pdict.items():
+                for k, v in pdict.items():
                     if k not in align:
                         align[k] = v
 
@@ -127,7 +128,8 @@ class ReadNcbiBlastXml:
 
         return resultlist
 
-    def _parseID(self, data):
+    @staticmethod
+    def _parseID(data):
         # Parses NCBI fasta descriptor. Ignore PDB references
         gi = ""
         dlist = data.split("|")
@@ -148,7 +150,8 @@ class ReadNcbiBlastXml:
                 resultlist.append(rdict)
         return resultlist
 
-    def _GetMatchAlignment(self, nodelist, length):
+    @staticmethod
+    def _GetMatchAlignment(nodelist, length):
         rdict = {}
         for node in nodelist:
             if node.nodeType != node.ELEMENT_NODE:
@@ -196,7 +199,7 @@ class ReadNcbiBlastXmlFile(ReadNcbiBlastXml):
 
     def __init__(self, fileName):
         self._fileName = fileName
-        self._doc = minidom.parse(self._fileName)
+        self._doc = minidom.parse(self._fileName)  # noqa: S318
         ReadNcbiBlastXml.__init__(self, self._doc)
 
 
@@ -205,7 +208,7 @@ class ReadNcbiBlastXmlString(ReadNcbiBlastXml):
 
     def __init__(self, data):
         self._data = data
-        self._doc = minidom.parseString(self._data)
+        self._doc = minidom.parseString(self._data)  # noqa: S318
         ReadNcbiBlastXml.__init__(self, self._doc)
 
 
@@ -216,15 +219,15 @@ def main(argv):  # pragma: no cover
             obj = ReadNcbiBlastXmlFile(arg)
             result = obj.GetResult()
             for align in result:
-                for (k, v) in align.items():
-                    print("%s=%s" % (k, v))
-                print("\n")
+                for k, v in align.items():
+                    print("%s=%s" % (k, v))  # noqa: T201
+                print("\n")  # noqa: T201
 
 
 if __name__ == "__main__":  # pragma: no cover
     try:
         main(sys.argv[1:])
         sys.exit(0)
-    except Exception as exc:
-        print(exc)
+    except Exception as exc:  # noqa: BLE001
+        print(exc)  # noqa: T201
         sys.exit(1)
